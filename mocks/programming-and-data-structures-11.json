@@ -1,0 +1,839 @@
+{
+  "paper_id": "programming-and-data-structures-11",
+  "paper": "Programming and Data Structures: Topic Mock 11",
+  "kind": "topic_mock",
+  "topic": "Programming and Data Structures",
+  "set": 11,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "1996-Q12",
+      "source_id": 1101512,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements:<br><br>\r\n(i). First-in-first out types of computations are efficiently supported by STACKS. <br>\r\n(ii). Implementing LISTS on linked lists is more efficient than implementing LISTS on an array for almost all the basic LIST operations.<br>\r\n(iii). Implementing QUEUES on a circular array is more efficient than implementing QUEUES on a linear array with two indices.<br>\r\n(iv). Last-in-first-out type of computations are efficiently supported by QUEUES.\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(ii) and (iii) are true",
+        "B": "(i) and (ii) are true",
+        "C": "(iii) and (iv) are true",
+        "D": "(ii) and (iv) are true"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Queue",
+      "explanation": "<a href=\"https://gateoverflow.in/2716/gate1996-1-12\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 12
+    },
+    {
+      "id": "1996-Q14",
+      "source_id": 1101514,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the balanced binary tree in the below figure, how many nodes will become unbalanced when a node is inserted as a child of the node g?<br><img src=\"/wp-content/uploads/GATE/CS/19961/q1.14.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19961/q1.14.jpg"
+      ],
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "7",
+        "D": "8"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "AVL Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/2718/gate1996-1-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 14
+    },
+    {
+      "id": "2000-Q2",
+      "source_id": 1101902,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "An [latex]n \\times n[/latex] array [latex]v[/latex] is defined as follows:<br>\r\n[latex]v\\left[i,j\\right] = i - j[/latex] for all [latex]i, j, i \\leq n, 1 \\leq j \\leq n[/latex]<br>\r\nThe sum of the elements of the array [latex]v[/latex] is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "n-1",
+        "C": "[latex]n^2 - 3n +2[/latex]",
+        "D": "[latex]n^2 \\frac{\\left(n+1\\right)}{2}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array",
+      "explanation": "<a href=\"https://gateoverflow.in/625/gate2000-1-2\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 2
+    },
+    {
+      "id": "2000-Q12",
+      "source_id": 1101912,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The most appropriate matching for the following pairs is: <br><br>[latex]\\begin{array}{|ll|ll|}\\hline X: & \\text{m = malloc(5); m = NULL;} & 1: & \\text{using dangling pointers} \\\\\\hline Y: & \\text{free(n); n -> value = 5;} & 2: & \\text{using uninitialized pointers} \\\\\\hline Z: & \\text{char *p , *p = 'a' ; } & 3: & \\text{lost memory} \\\\\\hline \\end{array}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "X-1  Y-3  Z-2",
+        "B": "X-2  Y-1  Z-3",
+        "C": "X-3  Y-2  Z-1",
+        "D": "X-3  Y-1  Z-2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array and Pointer",
+      "explanation": "<a href=\"https://gateoverflow.in/635/gate2000-1-12\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 12
+    },
+    {
+      "id": "1997-Q4",
+      "source_id": 1101604,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The concatenation of two lists is to be performed on O(1) time. Which of the following implementations of a list should be used?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Singly linked list",
+        "B": "Doubly linked list",
+        "C": "Circular doubly linked list",
+        "D": "Array implementation of list"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Link List",
+      "explanation": "<a href=\"https://gateoverflow.in/2220/gate1997-1-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 4
+    },
+    {
+      "id": "2024-S2-Q23",
+      "source_id": 1124223,
+      "number": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following C function definition.<pre><code>\nint fX(char *a){ \nchar *b = a; \nwhile(*b)\nb++;\nreturn b - a;}</code></pre>\nWhich of the following statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The function call fX(\"abcd\") will always return a value",
+        "B": "Assuming a character array c is declared as char c[] = \"abcd\" in main(), the function call fX(c)will always return a value",
+        "C": "The code of the function will not compile",
+        "D": "Assuming a character pointer c is declared as char *c = \"abcd\" in main(), the function call fX(c)will always return a value"
+      },
+      "correct": [
+        "A",
+        "B",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array and Pointer",
+      "explanation": "fX moves pointer [latex]b[/latex] until it reaches '\\0' and returns [latex]b-a[/latex], i.e. the <b>string length</b>.<br><br>\n- fX(\"abcd\"): string literal is null terminated [latex]\\rightarrow[/latex] returns 4.<br>\n- char c[] = \"abcd\": array of 5 chars including '\\0' [latex]\\rightarrow[/latex] returns 4.<br>\n- char *c = \"abcd\": points to a null-terminated literal [latex]\\rightarrow[/latex] returns 4.<br>\n- The code is valid C (pointer difference converted to int) [latex]\\text{---}[/latex] it compiles.<br><br>\n<b>Answer: Options 1, 2 and 4</b><br><br><a href=\"https://gateoverflow.in/422874/gate-cse-2024-set-2-question-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 23
+    },
+    {
+      "id": "2006-Q10",
+      "source_id": 1106110,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a binary max heap containing n numbers, the smallest element can be found in time",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta (n)[/latex]",
+        "B": "[latex]\\Theta (logn)[/latex]",
+        "C": "[latex]\\Theta (log logn)[/latex]",
+        "D": "[latex]\\Theta (1)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/889/gate2006-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 10
+    },
+    {
+      "id": "1998-Q24",
+      "source_id": 1101724,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is false?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " A tree with a n nodes has (n- 1) edges",
+        "B": " A labeled rooted binary tree can be uniquely constructed given its postorder and preorder traversal results.",
+        "C": " A complete binary tree with n internal nodes has (n + 1) leaves.",
+        "D": " The maximum number of nodes in a binary tree of height h is [latex]2^{h+1} - 1[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1661/gate1998-1-24\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 24
+    },
+    {
+      "id": "2014-S3-Q12",
+      "source_id": 1114312,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following rooted tree with the vertex labelled P as the root <br><img src=\"/wp-content/uploads/GATE/CS/20143/q12.jpg\"/><br> The order in which the nodes are visited during an in-order traversal of the tree is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20143/q12.jpg"
+      ],
+      "options": {
+        "A": "SQPTRWUV",
+        "B": "SQPTUWRV",
+        "C": "SQPTWUVR",
+        "D": "SQPTRUWV"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "n-ary Tree",
+      "explanation": "In-order for a general tree: in-order of the first child, then the node, then in-order of the remaining children.<br><br>\n- P: (Q-subtree) P (R-subtree)<br>\n- Q-subtree: S Q<br>\n- R-subtree: T R (U-subtree) V, with U-subtree = W U<br><br>\nOrder: S Q P T R W U V<br><br>\n<b>Answer: SQPTRWUV</b><br><br><a href=\"https://gateoverflow.in/2046/gate2014-3-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 12
+    },
+    {
+      "id": "2021-S2-Q23",
+      "source_id": 1121223,
+      "number": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following ANSI C function:<pre><code>int SomeFunction (int x, int y)\n{\n    if ((x==1) || (y==1)) return 1;\n    if (x==y) return x;\n    if (x > y) return SomeFunction(x-y, y);\n    if (y > x) return SomeFunction (x, y-x);\n \n} </code></pre>The value returned by SomeFunction(15, 255) is __________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        15.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "The function computes the GCD by repeated subtraction (and stops at 1 if either value hits 1).<br>\nSomeFunction(15, 255): 255 [latex]-[/latex] 15 repeatedly [latex]\\rightarrow[/latex] (15, 240) [latex]\\rightarrow[/latex] [latex]\\ldots[/latex] [latex]\\rightarrow[/latex] (15, 15) [latex]\\rightarrow[/latex] returns 15.<br><br>\ngcd(15, 255) = 15<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/357517/gate-cse-2021-set-2-question-23#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 23
+    },
+    {
+      "id": "1999-Q38",
+      "source_id": 1101838,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following program in a language that has dynamic scooping:<br>\n<pre><code>var x: real;\nprocedure show;\n    begin print(x);end;\nprocedure small;\n    var x: real;\n        begin x := 0.125; show; end;\nbegin x:=0.25\n    show; small\n    end. </code></pre>\nThen the output of the program is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0.125 0.125",
+        "B": "0.25 0.25",
+        "C": "0.25 0.125",
+        "D": "0.125 0.25"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/1491/gate1999-2-13\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 38
+    },
+    {
+      "id": "1996-Q41",
+      "source_id": 1101541,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following macros can put a macro assembler into an infinite loop?<br>I.<pre><code>.MACRO M1, X\n.IF EQ, X   ;if X=0 then\nM1 X + 1\n.ENDC\n.IF NE, X   ;if X &ne; 0 then\n.WORD X  ;address (X) is stored here\n.ENDC\n.ENDM</code></pre> <br> II.<pre><code>.MACRO M2, X\n.IF EQ, X\nM2 X\n.ENDC\n.IF NE, X\n.WORD X + 1\n.ENDC\n.ENDM </code></pre> ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "II only",
+        "B": "I only",
+        "C": "both I and II",
+        "D": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/2745/gate1996-2-16\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 41
+    },
+    {
+      "id": "2004-Q5",
+      "source_id": 1104105,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The best data structure to check whether an arithmetic expression has balanced parentheses is a",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "queue",
+        "B": "stack",
+        "C": "tree",
+        "D": "list"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack",
+      "explanation": "<a href=\"https://gateoverflow.in/1002/gate2004-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 5
+    },
+    {
+      "id": "2004-Q4",
+      "source_id": 1104104,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5,\n15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf\nnode from the root)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Search Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1001/gate2004-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 4
+    },
+    {
+      "id": "2015-S3-Q11",
+      "source_id": 1115311,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a binary tree T that has 200 leaf nodes. Then, the number of nodes in T that have exactly two children are ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        199.0,
+        199.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "In any binary tree, the number of nodes with two children = leaves [latex]-[/latex] 1.<br><br>\n200 [latex]-[/latex] 1 = 199<br><br>\n<b>Answer: 199</b><br><br><a href=\"https://gateoverflow.in/8428/gate2015-3-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 11
+    },
+    {
+      "id": "2025-S1-Q51",
+      "source_id": 1125151,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "<pre><code>#include &lt;stdio.h&gt;  \nint foo(int S[],int size){  \n    if(size == 0) return 0;  \n    if(size == 1) return 1;  \n    if(S[0] != S[1]) return 1+foo(S+1,size-1);  \n    return foo(S+1,size-1);  \n}  \nint main(){  \n    int A[]={0,1,2,2,2,0,0,1,1};  \n    printf(\"%d\",foo(A,9));  \n    return 0;  \n}  \n</code></pre>  \n\nThe value printed by the given C program is _________. (Answer in integer).",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "Trace the recursion on [latex]A=[0,1,2,2,2,0,0,1,1][/latex] (comparing each element to its immediate neighbor, adding [latex]1[/latex] whenever they differ):<br><br>\n[latex]\\begin{array}{l}foo([0,1,\\ldots])=1+foo([1,2,\\ldots])\\quad(0\\ne1)\\\\foo([1,2,\\ldots])=1+foo([2,2,\\ldots])\\quad(1\\ne2)\\\\foo([2,2,2,0,\\ldots])=foo([2,2,0,\\ldots])\\quad(2=2)\\\\foo([2,2,0,\\ldots])=foo([2,0,0,\\ldots])\\quad(2=2)\\\\foo([2,0,0,1,1])=1+foo([0,0,1,1])\\quad(2\\ne0)\\\\foo([0,0,1,1])=foo([0,1,1])\\quad(0=0)\\\\foo([0,1,1])=1+foo([1,1])\\quad(0\\ne1)\\\\foo([1,1])=foo([1])\\quad(1=1)\\\\foo([1])=1\\quad(\\text{base case, size}=1)\\end{array}[/latex]<br><br>\nUnwinding: [latex]foo([1,1])=1[/latex], [latex]foo([0,1,1])=1+1=2[/latex], [latex]foo([0,0,1,1])=2[/latex], [latex]foo([2,0,0,1,1])=1+2=3[/latex], [latex]foo([2,2,0,\\ldots])=3[/latex], [latex]foo([2,2,2,\\ldots])=3[/latex], [latex]foo([1,2,\\ldots])=1+3=4[/latex], [latex]foo([0,1,\\ldots])=1+4=5[/latex].<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/460029/gate-cse-2025-set-1-question-51#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 51
+    },
+    {
+      "id": "2006-Q76",
+      "source_id": 1106176,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A 3-ary max heap is like a binary max heap, but instead of 2 children, nodes have 3 children. A 3-ary heap can be represented by an array as follows: The root is stored in the first location, a[0], nodes in the next level, from left to right, is stored from a[1] to a[3]. The nodes from the second level of the tree from left to right are stored from a[4] location onward. An item x can be inserted into a 3-ary heap containing n items by placing x in the location a[n] and pushing it up the tree to satisfy the heap property. <br><br> Which one of the following is a valid sequence of elements in an array representing 3-ary max heap?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1, 3, 5, 6, 8, 9",
+        "B": "9, 6, 3, 1, 8, 5",
+        "C": "9, 3, 6, 8, 5, 1",
+        "D": "9, 5, 6, 8, 3, 1"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1852/gate2006-76#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 76
+    },
+    {
+      "id": "2011-Q49",
+      "source_id": 1111149,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following recursive C function that takes two arguments  <pre><code> unsigned int foo(unsigned int n, unsigned int r) {\n  if (n  > 0) return (n%r +  foo (n/r, r ));\n  else return 0;\n}</code></pre>What is the return value of the function foo when it is called as foo (513, 2)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "5",
+        "D": "2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "foo(n, 2) adds the binary digits, i.e. counts the 1 bits.<br><br>\n513 = 512 + 1 = 1000000001 (binary) [latex]\\rightarrow[/latex] 2 ones<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/43324/gate2011-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 49
+    },
+    {
+      "id": "2014-S3-Q40",
+      "source_id": 1114340,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a hash table with 100 slots. Collisions are resolved using chaining. Assuming\nsimple uniform hashing, what is the probability that the first 3 slots are unfilled after the first 3 insertions?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(97 x 97 x 97)/[latex]100^{3}[/latex]",
+        "B": "(99 x 98 x 97)/[latex]100^{3}[/latex]",
+        "C": "(97 x 96 x 95)/[latex]100^{3}[/latex]",
+        "D": "(97 x 96 x 95)/(3! x [latex]100^{3}[/latex])"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Hashing",
+      "explanation": "With chaining, each key independently goes to any of the 100 slots. The chance it avoids the first 3 slots is 97/100.<br><br>\nFor 3 insertions: [latex]\\frac{97\\times97\\times97}{100^3}[/latex]<br><br>\n<b>Answer: (97 [latex]\\times[/latex] 97 [latex]\\times[/latex] 97) / [latex]100^3[/latex]</b><br><br><a href=\"https://gateoverflow.in/2074/gate2014-3-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 40
+    },
+    {
+      "id": "2018-Q45",
+      "source_id": 1118145,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following program written in pseudo-code. Assume that x and y are integers. <pre><code>\nCount(x,y) {\n     if (y != 1){\n        if (x != 1) {\n                  print(\"*\");\n                  Count(x/2, y);\n                  }\n            else {\n                     y = y-1;\n                    Count(1024, y);\n                  }\n      }\n} </code></pre>\nThe number of times that the print statement is executed by the call\nCount(1024,1024) is _____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        10230.0,
+        10230.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "For each value of y from 1024 down to 2, x is halved from 1024 to 1, printing once per halving: 10 stars. Then y decreases by 1 and x resets to 1024. When y = 1 the recursion stops.<br><br>\nStars = 10 [latex]\\times[/latex] 1023 = 10230<br><br>\n<b>Answer: 10230</b><br><br><a href=\"https://gateoverflow.in/204120/gate2018-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 45
+    },
+    {
+      "id": "2005-Q35",
+      "source_id": 1105135,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "How many distinct binary search trees can be created out of 4 distinct keys?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "5",
+        "B": "14",
+        "C": "24",
+        "D": "42"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Search Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1371/gate2005-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 35
+    },
+    {
+      "id": "2017-S2-Q54",
+      "source_id": 1117254,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following C program.\n<pre><code> #include &lt;stdio.h&gt;\nint main ( ) {\n    int m = 10;\n    int n, n1;\n    n = ++m;\n    n1 = m++;\n    n--;\n    --n1;\n    n-=n1;\nprintf (\"%d\", n) ;\nreturn 0;\n}</code></pre>\nThe output of the program is ______________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.0,
+        0.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Arithmetic Operation",
+      "explanation": "Checking each statement:<br>- n = ++m: m = 11, n = 11<br>\n- n1 = m++: n1 = 11, m = 12<br>\n- n-- [latex]\\rightarrow[/latex] 10, --n1 [latex]\\rightarrow[/latex] 10<br>\n- n -= n1 [latex]\\rightarrow[/latex] 0<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/118272/gate2017-2-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 54
+    },
+    {
+      "id": "2019-Q46",
+      "source_id": 1119146,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let T be a full binary tree with 8 leaves. (A full binary tree has every level full.) Suppose two leaves a and b of T are chosen uniformly and independently at random. The expected value of the distance between a and b in T (i.e., the number of edges in the unique path between a and b) is (rounded off to 2 decimal places) ___________ . ",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.25,
+        4.25
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "8 leaves, height 3. Fix leaf a; b is uniform over the 8 leaves (b can equal a):<br>\n- same leaf: distance 0 (1 leaf)<br>\n- sibling: distance 2 (1 leaf)<br>\n- same subtree of height 2: distance 4 (2 leaves)<br>\n- other half: distance 6 (4 leaves)<br><br>\n[latex]E=\\frac{0+2+2\\times4+4\\times6}{8}=\\frac{34}{8}=4.25[/latex]<br><br>\n<b>Answer: 4.25</b><br><br><a href=\"https://gateoverflow.in/302802/gate2019-cs-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 46
+    },
+    {
+      "id": "2009-Q44",
+      "source_id": 1109144,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The following key values are inserted into a B+  tree in which order of the internal nodes is 3, and that of the leaf nodes is 2, in the sequence given below. The order of internal nodes is the maximum number of tree pointers in each node, and the order of leaf nodes is the maximum number of data items that can be stored in it. The B+ - tree is initially empty. <br><br>\r\n10, 3, 6, 8, 4, 2, 1 <br><br>\r\nThe maximum number of times leaf nodes would get split up as a result of these insertions is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "B plus Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1330/gate2009-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 44
+    },
+    {
+      "id": "2025-S2-Q35",
+      "source_id": 1125235,
+      "number": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a stack data structure into which we can PUSH and POP records. Assume that each record pushed in the stack has a positive integer key and that all keys are distinct.  <br>\nWe wish to augment the stack data structure with an [latex]O(1) [/latex] time MIN operation that returns a pointer to the record with the smallest key present in the stack  <br><br>\n1) without deleting the corresponding record, and  <br>\n2) without increasing the complexities of the standard stack operations.  <br><br>\nWhich one or more of the following approach(es) can achieve it?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Keep with every record in the stack, a pointer to the record with the smallest key below it.",
+        "B": "Keep a pointer to the record with the smallest key in the stack.",
+        "C": "Keep an auxiliary array in which the key values of the records in the stack are maintained in sorted order.",
+        "D": "Keep a Min-Heap in which the key values of the records in the stack are maintained."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack",
+      "explanation": "We need [latex]O(1)[/latex] MIN, without slowing down PUSH/POP.<br><br>\n<b>Approach: store, alongside every pushed record, a pointer to whichever record currently holds the smallest key <i>at or below</i> it in the stack (computed once, at push time, by comparing the new key to the previous top's \"min so far\" pointer).</b> Pushing just does one comparison and one pointer copy ([latex]O(1)[/latex]); popping just removes the top record (its stored min-pointer disappears with it, automatically restoring the correct min for what's now on top) ([latex]O(1)[/latex]); MIN just reads the top record's stored pointer ([latex]O(1)[/latex]). This works and keeps everything [latex]O(1)[/latex].<br><br>\nA single global pointer to the current minimum fails on POP: if you pop exactly the minimum record, you have no way to find the next-smallest without scanning the rest of the stack. A sorted auxiliary array would need [latex]O(n)[/latex] shifting on push to keep it sorted. A min-heap would make push/pop cost [latex]O(\\log n)[/latex] instead of [latex]O(1)[/latex], violating the \"don't slow down the standard operations\" requirement.<br><br>\n<b>Answer: Keep, with every record, a pointer to the record with the smallest key below it.</b><br><br><a href=\"https://gateoverflow.in/460800/gate-cse-2025-set-2-question-35#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 35
+    },
+    {
+      "id": "2004-Q36",
+      "source_id": 1104136,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A circularly linked list is used to represent a Queue. A single variable p is used to access the Queue.\nTo which node should p point such that both the operations enQueue and deQueue can be performed\nin constant time? <br><img src=\"/wp-content/uploads/GATE/CS/20041/q36.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q36.jpg"
+      ],
+      "options": {
+        "A": "rear node",
+        "B": "not possible with a single pointer",
+        "C": "front node",
+        "D": "node next to front"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Link List",
+      "explanation": "<a href=\"https://gateoverflow.in/1033/gate2004-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 36
+    },
+    {
+      "id": "2004-Q37",
+      "source_id": 1104137,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The elements 32, 15, 20, 30, 12, 25, 16, are inserted one by one in the given order into a MaxHeap.\nThe resultant MaxHeap is <br><img src=\"/wp-content/uploads/GATE/CS/20041/q37.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q37.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1034/gate2004-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 37
+    },
+    {
+      "id": "2014-S3-Q42",
+      "source_id": 1114342,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the C function given below. Assume that the array listA contains n (> 0) elements,\nsorted in ascending order.\n<pre><code>int ProcessArray(int *listA, int x, int n)\n{\n   int i, j, k;\n   i = 0;\n   j = n-1;\n   do {\n          k = (i+j)/2;\n          if (x <= listA[k])\n               j = k-1;\n          if (listA[k] <= x)\n              i = k+1;\n       }while (i <= j);\nif (listA[k] == x)\n     return(k);\nelse\n    return -1;\n} </code></pre>\nWhich one of the following statements about the function ProcessArray is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "It will run into an infinite loop when x is not in listA",
+        "B": "It is an implementation of binary search",
+        "C": "It will always find the maximum element in listA.",
+        "D": "It will return ? 1 even when x is present in listA."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array and Pointer",
+      "explanation": "k is the middle of [i, j]. If x [latex]\\lt[/latex] A[k] search the left half; if x [latex]\\gt[/latex] A[k] search the right half; if equal both updates make i [latex]\\gt[/latex] j and the loop stops with A[k] = x.<br><br>\nThis is binary search: it returns k when found and [latex]-[/latex]1 otherwise, and always terminates.<br><br>\n<b>Answer: It is an implementation of binary search</b><br><br><a href=\"https://gateoverflow.in/2076/gate2014-3-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 42
+    },
+    {
+      "id": "2006-Q56",
+      "source_id": 1106156,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following code written in a pass-by reference language like FORTAN\nand these statements about the code.\n<pre><code>subroutine swap(ix,iy)\n     it = ix\nL1 : ix = iy\nL2 : iy = it\nend\n  ia = 3\n  ib = 8\n  call swap (ia, ib+5)\n  print *, ia, ib\nend </code></pre>\nS1: The complier will generate code to allocate a temporary nameless cell,\ninitialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2  <br> S4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement (s) is correct:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1 and S2",
+        "B": "S1 and S4",
+        "C": "S3",
+        "D": "S1 and S5"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 56
+    },
+    {
+      "id": "2005-Q61",
+      "source_id": 1105161,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider line number 3 of the following C-program. <pre><code>\nint main ( ) { /* Line 1 */\nint I, N; /* Line 2 */\nfro (I =0, I &lt; N, I++); /* Line 3 */\n}</code></pre>\nIdentify the compiler's response about this line while creating the object-module:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "No compilation error",
+        "B": "Only a lexical error",
+        "C": "Only syntactic errors",
+        "D": "Both lexical and syntactic errors"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Loop",
+      "explanation": "<a href=\"https://gateoverflow.in/4066/gate2005-61#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 61
+    }
+  ]
+}

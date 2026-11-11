@@ -1,0 +1,842 @@
+{
+  "paper_id": "discrete-mathematics-02",
+  "paper": "Discrete Mathematics: Topic Mock 2",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 2,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "1998-Q8",
+      "source_id": 1101708,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of functions from an m element set to an n element set is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "m + n",
+        "B": "[latex]m^n[/latex]",
+        "C": "[latex]n^m[/latex]",
+        "D": "m*n"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/1645/gate1998-1-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 8
+    },
+    {
+      "id": "1995-Q18",
+      "source_id": 1101418,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The probability that a number selected at random between 100 and 999 (both inclusive) will not contain the digit 7 is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\dfrac{16}{25}[/latex]",
+        "B": "[latex]\\left(\\dfrac{9}{10}\\right)^{3}[/latex]",
+        "C": "[latex]\\dfrac{27}{75}[/latex]",
+        "D": "[latex]\\dfrac{18}{25}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/780/gate1995-1-18\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 18
+    },
+    {
+      "id": "2023-Q5",
+      "source_id": 1123105,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The Lucas sequence [latex] L_n [/latex] is defined by the recurrence relation: <br> [latex] L_n=L_{n-1}+L_{n-2}, \\; for \\; n\\geq 3, [/latex]<br> with [latex] L_1=1 \\; and \\; L_2=3 [/latex] <br>Which one of the options given is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n [/latex]",
+        "B": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n - \\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n [/latex]",
+        "C": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n [/latex]",
+        "D": "[latex] L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n- \\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Recurrence",
+      "explanation": "Let [latex]\\varphi=\\frac{1+\\sqrt5}{2}[/latex] and [latex]\\psi=\\frac{1-\\sqrt5}{2}[/latex]. They satisfy [latex]x^2=x+1[/latex], [latex]\\varphi+\\psi=1[/latex], [latex]\\varphi\\psi=-1[/latex].<br><br>\nCheck [latex]L_n=\\varphi^n+\\psi^n[/latex]:<br>\n- [latex]L_1=\\varphi+\\psi=1[/latex] True<br>\n- [latex]L_2=(\\varphi+\\psi)^2-2\\varphi\\psi=1+2=3[/latex] True<br>\n- It satisfies [latex]L_n=L_{n-1}+L_{n-2}[/latex] because both [latex]\\varphi,\\psi[/latex] satisfy [latex]x^2=x+1[/latex].<br><br>\n<b>Answer: [latex]L_n=\\left(\\frac{1+\\sqrt5}{2}\\right)^n+\\left(\\frac{1-\\sqrt5}{2}\\right)^n[/latex]</b><br><br><a href=\"https://gateoverflow.in/399307/gate-cse-2023-question-5#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 5
+    },
+    {
+      "id": "2002-Q25",
+      "source_id": 1102125,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Maximum number of edges in a n-node undirected graph without self loops is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]{n}^{2}[/latex]",
+        "B": "[latex]\\frac{n(n-1)}{2}[/latex]",
+        "C": "(n-1)",
+        "D": "[latex]\\frac{(n+1)(n)}{2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 25
+    },
+    {
+      "id": "1998-Q39",
+      "source_id": 1101739,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a room containing 28 people, there are 18 people who speak English, 15, people who speak Hindi and 22 people who speak Kannada. 9 persons speak both English and Hindi, 11 persons speak both Hindi and Kannada whereas 13 persons speak both Kannada and English. How many speak all three languages?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "7",
+        "D": "6"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1676/gate1998-2-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 39
+    },
+    {
+      "id": "2020-Q17",
+      "source_id": 1120117,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]R[/latex] be the set of all binary relations on the set {1,2,3}. Suppose a relation is chosen from [latex]R[/latex] at random. The probability that the chosen relation is reflexive (round off to 3 decimal places) is ______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.125,
+        0.125
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "A relation on a 3-element set is any subset of the [latex]3\\times3=9[/latex] pairs [latex]\\rightarrow[/latex] [latex]2^9[/latex] relations.<br>\nReflexive: the 3 pairs (a, a) must be included; the other 6 are free [latex]\\rightarrow[/latex] [latex]2^6[/latex].<br><br>\n[latex]P=\\frac{2^6}{2^9}=\\frac18=0.125[/latex]<br><br>\n<b>Answer: 0.125</b><br><br><a href=\"https://gateoverflow.in/333214/gate2020-cs-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 17
+    },
+    {
+      "id": "2003-Q4",
+      "source_id": 1103104,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A be a sequence of 8 distinct integers sorted in ascending order. How many distinct pairs of sequences, B and C are there such that <br>(i) each is sorted in ascending order, <br>(ii) B has 5 and C has 3 elements, and <br>(iii) the result of merging B and C gives A?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "30",
+        "C": "56",
+        "D": "256"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/895/gate2003-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 4
+    },
+    {
+      "id": "2013-Q24",
+      "source_id": 1113124,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider an undirected random graph of eight vertices. The probability that there is an edge\nbetween a pair of vertices is 1/2. What is the expected number of unordered cycles of length three?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]1/8[/latex]",
+        "B": "1",
+        "C": "7",
+        "D": "8"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Each set of 3 vertices forms a triangle with probability [latex](1/2)^3=1/8[/latex].<br><br>\nExpected triangles = [latex]\\binom83\\times\\frac18=\\frac{56}{8}=7[/latex]<br><br>\n<b>Answer: 7</b><br><br><a href=\"https://gateoverflow.in/1535/gate2013-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 24
+    },
+    {
+      "id": "2010-Q3",
+      "source_id": 1110103,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the possible number of reflexive relations on a set of 5 elements?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]2^{10}[/latex]",
+        "B": "[latex]2^{15}[/latex]",
+        "C": "[latex]2^{20}[/latex]",
+        "D": "[latex]2^{25}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "A reflexive relation must contain all 5 pairs (a, a). Each of the other [latex]n^2-n=20[/latex] pairs may or may not be included.<br><br>\nNumber = [latex]2^{20}[/latex]<br><br>\n<b>Answer: [latex]2^{20}[/latex]</b><br><br><a href=\"https://gateoverflow.in/1149/gate2010-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 3
+    },
+    {
+      "id": "1998-Q1",
+      "source_id": 1101701,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A die is rolled three times. The probability that exactly one odd number turns up among the three outcomes is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\dfrac{1}{6}[/latex]",
+        "B": "[latex]\\dfrac{3}{8}[/latex]",
+        "C": "[latex]\\dfrac{1}{8}[/latex]",
+        "D": "[latex]\\dfrac{1}{2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1638/gate1998-1-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 1
+    },
+    {
+      "id": "2001-Q28",
+      "source_id": 1101128,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]f:A\\rightarrow B[/latex]  be a function, and let E and F be subsets of A. Consider the following statements about images. <br> [latex]S1: f (E \\cup F) = f (E) \\cup f (F)[/latex]\n<br> [latex]S2: f (E \\cap F) = f (E) \\cap f (F)[/latex]\n <br> Which of the following is true about S1 and S2?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S1 is correct",
+        "B": "Only S2 is correct",
+        "C": "Both S1 and S2 are correct",
+        "D": "None of S1 and S2 is correct"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/721/gate2001-2-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 28
+    },
+    {
+      "id": "2025-S2-Q5",
+      "source_id": 1125205,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]P(x) [/latex] be an arbitrary predicate over the domain of natural numbers. Which ONE of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](P(0) \\land (\\forall x [P(x) \\Rightarrow P(x+1)])) \\Rightarrow (\\forall x P(x)) [/latex]",
+        "B": "[latex](P(0) \\land (\\forall x [P(x) \\Rightarrow P(x-1)])) \\Rightarrow (\\forall x P(x)) [/latex]",
+        "C": "[latex](P(1000) \\land (\\forall x [P(x) \\Rightarrow P(x-1)])) \\Rightarrow (\\forall x P(x)) [/latex]",
+        "D": "[latex](P(1000) \\land (\\forall x [P(x) \\Rightarrow P(x+1)])) \\Rightarrow (\\forall x P(x)) [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "This is exactly the statement of the <b>principle of mathematical induction</b>: if a predicate [latex]P[/latex] holds for the base case [latex]0[/latex], and truth of [latex]P(x)[/latex] always guarantees truth of [latex]P(x+1)[/latex] (the inductive step, moving <i>forward</i>), then [latex]P[/latex] holds for every natural number.<br><br>\nThe other options either use a backward step ([latex]P(x)\\Rightarrow P(x-1)[/latex], which can't reach numbers larger than the base case) or start from a base case like [latex]1000[/latex] (which, even with a valid forward or backward step, can never establish [latex]P[/latex] for numbers below [latex]1000[/latex] using only a one-directional step) &mdash; none of these actually guarantee [latex]P[/latex] for <i>every</i> natural number.<br><br>\n<b>Answer: (P(0) &and; (&forall;x[P(x)&rArr;P(x+1)])) &rArr; (&forall;x P(x))</b><br><br><a href=\"https://gateoverflow.in/460830/gate-cse-2025-set-2-question-5#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 5
+    },
+    {
+      "id": "2021-S2-Q22",
+      "source_id": 1121222,
+      "number": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "For a given biased coin, the probability that the outcome of a toss is a head is 0.4. This coin is tossed 1,000 times. Let X denote the random variable whose value is the number of times that head appeared in these 1,000 tosses. The standard deviation of X (rounded to 2 decimal place) is ________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        16.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "X is binomial with n = 1000, p = 0.4.<br>\n[latex]\\sigma=\\sqrt{np(1-p)}=\\sqrt{1000\\times0.4\\times0.6}=\\sqrt{240}\\approx15.49[/latex]<br><br>\n<b>Answer: 15.49</b><br><br><a href=\"https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 22
+    },
+    {
+      "id": "2014-S3-Q1",
+      "source_id": 1114301,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements:<br>\nP: Good mobile phones are not cheap <br>\nQ: Cheap mobile phones are not good <br> <br>\nL: P implies Q <br>\nM: Q implies P <br>\nN: P is equivalent to Q <br>\nWhich one of the following about L, M, and N is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only L is TRUE.",
+        "B": "Only M is TRUE.",
+        "C": "Only N is TRUE.",
+        "D": "L, M and N are TRUE."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Let G = good, C = cheap.<br>\n- P: [latex]G\\rightarrow\\neg C[/latex]<br>\n- Q: [latex]C\\rightarrow\\neg G[/latex]<br><br>\nQ is the contrapositive of P, so P [latex]\\equiv[/latex] Q. Hence P implies Q, Q implies P, and P is equivalent to Q.<br><br>\n<b>Answer: L, M and N are TRUE</b><br><br><a href=\"https://gateoverflow.in/2035/gate2014-3-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 1
+    },
+    {
+      "id": "1999-Q28",
+      "source_id": 1101828,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let L be a set with a relation R which is transitive, anti-symmetric and reflexive and for any two elements  [latex]a, b \\in L[/latex], let the least upper bound [latex]lub (a, b)[/latex] and the greatest lower bound [latex]glb (a, b)[/latex] exist. Which of the following is/are true?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "L is a poset",
+        "B": "L is a Boolean algebra",
+        "C": "L is a lattice",
+        "D": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1481/gate1999-2-3\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 28
+    },
+    {
+      "id": "2005-Q46",
+      "source_id": 1105146,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the set H of all 3 x 3 matrices of the type <br> [latex]\\begin{bmatrix} a & f & e\\\\ 0 & b & d\\\\ 0&0 & c \\end{bmatrix}[/latex]<br> where a,b,c,d,e and f are real numbers and abc[latex]\\neq[/latex]0. Under the matrix multiplication operation, the set H is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a group",
+        "B": "a monoid but not a group",
+        "C": "a semi group but not a monoid",
+        "D": "neither a group nor a semi group"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1171/gate2005-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 46
+    },
+    {
+      "id": "2012-Q37",
+      "source_id": 1112137,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": " How many onto (or surjective) functions are there from an n-element ( [latex]n \\geq 2[/latex] ) set to a 2-element set?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]2^{n}[/latex]",
+        "B": "[latex]2^{n}-1[/latex]",
+        "C": "[latex]2^{n}-2[/latex]",
+        "D": "[latex]2(2^{n}-2)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "All functions to {a, b}: [latex]2^n[/latex]. Remove the 2 constant functions (all to a, all to b), which are not onto.<br><br>\n<b>Answer: [latex]2^n-2[/latex]</b><br><br><a href=\"https://gateoverflow.in/1759/gate2012-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 37
+    },
+    {
+      "id": "2014-S1-Q48",
+      "source_id": 1114148,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Four fair six-sided dice are rolled. The probability that the sum of the results being 22 is [latex]\\frac{X}{1296}[/latex]. The value of X is _________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        10.0,
+        10.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Let each die show 6 [latex]-[/latex] [latex]d_i[/latex]. Sum 22 means [latex]d_1+d_2+d_3+d_4=2[/latex] with [latex]d_i\\ge0[/latex]: [latex]\\binom{2+3}{3}=10[/latex] ways.<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/1927/gate2014-1-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 48
+    },
+    {
+      "id": "2014-S3-Q53",
+      "source_id": 1114353,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The CORECT formula for the sentence, \"not all rainy days are cold\" is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall d(Rainy(d)\\wedge \\sim Cold(d))[/latex]",
+        "B": "[latex]\\forall d(\\sim Rainy(d)\\rightarrow  Cold(d))[/latex]",
+        "C": "[latex]\\exists d(\\sim Rainy(d) \\rightarrow  Cold(d))[/latex]",
+        "D": "[latex]\\exists d(Rainy(d)\\wedge \\sim Cold(d))[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "\"Not all rainy days are cold\" = there is a rainy day that is not cold.<br><br>\n[latex]\\neg\\forall d(Rainy(d)\\rightarrow Cold(d))\\equiv\\exists d(Rainy(d)\\wedge\\sim Cold(d))[/latex]<br><br>\n<b>Answer: [latex]\\exists d(Rainy(d)\\wedge\\sim Cold(d))[/latex]</b><br><br><a href=\"https://gateoverflow.in/2087/gate2014-3-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 53
+    },
+    {
+      "id": "2004-Q70",
+      "source_id": 1104170,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The following propositional statement is [latex](P\\rightarrow (Q\\vee R))\\rightarrow ((P\\vee Q)\\rightarrow R)[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "satisfiable but not valid",
+        "B": "valid",
+        "C": "a contradiction",
+        "D": "none of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/1064/gate2004-70#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 70
+    },
+    {
+      "id": "2012-Q33",
+      "source_id": 1112133,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose a fair six-sided die is rolled once. If the value on the die is 1, 2, or 3, the die is rolled a\nsecond time. What is the probability that the sum total of values that turn up is at least 6?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]10/20[/latex]",
+        "B": "[latex]5/12[/latex]",
+        "C": "[latex]2/3[/latex]",
+        "D": "[latex]1/6[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Checking each statement:<br>- First roll 4 or 5: no second roll, sum [latex]\\lt[/latex] 6. First roll 6: success, probability 1/6.<br>\n- First 1: need second [latex]\\ge[/latex] 5 (2/6); first 2: [latex]\\ge[/latex] 4 (3/6); first 3: [latex]\\ge[/latex] 3 (4/6).<br><br>\n[latex]P=\\frac16+\\frac16\\cdot\\frac{2+3+4}{6}=\\frac{6}{36}+\\frac{9}{36}=\\frac{15}{36}=\\frac{5}{12}[/latex]<br><br>\n<b>Answer: 5/12</b><br><br><a href=\"https://gateoverflow.in/1751/gate2012-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 33
+    },
+    {
+      "id": "2014-S1-Q52",
+      "source_id": 1114152,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An ordered n-tuple ([latex]d_{1}, d_{2} ,... , d_{n}[/latex]) with [latex]d_{1}\\geq d_{2} \\geq ... \\geq d_{n}[/latex] is called graphic if there exists a simple undirected graph with n vertices having degrees [latex]d_{1}, d_{2} ,... , d_{n}[/latex] respectively. Which of the following 6-tuples is NOT graphic?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(1, 1, 1, 1, 1, 1)",
+        "B": "(2, 2, 2, 2, 2, 2)",
+        "C": "(3, 3, 3, 1, 0, 0)",
+        "D": "(3, 2, 1, 1, 1, 0)"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "(3, 3, 3, 1, 0, 0): ignore the two isolated vertices, leaving 4 vertices with degrees 3, 3, 3, 1. Each degree-3 vertex must connect to all three others, so the fourth vertex would have degree 3, not 1. Not graphic.<br><br>\nThe others are graphic (e.g. three disjoint edges, a 6-cycle, a small tree).<br><br>\n<b>Answer: (3, 3, 3, 1, 0, 0)</b><br><br><a href=\"https://gateoverflow.in/1932/gate2014-1-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 52
+    },
+    {
+      "id": "2004-Q81",
+      "source_id": 1104181,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let G1=(V, E1) and G2=(V, E2) be connected graphs on the same vertex set V with more than two vertices. If G1[latex]\\cap[/latex]G2 = (V, E1[latex]\\cap[/latex]E2) is not a connected graph, then the graph G1[latex]\\cup[/latex]G2 = (V, E1[latex]\\cup[/latex]E2)",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "cannot have a cut vertex",
+        "B": "must have a cycle",
+        "C": "must have a cut-edge (bridge)",
+        "D": "has chromatic number strictly greater than those of G1 and G2"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1075/gate2004-81#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 81
+    },
+    {
+      "id": "2005-Q51",
+      "source_id": 1105151,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Box P has 2 red balls and 3 blue balls and box Q has 3 balls and 1 blue ball. A ball is selected as\nfollows: (i) select a box (ii) choose a ball from the selected box such that each ball in the box is\nequally likely to be chosen. The probabilities of selecting boxes P and Q are 1/3 and 2/3 respectively.\nGiven that a ball selected in the above process is a red ball, the probability that it came from the box\nP is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]4/19[/latex]",
+        "B": "[latex]5/19[/latex]",
+        "C": "[latex]2/9[/latex]",
+        "D": "[latex]19/30[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1176/gate2005-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 51
+    },
+    {
+      "id": "2003-Q34",
+      "source_id": 1103134,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "m identical balls are to be placed in n distinct bags. You are given that m [latex]\\geq[/latex]kn,\nwhere k is a natural number [latex]\\geq[/latex]1. In how many ways can the balls be placed in\nthe bags if each bag must contain at least k balls? <br><img src=\"/wp-content/uploads/GATE/CS/20031/q34.jpg\"/>  ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q34.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/924/gate2003-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 34
+    },
+    {
+      "id": "2006-Q50",
+      "source_id": 1106150,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A set X can be represented by an array x[n] as follows <br> [latex]x[i]=\\left\\{\\begin{matrix} 1 &if  i\\in X \\\\ 0&  otherwise \\end{matrix}\\right.[/latex] <br> Consider the following algorithm in which x,y and z are boolean arrays of size n;\r\n<pre><code>algorithm zzz(x[] , y[], z [])\r\n{\r\n   int i;\r\n   for (i=O; i < n; ++i)\r\n         z[i] = (x[i] ^ ~y[i]) V (~x[i] ^ y[i])\r\n}</pre></code>\r\nThe set Z computed by the algorithm is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](X\\cap Y)[/latex]",
+        "B": "[latex](X\\cup Y)[/latex]",
+        "C": "[latex](X-Y)\\cap(Y-X)[/latex]",
+        "D": "[latex](X-Y)\\cup(Y-X)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1828/gate2006-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 50
+    },
+    {
+      "id": "2021-S2-Q46",
+      "source_id": 1121246,
+      "number": 27,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following directed graph:<br><img src=\"/wp-content/uploads/GATE/CS/20212/q46.jpg\" /><br>\nWhich of the following is/are correct about the graph?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q46.jpg"
+      ],
+      "options": {
+        "A": "The graph does not have a topological order",
+        "B": "A depth-first traversal starting at vertex S classifies three directed edges as back edges",
+        "C": "The graph does not have a strongly connected component",
+        "D": "For each pair of vertices u and v, there is a directed path from u to v"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Following the arrows, the graph has three directed cycles:<br>\n- around the top-middle square (between the top two rows),<br>\n- around the bottom-left square through S,<br>\n- around the bottom-right square.<br><br>\n- A cycle means there is no topological order [latex]\\text{---}[/latex] TRUE.<br>\n- A DFS from S reaches every vertex, and each of these three cycles produces exactly one back edge [latex]\\rightarrow[/latex] 3 back edges [latex]\\text{---}[/latex] TRUE.<br>\n- Every graph has strongly connected components (at least single vertices) [latex]\\text{---}[/latex] FALSE.<br>\n- Not every pair is mutually reachable (e.g. nothing returns from the top-right corner) [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: Options 1 and 2</b><br><br><a href=\"https://gateoverflow.in/357494/gate-cse-2021-set-2-question-46#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 46
+    },
+    {
+      "id": "2015-S1-Q32",
+      "source_id": 1115132,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose L={p,q,r,s,t} is a lattice represented by the following Hasse diagram:<br><img src=\"/wp-content/uploads/GATE/CS/20151/q32.jpg\"/><br> For any [latex]x,y\\in L[/latex] not necessarily distinct, [latex]x\\vee y[/latex] and [latex]x\\wedge y[/latex] are join and meet of x,y respectively. Let [latex]L^{3}=\\{(x,y,z):x,y,z\\in L\\}[/latex] be the set of all ordered triplets of the elements of L. Let [latex]P_{r} [/latex] be the probability that an element [latex](x,y,z)\\in L^{3}[/latex] chosen equiprobably satisfies [latex]x\\vee (y \\wedge z)=(x\\vee y)\\wedge (x\\vee z)[/latex] . Then",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20151/q32.jpg"
+      ],
+      "options": {
+        "A": "[latex]P_{r} [/latex]=0",
+        "B": "[latex]P_{r} [/latex]=1",
+        "C": "[latex]0 \\lt P_{r} \\leq \\frac{1}{5}[/latex]",
+        "D": "[latex]\\frac{1}{5} \\lt P_{r} \\lt 1[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Lattice",
+      "explanation": "The lattice has bottom p, top t, and q, r, s incomparable in the middle (the diamond [latex]M_3[/latex]). It is not distributive.<br><br>\n- Fails for x, y, z = three different middle elements, e.g. [latex]q\\vee(r\\wedge s)=q\\vee p=q[/latex] but [latex](q\\vee r)\\wedge(q\\vee s)=t\\wedge t=t[/latex]. There are 3! = 6 such triples.<br>\n- It holds for all other triples.<br><br>\n[latex]P_r=\\frac{125-6}{125}=\\frac{119}{125}[/latex], which lies between 1/5 and 1.<br><br>\n<b>Answer: [latex]\\frac15\\lt P_r\\lt1[/latex]</b><br><br><a href=\"https://gateoverflow.in/8281/gate2015-1-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 32
+    },
+    {
+      "id": "2021-S1-Q54",
+      "source_id": 1121154,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A sender (S) transmits a signal, which can be one of the two kinds: H and L with probabilities 0.1 and 0.9 respectively, to a receiver (R)<br>\nIn the graph below, the weight of edge [latex](u,v)[/latex] is the probability of receiving [latex]v[/latex] when [latex]u[/latex] is transmitted, where [latex]u,v\\in\\{H,L\\}[/latex]. For example, the probability that the received signal is [latex]L[/latex] given the transmitted signal was [latex]H[/latex], is 0.7.\n<br><img src=\"/wp-content/uploads/GATE/CS/20211/q54.jpg\" /><br>\nIf the received signal is [latex]H[/latex], the probability that the transmitted signal was [latex]H[/latex] (rounded to 2 decimal places) is __________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20211/q54.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.04,
+        0.04
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "From the graph: P(recv H | sent H) = 0.3 and P(recv H | sent L) = 0.8.<br><br>\nP(recv H) = 0.1 [latex]\\times[/latex] 0.3 + 0.9 [latex]\\times[/latex] 0.8 = 0.03 + 0.72 = 0.75<br><br>\nBayes: [latex]P(\\text{sent H}\\mid\\text{recv H})=\\frac{0.03}{0.75}=0.04[/latex]<br><br>\n<b>Answer: 0.04</b><br><br><a href=\"https://gateoverflow.in/357396/gate-cse-2021-set-1-question-54#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 54
+    },
+    {
+      "id": "2015-S1-Q34",
+      "source_id": 1115134,
+      "number": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let G be a connected planar graph with 10 vertices. If the number of edges on each face is three, then the number of edges in G is ___________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        24.0,
+        24.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Each face has 3 edges and each edge lies on 2 faces: 3f = 2e.<br><br>\nEuler: [latex]v-e+f=2\\Rightarrow10-e+\\frac{2e}{3}=2\\Rightarrow e=24[/latex]<br><br>\n<b>Answer: 24</b><br><br><a href=\"https://gateoverflow.in/8364/gate2015-1-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 34
+    }
+  ]
+}

@@ -1,0 +1,853 @@
+{
+  "paper_id": "compiler-design-05",
+  "paper": "Compiler Design: Topic Mock 5",
+  "kind": "topic_mock",
+  "topic": "Compiler Design",
+  "set": 5,
+  "duration_min": 90,
+  "total_marks": 43,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "1992-Q21",
+      "source_id": 1100921,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Mention the pass number for each of the following activities that occur in a two pass assembler:\n<br><br>A. object code generation\n<br>B. literals added to literal table\n<br>C. listing printed\n<br>D. address resolution of local symbols",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2 1 2 1",
+        "B": "1 1 1 2",
+        "C": "1 2 2 2 ",
+        "D": "1 2 1 2 "
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "<a href=\"https://gateoverflow.in/579/gate1992-03-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1992",
+      "source_number": 21
+    },
+    {
+      "id": "2019-Q19",
+      "source_id": 1119119,
+      "number": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following given grammar:\n<pre><code> \nS -> Aa\nA -> BD\nB -> b| &epsilon;\nD -> d| &epsilon; </pre></code> Let a, b, d and $ be indexed as follows:   <br><img src=\"/wp-content/uploads/GATE/CS/20191/q19.jpg\" /><br>Compute the FOLLOW set of the non-terminal B and write the index values for the symbols in the FOLLOW set in the descending order. (For example, if the FOLLOW set is {a, b, d, $}, then the answer should be 3210). <br> Answer:_____",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20191/q19.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        31.0,
+        31.0
+      ],
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "A [latex]\\rightarrow[/latex] BD, so B is followed by D: FOLLOW(B) gets FIRST(D) [latex]-[/latex] {[latex]\\epsilon[/latex]} = {d}.<br>\nD can be [latex]\\epsilon[/latex], so FOLLOW(B) also gets FOLLOW(A) = {a} (from S [latex]\\rightarrow[/latex] Aa).<br><br>\nFOLLOW(B) = {a, d}. Indices: a = 3, d = 1 [latex]\\rightarrow[/latex] in descending order: 31.<br><br>\n<b>Answer: 31</b><br><br><a href=\"https://gateoverflow.in/302829/gate2019-cs-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 19
+    },
+    {
+      "id": "2006-Q7",
+      "source_id": 1106107,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following grammar. <br>\nS [latex]\\rightarrow[/latex] S * E <br>\nS [latex]\\rightarrow[/latex] E <br>\nE [latex]\\rightarrow[/latex] F + E <br>\nE [latex]\\rightarrow[/latex] F   <br>                                                                                                F F [latex]\\rightarrow[/latex] id <br>\nConsider the following LR(0) items corresponding to the grammar above. <br>\n(i) S [latex]\\rightarrow[/latex] S * .E<br>\n(ii) E [latex]\\rightarrow[/latex] F. + E<br>\n(iii) E [latex]\\rightarrow[/latex] F + .E<br>\nGiven the items above, which two of them will appear in the same set in the\ncanonical sets-of-items for the grammar?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) and (ii)",
+        "B": "(ii) and (iii)",
+        "C": "(i) and (iii)",
+        "D": "None of these"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/886/gate2006-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 7
+    },
+    {
+      "id": "2016-S2-Q19",
+      "source_id": 1116219,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Match thefollowing:\n<br><img src=\"/wp-content/uploads/GATE/CS/20162/q19.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20162/q19.jpg"
+      ],
+      "options": {
+        "A": "P[latex]\\leftrightarrow[/latex]i, Q [latex]\\leftrightarrow[/latex] ii, R[latex]\\leftrightarrow[/latex] iv,S[latex]\\leftrightarrow[/latex] iii",
+        "B": "P[latex]\\leftrightarrow[/latex] iii, Q[latex]\\leftrightarrow[/latex]i, R[latex]\\leftrightarrow[/latex] ii, S[latex]\\leftrightarrow[/latex] iv",
+        "C": "P[latex]\\leftrightarrow[/latex] ii, Q[latex]\\leftrightarrow[/latex] iii, R[latex]\\leftrightarrow[/latex] i, S[latex]\\leftrightarrow[/latex] iv",
+        "D": "P[latex]\\leftrightarrow[/latex] iv,Q[latex]\\leftrightarrow[/latex] i, R[latex]\\leftrightarrow[/latex] ii, S[latex]\\leftrightarrow[/latex] iii"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "Checking each statement:<br>- P. Lexical analysis [latex]\\rightarrow[/latex] (iii) regular expressions (token patterns)<br>\n- Q. Top-down parsing [latex]\\rightarrow[/latex] (i) leftmost derivation<br>\n- R. Semantic analysis [latex]\\rightarrow[/latex] (ii) type checking<br>\n- S. Runtime environments [latex]\\rightarrow[/latex] (iv) activation records<br><br>\n<b>Answer: P-iii, Q-i, R-ii, S-iv</b><br><br><a href=\"https://gateoverflow.in/39548/gate2016-2-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 19
+    },
+    {
+      "id": "1998-Q28",
+      "source_id": 1101728,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A linker reads four modules whose lengths are 200, 800, 600 and 500 words, respectively. If they are loaded in that order, what are the relocation constants?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]0, 200, 500, 600[/latex]",
+        "B": "[latex]0, 200, 1000, 1600[/latex]",
+        "C": "[latex]200, 500, 600, 800[/latex]",
+        "D": "[latex]200, 700, 1300, 2100[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/1665/gate1998-1-28\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 28
+    },
+    {
+      "id": "2026-S2-Q9",
+      "source_id": 1126209,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following three ANSI-C programs, [latex]\\text{P1, P2,}[/latex] and [latex]\\text{P3}[/latex].<br><br> [latex] \\begin{array}{|l|l|l|} \\hline \\quad\\quad\\quad \\textbf{P1} & \\quad\\quad\\quad \\textbf{P2} & \\quad\\quad\\quad \\textbf{P3} \\\\ \\hline \\text{\\#include < stdio.h >} & \\text{\\#include < stdio.h >} & \\text{\\#include < stdio.h >} \\\\ \\begin{array}{l} \\text{int a=5;} \\\\ \\text{int main()\\{} \\\\ \\quad \\text{int a=7;} \\\\ \\quad \\text{return(0);} \\end{array} & \\begin{array}{l} \\text{int main()\\{} \\\\ \\quad \\text{int a=5;} \\\\ \\quad \\text{int a=7;} \\\\ \\quad \\text{return(0);} \\end{array} & \\begin{array}{l} \\text{int main()\\{} \\\\ \\quad \\text{int a=5;} \\\\ \\quad \\text{float a=7;} \\\\ \\quad \\text{return(0);} \\end{array} \\\\ {\\text{\\}}} & {\\text{\\}}} & {\\text{\\}}} \\\\ \\hline \\end{array} [/latex] <br><br>Which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only [latex]\\text{P1}[/latex] will compile without any error",
+        "B": "Only [latex]\\text{P2}[/latex] will compile without any error",
+        "C": "Only [latex]\\text{P3}[/latex] will compile without any error",
+        "D": "All three programs [latex]\\text{P1, P2,}[/latex] and [latex]\\text{P3}[/latex] will compile without any error"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Syntax-directed Translation",
+      "explanation": "<b>P1:</b> Global [latex]\\text{int a=5;}[/latex] and, inside [latex]\\text{main()}[/latex], a separate local [latex]\\text{int a=7;}[/latex]. This is perfectly legal C &mdash; the local declaration simply <b>shadows</b> the global one within [latex]\\text{main}[/latex]'s scope. <b>Compiles fine.</b><br><br>\n<b>P2:</b> [latex]\\text{int a=5;}[/latex] followed immediately by [latex]\\text{int a=7;}[/latex] in the <i>same</i> block/scope &mdash; this is an illegal <b>redeclaration</b> of the same identifier [latex]a[/latex] within one scope, which is a compile-time error.<br><br>\n<b>P3:</b> [latex]\\text{int a=5;}[/latex] followed by [latex]\\text{float a=7;}[/latex] &mdash; again redeclaring [latex]a[/latex] in the same scope, this time with a conflicting type, which is also a compile-time error.<br><br>\n<b>Answer: Only P1 will compile without any error.</b> <br><br> <a href=\"https://gateoverflow.in/523137/gate-cse-2026-set-2-question-9#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 9
+    },
+    {
+      "id": "1998-Q25",
+      "source_id": 1101725,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a resident-OS computer, which of the following systems must reside in the main memory under all situations?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Assembler",
+        "B": "Linker",
+        "C": "Loader",
+        "D": "Compiler"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/1662/gate1998-1-25-isro2008-41\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 25
+    },
+    {
+      "id": "2011-Q1",
+      "source_id": 1111101,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a compiler, keywords of a language are recognized during",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "parsing of the program",
+        "B": "the code generation",
+        "C": "the lexical analysis of the program",
+        "D": "dataflow analysis"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Lexical Analysis",
+      "explanation": "Keywords (if, while, int, ...) are tokens. The lexical analyzer recognises them while splitting the source into tokens.<br><br>\n<b>Answer: the lexical analysis of the program</b><br><br><a href=\"https://gateoverflow.in/2103/gate2011-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 1
+    },
+    {
+      "id": "2024-S2-Q19",
+      "source_id": 1124219,
+      "number": 9,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following statements is/are FALSE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic rules have no side effects",
+        "B": "The attributes in a L-attributed definition cannot always be evaluated in a depth- first order",
+        "C": "Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed",
+        "D": "All  L-attributed  definitions  based  on  LR(1)  grammar  can  be  evaluated  using  a bottom-up parsing strategy"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Syntax-directed Translation",
+      "explanation": "Checking each statement:<br>- An attribute grammar is an SDD whose semantic rules have no side effects [latex]\\text{---}[/latex] TRUE (definition).<br>\n- <b>\"L-attributed definitions cannot always be evaluated in depth-first order\"</b> [latex]\\text{---}[/latex] FALSE. Every L-attributed definition can be evaluated by a left-to-right depth-first traversal; that is why they are called L-attributed.<br>\n- Synthesized attributes can be evaluated by a bottom-up parser during reductions [latex]\\text{---}[/latex] TRUE.<br>\n- <b>\"All L-attributed definitions based on LR(1) grammars can be evaluated bottom-up\"</b> [latex]\\text{---}[/latex] FALSE. The marker non-terminal method is guaranteed only for L-attributed definitions on LL(1) grammars; adding markers can make an LR(1) grammar non-LR.<br><br>\n<b>Answer: Options 2 and 4</b><br><br><a href=\"https://gateoverflow.in/422878/gate-cse-2024-set-2-question-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 19
+    },
+    {
+      "id": "2004-Q10",
+      "source_id": 1104110,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the grammar rule  [latex]E \\rightarrow E1 - E2 [/latex] for arithmetic expressions. The code generated is targeted to a CPU having a single user register. The subtraction operation requires the first operand to be in the register. If E1 and E2 do not have nay-common sub-expression, in order to get the shortest possible code",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "E1 should be evaluated first",
+        "B": "E2 should be evaluated first",
+        "C": "Evaluation of E1 and E2 should necessarily be interleaved",
+        "D": "Order to evaluation of E1 and E2 is of no consequence"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/4069/gate2004-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 10
+    },
+    {
+      "id": "2015-S3-Q5",
+      "source_id": 1115305,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Among simple LR (SLR) , canonical LR, and look-ahead LR (LALR), which of the following pairs identify the method that is very easy to implement and the method that is the most powerful , in that order?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "SLR, LALR",
+        "B": "Canonical LR, LALR",
+        "C": "SLR, canonical LR",
+        "D": "LALR, canonical LR"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "SLR uses LR(0) items with FOLLOW sets, so it is the simplest. Canonical LR(1) has the most states and recognises the largest class of grammars (most powerful). LALR lies in between.<br><br>\n<b>Answer: SLR, canonical LR</b><br><br><a href=\"https://gateoverflow.in/8413/gate2015-3-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 5
+    },
+    {
+      "id": "1994-Q1",
+      "source_id": 1101301,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "FORTRAN implementation do not permit recursion because\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "they use static allocation for variables",
+        "B": "they use dynamic allocation for variables",
+        "C": "stacks are not available on all machines",
+        "D": "it is not possible to implement recursion on all machines"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/2437/gate1994-1-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1994",
+      "source_number": 1
+    },
+    {
+      "id": "2017-S2-Q5",
+      "source_id": 1117205,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Match the following according to input (from the left column) to the complier phase (in the\nright column) that processes it. <br><img src=\"/wp-content/uploads/GATE/CS/20172/q17.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20172/q17.jpg"
+      ],
+      "options": {
+        "A": "P-(ii),Q-(iii), R-(iv), S-(i)",
+        "B": "P-(ii),Q-(i), R-(iii), S-(iv)",
+        "C": "P-(iii),Q-(iv), R-(i), S-(ii)",
+        "D": "P-(i),Q-(iv), R-(ii), S-(iii)"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Matching",
+      "explanation": "Which phase takes each item as input:<br>\n- Syntax tree [latex]\\rightarrow[/latex] semantic analyzer (iii)<br>\n- Character stream [latex]\\rightarrow[/latex] lexical analyzer (iv)<br>\n- Intermediate representation [latex]\\rightarrow[/latex] code generator (i)<br>\n- Token stream [latex]\\rightarrow[/latex] syntax analyzer (ii)<br><br>\n<b>Answer: P-(iii), Q-(iv), R-(i), S-(ii)</b><br><br><a href=\"https://gateoverflow.in/118592/gate2017-2-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 5
+    },
+    {
+      "id": "1991-Q11",
+      "source_id": 1100811,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\n\nIndicate all the true statements from the following:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Recursive descent parsing cannot be used for grammar with left recursion.",
+        "B": "The intermediate form for representing expressions which is best suited for code optimization is the postfix form.",
+        "C": "A programming language not supporting either recursion or pointer type does not need the support of dynamic memory allocation.",
+        "D": "Although C does not support call-by-name parameter passing, the effect can be correctly simulated in C",
+        "E": "No feature of Pascal typing violates strong typing in Pascal."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "<a href=\"https://gateoverflow.in/524/gate1991-03-x\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1991",
+      "source_number": 11
+    },
+    {
+      "id": "2015-S1-Q8",
+      "source_id": 1115108,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is TRUE at any valid state in shift-reduce parsing?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Viable prefixes appear only at the bottom of the stack and not inside",
+        "B": "Viable prefixes appear only at the top of the stack and not inside",
+        "C": "The stack contains only a set of viable prefixes",
+        "D": "The stack never contains viable prefixes"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "In a valid shift-reduce parse, the stack content is always a viable prefix, i.e. a prefix of some right sentential form that does not go past the handle.<br><br>\n<b>Answer: The stack contains only a set of viable prefixes</b><br><br><a href=\"https://gateoverflow.in/8187/gate2015-1-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 8
+    },
+    {
+      "id": "1997-Q6",
+      "source_id": 1101606,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the following grammar<br>\r\n[latex]\\begin{aligned} X &::= X \\oplus Y \\mid Y \\\\ Y&::= Z * Y \\mid Z\\\\ Z&::= id \\end{aligned}[/latex]<br>\r\nWhich of the following is true?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "'[latex]\\oplus[/latex]' is left associative while '*' is right associative",
+        "B": "Both '[latex]\\oplus[/latex]' and '*' are left associative",
+        "C": "'[latex]\\oplus[/latex]' is right associative while '*' is left associative",
+        "D": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/2222/gate1997-1-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 6
+    },
+    {
+      "id": "2000-Q18",
+      "source_id": 1101918,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of tokens in the following C statement is<br>\n<pre><code> printf(\"i=%d, &i=%x\", i, &i);</pre></code> \n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "26",
+        "C": "10",
+        "D": "21"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Lexical Analysis",
+      "explanation": "<a href=\"https://gateoverflow.in/641/gate2000-1-18-isro2015-25\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 18
+    },
+    {
+      "id": "2014-S3-Q34",
+      "source_id": 1114334,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the basic block given below.<br>\na= b + c <br>\nc =a + d <br>\nd =b + c <br>\ne =d - b <br>\na =e + b <br>\nThe minimum number of nodes and edges present in the DAG representation of the above basic block respectively are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "6 and 6",
+        "B": "8 and 10",
+        "C": "9 and 12",
+        "D": "4 and 4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "Simplify using values:<br>\n- d = b + c, e = d [latex]-[/latex] b = c (the new c), a = e + b = c + b = d<br><br>\nSo e shares the node of c, and the last a shares the node of d.<br><br>\n- Leaves: b, c0, d0 (3 nodes)<br>\n- n1 = b + c0 (a), n2 = n1 + d0 (c, e), n3 = b + n2 (d, a) (3 nodes, 2 edges each)<br><br>\nNodes = 6, edges = 6<br><br>\n<b>Answer: 6 and 6</b><br><br><a href=\"https://gateoverflow.in/2068/gate2014-3-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 34
+    },
+    {
+      "id": "2006-Q85",
+      "source_id": 1106185,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The grammar <br><br> S[latex]\\rightarrow[/latex]AC|CB <br> C[latex]\\rightarrow[/latex]aCb|[latex]\\varepsilon[/latex]        <br>A[latex]\\rightarrow[/latex]aA|a      <br>B[latex]\\rightarrow[/latex]Bb|b <br><br> generates the language [latex]L=\\{a^{i}b^{j}|i\\neq j\\}[/latex] , what is the length of the derivation (number of steps starting from S) to generate the string [latex]a^{l}b^{m} [/latex] with [latex]l \\neq m[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "max(l,m)+2",
+        "B": "l+m+2",
+        "C": "l+m+3",
+        "D": "max(l,m)+3"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/79801/gate2006-85#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 85
+    },
+    {
+      "id": "2021-S2-Q30",
+      "source_id": 1121230,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following ANSI C code segment:<pre><code> z=x + 3 + y-> f1 + y-> f2;\nfor (i = 0; i < 200; i = i + 2) \n{\n    if (z > i) \n    {\n        p = p + x + 3;\n        q = q + y-> f1;\n    } else \n    {\n        p = p + y-> f2;\n        q = q + x + 3;\n    }\n}</pre></code>Assume that the variable y points to a struct (allocated on the heap) containing two fields f1 and f2, and the local variables x, y, z, p, q, and i are allotted registers. Common sub-expression elimination (CSE) optimization is applied on the code. The number of addition and the dereference operations (of the form  y -> f1 or y -> f2) in the optimized code, respectively, are:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "403  and 102",
+        "B": "203  and 2",
+        "C": "303  and 102",
+        "D": "303  and 2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "CSE computes x + 3, y[latex]\\rightarrow[/latex]f1 and y[latex]\\rightarrow[/latex]f2 <b>once</b> before the loop and reuses them.<br><br>\n- Before the loop: t = x + 3, then z = t + f1 + f2 [latex]\\rightarrow[/latex] 3 additions, 2 dereferences.<br>\n- Loop: 100 iterations (i = 0, 2, [latex]\\ldots[/latex], 198), each with i + 2, one addition to p and one to q [latex]\\rightarrow[/latex] 3 additions [latex]\\times[/latex] 100 = 300.<br><br>\nTotal: 303 additions, 2 dereferences.<br><br>\n<b>Answer: 303 and 2</b><br><br><a href=\"https://gateoverflow.in/357510/gate-cse-2021-set-2-question-30#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 30
+    },
+    {
+      "id": "2012-Q53",
+      "source_id": 1112153,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For the grammar below, a partial LL(1) parsing table is also presented along with the grammar. Entries that\nneed to be filled are indicated as E1, E2, and E3. [latex]\\varepsilon[/latex] is the empty string, $ indicates end of input, and, | separates alternate right hand sides of productions.<br>[latex]S\\rightarrow aAbB|bAaB|\\varepsilon[/latex]<br>  [latex]A\\rightarrow S[/latex] <br>[latex]B\\rightarrow S[/latex]  <br><img src=\"/wp-content/uploads/GATE/CS/20121/q52.jpg\"/> <br>The appropriate entries for E1, E2, and E3 are",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20121/q52.jpg"
+      ],
+      "options": {
+        "A": "E1: S[latex]\\rightarrow[/latex]aAbB, A[latex]\\rightarrow[/latex]S <br>\nE2: S[latex]\\rightarrow[/latex]bAaB, B[latex]\\rightarrow[/latex]S <br> \nE3: B[latex]\\rightarrow[/latex]S",
+        "B": "E1: S[latex]\\rightarrow[/latex] aAbB, S [latex]\\rightarrow \\varepsilon  [/latex]  <br>\nE2: S[latex]\\rightarrow[/latex] bAaB, S [latex]\\rightarrow \\varepsilon [/latex]  <br>\nE3: B[latex]\\rightarrow \\varepsilon[/latex]S",
+        "C": "E1: S [latex]\\rightarrow[/latex] aAbB, S [latex]\\rightarrow \\varepsilon[/latex]<br> \r\nE2: S [latex]\\rightarrow[/latex] bAaB, S [latex]\\rightarrow \\varepsilon[/latex] <br>\r\nE3: B [latex]\\rightarrow[/latex] S",
+        "D": "E1: A[latex]\\rightarrow[/latex]S, S [latex]\\rightarrow \\varepsilon[/latex]  <br>\nE2: B[latex]\\rightarrow[/latex]S, S [latex]\\rightarrow \\varepsilon[/latex]  <br>\nE3: B[latex]\\rightarrow[/latex]S"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "Checking each statement:<br>- E1 = M[S, a]: S [latex]\\rightarrow[/latex] aAbB (FIRST), and S [latex]\\rightarrow\\varepsilon[/latex] since a [latex]\\in[/latex] FOLLOW(S)<br>\n- E2 = M[S, b]: S [latex]\\rightarrow[/latex] bAaB, and S [latex]\\rightarrow\\varepsilon[/latex] since b [latex]\\in[/latex] FOLLOW(S)<br>\n- E3 = M[B, $]: B [latex]\\rightarrow[/latex] S, since S can be [latex]\\varepsilon[/latex] and $ [latex]\\in[/latex] FOLLOW(B)<br><br>\n<b>Answer: Option 3</b><br><br><a href=\"https://gateoverflow.in/43312/gate2012-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 53
+    },
+    {
+      "id": "2012-Q52",
+      "source_id": 1112152,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For the grammar below, a partial LL(1) parsing table is also presented along with the grammar. Entries that\nneed to be filled are indicated as E1, E2, and E3. [latex]\\varepsilon[/latex] is the empty string, $ indicates end of input, and, | separates alternate right hand sides of productions.<br>[latex]S\\rightarrow aAbB|bAaB|\\varepsilon[/latex]<br>  [latex]A\\rightarrow S[/latex] <br>[latex]B\\rightarrow S[/latex]  <br><img src=\"/wp-content/uploads/GATE/CS/20121/q52.jpg\"/> <br>The FIRST and FOLLOW sets for the non-terminals A and B are",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20121/q52.jpg"
+      ],
+      "options": {
+        "A": "FIRST(A) = {a, b, [latex]\\varepsilon[/latex]} = FIRST(B)<br>\nFOLLOW(A) = {a, b}<br>\nFOLLOW(B) = {a, b, $}",
+        "B": "FIRST(A) = {a, b, $}<br>\nFIRST(B) = {a, b, [latex]\\varepsilon[/latex]}<br>\nFOLLOW(A) = {a, b}<br>\nFOLLOW(B) = {$}",
+        "C": "FIRST(A) = {a, b, [latex]\\varepsilon[/latex]} = FIRST(B)<br>\nFOLLOW(A) = {a, b} <br>\nFOLLOW(B) = [latex]\\phi[/latex]",
+        "D": "FIRST(A) = {a, b} = FIRST(B) <br>\nFOLLOW(A) = {a, b} <br>\nFOLLOW(B) = {a, b}"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "Work out the sets:<br>- FIRST(S) = {a, b, [latex]\\varepsilon[/latex]}, and A [latex]\\rightarrow[/latex] S, B [latex]\\rightarrow[/latex] S, so FIRST(A) = FIRST(B) = {a, b, [latex]\\varepsilon[/latex]}<br>\n- In aAbB and bAaB, A is followed by b or a [latex]\\rightarrow[/latex] FOLLOW(A) = {a, b}<br>\n- B is at the end, so FOLLOW(B) = FOLLOW(S) = {$} [latex]\\cup[/latex] FOLLOW(A) [latex]\\cup[/latex] FOLLOW(B) = {a, b, $}<br><br>\n<b>Answer: Option 1</b><br><br><a href=\"https://gateoverflow.in/2181/gate2012-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 52
+    },
+    {
+      "id": "2024-S1-Q28",
+      "source_id": 1124128,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following grammar [latex]G [/latex], with [latex]S [/latex] as the start symbol. The grammar [latex]G [/latex] has three incomplete productions denoted by (1), (2), and (3).<br><br>\n[latex]\n\\begin{aligned}\n& S \\rightarrow d a T \\mid \\quad(1) \\\\\n& T \\rightarrow a S|b T|(2) \\\\\n& R \\rightarrow \\text { (3) } \\mid \\epsilon\n\\end{aligned}\n [/latex]\n<br><br>\nThe set of terminals is [latex]\\{a, b, c, d, f\\} [/latex]. The FIRST and FOLLOW sets of the different non-terminals are as follows.<br><br>\n[latex]\n\\begin{aligned}\n& \\operatorname{FIRST}(S)=\\{c, d, f\\}, \\operatorname{FIRST}(T)=\\{a, b, \\epsilon\\}, \\operatorname{FIRST}(R)=\\{c, \\epsilon\\} \\\\\n& \\operatorname{FOLLOW}(S)=\\operatorname{FOLLOW}(T)=\\{c, f, \\$\\}, \\operatorname{FOLLOW}(R)=\\{f\\}\n\\end{aligned}\n [/latex]\n<br><br>\nWhich one of the following options CORRECTLY fills in the incomplete productions?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(1) [latex]S \\rightarrow R f [/latex]\n(2) [latex]T \\rightarrow \\epsilon [/latex]\n(3) [latex]R \\rightarrow c T R [/latex]",
+        "B": "(1) [latex]S \\rightarrow f R [/latex]\n(2) [latex]T \\rightarrow \\epsilon [/latex]\n(3) [latex]R \\rightarrow c T R [/latex]",
+        "C": "(1) [latex]S \\rightarrow f R [/latex]\n(2) [latex]T \\rightarrow c T [/latex]\n(3) [latex]R \\rightarrow c R [/latex]",
+        "D": "(1) [latex]S \\rightarrow R f [/latex]\n(2) [latex]T \\rightarrow c T [/latex]\n(3) [latex]R \\rightarrow c R [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "Use the given FIRST and FOLLOW sets:<br>- [latex]FIRST(S)=\\{c,d,f\\}[/latex] but [latex]daT[/latex] gives only d, so (1) must give c and f. [latex]S\\rightarrow Rf[/latex] gives [latex](FIRST(R)-\\epsilon)\\cup\\{f\\}=\\{c,f\\}[/latex] True ([latex]S\\rightarrow fR[/latex] gives only f).<br>\n- [latex]\\epsilon\\in FIRST(T)[/latex], so (2) is [latex]T\\rightarrow\\epsilon[/latex].<br>\n- [latex]FIRST(R)=\\{c,\\epsilon\\}[/latex], so (3) starts with c.<br><br>\nCheck FOLLOW with [latex]R\\rightarrow cTR[/latex]: [latex]FOLLOW(T)\\supseteq FIRST(R)-\\epsilon=\\{c\\}[/latex] and [latex]FOLLOW(R)=\\{f\\}[/latex] (from [latex]S\\rightarrow Rf[/latex]); together with $ this gives [latex]FOLLOW(S)=FOLLOW(T)=\\{c,f,\\$\\}[/latex] True. With [latex]R\\rightarrow cR[/latex], c could never follow T.<br><br>\n<b>Answer: (1) [latex]S\\rightarrow Rf[/latex] (2) [latex]T\\rightarrow\\epsilon[/latex] (3) [latex]R\\rightarrow cTR[/latex]</b><br><br><a href=\"https://gateoverflow.in/422814/gate-cse-2024-set-1-question-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 28
+    },
+    {
+      "id": "2011-Q27",
+      "source_id": 1111127,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider two binary operators  '[latex]\\uparrow[/latex]\n'and '[latex]\\downarrow[/latex]' with the precedence of operator [latex]\\downarrow[/latex]\nbeing lower than that of the operator [latex]\\uparrow[/latex] . Operator [latex]\\uparrow[/latex] is right associative while\noperator [latex]\\downarrow[/latex] is left associative. Which one of the following represents the parse\ntree for expression (7 [latex]\\downarrow[/latex] 3 [latex]\\uparrow[/latex]4 [latex]\\uparrow[/latex] 3 [latex]\\downarrow[/latex]2)? <br><img src=\"/wp-content/uploads/GATE/CS/20111/q37.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20111/q37.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "[latex]\\uparrow[/latex] binds tighter and is right associative: [latex]3\\uparrow4\\uparrow3=3\\uparrow(4\\uparrow3)[/latex].<br><br>\n[latex]\\downarrow[/latex] is left associative: [latex](7\\downarrow X)\\downarrow2[/latex].<br><br>\nTree: root [latex]\\downarrow[/latex] with right child 2 and left child [latex]7\\downarrow(3\\uparrow(4\\uparrow3))[/latex], which is figure B.<br><br>\n<b>Answer: B</b><br><br><a href=\"https://gateoverflow.in/2129/gate2011-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 27
+    },
+    {
+      "id": "2023-Q50",
+      "source_id": 1123150,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the syntax directed translation given by the following grammar and semantic rules. Here [latex]N, I, F \\; and \\; B[/latex] are non-terminals. [latex]N[/latex] is the starting non-terminal,\nand [latex]\\#,0 \\; and \\; 1[/latex] are lexical tokens corresponding to input letters [latex]\"\\#\",\"0\" \\; and \\; \"1\"[/latex],\nrespectively. [latex]X.val[/latex] denotes the synthesized attribute (a numeric value) associated\nwith a non-terminal [latex]X[/latex]. [latex]I_1[/latex] and [latex]F_1[/latex] denote occurrences of [latex]I[/latex] and [latex]F[/latex] on the right hand\nside of a production, respectively. For the tokens [latex]0[/latex] and [latex]1[/latex], [latex]0.val=0[/latex] and [latex]1.val=1[/latex].<br><br>The value computed by the translation scheme for the input string<br>[latex]\\begin{aligned}\nN & \\rightarrow I \\# F & N.val=I.val+F.val \\\\ \nI &\\rightarrow I_1B & I.val = (2 I1.val) + B.val\\\\ \nI &\\rightarrow B&I.val = B.val\\\\ \nF &\\rightarrow BF_1& F.val = \\frac{1}{2}(B.val + F1.val)\\\\ \nF &\\rightarrow B&  F.val = \\frac{1}{2} B.val\\\\ \n B&\\rightarrow 0& B.val = 0.val\\\\ \nB &\\rightarrow 1&B.val = 1.val\n\\end{aligned} [/latex]  <br>[latex]10\\# 011[/latex]<br><br>is ____ (Rounded off to three decimal places)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.374,
+        2.376
+      ],
+      "topic": "Compiler Design",
+      "subtopic": "Syntax-directed Translation",
+      "explanation": "Integer part \"10\" (binary):<br>\nI for \"1\" = 1; I for \"10\" = [latex]2\\times1+0=2[/latex].<br><br>\nFraction part \"011\" (evaluated right to left):<br>\n- F(\"1\") = [latex]\\frac12\\times1=0.5[/latex]<br>\n- F(\"11\") = [latex]\\frac12(1+0.5)=0.75[/latex]<br>\n- F(\"011\") = [latex]\\frac12(0+0.75)=0.375[/latex]<br><br>\nN.val = 2 + 0.375 = 2.375 (i.e. binary 10.011).<br><br>\n<b>Answer: 2.375</b><br><br><a href=\"https://gateoverflow.in/399261/gate-cse-2023-question-50#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 50
+    },
+    {
+      "id": "2024-S2-Q33",
+      "source_id": 1124233,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following expression: [latex] x[i]=(p+r) *-s[i]+u / w [/latex]. The following sequence shows the list of triples representing the given expression, with entries missing for triples (1), (3), and (6).<br>[latex]\n\\begin{array}{|c|c|c|c|}\n\\hline  (0)   & + &   p   &   r   \\\\\n\\hline  (1)   & & & \\\\\n\\hline  (2)   & uminus &   (1)   & \\\\\n\\hline  (3)   & & & \\\\\n\\hline  (4)   &   /   &   u   &   w   \\\\\n\\hline  (5)   & + &   (3)   &   (4)   \\\\\n\\hline  (6)   & & & \\\\\n\\hline  (7)   &   =   &   (6)   &   (5)   \\\\\n\\hline\n\\end{array}[/latex]\n<br>\nWhich one of the following options fills in the missing entries CORRECTLY?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(1) [latex]=[]  s  i [/latex] ,        (3) * (0) (2) ,        (6) [latex][] =x i [/latex]",
+        "B": "(1) [latex][] =s i [/latex] ,        (3) - (0) (2) ,        (6) [latex] =[] x (5) [/latex]",
+        "C": "(1) [latex] =[] s i [/latex] ,        (3) * (0) (2) ,        (6) [latex][] =x (5) [/latex]",
+        "D": "(1) [latex] []=s i [/latex] ,        (3)-(0)(2) ,        (6) [latex] =[] x i [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "[latex]x[i]=(p+r)*(-s[i])+u/w[/latex], in evaluation order:<br>\n- (0) + p r<br>\n- (1) <b>=[] s i</b> [latex]\\text{---}[/latex] fetch s[i]<br>\n- (2) uminus (1)<br>\n- (3) <b>* (0) (2)</b> [latex]\\text{---}[/latex] (p+r) * ([latex]-[/latex]s[i])<br>\n- (4) / u w<br>\n- (5) + (3) (4)<br>\n- (6) <b>[]= x i</b> [latex]\\text{---}[/latex] location x[i] for storing<br>\n- (7) = (6) (5)<br><br>\n<b>Answer: (1) =[] s i, (3) * (0) (2), (6) []= x i</b><br><br><a href=\"https://gateoverflow.in/422864/gate-cse-2024-set-2-question-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 33
+    },
+    {
+      "id": "2021-S2-Q51",
+      "source_id": 1121251,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following augmented grammar with [latex]\\{ \\#, @, <, >, a, b, c \\}[/latex] as the set of terminals.<br><br>\n[latex]\\begin{array}{l} S' \\rightarrow S \\\\ S \\rightarrow S \\# cS \\\\ S \\rightarrow SS \\\\ S \\rightarrow S @ \\\\ S \\rightarrow < S > \\\\ S \\rightarrow a \\\\ S \\rightarrow b \\\\ S \\rightarrow c \\end{array}[/latex]<br><br>\nLet [latex]I_0 = \\text{CLOSURE}(\\{S' \\rightarrow \\bullet S\\})[/latex]. The number of items in the set [latex]\\text{GOTO(GOTO}(I_0 \\lt ), \\lt )[/latex] is ___________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "In [latex]I_0[/latex], [latex]S\\rightarrow\\bullet\\lt S\\gt[/latex] moves on [latex]\\lt[/latex] to [latex]S\\rightarrow\\lt\\bullet S\\gt[/latex], and its closure adds all 7 S-items with the dot at the start: 1 + 7 = 8 items.<br><br>\nDoing GOTO on [latex]\\lt[/latex] again (from [latex]S\\rightarrow\\bullet\\lt S\\gt[/latex] inside that set) gives the same set again: <b>8</b> items.<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/357486/gate-cse-2021-set-2-question-51#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 51
+    },
+    {
+      "id": "2004-Q45",
+      "source_id": 1104145,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the grammar with the following translation rules and E as the start symbol.\n<br><img src=\"/wp-content/uploads/GATE/CS/20041/q45.jpg\"/><br>\nCompute E.value for the root of the parse tree for the expression:2 # 3 & 5 # 6 & 4.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q45.jpg"
+      ],
+      "options": {
+        "A": "200",
+        "B": "180",
+        "C": "160",
+        "D": "40"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/1042/gate2004-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 45
+    },
+    {
+      "id": "2017-S1-Q52",
+      "source_id": 1117152,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the expression ( a-1)* (((b + c) / 3) + d)) . Let X be the minimum number of\nregisters required by an optimal code generation (without any register spill) algorithm for a\nload/store architecture in which (i) only loads and store instructions can have memory\noperands and (ii) arithmetic instructions can have only register or immediate operands. The\nvalue of X is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "Evaluate the bigger subtree first:<br>\n- R1 = b, R2 = c, R1 = R1 + R2, R1 = R1 / 3, R2 = d, R1 = R1 + R2<br>\n- R2 = a, R2 = R2 [latex]-[/latex] 1, R1 = R2 * R1<br><br>\nOnly 2 registers are ever needed.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/118746/gate2017-1-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 52
+    },
+    {
+      "id": "2003-Q76",
+      "source_id": 1103176,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which of the following is NOT an advantage of using shared, dynamically linked\nlibraries as opposed to using statically linked libraries?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Smaller sizes of executable",
+        "B": "Lesser overall page fault rate in the system",
+        "C": "Faster program startup",
+        "D": "Existing programs need not be re-linked to take advantage of newer\nversions of libraries"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/962/gate2003-76#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 76
+    }
+  ]
+}

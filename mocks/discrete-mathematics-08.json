@@ -1,0 +1,816 @@
+{
+  "paper_id": "discrete-mathematics-08",
+  "paper": "Discrete Mathematics: Topic Mock 8",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 8,
+  "duration_min": 90,
+  "total_marks": 44,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2006-Q2",
+      "source_id": 1106102,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let X, Y, Z be sets of sizes x, y and z respectively. Let W=X[latex]\\times[/latex]Y and E be the\r\nset of all subsets of W. The number of functions from Z to E is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]Z^{2xy}[/latex]",
+        "B": "[latex]Z*2^{xy}[/latex]",
+        "C": "[latex]Z^{2x+y}[/latex]",
+        "D": "[latex]2^{xyz}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/881/gate2006-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 2
+    },
+    {
+      "id": "2015-S2-Q2",
+      "source_id": 1115202,
+      "number": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The cardinality of the power set of { 0, 1, 2,..., 10 } is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2048.0,
+        2048.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "The set {0, 1, ..., 10} has 11 elements.<br><br>\n[latex]|P(S)|=2^{11}=2048[/latex]<br><br>\n<b>Answer: 2048</b><br><br><a href=\"https://gateoverflow.in/8092/gate2015-2-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 2
+    },
+    {
+      "id": "2016-S2-Q3",
+      "source_id": 1116203,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The minimum number of colours that is sufficient to vertex-colour any planar graph is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "By the <b>four colour theorem</b>, every planar graph can be properly coloured with 4 colours, and some (e.g. [latex]K_4[/latex]) need all 4.<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/39553/gate2016-2-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 3
+    },
+    {
+      "id": "2013-Q2",
+      "source_id": 1113102,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose p is the number of cars per minute passing through a certain road junction between 5 PM\nand 6 PM, and p has a Poisson distribution with mean 3. What is the probability of observing fewer\nthan 3 cars during any given minute in this interval?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]8/(2e^{3})[/latex]",
+        "B": "[latex]9/(2e^{3})[/latex]",
+        "C": "[latex]17/(2e^{3})[/latex]",
+        "D": "[latex]26/(2e^{3})[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Poisson with mean 3: [latex]P(k)=\\frac{e^{-3}3^k}{k!}[/latex]<br><br>\n[latex]P(p\\lt3)=e^{-3}\\left(1+3+\\frac92\\right)=\\frac{17}{2e^3}[/latex]<br><br>\n<b>Answer: [latex]17/(2e^3)[/latex]</b><br><br><a href=\"https://gateoverflow.in/62/gate2013-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 2
+    },
+    {
+      "id": "1997-Q1",
+      "source_id": 1101601,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The probability that it will rain today is 0.5. The probability that it will rain tomorrow is 0.6. The probability that it will rain either today or tomorrow is 0.7. What is the probability that it will rain today and tomorrow?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0.3",
+        "B": "0.25",
+        "C": "0.35",
+        "D": "0.4"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2217/gate1997-1-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 1
+    },
+    {
+      "id": "2015-S3-Q15",
+      "source_id": 1115315,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The number of 4 digit numbers having their digits in non-decreasing order (from left to right) constructed by using the digits belonging to the set {1, 2, 3} is____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        15.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "A non-decreasing number is fixed once we know how many 1s, 2s and 3s it has. So count solutions of a + b + c = 4 with [latex]a,b,c\\ge0[/latex]:<br><br>\n[latex]\\binom{4+2}{2}=15[/latex]<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/8399/gate2015-3-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 15
+    },
+    {
+      "id": "1997-Q41",
+      "source_id": 1101641,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A partial order [latex]\\leq[/latex] is defined on the set [latex]S=\\left \\{ x, a_1, a_2, \\ldots, a_n, y \\right \\} \\text{ as }x \\leq _{i} a_{i}[/latex] for all [latex]i[/latex] and [latex]a_{i}\\leq y[/latex] for all i, where [latex]n \\geq 1[/latex]. The number of total orders on the set S which contain the partial order [latex]\\leq[/latex] is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n!",
+        "B": "n+2",
+        "C": "n",
+        "D": "1"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2257/gate1997-6-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 41
+    },
+    {
+      "id": "1995-Q19",
+      "source_id": 1101419,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let R be a symmetric and transitive relation on a set A. Then\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R is reflexive and hence an equivalence relation",
+        "B": "R is reflexive and hence a partial order",
+        "C": "R is reflexive and hence not an equivalence relation",
+        "D": "None of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/2606/gate1995-1-19\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 19
+    },
+    {
+      "id": "2014-S3-Q3",
+      "source_id": 1114303,
+      "number": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let G be a group with 15 elements. Let L be a subgroup of G. It is known that L[latex]\\neq[/latex]G and that the size of L is at least 4. The size of L is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "By Lagrange's theorem, |L| divides 15, so |L| is 1, 3, 5 or 15.<br><br>\nL [latex]\\ne[/latex] G rules out 15, and [latex]|L|\\ge4[/latex] rules out 1 and 3.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/2037/gate2014-3-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 3
+    },
+    {
+      "id": "2001-Q2",
+      "source_id": 1101102,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following relations:\n <pre><code>  \nR1(a,b) iff (a+b) is even over the set of integers\nR2(a,b) iff (a+b) is odd over the set of integers\nR3(a,b) iff a.b > 0 over the set of non-zero rational numbers\nR4(a,b) iff |a - b| <= 2 over the set of natural numbers\n </pre></code>  \nWhich of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R1 and R2 are equivalence relations, R3 and R4 are not",
+        "B": "R1 and R3 are equivalence relations, R2 and R4 are not",
+        "C": "R1 and R4 are equivalence relations, R2 and R3 are not",
+        "D": "R1, R2, R3 and R4 are all equivalence relations"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/695/gate2001-1-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 2
+    },
+    {
+      "id": "2012-Q1",
+      "source_id": 1112101,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following logical inferences.<br<br>\nI1: If it rains then the cricket match will not be played. <br>\nThe cricket match was played. <br>\nInference: There was no rain. <br>\nI2: If it rains then the cricket match will not be played. <br>\nIt did not rain. <br>\nInference: The cricket match was played. <br><br>\nWhich of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both I1 and I2 are correct inferences",
+        "B": "I1 is correct but I2 is not a correct inference",
+        "C": "I1 is not correct but I2 is a correct inference",
+        "D": "Both I1 and I2 are not correct inferences"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Let R = it rains, M = match is played. Rule: [latex]R\\rightarrow\\neg M[/latex].<br><br>\n- I1: M is true, so [latex]\\neg M[/latex] is false [latex]\\rightarrow[/latex] R must be false (modus tollens) [latex]\\rightarrow[/latex] valid.<br>\n- I2: [latex]\\neg R[/latex] does not tell us anything about M (denying the antecedent) [latex]\\rightarrow[/latex] invalid.<br><br>\n<b>Answer: I1 is correct but I2 is not a correct inference</b><br><br><a href=\"https://gateoverflow.in/33/gate2012-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 1
+    },
+    {
+      "id": "1999-Q27",
+      "source_id": 1101827,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Two girls have picked 10 roses, 15 sunflowers and 15 daffodils. What is the number of ways they can divide the flowers among themselves?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1638",
+        "B": "2100",
+        "C": "2640",
+        "D": "None of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1480/gate1999-2-2\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 27
+    },
+    {
+      "id": "2015-S3-Q16",
+      "source_id": 1115316,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a room there are only two types of people, namely Type 1 and Type 2. Type 1 people always tell the truth and Type 2 people always lie. You give a fair coin to a person in that room, without knowing which type he is from and tell him to toss it and hide the result from you till you ask for it. Upon asking, the person replies the following <br><br> \"The result of the toss is head if and only if I am telling the truth.\" <br><br> Which of the following options is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The result is head",
+        "B": "The result is tail",
+        "C": "If the person is of Type 2, then the result is tail",
+        "D": "If the person is of Type 1, then the result is tail"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Let H = \"result is head\".<br><br>\n- Type 1 (truthful): the statement is true and he is telling the truth, so H [latex]\\leftrightarrow[/latex] True gives H.<br>\n- Type 2 (liar): the statement is false and he is not telling the truth. \"H [latex]\\leftrightarrow[/latex] False\" is false only when H is true.<br><br>\nEither way the result is head.<br><br>\n<b>Answer: The result is head</b><br><br><a href=\"https://gateoverflow.in/8427/gate2015-3-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 16
+    },
+    {
+      "id": "2018-Q15",
+      "source_id": 1118115,
+      "number": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Two people, P and Q, decide to independently roll two identical dice, each with 6 faces, numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that all 6 numbers on each dice are equi-probable and that all trials are independent. The probability (rounded to 3 decimal places) that one of them wins on the third trial is ",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.021,
+        0.024
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "A trial ties with probability [latex]\\frac{6}{36}=\\frac16[/latex]. Someone wins on the 3rd trial if the first two tie and the third does not:<br>\n[latex]\\left(\\frac16\\right)^2\\times\\frac56=\\frac{5}{216}\\approx0.023[/latex]<br><br>\n<b>Answer: 0.023</b><br><br><a href=\"https://gateoverflow.in/204089/gate2018-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 15
+    },
+    {
+      "id": "2025-S1-Q7",
+      "source_id": 1125107,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "[latex]g(. )[/latex] is a function from [latex]A[/latex] to [latex]B[/latex], [latex]f(. )[/latex] is a function from [latex]B[/latex] to [latex]C[/latex], and their composition defined as [latex]f(g(. ))[/latex] is a mapping from [latex]A[/latex] to [latex]C[/latex]. <br>If [latex]f(. )[/latex] and [latex]f(g(. ))[/latex] are onto (surjective) functions, which ONE of the following is TRUE about the function [latex]g(. )[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]g(. )[/latex] must be an onto (surjective) function.",
+        "B": "[latex]g(. )[/latex] must be a one-to-one (injective) function.",
+        "C": "[latex]g(. )[/latex] must be a bijective function, that is, both one-to-one and onto.",
+        "D": "[latex]g(. )[/latex] is not required to be a one-to-one or onto function."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "We're told [latex]f[/latex] is onto (B&rarr;C) and the composite [latex]f\\circ g[/latex] is onto (A&rarr;C), and asked what this forces about [latex]g[/latex] (A&rarr;B).<br><br>\nIntuitively: since [latex]f[/latex] alone is <i>already</i> onto [latex]C[/latex], every element of [latex]C[/latex] has <i>some</i> preimage in [latex]B[/latex] regardless of [latex]g[/latex]. The fact that [latex]f\\circ g[/latex] is <i>also</i> onto just says [latex]g[/latex]'s image happens to hit enough of [latex]B[/latex] to cover all of [latex]f[/latex]'s \"useful\" preimages &mdash; but [latex]g[/latex] itself doesn't need to be onto all of [latex]B[/latex] (there could be elements of [latex]B[/latex] entirely outside [latex]g[/latex]'s range, as long as [latex]f[/latex] still reaches every element of [latex]C[/latex] through the range [latex]g[/latex] does cover), nor does [latex]g[/latex] need to be one-to-one (multiple elements of [latex]A[/latex] could map to the same element of [latex]B[/latex]).<br><br>\nA simple counterexample confirms it: let [latex]B=\\{1,2\\}[/latex], [latex]C=\\{1\\}[/latex], [latex]f[/latex] onto, and [latex]g[/latex] mapping every element of [latex]A[/latex] to just [latex]1\\in B[/latex] &mdash; [latex]g[/latex] is neither onto nor one-to-one, yet [latex]f\\circ g[/latex] is trivially onto.<br><br>\n<b>Answer: g(.) is not required to be a one-to-one or onto function.</b><br><br><a href=\"https://gateoverflow.in/460073/gate-cse-2025-set-1-question-7#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 7
+    },
+    {
+      "id": "2024-S2-Q7",
+      "source_id": 1124207,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex] A  [/latex] be the adjacency matrix of a simple undirected graph [latex]G[/latex]. Suppose [latex]A[/latex] is its own inverse. Which one of the following statements is always TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]G[/latex] is a cycle",
+        "B": "[latex]G[/latex] is a perfect matching",
+        "C": "[latex]G[/latex] is a complete graph",
+        "D": "There is no such graph [latex]G[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "[latex]A=A^{-1}\\Rightarrow A^2=I[/latex].<br><br>\n- [latex](A^2)_{ii}[/latex] = degree of vertex [latex]i[/latex] = 1 [latex]\\rightarrow[/latex] every vertex has exactly one neighbour.<br>\n- [latex](A^2)_{ij}=0[/latex] for [latex]i\\ne j[/latex] [latex]\\rightarrow[/latex] consistent with that.<br><br>\nA graph where every vertex has degree exactly 1 is a set of disjoint edges covering all vertices [latex]\\text{---}[/latex] a <b>perfect matching</b>.<br><br>\n<b>Answer: G is a perfect matching</b><br><br><a href=\"https://gateoverflow.in/422890/gate-cse-2024-set-2-question-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 7
+    },
+    {
+      "id": "2016-S1-Q28",
+      "source_id": 1116128,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A function [latex]f:\\mathbb{N}^{+}\\rightarrow \\mathbb{N}^{+}[/latex], defined on the set of positive integers [latex]\\mathbb{N}^{+}[/latex], satisfies the following properties:<br>\nf(n)=f(n/2)   if n  is even <br>\nf(n)=f(n+5)   if n is odd <br>\nLet R={[latex]i|\\exists j:f(j)=i[/latex]} be the set of distinct values that f takes. The maximum possible size of R is ____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Both rules keep a number inside its class:<br>\n- If n is a multiple of 5, n/2 (when even) and n + 5 are still multiples of 5.<br>\n- If n is not a multiple of 5, neither are n/2 and n + 5.<br><br>\nWithin each class all values are linked (e.g. 1 [latex]\\rightarrow[/latex] 6 [latex]\\rightarrow[/latex] 3 [latex]\\rightarrow[/latex] 8 [latex]\\rightarrow[/latex] 4 [latex]\\rightarrow[/latex] 2 [latex]\\rightarrow[/latex] 1, and 5 [latex]\\rightarrow[/latex] 10 [latex]\\rightarrow[/latex] 5), so f can take at most one value per class: at most 2 values.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/39717/gate2016-1-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 28
+    },
+    {
+      "id": "2021-S2-Q55",
+      "source_id": 1121255,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "In a directed acyclic graph with a source vertex s, the quality-score of a directed path is defined to be the product of the weights of the edges on the path. Further, for a vertex v other than s, the quality-score of v is defined to be the maximum among the quality-scores of all the paths from s to v. The quality-score of s is assumed to be 1.\n<br><img src=\"/wp-content/uploads/GATE/CS/20212/q55.jpg\" /><br>\nThe sum of the quality-scores of all vertices on the graph shown above is ______",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q55.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        929.0,
+        929.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Go in topological order, taking the best product into each vertex:<br>\n- s = 1, c = 1, a = 9<br>\n- f = c [latex]\\times[/latex] 9 = 9, b = a [latex]\\times[/latex] 1 = 9<br>\n- d = max(c [latex]\\times[/latex] 1, a [latex]\\times[/latex] 1) = 9<br>\n- g = max(f [latex]\\times[/latex] 1, d [latex]\\times[/latex] 9) = 81<br>\n- e = max(d [latex]\\times[/latex] 9, b [latex]\\times[/latex] 1) = 81<br>\n- t = max(g [latex]\\times[/latex] 1, e [latex]\\times[/latex] 9) = 729<br><br>\nSum = 1 + 1 + 9 + 9 + 9 + 9 + 81 + 81 + 729 = 929<br><br>\n<b>Answer: 929</b><br><br><a href=\"https://gateoverflow.in/357482/gate-cse-2021-set-2-question-55#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 55
+    },
+    {
+      "id": "2014-S3-Q51",
+      "source_id": 1114351,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If G is a forest with n vertices and k connected components, how many edges does G have?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\left \\lfloor n/k \\right \\rfloor[/latex]",
+        "B": "[latex]\\left \\lceil n/k \\right \\rceil[/latex]",
+        "C": "n - k ",
+        "D": "n - k +1"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Each tree with [latex]n_i[/latex] vertices has [latex]n_i-1[/latex] edges. Summing over k trees: [latex]\\sum(n_i-1)=n-k[/latex].<br><br>\n<b>Answer: n [latex]-[/latex] k</b><br><br><a href=\"https://gateoverflow.in/2085/gate2014-3-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 51
+    },
+    {
+      "id": "2014-S1-Q49",
+      "source_id": 1114149,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A pennant is a sequence of numbers, each number being 1 or 2. An n-pennant is a sequence of numbers with sum equal to n. For example, (1,1,2) is a 4-pennant. The set of all possible 1- pennants is {(1)}, the set of all possible 2-pennants is {(2), (1,1)}and the set of all 3-pennants is {(2,1), (1,1,1), (1,2)}. Note that the pennant (1,2) is not the same as the pennant (2,1). The number of 10- pennants is _____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        88.9,
+        89.1
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "An n-pennant starts with 1 (then an (n [latex]-[/latex] 1)-pennant) or 2 (then an (n [latex]-[/latex] 2)-pennant): [latex]P(n)=P(n-1)+P(n-2)[/latex], P(1) = 1, P(2) = 2.<br>\n1, 2, 3, 5, 8, 13, 21, 34, 55, 89 [latex]\\rightarrow[/latex] P(10) = 89<br><br>\n<b>Answer: 89</b><br><br><a href=\"https://gateoverflow.in/1929/gate2014-1-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 49
+    },
+    {
+      "id": "2003-Q72",
+      "source_id": 1103172,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "the following resolution rule is used in logic programming: <br>\nDerive clause(P [latex]\\vee[/latex] Q) from clauses (P [latex]\\vee[/latex] R),(Q [latex]\\vee \\neg[/latex] JR) <br>\nWhich of the following statements related to this rule is FASLE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]((P \\vee R) \\wedge (Q \\vee \\neg R)) \\Rightarrow (P \\vee Q)[/latex]\n is logically valid",
+        "B": "[latex](P \\vee Q) \\Rightarrow ((P \\vee R)\\wedge (Q \\vee \\neg R))[/latex]\n is logically valid",
+        "C": "[latex](P \\vee Q)[/latex] is satisfiable if and only if [latex](P \\vee R)\\wedge (Q \\vee \\neg R)[/latex]\r\n is satisfiable",
+        "D": "[latex](P \\vee Q)\\Rightarrow[/latex] FALSE if and only if both P and Q are unsatisfiable"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/959/gate2003-72#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 72
+    },
+    {
+      "id": "2023-Q43",
+      "source_id": 1123143,
+      "number": 22,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a random experiment where two fair coins are tossed. Let A be the event\nthat denotes HEAD on both the throws, B be the event that denotes HEAD on\nthe first throw, and C be the event that denotes HEAD on the second throw.\nWhich of the following statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A and B are independent.",
+        "B": "A and C are independent.",
+        "C": "B and C are independent.",
+        "D": "Prob(B|C) = Prob(B)"
+      },
+      "correct": [
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex]P(A)=\\frac14,\\ P(B)=P(C)=\\frac12[/latex].<br><br>\n- A and B: [latex]P(A\\cap B)=P(A)=\\frac14\\ne P(A)P(B)=\\frac18[/latex] [latex]\\rightarrow[/latex] not independent (same for A and C).<br>\n- B and C: [latex]P(B\\cap C)=\\frac14=\\frac12\\cdot\\frac12[/latex] [latex]\\rightarrow[/latex] independent.<br>\n- So [latex]P(B|C)=P(B)[/latex] [latex]\\text{---}[/latex] TRUE.<br><br>\n<b>Answer: B and C are independent; Prob(B|C) = Prob(B)</b><br><br><a href=\"https://gateoverflow.in/399268/gate-cse-2023-question-43#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 43
+    },
+    {
+      "id": "2006-Q72",
+      "source_id": 1106172,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The [latex]2^{n}[/latex] vertices of graph G correspond to all subsets of a set of size n, for [latex]n\\geq 6[/latex]. Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>  The maximum degree of a vertex in G is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\binom{n/2}{2}2^{n/2}[/latex]",
+        "B": "[latex]2^{n-2}[/latex]",
+        "C": "[latex]2^{n-3}[/latex]x3",
+        "D": "[latex]2^{n-1}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/43566/gate2006-72#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 72
+    },
+    {
+      "id": "2005-Q47",
+      "source_id": 1105147,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following graphs is NOT planar? <br><img src=\"/wp-content/uploads/GATE/CS/20051/q47.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20051/q47.jpg"
+      ],
+      "options": {
+        "A": "G1",
+        "B": "G2",
+        "C": "G3",
+        "D": "G4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Planar Graph",
+      "explanation": "<a href=\"https://gateoverflow.in/1172/gate2005-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 47
+    },
+    {
+      "id": "2014-S3-Q50",
+      "source_id": 1114350,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "There are two elements x,y in a group (G,*) such that every element in the group can be\nwritten as a product of some number of x's and y's in some order. It is known that <br>\nx * x = y * y = x * y *x * y = y* x * y *x = e <br>\nwhere e is the identity element. The maximum number of elements in such a group is\n_______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "[latex]x^2=y^2=e[/latex] and [latex](xy)^2=e[/latex] give [latex]xy=(xy)^{-1}=y^{-1}x^{-1}=yx[/latex], so x and y commute.<br><br>\nEvery product then reduces to one of e, x, y, xy (the Klein four-group).<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/2084/gate2014-3-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 50
+    },
+    {
+      "id": "2011-Q30",
+      "source_id": 1111130,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following options is CORRECT given three positive integers x, y\nand z, and a predicate <br> [latex]P(x)=\\neg (x=1)\\wedge \\forall y(\\exists z(x=y*z))\\Rightarrow (y=x)\\vee (y=1)[/latex] ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P(x) being true means that x is a prime number",
+        "B": "P(x) being true means that x is a number other than 1",
+        "C": "P(x) is always true irrespective of the value of x",
+        "D": "P(x) being true means that x has exactly two factors other than 1 and x"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "P(x): x [latex]\\ne[/latex] 1, and whenever y divides x (x = y[latex]\\cdot[/latex]z), y must be 1 or x.<br><br>\nSo x has no divisors other than 1 and itself, i.e. x is prime.<br><br>\n<b>Answer: P(x) being true means that x is a prime number</b><br><br><a href=\"https://gateoverflow.in/2132/gate2011-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 30
+    },
+    {
+      "id": "2015-S1-Q30",
+      "source_id": 1115130,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The binary operator [latex]\\neq[/latex] is defined by the following truth table. <br><img src=\"/wp-content/uploads/GATE/CS/20151/q30.jpg\"/><br> Which one of the following is true about the binary operator [latex]\\neq[/latex]?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20151/q30.jpg"
+      ],
+      "options": {
+        "A": "Both commutative and associative",
+        "B": "Commutative but not associative",
+        "C": "Not commutative but associative",
+        "D": "Neither commutative nor associative"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "The table is exactly XOR ([latex]p\\oplus q[/latex]).<br><br>\nXOR is commutative ([latex]p\\oplus q=q\\oplus p[/latex]) and associative ([latex](p\\oplus q)\\oplus r=p\\oplus(q\\oplus r)[/latex]).<br><br>\n<b>Answer: Both commutative and associative</b><br><br><a href=\"https://gateoverflow.in/8226/gate2015-1-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 30
+    },
+    {
+      "id": "2010-Q27",
+      "source_id": 1110127,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What is the probability that divisor of [latex]10^{99}[/latex] is a multiple of [latex]10^{96}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]1/625[/latex]",
+        "B": "[latex]4/625[/latex]",
+        "C": "[latex]12/625[/latex]",
+        "D": "[latex]16/625[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex]10^{99}=2^{99}5^{99}[/latex] has [latex]100\\times100[/latex] divisors [latex]2^a5^b[/latex].<br><br>\nMultiples of [latex]10^{96}[/latex] need [latex]96\\le a,b\\le99[/latex]: 4 [latex]\\times[/latex] 4 = 16.<br><br>\nProbability = 16/10000 = 1/625<br><br>\n<b>Answer: 1/625</b><br><br><a href=\"https://gateoverflow.in/1153/gate2010-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 27
+    },
+    {
+      "id": "2015-S3-Q51",
+      "source_id": 1115351,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose [latex]X_{i}[/latex] for i =1,2,3 are independent and identically distributed random variables whose probability mass functions are [latex]Pr[X_{i}=0]=Pr[X_{i}=1]=1/2[/latex] for i=1,2,3. Define another random variable [latex]Y=X_{1}X_{2}\\oplus X_{3}, \\; where \\; \\oplus[/latex] denotes XOR. Then<br>\n[latex]Pr[Y=0|X_{3}=0]=[/latex]_______________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.75,
+        0.75
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "If [latex]X_3=0[/latex], then [latex]Y=X_1X_2[/latex]. Y = 0 unless both are 1.<br><br>\nP = 1 [latex]-[/latex] 1/4 = 0.75<br><br>\n<b>Answer: 0.75</b><br><br><a href=\"https://gateoverflow.in/8496/gate2015-3-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 51
+    },
+    {
+      "id": "2017-S2-Q47",
+      "source_id": 1117247,
+      "number": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "If the ordinary generating function of a sequence [latex]\\{a_{n}\\}_{n=0}^{\\infty} \\;  is \\;  \\frac{1+z}{(1-z)^{3}}[/latex] then [latex]a_{3}-a_{0}[/latex] is equal to ______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        15.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "[latex](1-z)^{-3}=\\sum\\binom{n+2}{2}z^n[/latex], so [latex]a_n=\\binom{n+2}{2}+\\binom{n+1}{2}[/latex].<br><br>\n[latex]a_3=10+6=16[/latex], [latex]a_0=1[/latex] [latex]\\rightarrow[/latex] [latex]a_3-a_0=15[/latex]<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/118392/gate2017-2-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 47
+    }
+  ]
+}

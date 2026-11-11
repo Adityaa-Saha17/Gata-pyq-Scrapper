@@ -1,0 +1,826 @@
+{
+  "paper_id": "discrete-mathematics-10",
+  "paper": "Discrete Mathematics: Topic Mock 10",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 10,
+  "duration_min": 90,
+  "total_marks": 42,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2018-Q18",
+      "source_id": 1118118,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The chromatic number of the following graph is _______.  <br> <img src=\"/wp-content/uploads/GATE/CS/2018/q18.jpg\" />",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/2018/q18.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "a, b, c form a triangle, so at least 3 colours are needed. A 3-colouring: a = 1, b = 2, c = 3, e = 2, d = 1, f = 3 (check: every edge has different colours).<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/204092/gate2018-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 18
+    },
+    {
+      "id": "2002-Q41",
+      "source_id": 1102141,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Four fair coins are tossed simultaneously. The probability that at least one head and one tail turn up is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]1/16[/latex]",
+        "B": "[latex]1/8[/latex]",
+        "C": "[latex]7/8[/latex]",
+        "D": "[latex]15/16[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/846/gate2002-2-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 41
+    },
+    {
+      "id": "2020-Q18",
+      "source_id": 1120118,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let G be a group of 35 elements. Then the largest possible size of a subgroup of G other than G itself is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        7.0,
+        7.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "By Lagrange's theorem, the order of a subgroup divides the order of the group. Divisors of 35: 1, 5, 7, 35.<br><br>\nExcluding G itself, the largest possible is 7 (a group of order 35 is cyclic and has subgroups of every divisor order).<br><br>\n<b>Answer: 7</b><br><br><a href=\"https://gateoverflow.in/333213/gate2020-cs-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 18
+    },
+    {
+      "id": "2024-S2-Q8",
+      "source_id": 1124208,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "When six unbiased dice are rolled simultaneously, the probability of getting all\ndistinct numbers (i.e., 1, 2, 3, 4, 5, and 6) is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{324}[/latex] ",
+        "B": "[latex]\\frac{5}{324}[/latex] ",
+        "C": "[latex]\\frac{7}{324}[/latex] ",
+        "D": "[latex]\\frac{11}{324}[/latex] "
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Total outcomes [latex]=6^6=46656[/latex].<br>\nAll distinct means the six dice show 1-6 in some order: [latex]6!=720[/latex] outcomes.<br><br>\n[latex]P=\\dfrac{720}{46656}=\\dfrac{5}{324}[/latex]<br><br>\n<b>Answer: [latex]\\frac{5}{324}[/latex]</b><br><br><a href=\"https://gateoverflow.in/422889/gate-cse-2024-set-2-question-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 8
+    },
+    {
+      "id": "2021-S2-Q11",
+      "source_id": 1121211,
+      "number": 5,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following sets, where [latex]n\\geq 2[/latex]:<br><br>\n\nS1: Set of all nxn matrices with entries from the set [latex]\\{a, b, c\\}[/latex]<br>\nS2: Set of all functions from the set[latex]\\{0,1,2,...,n^2-1\\}[/latex] to the set [latex]\\{0, 1, 2 \\}[/latex]<br><br>\nWhich of the following choice(s) is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There does not exist a bijection from S1 to S2",
+        "B": "There exists a surjection from S1 to S2",
+        "C": "There exists a bijection from S1 to S2",
+        "D": "There does not exist an injection from S1 to S2"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "Checking each statement:<br>- [latex]|S_1|=3^{n^2}[/latex] (each of the [latex]n^2[/latex] entries has 3 choices).<br>\n- [latex]|S_2|=3^{n^2}[/latex] (each of the [latex]n^2[/latex] inputs has 3 choices).<br><br>\nEqual finite sizes [latex]\\rightarrow[/latex] a bijection exists (read the matrix entries in order as the function values). A bijection is also a surjection and an injection.<br><br>\n<b>Answer: A surjection exists; a bijection exists</b><br><br><a href=\"https://gateoverflow.in/357529/gate-cse-2021-set-2-question-11#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 11
+    },
+    {
+      "id": "2012-Q13",
+      "source_id": 1112113,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the correct translation of the following statement into mathematical logic? <br>\n\"Some real numbers are rational\"",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\exists x (real(x) \\vee rational(x))[/latex]",
+        "B": "[latex]\\forall x (real(x) \\rightarrow  rational(x)) [/latex]",
+        "C": "[latex]\\exists x (real(x) \\wedge rational(x))[/latex]",
+        "D": "[latex]\\exists x (rational(x) \\rightarrow real(x))[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "\"Some real numbers are rational\": there exists an x that is real and rational.<br><br>\n[latex]\\exists x\\,(real(x)\\wedge rational(x))[/latex]<br><br>\n<b>Answer: [latex]\\exists x(real(x)\\wedge rational(x))[/latex]</b><br><br><a href=\"https://gateoverflow.in/45/gate2012-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 13
+    },
+    {
+      "id": "2009-Q3",
+      "source_id": 1109103,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is TRUE for any simple connected undirected graph\nwith more than 2 vertices?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "No two vertices have the same degree.",
+        "B": "At least two vertices have the same degree.",
+        "C": "At least three vertices have the same degree.",
+        "D": "All vertices have the same degree."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/804/gate2009-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 3
+    },
+    {
+      "id": "1997-Q16",
+      "source_id": 1101616,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]\\left(Z, *\\right)[/latex] be an algebraic structure where Z is the set of integers and the operation * is defined by [latex]n*m = \\max(n,m)[/latex]. Which of the following statements is true for [latex]\\left(Z, *\\right)[/latex]?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\left(Z, *\\right)[/latex] is a monoid",
+        "B": "[latex]\\left(Z, *\\right)[/latex] is an Abelian group",
+        "C": "[latex]\\left(Z, *\\right)[/latex] is a group",
+        "D": "None of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2232/gate1997-3-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 16
+    },
+    {
+      "id": "2000-Q30",
+      "source_id": 1101930,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let a, b, c, d be propositions. Assume that the equivalence [latex]a \\Leftrightarrow ( b \\vee \\neg b) \\text{ and }b \\Leftrightarrow c[/latex] hold. Then the truth-value of the formula [latex](a \\land b) \\rightarrow (a \\land c) \\lor d[/latex] is always\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "TRUE",
+        "B": "FALSE",
+        "C": "Same as the truth-value of b",
+        "D": "Same as the truth-value of d"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/654/gate2000-2-7\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 30
+    },
+    {
+      "id": "2015-S2-Q3",
+      "source_id": 1115203,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let R be the relation on the set of positive integers such that aRb if and only if a and b are distinct and have a common divisor other than 1. Which one of the following statements about R is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R is symmetric and reflexive but not transitive",
+        "B": "R is reflexive but not symmetric and not transitive",
+        "C": "R is transitive but not reflexive and not symmetric",
+        "D": "R is symmetric but not reflexive and not transitive"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "Checking each statement:<br>- Not reflexive: a and b must be distinct.<br>\n- Symmetric: a common divisor of a, b is also a common divisor of b, a.<br>\n- Not transitive: 2 R 6 and 6 R 3, but 2 and 3 have no common divisor other than 1.<br><br>\n<b>Answer: R is symmetric but not reflexive and not transitive</b><br><br><a href=\"https://gateoverflow.in/8089/gate2015-2-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 3
+    },
+    {
+      "id": "2014-S1-Q3",
+      "source_id": 1114103,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G=(V,E) be a directed graph where V is the set of vertices and E the set of edges. Then which one of the following graphs has the same strongly connected components as G ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]G_{1}=(V,E_{1})[/latex] where [latex]E_{1}\\equiv \\{(u,v)|(u,v)\\notin E\\}[/latex]",
+        "B": "[latex]G_{2}=(V,E_{2})[/latex] where [latex]E_{2}\\equiv \\{(u,v)|(v,u)\\in E\\}[/latex]",
+        "C": "[latex]G_{3}=(V,E_{3})[/latex] where [latex]E_{3}\\equiv \\{(u,v)|[/latex] there is a path of lenth [latex]\\leq[/latex] 2 from u to v in E}",
+        "D": "[latex]G_{4}=(V_{4},E)[/latex] where [latex]V_{4}[/latex]  is the set of vertices in G which are not isolated"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Reversing every edge keeps every cycle (just traversed backwards). If u and v can reach each other in G, they still can in the reversed graph, so the strongly connected components are the same.<br><br>\nThe complement graph, the \"paths of length [latex]\\le[/latex] 2\" graph and removing isolated vertices can all change the SCCs.<br><br>\n<b>Answer: [latex]G_2[/latex] with all edges reversed</b><br><br><a href=\"https://gateoverflow.in/1754/gate2014-1-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 3
+    },
+    {
+      "id": "1995-Q20",
+      "source_id": 1101420,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of elements in the power set P(S) of the set [latex]S=\\{\\{\\emptyset\\}, 1, \\{2, 3\\}\\}[/latex] is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2607/gate1995-1-20\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 20
+    },
+    {
+      "id": "2001-Q27",
+      "source_id": 1101127,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements:  <br><br>S1: There exists infinite sets A, B, C such that \n    [latex]A\\cap(B\\cup C)[/latex]  is finite.\n<br><br>S2: There exists two irrational numbers x and y such\n    that (x+y) is rational. <br><br>Which of the following is true about S1 and S2?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S1 is correct",
+        "B": "Only S2 is correct",
+        "C": "Both S1 and S2 are correct",
+        "D": "None of S1 and S2 is correct"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/720/gate2001-2-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 27
+    },
+    {
+      "id": "2026-S2-Q4",
+      "source_id": 1126204,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The probability density function [latex]f(x)[/latex] of a random variable [latex]X[/latex] which takes real values is <br><br>[latex] f(x)=\\frac{1}{3 \\sqrt{2 \\pi}} \\exp \\left(-\\frac{x^{2}}{18}\\right), \\quad x \\in(-\\infty,+\\infty) [/latex]<br><br> Which one of the following statements is correct about the random variable [latex]X[/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]X[/latex] is an exponential random variable",
+        "B": "[latex]X[/latex] is a normal random variable",
+        "C": "[latex]X[/latex] is a Poisson random variable",
+        "D": "[latex]X[/latex] is a uniform random variable"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "The given density [latex]f(x)=\\dfrac{1}{3\\sqrt{2\\pi}}\\exp\\left(-\\dfrac{x^2}{18}\\right)[/latex] has exactly the form of the Gaussian/normal density [latex]f(x)=\\dfrac{1}{\\sigma\\sqrt{2\\pi}}\\exp\\left(-\\dfrac{(x-\\mu)^2}{2\\sigma^2}\\right)[/latex] with mean [latex]\\mu=0[/latex] and, matching [latex]2\\sigma^2=18\\Rightarrow\\sigma^2=9\\Rightarrow\\sigma=3[/latex] (consistent with the [latex]\\dfrac{1}{3\\sqrt{2\\pi}}[/latex] normalizing constant).<br><br>\nThis is the defining bell-curve density of a <b>normal (Gaussian) random variable</b> with mean [latex]0[/latex] and standard deviation [latex]3[/latex] &mdash; it doesn't match the forms of an exponential, Poisson (which is discrete, not even a continuous density), or uniform distribution.<br><br>\n<b>Answer: X is a normal random variable</b> <br><br> <a href=\"https://gateoverflow.in/523142/gate-cse-2026-set-2-question-4#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 4
+    },
+    {
+      "id": "2000-Q28",
+      "source_id": 1101928,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A relation R is defined on the set of integers as xRy iff (x + y) is even. Which of the following statements is true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R is not an equivalence relation",
+        "B": "R is an equivalence relation having 1 equivalence class",
+        "C": "R is an equivalence relation having 2 equivalence classes",
+        "D": "R is an equivalence relation having 3 equivalence classes"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/652/gate2000-2-5\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 28
+    },
+    {
+      "id": "2015-S2-Q4",
+      "source_id": 1115204,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The number of divisors of 2100 is _____ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        36.0,
+        36.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "[latex]2100=2^2\\times3\\times5^2\\times7[/latex]<br><br>\nNumber of divisors = (2 + 1)(1 + 1)(2 + 1)(1 + 1) = 36<br><br>\n<b>Answer: 36</b><br><br><a href=\"https://gateoverflow.in/8058/gate2015-2-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 4
+    },
+    {
+      "id": "2005-Q9",
+      "source_id": 1105109,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The following is the Hasse diagram of the poset [{a,b,c,d,e}, [latex]\\prec[/latex] ] <br><img src=\"/wp-content/uploads/GATE/CS/20051/q9.jpg\"/> <br> The poset is:",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20051/q9.jpg"
+      ],
+      "options": {
+        "A": "not a lattice",
+        "B": "a lattice but not a distributive lattice",
+        "C": "a distributive lattice but not a Boolean algebra",
+        "D": "a Boolean algebra"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Lattice",
+      "explanation": "<a href=\"https://gateoverflow.in/1158/gate2005-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 9
+    },
+    {
+      "id": "2016-S1-Q4",
+      "source_id": 1116104,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A probability density function on the interval [a,1] is given by 1/[latex]x^{2}[/latex]\n and outside this interval the value of the function is zero.The value of a is __________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.5,
+        0.5
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Total probability must be 1:<br>\n[latex]\\int_a^1\\frac{1}{x^2}dx=\\left[-\\frac1x\\right]_a^1=\\frac1a-1=1\\Rightarrow a=\\frac12[/latex]<br><br>\n<b>Answer: 0.5</b><br><br><a href=\"https://gateoverflow.in/39661/gate2016-1-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 4
+    },
+    {
+      "id": "2011-Q34",
+      "source_id": 1111134,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A deck of 5 cards (each carrying a distinct number from 1 to 5) is shuffled\nthoroughly. Two cards are then removed one at a time from the deck. What is\nthe probability that the two cards are selected with the number on the first card\nbeing one higher than the number on the second card?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]1/5[/latex]",
+        "B": "[latex]4/25[/latex]",
+        "C": "[latex]1/45[/latex]",
+        "D": "[latex]2/5[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Ordered pairs (first, second): 5 [latex]\\times[/latex] 4 = 20.<br><br>\nFavourable: (2, 1), (3, 2), (4, 3), (5, 4) = 4<br><br>\nProbability = 4/20 = 1/5<br><br>\n<b>Answer: 1/5</b><br><br><a href=\"https://gateoverflow.in/2136/gate2011-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 34
+    },
+    {
+      "id": "2010-Q30",
+      "source_id": 1110130,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose the predicate F(x,y,t) is used to represent the statement that person x\ncan fool person y at time t. which one of the statements below expresses best\nthe meaning of the formula [latex]\\forall x \\exists y \\exists t(\\neg F (x, y, t))[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Everyone can fool some person at some time",
+        "B": "No one can fool everyone all the time",
+        "C": "Everyone cannot fool some person all the time",
+        "D": "No one can fool some person at some time"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex]\\forall x\\exists y\\exists t\\,\\neg F(x,y,t)[/latex]: for every person x, there is someone y and a time t when x cannot fool y.<br><br>\nThat is [latex]\\neg\\exists x\\forall y\\forall t\\,F(x,y,t)[/latex]: no one can fool everyone all the time.<br><br>\n<b>Answer: No one can fool everyone all the time</b><br><br><a href=\"https://gateoverflow.in/1156/gate2010-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 30
+    },
+    {
+      "id": "2013-Q27",
+      "source_id": 1113127,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What is the logical translation of the following statement? <br>\n\"None of my friends are perfect.\"",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\exists x(F(x)\\wedge \\neg P(x))[/latex]",
+        "B": "[latex]\\exists x(\\neg F(x)\\wedge P(x))[/latex]",
+        "C": "[latex]\\exists x(\\neg F(x)\\wedge \\neg P(x))[/latex]",
+        "D": "[latex]\\neg \\exists x( F(x) \\wedge P(x))[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "\"None of my friends are perfect\" = there is no x who is my friend and perfect.<br><br>\n[latex]\\neg\\exists x(F(x)\\wedge P(x))[/latex]<br><br>\n<b>Answer: [latex]\\neg\\exists x(F(x)\\wedge P(x))[/latex]</b><br><br><a href=\"https://gateoverflow.in/1538/gate2013-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 27
+    },
+    {
+      "id": "2025-S2-Q54",
+      "source_id": 1125254,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A quadratic polynomial [latex](x - \\alpha)(x - \\beta)[/latex] over complex numbers is said to be square invariant if [latex](x - \\alpha)(x - \\beta) = (x - \\alpha^2)(x - \\beta^2)[/latex]. Suppose from the set of all square invariant quadratic polynomials we choose one at random. <br><br>The probability that the roots of the chosen polynomial are equal is ______. (rounded off to one decimal place)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.5,
+        0.5
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex](x-\\alpha)(x-\\beta)=(x-\\alpha^2)(x-\\beta^2)[/latex] for all [latex]x[/latex] means the root <i>sets</i> [latex]\\{\\alpha,\\beta\\}[/latex] and [latex]\\{\\alpha^2,\\beta^2\\}[/latex] must be identical (as unordered pairs). Two cases:<br><br>\n<b>Case 1 (each root is individually fixed by squaring):</b> [latex]\\alpha^2=\\alpha,\\ \\beta^2=\\beta[/latex], forcing each of [latex]\\alpha,\\beta[/latex] independently into [latex]\\{0,1\\}[/latex] (the only solutions of [latex]z^2=z[/latex]). This gives root-pairs [latex]\\{0,0\\},\\{1,1\\},\\{0,1\\}[/latex] ([latex]3[/latex] distinct polynomials, of which [latex]2[/latex]&mdash;[latex]\\{0,0\\}[/latex] and [latex]\\{1,1\\}[/latex]&mdash;have a <i>repeated</i> root).<br><br>\n<b>Case 2 (roots swap under squaring):</b> [latex]\\alpha^2=\\beta,\\ \\beta^2=\\alpha[/latex], giving [latex]\\alpha^4=\\alpha\\Rightarrow\\alpha(\\alpha^3-1)=0[/latex]. Besides the [latex]\\alpha=0,1[/latex] solutions already counted, this adds the genuinely new pair of primitive cube roots of unity [latex]\\{\\omega,\\omega^2\\}[/latex] (distinct, non-repeated roots).<br><br>\nSo there are [latex]4[/latex] distinct square-invariant polynomials total: [latex]\\{0,0\\},\\{1,1\\},\\{0,1\\},\\{\\omega,\\omega^2\\}[/latex], of which exactly [latex]2[/latex] ([latex]\\{0,0\\}[/latex] and [latex]\\{1,1\\}[/latex]) have equal (repeated) roots.<br><br>\nProbability [latex]=\\dfrac24=0.5[/latex]<br><br>\n<b>Answer: 0.5</b><br><br><a href=\"https://gateoverflow.in/460839/gate-cse-2025-set-2-question-54#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 54
+    },
+    {
+      "id": "2020-Q42",
+      "source_id": 1120142,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The number of permutations of the characters in LILAC so that no character appears in its original position, if the two L's are indistinguishable, is ______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        12.0,
+        12.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "Positions: 1 L, 2 I, 3 L, 4 A, 5 C. The two L's cannot use positions 1 or 3, so they take 2 of {2, 4, 5}:<br>\n- L's at {2, 4}: I, A, C fill 1, 3, 5 with C not at 5 [latex]\\rightarrow[/latex] 3! [latex]-[/latex] 2 = 4<br>\n- L's at {2, 5}: fill 1, 3, 4 with A not at 4 [latex]\\rightarrow[/latex] 4<br>\n- L's at {4, 5}: fill 1, 2, 3 with I not at 2 [latex]\\rightarrow[/latex] 4<br><br>\nTotal = 12<br><br>\n<b>Answer: 12</b><br><br><a href=\"https://gateoverflow.in/333189/gate2020-cs-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 42
+    },
+    {
+      "id": "2007-Q22",
+      "source_id": 1107122,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let Graph(x) be a predicate which denotes that x is a graph. Let Connected(x) be\na predicate which denotes that x is connected. Which of the following first order\nlogic sentences DOES NOT represent the statement: \"Not every graph is connected\"?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\neg \\forall x (Graph(x)\\Rightarrow Connected(x))[/latex]",
+        "B": "[latex]\\exists  x(Graph(x) \\Rightarrow \\neg Connected(x))[/latex]",
+        "C": "[latex]\\neg \\forall  x(\\neg Graph(x) \\vee Connected(x))[/latex]",
+        "D": "[latex]\\forall x(Graph(x) \\Rightarrow \\neg Connected(x))[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/1220/gate2007-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 22
+    },
+    {
+      "id": "2022-Q40",
+      "source_id": 1122140,
+      "number": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The following simple undirected graph is referred to as the Peterson graph.<br><img src=\"/wp-content/uploads/GATE/CS/20221/q40.jpg\" /><br>Which of the following statements is/are TRUE?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20221/q40.jpg"
+      ],
+      "options": {
+        "A": "The chromatic number of the graph is 3.",
+        "B": "The graph has a Hamiltonian path.",
+        "C": "The following graph is isomorphic to the Peterson graph.<br><img src=\"/wp-content/uploads/GATE/CS/20221/a40.jpg\" /><br>",
+        "D": "The size of the largest independent set of the given graph is 3. (A subset of vertices of a graph form an independent set if no two vertices of the subset are adjacent.)"
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Petersen graph: 10 vertices, 3-regular, no triangles or 4-cycles.<br><br>\n- Odd cycles (5-cycles) need 3 colours, and 3 are enough [latex]\\rightarrow[/latex] chromatic number 3 [latex]\\text{---}[/latex] TRUE.<br>\n- It has no Hamiltonian cycle, but it does have a Hamiltonian path (outer cycle 4 vertices, then into the star) [latex]\\text{---}[/latex] TRUE.<br>\n- The given graph is also 3-regular on 10 vertices with girth 5, and is a known drawing of the Petersen graph [latex]\\text{---}[/latex] TRUE.<br>\n- The largest independent set has size <b>4</b>, not 3 [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: Options 1, 2 and 3</b><br><br><a href=\"https://gateoverflow.in/371896/Gate-cse-2022-question-40#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 40
+    },
+    {
+      "id": "2026-S2-Q53",
+      "source_id": 1126253,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose an unbiased coin is tossed [latex]6[/latex] times. Each coin toss is independent of all previous coin tosses. Let [latex]E_{1}[/latex] be the event that among the second, fourth, and sixth coin tosses, there are at least two heads. Let [latex]E_{2}[/latex] be the event that among the first, second, third, and fifth coin tosses, there are equal number of heads and tails. <br>The conditional probability [latex]{P}\\left(E_{1} \\mid E_{2}\\right)[/latex] is equal to ________ (rounded off to one decimal place)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.5,
+        0.5
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Toss [latex]4[/latex] and toss [latex]6[/latex] don't appear at all in [latex]E_2[/latex]'s set [latex]\\{1,2,3,5\\}[/latex], so they remain completely independent, fair (unconditioned) coin flips regardless of [latex]E_2[/latex].<br><br>\nToss [latex]2[/latex], however, <i>is</i> part of both [latex]E_1[/latex]'s set [latex]\\{2,4,6\\}[/latex] and [latex]E_2[/latex]'s set [latex]\\{1,2,3,5\\}[/latex]. Given [latex]E_2[/latex] (exactly [latex]2[/latex] heads among tosses [latex]1,2,3,5[/latex]), by symmetry among these [latex]4[/latex] fair, exchangeable coins, the conditional probability that any <i>particular</i> one of them (in particular, toss [latex]2[/latex]) is heads equals [latex]\\dfrac{\\binom{3}{1}}{\\binom{4}{2}}=\\dfrac{3}{6}=\\dfrac12[/latex] &mdash; exactly the same as its unconditional probability. So conditioning on [latex]E_2[/latex] doesn't actually bias toss [latex]2[/latex]'s marginal chance of being heads at all.<br><br>\nSo, given [latex]E_2[/latex], tosses [latex]2,4,[/latex] and [latex]6[/latex] behave exactly like [latex]3[/latex] independent fair coins. We need [latex]P(\\text{at least }2\\text{ heads out of }3\\text{ fair coin flips})[/latex]:<br>\n[latex]P(X\\ge2)=\\binom{3}{2}(0.5)^3+\\binom{3}{3}(0.5)^3=\\dfrac{3}{8}+\\dfrac{1}{8}=\\dfrac{4}{8}=0.5[/latex].<br><br>\n<b>Answer: 0.5</b> <br><br> <a href=\"https://gateoverflow.in/523093/gate-cse-2026-set-2-question-53#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 53
+    },
+    {
+      "id": "2015-S2-Q48",
+      "source_id": 1115248,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The number of onto functions (surjective functions) from set x={1,2,3,4} to set Y={a,b,c} is __________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        36.0,
+        36.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Inclusion-exclusion for onto functions from 4 to 3 elements:<br><br>\n[latex]3^4-\\binom31 2^4+\\binom32 1^4=81-48+3=36[/latex]<br><br>\n<b>Answer: 36</b><br><br><a href=\"https://gateoverflow.in/8212/gate2015-2-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 48
+    },
+    {
+      "id": "2006-Q25",
+      "source_id": 1106125,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let S={1,2,3....,m},m [latex]\\gt [/latex] 3. Let [latex]X_{1},...,X_{n}[/latex] be subsets of S each of size 3.\r\nDefine a function f from S to the set of natural numbers as, f(i) is the number of sets [latex]X_{j}[/latex] that contain the element i. That is [latex]f(i)=|\\{j|i\\in X_{j}\\}|[/latex]. Then [latex]\\sum_{i=1}^{m}f(i)[/latex] ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3m",
+        "B": "3n",
+        "C": "2m+1",
+        "D": "2n+1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/988/gate2006-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 25
+    },
+    {
+      "id": "2022-Q27",
+      "source_id": 1122127,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a simple undirected unweighted graph with at least three vertices. If [latex]A[/latex] is the adjacency matrix of the graph, then the number of 3-cycles in the graph is given by the trace of",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]A^3[/latex]",
+        "B": "[latex]A^3[/latex] divided by 2",
+        "C": "[latex]A^3[/latex] divided by 3",
+        "D": "[latex]A^3[/latex] divided by 6"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "[latex](A^3)_{ii}[/latex] = number of closed walks of length 3 starting at vertex i, i.e. triangles through i, each counted twice (two directions).<br><br>\nIn the trace, every triangle appears at each of its 3 vertices [latex]\\times[/latex] 2 directions = 6 times.<br><br>\nNumber of triangles [latex]=\\frac{tr(A^3)}{6}[/latex]<br><br>\n<b>Answer: [latex]A^3[/latex] divided by 6</b><br><br><a href=\"https://gateoverflow.in/371909/Gate-cse-2022-question-27#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 27
+    },
+    {
+      "id": "2024-S1-Q50",
+      "source_id": 1124150,
+      "number": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The number of edges present in the forest generated by the DFS traversal of an undirected graph [latex] G [/latex] with 100 vertices is 40 . The number of connected components in [latex] G [/latex] is ____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        60.0,
+        60.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "DFS produces one tree per connected component. A tree with [latex]k[/latex] vertices has [latex]k-1[/latex] edges, so a forest with [latex]n[/latex] vertices and [latex]c[/latex] trees has [latex]n-c[/latex] edges.<br><br>\n[latex]100-c=40\\Rightarrow c=60[/latex]<br><br>\n<b>Answer: 60</b><br><br><a href=\"https://gateoverflow.in/422792/gate-cse-2024-set-1-question-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 50
+    }
+  ]
+}

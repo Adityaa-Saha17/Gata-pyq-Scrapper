@@ -1,0 +1,846 @@
+{
+  "paper_id": "databases-03",
+  "paper": "Databases: Topic Mock 3",
+  "kind": "topic_mock",
+  "topic": "Databases",
+  "set": 3,
+  "duration_min": 90,
+  "total_marks": 48,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2022-Q21",
+      "source_id": 1122121,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a relation [latex]R( A, B, C, D, E )[/latex] with the following three functional dependencies.<br>[latex]AB \\rightarrow C;BC  \\rightarrow D; C \\rightarrow E;[/latex]<br>\nThe number of superkeys in the relation [latex]R[/latex] is .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "A and B never appear on the right side of any FD, so every key must contain A and B.<br>\n[latex]AB^+=AB\\rightarrow ABC\\rightarrow ABCD\\rightarrow ABCDE[/latex], so AB is the only candidate key.<br><br>\nSuperkeys = AB plus any subset of {C, D, E}: [latex]2^3=8[/latex].<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/371915/Gate-cse-2022-question-21#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 21
+    },
+    {
+      "id": "2003-Q30",
+      "source_id": 1103130,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following SQL query<pre><code>\r\nselect distinct al, a2,........., an\r\nfrom r1, r2,........, rm\r\nwhere P </pre></code>\r\nFor an arbitrary predicate P,this query is equivalent to which of the following\r\nrelational algebra expressions? <br><img src=\"/wp-content/uploads/GATE/CS/20031/q30.jpg\"/>  ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q30.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "<a href=\"https://gateoverflow.in/920/gate2003-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 30
+    },
+    {
+      "id": "1999-Q32",
+      "source_id": 1101832,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the schema [latex]R=(S,T, U, V)[/latex] and the dependencies [latex]S \\rightarrow T, T \\rightarrow U, U \\rightarrow V[/latex] and [latex]V \\rightarrow S[/latex]. Let [latex]R = (R1\\text{ and } R2)[/latex] be a decomposition such that [latex]R1 \\cap R2 \\neq \\phi[/latex]. The decomposition is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "not in 2NF",
+        "B": "in 2NF but not 3NF",
+        "C": "in 3NF but not in 2NF",
+        "D": "in both 2NF and 3NF"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "<a href=\"https://gateoverflow.in/1485/gate1999-2-7-ugcnet-june2014-iii-25\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 32
+    },
+    {
+      "id": "2014-S1-Q22",
+      "source_id": 1114122,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Given the following statements:<br>\nS1: A foreign key declaration can always be replaced by an equivalent check\nassertion in SQL <br>\nS2: Given the table R(a,b,c) where a and b together form the primary key, the following is a\nvalid table definition. <br>\nCREATE TABLE S ( <br>\na INTEGER, <br>\nd INTEGER, <br>\ne INTEGER, <br>\nPRIMARY KEY (d), <br>\nFOREIGN KEY (a) references R) <br>\nWhich one of the following statements is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1 is TRUE and S2 is a FALSE",
+        "B": "Both S1 and S2 are TRUE",
+        "C": "S1 is FALSE and S2 is a TRUE",
+        "D": "Both S1 and S2 are FALSE"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "Checking each statement:<br>- S1: a CHECK constraint cannot always replace a foreign key (it cannot easily refer to another table and handle updates/deletes) [latex]\\rightarrow[/latex] FALSE.<br>\n- S2: R's primary key is (a, b), so a foreign key must reference both columns; FOREIGN KEY (a) references R is invalid [latex]\\rightarrow[/latex] FALSE.<br><br>\n<b>Answer: Both S1 and S2 are FALSE</b><br><br><a href=\"https://gateoverflow.in/1789/gate2014-1-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 22
+    },
+    {
+      "id": "2002-Q19",
+      "source_id": 1102119,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Relation R with an associated set of functional dependencies, F , is decomposed\ninto BCNF. The redundancy (arising out of functional dependencies) in the\nresulting set of relations is.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Zero",
+        "B": "More than zero but less than that of an equivalent 3NF decomposition",
+        "C": "Proportional to the size of F+",
+        "D": " Indetermine."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "<a href=\"https://gateoverflow.in/824/gate2002-1-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 19
+    },
+    {
+      "id": "2016-S1-Q22",
+      "source_id": 1116122,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is NOT a part of the ACID properties of database transactions?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Atomicity",
+        "B": "Consistency",
+        "C": "Isolation",
+        "D": "Deadlock-freedom"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "ACID = Atomicity, Consistency, Isolation, Durability. Deadlock-freedom is not one of them.<br><br>\n<b>Answer: Deadlock-freedom</b><br><br><a href=\"https://gateoverflow.in/39644/gate2016-1-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 22
+    },
+    {
+      "id": "2013-Q15",
+      "source_id": 1113115,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "An index is clustered, if",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "it is on a set of fields that form a candidate key.",
+        "B": "it is on a set of fields that include the primary key",
+        "C": "the data records of the file are organized in the same order as the data entries of the index.",
+        "D": "the data records of the file are organized not in the same order as the data entries of the index."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "A clustered index is one where the data records are stored in (about) the same order as the index entries.<br><br>\n<b>Answer: the data records of the file are organized in the same order as the data entries of the index</b><br><br><a href=\"https://gateoverflow.in/1437/gate2013-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 15
+    },
+    {
+      "id": "2019-Q14",
+      "source_id": 1119114,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following statements is NOT correct about the [latex]B^+[/latex] tree data structure used for creating an index of a relational database table?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]B^+[/latex] Tree is a height-balanced tree",
+        "B": "Non-leaf nodes have pointers to data records",
+        "C": "Key values in each node are kept in sorted order",
+        "D": "Each leaf node has a pointer to the next leaf node"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "In a [latex]B^+[/latex] tree only the <b>leaf nodes</b> hold pointers to data records. Non-leaf nodes contain only keys and pointers to child nodes.<br><br>\nThe other statements are true (height balanced, sorted keys, leaves linked).<br><br>\n<b>Answer: Non-leaf nodes have pointers to data records</b><br><br><a href=\"https://gateoverflow.in/302834/gate2019-cs-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 14
+    },
+    {
+      "id": "2012-Q14",
+      "source_id": 1112114,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Given the basic ER and relational models, which of the following is INCORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "An attribute of an entity can have more than one value",
+        "B": "An attribute of an entity can be composite",
+        "C": "In a row of a relational table, an attribute can have more than one value",
+        "D": "In a row of a relational table, an attribute can have exactly one value or a NULL value"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "ER Model",
+      "explanation": "In the ER model, attributes may be multi-valued or composite. In a relational table (1NF), each attribute in a row holds a single atomic value or NULL.<br><br>\n<b>Answer: In a row of a relational table, an attribute can have more than one value</b><br><br><a href=\"https://gateoverflow.in/46/gate2012-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 14
+    },
+    {
+      "id": "2014-S1-Q21",
+      "source_id": 1114121,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the relation scheme R = (E, F, G, H, I, J, K, L, M, N) and the set of functional\ndependencies <br> {{E,F}[latex]\\rightarrow[/latex]{G}, {F}[latex]\\rightarrow[/latex]{I,J}, {E,H}[latex]\\rightarrow[/latex]{K,L},  {K}[latex]\\rightarrow[/latex]{M}, \n{L}[latex]\\rightarrow[/latex]{N} }  on R. What is the key for R?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{E, F}",
+        "B": "{E, F, H}",
+        "C": "{E, F, H, K, L}",
+        "D": "{E}"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "E, F and H never appear on the right side, so they must be in every key.<br>\n[latex]\\{E,F,H\\}^+[/latex]: EF [latex]\\rightarrow[/latex] G, F [latex]\\rightarrow[/latex] IJ, EH [latex]\\rightarrow[/latex] KL, K [latex]\\rightarrow[/latex] M, L [latex]\\rightarrow[/latex] N [latex]\\rightarrow[/latex] all attributes.<br><br>\n<b>Answer: {E, F, H}</b><br><br><a href=\"https://gateoverflow.in/1788/gate2014-1-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 21
+    },
+    {
+      "id": "2001-Q24",
+      "source_id": 1101124,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose the adjacency relation of vertices in a graph is represented in a table Adj(X,Y).  Which of the following queries cannot be expressed by a relational algebra\nexpression of constant length ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "List all vertices adjacent to a given vertex.",
+        "B": "List all vertices which have self loops",
+        "C": "List all vertices which belong to cycles of less than three vertices",
+        "D": "List all vertices reachable from a given vertex"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/717/gate2001-1-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 24
+    },
+    {
+      "id": "2015-S2-Q21",
+      "source_id": 1115221,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following transaction involving two bank accounts x and y. <br><br> read(x);    x:=x-50;  write(x);    read(y);    y:=y+50; write(y) <br><br> The constraint that the sum of the accounts x and y should remain constant is that of",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Atomicity",
+        "B": "Consistency",
+        "C": "Isolation",
+        "D": "Durability"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "Keeping x + y constant is an integrity rule of the database, which the transaction must preserve. That is the consistency property.<br><br>\n<b>Answer: Consistency</b><br><br><a href=\"https://gateoverflow.in/8047/gate2015-2-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 21
+    },
+    {
+      "id": "2014-S2-Q30",
+      "source_id": 1114230,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a join (relation algebra) between relations r(R)and s(S) using the nested loop\nmethod. There are 3 buffers each of size equal to disk block size, out of which one buffer is\nreserved for intermediate results. Assuming size(r(R))[latex]\\lt[/latex]size(s(S)), the join will have fewer\nnumber of disk block accesses if",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "relation r(R) is in the outer loop.",
+        "B": "relation s(S) is in the outer loop",
+        "C": "join selection factor between r(R) and s(S) is more than 0.5.",
+        "D": "join selection factor between r(R) and s(S) is less than 0.5"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "With one buffer each for the outer and inner relation, block accesses = [latex]b_{outer}+b_{outer}\\times b_{inner}[/latex].<br><br>\nThe product term is the same either way, so the cost is smaller when the outer relation has fewer blocks. Since r is smaller, put r in the outer loop.<br><br>\n<b>Answer: relation r(R) is in the outer loop</b><br><br><a href=\"https://gateoverflow.in/1989/gate2014-2-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 30
+    },
+    {
+      "id": "2019-Q55",
+      "source_id": 1119155,
+      "number": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following relation P(X, Y, Z), Q(X, Y, T) and R(Y, V):\n<br><img src=\"/wp-content/uploads/GATE/CS/20191/q55.jpg\" /><br>How many tuples will be returned by the following relational algebra query?  <br><img src=\"/wp-content/uploads/GATE/CS/20191/q55a.jpg\" /><br>Answer:______",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20191/q55.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20191/q55a.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.0,
+        1.0
+      ],
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "<b>Left part:</b> R tuples with V = V2 are (Y3, V2) and (Y2, V2). P has Y = Y2 only in (X2, Y2, Z2) [latex]\\rightarrow[/latex] {X2}.<br>\n<b>Right part:</b> Q tuples with T [latex]\\gt[/latex] 2 are (X1, Y2, 5) and (X1, Y1, 6); both Y2 and Y1 exist in R [latex]\\rightarrow[/latex] {X1}.<br><br>\n{X2} [latex]-[/latex] {X1} = {X2} [latex]\\rightarrow[/latex] 1 tuple.<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/302793/gate2019-cs-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 55
+    },
+    {
+      "id": "2014-S2-Q29",
+      "source_id": 1114229,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following schedule S of transactions T1, T2, T3, T4: <br><img src=\"/wp-content/uploads/GATE/CS/20142/q29.jpg\"/> <br> Which one of the following statements is CORRECT?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20142/q29.jpg"
+      ],
+      "options": {
+        "A": "S is conflict-serializable but not recoverable",
+        "B": "S is not conflict-serializable but is recoverable",
+        "C": "S is both conflict-serializable and recoverable",
+        "D": "S is neither conflict-serializable nor is it recoverable"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "Order: R2(X), W3(X), C3, W1(X), C1, W2(Y), R2(Z), C2, R4(X), R4(Y), C4.<br><br>\nConflict edges: T2[latex]\\rightarrow[/latex]T3, T2[latex]\\rightarrow[/latex]T1, T3[latex]\\rightarrow[/latex]T1 (on X), T1[latex]\\rightarrow[/latex]T4, T3[latex]\\rightarrow[/latex]T4 (on X), T2[latex]\\rightarrow[/latex]T4 (on Y). No cycle [latex]\\rightarrow[/latex] conflict serializable (T2, T3, T1, T4).<br><br>\nT4 reads X from T1 and Y from T2, and both commit before T4 commits [latex]\\rightarrow[/latex] recoverable.<br><br>\n<b>Answer: S is both conflict-serializable and recoverable</b><br><br><a href=\"https://gateoverflow.in/1988/gate2014-2-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 29
+    },
+    {
+      "id": "2007-Q48",
+      "source_id": 1107148,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which of the following is TRUE about formulae in Conjunctive Normal Form?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "For any formula, there is a truth assignment for which at least half the\nclauses evaluate to true.",
+        "B": "For any formula, there is a truth assignment for which all the clauses\nevaluate to true.",
+        "C": "There is a formula such that for each truth assignment, at most one-fourth of\nthe clauses evaluate to true.",
+        "D": "None of the above."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "<a href=\"https://gateoverflow.in/1246/gate2007-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 48
+    },
+    {
+      "id": "2017-S2-Q44",
+      "source_id": 1117244,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Two transactions [latex]T_1 \\; and \\; T_2[/latex] are given as: <br><br>\n[latex]T_{1}:r_{1} (X)w_{1}(X)r_{1}(Y)w_{1}(Y)  [/latex]<br>[latex]T_{2}:r_{2}(Y)w_{2}(Y)r_{2}(Z)w_{2}(Z)[/latex]<br><br>\nwhere [latex]r_{i}(V)[/latex] denotes a read operation by transaction [latex]T_{i}[/latex] on a variable V and [latex]w_{i}(V)[/latex] denotes a\nwrite operations by transaction [latex]T_{i}[/latex]  on a variable V. The total number of conflict serializable\nschedules that can be formed by [latex]T_1 \\; and \\; T_2[/latex] is _____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        54.0,
+        54.0
+      ],
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "T1 = a1 a2 a3 a4 (a3, a4 use Y), T2 = b1 b2 b3 b4 (b1, b2 use Y). The only conflicts are on Y, so a schedule is conflict serializable iff all of T1's Y operations come before T2's, or the other way round.<br>\n- T1 before T2 on Y: a4 before b1 [latex]\\rightarrow[/latex] the serial schedule T1 T2: 1 way.<br>\n- T2 before T1 on Y: b2 before a3. Of all [latex]\\binom84=70[/latex] interleavings, 17 have a3 before b2, so 53 qualify.<br><br>\nTotal = 1 + 53 = 54<br><br>\n<b>Answer: 54</b><br><br><a href=\"https://gateoverflow.in/118640/gate2017-2-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 44
+    },
+    {
+      "id": "2015-S2-Q30",
+      "source_id": 1115230,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider two relations R1(A,B) with the tuples (1,5), (3,7) and R2(A,C) = (1,7), (4,9). Assume that R(A,B,C) is the full natural outer join of R1 and R2. Consider the following tuples of the form (A,B,C): a = (1,5,null), b = (1,null,7), c = (3, null, 9), d = (4,7,null), e = (1,5,7), f = (3,7,null), g = (4,null,9). Which one of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R contains a, b, e, f, g but not c, d.",
+        "B": "R contains all of a, b, c, d, e, f, g.",
+        "C": "R contains e, f, g but not a, b.",
+        "D": "R contains e but not f, g."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "Natural join on A:<br>\n- A = 1 matches: (1, 5, 7) [latex]\\rightarrow[/latex] e<br>\n- R1 (3, 7) has no match: (3, 7, null) [latex]\\rightarrow[/latex] f<br>\n- R2 (4, 9) has no match: (4, null, 9) [latex]\\rightarrow[/latex] g<br><br>\nSince A = 1 matched, (1, 5, null) and (1, null, 7) do not appear.<br><br>\n<b>Answer: R contains e, f, g but not a, b</b><br><br><a href=\"https://gateoverflow.in/8151/gate2015-2-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 30
+    },
+    {
+      "id": "2026-S1-Q55",
+      "source_id": 1126155,
+      "number": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a relational database schema with a relation [latex]R(A, B, C, D)[/latex]. If [latex]\\{A, B\\}[/latex] and [latex]\\{A, C\\}[/latex] are the only two candidate keys of the relation [latex]R[/latex], then the number of superkeys of relation [latex]R[/latex] is ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        6.0,
+        6.0
+      ],
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "A <b>superkey</b> is any subset of attributes that contains at least one candidate key as a subset. Here the [latex]4[/latex] attributes are [latex]\\{A,B,C,D\\}[/latex] and the candidate keys are [latex]\\{A,B\\}[/latex] and [latex]\\{A,C\\}[/latex].<br><br>\nCount subsets of [latex]\\{A,B,C,D\\}[/latex] containing [latex]\\{A,B\\}[/latex]: freely choose the remaining [latex]\\{C,D\\}[/latex] &rarr; [latex]2^2=4[/latex] subsets.<br>\nCount subsets containing [latex]\\{A,C\\}[/latex]: freely choose the remaining [latex]\\{B,D\\}[/latex] &rarr; [latex]2^2=4[/latex] subsets.<br>\nSubsets counted twice are those containing <i>both</i> [latex]\\{A,B\\}[/latex] and [latex]\\{A,C\\}[/latex], i.e. containing [latex]\\{A,B,C\\}[/latex]: freely choose remaining [latex]\\{D\\}[/latex] &rarr; [latex]2^1=2[/latex] subsets.<br><br>\nBy inclusion-exclusion, total superkeys [latex]=4+4-2=6[/latex].<br><br>\n<b>Answer: 6</b> <br><br> <a href=\"https://gateoverflow.in/523025/gate-cse-2026-set-1-question-55#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 55
+    },
+    {
+      "id": "2019-Q51",
+      "source_id": 1119151,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A relational database contains two tables Student and Performance as shown below: <br><img src=\"/wp-content/uploads/GATE/CS/20191/q51.jpg\" /><br>The primary key of the Student table is Roll_no. For the Performance table, the columns Roll_no. and Subject_code together from the primary key. Consider the SQL query given below: <pre><code>SELECT S.Student_name, sum(P.Marks)\nFROM Student S, Performance P\nWHERE  P.Marks  >  84\nGROUP BY S.Student_name;</pre></code>The number of rows returned by the above SQL query is _________ . ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20191/q51.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "There is <b>no join condition</b>, so FROM makes a cross product: every student is paired with every Performance row.<br><br>\nWHERE Marks [latex]\\gt[/latex] 84 keeps the 5 performance rows with marks 86, 95, 90, 89, 92, and each is paired with all 5 students.<br><br>\nGROUP BY Student_name gives one row per student name [latex]\\rightarrow[/latex] 5 rows.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/302797/gate2019-cs-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 51
+    },
+    {
+      "id": "2007-Q60",
+      "source_id": 1107160,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relation employee(name, sex, supervisorName) with name as the\nkey. supervisorName gives the name of the supervisor of the employee under\nconsideration. What does the following Tuple Relational Calculus query produce? <br><img src=\"/wp-content/uploads/GATE/CS/20071/q60.jpg\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20071/q60.jpg"
+      ],
+      "options": {
+        "A": "Names of employees with a male supervisor.",
+        "B": "Names of employees with no immediate male subordinates",
+        "C": "Names of employees with no immediate female subordinates.",
+        "D": "Names of employees with a female supervisor"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Tuple Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/1258/gate2007-60#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 60
+    },
+    {
+      "id": "2007-Q64",
+      "source_id": 1107164,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following schedules involving two transactions. Which one of the\r\nfollowing statements is TRUE? <br> [latex]S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X)[/latex] <br> [latex]S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X)[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both S1 and S2 are conflict serializable.",
+        "B": "S1 is conflict serializable and S2 is not conflict serializable.",
+        "C": "S1 is not conflict serializable and S2 is conflict serializable.",
+        "D": "Both S1 and S2 are not conflict serializable."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "<a href=\"https://gateoverflow.in/1262/gate2007-64#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 64
+    },
+    {
+      "id": "2006-Q67",
+      "source_id": 1106167,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relation account (customer, balance) where customer is a primary\r\nkey and there are no mall values. We would like to rank customers according\r\nto decreasing balance. The customer with the largest balance gets rank 1. Ties\r\nare not broken but ranks are skipped: if exactly two customers have the largest\r\nbalance they each get rank 1 and rank 2 is not assigned.\r\n<br><img src=\"/wp-content/uploads/GATE/CS/20061/q67.jpg\"/><br>\r\nConsider these statements about Query 1 and Query 2. <br>\r\n1. Query 1will produce the same row set as Query 2 for some but not all\r\ndatabases <br>\r\n2. Both Query 1 Query 2 are correct implementations of the specification <br>\r\n3. Query 1 is a correct implementation of the specification but Query 2 is not <br>\r\n4. Neither query 1 nor Query 2 is a correct implementation of the specification <br>\r\n5. Assigning rank with a pure relational Query takes less time than scanning \r\nin decreasing balance order the assigning ranks using ODBC <br><br>\r\nWhich two of the above statements are correct?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q67.jpg"
+      ],
+      "options": {
+        "A": "2 and 5",
+        "B": "1 and 3",
+        "C": "1 and 4",
+        "D": "3 and 5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "<a href=\"https://gateoverflow.in/1845/gate2006-67#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 67
+    },
+    {
+      "id": "2020-Q54",
+      "source_id": 1120154,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a database implemented using B+ tree for file indexing and installed on a disk drive with block size of 4 KB. The size of search key is 12 bytes and the size of tree/disk pointer is 8 bytes. Assume that the database has one million records. Also assume that no node of the B+ tree and no records are present initially in main memory. Consider that each record fits into one disk block. The minimum number of disk accesses required to retrieve any record in the database is _______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "Checking each statement:<br>- Internal node order p: [latex]8p+12(p-1)\\le4096\\Rightarrow p=205[/latex].<br>\n- Leaf: [latex]20k+8\\le4096\\Rightarrow k=204[/latex] keys per leaf.<br><br>\nLeaves for [latex]10^6[/latex] records: [latex]\\lceil10^6/204\\rceil=4902[/latex]; next level [latex]\\lceil4902/205\\rceil=24[/latex]; then 1 root. So the tree has 3 levels.<br><br>\nAccesses = 3 (tree) + 1 (record block) = 4<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/333177/gate2020-cs-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 54
+    },
+    {
+      "id": "2006-Q68",
+      "source_id": 1106168,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relation enrolled (student, course) in which student, course) is the\r\nprimary key, and the relation paid (student, amount) where student is the primary\r\nkey . Assume no null values and no foreign keys or integrity constraints. Given\r\nthe following four queries: <br><br>\r\nQuery 1: Select from enrolled where student in (select student form paid) <br>\r\nQuery 2: Select student from paid where student in (select student from\r\nenrolled) <br>\r\nQuery 3: Select E. student from enrolled E, paid P where E. student= P student <br>\r\nQuery 4: Select student from paid where exists <br>(select*from enrolled where\r\nenrolled student=paid.student) <br><br>\r\nWhich one of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "All queries return identical row sets for any database",
+        "B": "Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets",
+        "C": "There exist databases for which Query 3 returns strictly fewer rows than Query 2",
+        "D": "There exist databases for which Query 4 will encounter an intergrity\nviolation at runtime"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "<a href=\"https://gateoverflow.in/1846/gate2006-68#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 68
+    },
+    {
+      "id": "2016-S2-Q51",
+      "source_id": 1116251,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following databases chedule with two transactions, T1 and T2.<br>\n[latex]S=r_{2}(X);r_{1}(X);r_{2}(Y);w_{1}(X);r_{1}(Y);w_{2}(X);a_{1};a_{2}[/latex]<br>\nwhere [latex]r_{i}(Z)[/latex] denotes a read operation by transaction [latex]T_{i}[/latex] on avariable Z, [latex]w_{i}(Z)[/latex]\n denotes a write operation by [latex]T_{i}[/latex] on avariable Z and [latex]a_{i}[/latex] denotes an abort by transaction [latex]T_{i}[/latex].<br>\nWhich one of the following statements about the above schedule is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S is non-recoverable",
+        "B": "S is recoverable,but has a cascading abort",
+        "C": "S does not have a cascading abort",
+        "D": "S is strict"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "No transaction reads a value written by the other before it ends: T1 reads X before T2 writes it, and T2's reads happen before T1's write. So when T1 aborts, T2 does not need to be aborted: <b>no cascading abort</b>.<br><br>\nIt is not strict, because [latex]w_2(X)[/latex] overwrites [latex]w_1(X)[/latex] while T1 is still active.<br><br>\n<b>Answer: S does not have a cascading abort</b><br><br><a href=\"https://gateoverflow.in/39590/gate2016-2-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 51
+    },
+    {
+      "id": "2014-S3-Q54",
+      "source_id": 1114354,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following relational schema: <br>\nEmployee (empId, empName, empDept ) <br>\nCustomer (custId,custName, salesRepId, rating)<br>\nSalesRepId is a foreign key referring to empId of the employee relation. Assume that each\nemployee makes a sale to at least one customer. What does the following query return?<br>\n<pre><code>SELECT empName \nFROM employee E \n WHERE NOT EXISTS (SELECT custId\nFROM customer C\nWHERE C. salesRepId = E. empId\nAND C. rating < > 'GOOD')</pre></code>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Names of all the employees with at least one of their customers having a 'GOOD' rating",
+        "B": "Names of all the employees with at most one of their customers having a 'GOOD' rating.",
+        "C": "Names of all the employees with none of their customers having a 'GOOD' rating.",
+        "D": "Names of all the employees with all their customers having a 'GOOD' rating."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "The subquery finds this employee's customers whose rating is not 'GOOD'. NOT EXISTS keeps the employee only if there are none.<br><br>\nSince every employee has at least one customer, this means all of the employee's customers are rated 'GOOD'.<br><br>\n<b>Answer: Names of all the employees with all their customers having a 'GOOD' rating</b><br><br><a href=\"https://gateoverflow.in/2089/gate2014-3-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 54
+    },
+    {
+      "id": "2021-S2-Q40",
+      "source_id": 1121240,
+      "number": 28,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose the following functional dependencies hold on a relation U with attributes [latex]P, Q, R, S, \\text{ and } T[/latex]:\n<br><br>[latex]P \\rightarrow QR \\\\ RS \\rightarrow T[/latex]<br><br>\nWhich of the following functional dependencies can be inferred from the above functional dependencies?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]PS \\rightarrow T[/latex]",
+        "B": "[latex]R \\rightarrow T[/latex]",
+        "C": "[latex]P \\rightarrow R[/latex]",
+        "D": "[latex]PS \\rightarrow Q[/latex]"
+      },
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "Checking each statement:<br>- [latex]P\\rightarrow QR[/latex] [latex]\\Rightarrow[/latex] [latex]P\\rightarrow R[/latex] (decomposition) True<br>\n- [latex]PS\\rightarrow RS[/latex] (augmentation) and [latex]RS\\rightarrow T[/latex] [latex]\\Rightarrow[/latex] [latex]PS\\rightarrow T[/latex] True<br>\n- [latex]P\\rightarrow Q[/latex] [latex]\\Rightarrow[/latex] [latex]PS\\rightarrow Q[/latex] True<br>\n- [latex]R\\rightarrow T[/latex]: [latex]R^+=\\{R\\}[/latex], so not implied False<br><br>\n<b>Answer: [latex]PS\\rightarrow T,\\ P\\rightarrow R,\\ PS\\rightarrow Q[/latex]</b><br><br><a href=\"https://gateoverflow.in/357500/gate-cse-2021-set-2-question-40#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 40
+    },
+    {
+      "id": "2003-Q85",
+      "source_id": 1103185,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following functional dependencise in a database: <br><br>[latex]\\begin{array}{|l|l|}\\hline \\text{Date\\_of\\_Birth } \\to \\text{Age} & \\text{Age } \\to \\text{Eligibility} \\\\ \\hline  \\text{Name } \\to \\text{Roll\\_number} & \\text{Roll\\_number }\\to \\text{Name} \\\\ \\hline   \\text{Course\\_number }\\to \\text{Course\\_name} & \\text{Course\\_number } \\to\\text{Instructor} \\\\ \\hline  \\text{(Roll\\_number, Course\\_number) }\\to\\text{Grade} & \\text{}  \\\\ \\hline \\end{array}[/latex]<br><br>  \nThe relation (Roll_number,Name,Date_of_brith,Age) is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "in second normal normal form but not in third normal form",
+        "B": "in third normal form but not in BCNF",
+        "C": " in BCNF",
+        "D": "in none of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "<a href=\"https://gateoverflow.in/968/gate2003-85#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 85
+    },
+    {
+      "id": "2006-Q69",
+      "source_id": 1106169,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relation enrolled (student, course) in which (student, course) is\nthe primary key, and the relation paid (student, amount) where student is the\nprimary key. Assume no null values and no foreign keys or integrity constraints.\nAssume that amounts 6000, 7000,8000,9000 and 10000 were each paid by 20% of\nthe students. Consider these query plans (Plan 1 on left, Plan 2 on right) to \"list\nall courses taken by students who have paid more than x.\" <br><img src=\"/wp-content/uploads/GATE/CS/20061/q69.jpg\"/><br> A disk seek takes 4 ms. disk data transfer bank width is 300 MB/s and checking a tuple to see if amount is greater x takes 10[latex]\\mu[/latex]s . Which of the following statements is correct?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q69.jpg"
+      ],
+      "options": {
+        "A": " Plan 1 and Plan 2 will not output identical row sets for all databases",
+        "B": "A course may be listed more than once int the output of Plan 1 for some databases",
+        "C": "For x = 5000, Plan 1 executes faster than Plan 2 for all databases",
+        "D": "For x = 9000, Plan 1 executes slower than Plan 2 for all databases"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "<a href=\"https://gateoverflow.in/1847/gate2006-69#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 69
+    }
+  ]
+}

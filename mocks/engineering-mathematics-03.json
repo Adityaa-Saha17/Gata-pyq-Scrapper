@@ -1,0 +1,829 @@
+{
+  "paper_id": "engineering-mathematics-03",
+  "paper": "Engineering Mathematics: Topic Mock 3",
+  "kind": "topic_mock",
+  "topic": "Engineering Mathematics",
+  "set": 3,
+  "duration_min": 90,
+  "total_marks": 41,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2012-Q9",
+      "source_id": 1112109,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the function f(x)=sin(x) in the interval x [latex]\\in [\\pi/4, 7\\pi/4][/latex]. The number and location(s) of the local minima of this function are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "One, at [latex]\\pi[/latex]/2",
+        "B": "One, at 3[latex]\\pi[/latex]/2",
+        "C": "Two, at [latex]\\pi[/latex]/2 and 3[latex]\\pi[/latex]/2",
+        "D": "Two, at [latex]\\pi[/latex]/4 and 3[latex]\\pi[/latex]/2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Checking each statement:<br>- Inside the interval, sin x has a minimum at [latex]3\\pi/2[/latex] (value [latex]-[/latex]1).<br>\n- At the left end [latex]\\pi/4[/latex], sin x is increasing, so nearby points are larger: it is a local minimum.<br>\n- At [latex]7\\pi/4[/latex], sin x is increasing towards it, so it is a local maximum.<br><br>\n<b>Answer: Two, at [latex]\\pi/4[/latex] and [latex]3\\pi/2[/latex]</b><br><br><a href=\"https://gateoverflow.in/41/gate2012-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 9
+    },
+    {
+      "id": "2023-Q8",
+      "source_id": 1123108,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex] A=\\begin{bmatrix}\n1 & 2 & 3 &4 \\\\ \n 4&  1& 2 &3 \\\\ \n 3& 4 & 1 &2 \\\\ \n2 &3  &4  &1 \n\\end{bmatrix}[/latex] and [latex] B=\\begin{bmatrix}\n 3& 4 & 1 &2 \\\\\n 4&  1& 2 &3 \\\\ \n 1 & 2 & 3 &4 \\\\ \n2 &3  &4  &1 \n\\end{bmatrix}[/latex]<br>Let det(A) and det(B) denote the determinants of the matrices A and B,\nrespectively.<br>\nWhich one of the options given below is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "det(A) = det(B)",
+        "B": "det(B) = - det(A)",
+        "C": "det(A)=0",
+        "D": "det(AB) = det(A) + det(B)"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Rows of B are rows of A in the order [latex]R_3,R_2,R_1,R_4[/latex], i.e. B is A with rows 1 and 3 swapped.<br><br>\nOne row swap changes the sign of the determinant: [latex]\\det(B)=-\\det(A)[/latex].<br><br>\n<b>Answer: det(B) = [latex]-[/latex]det(A)</b><br><br><a href=\"https://gateoverflow.in/399304/gate-cse-2023-question-8#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 8
+    },
+    {
+      "id": "2017-S2-Q22",
+      "source_id": 1117222,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]P=\\begin{bmatrix} 1 & 1&-1 \\\\ 2&-3 & 4\\\\ 3 &-2 & 3 \\end{bmatrix} [/latex] and [latex] Q=\\begin{bmatrix} -1 & -2&-1 \\\\ 6 & 12& 6\\\\ 5&10 & 5 \\end{bmatrix}[/latex] be two matrices.\nThen the rank of P +Q is _____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]P+Q=\\begin{bmatrix}0&-1&-2\\\\8&9&10\\\\8&8&8\\end{bmatrix}[/latex]. Row 2 = Row 3 [latex]-[/latex] Row 1, so the rows are dependent; rows 1 and 3 are independent.<br><br>\nRank = 2<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/118363/gate2017-2-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 22
+    },
+    {
+      "id": "1995-Q38",
+      "source_id": 1101438,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A unit vector perpendicular to both the vectors a=2i-3j+k and b=i+j-2k is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{\\sqrt{3}} (i+j+k)[/latex]",
+        "B": "[latex]\\frac{1}{3} (i+j-k)[/latex]",
+        "C": "[latex]\\frac{1}{3} (i-j-k)[/latex]",
+        "D": "[latex]\\frac{1}{\\sqrt{3}} (i+j-k)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2625/gate1995-2-13\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 38
+    },
+    {
+      "id": "2004-Q27",
+      "source_id": 1104127,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A,B,C,D be n x n matrices, each with non-zero determinant. If ABCD=I, then [latex]B^{-1}[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]D^{-1}C^{-1}A^{-1}[/latex]",
+        "B": "CDA",
+        "C": "ADC",
+        "D": "Does not necessarily exist"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1024/gate2004-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 27
+    },
+    {
+      "id": "2016-S1-Q3",
+      "source_id": 1116103,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "[latex]\\lim_{x\\rightarrow 4}\\frac{sin(x-4)}{x-4}[/latex]=_________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.0,
+        1.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Put [latex]t=x-4\\rightarrow0[/latex]: [latex]\\lim_{t\\to0}\\frac{\\sin t}{t}=1[/latex].<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/39630/gate2016-1-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 3
+    },
+    {
+      "id": "2018-Q1",
+      "source_id": 1118101,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is a closed form expression for the generating function of the sequence [latex]\\left \\{ a_{n} \\right \\}[/latex], where [latex]a_{n}=2n+3[/latex] for all n = 0, 1, 2,...?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{3}{(1-x)^{2}}[/latex] ",
+        "B": "[latex]\\frac{3x}{(1-x)^{2}}[/latex] ",
+        "C": "[latex]\\frac{2-x}{(1-x)^{2}}[/latex] ",
+        "D": "[latex]\\frac{3-x}{(1-x)^{2}}[/latex] "
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]\\sum(2n+3)x^n=2\\sum nx^n+3\\sum x^n=\\frac{2x}{(1-x)^2}+\\frac{3}{1-x}=\\frac{2x+3(1-x)}{(1-x)^2}=\\frac{3-x}{(1-x)^2}[/latex]<br><br>\n<b>Answer: [latex]\\frac{3-x}{(1-x)^2}[/latex]</b><br><br><a href=\"https://gateoverflow.in/204075/gate2018-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 1
+    },
+    {
+      "id": "1998-Q2",
+      "source_id": 1101702,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following set of equations<br>\r\n[latex]x+2y=5\\\\ 4x+8y=12\\\\ 3x+6y+3z=15[/latex]<br>\r\nThis set\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "has unique solution",
+        "B": "has no solution",
+        "C": "has finite number of solutions",
+        "D": "has infinite number of solutions"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1639/gate1998-1-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 2
+    },
+    {
+      "id": "2025-S1-Q13",
+      "source_id": 1125113,
+      "number": 9,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the given system of linear equations for variables [latex]x[/latex] and [latex]y[/latex], where [latex]k[/latex] is a real-valued constant. Which of the following option(s) is/are CORRECT?\n<br><br>\n[latex]x + k y = 1[/latex]<br>\n[latex]k x + y = -1[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There is exactly one value of [latex]k[/latex] for which the above system of equations has no solution.",
+        "B": "There exist an infinite number of values of [latex]k[/latex] for which the system of equations has no solution.",
+        "C": "There exists exactly one value of [latex]k[/latex] for which the system of equations has exactly one solution.",
+        "D": "There exists exactly one value of [latex]k[/latex] for which the system of equations has an infinite number of solutions."
+      },
+      "correct": [
+        "A",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]\\begin{cases}x+ky=1\\\\kx+y=-1\\end{cases}[/latex], with determinant [latex]\\Delta=1-k^2[/latex].<br><br>\n<b>No solution</b> requires [latex]\\Delta=0[/latex] (i.e. [latex]k=\\pm1[/latex]) <i>and</i> the two equations to actually be inconsistent (parallel but not identical lines):<br>\n- [latex]k=1[/latex]: equations become [latex]x+y=1[/latex] and [latex]x+y=-1[/latex] &mdash; parallel, contradictory &rarr; <b>no solution</b>.<br>\n- [latex]k=-1[/latex]: equations become [latex]x-y=1[/latex] and [latex]-x+y=-1[/latex], which is just the first equation multiplied by [latex]-1[/latex] &mdash; the <i>same</i> line &rarr; <b>infinitely many solutions</b>, not \"no solution.\"<br><br>\nSo there is exactly <b>one</b> value of [latex]k[/latex] (namely [latex]k=1[/latex]) giving no solution, and exactly <b>one</b> value of [latex]k[/latex] (namely [latex]k=-1[/latex]) giving infinitely many solutions. For every other [latex]k[/latex] (i.e. [latex]k\\ne\\pm1[/latex]), [latex]\\Delta\\ne0[/latex] and there's a unique solution &mdash; but that happens for infinitely many values of [latex]k[/latex], not just one, so the \"exactly one k gives a unique solution\" claim is false.<br><br>\n<b>Answer: Exactly one k gives no solution; and exactly one k gives infinitely many solutions.</b><br><br><a href=\"https://gateoverflow.in/460067/gate-cse-2025-set-1-question-13#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 13
+    },
+    {
+      "id": "1997-Q35",
+      "source_id": 1101635,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The trapezoidal method to numerically obtain [latex]\\int_a^b f(x) dx[/latex] has an error [latex]E[/latex] bounded by [latex]\\frac{b-a}{12} h^2 \\max f''(x), x \\in [a, b][/latex] where [latex]h[/latex] is the width of the trapezoids. The minimum number of trapezoids guaranteed to ensure [latex]E \\leq 10^{-4}[/latex] in computing [latex]\\ln 7[/latex] using [latex]f=\\frac{1}{x}[/latex] is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "60",
+        "B": "100",
+        "C": "600",
+        "D": "10000"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/2251/gate1997-4-10\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 35
+    },
+    {
+      "id": "2026-S1-Q10",
+      "source_id": 1126110,
+      "number": 11,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]n>1[/latex]. Consider an [latex]n \\times n[/latex] matrix [latex]M[/latex] with its elements from [latex]\\mathbb{R}[/latex]. Let the vector [latex](0,1,0,0, \\ldots, 0) \\in \\mathbb{R}^{n}[/latex] be in the null space of [latex]M[/latex]. <br>Which of the following options is/are always correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Determinant of [latex]M[/latex] is [latex]1[/latex]",
+        "B": "Determinant of [latex]M[/latex] is [latex]0[/latex]",
+        "C": "Rank of [latex]M[/latex] is [latex]1[/latex]",
+        "D": "There are at least two non-zero vectors in the null space of [latex]M[/latex]"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Since [latex](0,1,0,\\ldots,0)[/latex] is in the null space of [latex]M[/latex], we have [latex]M\\cdot(0,1,0,\\ldots,0)^T=\\mathbf{0}[/latex]. But [latex]M[/latex] times this unit vector simply extracts the <b>2nd column of [latex]M[/latex]</b>. So the 2nd column of [latex]M[/latex] is entirely zero.<br><br>\r\n- <b>Determinant:</b> A matrix with an all-zero column always has determinant [latex]0[/latex]. So \"[latex]\\det(M)=0[/latex]\" is always true. (\"[latex]\\det(M)=1[/latex]\" is always false.)<br>\r\n- <b>Rank:</b> The rank could be anywhere from [latex]0[/latex] to [latex]n-1[/latex] depending on the other columns, so \"rank [latex]=1[/latex]\" is not always true.<br>\r\n- <b>Null space size:</b> Since the null space contains the nonzero vector [latex](0,1,0,\\ldots,0)[/latex], it also contains every scalar multiple of it (e.g. [latex](0,2,0,\\ldots,0)[/latex], [latex](0,-1,0,\\ldots,0)[/latex], etc.), giving infinitely many, hence at least two, distinct non-zero vectors in the null space. This is always true.<br><br>\r\n<b>Answer: Determinant of M is 0; and there are at least two non-zero vectors in the null space of M.</b> <br><br> <a href=\"https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10#a_list\" target=\"_blank\">Click here for detail solution</a><a href=\"https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 10
+    },
+    {
+      "id": "2000-Q27",
+      "source_id": 1101927,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A polynomial p(x) satisfies the following:<br>\np(1) = p(3) = p(5) = 1 <br>\np(2) = p(4) = -1<br>\nThe minimum degree of such a polynomial is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/651/gate2000-2-4\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 27
+    },
+    {
+      "id": "2013-Q22",
+      "source_id": 1113122,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following functions is continuous at x = 3?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]f(x)=\\left\\{\\begin{matrix} 2, & if \\; x=3\\\\ x-1,& if \\;  x \\gt 3\\\\ \\frac{x+3}{3},&if \\; x \\lt 3 \\end{matrix}\\right.[/latex]",
+        "B": "[latex]f(x)=\\left\\{\\begin{matrix} 4, & if \\; x=3\\\\ 8-x&if \\;  x\\neq 3 \\end{matrix}\\right.[/latex]",
+        "C": "[latex]f(x)=\\left\\{\\begin{matrix} x+3, & if  \\; x\\leq 3\\\\ x-4&if \\; x \\gt  3 \\end{matrix}\\right.[/latex]",
+        "D": "[latex]f(x)=\\frac{1}{x^{3}-27}, if \\; x\\neq 3[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Option 1 at x = 3: f(3) = 2, right limit 3 [latex]-[/latex] 1 = 2, left limit (3 + 3)/3 = 2 [latex]\\rightarrow[/latex] continuous.<br><br>\n- Option 2: limit 5 [latex]\\ne[/latex] f(3) = 4<br>\n- Option 3: left 6, right [latex]-[/latex]1<br>\n- Option 4: not defined at 3<br><br>\n<b>Answer: Option 1</b><br><br><a href=\"https://gateoverflow.in/1533/gate2013-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 22
+    },
+    {
+      "id": "2025-S2-Q1",
+      "source_id": 1125201,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "[latex] A = \\begin{pmatrix} 1 & 2 \\\\ 2 & -1 \\end{pmatrix}, [/latex]\nthen which ONE of the following is [latex]A^8 [/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\begin{pmatrix} 25 & 0 \\\\ 0 & 25 \\end{pmatrix} [/latex]",
+        "B": "[latex]\\begin{pmatrix} 125 & 0 \\\\ 0 & 125 \\end{pmatrix} [/latex]",
+        "C": "[latex]\\begin{pmatrix} 625 & 0 \\\\ 0 & 625 \\end{pmatrix} [/latex]",
+        "D": "[latex]\\begin{pmatrix} 3125 & 0 \\\\ 0 & 3125 \\end{pmatrix} [/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Eigenvalues of [latex]A=\\begin{bmatrix}1&2\\\\2&-1\\end{bmatrix}[/latex]: [latex](1-\\lambda)(-1-\\lambda)-4=0\\Rightarrow\\lambda^2-1-4=0\\Rightarrow\\lambda^2=5\\Rightarrow\\lambda=\\pm\\sqrt5[/latex]<br><br>\nSince [latex]A[/latex] is symmetric, it's diagonalizable with these eigenvalues, and [latex]A^8[/latex] has eigenvalues [latex](\\sqrt5)^8=5^4=625[/latex] and [latex](-\\sqrt5)^8=625[/latex] as well (both eigenvalues raised to an even power give the same positive result). Since <i>both</i> eigenvalues of [latex]A^8[/latex] equal [latex]625[/latex], [latex]A^8[/latex] is simply the scalar matrix [latex]625I[/latex].<br><br>\n<b>Answer: [[625,0],[0,625]]</b><br><br><a href=\"https://gateoverflow.in/460834/gate-cse-2025-set-2-question-1#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 1
+    },
+    {
+      "id": "2010-Q2",
+      "source_id": 1110102,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Newton-Raphson method is used to compute a root of the equation [latex]x^{2} -13=0[/latex]\nwith 3.5 as the initial value. The approximation after one iteration is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3.575",
+        "B": "3.676",
+        "C": "3.667",
+        "D": "3.607"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "[latex]x_1=x_0-\\frac{f(x_0)}{f'(x_0)}=3.5-\\frac{3.5^2-13}{2\\times3.5}=3.5-\\frac{-0.75}{7}=3.5+0.107=3.607[/latex]<br><br>\n<b>Answer: 3.607</b><br><br><a href=\"https://gateoverflow.in/1148/gate2010-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 2
+    },
+    {
+      "id": "2019-Q21",
+      "source_id": 1119121,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The value of [latex]3^{51} \\;mod \\;5[/latex] is _____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": null,
+      "explanation": "[latex]3^4=81\\equiv1\\pmod5[/latex]. Since [latex]51=4\\times12+3[/latex]:<br>\n[latex]3^{51}=(3^4)^{12}\\cdot3^3\\equiv1\\cdot27\\equiv2\\pmod5[/latex]<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/302827/gate2019-cs-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 21
+    },
+    {
+      "id": "2014-S3-Q5",
+      "source_id": 1114305,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "If V1 and V2 are 4-dimensional subspaces of a 6-dimensional vector space V, then the smallest possible dimension of  V1[latex]\\cap[/latex]V2 is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]\\dim(V_1\\cap V_2)=\\dim V_1+\\dim V_2-\\dim(V_1+V_2)\\ge4+4-6=2[/latex]<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/2039/gate2014-3-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 5
+    },
+    {
+      "id": "1999-Q23",
+      "source_id": 1101823,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The Newton-Raphson method is to be used to find the root of the equation [latex]f(x)=0[/latex] where [latex]x_o[/latex] is the initial approximation and [latex]f'[/latex] is the derivative of [latex]f[/latex]. The method converges\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "always",
+        "B": "only if [latex]f[/latex] is a polynomial",
+        "C": "only if [latex]f(x_o) \\lt 0[/latex]",
+        "D": "none of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/1476/gate1999-1-23\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 23
+    },
+    {
+      "id": "2026-S1-Q22",
+      "source_id": 1126122,
+      "number": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the function [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R}[/latex] defined as follows: <br><br>[latex] f(x)=\\left\\{\\begin{array}{lr} c_{1} e^{x}-c_{2} \\log _{{e}}\\left(\\frac{1}{x}\\right), & \\text { if } x>0 \\\\ 3 & \\text { otherwise } \\end{array}\\right. [/latex] <br><br> where [latex]c_{1}, c_{2} \\in \\mathbb{R}[/latex].<br><br> If [latex]f[/latex] is continuous at [latex]x=0[/latex], then [latex]c_{1}+c_{2}=[/latex] ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "For [latex]f[/latex] to be continuous at [latex]x=0[/latex], we need [latex]\\lim_{x\\to0^{+}}f(x)=f(0)=3[/latex].<br><br>\n[latex]\\lim_{x\\to0^{+}}\\left[c_1e^{x}-c_2\\log_e\\left(\\dfrac1x\\right)\\right][/latex]<br><br>\nAs [latex]x\\to0^{+}[/latex]: [latex]e^{x}\\to1[/latex], while [latex]\\log_e(1/x)=-\\log_e x\\to+\\infty[/latex]. For the overall limit to be a finite number, the coefficient of this diverging term must be zero:<br>\n[latex]c_2=0[/latex].<br><br>\nWith [latex]c_2=0[/latex], the limit becomes [latex]c_1\\cdot1=c_1[/latex]. Setting this equal to [latex]f(0)=3[/latex] gives [latex]c_1=3[/latex].<br><br>\nSo [latex]c_1+c_2=3+0=3[/latex].<br><br>\n<b>Answer: 3</b> <br><br> <a href=\"https://gateoverflow.in/523058/gate-cse-2026-set-1-question-22#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 22
+    },
+    {
+      "id": "2020-Q27",
+      "source_id": 1120127,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let A and B be two nxn matrices over real numbers. Let rank(M) and det(M) denote the rank and determinant of a matrix M, respectively. Consider the following statements. <br><br>\nI.    rank(AB)=rank (A)rank (B)<br>\nII.  det(AB)=det(A)det(B)<br>\nIII. rank(A+B) [latex]\\leq[/latex] rank (A) + rank (B)<br>\nIV. det(A+B) [latex]\\leq[/latex] det(A) + det(B)<br><br>\nWhich of the above statements are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II only",
+        "B": "I and IV only",
+        "C": "II and III only",
+        "D": "III and IV only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Use A = B = I (n = 2):<br>\n- I: rank(AB) = 2 but rank(A)rank(B) = 4 [latex]\\text{---}[/latex] FALSE.<br>\n- II: det(AB) = det(A)det(B) is always true [latex]\\text{---}[/latex] TRUE.<br>\n- III: rank is subadditive: [latex]rank(A+B)\\le rank(A)+rank(B)[/latex] [latex]\\text{---}[/latex] TRUE.<br>\n- IV: det(2I) = 4 [latex]\\gt[/latex] det(I) + det(I) = 2 [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: II and III only</b><br><br><a href=\"https://gateoverflow.in/333204/gate2020-cs-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 27
+    },
+    {
+      "id": "2026-S1-Q36",
+      "source_id": 1126136,
+      "number": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R}[/latex] be defined as follows: <br><br>[latex] f(x)=\\left(\\frac{|x|}{2}-x\\right)\\left(x-\\frac{|x|}{2}\\right) [/latex] <br><br>Which of the following statements is/are true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]f[/latex] has a local maximum",
+        "B": "[latex]f[/latex] has a local minimum",
+        "C": "[latex]f^{\\prime}[/latex] is continuous over [latex]\\mathbb{R}[/latex]",
+        "D": "[latex]f^{\\prime}[/latex] is not differentiable over [latex]\\mathbb{R}[/latex]"
+      },
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Simplify [latex]f(x)=\\left(\\dfrac{|x|}{2}-x\\right)\\left(x-\\dfrac{|x|}{2}\\right)=-\\left(x-\\dfrac{|x|}{2}\\right)^2[/latex], which is always [latex]\\le0[/latex].<br><br>\n- For [latex]x\\ge0[/latex]: [latex]|x|=x[/latex], so [latex]f(x)=-\\left(\\dfrac{x}{2}\\right)^2=-\\dfrac{x^2}{4}[/latex].<br>\n- For [latex]x<0[/latex]: [latex]|x|=-x[/latex], so [latex]f(x)=-\\left(\\dfrac{3x}{2}\\right)^2=-\\dfrac{9x^2}{4}[/latex].<br><br>\nBoth pieces equal [latex]0[/latex] at [latex]x=0[/latex] and are negative (and decreasing towards [latex]-\\infty[/latex]) moving away from [latex]0[/latex] in either direction. So [latex]f[/latex] has a clear <b>local (in fact global) maximum</b> at [latex]x=0[/latex], and since [latex]f\\to-\\infty[/latex] on both sides with no interior dip, [latex]f[/latex] has <b>no local minimum</b>.<br><br>\n[latex]f'(x)=-x/2[/latex] for [latex]x\\ge0[/latex] and [latex]f'(x)=-9x/2[/latex] for [latex]x<0[/latex]. Both pieces approach [latex]0[/latex] as [latex]x\\to0[/latex], so [latex]f'[/latex] is <b>continuous</b> everywhere including at [latex]0[/latex]. But the slope of [latex]f'[/latex] jumps from [latex]-1/2[/latex] (just right of [latex]0[/latex]) to [latex]-9/2[/latex] (just left of [latex]0[/latex]), so [latex]f'[/latex] has a corner at [latex]x=0[/latex] and is <b>not differentiable</b> there (hence not differentiable \"over [latex]\\mathbb R[/latex]\").<br><br>\n<b>Answer: f has a local maximum; f' is continuous over R; f' is not differentiable over R.</b> <br><br> <a href=\"https://gateoverflow.in/523044/gate-cse-2026-set-1-question-36#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 36
+    },
+    {
+      "id": "2009-Q25",
+      "source_id": 1109125,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "[latex]\\int_{0}^{\\pi /4}(1-tanx)/(1+tanx)dx[/latex] evaluates to",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "ln 2",
+        "D": "1/2ln2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/802/gate2009-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 25
+    },
+    {
+      "id": "2005-Q48",
+      "source_id": 1105148,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following system of equations in three real variables [latex]x_1, x_2 \\; and \\; x_3 [/latex] : <br><br>\r\n[latex]2x_1 - x_2 + 3x_3 = 1[/latex]<br>\r\n[latex]3x_1 + 2x_2 + 5x_3 = 2[/latex] <br>\r\n[latex]-x_1 + 4x_2 + x_3 = 3[/latex]<br><br>\r\nThe system of equations has",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "no solution",
+        "B": "a unique solution",
+        "C": " more than one but a finite number of solutions",
+        "D": "an infinite number of solutions"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1173/gate2005-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 48
+    },
+    {
+      "id": "2015-S3-Q42",
+      "source_id": 1115342,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If the following system has non-trivial solution,<br> px+qy+rz=0 <br> qx+ry+pz=0 <br> rx+py+qz=0,<br> then which one of the following options is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "p-q+r=0 or p=q=-r",
+        "B": "p+q-r=0 or p=-q=r",
+        "C": "p+q+r=0 or p=q=r",
+        "D": "p-q+r=0 or p=-q=-r"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Non-trivial solution needs determinant = 0:<br><br>\n[latex]\\begin{vmatrix}p&q&r\\\\q&r&p\\\\r&p&q\\end{vmatrix}=-(p+q+r)(p^2+q^2+r^2-pq-qr-rp)=0[/latex]<br><br>\nThe second factor is [latex]\\frac12[(p-q)^2+(q-r)^2+(r-p)^2][/latex], zero only when p = q = r.<br><br>\n<b>Answer: p + q + r = 0 or p = q = r</b><br><br><a href=\"https://gateoverflow.in/8490/gate2015-3-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 42
+    },
+    {
+      "id": "2017-S2-Q52",
+      "source_id": 1117252,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "If the characteristics polynomial of 3x3 matrix M over R ( the set of real numbers) is\n[latex]\\lambda ^{3}-4\\lambda ^{2}+a\\lambda +30,a\\in R[/latex], and one eigenvalue of M is 2, then the largest among the absolute values of the eigenvalues of M is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "2 is a root: [latex]8-16+2a+30=0\\Rightarrow a=-11[/latex].<br>\n[latex]\\lambda^3-4\\lambda^2-11\\lambda+30=(\\lambda-2)(\\lambda-5)(\\lambda+3)[/latex] [latex]\\rightarrow[/latex] eigenvalues 2, 5, [latex]-[/latex]3.<br><br>\nLargest absolute value = 5<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/118618/gate2017-2-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 52
+    },
+    {
+      "id": "2024-S1-Q39",
+      "source_id": 1124139,
+      "number": 26,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex] A [/latex] be any [latex] n \\times m [/latex] matrix, where [latex] m > n [/latex]. Which of the following statements is/are TRUE about the system of linear equations [latex] A x=0 [/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There exist at least [latex] m-n [/latex] linearly independent solutions to this system",
+        "B": "There exist [latex] m-n [/latex] linearly independent vectors such that every solution is a linear combination of these vectors",
+        "C": "There exists a non-zero solution in which at least [latex] m-n [/latex] variables are 0",
+        "D": "There exists a solution in which at least [latex] n [/latex] variables are non-zero"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]rank(A)\\le n \\lt m[/latex], so the solution space has dimension [latex]m-rank(A)\\ge m-n[/latex].<br><br>\n- At least [latex]m-n[/latex] linearly independent solutions [latex]\\text{---}[/latex] TRUE.<br>\n- \"[latex]m-n[/latex] vectors span every solution\" fails when the dimension is larger, e.g. A = zero matrix (dimension m) [latex]\\text{---}[/latex] FALSE.<br>\n- [latex]A=[1\\;\\;1][/latex] ([latex]n=1,m=2[/latex]): solutions are [latex]t(1,-1)[/latex]; no non-zero solution has a zero entry, though [latex]m-n=1[/latex] [latex]\\text{---}[/latex] FALSE.<br>\n- [latex]A=\\begin{bmatrix}1&0&0\\\\0&1&0\\end{bmatrix}[/latex]: solutions [latex](0,0,t)[/latex] have only 1 non-zero variable [latex]\\lt n=2[/latex] [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: There exist at least [latex]m-n[/latex] linearly independent solutions</b><br><br><a href=\"https://gateoverflow.in/422803/gate-cse-2024-set-1-question-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 39
+    },
+    {
+      "id": "2010-Q29",
+      "source_id": 1110129,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following matrix [latex]A=\\begin{bmatrix} 2 & 3\\\\ X&Y \\end{bmatrix}[/latex] <br> If the eigenvalues of A are 4 and 8, then",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "x = 4, y = 10",
+        "B": "x = 5, y = 8",
+        "C": "x = -3,y = 9",
+        "D": "x = -4, y = 10"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Checking each statement:<br>- Trace: 2 + y = 4 + 8 [latex]\\rightarrow[/latex] y = 10<br>\n- Determinant: 2y [latex]-[/latex] 3x = 32 [latex]\\rightarrow[/latex] 20 [latex]-[/latex] 3x = 32 [latex]\\rightarrow[/latex] x = [latex]-[/latex]4<br><br>\n<b>Answer: x = [latex]-[/latex]4, y = 10</b><br><br><a href=\"https://gateoverflow.in/1155/gate2010-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 29
+    },
+    {
+      "id": "2012-Q28",
+      "source_id": 1112128,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The bisection method is applied to compute a zero of the function  [latex]f(x) = x^{4}-x^{3}-x^{2}-4[/latex] in the interval [1,9]. The method converges to a solution after _____iterations.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "f(1) = [latex]-[/latex]5 [latex]\\lt[/latex] 0 and f(9) [latex]\\gt[/latex] 0.<br><br>\n- Iteration 1: x = 5, f(5) = 471 [latex]\\gt[/latex] 0 [latex]\\rightarrow[/latex] [1, 5]<br>\n- Iteration 2: x = 3, f(3) = 41 [latex]\\gt[/latex] 0 [latex]\\rightarrow[/latex] [1, 3]<br>\n- Iteration 3: x = 2, f(2) = 16 [latex]-[/latex] 8 [latex]-[/latex] 4 [latex]-[/latex] 4 = 0 [latex]\\rightarrow[/latex] root found<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/1614/gate2012-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 28
+    },
+    {
+      "id": "2015-S1-Q48",
+      "source_id": 1115148,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "[latex]\\int_{1/ \\pi }^{2/ \\pi}\\frac{cos(1/x)}{x^{2}}dx=[/latex]_________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        -1.0,
+        -1.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Let u = 1/x, so [latex]du=-\\frac{dx}{x^2}[/latex]. Limits: x = 1/[latex]\\pi[/latex] [latex]\\rightarrow[/latex] u = [latex]\\pi[/latex], x = 2/[latex]\\pi[/latex] [latex]\\rightarrow[/latex] u = [latex]\\pi/2[/latex].<br><br>\n[latex]\\int_{\\pi}^{\\pi/2}-\\cos u\\,du=\\int_{\\pi/2}^{\\pi}\\cos u\\,du=\\sin\\pi-\\sin\\frac{\\pi}{2}=-1[/latex]<br><br>\n<b>Answer: -1</b><br><br><a href=\"https://gateoverflow.in/8314/gate2015-1-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 48
+    },
+    {
+      "id": "2015-S3-Q44",
+      "source_id": 1115344,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If for non-zero  [latex]x,af(x)+bf\\left ( \\frac{1}{x} \\right )=\\frac{1}{x}-25[/latex] where [latex] a\\neq b[/latex]  then [latex] \\int_{1}^{2}f(x)dx[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}][/latex]",
+        "B": "[latex]\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)-\\frac{47b}{2}][/latex]",
+        "C": "[latex]\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)+\\frac{47b}{2}][/latex]",
+        "D": "[latex]\\frac{1}{a^{2}-b^{2}}[a(ln2-25)-\\frac{47b}{2}][/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Replace x by 1/x: [latex]af(1/x)+bf(x)=x-25[/latex]. Eliminate f(1/x):<br><br>\n[latex](a^2-b^2)f(x)=\\frac ax-25a-bx+25b[/latex]<br><br>\nIntegrate from 1 to 2: [latex]a\\ln2-25a-\\frac{3b}{2}+25b=a(\\ln2-25)+\\frac{47b}{2}[/latex]<br><br>\n<b>Answer: [latex]\\frac{1}{a^2-b^2}[a(\\ln2-25)+\\frac{47b}{2}][/latex]</b><br><br><a href=\"https://gateoverflow.in/8554/gate2015-3-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 44
+    }
+  ]
+}

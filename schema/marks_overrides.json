@@ -1,0 +1,10 @@
+{
+  "note": "practicepaper.in lists every question of these papers as 1 mark, but the real papers mixed 1- and 2-mark questions (150 marks in total). Questions 1..one_mark_up_to carry 1 mark; the rest carry 2. Negative marks keep the site's 1/3-of-marks rule (0.33 / 0.67), the same as the rest of the dataset; the original papers reportedly deducted 0.25 / 0.5, but no primary source for that was found. Linked-answer rules (second question of a pair) are not modelled: each question is scored on its own. Applied by scraper/scrape_paper.py.",
+  "papers": {
+    "2003": { "one_mark_up_to": 30, "total_marks": 150, "source": "Paper scan (cache/question_papers/cs_2003.pdf): 'ONE MARKS QUESTIONS (1-30)', 'TWO MARKS QUESTIONS (31-...)'; 30 x 1 + 60 x 2 = 150" },
+    "2004": { "one_mark_up_to": 30, "total_marks": 150, "source": "Paper scan (cache/question_papers/cs_2004.pdf): 'ONE MARKS QUESTIONS (1-30)'; 30 x 1 + 60 x 2 = 150" },
+    "2005": { "one_mark_up_to": 30, "total_marks": 150, "source": "Paper scan (cache/question_papers/cs_2005.pdf): 'ONE MARKS QUESTIONS (1-30)', 'TWO MARKS QUESTIONS (31-80)', linked answer Q.81a-Q.85b carry two marks each (site Q81-Q90)" },
+    "2006": { "one_mark_up_to": 20, "total_marks": 150, "source": "Paper scan (cache/question_papers/cs_2006.pdf): 'ONE MARKS QUESTIONS (1-20)'; 20 single-mark and 65 two-mark questions = 150" },
+    "2007": { "one_mark_up_to": 20, "total_marks": 150, "source": "GATE Forum reprint of CS 2007: 'Q.1 - Q.20 Carry One Mark Each', 'Q.21 - Q.75 Carry Two Marks Each', 'Linked Answer Questions: Q.76 to Q.85 Carry Two Marks Each'" }
+  }
+}

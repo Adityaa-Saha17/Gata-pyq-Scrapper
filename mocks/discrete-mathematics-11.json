@@ -1,0 +1,817 @@
+{
+  "paper_id": "discrete-mathematics-11",
+  "paper": "Discrete Mathematics: Topic Mock 11",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 11,
+  "duration_min": 90,
+  "total_marks": 43,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "1997-Q42",
+      "source_id": 1101642,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be the graph with 100 vertices numbered 1 to 100.  Two vertices i and j are adjacent  if [latex]\\vert i-j \\vert =8[/latex] or [latex]\\vert i-j \\vert=12[/latex]. The number of connected components in G is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "12",
+        "D": "25"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2258/gate1997-6-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 42
+    },
+    {
+      "id": "2024-S1-Q4",
+      "source_id": 1124104,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a permutation sampled uniformly at random from the set of all permutations of [latex]\\{1,2,3, \\cdots, n\\} [/latex] for some [latex]n \\geq 4 [/latex]. Let [latex]X [/latex] be the event that 1 occurs before 2 in the permutation, and [latex]Y [/latex] the event that 3 occurs before 4 . Which one of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The events [latex]X [/latex] and [latex]Y [/latex] are mutually exclusive",
+        "B": "The events [latex]X [/latex] and [latex]Y [/latex] are independent",
+        "C": "Either event [latex]X [/latex] or [latex]Y [/latex] must occur",
+        "D": "Event [latex]X [/latex] is more likely than event [latex]Y [/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "By symmetry, 1 is before 2 in half of all permutations, so [latex]P(X)=\\frac12[/latex]; similarly [latex]P(Y)=\\frac12[/latex].<br><br>\nThe relative order of {1,2} and the relative order of {3,4} involve different elements, and all 4 combinations (12/21 with 34/43) are equally likely, so [latex]P(X\\cap Y)=\\frac14=P(X)P(Y)[/latex] [latex]\\rightarrow[/latex] <b>independent</b>.<br><br>\n- Not mutually exclusive: 1 2 3 4 [latex]\\ldots[/latex] satisfies both.<br>\n- Neither must occur: 2 1 4 3 [latex]\\ldots[/latex] satisfies none.<br>\n- Equally likely, so X is not more likely than Y.<br><br>\n<b>Answer: X and Y are independent</b><br><br><a href=\"https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 4
+    },
+    {
+      "id": "1997-Q19",
+      "source_id": 1101619,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Given [latex]\\Sigma=\\{a,b\\}[/latex], which one of the following sets is not countable?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Set of all strings over [latex]\\Sigma[/latex]",
+        "B": "Set of all languages over [latex]\\Sigma[/latex]",
+        "C": "Set of all regular languages over [latex]\\Sigma[/latex]",
+        "D": "Set of all languages over [latex]\\Sigma[/latex] accepted by Turing machines"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2235/gate1997-3-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 19
+    },
+    {
+      "id": "2017-S2-Q23",
+      "source_id": 1117223,
+      "number": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "G is undirected graph with n vertices and 25 edges such that each vertex of G has degree at\nleast 3. Then the maximum possible value of n is ___________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        16.0,
+        16.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Sum of degrees = 2 [latex]\\times[/latex] 25 = 50. Each vertex has degree [latex]\\ge3[/latex], so [latex]3n\\le50\\Rightarrow n\\le16[/latex].<br><br>\n<b>Answer: 16</b><br><br><a href=\"https://gateoverflow.in/118594/gate2017-2-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 23
+    },
+    {
+      "id": "2003-Q7",
+      "source_id": 1103107,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the set [latex]\\Sigma ^{*}[/latex] of all strings over the alphabet [latex]\\Sigma [/latex]={0,1}. [latex]\\Sigma ^{*}[/latex] with the\r\nconcatenation operator for strings",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "does not form a group",
+        "B": "forms a non-commutative group",
+        "C": "does not have a right identity element",
+        "D": "forms a group if the empty string is removed from [latex]\\Sigma ^{*}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/898/gate2003-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 7
+    },
+    {
+      "id": "2009-Q2",
+      "source_id": 1109102,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the chromatic number of an n-vertex simple connected graph which does\nnot contain any odd length cycle? Assume n[latex]\\geq[/latex]2.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "n-1",
+        "D": "n "
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/796/gate2009-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 2
+    },
+    {
+      "id": "1998-Q38",
+      "source_id": 1101738,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The binary relation [latex]R = \\{(1, 1), (2, 1), (2, 2), (2, 3), (2, 4), (3, 1), (3, 2), (3, 3), (3, 4)\\}[/latex] on the set [latex]A=\\{1, 2, 3, 4\\}[/latex] is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "reflexive, symmetric and transitive",
+        "B": "neither reflexive, nor irreflexive but transitive",
+        "C": "irreflexive, symmetric and transitive",
+        "D": "irreflexive and antisymmetric"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1675/gate1998-2-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 38
+    },
+    {
+      "id": "2017-S2-Q21",
+      "source_id": 1117221,
+      "number": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the set X={a, b,c,d,e} under the partial ordering\nR={(a,a),(a,b),(a,c),(a,d),(a,e),(b,b),(b,c),(b,e),(c,c),(c,e),(d,d),(d,e),(e,e)}. <br>\nThe Hasse diagram of the partial order (X, R) is shown below. <br><img src=\"/wp-content/uploads/GATE/CS/20172/q1.jpg\"/> <br> The minimum number of ordered pairs that need to be added to R to make (X, R) a lattice is\n_____.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20172/q1.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        -0.01,
+        0.01
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Lattice",
+      "explanation": "Check the Hasse diagram: a is the bottom, e is the top, with chains a [latex]\\lt[/latex] b [latex]\\lt[/latex] c [latex]\\lt[/latex] e and a [latex]\\lt[/latex] d [latex]\\lt[/latex] e. Every pair has a least upper bound and a greatest lower bound (e.g. join(c, d) = e, meet(c, d) = a). So it is already a lattice: 0 pairs needed.<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/118278/gate2017-2-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 21
+    },
+    {
+      "id": "2012-Q21",
+      "source_id": 1112121,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a random variable X that takes values +1 and -1 with probability 0.5 each. The values of\nthe cumulative distribution function F(x) at x = -1 and +1 are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0 and 0.5",
+        "B": "0 and 1",
+        "C": "0.5 and 1",
+        "D": "0.25 and 0.75"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex]F(x)=P(X\\le x)[/latex]:<br>\n- F([latex]-[/latex]1) = P(X = [latex]-[/latex]1) = 0.5<br>\n- F(1) = 0.5 + 0.5 = 1<br><br>\n<b>Answer: 0.5 and 1</b><br><br><a href=\"https://gateoverflow.in/1577/gate2012-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 21
+    },
+    {
+      "id": "2004-Q24",
+      "source_id": 1104124,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the binary relation: <br><br>\nS = {(x, y)|y = x + 1 and x, y [latex]\\in[/latex] {0, 1, 2,...}} <br><br>\nThe reflexive transitive closure of S is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{(x, y)|y [latex]\\gt[/latex] x and x, y [latex]\\in[/latex] {0, 1, 2,...}}",
+        "B": "{(x, y)|y [latex]\\geq[/latex] x and x, y [latex]\\in[/latex] {0, 1, 2,...}}",
+        "C": "{(x, y)|y [latex]\\lt[/latex] x and x, y [latex]\\in[/latex] {0, 1, 2,...}}",
+        "D": "{(x, y)|y [latex]\\leq[/latex] x and x, y [latex]\\in[/latex] {0, 1, 2,...}}"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1021/gate2004-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 24
+    },
+    {
+      "id": "1998-Q5",
+      "source_id": 1101705,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the converse of the following assertion?<br>\nI stay only if you go\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I stay if you go",
+        "B": "If I stay then you go",
+        "C": "If you do not go then I do not stay",
+        "D": "If I do not stay then you go"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/1642/gate1998-1-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 5
+    },
+    {
+      "id": "2022-Q22",
+      "source_id": 1122122,
+      "number": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The number of arrangements of six identical balls in three identical bins is ____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        7.0,
+        7.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "Balls and bins are both identical, so we count partitions of 6 into at most 3 parts:<br>\n6, 5+1, 4+2, 3+3, 4+1+1, 3+2+1, 2+2+2<br><br>\n<b>Answer: 7</b><br><br><a href=\"https://gateoverflow.in/371914/Gate-cse-2022-question-22#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 22
+    },
+    {
+      "id": "2024-S1-Q22",
+      "source_id": 1124122,
+      "number": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]A [/latex] and [latex]B [/latex] be non-empty finite sets such that there exist one-to-one and onto functions (i) from [latex]A [/latex] to [latex]B [/latex] and (ii) from [latex]A \\times A [/latex] to [latex]A \\cup B [/latex]. The number of possible values of [latex]|A| [/latex] is ___",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "Bijection [latex]A\\to B[/latex] [latex]\\Rightarrow[/latex] [latex]|A|=|B|=n[/latex].<br>\nBijection [latex]A\\times A\\to A\\cup B[/latex] [latex]\\Rightarrow[/latex] [latex]n^2=|A\\cup B|[/latex].<br><br>\nBut [latex]n\\le|A\\cup B|\\le 2n[/latex], so [latex]n\\le n^2\\le 2n[/latex] [latex]\\Rightarrow[/latex] [latex]n\\le2[/latex].<br><br>\n- [latex]n=1[/latex]: [latex]A=B[/latex], [latex]|A\\cup B|=1=1^2[/latex] True<br>\n- [latex]n=2[/latex]: take A and B disjoint, [latex]|A\\cup B|=4=2^2[/latex] True<br><br>\nSo [latex]|A|\\in\\{1,2\\}[/latex].<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/422820/gate-cse-2024-set-1-question-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 22
+    },
+    {
+      "id": "2021-S1-Q7",
+      "source_id": 1121107,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let p and q be two propositions. Consider the following two formulae in propositional logic.<br>\n<br>[latex]S1: (\\neg p\\wedge(p\\vee q))\\rightarrow q[/latex]<br>[latex]S2: q\\rightarrow(\\neg p\\wedge(p\\vee q))[/latex]<br><br>Which one of the following choices is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both S1 and S2 are tautologies.",
+        "B": "S1 is a tautology but S2 is not a tautology",
+        "C": "S1 is not a tautology but S2 is a tautology",
+        "D": "Niether S1 nor S2 is a tautology"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Checking each statement:<br>- S1: [latex]\\neg p\\wedge(p\\vee q)\\equiv\\neg p\\wedge q[/latex], and [latex](\\neg p\\wedge q)\\rightarrow q[/latex] is always true [latex]\\rightarrow[/latex] tautology.<br>\n- S2: take p = q = 1: q is true but [latex]\\neg p\\wedge(p\\vee q)[/latex] is false [latex]\\rightarrow[/latex] S2 is false [latex]\\rightarrow[/latex] not a tautology.<br><br>\n<b>Answer: S1 is a tautology but S2 is not a tautology</b><br><br><a href=\"https://gateoverflow.in/357445/gate-cse-2021-set-1-question-7#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 7
+    },
+    {
+      "id": "2019-Q5",
+      "source_id": 1119105,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]U=\\{1,2,,...n\\}[/latex]. Let [latex]A=\\{(x,X)|x\\in X,X\\subseteq U\\}[/latex]. Consider the following two statements on |A|. <br><br>I. [latex]|A|=n2^{n-1}[/latex]<br>II. [latex]|A|=\\sum_{k=1}^{n}k\\binom{n}{k}[/latex]<br><br>Which of the above statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Count the pairs (x, X) with [latex]x\\in X[/latex] in two ways:<br>\n- Fix x first: x lies in [latex]2^{n-1}[/latex] subsets, so [latex]|A|=n\\,2^{n-1}[/latex].<br>\n- Fix the size k of X first: there are [latex]\\binom nk[/latex] such sets, each giving k choices of x, so [latex]|A|=\\sum_{k=1}^{n}k\\binom nk[/latex].<br><br>\nBoth are correct (and equal).<br><br>\n<b>Answer: Both I and II</b><br><br><a href=\"https://gateoverflow.in/302843/gate2019-cs-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 5
+    },
+    {
+      "id": "2019-Q22",
+      "source_id": 1119122,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Two numbers are chosen independently and uniformly at random from the set {1, 2, ..., 13}. The probability (rounded off to 3 decimal places) that their 4-bit (unsigned) binary representations have the same most significant bit is ___________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.502,
+        0.504
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "In 4 bits, the MSB is 1 for 8-13 (6 numbers) and 0 for 1-7 (7 numbers).<br><br>\n[latex]P=\\left(\\frac{7}{13}\\right)^2+\\left(\\frac{6}{13}\\right)^2=\\frac{49+36}{169}=\\frac{85}{169}\\approx0.503[/latex]<br><br>\n<b>Answer: 0.503</b><br><br><a href=\"https://gateoverflow.in/302826/gate2019-cs-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 22
+    },
+    {
+      "id": "2024-S1-Q17",
+      "source_id": 1124117,
+      "number": 17,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]A [/latex] and [latex]B [/latex] be two events in a probability space with [latex]P(A)=0.3, P(B)=0.5 [/latex], and [latex]P(A \\cap B)=0.1 [/latex]. Which of the following statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The two events [latex]A [/latex] and [latex]B [/latex] are independent",
+        "B": "[latex]P(A \\cup B)=0.7[/latex]",
+        "C": "[latex]P\\left(A \\cap B^c\\right)=0.2 [/latex], where [latex]B^c [/latex] is the complement of the event [latex]B [/latex]",
+        "D": "[latex]P\\left(A^c \\cap B^c\\right)=0.4 [/latex], where [latex]A^c [/latex] and [latex]B^c [/latex] are the complements of the events [latex]A [/latex] and [latex]B [/latex], respectively"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Checking each statement:<br>- Independence: [latex]P(A)P(B)=0.15\\ne0.1[/latex] [latex]\\text{---}[/latex] FALSE.<br>\n- [latex]P(A\\cup B)=0.3+0.5-0.1=0.7[/latex] [latex]\\text{---}[/latex] TRUE.<br>\n- [latex]P(A\\cap B^c)=P(A)-P(A\\cap B)=0.3-0.1=0.2[/latex] [latex]\\text{---}[/latex] TRUE.<br>\n- [latex]P(A^c\\cap B^c)=1-P(A\\cup B)=0.3\\ne0.4[/latex] [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: [latex]P(A\\cup B)=0.7[/latex] and [latex]P(A\\cap B^c)=0.2[/latex]</b><br><br><a href=\"https://gateoverflow.in/422825/gate-cse-2024-set-1-question-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 17
+    },
+    {
+      "id": "2018-Q43",
+      "source_id": 1118143,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let G be a graph with 100! vertices, with each vertex labelled by a distinct permutation of the numbers 1,2,...,100. There is an edge between vertices u and v if and only if the label of u can be obtained by swapping two adjacent numbers in the label of v. Let y denote the degree of a vertex in G, and z denote the number of connected components in G. Then, y+ 10z = _____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        109.0,
+        109.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Checking each statement:<br>- Degree: a permutation of 100 numbers has 99 adjacent pairs to swap [latex]\\rightarrow[/latex] y = 99.<br>\n- Adjacent swaps can produce every permutation (bubble sort), so the graph is connected [latex]\\rightarrow[/latex] z = 1.<br><br>\ny + 10z = 99 + 10 = 109<br><br>\n<b>Answer: 109</b><br><br><a href=\"https://gateoverflow.in/204117/gate2018-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 43
+    },
+    {
+      "id": "2021-S1-Q34",
+      "source_id": 1121134,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let G be a group of order 6, and H be a subgroup of G such that 1 < |H| < 6. Which one of the following options is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both G and H are always cyclic.",
+        "B": "G may not be cyclic, but H is always cyclic.",
+        "C": "G is always cyclic, but H may not be cyclic.",
+        "D": "Both G and H may not be cyclic."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "Checking each statement:<br>- G can be the non-abelian group [latex]S_3[/latex] (order 6), which is not cyclic.<br>\n- By Lagrange, |H| divides 6 and is strictly between 1 and 6, so |H| = 2 or 3, which are primes. Every group of prime order is cyclic.<br><br>\n<b>Answer: G may not be cyclic, but H is always cyclic</b><br><br><a href=\"https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 34
+    },
+    {
+      "id": "2025-S1-Q38",
+      "source_id": 1125138,
+      "number": 20,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Which of the following predicate logic formulae/formula is/are CORRECT representation(s) of the statement: \"Everyone has exactly one mother\"?  \n<br><br>The meanings of the predicates used are:\n<br>\n[latex]mother(y,x): y[/latex] is the mother of [latex] x [/latex]\n<br>[latex]noteq(x,y): x[/latex] and  [latex] y [/latex] are not equal",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] \\forall x \\exists y \\exists z (mother(y, x) \\land \\neg mother(z, x)) [/latex]",
+        "B": "[latex] \\forall x \\exists y [mother(y, x) \\land \\forall z (noteq(z, y) \\to \\neg mother(z, x))] [/latex]",
+        "C": "[latex] \\forall x \\forall y [mother(y, x) \\to \\exists z (mother(z, x) \\land \\neg noteq(z, y))] [/latex]",
+        "D": "[latex] \\forall x \\exists y [mother(y, x) \\land \\neg \\exists z (noteq(z, y) \\land mother(z, x))] [/latex]"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "We want: for every person [latex]x[/latex], there is <i>exactly one</i> [latex]y[/latex] who is [latex]x[/latex]'s mother &mdash; meaning both existence (someone is the mother) and uniqueness (nobody else also qualifies as a distinct mother).<br><br>\n<b>[latex]\\forall x\\exists y[mother(y,x)\\wedge\\forall z(noteq(z,y)\\to\\neg mother(z,x))][/latex]:</b> says \"[latex]y[/latex] is a mother of [latex]x[/latex], and every [latex]z[/latex] different from [latex]y[/latex] is <i>not</i> a mother of [latex]x[/latex]\" &mdash; this correctly captures existence plus uniqueness. <b>Correct.</b><br><br>\n<b>[latex]\\forall x\\exists y[mother(y,x)\\wedge\\neg\\exists z(noteq(z,y)\\wedge mother(z,x))][/latex]:</b> by De Morgan's law, [latex]\\neg\\exists z(noteq(z,y)\\wedge mother(z,x))[/latex] is logically identical to [latex]\\forall z(noteq(z,y)\\to\\neg mother(z,x))[/latex] &mdash; so this is just a different (but equivalent) way of writing the same correct statement above. <b>Correct.</b><br><br>\nThe other two options fail to properly express uniqueness: one only asserts <i>some</i> non-mother exists (too weak, says nothing about all other candidates), and the other is a vacuous implication that never actually forces a mother to exist at all.<br><br>\n<b>Answer: Both the &forall;x&exist;y[...&forall;z(noteq&rarr;&not;mother)] form and its De&nbsp;Morgan-equivalent &forall;x&exist;y[...&not;&exist;z(noteq&and;mother)] form are correct.</b><br><br><a href=\"https://gateoverflow.in/460042/gate-cse-2025-set-1-question-38#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 38
+    },
+    {
+      "id": "2005-Q41",
+      "source_id": 1105141,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What is the first order predicate calculus statement equivalent to the following? <br>\nEvery teacher is liked by some student",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\rightarrow likes(y,x)]][/latex]",
+        "B": "[latex]\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\wedge likes(y,x)]][/latex]",
+        "C": "[latex]\\exists (y) \\forall (x)[teacher(x)\\rightarrow [student(y)\\wedge likes(y,x)]][/latex]",
+        "D": "[latex]\\forall (x)[teacher(x)\\wedge \\exists (y)[student(y)\\rightarrow likes(y,x)]][/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/1166/gate2005-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 41
+    },
+    {
+      "id": "2015-S2-Q49",
+      "source_id": 1115249,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let X and Y denote the sets containing 2 and 20 distinct objects respectively and F denote the set of all possible functions defined from X to Y. Let f be randomly chosen from F. The probability of f being one-to-one is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.95,
+        0.95
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Total functions = [latex]20^2=400[/latex]. One-to-one functions = 20 [latex]\\times[/latex] 19 = 380.<br><br>\nProbability = 380 / 400 = 0.95<br><br>\n<b>Answer: 0.95</b><br><br><a href=\"https://gateoverflow.in/8257/gate2015-2-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 49
+    },
+    {
+      "id": "2014-S1-Q37",
+      "source_id": 1114137,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "There are 5 bags labelled 1 to 5. All the coins in a given bag have the same weight. Some\nbags have coins of weight 10 gm, others have coins of weight 11 gm. I pick 1, 2, 4, 8, 16\ncoins respectively from bags 1 to 5. Their total weight comes out to 323 gm. Then the product\nof the labels of the bags having 11 gm coins is ___.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        12.0,
+        12.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "If all coins were 10 g: (1 + 2 + 4 + 8 + 16) [latex]\\times[/latex] 10 = 310 g. The extra 13 g comes from bags with 11 g coins, each adding 1 g per coin picked: 13 = 1 + 4 + 8 [latex]\\rightarrow[/latex] bags 1, 3, 4.<br><br>\nProduct = 1 [latex]\\times[/latex] 3 [latex]\\times[/latex] 4 = 12<br><br>\n<b>Answer: 12</b><br><br><a href=\"https://gateoverflow.in/1915/gate2014-1-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 37
+    },
+    {
+      "id": "2017-S2-Q31",
+      "source_id": 1117231,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For any discrete random variable X, with probability mass function <br>[latex]P(X=j)=p_{j}, p_{j}\\geq 0, j \\in \\{0,....N\\}[/latex] and [latex] \\sum_{j=0}^{N}p_{j}=1[/latex], define the polynomial function [latex]g_{x}(z)=\\sum_{j=0}^{N}p_{j}z^{j}[/latex]. For a certain discrete random variable Y, there exists a scalar [latex]\\beta \\in [/latex][0,1] such that [latex]g_{Y}(z)=(1-\\beta +\\beta  z)^{N}[/latex]. The expectation of Y is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]N\\beta (1-\\beta )[/latex]",
+        "B": "[latex]N\\beta[/latex]",
+        "C": "[latex]N(1-\\beta )[/latex]",
+        "D": "Not expressible in terms of N and [latex]\\beta[/latex] alone"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "For a pgf, [latex]E[Y]=g_Y'(1)[/latex]:<br>\n[latex]g_Y'(z)=N\\beta(1-\\beta+\\beta z)^{N-1}\\Rightarrow g_Y'(1)=N\\beta[/latex]<br><br>\n(Y is Binomial(N, [latex]\\beta[/latex]).)<br><br>\n<b>Answer: [latex]N\\beta[/latex]</b><br><br><a href=\"https://gateoverflow.in/118373/gate2017-2-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 31
+    },
+    {
+      "id": "2024-S1-Q53",
+      "source_id": 1124153,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.37,
+        0.38
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Given the first ball is red, 9 red and 15 blue (24 balls) remain. Both are red iff the second is red:<br><br>\n[latex]P=\\dfrac{P(\\text{both red})}{P(\\text{first red})}=\\dfrac{\\frac{10}{25}\\cdot\\frac{9}{24}}{\\frac{10}{25}}=\\dfrac{9}{24}=0.375[/latex]<br><br>\n<b>Answer: 0.375</b><br><br><a href=\"https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 53
+    },
+    {
+      "id": "2014-S2-Q48",
+      "source_id": 1114248,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The probability that a given positive integer lying between 1 and 100 (both inclusive) is NOT\ndivisible by 2, 3 or 5 is ______ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.259,
+        0.261
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Inclusion-exclusion for numbers in 1..100 divisible by 2, 3 or 5:<br>\n[latex]50+33+20-16-10-6+3=74[/latex]<br><br>\nNot divisible = 100 [latex]-[/latex] 74 = 26 [latex]\\rightarrow[/latex] probability = 0.26<br><br>\n<b>Answer: 0.26</b><br><br><a href=\"https://gateoverflow.in/2014/gate2014-2-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 48
+    },
+    {
+      "id": "2022-Q42",
+      "source_id": 1122142,
+      "number": 27,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Which of the properties hold for the adjacency matrix [latex]A[/latex] of a simple undirected unweighted graph having [latex]n[/latex] vertices?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The diagonal entries of [latex]A^2[/latex] are the degrees of the vertices of the graph.",
+        "B": "If the graph is connected, then none of the entries of [latex]A^{n-1}+I_n[/latex]can be zero.",
+        "C": "If the sum of all the elements of [latex]A[/latex] is at most 2(n-1), then the graph must be acyclic.",
+        "D": "If there is at least a 1 in each of A's rows and columns, then the graph must be connected."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Checking each statement:<br>- [latex](A^2)_{ii}=\\sum_k a_{ik}a_{ki}[/latex] = number of neighbours of i = degree [latex]\\text{---}[/latex] TRUE.<br>\n- Path 1-2-3 (n = 3): [latex]A^2+I[/latex] has entry (1, 2) = 0, since there is no walk of length exactly 2 from 1 to 2 [latex]\\text{---}[/latex] FALSE.<br>\n- Sum of entries [latex]\\le2(n-1)[/latex] means at most [latex]n-1[/latex] edges. A triangle plus an isolated vertex (n = 4, 3 edges) still has a cycle [latex]\\text{---}[/latex] FALSE.<br>\n- Two disjoint edges on 4 vertices: every row has a 1, but the graph is disconnected [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: The diagonal entries of [latex]A^2[/latex] are the degrees of the vertices</b><br><br><a href=\"https://gateoverflow.in/371894/Gate-cse-2022-question-42#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 42
+    },
+    {
+      "id": "2010-Q28",
+      "source_id": 1110128,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The degree sequence of a simple graph is the sequence of the degrees of the\nnodes in the graph in decreasing order. Which of the following sequences can not\nbe the degree sequence of any graph? <br>\nI. 7, 6, 5, 4, 4, 3, 2, 1 <br> II. 6, 6, 6, 6, 3, 3, 2, 2 <br> III. 7, 6, 6, 4, 4, 3, 2, 2<br>  IV. 8, 7, 7, 6, 4, 2, 1, 1",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II",
+        "B": "III and IV",
+        "C": "IV only",
+        "D": "II and IV"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Checking each statement:<br>- IV: 8 vertices, so maximum degree is 7. A degree of 8 is impossible.<br>\n- II: Havel-Hakimi: 6,6,6,6,3,3,2,2 [latex]\\rightarrow[/latex] 5,5,5,2,2,1,2 [latex]\\rightarrow[/latex] 5,5,5,2,2,2,1 [latex]\\rightarrow[/latex] 4,4,1,1,1,1 [latex]\\rightarrow[/latex] 3,0,0,0,1 [latex]\\rightarrow[/latex] 3,1,0,0,0. A 3 with only one non-zero vertex left [latex]\\rightarrow[/latex] impossible.<br>\n- I and III pass the test.<br><br>\n<b>Answer: II and IV</b><br><br><a href=\"https://gateoverflow.in/1154/gate2010-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 28
+    },
+    {
+      "id": "2016-S2-Q28",
+      "source_id": 1116228,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a set U of 23 different compounds in a Chemistry lab. There is a subset S of U of 9 compounds, each of which reacts with exactly 3 compounds of  U. Consider the following statements: <br><br>\nI. Each compound in U \\ S reacts with an odd number of compounds. <br>\nII. At least one compound in U \\ S reacts with an odd number of compounds. <br>\nIII. Each compound in U n S reacts with an even number of compounds. <br><br>\nWhich one of the above statements is ALWAYS TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Only III",
+        "D": "None"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Model compounds as vertices and reactions as edges. The sum of all degrees is even (handshake lemma).<br><br>\nThe 9 compounds in S have degree 3 each: total 27 (odd). So the degrees of U \\ S must add to an odd number, which needs <b>at least one</b> odd degree there. Nothing forces <i>every</i> one to be odd.<br><br>\n<b>Answer: Only II</b><br><br><a href=\"https://gateoverflow.in/39595/gate2016-2-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 28
+    },
+    {
+      "id": "2009-Q23",
+      "source_id": 1109123,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following is the most appropriate logical formula to represent\r\nthe statement? <br><br>\"Gold and silver ornaments are precious\".\r\n<br><br> The following notations are used: <br><br> \r\nG(x): x is a gold ornament<br> \r\nS(x): x is a silver ornament<br> \r\nP(x): x is precious",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall x(P(x)\\rightarrow (G(x)\\wedge S(x)))[/latex]",
+        "B": "[latex]\\forall x((G(x) \\wedge S(x)) \\rightarrow P(x))[/latex]",
+        "C": "[latex]\\forall x((G(x) \\wedge S(x)) \\rightarrow P(x))[/latex]",
+        "D": "[latex]\\forall x((G(x) \\vee S(x)) \\rightarrow P(x))[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/800/gate2009-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 23
+    }
+  ]
+}

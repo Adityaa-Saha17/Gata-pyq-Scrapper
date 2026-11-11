@@ -1,0 +1,852 @@
+{
+  "paper_id": "algorithms-01",
+  "paper": "Algorithms: Topic Mock 1",
+  "kind": "topic_mock",
+  "topic": "Algorithms",
+  "set": 1,
+  "duration_min": 90,
+  "total_marks": 50,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2003-Q22",
+      "source_id": 1103122,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The usual [latex]\\Theta (n^{2})[/latex]  implementation of Insertion Sort to sort ab array uses linear\nsearch to identify the position where an element is to be inserted into the already\nsorted part of the array. If, instead, we use binary search to identify the position,\nthe worst case running time will",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "remain [latex]\\Theta (n^{2})[/latex]\n",
+        "B": "become [latex]\\Theta (n(logn)^{2})[/latex]",
+        "C": "become[latex]\\Theta[/latex](nogn)",
+        "D": "become[latex]\\Theta[/latex](n)"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/912/gate2003-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 22
+    },
+    {
+      "id": "2017-S1-Q5",
+      "source_id": 1117105,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following table: <br><img src=\"/wp-content/uploads/GATE/CS/20171/q4.jpg\"/> <br>Match the algorithms to the design paradigms they are based on.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20171/q4.jpg"
+      ],
+      "options": {
+        "A": "P-(ii), Q-(iii),R-(i)",
+        "B": "P-(iii), Q-(i), R-(ii)",
+        "C": "P-(ii), Q-(i), R-(iii)",
+        "D": "P-(i), Q-(ii), R-(iii)"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Greedy Technique",
+      "explanation": "Checking each statement:<br>- Kruskal: always picks the cheapest safe edge [latex]\\rightarrow[/latex] <b>Greedy</b> (ii)<br>\n- Quicksort: partition and recurse [latex]\\rightarrow[/latex] <b>Divide and Conquer</b> (i)<br>\n- Floyd-Warshall: builds on smaller subproblems [latex]\\rightarrow[/latex] <b>Dynamic Programming</b> (iii)<br><br>\n<b>Answer: P-(ii), Q-(i), R-(iii)</b><br><br><a href=\"https://gateoverflow.in/118707/gate2017-1-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 5
+    },
+    {
+      "id": "2004-Q30",
+      "source_id": 1104130,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The problem 3-SAT and 2-SAT are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "both in P",
+        "B": "both NP complete",
+        "C": "NP-complete and in P respectively",
+        "D": "undecidable and NP-complete respectively"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "P-NP Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1027/gate2004-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 30
+    },
+    {
+      "id": "2026-S2-Q14",
+      "source_id": 1126214,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following functions, where [latex]n[/latex] is a positive integer. <br><br>[latex] n^{1 / 3}, \\log (n), \\log (n!), 2^{\\log (n)} [/latex]<br><br> Which one of the following options lists the functions in increasing order of asymptotic growth rate?<br> Note: Assume the base of log to be [latex]2[/latex].",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\log (n), n^{1 / 3}, 2^{\\log (n)}, \\log (n!)[/latex]",
+        "B": "[latex]n^{1 / 3}, \\log (n), \\log (n!), 2^{\\log (n)}[/latex]",
+        "C": "[latex]\\log (n), n^{1 / 3}, \\log (n!), 2^{\\log (n)}[/latex]",
+        "D": "[latex]2^{\\log (n)}, n^{1 / 3}, \\log (n), \\log (n!)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "Simplify each function's asymptotic growth (using [latex]\\log[/latex] base [latex]2[/latex]):<br><br>\n- [latex]\\log(n)[/latex]: grows the <b>slowest</b> of all &mdash; sub-polynomial.<br>\n- [latex]n^{1/3}[/latex]: a polynomial with a small (fractional) exponent, grows faster than any power of [latex]\\log n[/latex] but slower than [latex]n[/latex] itself.<br>\n- [latex]2^{\\log(n)}=n[/latex] (since exponentiating base [latex]2[/latex] by [latex]\\log_2 n[/latex] simply recovers [latex]n[/latex]) &mdash; so this grows exactly like [latex]n[/latex], faster than [latex]n^{1/3}[/latex].<br>\n- [latex]\\log(n!)[/latex]: by Stirling's approximation, [latex]\\log(n!)=\\Theta(n\\log n)[/latex], which grows <b>faster</b> than plain [latex]n[/latex] (and hence faster than [latex]2^{\\log n}=n[/latex]).<br><br>\nSo the increasing order is: [latex]\\log(n) \\;<\\; n^{1/3} \\;<\\; 2^{\\log(n)} \\;<\\; \\log(n!)[/latex].<br><br>\n<b>Answer: log(n), n^(1/3), 2^log(n), log(n!)</b> <br><br> <a href=\"https://gateoverflow.in/523132/gate-cse-2026-set-2-question-14#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 14
+    },
+    {
+      "id": "2005-Q6",
+      "source_id": 1105106,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "An undirected graph G has n nodes. Its adjacency matrix is given by an nxn square matrix whose <br> (i) diagonal elements are 0's and <br> (ii) non-diagonal elements are 1's. <br> which one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Graph G has no minimum spanning tree (MST)",
+        "B": "Graph G has a unique MST of cost n-1",
+        "C": "Graph G has multiple distinct MSTs, each of cost n-1",
+        "D": "Graph G has multiple spanning trees of different costs"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1348/gate2005-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 6
+    },
+    {
+      "id": "2014-S2-Q13",
+      "source_id": 1114213,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following correctly determines the solution of the recurrence relation with\nT(1) = 1? <br> [latex]T(n)=2T(\\frac{n}{2})+logn[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\theta (n)[/latex]",
+        "B": "[latex]\\theta (n logn)[/latex]",
+        "C": "[latex]\\theta (n^{2})[/latex]",
+        "D": "[latex]\\theta (log n)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "Master theorem: a = 2, b = 2, [latex]n^{\\log_2 2}=n[/latex].<br><br>\n[latex]f(n)=\\log n=O(n^{1-\\epsilon})[/latex], so case 1 applies: [latex]T(n)=\\Theta(n)[/latex].<br><br>\n<b>Answer: [latex]\\Theta(n)[/latex]</b><br><br><a href=\"https://gateoverflow.in/1968/gate2014-2-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 13
+    },
+    {
+      "id": "2015-S3-Q10",
+      "source_id": 1115310,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the equality [latex]\\sum_{i=0}^{n}i^{3}=X[/latex] and the following choices for X  <br>  I.[latex] \\Theta (n^{4}) [/latex]<br>II. [latex] \\Theta (n^{5})  [/latex]<br> III. [latex]O (n^{5})  [/latex]<br> IV. [latex] \\Omega (n^{3})[/latex]  <br>The equality above remains correct if X is replaced by",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "I or III or IV but not II",
+        "D": "II or III or IV but not I"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "[latex]\\sum_{i=0}^n i^3=\\left(\\frac{n(n+1)}{2}\\right)^2=\\Theta(n^4)[/latex]<br><br>\nA [latex]\\Theta(n^4)[/latex] function is also [latex]O(n^5)[/latex] and [latex]\\Omega(n^3)[/latex], but it is not [latex]\\Theta(n^5)[/latex].<br><br>\n<b>Answer: I or III or IV but not II</b><br><br><a href=\"https://gateoverflow.in/8398/gate2015-3-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 10
+    },
+    {
+      "id": "2007-Q5",
+      "source_id": 1107105,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the DAG with V = {1,2,3,4,5,6}, shown below. <br><img src=\"/wp-content/uploads/GATE/CS/20071/q5.jpg\"/><br> Which of the following is NOT a topological ordering?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20071/q5.jpg"
+      ],
+      "options": {
+        "A": "1 2 3 4 5 6",
+        "B": "1 3 2 4 5 6",
+        "C": "1 3 2 4 6 5",
+        "D": "3 2 4 1 6 5"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Graph Traversal",
+      "explanation": "<a href=\"https://gateoverflow.in/31821/gate2007-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 5
+    },
+    {
+      "id": "2016-S2-Q13",
+      "source_id": 1116213,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Assume that the algorithms considered here sort the input sequences in ascending order. If the input is already in ascending order, which of the following are TRUE? <br>\nI. Quicksort runs in [latex]\\Theta (n^{2})[/latex] time  <br>\nII. Bubblesort runs in [latex]\\Theta (n^{2})[/latex] time <br>\nIII. Merge sort runs in [latex]\\Theta (n)[/latex] time <br>\nIV. Insertion sort runs in [latex]\\Theta (n)[/latex] time",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II only",
+        "B": "I and III only",
+        "C": "II and IV only",
+        "D": "I and IV only"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "On already sorted input:<br>\n- Quicksort (first/last element as pivot) makes the most unbalanced splits [latex]\\rightarrow[/latex] [latex]\\Theta(n^2)[/latex] True<br>\n- Bubble sort with the \"no swap\" check stops after one pass [latex]\\rightarrow[/latex] [latex]\\Theta(n)[/latex] False<br>\n- Merge sort is always [latex]\\Theta(n\\log n)[/latex] False<br>\n- Insertion sort compares each element once [latex]\\rightarrow[/latex] [latex]\\Theta(n)[/latex] True<br><br>\n<b>Answer: I and IV only</b><br><br><a href=\"https://gateoverflow.in/39561/gate2016-2-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 13
+    },
+    {
+      "id": "2009-Q13",
+      "source_id": 1109113,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statement(s) is/are correct regarding Bellman-Ford\r\nshortest path algorithm?<br><br>\r\nP. Always finds a negative weighted cycle, if one exists. <br>\r\nQ. Finds whether any negative weighted cycle is reachable from the source.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P only",
+        "B": "Q only",
+        "C": "both P and Q",
+        "D": "Neither P nor Q"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "<a href=\"https://gateoverflow.in/1305/gate2009-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 13
+    },
+    {
+      "id": "2014-S2-Q37",
+      "source_id": 1114237,
+      "number": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider two strings A=\"qpqrr\" and B=\"pqprqrp\". Let x be the length of the longest\ncommon subsequence (not necessarily contiguous) between A and B and let y be the number\nof such longest common subsequences between A and B. Then x + 10y = ___.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        34.0,
+        34.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Dynamic programming",
+      "explanation": "A = qpqrr, B = pqprqrp.<br><br>\nThe LCS length is x = 4, and the LCSs are: qpqr, qprr, pqrr [latex]\\rightarrow[/latex] y = 3.<br><br>\nx + 10y = 4 + 30 = 34<br><br>\n<b>Answer: 34</b><br><br><a href=\"https://gateoverflow.in/1996/gate2014-2-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 37
+    },
+    {
+      "id": "2015-S2-Q37",
+      "source_id": 1115237,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given below are some algorithms, and some algorithm design paradigms.\n<br><img src=\"/wp-content/uploads/GATE/CS/20152/q37.jpg\"/><br>\nMatch the above algorithms on the left to the corresponding design paradigm they follow.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20152/q37.jpg"
+      ],
+      "options": {
+        "A": "1-i, 2-iii, 3-i, 4-v.",
+        "B": "1-iii, 2-iii, 3-i, 4-v",
+        "C": "1-iii, 2-ii, 3-i, 4-iv",
+        "D": "1-iii, 2-ii, 3-i, 4-v."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Divide and Conquer",
+      "explanation": "Checking each statement:<br>- Dijkstra: greedy (iii)<br>\n- Floyd-Warshall: dynamic programming (ii)<br>\n- Binary search: divide and conquer (i)<br>\n- Backtracking: depth-first search (iv)<br><br>\n<b>Answer: 1-iii, 2-ii, 3-i, 4-iv</b><br><br><a href=\"https://gateoverflow.in/8161/gate2015-2-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 37
+    },
+    {
+      "id": "2015-S2-Q38",
+      "source_id": 1115238,
+      "number": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A Young tableau is a 2D array of integers increasing from left to right and from top to bottom. Any unfilled entries are marked with [latex]\\infty[/latex], and hence there cannot be any entry to the right of, or below a [latex]\\infty[/latex]. The following Young tableau consists of unique entries.  <br><img src=\"/wp-content/uploads/GATE/CS/20152/q38.jpg\"/><br> When an element is removed from a Young tableau, other elements should be moved into its place so that the resulting table is still a Young tableau (unfilled entries may be filled in with a [latex]\\infty[/latex]). The minimum number of entries (other than 1) to be shifted, to remove 1 from the given Young tableau is _______.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20152/q38.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": null,
+      "explanation": "Removing 1 leaves a hole. Repeatedly fill it with the smaller of its right and lower neighbour:<br><br>\n- hole (1,1): min(2, 3) = 2 moves left<br>\n- hole (1,2): min(5, 4) = 4 moves up<br>\n- hole (2,2): min(6, 12) = 6 moves left<br>\n- hole (2,3): min(23, 18) = 18 moves up<br>\n- hole (3,3): min(25, [latex]\\infty[/latex]) = 25 moves left<br>\n- hole (3,4) gets [latex]\\infty[/latex]<br><br>\nShifted: 2, 4, 6, 18, 25 = 5 entries<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/8148/gate2015-2-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 38
+    },
+    {
+      "id": "2003-Q67",
+      "source_id": 1103167,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let G = (V,E) be an undirected graph with a sub-graph G1 = (V1,E1), Weight are\nassigned to edges of G as follows <br>[latex]w(e)=\\left\\{\\begin{matrix} 0 &if \\;  e \\in E1, \\\\ 1&  otherwise \\end{matrix}\\right.[/latex] <br><br>A single-source shortest path algorithm is executed on the weighted graph (V,E,w) with an arbitrary vertex v1 of V1 as the source. Which of the following can always be inferred from the path costs computed? ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The number of edges in the shortest paths from v1 to all vertices of G",
+        "B": "G1 is connected",
+        "C": "V1 forms a clique in G",
+        "D": "G1 is a tree"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "<a href=\"https://gateoverflow.in/954/gate2003-67#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 67
+    },
+    {
+      "id": "2009-Q38",
+      "source_id": 1109138,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following graph: <br><img src=\"/wp-content/uploads/GATE/CS/20091/q38.jpg\"/> <br>Which one of the following is NOT the sequence of edges added to the minimum spanning tree using Kruskal's algorithm?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20091/q38.jpg"
+      ],
+      "options": {
+        "A": "(b,e) (e,f) (a,c) (b,c) (f,g) (c,d)",
+        "B": "(b,e) (e,f) (a,c) (f,g) (b,c) (c,d)",
+        "C": "(b,e) (a,c) (e,f) (b,c) (f,g) (c,d)",
+        "D": "(b,e) (e,f) (b,c) (a,c) (f,g) (c,d)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1324/gate2009-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 38
+    },
+    {
+      "id": "2014-S1-Q38",
+      "source_id": 1114138,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose a polynomial time algorithm is discovered that correctly computes the largest clique\nin a given graph. In this scenario, which one of the following represents the correct Venn\ndiagram of the complexity classes P, NP and NP Complete (NPC)?<br><img src=\"/wp-content/uploads/GATE/CS/20141/q38a.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20141/q38a.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "P-NP Theory",
+      "explanation": "Max-clique is NP-hard, so a polynomial algorithm for it would give P = NP. Then every non-trivial problem in NP is NP-complete, so the classes coincide: P = NP = NPC.<br><br>\n<b>Answer: D</b><br><br><a href=\"https://gateoverflow.in/1916/gate2014-1-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 38
+    },
+    {
+      "id": "2015-S3-Q45",
+      "source_id": 1115345,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let G be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of G is 500. When the weight of each edge of G is increased by five, the weight of a minimum spanning tree becomes ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        995.0,
+        995.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Every spanning tree has 99 edges, so each tree's weight rises by exactly 99 [latex]\\times[/latex] 5 = 495. The same tree stays minimum.<br><br>\n500 + 495 = 995<br><br>\n<b>Answer: 995</b><br><br><a href=\"https://gateoverflow.in/8499/gate2015-3-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 45
+    },
+    {
+      "id": "2006-Q47",
+      "source_id": 1106147,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following graph: <br><img src=\"/wp-content/uploads/GATE/CS/20061/q47.jpg\"/><br> Which one of the following cannot be the sequence of edges added, in that order, to a minimum spanning tree using Kruskal's algorithm?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q47.jpg"
+      ],
+      "options": {
+        "A": "(a - b),(d - f),(b - f).( d - c),(d - e)",
+        "B": "(a - b),(d - f),(d - c),(b - f),(d - e)",
+        "C": "(d - f),(a - b),(d - c),(b - f),(d - e)",
+        "D": "(d - f),(a - b),(b - f),(d - e),(d - c)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1823/gate2006-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 47
+    },
+    {
+      "id": "2018-Q31",
+      "source_id": 1118131,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Assume that multiplying a matrix G1 of dimension pxq with another matrix G2 of\ndimension pxq requires pqr scalar multiplications. Computing the product of n  matrices G1G2G3...Gn can be done by parenthesizing in different ways. Define Gi Gi+1 as an explicitly computed pair for a given paranthesization if they are directly multiplied. For example, in the matrix multiplication chain G1G2G3G4G5G6 using parenthesization (G1(G2G3))(G4(G5G6)), G2G3 and G5G6 are the only explicitly computed pairs. Consider a matrix multiplication chain F1F2F3F4F5, where matrices F1, F2, F3, F4 and F5 are of dimensions 2x25, 25x3, 3x16, 16x1 and 1x1000, respectively. In the parenthesization of F1F2F3F4F5 that minimizes the total number of scalar multiplications, the explicitly computed pairs is/are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "F1F2 and F3F4 only",
+        "B": "F2F3 only",
+        "C": "F3F4 only",
+        "D": "F1F2 and F4F5 only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Dynamic Programming",
+      "explanation": "Dimensions 2, 25, 3, 16, 1, 1000. Because [latex]F_4[/latex] has 1 column, it pays to collapse [latex]F_1..F_4[/latex] into a 2 [latex]\\times[/latex] 1 matrix first, then multiply by [latex]F_5[/latex]:<br>\n[latex]F_3F_4[/latex]: 48 [latex]\\rightarrow[/latex] [latex]F_2(F_3F_4)[/latex]: 75 [latex]\\rightarrow[/latex] [latex]F_1(\\ldots)[/latex]: 50 [latex]\\rightarrow[/latex] [latex](\\ldots)F_5[/latex]: 2000. Total 2173, the minimum.<br><br>\nThe only pair of original matrices multiplied directly is [latex]F_3F_4[/latex].<br><br>\n<b>Answer: F3F4 only</b><br><br><a href=\"https://gateoverflow.in/204105/gate2018-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 31
+    },
+    {
+      "id": "2006-Q48",
+      "source_id": 1106148,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let T be a depth first search tree in a undirected graph G Vertices u and v are\nleaves of this tree T. The degrees of both u and v in G are at least 2. Which one\nof the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There must exist a vertex w adjacent to both u and v in G",
+        "B": "There must exist a vertex w whose removal disconnects u and v in G",
+        "C": "There must be exist a cycle in G containing u and v",
+        "D": "There must exist a cycle in G containing u and all its neighbours in G"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Graph Traversal",
+      "explanation": "<a href=\"https://gateoverflow.in/1824/gate2006-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 48
+    },
+    {
+      "id": "2006-Q52",
+      "source_id": 1106152,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The median of n elements can be found in O(n) time. Which one of the following\r\nis correct about the complexity of quick sort, in which median is selected as pivot?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\theta[/latex](n)",
+        "B": "[latex]\\theta[/latex](nlogn)",
+        "C": "[latex]\\theta (n^{2})[/latex]",
+        "D": "[latex]\\theta (n^{3})[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/1830/gate2006-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 52
+    },
+    {
+      "id": "2006-Q51",
+      "source_id": 1106151,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following recurrence: <br>\nT(n)=2T([latex]\\left \\lceil \\sqrt{n} \\right \\rceil[/latex])+ 1,  T(1) = 1 <br>\nWhich one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "T(n)=[latex]\\Theta[/latex](loglogn)",
+        "B": "T(n)=[latex]\\Theta[/latex](logn)",
+        "C": "T(n)=[latex]\\Theta (\\sqrt{n})[/latex]",
+        "D": "T(n)=[latex]\\Theta[/latex](n)"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1829/gate2006-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 51
+    },
+    {
+      "id": "2005-Q38",
+      "source_id": 1105138,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let G(V,E) be an undirected graph with positive edge weights. Dijkstra's single source shortest path algorithm can be implemented using the binary heap data structure with time complexity:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "O([latex]|V|^{2}[/latex])",
+        "B": "O(|E| + |V|log|V|)",
+        "C": "O(|V|log|V|)",
+        "D": "O((|E| + |V|) log |V|)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "<a href=\"https://gateoverflow.in/1374/gate2005-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 38
+    },
+    {
+      "id": "2003-Q66",
+      "source_id": 1103166,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The cube root of a natural number n is defined as the largest natural number m\nsuch that [latex]m^{3}\\leq n[/latex]. The complexity of computing the cube root of n(n is represented in binary notation) is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "O(n) but not O([latex]n^{0.5}[/latex])",
+        "B": "O([latex]n^{0.5}[/latex]) but not O([latex](log \\;n)^{k}[/latex]) for any constant k [latex]>[/latex] 0",
+        "C": "O([latex](log \\;n)^{k}[/latex]) for some constant k [latex]>[/latex] 0, but not O([latex](log \\;log \\; n)^{m}[/latex]) for any constant\nm [latex]>[/latex] 0",
+        "D": "O([latex](log \\;log \\; n)^{k}[/latex]) for some constant k [latex]>[/latex] 0.5, but not O([latex](log \\;log \\; n)^{0.5}[/latex])"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "<a href=\"https://gateoverflow.in/258/gate2003-66#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 66
+    },
+    {
+      "id": "2019-Q37",
+      "source_id": 1119137,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "There are n unsorted arrays: [latex]A_1,A_2,...,A_n[/latex]. Assume that n is odd. Each of [latex]A_1,A_2,...,A_n[/latex] contains n distinct elements. There are no common elements between any two arrays. The worst-case Asymptotic Notation of computing the median of the medians of [latex]A_1,A_2,...,A_n[/latex] is ________ .",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]O(n)[/latex]",
+        "B": "[latex]O(n \\log n)[/latex]",
+        "C": "[latex]O(n^2)[/latex]",
+        "D": "[latex]\\Omega(n^2 \\log n)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "Checking each statement:<br>- Median of each unsorted array of n elements (linear-time selection): [latex]O(n)[/latex] each, n arrays [latex]\\rightarrow[/latex] [latex]O(n^2)[/latex].<br>\n- Median of those n medians: [latex]O(n)[/latex].<br><br>\nTotal [latex]O(n^2)[/latex]. It cannot be less, because all [latex]n^2[/latex] elements must be looked at.<br><br>\n<b>Answer: [latex]O(n^2)[/latex]</b><br><br><a href=\"https://gateoverflow.in/302811/gate2019-cs-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 37
+    },
+    {
+      "id": "2020-Q49",
+      "source_id": 1120149,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a graph [latex]G=(V,E)[/latex], where [latex]V=\\{v_1,v_2,...,v_{100}\\}[/latex], [latex]E=\\{(v_i,v_j)|1\\leq i \\lt j\\leq 100\\}[/latex], and weight of the edge [latex](v_i,v_j)\\; is \\; |i-j|[/latex]. The weight of minimum spanning tree of G is _________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        99.0,
+        99.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Edge weight is |i [latex]-[/latex] j| [latex]\\ge1[/latex], and weight 1 is possible only between consecutive vertices. The 99 edges [latex](v_i,v_{i+1})[/latex] form a spanning tree (a path) of weight 1 each.<br><br>\nAny spanning tree has 99 edges of weight at least 1, so this is minimum: 99.<br><br>\n<b>Answer: 99</b><br><br><a href=\"https://gateoverflow.in/333182/gate2020-cs-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 49
+    },
+    {
+      "id": "2005-Q84",
+      "source_id": 1105184,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let s and t be two vertices in a undirected graph G=(V, E) having distinct positive edge weights. Let [X, Y] be a partition of V such that s[latex]\\in[/latex]X and t[latex]\\in[/latex]Y. Consider the edge e having the minimum weight amongst all those edges that have one vertex in X and one vertex in Y. <br><br> Let the weight of an edge e denote the congestion on that edge. The congestion on a path is defined to be the maximum of the congestions on the edges of the path. We wish to find the path from s to t having minimum congestion. Which one of the following paths is always such a path of minimum congestion?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a path from s to t in the minimum weighted spanning tree",
+        "B": "a weighted shortest path from s to t",
+        "C": "an Euler walk from s to t",
+        "D": "a Hamiltonian path from s to t"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/82129/gate2005-84#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 84
+    },
+    {
+      "id": "2021-S1-Q40",
+      "source_id": 1121140,
+      "number": 28,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Define [latex]R_n[/latex] to be the maximum amount earned by cutting a rod of length n meters into one or more pieces of integer length and selling them. For [latex]i > 0[/latex], let [latex]p[i][/latex] denote the selling price of a rod whose length is [latex]i[/latex] meters. Consider the array of prices:\n<br><br>\n[latex]\\text{p}[1]=1,\\text{p}[2]=5,\\text{p}[3]=8,\\text{p}[4]=9,\\text{p}[5]=10,\\text{p}[6]=17,\\text{p}[7]=18[/latex]<br><br>\nwhich of the following statements is/are correct about [latex]R_7[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]R_7=18[/latex]",
+        "B": "[latex]R_7=19[/latex]",
+        "C": "[latex]R_7[/latex] is achieved by three different solutions.",
+        "D": "[latex]R_7[/latex] cannot be achieved by a solution consisting of three pieces."
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Greedy Technique",
+      "explanation": "Best values: R1 = 1, R2 = 5, R3 = 8, R4 = 10 (2+2), R5 = 13 (2+3), R6 = 17, R7 = <b>18</b>.<br><br>\nR7 = 18 is reached by:<br>\n- one piece of 7 (18)<br>\n- 6 + 1 (17 + 1)<br>\n- 2 + 2 + 3 (5 + 5 + 8)<br><br>\nThree different solutions, one of which has three pieces (so option 4 is false).<br><br>\n<b>Answer: [latex]R_7=18[/latex] and it is achieved by three different solutions</b><br><br><a href=\"https://gateoverflow.in/357411/gate-cse-2021-set-1-question-40#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 40
+    },
+    {
+      "id": "2009-Q35",
+      "source_id": 1109135,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The running time of an algorithm is represented by the following recurrence relation:<br> [latex]T(n)=\\left\\{\\begin{matrix} n & n\\leq 3\\\\ T(\\frac{n}{3})+cn& otherwise \\end{matrix}\\right.[/latex] <br> Which one of the following represents the time complexity of the algorithm?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\theta[/latex](n)",
+        "B": "[latex]\\theta[/latex](n log n)",
+        "C": "[latex]\\theta (n^{2})[/latex]",
+        "D": "[latex]\\theta (n^{2} logn)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "recurrence Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1321/gate2009-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 35
+    },
+    {
+      "id": "2015-S3-Q54",
+      "source_id": 1115354,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex]f(n)=n[/latex] and [latex]g(n)=n^{1+sin \\; n}[/latex] where n is a positive integer. Which of the following statements is/are correct? <br>I.   [latex]f(n)=O(g(n)) [/latex]<br> II.   [latex]f(n)= \\Omega (g(n))[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "[latex]g(n)=n^{1+\\sin n}[/latex], and 1 + sin n keeps swinging between about 0 and 2. So g(n) is sometimes near 1 (much smaller than n) and sometimes near [latex]n^2[/latex] (much larger).<br><br>\nNeither bound holds for all large n.<br><br>\n<b>Answer: Neither I nor II</b><br><br><a href=\"https://gateoverflow.in/8501/gate2015-3-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 54
+    }
+  ]
+}

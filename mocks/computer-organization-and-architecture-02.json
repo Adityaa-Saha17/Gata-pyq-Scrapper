@@ -1,0 +1,824 @@
+{
+  "paper_id": "computer-organization-and-architecture-02",
+  "paper": "Computer Organization and Architecture: Topic Mock 2",
+  "kind": "topic_mock",
+  "topic": "Computer Organization and Architecture",
+  "set": 2,
+  "duration_min": 90,
+  "total_marks": 46,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2000-Q10",
+      "source_id": 1101910,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The most appropriate matching for the following pairs is: <br><br>[latex]\\begin{array}{ll} \\text{X: Indirect addressing} & \\text{1: Loops } \\\\ \\text{Y: Immediate addressing } & \\text{2: Pointers} \\\\ \\text{Z: Auto decrement addressing } & \\text{3: Constants } \\\\ \\end{array}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "X-3, Y-2, Z-1",
+        "B": "X-1, Y-3, Z-2",
+        "C": "X-2, Y-3, Z-1",
+        "D": "X-3, Y-1, Z-2"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Addressing Modes",
+      "explanation": "<a href=\"https://gateoverflow.in/633/gate2000-1-10\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 10
+    },
+    {
+      "id": "2010-Q7",
+      "source_id": 1110107,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A main memory unit with a capacity of 4 megabytes is built using 1Mx1-bit\nDRAM chips. Each DRAM chip has 1K rows of cells with 1K cells in each row. The\ntime taken for a single refresh operation is 100 nanoseconds. The time required\nto perform one refresh operation on all the cells in the memory unit is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "100 nanoseconds",
+        "B": "100 *[latex]2^{10}[/latex] nanoseconds",
+        "C": "100*[latex]2^{20}[/latex] nanoseconds",
+        "D": "3200*[latex]2^{20}[/latex] nanoseconds"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory Chip Design",
+      "explanation": "A refresh operation refreshes one whole row, and all 32 chips refresh in parallel. Each chip has [latex]1K=2^{10}[/latex] rows.<br><br>\nTime = [latex]2^{10}\\times100[/latex] ns<br><br>\n<b>Answer: 100 [latex]\\times[/latex] [latex]2^{10}[/latex] nanoseconds</b><br><br><a href=\"https://gateoverflow.in/2178/gate2010-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 7
+    },
+    {
+      "id": "2007-Q11",
+      "source_id": 1107111,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "256 Mbyte, 19 bits",
+        "B": "256 Mbyte, 28 bits",
+        "C": "512 Mbyte, 20 bits",
+        "D": "64 Gbyte, 28 bits"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Secondary Storage",
+      "explanation": "<a href=\"https://gateoverflow.in/1209/gate2007-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 11
+    },
+    {
+      "id": "2014-S1-Q9",
+      "source_id": 1114109,
+      "number": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A machine has a 32-bit architecture, with 1-word long instructions. It has 64 registers, each of  which is 32 bits long. It needs to support 45 instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is ____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        16383.0,
+        16383.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "Checking each statement:<br>- 45 instructions [latex]\\rightarrow[/latex] 6-bit opcode<br>\n- 2 registers of 64 [latex]\\rightarrow[/latex] 6 + 6 = 12 bits<br>\n- Immediate = 32 [latex]-[/latex] 6 [latex]-[/latex] 12 = 14 bits [latex]\\rightarrow[/latex] max unsigned value [latex]2^{14}-1=16383[/latex]<br><br>\n<b>Answer: 16383</b><br><br><a href=\"https://gateoverflow.in/1767/gate2014-1-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 9
+    },
+    {
+      "id": "2023-Q24",
+      "source_id": 1123124,
+      "number": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A keyboard connected to a computer is used at a rate of 1 keystroke per second.\nThe computer system polls the keyboard every 10 ms (milli seconds) to check for\na keystroke and consumes 100 [latex] \\mu s[/latex] (micro seconds) for each poll. If it is determined\nafter polling that a key has been pressed, the system consumes an additional 200\n[latex] \\mu s[/latex] to process the keystroke. Let [latex] T_1[/latex] denote the fraction of a second spent in polling\nand processing a keystroke.<br>\nIn an alternative implementation, the system uses interrupts instead of polling.\nAn interrupt is raised for every keystroke. It takes a total of 1 ms for servicing an\ninterrupt and processing a keystroke. Let  [latex] T_2[/latex] denote the fraction of a second spent\nin servicing the interrupt and processing a keystroke.\nThe ratio [latex] \\frac{T_1}{T_2}[/latex]\nis ______ . (Rounded off to one decimal place)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        10.2,
+        10.2
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupt",
+      "explanation": "<b>Polling:</b> 100 polls per second (every 10 ms) [latex]\\times[/latex] 100 [latex]\\mu[/latex]s = 10 ms, plus 200 [latex]\\mu[/latex]s for the one keystroke [latex]\\rightarrow[/latex] [latex]T_1=10.2[/latex] ms per second.<br><br>\n<b>Interrupts:</b> one keystroke per second [latex]\\times[/latex] 1 ms [latex]\\rightarrow[/latex] [latex]T_2=1[/latex] ms per second.<br><br>\n[latex]\\frac{T_1}{T_2}=\\frac{10.2}{1}=10.2[/latex]<br><br>\n<b>Answer: 10.2</b><br><br><a href=\"https://gateoverflow.in/399287/gate-cse-2023-question-24#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 24
+    },
+    {
+      "id": "1999-Q21",
+      "source_id": 1101821,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The main memory of a computer has 2 cm blocks while the cache has 2c blocks. If the cache uses the set associative mapping scheme with 2 blocks per set, then block k of the main memory maps to the set:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(k mod m) of the cache",
+        "B": "(k mod c) of the cache",
+        "C": "(k mod 2c) of the cache",
+        "D": "(k mod 2 cm) of the cache"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "<a href=\"https://gateoverflow.in/1475/gate-cse-1999-question-1-22\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 21
+    },
+    {
+      "id": "2012-Q20",
+      "source_id": 1112120,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Register renaming is done in pipelined processors",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "as an alternative to register allocation at compile time",
+        "B": "for efficient access to function parameters and local variables",
+        "C": "to handle certain kinds of hazards",
+        "D": "as part of address translation"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "Register renaming gives fresh physical registers to repeated uses of a register name, removing WAR and WAW (false dependency) hazards.<br><br>\n<b>Answer: to handle certain kinds of hazards</b><br><br><a href=\"https://gateoverflow.in/52/gate2012-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 20
+    },
+    {
+      "id": "1997-Q12",
+      "source_id": 1101612,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "RST 7.5 interrupt in 8085 microprocessor executes the interrupt service routing from interrupt vector location\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0000H",
+        "B": "0075H",
+        "C": "003CH",
+        "D": "0034H"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupt",
+      "explanation": "<a href=\"https://gateoverflow.in/2228/gate1997-2-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 12
+    },
+    {
+      "id": "2001-Q38",
+      "source_id": 1101138,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following data path of a simple non-pilelined CPU. The registers\nA, B, A1, A2, MDR, the bus and the ALU are 8-bit wide. SP and MAR are 16-\nbit registers. The MUX is of size 8x(2:1) and the DEMUX is of size 8x(1:2). Each memory operation takes 2 CPU clock cycles and uses MAR (Memory\nAddress Register) and MDR (Memory Date Register). SP can be decremented\nlocally. <br><img src=\"/wp-content/uploads/GATE/CS/20011/q38.jpg\"/><br> The CPU instruction \"push r\", where = A or B, has the specification <br><br>\nM[SP][latex]\\rightarrow[/latex]r<br>\nSP [latex]\\rightarrow[/latex] SP - 1<br><br>\nHow many CPU clock cycles are needed to execute the \"push r\" instruction?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20011/q38.jpg"
+      ],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "ALU Data Path and Control Unit",
+      "explanation": "<a href=\"https://gateoverflow.in/731/gate2001-2-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 38
+    },
+    {
+      "id": "2021-S1-Q22",
+      "source_id": 1121122,
+      "number": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a computer system with a byte-addressable primary memory of size [latex]2^{32} \\text{ bytes}[/latex]. Assume the computer system has a direct-mapped cache of size [latex]32 KB (1 KB = 2^{10}  \\text{ bytes})[/latex], and each cache block is of size 64 bytes.<br>\nThe size of the tag field is __________ bits.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        17.0,
+        17.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Lines = 32 KB / 64 B = 512 [latex]\\rightarrow[/latex] 9 index bits. Offset = 6 bits.<br><br>\nTag = 32 [latex]-[/latex] 9 [latex]-[/latex] 6 = 17 bits<br><br>\n<b>Answer: 17</b><br><br><a href=\"https://gateoverflow.in/357429/gate-cse-2021-set-1-question-22#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 22
+    },
+    {
+      "id": "1995-Q26",
+      "source_id": 1101426,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A sequence of two instructions that multiplies the contents of the DE register pair by 2 and stores the result in the HL register pair (in 8085 assembly language) is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "XCHG and DAD B",
+        "B": "XTHL and DAD H",
+        "C": "PCHL and DAD D",
+        "D": "XCHG and DAD H"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "explanation": "<a href=\"https://gateoverflow.in/2613/gate1995-2-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 26
+    },
+    {
+      "id": "2005-Q20",
+      "source_id": 1105120,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Normally user programs are prevented from handling I/O directly by I/O instructions in them. For CPUs having explicit I/O instructions, such I/O protection is ensured by having the I/O instructions privileged. In a CPU with memory mapped I/O, there is no explicit I/O instruction. Which one of the following is true for a CPU with memory mapped I/O?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I/O protection is ensured by operating system routine(s)",
+        "B": "I/O protection is ensured by a hardware trap",
+        "C": "I/O protection is ensured during system configuration",
+        "D": "I/O protection is not possible"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "IO Interface",
+      "explanation": "<a href=\"https://gateoverflow.in/1356/gate2005-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 20
+    },
+    {
+      "id": "2002-Q9",
+      "source_id": 1102109,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A device employing INTR line for device interrupt puts the CALL instruction on\nthe data bus while",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\overline{INTA}[/latex] is active",
+        "B": "HOLD is active",
+        "C": "READY is active",
+        "D": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupt",
+      "explanation": "<a href=\"https://gateoverflow.in/813/gate2002-1-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 9
+    },
+    {
+      "id": "1996-Q22",
+      "source_id": 1101522,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Number of machine cycles required for RET instruction in 8085 microprocessor is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "<a href=\"https://gateoverflow.in/2726/gate1996-1-22\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 22
+    },
+    {
+      "id": "2007-Q37",
+      "source_id": 1107137,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a pipelined processor with the following four stages: <br>\r\nIF: Instruction Fetch <br>\r\nID: Instruction Decode and Operand Fetch <br>\r\nEX: Execute <br>\r\nWB: Write Back <br><br>\r\nThe IF, ID and WB stages take one clock cycle each to complete the operation.\r\nThe number of clock cycles for the EX stage depends on the instruction. The ADD\r\nand SUB instructions need 1 clock cycle and the MUL instruction needs 3 clock\r\ncycles in the EX stage. Operand forwarding is used in the pipelined processor.\r\nWhat is the number of clock cycles taken to complete the following sequence of\r\ninstructions? <br>\r\nADD R2, R1, R0              (R2 [latex]\\leftarrow[/latex]  R1 + R0) <br>\r\nMUL R4, R3, R2              (R4 [latex]\\leftarrow[/latex]  R3 * R2)<br>\r\nSUB R6, R5, R4               (R6 [latex]\\leftarrow[/latex]  R5 - R4)<br>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "10",
+        "D": "14"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "<a href=\"https://gateoverflow.in/1235/gate2007-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 37
+    },
+    {
+      "id": "2014-S1-Q43",
+      "source_id": 1114143,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a 6-stage instruction pipeline, where all stages are perfectly balanced. Assume that\nthere is no cycle-time overhead of pipelining. When an application is executing on this 6-stage pipeline, the speedup achieved with respect to non-pipelined execution if 25% of the instructions incur 2 pipeline stall cycles is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "Pipelined CPI = 1 + 0.25 [latex]\\times[/latex] 2 = 1.5. A balanced 6-stage pipeline ideally gives speedup 6.<br><br>\nSpeedup = 6 / 1.5 = 4<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/1921/gate2014-1-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 43
+    },
+    {
+      "id": "2016-S1-Q31",
+      "source_id": 1116131,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The size of the data count register of a DMA controller is 16 bits.The processor needs to transfer a file of 29,154 kilobytes from disk to main memory.The memory is byte addressable. The minimum number of times the DMA control lerneeds to get the control of the systembus from the processor to transfer the file from the disk to main memory is ____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        456.0,
+        456.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "IO Interface",
+      "explanation": "A 16-bit count register lets the DMA move at most [latex]2^{16}[/latex] bytes = 64 KB each time it takes the bus.<br><br>\n[latex]\\lceil29154/64\\rceil=\\lceil455.5\\rceil=456[/latex]<br><br>\n<b>Answer: 456</b><br><br><a href=\"https://gateoverflow.in/39698/gate2016-1-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 31
+    },
+    {
+      "id": "2026-S2-Q42",
+      "source_id": 1126242,
+      "number": 18,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a system with a processor and a [latex]4[/latex] KB direct mapped cache with block size of [latex]16[/latex] bytes. The system has a [latex]16[/latex] MB physical memory. Four words [latex]{P}, {Q}, {R}[/latex], and S are accessed by the processor in the same order [latex]10[/latex] times. That is, there are a total of [latex]40[/latex] memory references in the sequence [latex]{P}, {Q}, {R}, {S}, {P}, {Q}, {R}, {S}, \\ldots[/latex] <br><br>Assume that the cache memory is initially empty. The physical addresses of the words are given below ([latex]1[/latex] word [latex]=1[/latex] byte). <br><br>[latex]\\text{P: 0x845B32, Q: 0x845B26, R: 0x845B36, S: 0x846B32}[/latex]<br><br> Which of the following statements is/are true? <br>Note: [latex]1 {~K}=2^{10}[/latex] and [latex]1 {M}=2^{20}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Every access to [latex]\\text{P}[/latex] results in a cache miss",
+        "B": "Every access to [latex]\\text{R}[/latex] results in a cache hit",
+        "C": "Every access to [latex]\\text{Q}[/latex] results in a cache miss",
+        "D": "Except the first access to [latex]\\text{S}[/latex], all subsequent accesses to [latex]\\text{S}[/latex] result in cache hits"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Cache: [latex]4[/latex] KB, block size [latex]16[/latex] bytes [latex]\\Rightarrow[/latex] offset [latex]=4[/latex] bits, number of lines [latex]=4096/16=256=2^8\\Rightarrow[/latex] index [latex]=8[/latex] bits; physical memory [latex]16[/latex] MB [latex]\\Rightarrow[/latex] address width [latex]=24[/latex] bits, so tag [latex]=24-8-4=12[/latex] bits.<br><br>\nComputing (block-address, index, tag) for each word shows that [latex]P=0\\text{x}845B32[/latex] and [latex]R=0\\text{x}845B36[/latex] fall in the <b>same [latex]16[/latex]-byte block</b> (both addresses lie within [latex]0\\text{x}845B30[/latex]-[latex]0\\text{x}845B3F[/latex]), while [latex]Q=0\\text{x}845B26[/latex] maps to a <i>different</i> cache line (a different index) than [latex]P/R[/latex], and [latex]S=0\\text{x}846B32[/latex] maps to the <b>same index</b> as [latex]P/R[/latex] but with a different tag (so [latex]S[/latex] conflicts with [latex]P/R[/latex]'s cache line).<br><br>\nSimulating the repeating access sequence [latex]P,Q,R,S,P,Q,R,S,\\ldots[/latex]: each [latex]S[/latex] access evicts the [latex]P/R[/latex] block (same index, different tag), so the very next [latex]P[/latex] access is always a fresh miss (reloading [latex]P[/latex]'s block, which also brings in [latex]R[/latex] since they share a block); the following [latex]R[/latex] access is then always a hit (block was just loaded by [latex]P[/latex]); and the following [latex]S[/latex] access is always a miss again (conflicts with the just-refreshed [latex]P/R[/latex] tag). Meanwhile [latex]Q[/latex]'s index never conflicts with anything else, so only its very first access misses; all later [latex]Q[/latex] accesses are hits (not \"every access misses\").<br><br>\n<b>Answer: Every access to P is a miss, and every access to R is a hit.</b> <br><br> <a href=\"https://gateoverflow.in/523104/gate-cse-2026-set-2-question-42#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 42
+    },
+    {
+      "id": "2003-Q49",
+      "source_id": 1103149,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following assembly language program for a hypothetical processor. A, B, and C are 8 bit registers. The meanings of various instructions are shown as comments. <br><img src=\"/wp-content/uploads/GATE/CS/20031/q48.jpg\"/> <br> Which of the following instructions when inserted at location X will ensure that\nthe value of register A after program execution is the same as its initial value?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q48.jpg"
+      ],
+      "options": {
+        "A": "RRC A,# 1",
+        "B": "NOP ; no operation",
+        "C": "LRC A, # 1 ; left rotate A through carry flag by one bit",
+        "D": "ADD A, # 1"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "<a href=\"https://gateoverflow.in/43577/gate2003-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 49
+    },
+    {
+      "id": "2025-S2-Q29",
+      "source_id": 1125229,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For a direct-mapped cache, 4 bits are used for the tag field and 12 bits are used to index into a cache block. The size of each cache block is one byte. Assume that there is no other information stored for each cache block.  <br>\nWhich ONE of the following is the CORRECT option for the sizes of the main memory and the cache memory in this system (byte addressable), respectively?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "64 KB and 4 KB",
+        "B": "128 KB and 16 KB",
+        "C": "64 KB and 8 KB",
+        "D": "128 KB and 6 KB"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Block size [latex]=1[/latex] byte [latex]=2^0[/latex], so the offset field needs [latex]0[/latex] bits. With [latex]12[/latex]-bit index and [latex]4[/latex]-bit tag, the total address width [latex]=4+12+0=16[/latex] bits.<br><br>\nMain memory size [latex]=2^{16}=65536[/latex] bytes [latex]=64[/latex] KB.<br><br>\nCache size [latex]=[/latex] (number of lines) [latex]\\times[/latex] (block size) [latex]=2^{12}\\times1=4096[/latex] bytes [latex]=4[/latex] KB.<br><br>\n<b>Answer: 64 KB and 4 KB</b><br><br><a href=\"https://gateoverflow.in/460806/gate-cse-2025-set-2-question-29#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 29
+    },
+    {
+      "id": "2021-S1-Q53",
+      "source_id": 1121153,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A five-stage pipeline has stage delays of 150, 120, 150, 160 and 140 nanoseconds. The registers that are used between the pipeline stages have a delay of 5 nanoseconds each.<br>The total time to execute 100 independent instructions on this pipeline, assuming there are no pipeline stalls, is _______ nanoseconds.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        17160.0,
+        17160.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "Clock cycle = slowest stage + register delay = 160 + 5 = 165 ns.<br>\nCycles for 100 instructions on 5 stages = 5 + 100 [latex]-[/latex] 1 = 104.<br><br>\nTime = 104 [latex]\\times[/latex] 165 = 17160 ns<br><br>\n<b>Answer: 17160</b><br><br><a href=\"https://gateoverflow.in/357398/gate-cse-2021-set-1-question-53#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 53
+    },
+    {
+      "id": "2021-S1-Q55",
+      "source_id": 1121155,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following instruction sequence where registers [latex]R_1,R_2 \\text{ and }R_3[/latex] are general purpose and [latex]MEMORY[X][/latex] denotes the content at the memory location [latex]X[/latex].<br><br>[latex]\\begin{array}{llc} \\textbf{Instruction} & \\textbf{Semantics} & \\textbf{Instruction Size} \\text{ (bytes)} \\\\ \\hline \\text{MOV } R1, (5000) & R1 \\leftarrow \\text{MEMORY}[5000] & 4 \\\\ \\hline \\text{MOV } R2, (R3) & R2 \\leftarrow \\text{MEMORY}[R3] & 4 \\\\ \\hline \\text{ADD} R2, R1 & R2 \\leftarrow R1 + R2 & 2 \\\\ \\hline \\text{MOV } (R3), R2 & \\text{MEMORY}[R3] \\leftarrow R2 & 4 \\\\ \\hline \\text{INC } R3 & R3 \\leftarrow R3+1 & 2 \\\\ \\hline \\text{DEC } R1 & R1 \\leftarrow R1-1 & 2 \\\\ \\hline \\text{BNZ } 1004 & \\text{Branch if not zero to the} & 2 \\\\ & \\text{given absolute address} \\\\ \\hline \\text{HALT} & \\text{Stop} & 1 \\\\ \\hline \\end{array}[/latex]<br><br>\nAssume that the content of the memory location 5000 is 10, and the content of the register [latex]R_3[/latex] is 3000. The content of each of the memory locations from 3000 to 3020 is 50. The instruction sequence starts from the memory location 1000. All the numbers are in decimal format. Assume that the memory is byte addressable.\n<br>\nAfter the execution of the program, the content of memory location 3010 is ____________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        50.0,
+        50.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "R1 = MEMORY[5000] = 10, so the loop (BNZ back to 1004) runs 10 times. Each pass adds R1 to MEMORY[R3] and moves R3 one byte ahead.<br><br>\nR3 goes 3000, 3001, [latex]\\ldots[/latex], 3009. Location 3010 is never written, so it keeps its value 50.<br><br>\n<b>Answer: 50</b><br><br><a href=\"https://gateoverflow.in/357397/gate-cse-2021-set-1-question-55#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 55
+    },
+    {
+      "id": "2005-Q79",
+      "source_id": 1105179,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following data path of a CPU.  <br><img src=\"/wp-content/uploads/GATE/CS/20051/q79.jpg\"/> <br>ALU, the bus and all the registers in the data path are of identical size. All operations including incrementation of the PC and the GPRs are to be carried out in the ALU. Two clock cycles are needed for memory read operation - the first one for loading address in the MAR and the next one for loading data from the memory bus into the MDR. <br><br> The instruction \"add R0, R1\" has the register transfer interpretation R0<=R0+R1. The minimum number of clock cycles needed for execution cycle of this instruction is.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20051/q79.jpg"
+      ],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "ALU Data Path and Control Unit",
+      "explanation": "<a href=\"https://gateoverflow.in/1402/gate2005-79#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 79
+    },
+    {
+      "id": "2012-Q54",
+      "source_id": 1112154,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The number of bits in the tag field of an address is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "11",
+        "B": "14",
+        "C": "16",
+        "D": "27"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Checking each statement:<br>- Blocks = 256 KB / 32 B = 8192, sets = 8192 / 4 = 2048 [latex]\\rightarrow[/latex] index = 11 bits<br>\n- Offset = 5 bits<br><br>\nTag = 32 [latex]-[/latex] 11 [latex]-[/latex] 5 = 16 bits<br><br>\n<b>Answer: 16</b><br><br><a href=\"https://gateoverflow.in/2192/gate2012-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 54
+    },
+    {
+      "id": "2017-S1-Q51",
+      "source_id": 1117151,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a 2-way set associative cache with 256 blocks and uses LRU replacement, Initially\nthe cache is empty. Conflict misses are those misses which occur due the contention of\nmultiple blocks for the same cache set. Compulsory misses occur due to first time access to\nthe block. The following sequence of accesses to memory blocks. <br><br>\n(0,128,256,128,0,128,256,128,1,129,257,129,1,129,257,129)<br><br>\nis repeated 10 times. The number of conflict misses experienced by the cache is ___________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        76.0,
+        76.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "128 sets (2-way). Blocks 0, 128, 256 map to set 0; 1, 129, 257 map to set 1. Set 0 sees 0, 128, 256, 128, 0, 128, 256, 128 each round:<br>\n- Round 1: 0, 128, 256 are compulsory misses; then 0 and 256 miss again (conflict) [latex]\\rightarrow[/latex] 2 conflict misses.<br>\n- Each later round: 0 and 256 keep evicting each other (128 stays) [latex]\\rightarrow[/latex] 4 conflict misses.<br><br>\nSet 0: 2 + 9 [latex]\\times[/latex] 4 = 38. Set 1 behaves the same: 38. Total = 76<br><br>\n<b>Answer: 76</b><br><br><a href=\"https://gateoverflow.in/118745/gate2017-1-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 51
+    },
+    {
+      "id": "2012-Q55",
+      "source_id": 1112155,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The size of the cache tag directory is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "160 Kbits",
+        "B": "136 Kbits",
+        "C": "40 Kbits",
+        "D": "32 Kbits"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Each entry = 16 (tag) + 2 (valid) + 1 (modified) + 1 (replacement) = 20 bits. There are 8192 entries (one per block).<br><br>\n8192 [latex]\\times[/latex] 20 = 163840 bits = 160 Kbits<br><br>\n<b>Answer: 160 Kbits</b><br><br><a href=\"https://gateoverflow.in/43311/gate2012-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 55
+    },
+    {
+      "id": "2025-S1-Q27",
+      "source_id": 1125127,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A processor has 64 general-purpose registers and 50 distinct instruction types. An instruction is encoded in 32-bits. What is the maximum number of bits that can be used to store the immediate operand for the given instruction?\n<br><br>\n ADD  R1, #25       // R1 = R1 + 25",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "16",
+        "B": "20",
+        "C": "22",
+        "D": "24"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "With [latex]64=2^6[/latex] registers, each register-number field needs [latex]6[/latex] bits. With [latex]50[/latex] distinct instruction types, the opcode field needs [latex]\\lceil\\log_2 50\\rceil=6[/latex] bits (since [latex]2^5=32<50\\le64=2^6[/latex]).<br><br>\nThe instruction [latex]\\text{ADD R1, \\#25}[/latex] (meaning [latex]\\text{R1}=\\text{R1}+25[/latex]) only needs to name <i>one</i> register (used as both source and destination), plus an immediate value. So the [latex]32[/latex]-bit instruction splits as: opcode ([latex]6[/latex] bits) [latex]+[/latex] one register field ([latex]6[/latex] bits) [latex]+[/latex] immediate field (the rest).<br><br>\nImmediate field width [latex]=32-6-6=20[/latex] bits.<br><br>\n<b>Answer: 20</b><br><br><a href=\"https://gateoverflow.in/460053/gate-cse-2025-set-1-question-27#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 27
+    },
+    {
+      "id": "2014-S2-Q44",
+      "source_id": 1114244,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If the associativity of a processor cache is doubled while keeping the capacity and block size\nunchanged, which one of the following is guaranteed to be NOT affected?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Width of tag comparator",
+        "B": "Width of set index decoder",
+        "C": "Width of way selection multiplexor",
+        "D": "Width of processor to main memory data bus"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Doubling associativity halves the number of sets: the index loses 1 bit, the tag gains 1 bit, and the way multiplexer gets twice the inputs.<br><br>\nThe processor-to-memory data bus width does not depend on cache organisation.<br><br>\n<b>Answer: Width of processor to main memory data bus</b><br><br><a href=\"https://gateoverflow.in/2010/gate2014-2-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 44
+    },
+    {
+      "id": "2005-Q68",
+      "source_id": 1105168,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A 5 stage pipelined CPU has the following sequence of stages: <pre><code>\nIF - Instruction fetch from instruction memory,\nRD - Instruction decode and register read,\nEX - Execute: ALU operation for data and address computation,\nMA - Data memory access - for write access, the register read at RD stage is used,\nWB - Register write back. \nConsider the following sequence of instructions:\nI1 : L R0, 1oc1;        R0 <= M[1oc1]\nI2 : A R0, R0;           R0 <= R0 + R0\nI3 : S R2, R0;           R2 <= R2 - R0\n </pre></code> Let each stage take one clock cycle. What is the number of clock cycles taken to complete the above sequence of instructions starting from the fetch of I1 ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "15"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "<a href=\"https://gateoverflow.in/1391/gate2005-68#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 68
+    },
+    {
+      "id": "2024-S1-Q44",
+      "source_id": 1124144,
+      "number": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per\ntrack and each sector holds 1024 bytes of data. The number of cylinders in the hard\ndisk is ____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4096.0,
+        4096.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Secondary Storage",
+      "explanation": "Capacity = cylinders [latex]\\times[/latex] surfaces [latex]\\times[/latex] sectors per track [latex]\\times[/latex] bytes per sector.<br><br>\n[latex]512\\text{ GB}=2^{39}[/latex], 32 surfaces [latex]=2^5[/latex], 4096 sectors [latex]=2^{12}[/latex], 1024 bytes [latex]=2^{10}[/latex].<br><br>\nCylinders [latex]=\\dfrac{2^{39}}{2^5\\times2^{12}\\times2^{10}}=2^{12}=4096[/latex]<br><br>\n<b>Answer: 4096</b><br><br><a href=\"https://gateoverflow.in/422798/gate-cse-2024-set-1-question-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 44
+    }
+  ]
+}

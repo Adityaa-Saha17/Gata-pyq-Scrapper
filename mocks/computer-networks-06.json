@@ -1,0 +1,826 @@
+{
+  "paper_id": "computer-networks-06",
+  "paper": "Computer Networks: Topic Mock 6",
+  "kind": "topic_mock",
+  "topic": "Computer Networks",
+  "set": 6,
+  "duration_min": 90,
+  "total_marks": 47,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2026-S2-Q23",
+      "source_id": 1126223,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "If an IP network uses a subnet mask of [latex]255.255.240.0[/latex], the maximum number of IP addresses that can be assigned to network interfaces is ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4094.0,
+        4094.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Subnet mask [latex]255.255.240.0[/latex] in binary: [latex]11111111.11111111.11110000.00000000[/latex] &mdash; this has [latex]20[/latex] network bits (a [latex]/20[/latex]).<br><br>\nHost bits [latex]=32-20=12[/latex], giving [latex]2^{12}=4096[/latex] total addresses in the subnet. Of these, [latex]2[/latex] are reserved (the all-zeros network address and the all-ones broadcast address) and cannot be assigned to interfaces.<br><br>\nUsable addresses [latex]=4096-2=4094[/latex].<br><br>\n<b>Answer: 4094</b> <br><br> <a href=\"https://gateoverflow.in/523123/gate-cse-2026-set-2-question-23#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 23
+    },
+    {
+      "id": "2004-Q16",
+      "source_id": 1104116,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is NOT true with respect to a transparent bridge and a router?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both bridge and router selectively forward data packets",
+        "B": "A bridge uses IP addresses while a router uses MAC addresses",
+        "C": "A bridge builds up its routing table by inspecting incoming packets",
+        "D": "A router can connect between a LAN and a WAN"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/1013/gate2004-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 16
+    },
+    {
+      "id": "2014-S1-Q24",
+      "source_id": 1114124,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following are used to generate a message digest by the network security\nprotocols? <br>(P) RSA <br>(Q) SHA-1 <br>(R) DES <br>(S) MD5",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P and R only",
+        "B": "Q and R only",
+        "C": "Q and S only",
+        "D": "R and S only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "SHA-1 and MD5 are hash functions that produce message digests. RSA is public-key encryption and DES is a symmetric cipher.<br><br>\n<b>Answer: Q and S only</b><br><br><a href=\"https://gateoverflow.in/1791/gate2014-1-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 24
+    },
+    {
+      "id": "2026-S2-Q12",
+      "source_id": 1126212,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following protocols may need to broadcast some of its messages?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\text{SMTP}[/latex]",
+        "B": "[latex]\\text{FTP}[/latex]",
+        "C": "[latex]\\text{DHCP}[/latex]",
+        "D": "[latex]\\text{HTTP}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "<b>DHCP</b> (Dynamic Host Configuration Protocol) is used by a host to automatically obtain an IP address (and other network configuration) when it first joins a network &mdash; since the host doesn't yet have an IP address (or know the server's address), its initial \"DHCP Discover\" message must be <b>broadcast</b> on the local network so that any DHCP server present can respond.<br><br>\n[latex]\\text{SMTP}[/latex] (mail), [latex]\\text{FTP}[/latex] (file transfer), and [latex]\\text{HTTP}[/latex] (web) are all conventional client-server protocols that communicate with a specific, already-known server address over a normal unicast connection &mdash; they have no inherent need to broadcast.<br><br>\n<b>Answer: DHCP</b> <br><br> <a href=\"https://gateoverflow.in/523134/gate-cse-2026-set-2-question-12#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 12
+    },
+    {
+      "id": "2011-Q2",
+      "source_id": 1111102,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A layer-4 firewall (a device that can look at all protocol headers up to the\ntransport layer) CANNOT",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "block entire HTTP traffic during 9:00PM and 5:00AM",
+        "B": " block all ICMP traffic",
+        "C": "stop incoming traffic from a specific IP address but allow outgoing traffic to\nthe same IP address",
+        "D": "block TCP traffic from a specific user on a multi-user system during 9:00PM\nand 5:00AM"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "A layer-4 firewall sees IP addresses, protocols and port numbers, so it can block HTTP (port 80), ICMP, or traffic from an IP.<br><br>\nWhich <i>user</i> on a multi-user machine sent a packet is not in any of these headers, so it cannot filter by user.<br><br>\n<b>Answer: block TCP traffic from a specific user on a multi-user system</b><br><br><a href=\"https://gateoverflow.in/2104/gate2011-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 2
+    },
+    {
+      "id": "2015-S2-Q24",
+      "source_id": 1115224,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A link has a transmission speed of [latex]10^{6}[/latex] bits/sec. It uses data packets of size 1000 bytes each. Assume that the acknowledgment has negligible transmission delay, and that its propagation delay is the same as the data propagation delay. Also assume that the processing delays at nodes are negligible. The efficiency of the stop-and-wait protocol in this setup is exactly 25%. The value of the one-way propagation delay (in milliseconds) is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        12.0,
+        12.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "[latex]T_t=\\frac{8000}{10^6}=8[/latex] ms.<br><br>\n[latex]\\eta=\\frac{T_t}{T_t+2T_p}=0.25\\Rightarrow 8+2T_p=32\\Rightarrow T_p=12[/latex] ms<br><br>\n<b>Answer: 12</b><br><br><a href=\"https://gateoverflow.in/8056/gate2015-2-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 24
+    },
+    {
+      "id": "2015-S1-Q16",
+      "source_id": 1115116,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following fields of an IP header is NOT modified by a typical IP router?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Checksum",
+        "B": "Source address",
+        "C": "Time to Live (TTL)",
+        "D": "Length"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Routers decrease TTL, recompute the checksum, and change the length when they fragment. The source address stays the same (unless NAT is used, which is not typical routing).<br><br>\n<b>Answer: Source address</b><br><br><a href=\"https://gateoverflow.in/8220/gate2015-1-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 16
+    },
+    {
+      "id": "2021-S1-Q8",
+      "source_id": 1121108,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following two statements.\n<br><br>\nS1: Destination MAC address of an ARP reply is a broadcast address.<br>\nS2: Destination MAC address of an ARP request is a broadcast address.<br><br>\nWhich one of the following choices is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both S1 and S2 are true",
+        "B": "S1 is true and S2 is false",
+        "C": "S1 is false and S2 is true",
+        "D": "Both S1 and S2 are false"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- ARP <b>request</b>: the sender does not know the MAC, so it is <b>broadcast</b> [latex]\\text{---}[/latex] S2 TRUE.<br>\n- ARP <b>reply</b>: sent directly (unicast) to the requester's MAC [latex]\\text{---}[/latex] S1 FALSE.<br><br>\n<b>Answer: S1 is false and S2 is true</b><br><br><a href=\"https://gateoverflow.in/357444/gate-cse-2021-set-1-question-8#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 8
+    },
+    {
+      "id": "2014-S2-Q24",
+      "source_id": 1114224,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following socket API functions converts an unconnected active TCP socket\ninto a passive socket?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "connect",
+        "B": "bind",
+        "C": "listen",
+        "D": "accept"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement:<br>- connect: active open to a server<br>\n- bind: attaches a local address/port<br>\n- listen: marks the socket as passive (ready to accept connections) [latex]\\rightarrow[/latex] True<br>\n- accept: takes a connection from an already-listening socket<br><br>\n<b>Answer: listen</b><br><br><a href=\"https://gateoverflow.in/1982/gate2014-2-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 24
+    },
+    {
+      "id": "2025-S2-Q8",
+      "source_id": 1125208,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the protocol number of a protocol X.  <br>\nWhich ONE of the following is NOT a possible candidate for X?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Internet Control Message Protocol (ICMP)",
+        "B": "Internet Group Management Protocol (IGMP)",
+        "C": "Open Shortest Path First (OSPF)",
+        "D": "Routing Information Protocol (RIP)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "The IPv4 protocol field identifies which higher-layer protocol's data the datagram carries, using standard registered numbers: ICMP [latex]=1[/latex], IGMP [latex]=2[/latex], OSPF [latex]=89[/latex] &mdash; all of these run <i>directly</i> over IP and have their own dedicated protocol number.<br><br>\nRIP, however, is not carried directly over IP; it runs as an <i>application-layer</i> protocol on top of <b>UDP</b> (using UDP port [latex]520[/latex]). So an IP datagram carrying RIP traffic would have its protocol field set to UDP's number ([latex]17[/latex]), never a dedicated \"RIP\" protocol number.<br><br>\n<b>Answer: Routing Information Protocol (RIP)</b><br><br><a href=\"https://gateoverflow.in/460827/gate-cse-2025-set-2-question-8#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 8
+    },
+    {
+      "id": "2016-S2-Q25",
+      "source_id": 1116225,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server,assuming that the host has just been restarted.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "HTTP GET request, DNS query, TCP SYN",
+        "B": "DNS query, HTTP GET request, TCP SYN",
+        "C": "DNS query,TCP SYN, HTTP GET request",
+        "D": "TCP SYN, DNS query, HTTP GET request"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "After a restart, nothing is cached:<br>\n1. <b>DNS query</b> to get the server's IP<br>\n2. <b>TCP SYN</b> to open the connection<br>\n3. <b>HTTP GET</b> on that connection<br><br>\n<b>Answer: DNS query, TCP SYN, HTTP GET request</b><br><br><a href=\"https://gateoverflow.in/39572/gate2016-2-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 25
+    },
+    {
+      "id": "2018-Q13",
+      "source_id": 1118113,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Match the following: <br> <img src=\"/wp-content/uploads/GATE/CS/2018/q13.jpg\" />  ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/2018/q13.jpg"
+      ],
+      "options": {
+        "A": "P-III, Q-IV, R-II, S-I",
+        "B": "P-II, Q-I, R-IV, S-III",
+        "C": "P-IV, Q-I, R-II, S-III",
+        "D": "P-IV, Q-I, R-III, S-II"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement:<br>- UDP port number: 16 bits (IV)<br>\n- Ethernet MAC address: 48 bits (I)<br>\n- IPv6 Next Header: 8 bits (II)<br>\n- TCP sequence number: 32 bits (III)<br><br>\n<b>Answer: P-IV, Q-I, R-II, S-III</b><br><br><a href=\"https://gateoverflow.in/204087/gate2018-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 13
+    },
+    {
+      "id": "2004-Q22",
+      "source_id": 1104122,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "How many 8-bit characters can be transmitted per second over a 9600 baud serial communication\nlink using asynchronous mode of transmission with one start bit, eight data bits, two stop bits, and\none parity bit?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "600",
+        "B": "800",
+        "C": "876",
+        "D": "1200"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1019/gate2004-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 22
+    },
+    {
+      "id": "2019-Q28",
+      "source_id": 1119128,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider three machines M, N and P with IP addresses 100.10.5.2, 100.10.5.5 and 100.10.5.6 respectively. The subnet mask is set to 255.255.255.252 for all the three machines. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "M, N and P all belong to the same subnet",
+        "B": "Only M and N belong to the same subnet",
+        "C": "Only N and P belong to the same subnet",
+        "D": "M, N, and P belong to three different subnets"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Mask 255.255.255.252 = /30, so subnets are blocks of 4 in the last octet.<br>\n- M: .2 [latex]\\rightarrow[/latex] block .0-.3<br>\n- N: .5 [latex]\\rightarrow[/latex] block .4-.7<br>\n- P: .6 [latex]\\rightarrow[/latex] block .4-.7<br><br>\n<b>Answer: Only N and P belong to the same subnet</b><br><br><a href=\"https://gateoverflow.in/302820/gate2019-cs-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 28
+    },
+    {
+      "id": "2004-Q54",
+      "source_id": 1104154,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A and B are the only two stations on an Ethernet. Each has a steady queue of frames to send. Both A\nand B attempt to transmit a frame, collide, and A wins the first backoff race. At the end of this\nsuccessful transmission by A, both A and B attempt to transmit and collide. The probability that A\nwins the second backoff race is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0.5",
+        "B": "0.625",
+        "C": "0.75",
+        "D": "1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1050/gate2004-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 54
+    },
+    {
+      "id": "2026-S2-Q55",
+      "source_id": 1126255,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length [latex]3000[/latex] kilometers. Assume that the link bandwidth is [latex]10^8[/latex] bits per second and that the propagation delay in the link is [latex]5[/latex] nanoseconds per meter. Every transmitted data byte is assigned a unique sequence number.<br><br>\nLet [latex]N[/latex] be the minimum number of bits needed for the sequence number field in the protocol header such that:<br><br>\n\n(i) the sequence numbers do not wrap around before [latex]60[/latex] seconds, and<br>\n(ii) the maximum utilization of the link is achieved.<br><br>\n\nThe value of [latex]N[/latex] is ______. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        30.0,
+        30.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<b>Propagation delay</b> (one-way) [latex]=3000\\text{ km}\\times5\\text{ ns/m}=3{,}000{,}000\\text{ m}\\times5\\text{ ns}=15{,}000{,}000\\text{ ns}=15[/latex] ms, so round-trip time [latex]\\text{RTT}=30[/latex] ms [latex]=0.03[/latex] s.<br><br>\n<b>Condition (ii) &mdash; max utilization:</b> the window (in bits) must at least equal the bandwidth-delay product: [latex]10^8\\times0.03=3\\times10^6[/latex] bits [latex]=375{,}000[/latex] bytes, requiring at least [latex]\\lceil\\log_2(375000)\\rceil\\approx19[/latex] sequence-number bits.<br><br>\n<b>Condition (i) &mdash; no wraparound within 60 s:</b> total bytes sent in [latex]60[/latex] s at full bandwidth [latex]=\\dfrac{10^8\\times60}{8}=750{,}000{,}000[/latex] bytes, requiring [latex]2^N\\ge750{,}000{,}000[/latex], i.e. [latex]N\\ge\\lceil\\log_2(750{,}000{,}000)\\rceil=30[/latex] (since [latex]2^{29}\\approx5.37\\times10^8<7.5\\times10^8\\le2^{30}\\approx1.07\\times10^9[/latex]).<br><br>\nSince [latex]N[/latex] must satisfy both requirements simultaneously, the more restrictive one (condition (i), needing [latex]30[/latex] bits) determines the answer.<br><br>\n<b>Answer: 30</b> <br><br> <a href=\"https://gateoverflow.in/523091/gate-cse-2026-set-2-question-55#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 55
+    },
+    {
+      "id": "2005-Q74",
+      "source_id": 1105174,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose the round trip propagation delay for a 10 Mbps Ethernet having 48-bit jamming signal is 46.4 [latex]\\mu s[/latex]. The minimum frame size is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "94",
+        "B": "416",
+        "C": "464",
+        "D": "512"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1397/gate2005-74#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 74
+    },
+    {
+      "id": "2015-S3-Q37",
+      "source_id": 1115337,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a network connecting two systems located 8000 kilometers apart. The bandwidth of the network is 500x[latex]10^{6}[/latex] bits per second. The propagation speed of the media is 4x[latex]10^{6}[/latex] meters per second. It is needed to design a Go-Back-N sliding window protocol for this network. The average packet size is [latex]10^{7}[/latex] bits. The network is to be used to its full capacity. Assume that processing delays at nodes are negligible. Then, the minimum size in bits of the sequence number field has to be ___________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- [latex]T_p=\\frac{8\\times10^6}{4\\times10^6}=2[/latex] s<br>\n- [latex]T_t=\\frac{10^7}{5\\times10^8}=0.02[/latex] s<br><br>\nWindow for full use = [latex]1+\\frac{2T_p}{T_t}=1+200=201[/latex]. Go-Back-N needs at least W + 1 = 202 sequence numbers.<br><br>\n[latex]2^8=256\\ge202[/latex] [latex]\\rightarrow[/latex] 8 bits<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/8481/gate2015-3-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 37
+    },
+    {
+      "id": "2004-Q57",
+      "source_id": 1104157,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider three IP networks A, B and C. Host HA in network A sends messages each containing 180 bytes of application data to a host HC in network C. The TCP layer prefixes a 20 byte header to the message. This passes through an intermediate net?work B. The maximum packet size, including 20 byte IP header, in each network is  <br><br> A : 1000 bytes <br> B : 100 bytes <br> C : 1000 bytes <br><br> The network A and B are connected through a 1 Mbps link, while B and C are connected by a 512 Kbps link (bps = bits per second).  <br><img src=\"/wp-content/uploads/GATE/CS/20041/q56.jpg\"/> <br> What is the rate at which application data is transferred to host Hc? Ignore errors,\nacknowledgements, and other overheads.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q56.jpg"
+      ],
+      "options": {
+        "A": "325.5Kbps",
+        "B": "354.5Kbps",
+        "C": "409.6Kbps",
+        "D": "512.0Kbps"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/43572/gate2004-57#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 57
+    },
+    {
+      "id": "2023-Q55",
+      "source_id": 1123155,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The forwarding table of a router is shown below.<br>[latex]\\begin{array}{|c|c|c|c|}\n\\hline \\\\\nSubnet \\; Number&Subnet \\;Mask&Interface ID \\\\ \\hline\n200.150.0.0 &255.255.0.0& 1\\\\ \\hline\n200.150.64.0 &255.255.224.0 &2\\\\ \\hline\n200.150.68.0 &255.255.255.0 &3\\\\ \\hline\n200.150.68.64 &255.255.255.224 &4 \\\\ \\hline\nDefault & &0\\\\ \\hline\n\\end{array} [/latex]  <br>A packet addressed to a destination address 200.150.68.118 arrives at the router.\nIt will be forwarded to the interface with ID _____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Check each entry for 200.150.68.118 (longest prefix wins):<br>\n- 200.150.0.0/16 [latex]\\rightarrow[/latex] matches<br>\n- 200.150.64.0/19 (third octet 64-95) [latex]\\rightarrow[/latex] 68 matches<br>\n- 200.150.68.0/24 [latex]\\rightarrow[/latex] matches<br>\n- 200.150.68.64/27 (last octet 64-95) [latex]\\rightarrow[/latex] 118 does not match<br><br>\nLongest match is /24 [latex]\\rightarrow[/latex] interface 3.<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/399256/gate-cse-2023-question-55#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 55
+    },
+    {
+      "id": "2021-S1-Q44",
+      "source_id": 1121144,
+      "number": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A TCP server application is programmed to listen on port number P on host S. A TCP client is connected to the TCP server over the network.\n<br>\nConsider that while the TCP connection was active, the server machine S crashed and rebooted. Assume that the client does not use the TCP keepalive timer. Which of the following behaviors is/are possible?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If the client was waiting to receive a packet, it may wait indefinitely.",
+        "B": "The TCP server application on S can listen on P after reboot.",
+        "C": "If the client sends a packet after the server reboot, it will receive a RST segment.",
+        "D": "If the client sends a packet after the server reboot, it will receive a FIN segment."
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement:<br>- The client gets no notice of the crash; without keepalive, a client waiting to receive may wait forever [latex]\\text{---}[/latex] possible.<br>\n- After reboot the application can bind and listen on port P again [latex]\\text{---}[/latex] possible.<br>\n- The rebooted server has no record of the old connection, so a segment from the client gets a <b>RST</b> [latex]\\text{---}[/latex] possible.<br>\n- FIN is sent only on a normal close of a known connection [latex]\\text{---}[/latex] not possible.<br><br>\n<b>Answer: Options 1, 2 and 3</b><br><br><a href=\"https://gateoverflow.in/357407/gate-cse-2021-set-1-question-44#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 44
+    },
+    {
+      "id": "2006-Q83",
+      "source_id": 1106183,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. <br><br> Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred.  <br><img src=\"/wp-content/uploads/GATE/CS/20061/q82.jpg\"/><br>Let host H1 send\nout a broadcast ping packet. Which of the following options represents the correct for forwarding table on B3? <br><img src=\"/wp-content/uploads/GATE/CS/20061/q83.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q82.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q83.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/79790/gate2006-83#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 83
+    },
+    {
+      "id": "2017-S1-Q44",
+      "source_id": 1117144,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "In a RSA cryptosystem a participant A uses two prime numbers p=13 and q=17 to generate\nher public and private keys. If the public key of A is 35. Then the private key of A is\n__________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        11.0,
+        11.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "n = 13 [latex]\\times[/latex] 17 = 221, [latex]\\phi(n)=12\\times16=192[/latex]. Private key d satisfies [latex]35d\\equiv1\\pmod{192}[/latex].<br><br>\n[latex]35\\times11=385=2\\times192+1[/latex] [latex]\\rightarrow[/latex] d = 11<br><br>\n<b>Answer: 11</b><br><br><a href=\"https://gateoverflow.in/118327/gate2017-1-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 44
+    },
+    {
+      "id": "2018-Q55",
+      "source_id": 1118155,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium access protocol. A node that receives a packet to transmit will carrier-sense the medium for 5 units of time. If the node does not detect any other transmission in this duration, it starts transmitting its packet in the next time unit. If the node detects another transmission, it waits until this other transmission finishes, and then begins to carrier-sense for 5 time units again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a collision occurs. All transmissions last for 20 units of time. Assume that the transmission signal travels at the speed of 10 meters per unit time in the medium. <br>Assume that the system has two nodes P and Q, located at a distance d meters from each other. P starts transmitting a packet at time t=0 after successfully completing its carrier-sense phase. Node Q has a packet to transmit at time t=0 and begins to carrier-sense the medium. <br>The maximum distance d (in meters, rounded to the closest integer) that allows Q to\nsuccessfully avoid a collision between its proposed transmission and P's ongoing\ntransmission is _____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        50.0,
+        50.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Q senses from t = 0 to t = 5 and would start at t = 6. To avoid a collision, Q must notice P's signal while sensing, i.e. it must arrive by t = 5:<br>\n[latex]\\frac{d}{10}\\le5\\Rightarrow d\\le50[/latex] m<br><br>\n<b>Answer: 50</b><br><br><a href=\"https://gateoverflow.in/204130/gate2018-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 55
+    },
+    {
+      "id": "2024-S1-Q55",
+      "source_id": 1124155,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        6.0,
+        6.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Data in datagram [latex]=1420-20=1400[/latex] bytes. Fragment data (except the last) must be a multiple of 8.<br><br>\n<b>Link 1 (MTU 542):</b> max data [latex]=522[/latex] [latex]\\rightarrow[/latex] use 520. Fragments: 520, 520, 360.<br>\n<b>Link 2 (MTU 360):</b> max data [latex]=340[/latex] [latex]\\rightarrow[/latex] use 336.<br>\n- 520 [latex]\\rightarrow[/latex] 336 + 184<br>\n- 520 [latex]\\rightarrow[/latex] 336 + 184<br>\n- 360 [latex]\\rightarrow[/latex] 336 + 24<br><br>\nFragments are reassembled only at the receiver, so it receives [latex]2+2+2=6[/latex] fragments.<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 55
+    },
+    {
+      "id": "2020-Q38",
+      "source_id": 1120138,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An organization requires a range of IP address to assign one to each of its 1500 computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space 202.61.0.0/17. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP?s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization? <br><br>I.  202.61.84.0/21<br>II.  202.61.104.0/21<br>III. 202.61.64.0/21<br>IV.  202.61.144.0/21",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II only",
+        "B": "II and III only",
+        "C": "III and IV only",
+        "D": "I and IV only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "1500 hosts need [latex]2^{11}=2048[/latex] addresses [latex]\\rightarrow[/latex] a /21 block. A /21 must start at a third octet that is a multiple of 8, and lie inside 202.61.0.0/17 (third octet 0-127).<br><br>\n- I: 84 is not a multiple of 8 False<br>\n- II: 104 = 13 [latex]\\times[/latex] 8 True<br>\n- III: 64 = 8 [latex]\\times[/latex] 8 True<br>\n- IV: 144 is outside the /17 range False<br><br>\n<b>Answer: II and III only</b><br><br><a href=\"https://gateoverflow.in/333193/gate2020-cs-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 38
+    },
+    {
+      "id": "2024-S2-Q28",
+      "source_id": 1124228,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which  one  of  the  following  CIDR  prefixes  exactly  represents  the  range  of IP addresses 10.12.2.0 to 10.12.3.255?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "10.12.2.0/23",
+        "B": "10.12.2.0/24",
+        "C": "10.12.0.0/22",
+        "D": "10.12.2.0/22"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "10.12.2.0 to 10.12.3.255 has [latex]2\\times256=512=2^9[/latex] addresses, so host bits = 9 and prefix = [latex]32-9=23[/latex].<br><br>\nThird octet: 2 = 0000001<b>0</b>, 3 = 0000001<b>1</b> [latex]\\text{---}[/latex] the first 23 bits are the same, so the block is aligned.<br><br>\n(/24 covers only 10.12.2.x; /22 covers 10.12.0.0-10.12.3.255.)<br><br>\n<b>Answer: 10.12.2.0/23</b><br><br><a href=\"https://gateoverflow.in/422869/gate-cse-2024-set-2-question-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 28
+    },
+    {
+      "id": "2003-Q84",
+      "source_id": 1103184,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Host A is sending data to host B over a full duplex link. A and B are using the\nsliding window protocol for flow control. The send and receive window sizes are\n5 packets each. Data packets (sent only from A to B) are all 1000 bytes long\nand the transmission time for such a packet is 50 [latex]\\mu s[/latex] . Acknowledgment packets\n(sent only from B to A), are very small and require negligible transmission time.\nThe propagation delay over the link is 200 [latex]\\mu s[/latex]. What is the maximum achievable\nthroughput in this communication ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "7.69[latex]*10^{6}[/latex] Bps",
+        "B": "11.11[latex]*10^{6}[/latex] Bps",
+        "C": "12.33[latex]*10^{6}[/latex] Bps",
+        "D": "15[latex]*10^{6}[/latex] Bps"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/967/gate2003-84#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 84
+    },
+    {
+      "id": "2015-S2-Q28",
+      "source_id": 1115228,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Assume that the bandwidth for a TCP connection is 1048560 bits/sec. Let [latex]\\alpha[/latex] be the value of RTT in milliseconds (rounded off to the nearest integer) after which the TCP window scale option is needed. Let [latex]\\beta[/latex] be the maximum possible window size with window scale option. Then the values of [latex]\\alpha[/latex] and [latex]\\beta[/latex] are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "63 milliseconds, 65535 x [latex]2^{14}[/latex]",
+        "B": "63 milliseconds, 65535 x [latex]2^{16}[/latex]",
+        "C": "500 milliseconds, 65535 x [latex]2^{14}[/latex]",
+        "D": "500 milliseconds, 65535 x [latex]2^{16}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Without scaling, max window = 65535 bytes. Bandwidth = 1048560 / 8 = 131070 bytes/s.<br><br>\nScaling is needed once bandwidth [latex]\\times[/latex] RTT exceeds 65535: RTT = 65535 / 131070 = 0.5 s = 500 ms.<br><br>\nThe max scale shift is 14, so [latex]\\beta=65535\\times2^{14}[/latex].<br><br>\n<b>Answer: 500 milliseconds, 65535 [latex]\\times[/latex] [latex]2^{14}[/latex]</b><br><br><a href=\"https://gateoverflow.in/8154/gate2015-2-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 28
+    },
+    {
+      "id": "2020-Q55",
+      "source_id": 1120155,
+      "number": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a TCP connection between a client and a server with the following specifications; the round trip time is 6 ms, the size of the receiver advertised window is 50 KB, slow-start threshold at the client is 32 KB, and the maximum segment size is 2 KB. The connection is established at time t=0. Assume that there are no timeouts and errors during transmission. Then the size of the congestion window (in KB) at time t+60 ms after all acknowledgements are processed is _______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        44.0,
+        44.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "cwnd starts at 1 MSS = 2 KB and doubles every RTT (6 ms) in slow start, up to ssthresh = 32 KB. After that it grows by 1 MSS = 2 KB per RTT:<br>\n- t = 0: 2, 6: 4, 12: 8, 18: 16, 24: 32 (threshold reached)<br>\n- 30: 34, 36: 36, 42: 38, 48: 40, 54: 42, <b>60: 44</b><br><br>\n44 KB is still below the 50 KB receiver window.<br><br>\n<b>Answer: 44</b><br><br><a href=\"https://gateoverflow.in/333176/gate2020-cs-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 55
+    }
+  ]
+}

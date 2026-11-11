@@ -1,0 +1,839 @@
+{
+  "paper_id": "computer-networks-04",
+  "paper": "Computer Networks: Topic Mock 4",
+  "kind": "topic_mock",
+  "topic": "Computer Networks",
+  "set": 4,
+  "duration_min": 90,
+  "total_marks": 48,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2017-S1-Q15",
+      "source_id": 1117115,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A sender S sends a message m to receiver R, which is digitally signed by S with its\nprivate key. In this scenario, one or more of the following security violations can take place. <br><br>\nI. S can launch a birthday attack to replace m with a fraudulent message.<br>\nII. A third party attacker can launch a birthday attack to replace m with a fraudulent message  <br>  III. R can launch a birthday attack to replace m with a fraudulent message.<br><br>\nWhich of the following are possible security violations?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II only",
+        "B": "I only",
+        "C": "II only",
+        "D": "II and III only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "A birthday attack finds two messages with the same hash. Only the <b>signer S</b> can use it: S signs a harmless message and later claims the signature was for the other one with the same hash. A third party or R cannot create S's signature on a new hash.<br><br>\n<b>Answer: I only</b><br><br><a href=\"https://gateoverflow.in/118295/gate2017-1-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 15
+    },
+    {
+      "id": "2011-Q4",
+      "source_id": 1111104,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider different activities related to email. <br><br>\nm1: Send an email from a mail client to a mail server <br>\nm2: Download an email from mailbox server to a mail client <br>\nm3: Checking email in a web browser <br><br>\nWhich is the application level protocol used in each activity?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "m1:HTTP m2:SMTP m3:POP",
+        "B": "m1:SMTP m2:FTP m3:HTTP",
+        "C": "m1: SMTP m2: POP m3: HTTP",
+        "D": "m1: POP m2: SMTP m3:IMAP"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "Checking each statement:<br>- Client to server (sending): SMTP<br>\n- Mailbox to client (downloading): POP<br>\n- Webmail in a browser: HTTP<br><br>\n<b>Answer: m1: SMTP, m2: POP, m3: HTTP</b><br><br><a href=\"https://gateoverflow.in/2106/gate2011-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 4
+    },
+    {
+      "id": "2020-Q15",
+      "source_id": 1120115,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements about the functionality of an IP based router.<br><br>\nI.    A router does not modify the IP packets during forwarding.<br>\nII.   It is not necessary for a router to implement any routing protocol.<br>\nIII.  A router should reassemble IP fragments if the MTU of the outgoing link is larger than the size of the incoming IP packet.<br><br>\n  Which of the above statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II only",
+        "B": "I only",
+        "C": "II and III only",
+        "D": "II only"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Checking each statement:<br>- I: a router changes the packet (TTL decrement, checksum, possibly fragmentation) [latex]\\text{---}[/latex] FALSE.<br>\n- II: a router can work with static routes only, without any routing protocol [latex]\\text{---}[/latex] TRUE.<br>\n- III: routers never reassemble fragments; only the destination does [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: II only</b><br><br><a href=\"https://gateoverflow.in/333216/gate2020-cs-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 15
+    },
+    {
+      "id": "2018-Q14",
+      "source_id": 1118114,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements regarding the slow start phase of the TCP congestion control algorithm. Note that [latex]cwnd[/latex] stands for the TCP congestion window and MSS denotes the Maximum Segment Size. <br><br> (i) The cwnd increases by 2 MSS on every successful acknowledgment. <br>\n(ii) The cwnd approximately doubles on every successful acknowledgement.  <br>\n(iii) The cwnd increases by 1 MSS every round trip time. <br>\n(iv) The cwnd approximately doubles every round trip time. <br><br>\nWhich one of the following is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only (ii) and (iii) are true",
+        "B": "Only (i) and (iii) are true",
+        "C": "Only (iv) is true",
+        "D": "Only (i) and (iv) are true"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "In slow start, cwnd grows by 1 MSS for <b>each ACK</b>. In one RTT a full window of segments is acknowledged, so cwnd roughly <b>doubles every RTT</b>. Only (iv) is right.<br><br>\n<b>Answer: Only (iv) is true</b><br><br><a href=\"https://gateoverflow.in/204088/gate2018-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 14
+    },
+    {
+      "id": "2016-S2-Q24",
+      "source_id": 1116224,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In an Ethernet local area network,which one of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A station stops to sense the channel once it starts transmitting a frame.",
+        "B": "The purpose of the jamming signal is to pad the frames that are smaller than the minimum framesize.",
+        "C": "A station continues to transmit the packet even after the collision is detected.",
+        "D": "The exponential backoff mechanism reduces the probability of collisionon\nretransmissions."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- A station keeps sensing while transmitting (that is how it detects collisions) False<br>\n- The jam signal tells everyone a collision happened; padding is something else False<br>\n- After a collision the station stops transmitting False<br>\n- Exponential backoff makes stations wait random, growing times, so they are less likely to collide again True<br><br>\n<b>Answer: The exponential backoff mechanism reduces the probability of collision on retransmissions</b><br><br><a href=\"https://gateoverflow.in/39543/gate2016-2-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 24
+    },
+    {
+      "id": "2018-Q25",
+      "source_id": 1118125,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a long-lived TCP session with an end-to-end bandwidth of 1 Gbps (= [latex]10^{9} [/latex] bits-per-second). The session starts with a sequence number of 1234. The minimum time (in seconds, rounded to the closest integer) before this sequence number can be used again is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        34.0,
+        35.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "TCP numbers bytes with 32-bit sequence numbers, so they wrap after [latex]2^{32}[/latex] bytes.<br>\nTime = [latex]\\frac{2^{32}\\times8}{10^9}\\approx34.36[/latex] s [latex]\\rightarrow[/latex] 34 s.<br><br>\n<b>Answer: 34</b><br><br><a href=\"https://gateoverflow.in/204099/gate2018-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 25
+    },
+    {
+      "id": "2016-S1-Q25",
+      "source_id": 1116125,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is/are example(s) of stateful application layer protocols?<br>\n(i) HTTP <br>\n(ii) FTP <br>\n(iii) TCP <br>\n(iv) POP3",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) and(ii)only",
+        "B": "(ii) and(iii)only",
+        "C": "(ii) and(iv)only",
+        "D": "(iv)only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "Checking each statement:<br>- HTTP is stateless (each request is independent).<br>\n- FTP keeps session state (login, current directory) [latex]\\rightarrow[/latex] stateful.<br>\n- TCP is a transport protocol, not application layer.<br>\n- POP3 keeps session state (authorization, transaction states) [latex]\\rightarrow[/latex] stateful.<br><br>\n<b>Answer: (ii) and (iv) only</b><br><br><a href=\"https://gateoverflow.in/39628/gate2016-1-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 25
+    },
+    {
+      "id": "2017-S2-Q9",
+      "source_id": 1117209,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements about the routing protocols, Routing Information Protocol\n(RIP) and Open Shortest Path First (OSPF) in an IPv4 network. <br><br>\nI. RIP uses distance vector routing  <br>\nII. RIP packets are sent using UDP  <br>\nIII. OSPF packets are sent using TCP <br>\nIV. OSPF operation is based on link-state routing <br><br>\nWhich of the statements above are CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and IV only",
+        "B": "I, II and III only",
+        "C": "I, II and IV only",
+        "D": "II, III and IV only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Checking each statement:<br>- RIP is distance-vector True and runs over UDP (port 520) True<br>\n- OSPF is link-state True, but runs directly over IP (protocol 89), not TCP False<br><br>\n<b>Answer: I, II and IV only</b><br><br><a href=\"https://gateoverflow.in/118338/gate2017-2-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 9
+    },
+    {
+      "id": "2023-Q15",
+      "source_id": 1123115,
+      "number": 9,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following statements is/are INCORRECT about\nthe OSPF (Open Shortest Path First) routing protocol used in the Internet?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "OSPF implements Bellman-Ford algorithm to find shortest paths.",
+        "B": "OSPF uses Dijkstra's shortest path algorithm to implement least-cost path routing",
+        "C": "OSPF is used as an inter-domain routing protocol",
+        "D": "OSPF implements hierarchical routing."
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "OSPF is a <b>link-state</b> protocol.<br>\n- \"Implements Bellman-Ford\": it uses <b>Dijkstra</b> (Bellman-Ford is for distance vector, like RIP) [latex]\\text{---}[/latex] INCORRECT.<br>\n- \"Uses Dijkstra\" [latex]\\text{---}[/latex] correct.<br>\n- \"Inter-domain protocol\": OSPF is <b>intra</b>-domain (inside one AS); BGP is inter-domain [latex]\\text{---}[/latex] INCORRECT.<br>\n- \"Hierarchical routing\" with areas and a backbone [latex]\\text{---}[/latex] correct.<br><br>\n<b>Answer: Options 1 and 3</b><br><br><a href=\"https://gateoverflow.in/399297/gate-cse-2023-question-15#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 15
+    },
+    {
+      "id": "2003-Q28",
+      "source_id": 1103128,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following functionalities must be implemented by a transport\nprotocol over and above the network protocol ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Recovery from packet losses",
+        "B": "Detection of duplicate packets",
+        "C": "Packet delivery in the correct order",
+        "D": "End to end connectivity"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/918/gate2003-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 28
+    },
+    {
+      "id": "2025-S2-Q6",
+      "source_id": 1125206,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements: \n<br><br>\n(i) Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware (link-layer) address. \n<br>\n(ii) A single TCP segment from a sender S to a receiver R cannot carry both data from S to R and acknowledgement for a segment from R to S. \n<br><br>\nWhich ONE of the following is CORRECT? ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both (i) and (ii) are TRUE",
+        "B": "(i) is TRUE and (ii) is FALSE",
+        "C": "(i) is FALSE and (ii) is TRUE",
+        "D": "Both (i) and (ii) are FALSE"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "<b>(i) ARP maps IP addresses to hardware (MAC) addresses:</b> this is exactly ARP's definition &mdash; <b>TRUE</b>.<br><br>\n<b>(ii) \"A single TCP segment cannot carry both data and an acknowledgement\":</b> this is <b>FALSE</b>. TCP is full-duplex, and a very common optimization called <b>piggybacking</b> lets a single outgoing segment simultaneously carry new data (from S to R) <i>and</i> an acknowledgement field (ACKing previously received data from R) &mdash; the TCP header always has an ACK field available regardless of whether the segment also carries data.<br><br>\n<b>Answer: (i) is TRUE and (ii) is FALSE</b><br><br><a href=\"https://gateoverflow.in/460829/gate-cse-2025-set-2-question-6#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 6
+    },
+    {
+      "id": "2006-Q5",
+      "source_id": 1106105,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For which one of the following reason does Internet Protocol (IP) use the timeto-live (TTL) field in the IP datagram header?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Ensure packets reach destination within that time",
+        "B": "Discard packets that reach later than that time",
+        "C": "Prevent packets from looping indefinitely",
+        "D": "Limit the time for which a packet gets queued in intermediate routers"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/884/gate2006-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 5
+    },
+    {
+      "id": "2019-Q49",
+      "source_id": 1119149,
+      "number": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider that 15 machines need to be connected in a LAN using 8-port Ethernet switches. Assume that these switches do not have any separate up link ports. The minimum number of switches needed is ___________. ",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Connecting switches uses ports (one port on each side of each link).<br>\n- 2 switches: 16 ports [latex]-[/latex] 2 for the link = 14 [latex]\\lt[/latex] 15 False<br>\n- 3 switches in a chain: 24 ports [latex]-[/latex] 4 for 2 links = 20 [latex]\\ge[/latex] 15 True<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/302799/gate2019-cs-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 49
+    },
+    {
+      "id": "2006-Q45",
+      "source_id": 1106145,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Two computers C1 and C2 are configured as follows. C1 has IP address 203.\n197.2.53 and netmask 255.255. 128.0. C2 has IP address 203.197.75.201 and\nnetmask 255.255.192.0. Which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "C1 and C2 both assume they are on the same network",
+        "B": "C2 assumes C1 is on same network, but C1 assumes C2 is on a different\nnetwork",
+        "C": "C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork",
+        "D": "C1 and C2 both assume they are on different networks"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/1821/gate2006-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 45
+    },
+    {
+      "id": "2015-S1-Q26",
+      "source_id": 1115126,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose that the stop-and-wait protocol is used on a link with a bit rate of 64 kilobits per second and 20 milliseconds propagation delay. Assume that the transmission time for the acknowledgement and the processing time at nodes are negligible. Then the minimum frame size in bytes to achieve a link utilization of at least 50% is______________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        320.0,
+        320.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Stop-and-wait utilization = [latex]\\frac{T_t}{T_t+2T_p}\\ge\\frac12\\Rightarrow T_t\\ge2T_p=40[/latex] ms.<br><br>\nFrame size = [latex]64\\times10^3\\times40\\times10^{-3}=2560[/latex] bits = 320 bytes.<br><br>\n<b>Answer: 320</b><br><br><a href=\"https://gateoverflow.in/8363/gate2015-1-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 26
+    },
+    {
+      "id": "2014-S2-Q28",
+      "source_id": 1114228,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A graphical HTML browser resident at a network client machine Q accesses a static HTML\nwebpage from a HTTP server S. The static HTML page has exactly one static embedded\nimage which is also at S. Assuming no caching, which one of the following is correct about\nthe HTML webpage loading (including the embedded image)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Q needs to send at least 2 HTTP requests to S, each necessarily in a separate TCP\nconnection to server S",
+        "B": "Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient",
+        "C": "A single HTTP request from Q to S is sufficient, and a single TCP connection between Q and S is necessary for this",
+        "D": "A single HTTP request from Q to S is sufficient, and this is possible without any TCP connection between Q and S"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "The HTML page and the embedded image are two separate objects, so at least 2 HTTP GET requests are needed.<br><br>\nWith persistent HTTP (keep-alive), both requests can be sent over one TCP connection.<br><br>\n<b>Answer: Q needs to send at least 2 HTTP requests to S, but a single TCP connection is sufficient</b><br><br><a href=\"https://gateoverflow.in/1987/gate2014-2-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 28
+    },
+    {
+      "id": "2021-S1-Q45",
+      "source_id": 1121145,
+      "number": 17,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider two hosts P and Q connected through a router R. The maximum transfer unit (MTU) value of the link between P and R is 1500 bytes, and between R and Q is 820 bytes.\n<br>\nA TCP segment of size 1400 bytes was transferred from P to Q through R, with IP identification value as 0x1234. Assume that the IP header size is 20 bytes. Further, the packet is allowed to be fragmented, i.e., Don't Fragment (DF) flag in the IP header is not set by P.\n<br>\nWhich of the following statements is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.",
+        "B": "If the second fragment is lost, R will resend the fragment with the IP identification value 0x1234.",
+        "C": "If the second fragment is lost, P is required to resend the whole TCP segment.",
+        "D": "TCP destination port can be determined by analysing only the second fragment."
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "P [latex]\\rightarrow[/latex] R: 1400 + 20 = 1420 [latex]\\le[/latex] 1500, no fragmentation. R [latex]\\rightarrow[/latex] Q (MTU 820): max data 800 (a multiple of 8).<br>\n- Fragments: 800 and 600 bytes of data [latex]\\rightarrow[/latex] datagrams of 820 and <b>620</b> bytes [latex]\\text{---}[/latex] TRUE.<br>\n- Routers do not keep or resend fragments [latex]\\text{---}[/latex] FALSE.<br>\n- IP cannot rebuild the datagram without the lost piece; TCP at P must resend the whole segment [latex]\\text{---}[/latex] TRUE.<br>\n- The TCP header (with ports) is only in the first fragment [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: Options 1 and 3</b><br><br><a href=\"https://gateoverflow.in/357406/gate-cse-2021-set-1-question-45#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 45
+    },
+    {
+      "id": "2010-Q54",
+      "source_id": 1110154,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img src=\"/wp-content/uploads/GATE/CS/20101/q54.jpg\"/><br>  All the routers use the distance vector based routing algorithm to update their\nrouting tables. Each router starts with its routing table initialized to contain an\nentry for each neighbour with the weight of the respective connecting link.\nAfter all the routing tables stabilize, how many links in the network will never\nbe used for carrying any data?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20101/q54.jpg"
+      ],
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Check each link against the alternative path:<br>\n- R1-R2 (6): R1-R3-R2 = 3 + 2 = 5 is shorter [latex]\\rightarrow[/latex] unused<br>\n- R4-R6 (8): R4-R5-R6 = 1 + 4 = 5 is shorter [latex]\\rightarrow[/latex] unused<br>\n- R3-R5 (9) is still better than R3-R2-R4-R5 = 10, and the other links are on shortest paths<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/2362/gate2010-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 54
+    },
+    {
+      "id": "2010-Q55",
+      "source_id": 1110155,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img src=\"/wp-content/uploads/GATE/CS/20101/q54.jpg\"/><br>Suppose the weights of all unused links in the previous question are changed\nto 2 and the distance vector algorithm is used again until all routing tables\nstabilize. How many links will now remain unused?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20101/q54.jpg"
+      ],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Now R1-R2 = 2 and R4-R6 = 2.<br><br>\n- R5-R6 (4): R5-R4-R6 = 1 + 2 = 3 is shorter, and no shortest path uses R5-R6 [latex]\\rightarrow[/latex] unused<br>\n- R1-R3 (3 vs 4 via R2) and R3-R5 (9 vs 10 via R2, R4) are still used, as are all other links<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/43326/gate2010-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 55
+    },
+    {
+      "id": "2026-S1-Q46",
+      "source_id": 1126146,
+      "number": 20,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "An ISP having an address block [latex]202.16.0.0/15[/latex] assigns a block of [latex]6000[/latex] IP addresses to a client, using the classless internet domain routing (CIDR) super-netting approach. Which of the following address blocks can be assigned by the ISP?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]202.16.0.0/19[/latex]",
+        "B": "[latex]202.17.64.0/19[/latex]",
+        "C": "[latex]202.16.32.0/19[/latex]",
+        "D": "[latex]202.17.24.0/19[/latex]"
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "The ISP's block [latex]202.16.0.0/15[/latex] spans two full class-B-sized blocks: all addresses from [latex]202.16.0.0[/latex] to [latex]202.17.255.255[/latex].<br><br>\nFor [latex]6000[/latex] addresses via CIDR super-netting, we need a block with at least [latex]6000[/latex] addresses; a [latex]/19[/latex] prefix gives [latex]2^{32-19}=2^{13}=8192[/latex] addresses, which suffices (a [latex]/20[/latex] would only give [latex]4096<6000[/latex]).<br><br>\nA valid [latex]/19[/latex] sub-block must (a) lie entirely within [latex]202.16.0.0[/latex]-[latex]202.17.255.255[/latex], and (b) have its network address aligned to a multiple of [latex]32[/latex] in the relevant octet (since [latex]/19[/latex] leaves [latex]13[/latex] host bits, and [latex]2^{13}=8192=32\\times256[/latex] addresses per block, so the 3rd octet must be a multiple of [latex]32[/latex]: [latex]0,32,64,\\ldots[/latex]).<br><br>\n- [latex]202.16.0.0/19[/latex]: [latex]0[/latex] is a valid multiple of [latex]32[/latex], and within range. <b>Valid.</b><br>\n- [latex]202.17.64.0/19[/latex]: [latex]64[/latex] is a valid multiple of [latex]32[/latex], [latex]202.17.x[/latex] is within the /15 range. <b>Valid.</b><br>\n- [latex]202.16.32.0/19[/latex]: [latex]32[/latex] is a valid multiple of [latex]32[/latex]. <b>Valid.</b><br>\n- [latex]202.17.24.0/19[/latex]: [latex]24[/latex] is <b>not</b> a multiple of [latex]32[/latex] (valid boundaries are [latex]0,32,64,\\ldots[/latex]), so this is not a properly aligned [latex]/19[/latex] block. <b>Invalid.</b><br><br>\n<b>Answer: 202.16.0.0/19, 202.17.64.0/19, and 202.16.32.0/19 can be assigned.</b> <br><br> <a href=\"https://gateoverflow.in/523034/gate-cse-2026-set-1-question-46#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 46
+    },
+    {
+      "id": "2014-S1-Q28",
+      "source_id": 1114128,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a selective repeat sliding window protocol that uses a frame size of 1 KB to send\ndata on a 1.5 Mbps link with a one-way latency of 50 msec. To achieve a link utilization of\n60%, the minimum number of bits required to represent the sequence number field is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Frame time = 8192 / 1.5 Mbps [latex]\\approx[/latex] 5.46 ms; one cycle = 5.46 + 2 [latex]\\times[/latex] 50 = 105.46 ms.<br>\nFor 60% utilization: [latex]W\\times5.46=0.6\\times105.46\\Rightarrow W\\approx11.6[/latex] [latex]\\rightarrow[/latex] 12 frames.<br><br>\nSelective repeat needs [latex]2^{k-1}\\ge12\\Rightarrow k=5[/latex] bits.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/1795/gate2014-1-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 28
+    },
+    {
+      "id": "2012-Q44",
+      "source_id": 1112144,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a source computer (S) transmitting a file of size [latex]10^{6}[/latex] bits to a destination computer (D)\nover a network of two routers (R1 and R2) and three links (L1, L2, and L3). L1 connects S to R1; L2\nconnects R1 to R2; and L3 connects R2 to D. Let each link be of length 100 km. Assume signals\ntravel over each link at a speed of [latex]10^{8}[/latex] meters per second. Assume that the link bandwidth on each\nlink is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total\nsum of transmission and propagation delays in transmitting the file from S to D?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1005 ms",
+        "B": "1010 ms",
+        "C": "3000 ms",
+        "D": "3003 ms"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- Per packet: [latex]T_t=\\frac{1000}{10^6}=1[/latex] ms; per link: [latex]T_p=\\frac{10^5}{10^8}=1[/latex] ms<br>\n- Packets are pipelined: the source sends all 1000 packets in 1000 ms. The last packet then needs 2 more transmissions (at R1, R2) and 3 propagations.<br><br>\nTotal = 1000 + 2 [latex]\\times[/latex] 1 + 3 [latex]\\times[/latex] 1 = 1005 ms<br><br>\n<b>Answer: 1005 ms</b><br><br><a href=\"https://gateoverflow.in/2153/gate2012-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 44
+    },
+    {
+      "id": "2014-S3-Q27",
+      "source_id": 1114327,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Every host in an IPv4 network has a 1-second resolution real-time clock with battery backup. Each host needs to generate up to 1000 unique identifiers per second. Assume that each host has a globally unique IPv4 address. Design a 50-bit globally unique ID for this purpose. After what period (in seconds) will the identifiers generated by a host wrap around?",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        256.0,
+        256.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Checking each statement:<br>- IPv4 address (global uniqueness): 32 bits<br>\n- Up to 1000 IDs per second: 10 bits ([latex]2^{10}=1024[/latex])<br>\n- Remaining for the clock: 50 [latex]-[/latex] 32 [latex]-[/latex] 10 = 8 bits<br><br>\nThe clock part repeats after [latex]2^8=256[/latex] seconds.<br><br>\n<b>Answer: 256</b><br><br><a href=\"https://gateoverflow.in/2061/gate2014-3-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 27
+    },
+    {
+      "id": "2014-S2-Q27",
+      "source_id": 1114227,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An IP machine Q has a path to another IP machine H via three IP routers R1, R2, and R3. <br>\nQ---R1---R2---R3---H  <br> \nH acts as an HTTP server, and Q connects to H via HTTP and downloads a file. Session layer\nencryption is used, with DES as the shared key encryption protocol. Consider the following\nfour pieces of information: <br>\n[I1] The URL of the file downloaded by Q <br>\n[I2] The TCP port numbers at Q and H <br>\n[I3] The IP addresses of Q and H <br>\n[I4] The link layer addresses of Q and H <br>\nWhich of I1, I2, I3, and I4 can an intruder learn through sniffing at R2 alone?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I1 and I2",
+        "B": "Only I1",
+        "C": "Only I2 and I3",
+        "D": "Only I3 and I4"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "OSI layer",
+      "explanation": "Session-layer encryption hides everything above the session layer (the HTTP request, so the URL I1 is hidden).<br><br>\n- TCP header (ports, I2) and IP header (addresses of Q and H, I3) are below it and travel in clear [latex]\\rightarrow[/latex] visible at R2.<br>\n- Link layer addresses change at every hop; at R2 the frame carries the MACs of R1/R2/R3, not of Q and H [latex]\\rightarrow[/latex] I4 not visible.<br><br>\n<b>Answer: Only I2 and I3</b><br><br><a href=\"https://gateoverflow.in/1986/gate2014-2-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 27
+    },
+    {
+      "id": "2009-Q46",
+      "source_id": 1109146,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the RSA public key cryptosystem, the private and public keys are (e,n) and\r\n(d,n) respectively, where n=p*q and p and q are large primes. Besides, n is\r\npublic and p and q are private. Let M be an integer such that [latex]0 \\lt M \\lt n[/latex] and\r\n[latex]\\phi (n)= (p-1)(q-1)[/latex]. Now consider the following equations. <br><br>  I.   [latex] M'=M^{e} mod \\; n[/latex] <br> [latex]M=(M')^{d}mod  \\;  n [/latex] <br><br> II. ed=1 mod n  <br><br> III. ed=1 mod [latex]\\phi (n)[/latex] <br> <br>IV. [latex]M'=M^{e}mod  \\;  \\phi (n)[/latex]<br> [latex]M=(M')^{d}mod  \\;  \\phi (n)[/latex] <br><br>Which of the above equations correctly represent RSA cryptosystem?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II",
+        "B": "I and III",
+        "C": "II and IV",
+        "D": "III and IV"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "<a href=\"https://gateoverflow.in/1332/gate2009-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 46
+    },
+    {
+      "id": "2017-S2-Q35",
+      "source_id": 1117235,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider two hosts X and Y, connected by a single direct link of rate [latex]10^{6}[/latex] bits/sec . The\ndistance between the two hosts is 10,000 km and the propagation speed along the link is\n2x[latex]10^{8}[/latex] m/sec . Host X sends a file of 50,000 bytes as one large message to host Y\ncontinuously. Let the transmission and propagation delays be p milliseconds and q\nmilliseconds, respectively . Then the values of p and q are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "p = 50 and q = 100",
+        "B": "p = 50 and q = 400",
+        "C": "p = 100 and q = 50",
+        "D": "p = 400 and q = 50"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- Transmission: [latex]\\frac{50000\\times8}{10^6}=0.4[/latex] s = 400 ms<br>\n- Propagation: [latex]\\frac{10^7}{2\\times10^8}=0.05[/latex] s = 50 ms<br><br>\n<b>Answer: p = 400 and q = 50</b><br><br><a href=\"https://gateoverflow.in/118537/gate2017-2-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 35
+    },
+    {
+      "id": "2024-S2-Q44",
+      "source_id": 1124244,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a TCP connection operating at a point of time with the congestion window\nof size 12 MSS (Maximum Segment Size), when a timeout occurs due to packet\nloss. Assuming that all the segments transmitted in the next two RTTs (Round Trip\nTime) are acknowledged correctly, the congestion window size (in MSS) during the\nthird RTT will be _________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "On timeout: [latex]ssthresh=12/2=6[/latex] MSS and cwnd resets to 1 MSS, then slow start (doubling each RTT):<br><br>\n- RTT 1: cwnd = 1<br>\n- RTT 2: cwnd = 2<br>\n- RTT 3: cwnd = 4 (still below ssthresh = 6)<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/422853/gate-cse-2024-set-2-question-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 44
+    },
+    {
+      "id": "2025-S2-Q26",
+      "source_id": 1125226,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose we are transmitting frames between two nodes using the Stop-and-Wait protocol. The frame size is 3000 bits. The transmission rate of the channel is 2000 bps (bits/second) and the propagation delay between the two nodes is 100 milliseconds. Assume that the processing times at the source and destination are negligible. Also, assume that the size of the acknowledgment packet is negligible.  \nWhich ONE of the following most accurately gives the channel utilization for the above scenario in percentage?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "88.23",
+        "B": "93.75",
+        "C": "85.44",
+        "D": "66.67"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Transmission time [latex]T_t=\\dfrac{3000\\text{ bits}}{2000\\text{ bps}}=1.5[/latex] s. Propagation delay [latex]T_p=0.1[/latex] s (one-way).<br><br>\nIn Stop-and-Wait, the sender must wait a full round trip (plus negligible ack transmission/processing time) after sending each frame before sending the next:<br>\nUtilization [latex]=\\dfrac{T_t}{T_t+2T_p}=\\dfrac{1.5}{1.5+0.2}=\\dfrac{1.5}{1.7}\\approx0.8823=88.23\\%[/latex]<br><br>\n<b>Answer: 88.23</b><br><br><a href=\"https://gateoverflow.in/460809/gate-cse-2025-set-2-question-26#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 26
+    },
+    {
+      "id": "2009-Q57",
+      "source_id": 1109157,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Frames of 1000 bits are sent over a [latex]10^{6}[/latex] bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to\nmaximally pack them in transit (within the link). <br><br>  What is the minimum number of bits (l) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "l=2",
+        "B": "l=3",
+        "C": "l=4",
+        "D": "l=5"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1340/gate2009-57#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 57
+    },
+    {
+      "id": "2006-Q82",
+      "source_id": 1106182,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. <br><br> Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred.  <br><img src=\"/wp-content/uploads/GATE/CS/20061/q82.jpg\"/><br> For the given connection of LANs by bridges, which one of the following choices represents the depth first traversal of the spanning tree of bridges?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q82.jpg"
+      ],
+      "options": {
+        "A": "B1, B5, B3, B4, B2",
+        "B": "B1, B3, B5, B2, B4",
+        "C": "B1, B5, B2, B3, B4",
+        "D": "B1, B3, B4, B5, B2"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1855/gate2006-82#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 82
+    }
+  ]
+}

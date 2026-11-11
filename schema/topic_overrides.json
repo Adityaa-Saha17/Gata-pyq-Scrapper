@@ -1,0 +1,14 @@
+{
+  "note": "Topics for questions the source site left untagged. Keys are '<paper_id>-Q<number>'. 'topic' must be a canonical topic from topics.json. Used only when the site's own tag is missing. Assigned by hand from the question text.",
+  "overrides": {
+    "2005-Q4": { "topic": "Programming and Data Structures", "subtopic": "Object Oriented Programming" },
+    "2003-Q75": { "topic": "Programming and Data Structures", "subtopic": "Object Oriented Programming" },
+    "1997-Q33": { "topic": "Programming and Data Structures", "subtopic": "Scope and Binding" },
+    "1995-Q13": { "topic": "Compiler Design", "subtopic": "Lexical Analysis" },
+    "1995-Q36": { "topic": "Programming and Data Structures", "subtopic": "Data Types" },
+    "1994-Q1": { "topic": "Compiler Design", "subtopic": "Runtime Environment" },
+    "1993-Q4": { "topic": "Programming and Data Structures", "subtopic": "Programming Languages" },
+    "1993-Q14": { "topic": "Programming and Data Structures", "subtopic": "Pointers" },
+    "1987-Q9": { "topic": "Programming and Data Structures", "subtopic": "Programming Languages" }
+  }
+}

@@ -1,0 +1,4190 @@
+{
+  "summary": {
+    "2022": {
+      "match": 65
+    },
+    "2023": {
+      "match": 65
+    },
+    "2024-S1": {
+      "match": 65
+    },
+    "2024-S2": {
+      "match": 65
+    },
+    "2025-S1": {
+      "match": 65
+    },
+    "2025-S2": {
+      "match": 65
+    },
+    "2026-S1": {
+      "match": 65
+    },
+    "2026-S2": {
+      "match": 65
+    }
+  },
+  "questions": [
+    {
+      "question_id": "2022-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2022-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2022-Q9",
+      "official_number": 19,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2022-Q10",
+      "official_number": 20,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2022-Q11",
+      "official_number": 21,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q12",
+      "official_number": 22,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2022-Q13",
+      "official_number": 23,
+      "type": "MSQ",
+      "official_key": "B,C,D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2022-Q14",
+      "official_number": 24,
+      "type": "MSQ",
+      "official_key": "A,B,D",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'D']] vs official [['A', 'B', 'D']]"
+    },
+    {
+      "question_id": "2022-Q15",
+      "official_number": 25,
+      "type": "MSQ",
+      "official_key": "A,B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2022-Q16",
+      "official_number": 26,
+      "type": "MSQ",
+      "official_key": "A,D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2022-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "A,B,C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2022-Q18",
+      "official_number": 28,
+      "type": "NAT",
+      "official_key": "509 to 509",
+      "verdict": "match",
+      "detail": "site [[509.0, 509.0]] vs official [[509.0, 509.0]]"
+    },
+    {
+      "question_id": "2022-Q19",
+      "official_number": 29,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2022-Q20",
+      "official_number": 30,
+      "type": "NAT",
+      "official_key": "36 to 36",
+      "verdict": "match",
+      "detail": "site [[36.0, 36.0]] vs official [[36.0, 36.0]]"
+    },
+    {
+      "question_id": "2022-Q21",
+      "official_number": 31,
+      "type": "NAT",
+      "official_key": "8 to 8",
+      "verdict": "match",
+      "detail": "site [[8.0, 8.0]] vs official [[8.0, 8.0]]"
+    },
+    {
+      "question_id": "2022-Q22",
+      "official_number": 32,
+      "type": "NAT",
+      "official_key": "7 to 7",
+      "verdict": "match",
+      "detail": "site [[7.0, 7.0]] vs official [[7.0, 7.0]]"
+    },
+    {
+      "question_id": "2022-Q23",
+      "official_number": 33,
+      "type": "NAT",
+      "official_key": "0.85 to 0.85",
+      "verdict": "match",
+      "detail": "site [[0.85, 0.85]] vs official [[0.85, 0.85]]"
+    },
+    {
+      "question_id": "2022-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "-0.5 to -0.5",
+      "verdict": "match",
+      "detail": "site [[-0.5, -0.5]] vs official [[-0.5, -0.5]]"
+    },
+    {
+      "question_id": "2022-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2022-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2022-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2022-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2022-Q32",
+      "official_number": 42,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q33",
+      "official_number": 43,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q34",
+      "official_number": 44,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q35",
+      "official_number": 45,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q36",
+      "official_number": 46,
+      "type": "MSQ",
+      "official_key": "A,B,C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2022-Q37",
+      "official_number": 47,
+      "type": "MSQ",
+      "official_key": "A,B,C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2022-Q38",
+      "official_number": 48,
+      "type": "MSQ",
+      "official_key": "B,C,D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2022-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "A,B,C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2022-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "A,B,C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2022-Q41",
+      "official_number": 51,
+      "type": "MSQ",
+      "official_key": "A,B,C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2022-Q42",
+      "official_number": 52,
+      "type": "MSQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q43",
+      "official_number": 53,
+      "type": "MSQ",
+      "official_key": "A,C,D",
+      "verdict": "match",
+      "detail": "site [['A', 'C', 'D']] vs official [['A', 'C', 'D']]"
+    },
+    {
+      "question_id": "2022-Q44",
+      "official_number": 54,
+      "type": "MSQ",
+      "official_key": "A,B,D",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'D']] vs official [['A', 'B', 'D']]"
+    },
+    {
+      "question_id": "2022-Q45",
+      "official_number": 55,
+      "type": "MSQ",
+      "official_key": "B,D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2022-Q46",
+      "official_number": 56,
+      "type": "NAT",
+      "official_key": "2 to 2",
+      "verdict": "match",
+      "detail": "site [[2.0, 2.0]] vs official [[2.0, 2.0]]"
+    },
+    {
+      "question_id": "2022-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "0.5 to 0.5",
+      "verdict": "match",
+      "detail": "site [[0.5, 0.5]] vs official [[0.5, 0.5]]"
+    },
+    {
+      "question_id": "2022-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "24 to 24",
+      "verdict": "match",
+      "detail": "site [[24.0, 24.0]] vs official [[24.0, 24.0]]"
+    },
+    {
+      "question_id": "2022-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "7.07 to 7.09",
+      "verdict": "match",
+      "detail": "site [[7.07, 7.09]] vs official [[7.07, 7.09]]"
+    },
+    {
+      "question_id": "2022-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "33 to 33",
+      "verdict": "match",
+      "detail": "site [[33.0, 33.0]] vs official [[33.0, 33.0]]"
+    },
+    {
+      "question_id": "2022-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "1.42 to 1.45",
+      "verdict": "match",
+      "detail": "site [[1.42, 1.45]] vs official [[1.42, 1.45]]"
+    },
+    {
+      "question_id": "2022-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "0 to 0",
+      "verdict": "match",
+      "detail": "site [[0.0, 0.0]] vs official [[0.0, 0.0]]"
+    },
+    {
+      "question_id": "2022-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "153 to 153",
+      "verdict": "match",
+      "detail": "site [[153.0, 153.0]] vs official [[153.0, 153.0]]"
+    },
+    {
+      "question_id": "2022-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "0.6 to 0.6",
+      "verdict": "match",
+      "detail": "site [[0.6, 0.6]] vs official [[0.6, 0.6]]"
+    },
+    {
+      "question_id": "2022-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "80 to 80",
+      "verdict": "match",
+      "detail": "site [[80.0, 80.0]] vs official [[80.0, 80.0]]"
+    },
+    {
+      "question_id": "2022-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2022-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2022-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2022-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2022-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2022-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2022-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2023-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2023-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2023-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2023-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q9",
+      "official_number": 19,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q10",
+      "official_number": 20,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q11",
+      "official_number": 21,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q12",
+      "official_number": 22,
+      "type": "MSQ",
+      "official_key": "B, C, D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q13",
+      "official_number": 23,
+      "type": "MSQ",
+      "official_key": "C, D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q14",
+      "official_number": 24,
+      "type": "MSQ",
+      "official_key": "A, C, D",
+      "verdict": "match",
+      "detail": "site [['A', 'C', 'D']] vs official [['A', 'C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q15",
+      "official_number": 25,
+      "type": "MSQ",
+      "official_key": "A, C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2023-Q16",
+      "official_number": 26,
+      "type": "MSQ",
+      "official_key": "B, C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2023-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "A, C, D or C, D",
+      "verdict": "match",
+      "detail": "site [['C', 'D'], ['A', 'C', 'D']] vs official [['A', 'C', 'D'], ['C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q18",
+      "official_number": 28,
+      "type": "MSQ",
+      "official_key": "B, D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2023-Q19",
+      "official_number": 29,
+      "type": "MSQ",
+      "official_key": "A, C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2023-Q20",
+      "official_number": 30,
+      "type": "NAT",
+      "official_key": "2 to 2 OR 4 to 4",
+      "verdict": "match",
+      "detail": "site [[2.0, 2.0], [4, 4]] vs official [[2.0, 2.0], [4.0, 4.0]]"
+    },
+    {
+      "question_id": "2023-Q21",
+      "official_number": 31,
+      "type": "NAT",
+      "official_key": "0 to 0",
+      "verdict": "match",
+      "detail": "site [[0.0, 0.0]] vs official [[0.0, 0.0]]"
+    },
+    {
+      "question_id": "2023-Q22",
+      "official_number": 32,
+      "type": "NAT",
+      "official_key": "110 to 110",
+      "verdict": "match",
+      "detail": "site [[110.0, 110.0]] vs official [[110.0, 110.0]]"
+    },
+    {
+      "question_id": "2023-Q23",
+      "official_number": 33,
+      "type": "NAT",
+      "official_key": "2040 to 2040",
+      "verdict": "match",
+      "detail": "site [[2040.0, 2040.0]] vs official [[2040.0, 2040.0]]"
+    },
+    {
+      "question_id": "2023-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "10.2 to 10.2",
+      "verdict": "match",
+      "detail": "site [[10.2, 10.2]] vs official [[10.2, 10.2]]"
+    },
+    {
+      "question_id": "2023-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "7 to 7",
+      "verdict": "match",
+      "detail": "site [[7.0, 7.0]] vs official [[7.0, 7.0]]"
+    },
+    {
+      "question_id": "2023-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2023-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2023-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2023-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q32",
+      "official_number": 42,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q33",
+      "official_number": 43,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2023-Q34",
+      "official_number": 44,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q35",
+      "official_number": 45,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q36",
+      "official_number": 46,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q37",
+      "official_number": 47,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q38",
+      "official_number": 48,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2023-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "B, C, D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "B, C, D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q41",
+      "official_number": 51,
+      "type": "MSQ",
+      "official_key": "A, D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2023-Q42",
+      "official_number": 52,
+      "type": "MSQ",
+      "official_key": "C, D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q43",
+      "official_number": 53,
+      "type": "MSQ",
+      "official_key": "C, D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2023-Q44",
+      "official_number": 54,
+      "type": "MSQ",
+      "official_key": "A, D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2023-Q45",
+      "official_number": 55,
+      "type": "MSQ",
+      "official_key": "A, B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2023-Q46",
+      "official_number": 56,
+      "type": "NAT",
+      "official_key": "5040 to 5040",
+      "verdict": "match",
+      "detail": "site [[5040.0, 5040.0]] vs official [[5040.0, 5040.0]]"
+    },
+    {
+      "question_id": "2023-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "4096 to 4096",
+      "verdict": "match",
+      "detail": "site [[4096.0, 4096.0]] vs official [[4096.0, 4096.0]]"
+    },
+    {
+      "question_id": "2023-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2023-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "8 to 8",
+      "verdict": "match",
+      "detail": "site [[8.0, 8.0]] vs official [[8.0, 8.0]]"
+    },
+    {
+      "question_id": "2023-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "2.374 to 2.376",
+      "verdict": "match",
+      "detail": "site [[2.374, 2.376]] vs official [[2.374, 2.376]]"
+    },
+    {
+      "question_id": "2023-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "2 to 2",
+      "verdict": "match",
+      "detail": "site [[2.0, 2.0]] vs official [[2.0, 2.0]]"
+    },
+    {
+      "question_id": "2023-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2023-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2023-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "19 to 19",
+      "verdict": "match",
+      "detail": "site [[19.0, 19.0]] vs official [[19.0, 19.0]]"
+    },
+    {
+      "question_id": "2023-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "3 to 3",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2023-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "MTA",
+      "verdict": "match",
+      "detail": "marks to all, applied"
+    },
+    {
+      "question_id": "2023-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2023-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2023-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2023-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2023-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2023-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2023-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S1-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S1-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S1-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S1-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q9",
+      "official_number": 19,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q10",
+      "official_number": 20,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S1-Q11",
+      "official_number": 21,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q12",
+      "official_number": 22,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q13",
+      "official_number": 23,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2024-S1-Q14",
+      "official_number": 24,
+      "type": "MSQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S1-Q15",
+      "official_number": 25,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q16",
+      "official_number": 26,
+      "type": "MSQ",
+      "official_key": "A;D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2024-S1-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q18",
+      "official_number": 28,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q19",
+      "official_number": 29,
+      "type": "MSQ",
+      "official_key": "A;D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2024-S1-Q20",
+      "official_number": 30,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q21",
+      "official_number": 31,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q22",
+      "official_number": 32,
+      "type": "NAT",
+      "official_key": "2 to 2",
+      "verdict": "match",
+      "detail": "site [[2.0, 2.0]] vs official [[2.0, 2.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q23",
+      "official_number": 33,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "16 to 16",
+      "verdict": "match",
+      "detail": "site [[16.0, 16.0]] vs official [[16.0, 16.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "2 to 2",
+      "verdict": "match",
+      "detail": "site [[2.0, 2.0]] vs official [[2.0, 2.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S1-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S1-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S1-Q32",
+      "official_number": 42,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q33",
+      "official_number": 43,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q34",
+      "official_number": 44,
+      "type": "MSQ",
+      "official_key": "B;C;D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2024-S1-Q35",
+      "official_number": 45,
+      "type": "MSQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q36",
+      "official_number": 46,
+      "type": "MSQ",
+      "official_key": "B;C;D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2024-S1-Q37",
+      "official_number": 47,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2024-S1-Q38",
+      "official_number": 48,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2024-S1-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q41",
+      "official_number": 51,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q42",
+      "official_number": 52,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2024-S1-Q43",
+      "official_number": 53,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S1-Q44",
+      "official_number": 54,
+      "type": "NAT",
+      "official_key": "4096 to 4096",
+      "verdict": "match",
+      "detail": "site [[4096.0, 4096.0]] vs official [[4096.0, 4096.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q45",
+      "official_number": 55,
+      "type": "NAT",
+      "official_key": "3 to 3",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q46",
+      "official_number": 56,
+      "type": "NAT",
+      "official_key": "3.00 to 3.00",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "14 to 14",
+      "verdict": "match",
+      "detail": "site [[14.0, 14.0]] vs official [[14.0, 14.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "40 to 40",
+      "verdict": "match",
+      "detail": "site [[40.0, 40.0]] vs official [[40.0, 40.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "179 to 179",
+      "verdict": "match",
+      "detail": "site [[179.0, 179.0]] vs official [[179.0, 179.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "60 to 60",
+      "verdict": "match",
+      "detail": "site [[60.0, 60.0]] vs official [[60.0, 60.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "44 to 44",
+      "verdict": "match",
+      "detail": "site [[44.0, 44.0]] vs official [[44.0, 44.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "6596 to 6596",
+      "verdict": "match",
+      "detail": "site [[6596.0, 6596.0]] vs official [[6596.0, 6596.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "0.370 to 0.380",
+      "verdict": "match",
+      "detail": "site [[0.37, 0.38]] vs official [[0.37, 0.38]]"
+    },
+    {
+      "question_id": "2024-S1-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2024-S1-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S1-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S1-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S1-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S2-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q9",
+      "official_number": 19,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q10",
+      "official_number": 20,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q11",
+      "official_number": 21,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q12",
+      "official_number": 22,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q13",
+      "official_number": 23,
+      "type": "MSQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q14",
+      "official_number": 24,
+      "type": "MSQ",
+      "official_key": "B;C;D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q15",
+      "official_number": 25,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2024-S2-Q16",
+      "official_number": 26,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2024-S2-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "A;C;D",
+      "verdict": "match",
+      "detail": "site [['A', 'C', 'D']] vs official [['A', 'C', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q18",
+      "official_number": 28,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S2-Q19",
+      "official_number": 29,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q20",
+      "official_number": 30,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S2-Q21",
+      "official_number": 31,
+      "type": "MSQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q22",
+      "official_number": 32,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q23",
+      "official_number": 33,
+      "type": "MSQ",
+      "official_key": "A;B;D",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'D']] vs official [['A', 'B', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "3 to 3",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q32",
+      "official_number": 42,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q33",
+      "official_number": 43,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q34",
+      "official_number": 44,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S2-Q35",
+      "official_number": 45,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q36",
+      "official_number": 46,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S2-Q37",
+      "official_number": 47,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2024-S2-Q38",
+      "official_number": 48,
+      "type": "MSQ",
+      "official_key": "B;C;D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "A;B;D",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'D']] vs official [['A', 'B', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2024-S2-Q41",
+      "official_number": 51,
+      "type": "MSQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S2-Q42",
+      "official_number": 52,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2024-S2-Q43",
+      "official_number": 53,
+      "type": "NAT",
+      "official_key": "29.50 to 30.50",
+      "verdict": "match",
+      "detail": "site [[29.5, 30.5]] vs official [[29.5, 30.5]]"
+    },
+    {
+      "question_id": "2024-S2-Q44",
+      "official_number": 54,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q45",
+      "official_number": 55,
+      "type": "NAT",
+      "official_key": "500 to 500",
+      "verdict": "match",
+      "detail": "site [[500.0, 500.0]] vs official [[500.0, 500.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q46",
+      "official_number": 56,
+      "type": "NAT",
+      "official_key": "50 to 50",
+      "verdict": "match",
+      "detail": "site [[50.0, 50.0]] vs official [[50.0, 50.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "32 to 32",
+      "verdict": "match",
+      "detail": "site [[32.0, 32.0]] vs official [[32.0, 32.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "2.9 to 3.1",
+      "verdict": "match",
+      "detail": "site [[2.9, 3.1]] vs official [[2.9, 3.1]]"
+    },
+    {
+      "question_id": "2024-S2-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "9 to 9",
+      "verdict": "match",
+      "detail": "site [[9.0, 9.0]] vs official [[9.0, 9.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "2 to 2",
+      "verdict": "match",
+      "detail": "site [[2.0, 2.0]] vs official [[2.0, 2.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "34 to 34",
+      "verdict": "match",
+      "detail": "site [[34.0, 34.0]] vs official [[34.0, 34.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "15 to 15",
+      "verdict": "match",
+      "detail": "site [[15.0, 15.0]] vs official [[15.0, 15.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "1028 to 1028",
+      "verdict": "match",
+      "detail": "site [[1028.0, 1028.0]] vs official [[1028.0, 1028.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "9 to 9",
+      "verdict": "match",
+      "detail": "site [[9.0, 9.0]] vs official [[9.0, 9.0]]"
+    },
+    {
+      "question_id": "2024-S2-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S2-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S2-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2024-S2-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S2-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2024-S2-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2024-S2-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2024-S2-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S1-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S1-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S1-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S1-Q9",
+      "official_number": 19,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q10",
+      "official_number": 20,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q11",
+      "official_number": 21,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2025-S1-Q12",
+      "official_number": 22,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2025-S1-Q13",
+      "official_number": 23,
+      "type": "MSQ",
+      "official_key": "A;D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2025-S1-Q14",
+      "official_number": 24,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2025-S1-Q15",
+      "official_number": 25,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2025-S1-Q16",
+      "official_number": 26,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2025-S1-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2025-S1-Q18",
+      "official_number": 28,
+      "type": "MSQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S1-Q19",
+      "official_number": 29,
+      "type": "NAT",
+      "official_key": "21 to 21",
+      "verdict": "match",
+      "detail": "site [[21.0, 21.0]] vs official [[21.0, 21.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q20",
+      "official_number": 30,
+      "type": "NAT",
+      "official_key": "195 to 195",
+      "verdict": "match",
+      "detail": "site [[195.0, 195.0]] vs official [[195.0, 195.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q21",
+      "official_number": 31,
+      "type": "NAT",
+      "official_key": "-2.1 to -1.9",
+      "verdict": "match",
+      "detail": "site [[-2.1, -1.9]] vs official [[-2.1, -1.9]]"
+    },
+    {
+      "question_id": "2025-S1-Q22",
+      "official_number": 32,
+      "type": "NAT",
+      "official_key": "0.49 to 0.51",
+      "verdict": "match",
+      "detail": "site [[0.49, 0.51]] vs official [[0.49, 0.51]]"
+    },
+    {
+      "question_id": "2025-S1-Q23",
+      "official_number": 33,
+      "type": "NAT",
+      "official_key": "435 to 435",
+      "verdict": "match",
+      "detail": "site [[435.0, 435.0]] vs official [[435.0, 435.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "25 to 25",
+      "verdict": "match",
+      "detail": "site [[25.0, 25.0]] vs official [[25.0, 25.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S1-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S1-Q32",
+      "official_number": 42,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q33",
+      "official_number": 43,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q34",
+      "official_number": 44,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q35",
+      "official_number": 45,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q36",
+      "official_number": 46,
+      "type": "MSQ",
+      "official_key": "A;D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2025-S1-Q37",
+      "official_number": 47,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2025-S1-Q38",
+      "official_number": 48,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2025-S1-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S1-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q41",
+      "official_number": 51,
+      "type": "NAT",
+      "official_key": "65468 to 65468",
+      "verdict": "match",
+      "detail": "site [[65468.0, 65468.0]] vs official [[65468.0, 65468.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q42",
+      "official_number": 52,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q43",
+      "official_number": 53,
+      "type": "NAT",
+      "official_key": "11.83 to 11.87",
+      "verdict": "match",
+      "detail": "site [[11.83, 11.87]] vs official [[11.83, 11.87]]"
+    },
+    {
+      "question_id": "2025-S1-Q44",
+      "official_number": 54,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q45",
+      "official_number": 55,
+      "type": "NAT",
+      "official_key": "26 to 26",
+      "verdict": "match",
+      "detail": "site [[26.0, 26.0]] vs official [[26.0, 26.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q46",
+      "official_number": 56,
+      "type": "NAT",
+      "official_key": "0.949 to 0.952",
+      "verdict": "match",
+      "detail": "site [[0.949, 0.952]] vs official [[0.949, 0.952]]"
+    },
+    {
+      "question_id": "2025-S1-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "7 to 7",
+      "verdict": "match",
+      "detail": "site [[7.0, 7.0]] vs official [[7.0, 7.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "0.300 to 0.302",
+      "verdict": "match",
+      "detail": "site [[0.3, 0.302]] vs official [[0.3, 0.302]]"
+    },
+    {
+      "question_id": "2025-S1-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "7 to 8",
+      "verdict": "match",
+      "detail": "site [[7.0, 8.0]] vs official [[7.0, 8.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "46 to 46",
+      "verdict": "match",
+      "detail": "site [[46.0, 46.0]] vs official [[46.0, 46.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "5 to 5",
+      "verdict": "match",
+      "detail": "site [[5.0, 5.0]] vs official [[5.0, 5.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "10 to 11",
+      "verdict": "match",
+      "detail": "site [[10.0, 11.0]] vs official [[10.0, 11.0]]"
+    },
+    {
+      "question_id": "2025-S1-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S1-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S1-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S1-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S2-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S2-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S2-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S2-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q9",
+      "official_number": 19,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q10",
+      "official_number": 20,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q11",
+      "official_number": 21,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S2-Q12",
+      "official_number": 22,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S2-Q13",
+      "official_number": 23,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q14",
+      "official_number": 24,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q15",
+      "official_number": 25,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q16",
+      "official_number": 26,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2025-S2-Q18",
+      "official_number": 28,
+      "type": "MSQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q19",
+      "official_number": 29,
+      "type": "MSQ",
+      "official_key": "B;C;D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2025-S2-Q20",
+      "official_number": 30,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2025-S2-Q21",
+      "official_number": 31,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2025-S2-Q22",
+      "official_number": 32,
+      "type": "NAT",
+      "official_key": "13 to 13",
+      "verdict": "match",
+      "detail": "site [[13.0, 13.0]] vs official [[13.0, 13.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q23",
+      "official_number": 33,
+      "type": "NAT",
+      "official_key": "21 to 21",
+      "verdict": "match",
+      "detail": "site [[21.0, 21.0]] vs official [[21.0, 21.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "250 to 250",
+      "verdict": "match",
+      "detail": "site [[250.0, 250.0]] vs official [[250.0, 250.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S2-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S2-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q32",
+      "official_number": 42,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2025-S2-Q33",
+      "official_number": 43,
+      "type": "MSQ",
+      "official_key": "A;D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2025-S2-Q34",
+      "official_number": 44,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2025-S2-Q35",
+      "official_number": 45,
+      "type": "MSQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q36",
+      "official_number": 46,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2025-S2-Q37",
+      "official_number": 47,
+      "type": "MSQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q38",
+      "official_number": 48,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2025-S2-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2025-S2-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "B;C;D",
+      "verdict": "match",
+      "detail": "site [['B', 'C', 'D']] vs official [['B', 'C', 'D']]"
+    },
+    {
+      "question_id": "2025-S2-Q41",
+      "official_number": 51,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2025-S2-Q42",
+      "official_number": 52,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2025-S2-Q43",
+      "official_number": 53,
+      "type": "MSQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S2-Q44",
+      "official_number": 54,
+      "type": "MSQ",
+      "official_key": "A;C;D",
+      "verdict": "match",
+      "detail": "site [['A', 'C', 'D']] vs official [['A', 'C', 'D']]"
+    },
+    {
+      "question_id": "2025-S2-Q45",
+      "official_number": 55,
+      "type": "NAT",
+      "official_key": "4.0 to 4.0",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q46",
+      "official_number": 56,
+      "type": "NAT",
+      "official_key": "260.20 to 261.20",
+      "verdict": "match",
+      "detail": "site [[260.2, 261.2]] vs official [[260.2, 261.2]]"
+    },
+    {
+      "question_id": "2025-S2-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "33 to 33",
+      "verdict": "match",
+      "detail": "site [[33.0, 33.0]] vs official [[33.0, 33.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "11 to 11",
+      "verdict": "match",
+      "detail": "site [[11.0, 11.0]] vs official [[11.0, 11.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "3.0 to 3.0",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "111 to 111",
+      "verdict": "match",
+      "detail": "site [[111.0, 111.0]] vs official [[111.0, 111.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "46 to 46",
+      "verdict": "match",
+      "detail": "site [[46.0, 46.0]] vs official [[46.0, 46.0]]"
+    },
+    {
+      "question_id": "2025-S2-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "0.5 to 0.5",
+      "verdict": "match",
+      "detail": "site [[0.5, 0.5]] vs official [[0.5, 0.5]]"
+    },
+    {
+      "question_id": "2025-S2-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "0.70 to 0.80",
+      "verdict": "match",
+      "detail": "site [[0.7, 0.8]] vs official [[0.7, 0.8]]"
+    },
+    {
+      "question_id": "2025-S2-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S2-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2025-S2-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S2-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S2-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2025-S2-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2025-S2-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2025-S2-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S1-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S1-Q9",
+      "official_number": 19,
+      "type": "MSQ",
+      "official_key": "A;C;D",
+      "verdict": "match",
+      "detail": "site [['A', 'C', 'D']] vs official [['A', 'C', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q10",
+      "official_number": 20,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q11",
+      "official_number": 21,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q12",
+      "official_number": 22,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q13",
+      "official_number": 23,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q14",
+      "official_number": 24,
+      "type": "MSQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q15",
+      "official_number": 25,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q16",
+      "official_number": 26,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q18",
+      "official_number": 28,
+      "type": "MSQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q19",
+      "official_number": 29,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q20",
+      "official_number": 30,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q21",
+      "official_number": 31,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q22",
+      "official_number": 32,
+      "type": "NAT",
+      "official_key": "3 to 3",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q23",
+      "official_number": 33,
+      "type": "NAT",
+      "official_key": "11 to 11",
+      "verdict": "match",
+      "detail": "site [[11.0, 11.0]] vs official [[11.0, 11.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "9 to 9",
+      "verdict": "match",
+      "detail": "site [[9.0, 9.0]] vs official [[9.0, 9.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S1-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q32",
+      "official_number": 42,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S1-Q33",
+      "official_number": 43,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q34",
+      "official_number": 44,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q35",
+      "official_number": 45,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q36",
+      "official_number": 46,
+      "type": "MSQ",
+      "official_key": "A;C;D",
+      "verdict": "match",
+      "detail": "site [['A', 'C', 'D']] vs official [['A', 'C', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q37",
+      "official_number": 47,
+      "type": "MSQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q38",
+      "official_number": 48,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "A;D",
+      "verdict": "match",
+      "detail": "site [['A', 'D']] vs official [['A', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q41",
+      "official_number": 51,
+      "type": "MSQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q42",
+      "official_number": 52,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q43",
+      "official_number": 53,
+      "type": "MSQ",
+      "official_key": "A;B;D",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'D']] vs official [['A', 'B', 'D']]"
+    },
+    {
+      "question_id": "2026-S1-Q44",
+      "official_number": 54,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q45",
+      "official_number": 55,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q46",
+      "official_number": 56,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2026-S1-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "34 to 34",
+      "verdict": "match",
+      "detail": "site [[34.0, 34.0]] vs official [[34.0, 34.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "4.24 to 4.26",
+      "verdict": "match",
+      "detail": "site [[4.24, 4.26]] vs official [[4.24, 4.26]]"
+    },
+    {
+      "question_id": "2026-S1-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "77.3 to 77.3",
+      "verdict": "match",
+      "detail": "site [[77.3, 77.3]] vs official [[77.3, 77.3]]"
+    },
+    {
+      "question_id": "2026-S1-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "95 to 95",
+      "verdict": "match",
+      "detail": "site [[95.0, 95.0]] vs official [[95.0, 95.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "65536 to 65536",
+      "verdict": "match",
+      "detail": "site [[65536.0, 65536.0]] vs official [[65536.0, 65536.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "7 to 7",
+      "verdict": "match",
+      "detail": "site [[7.0, 7.0]] vs official [[7.0, 7.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "9.5 to 9.5",
+      "verdict": "match",
+      "detail": "site [[9.5, 9.5]] vs official [[9.5, 9.5]]"
+    },
+    {
+      "question_id": "2026-S1-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2026-S1-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S1-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S1-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S1-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S1-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S1-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q1",
+      "official_number": 11,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q2",
+      "official_number": 12,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q3",
+      "official_number": 13,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S2-Q4",
+      "official_number": 14,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S2-Q5",
+      "official_number": 15,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q6",
+      "official_number": 16,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S2-Q7",
+      "official_number": 17,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q8",
+      "official_number": 18,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q9",
+      "official_number": 19,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q10",
+      "official_number": 20,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q11",
+      "official_number": 21,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S2-Q12",
+      "official_number": 22,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q13",
+      "official_number": 23,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S2-Q14",
+      "official_number": 24,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q15",
+      "official_number": 25,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2026-S2-Q16",
+      "official_number": 26,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2026-S2-Q17",
+      "official_number": 27,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2026-S2-Q18",
+      "official_number": 28,
+      "type": "MSQ",
+      "official_key": "B;D",
+      "verdict": "match",
+      "detail": "site [['B', 'D']] vs official [['B', 'D']]"
+    },
+    {
+      "question_id": "2026-S2-Q19",
+      "official_number": 29,
+      "type": "MSQ",
+      "official_key": "B;C",
+      "verdict": "match",
+      "detail": "site [['B', 'C']] vs official [['B', 'C']]"
+    },
+    {
+      "question_id": "2026-S2-Q20",
+      "official_number": 30,
+      "type": "NAT",
+      "official_key": "3 to 3",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q21",
+      "official_number": 31,
+      "type": "NAT",
+      "official_key": "24 to 24",
+      "verdict": "match",
+      "detail": "site [[24.0, 24.0]] vs official [[24.0, 24.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q22",
+      "official_number": 32,
+      "type": "NAT",
+      "official_key": "3 to 3",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q23",
+      "official_number": 33,
+      "type": "NAT",
+      "official_key": "4094 to 4094",
+      "verdict": "match",
+      "detail": "site [[4094.0, 4094.0]] vs official [[4094.0, 4094.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q24",
+      "official_number": 34,
+      "type": "NAT",
+      "official_key": "-60.25 to -60.25",
+      "verdict": "match",
+      "detail": "site [[-60.25, -60.25]] vs official [[-60.25, -60.25]]"
+    },
+    {
+      "question_id": "2026-S2-Q25",
+      "official_number": 35,
+      "type": "NAT",
+      "official_key": "13 to 13",
+      "verdict": "match",
+      "detail": "site [[13.0, 13.0]] vs official [[13.0, 13.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q26",
+      "official_number": 36,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q27",
+      "official_number": 37,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q28",
+      "official_number": 38,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q29",
+      "official_number": 39,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q30",
+      "official_number": 40,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S2-Q31",
+      "official_number": 41,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S2-Q32",
+      "official_number": 42,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S2-Q33",
+      "official_number": 43,
+      "type": "MCQ",
+      "official_key": "D",
+      "verdict": "match",
+      "detail": "site [['D']] vs official [['D']]"
+    },
+    {
+      "question_id": "2026-S2-Q34",
+      "official_number": 44,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S2-Q35",
+      "official_number": 45,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q36",
+      "official_number": 46,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q37",
+      "official_number": 47,
+      "type": "MSQ",
+      "official_key": "C;D",
+      "verdict": "match",
+      "detail": "site [['C', 'D']] vs official [['C', 'D']]"
+    },
+    {
+      "question_id": "2026-S2-Q38",
+      "official_number": 48,
+      "type": "MSQ",
+      "official_key": "A;C;D",
+      "verdict": "match",
+      "detail": "site [['A', 'C', 'D']] vs official [['A', 'C', 'D']]"
+    },
+    {
+      "question_id": "2026-S2-Q39",
+      "official_number": 49,
+      "type": "MSQ",
+      "official_key": "A;C",
+      "verdict": "match",
+      "detail": "site [['A', 'C']] vs official [['A', 'C']]"
+    },
+    {
+      "question_id": "2026-S2-Q40",
+      "official_number": 50,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2026-S2-Q41",
+      "official_number": 51,
+      "type": "MSQ",
+      "official_key": "A;B;C",
+      "verdict": "match",
+      "detail": "site [['A', 'B', 'C']] vs official [['A', 'B', 'C']]"
+    },
+    {
+      "question_id": "2026-S2-Q42",
+      "official_number": 52,
+      "type": "MSQ",
+      "official_key": "A;B",
+      "verdict": "match",
+      "detail": "site [['A', 'B']] vs official [['A', 'B']]"
+    },
+    {
+      "question_id": "2026-S2-Q43",
+      "official_number": 53,
+      "type": "NAT",
+      "official_key": "16417 to 16417",
+      "verdict": "match",
+      "detail": "site [[16417.0, 16417.0]] vs official [[16417.0, 16417.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q44",
+      "official_number": 54,
+      "type": "NAT",
+      "official_key": "1536 to 1536",
+      "verdict": "match",
+      "detail": "site [[1536.0, 1536.0]] vs official [[1536.0, 1536.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q45",
+      "official_number": 55,
+      "type": "NAT",
+      "official_key": "3 to 3",
+      "verdict": "match",
+      "detail": "site [[3.0, 3.0]] vs official [[3.0, 3.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q46",
+      "official_number": 56,
+      "type": "NAT",
+      "official_key": "128 to 128",
+      "verdict": "match",
+      "detail": "site [[128.0, 128.0]] vs official [[128.0, 128.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q47",
+      "official_number": 57,
+      "type": "NAT",
+      "official_key": "2.30 to 2.40",
+      "verdict": "match",
+      "detail": "site [[2.3, 2.4]] vs official [[2.3, 2.4]]"
+    },
+    {
+      "question_id": "2026-S2-Q48",
+      "official_number": 58,
+      "type": "NAT",
+      "official_key": "4 to 4",
+      "verdict": "match",
+      "detail": "site [[4.0, 4.0]] vs official [[4.0, 4.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q49",
+      "official_number": 59,
+      "type": "NAT",
+      "official_key": "6 to 6",
+      "verdict": "match",
+      "detail": "site [[6.0, 6.0]] vs official [[6.0, 6.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q50",
+      "official_number": 60,
+      "type": "NAT",
+      "official_key": "9 to 9",
+      "verdict": "match",
+      "detail": "site [[9.0, 9.0]] vs official [[9.0, 9.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q51",
+      "official_number": 61,
+      "type": "NAT",
+      "official_key": "1 to 1",
+      "verdict": "match",
+      "detail": "site [[1.0, 1.0]] vs official [[1.0, 1.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q52",
+      "official_number": 62,
+      "type": "NAT",
+      "official_key": "48 to 48",
+      "verdict": "match",
+      "detail": "site [[48.0, 48.0]] vs official [[48.0, 48.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q53",
+      "official_number": 63,
+      "type": "NAT",
+      "official_key": "0.5 to 0.5",
+      "verdict": "match",
+      "detail": "site [[0.5, 0.5]] vs official [[0.5, 0.5]]"
+    },
+    {
+      "question_id": "2026-S2-Q54",
+      "official_number": 64,
+      "type": "NAT",
+      "official_key": "40 to 40",
+      "verdict": "match",
+      "detail": "site [[40.0, 40.0]] vs official [[40.0, 40.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q55",
+      "official_number": 65,
+      "type": "NAT",
+      "official_key": "30 to 30",
+      "verdict": "match",
+      "detail": "site [[30.0, 30.0]] vs official [[30.0, 30.0]]"
+    },
+    {
+      "question_id": "2026-S2-Q56",
+      "official_number": 1,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q57",
+      "official_number": 2,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q58",
+      "official_number": 3,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q59",
+      "official_number": 4,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q60",
+      "official_number": 5,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    },
+    {
+      "question_id": "2026-S2-Q61",
+      "official_number": 6,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q62",
+      "official_number": 7,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q63",
+      "official_number": 8,
+      "type": "MCQ",
+      "official_key": "A",
+      "verdict": "match",
+      "detail": "site [['A']] vs official [['A']]"
+    },
+    {
+      "question_id": "2026-S2-Q64",
+      "official_number": 9,
+      "type": "MCQ",
+      "official_key": "B",
+      "verdict": "match",
+      "detail": "site [['B']] vs official [['B']]"
+    },
+    {
+      "question_id": "2026-S2-Q65",
+      "official_number": 10,
+      "type": "MCQ",
+      "official_key": "C",
+      "verdict": "match",
+      "detail": "site [['C']] vs official [['C']]"
+    }
+  ]
+}

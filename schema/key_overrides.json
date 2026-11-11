@@ -1,0 +1,11 @@
+{
+  "note": "Corrections from the official GATE final answer keys (cache/official_keys/, from gate2027.iitm.ac.in/download). Keys are '<paper_id>-Q<number>' in the site's numbering. 'accepted' adds alternative answers the official key also accepts; 'nat_range' replaces the range; 'marks_to_all' marks a question the official key dropped. Applied by scraper/scrape_paper.py.",
+  "overrides": {
+    "2021-S1-Q23": { "accepted": [[819, 820]], "source": "GATE 2021 CS1 official key CS Q23: '819 to 820 OR 205 to 205' (scanned PDF, read by eye)" },
+    "2021-S1-Q64": { "accepted": [["C"]], "source": "GATE 2021 CS1 official key GA Q9: 'C OR D' (scanned PDF, read by eye)" },
+    "2023-Q17": { "accepted": [["A", "C", "D"]], "source": "GATE 2023 CS official key Q27: 'A, C, D or C, D'" },
+    "2023-Q20": { "accepted": [[4, 4]], "source": "GATE 2023 CS official key Q30: '2 to 2 OR 4 to 4'" },
+    "2023-Q57": { "marks_to_all": true, "source": "GATE 2023 CS official key Q2: MTA" },
+    "2025-S1-Q55": { "nat_range": [10, 11], "source": "GATE 2025 CS1 official key Q65: '10 to 11'" }
+  }
+}

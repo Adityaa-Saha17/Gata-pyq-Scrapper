@@ -1,0 +1,640 @@
+{
+  "paper_id": "1994",
+  "paper": "GATE CSE 1994",
+  "year": 1994,
+  "set": null,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-1994",
+  "source_id": 11013,
+  "total_marks": 24,
+  "scraped_at": "2026-11-06T10:17:31Z",
+  "questions": [
+    {
+      "id": "1994-Q1",
+      "source_id": 1101301,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "FORTRAN implementation do not permit recursion because\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "they use static allocation for variables",
+        "B": "they use dynamic allocation for variables",
+        "C": "stacks are not available on all machines",
+        "D": "it is not possible to implement recursion on all machines"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/2437/gate1994-1-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q2",
+      "source_id": 1101302,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A and B be real symmetric matrices of size [latex]n \\times n[/latex]. Then which one of the following is true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]AA'=I[/latex]",
+        "B": "[latex]A=A^{-1}[/latex]",
+        "C": "[latex]AB=BA[/latex]",
+        "D": "[latex](AB)'=BA[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2438/gate1994-1-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q3",
+      "source_id": 1101303,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Backward Euler method for solving the differential equation [latex]\\frac{dy}{dx}=f(x, y)[/latex] is specified by, (choose one of the following).",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]y_{n+1}=y_n+hf(x_n, y_n)[/latex]",
+        "B": "[latex]y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})[/latex]",
+        "C": "[latex]y_{n+1}=y_{n-1}+2hf(x_n, y_n)[/latex]",
+        "D": "[latex]y_{n+1}= (1+h)f(x_{n+1}, y_{n+1})[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/2439/gate1994-1-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q4",
+      "source_id": 1101304,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A and B be any two arbitrary events, then, which one of the following is TRUE?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]P (A \\cap B) = P(A)P(B)[/latex]",
+        "B": "[latex]P (A \\cup B) = P(A)+P(B)[/latex]",
+        "C": "[latex]P (A \\mid B) = P(A \\cap B)P(B)[/latex]",
+        "D": "[latex]P (A \\cup B) \\leq P(A) + P(B)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q5",
+      "source_id": 1101305,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "An unrestricted use of the \"goto\" statement is harmful because\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "it makes it more difficult to verify programs",
+        "B": "it increases the running time of the programs",
+        "C": "it increases the memory required for the programs",
+        "D": "it results in the compiler generating longer machine code"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Conditional Statement",
+      "explanation": "<a href=\"https://gateoverflow.in/2442/gate1994-1-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q6",
+      "source_id": 1101306,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of distinct simple graphs with up to three nodes is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "15",
+        "B": "10",
+        "C": "7",
+        "D": "9"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q7",
+      "source_id": 1101307,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The recurrence relation that arises in relation with the complexity of binary search is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]T(n) = 2T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }[/latex]",
+        "B": "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }[/latex]",
+        "C": "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+\\log n[/latex]",
+        "D": "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+n[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/2444/gate1994-1-7-isro2017-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q8",
+      "source_id": 1101308,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The logic expression for the output of the circuit shown in figure below is:<br><img src=\"/wp-content/uploads/GATE/CS/19941/q1.8.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19941/q1.8.jpg"
+      ],
+      "options": {
+        "A": "[latex]\\overline{AC} + \\overline{BC} +CD[/latex]",
+        "B": "[latex]\\overline{A}C + \\overline{B}C + CD[/latex]",
+        "C": "[latex]ABC +\\overline {C}\\; \\overline{D}[/latex]",
+        "D": "[latex]\\overline{A}\\; \\overline{B} + \\overline{B}\\; \\overline{C} +CD[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2445/gate1994-1-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q9",
+      "source_id": 1101309,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The rank of matrix [latex]\\begin{bmatrix} 0 & 0 & -3 \\\\ 9 & 3 & 5 \\\\ 3 & 1 & 1 \\end{bmatrix}[/latex]is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2446/gate1994-1-9\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q10",
+      "source_id": 1101310,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Some group (G, o) is known to be abelian. Then, which one of the following is true for G?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]g=g^{-1} \\text{ for every } g \\in G[/latex]",
+        "B": "[latex]g=g^2 \\text{ for every }g \\in G[/latex]",
+        "C": "[latex](goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G[/latex]",
+        "D": "G is of finite order"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2451/gate1994-1-10\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q11",
+      "source_id": 1101311,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a compact single dimensional array representation for lower triangular matrices (i.e all the elements above the diagonal are zero) of size [latex]n \\times n[/latex], non-zero elements, (i.e elements of lower triangle) of each row are stored one after another, starting from the first row, the index of the [latex](i, j)^{th}[/latex] element of the lower triangular matrix in this new representation is:\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]i+j[/latex]",
+        "B": "[latex]i+j-1[/latex]",
+        "C": "[latex](j-1)+\\frac{i(i-1)}{2}[/latex]",
+        "D": "[latex]i+\\frac{j(j-1)}{2}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array",
+      "explanation": "<a href=\"https://gateoverflow.in/2452/gate1994-1-11\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q12",
+      "source_id": 1101312,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Generation of intermediate code based on an abstract machine model is useful in compilers because\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "it makes implementation of lexical analysis and syntax analysis easier",
+        "B": "syntax-directed translations can be written for intermediate code generation",
+        "C": "it enhances the portability of the front end of the compiler",
+        "D": "it is not possible to generate code for real machines directly from high level language programs"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "<a href=\"https://gateoverflow.in/2453/gate1994-1-12\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q13",
+      "source_id": 1101313,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A memory page containing a heavily used variable that was initialized very early and is in constant use is removed then\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "LRU page replacement algorithm is used",
+        "B": "FIFO page replacement algorithm is used",
+        "C": "LFU page replacement algorithm is used",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/2454/gate1994-1-13\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q14",
+      "source_id": 1101314,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following permutations can be obtained in the output (in the same order) using a stack assuming that the input is the sequence 1, 2, 3, 4, 5 in that order?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3, 4, 5, 1, 2",
+        "B": "3, 4, 5, 2, 1",
+        "C": "1, 5, 2, 3, 4",
+        "D": "5, 4, 3, 1, 2"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack",
+      "explanation": "<a href=\"https://gateoverflow.in/2457/gate1994-1-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q15",
+      "source_id": 1101315,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of substrings (of all lengths inclusive) that can be formed from a character string of length n is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]n[/latex]",
+        "B": "[latex]n^2[/latex]",
+        "C": "[latex]\\frac{n(n-1)}{2}[/latex]",
+        "D": "[latex]\\frac{n(n+1)}{2}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/2458/gate1994-1-15\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q16",
+      "source_id": 1101316,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following conversions is not possible (algorithmically)?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Regular grammar to context free grammar",
+        "B": "Non-deterministic FSA to deterministic FSA",
+        "C": "Non-deterministic PDA to deterministic PDA",
+        "D": "Non-deterministic Turing machine to deterministic Turing machine"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Push-down Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/2459/gate1994-1-16\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q17",
+      "source_id": 1101317,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Linked lists are not suitable data structures for which one of the following problems?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Insertion sort",
+        "B": "Binary search",
+        "C": "Radix sort",
+        "D": "Polynomial manipulation"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Link List",
+      "explanation": "<a href=\"https://gateoverflow.in/2460/gate1994-1-17-ugcnet-sep2013-ii-32\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q18",
+      "source_id": 1101318,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following features cannot be captured by context-free grammars?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Syntax of if-then-else statements",
+        "B": "Syntax of recursive procedures",
+        "C": "Whether a variable has been declared before its use",
+        "D": "Variable names of arbitrary length"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "<a href=\"https://gateoverflow.in/2461/gate1994-1-18\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q19",
+      "source_id": 1101319,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Algorithm design technique used in quicksort algorithm is?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Dynamic programming",
+        "B": "Backtracking",
+        "C": "Divide and conquer",
+        "D": "Greedy method"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/2462/gate1994-1-19-isro2016-31\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q20",
+      "source_id": 1101320,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In which of the following cases is it possible to obtain different results for call-by-reference and call-by-name parameter passing methods?\n \n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " Passing a constant value as a parameter",
+        "B": " Passing the address of an array as a parameter",
+        "C": " Passing an array element as a parameter",
+        "D": " Passing an array"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/305/gate1994-1-20\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q21",
+      "source_id": 1101321,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following statements is true?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Macro definitions cannot appear within other macro definitions in assembly language programs",
+        "B": "Overlaying is used to run a program which is longer than the address space of a computer",
+        "C": "Virtual memory can be used to accommodate a program which is longer than the address space of a computer",
+        "D": "It is not possible to write interrupt service routines in a high level language"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/2464/gate1994-1-21\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q22",
+      "source_id": 1101322,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is false?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Optimal binary search tree construction can be performed efficiently using dynamic programming",
+        "B": "Breadth-first search cannot be used to find connected components of a graph",
+        "C": "Given the prefix and postfix walks over a binary tree, the binary tree cannot be uniquely constructed.",
+        "D": "Depth-first search can be used to find connected components of a graph"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/2465/gate1994-1-22\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q23",
+      "source_id": 1101323,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following two functions: <br>[latex]g_1(n) = \\begin{cases} n^3 \\text{ for } 0 \\leq n \\leq 10,000 \\\\ n^2 \\text{ for } n \\geq 10,000 \\end{cases}[/latex]<br>[latex]g_2(n) = \\begin{cases} n \\text{ for } 0 \\leq n \\leq 100 \\\\ n^3 \\text{ for } n > 100 \\end{cases}[/latex]<br>Which of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]g_1(n) \\text{ is } O(g_2(n))[/latex]",
+        "B": "[latex]g_1(n) \\text{ is } O(n^3)[/latex]",
+        "C": "[latex]g_2(n) \\text{ is } O(g_1(n))[/latex]",
+        "D": "[latex]g_2(n) \\text{ is } O(n)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "<a href=\"https://gateoverflow.in/2466/gate1994-1-23\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1994-Q24",
+      "source_id": 1101324,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following heap (figure) in which blank regions are not in use and hatched region are in use.<br><img src=\"/wp-content/uploads/GATE/CS/19941/q1.24.jpg\" /><br>The sequence of requests for blocks of sizes 300, 25, 125, 50 can be satisfied if we use",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19941/q1.24.jpg"
+      ],
+      "options": {
+        "A": "either first fit or best fit policy (any one)",
+        "B": "first fit but not best fit policy",
+        "C": "best fit but not first fit policy",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/2467/gate1994-1-24\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

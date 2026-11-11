@@ -1,0 +1,1446 @@
+{
+  "paper_id": "1998",
+  "paper": "GATE CSE 1998",
+  "year": 1998,
+  "set": null,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-1998",
+  "source_id": 11017,
+  "total_marks": 55,
+  "scraped_at": "2026-11-06T10:12:34Z",
+  "questions": [
+    {
+      "id": "1998-Q1",
+      "source_id": 1101701,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A die is rolled three times. The probability that exactly one odd number turns up among the three outcomes is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\dfrac{1}{6}[/latex]",
+        "B": "[latex]\\dfrac{3}{8}[/latex]",
+        "C": "[latex]\\dfrac{1}{8}[/latex]",
+        "D": "[latex]\\dfrac{1}{2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1638/gate1998-1-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q2",
+      "source_id": 1101702,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following set of equations<br>\r\n[latex]x+2y=5\\\\ 4x+8y=12\\\\ 3x+6y+3z=15[/latex]<br>\r\nThis set\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "has unique solution",
+        "B": "has no solution",
+        "C": "has finite number of solutions",
+        "D": "has infinite number of solutions"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1639/gate1998-1-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q3",
+      "source_id": 1101703,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements applies to the bisection method used for finding roots of functions:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "converges within a few iterations",
+        "B": "guaranteed to work for all continuous functions",
+        "C": "is faster than the Newton-Raphson method",
+        "D": "requires that there be no error in determining the sign of the function"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/1640/gate1998-1-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q4",
+      "source_id": 1101704,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the function y=|x| in the interval [-1, 1]. In this interval, the function is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "continuous and differentiable",
+        "B": "continuous but not differentiable",
+        "C": "differentiable but not continuous",
+        "D": "neither continuous nor differentiable"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/1641/gate1998-1-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q5",
+      "source_id": 1101705,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the converse of the following assertion?<br>\nI stay only if you go\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I stay if you go",
+        "B": "If I stay then you go",
+        "C": "If you do not go then I do not stay",
+        "D": "If I do not stay then you go"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/1642/gate1998-1-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q6",
+      "source_id": 1101706,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose A is a finite set with n elements. The number of elements in the largest equivalence relation of A is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n",
+        "B": "[latex]n^2[/latex]",
+        "C": "1",
+        "D": "n+1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1643/gate1998-1-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q7",
+      "source_id": 1101707,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]R_1[/latex] and [latex]R_1[/latex] be two equivalence relations on a set. Consider the following assertions:<br>\nI.  [latex]R_1 \\cup R_2[/latex] is an equivalence relation<br>\nII. [latex]R_1 \\cap R_2[/latex] is an equivalence relation<br>\nWhich of the following is correct?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both assertions are true",
+        "B": "Assertions (i) is true but assertions (ii) is not true",
+        "C": "Assertions (ii) is true but assertions (i) is not true",
+        "D": "Neither (i) nor (ii) is true"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1644/gate1998-1-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q8",
+      "source_id": 1101708,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of functions from an m element set to an n element set is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "m + n",
+        "B": "[latex]m^n[/latex]",
+        "C": "[latex]n^m[/latex]",
+        "D": "m*n"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/1645/gate1998-1-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q9",
+      "source_id": 1101709,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If the regular set [latex]A[/latex] is represented by [latex]A = (01 + 1)^*[/latex] and the regular set [latex]B[/latex] is represented by [latex]B = \\left(\\left(01\\right)^*1^*\\right)^*[/latex], which of the following is true?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]A \\subset B[/latex]",
+        "B": "[latex]B \\subset A[/latex]",
+        "C": "[latex]A[/latex] and [latex]B[/latex] are incomparable",
+        "D": "[latex]A=B[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "<a href=\"https://gateoverflow.in/1646/gate1998-1-9\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q10",
+      "source_id": 1101710,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following set can be recognized by a Deterministic Finite state Automaton?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The numbers [latex]1, 2, 4, 8, \\dots 2^n, \\dots[/latex] written in binary",
+        "B": "The numbers [latex]1, 2, 4, 8,\\dots 2^n, \\dots[/latex]  written in unary",
+        "C": "The set of binary string in which the number of zeros is the same as the number of ones.",
+        "D": "The set [latex]\\{1, 101, 11011, 1110111, \\dots\\}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/1647/gate1998-1-10\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q11",
+      "source_id": 1101711,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Regarding the power of recognition of languages, which of the following statements is false?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The non-deterministic finite-state automata are equivalent to deterministic finite-state automata.",
+        "B": "Non-deterministic Push-down automata are equivalent to deterministic Push-down automata.",
+        "C": "Non-deterministic Turing machines are equivalent to deterministic Turing machines.",
+        "D": "Multi-tape Turing machines are available are equivalent to Single-tape Turing machines"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/1648/gate1998-1-11\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q12",
+      "source_id": 1101712,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The string 1101 does not belong to the set represented by\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]110^*(0 + 1)[/latex]",
+        "B": "[latex]1(0 + 1)^*101[/latex]",
+        "C": "[latex](10)^*(01)^*(00 + 11)^*[/latex]",
+        "D": "[latex](00 + (11)^*0)^*[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "<a href=\"https://gateoverflow.in/1649/gate1998-1-12\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q13",
+      "source_id": 1101713,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What happens when a bit-string is XORed with itself n-times as shown:<br>\n[latex]\\left[B \\oplus (B \\oplus ( B \\oplus (B \\dots n \\text{ times}\\right][/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "complements when n is even",
+        "B": "complements when n is odd",
+        "C": "divides by [latex]2^n[/latex] always",
+        "D": "remains unchanged when n is even"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1650/gate1998-1-13\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q14",
+      "source_id": 1101714,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A multiplexer with a 4-bit data select input is a\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4:1 multiplexer",
+        "B": "2:1 multiplexer",
+        "C": "16:1 multiplexer",
+        "D": "8:1 multiplexer"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/1651/gate1998-1-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q15",
+      "source_id": 1101715,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The threshold level for logic 1 in the TTL family is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "any voltage above 2.5 V",
+        "B": "any voltage between 0.8 V and 5.0 V",
+        "C": "any voltage below 5.0 V",
+        "D": "any voltage below [latex]V_{cc}[/latex] but above 2.8 V"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "explanation": "<a href=\"https://gateoverflow.in/1652/gate1998-1-15\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q16",
+      "source_id": 1101716,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In serial communication employing 8 data bits, a parity bit and 2 stop bits, the minimum band rate required to sustain a transfer rate of 300 characters per second is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2400 band",
+        "B": "19200 band",
+        "C": "4800 band",
+        "D": "1200 band"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1653/gate1998-1-16\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q17",
+      "source_id": 1101717,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The octal representation of an integer is [latex](342)_8[/latex]. If this were to be treated as an eight-bit integer in an 8085 based computer, its decimal equivalent is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "226",
+        "B": "-98",
+        "C": "76",
+        "D": "-30"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/1654/gate1998-1-17\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q18",
+      "source_id": 1101718,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following devices should get higher priority in assigning interrupts?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Hard disk",
+        "B": "Printer",
+        "C": "Keyboard",
+        "D": "Floppy disk"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupt",
+      "explanation": "<a href=\"https://gateoverflow.in/1655/gate1998-1-18\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q19",
+      "source_id": 1101719,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following addressing modes permits relocation without any change whatsoever in the code?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Indirect addressing",
+        "B": "Indexed addressing",
+        "C": "Base register addressing",
+        "D": "PC relative addressing"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Addressing Modes",
+      "explanation": "<a href=\"https://gateoverflow.in/1656/gate1998-1-19\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q20",
+      "source_id": 1101720,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Unless enabled, a CPU will not be able to process interrupts.",
+        "B": "Loop instructions cannot be interrupted till they complete.",
+        "C": "A processor checks for interrupts before executing a new instruction.",
+        "D": "Only level triggered interrupts are possible on microprocessors."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupt",
+      "explanation": "<a href=\"https://gateoverflow.in/1657/gate1998-1-20\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q21",
+      "source_id": 1101721,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following algorithm design techniques is used in finding all pairs of shortest distances in a graph?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Dynamic programming",
+        "B": "Backtracking",
+        "C": "Greedy",
+        "D": "Divide and Conquer"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Dynamic Programming",
+      "explanation": "<a href=\"https://gateoverflow.in/1658/gate1998-1-21-isro2008-16\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q22",
+      "source_id": 1101722,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Give the correct matching for the following pairs: <br>[latex]\\begin{array}{ll|ll}\\hline \\text{(A)} & \\text{$O (\\log n)$} & \\text{(P)} & \\text{Selection sort} \\\\\\hline \\text{(B)} & \\text{$O (n)$} & \\text{(Q)}& \\text{Insertion sort} \\\\\\hline \\text{(C)}& \\text{$O (n \\log n)$} & \\text{(R)} & \\text{Binary search} \\\\\\hline \\text{(D)} & \\text{$O (n^2)$} &\\text{(S)} & \\text{Merge sort} \\\\\\hline \\end{array}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A-R  B-P  C-Q  D-S",
+        "B": "A-R  B-P  C-S  D-Q",
+        "C": "A-P  B-R  C-S  D-Q",
+        "D": "A-P  B-S  C-R  D-Q"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/1659/gate1998-1-22\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q23",
+      "source_id": 1101723,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "How many sub strings of different lengths (non-zero) can be formed from a character string of length n?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n",
+        "B": "[latex]n^2[/latex]",
+        "C": "[latex]2^n[/latex]",
+        "D": "[latex]\\frac{n(n+1)}{2}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/1660/gate1998-1-23\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q24",
+      "source_id": 1101724,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is false?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " A tree with a n nodes has (n- 1) edges",
+        "B": " A labeled rooted binary tree can be uniquely constructed given its postorder and preorder traversal results.",
+        "C": " A complete binary tree with n internal nodes has (n + 1) leaves.",
+        "D": " The maximum number of nodes in a binary tree of height h is [latex]2^{h+1} - 1[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1661/gate1998-1-24\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q25",
+      "source_id": 1101725,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a resident-OS computer, which of the following systems must reside in the main memory under all situations?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Assembler",
+        "B": "Linker",
+        "C": "Loader",
+        "D": "Compiler"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/1662/gate1998-1-25-isro2008-41\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q26",
+      "source_id": 1101726,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "SLR parser is more powerful than LALR",
+        "B": "LALR parser is more powerful than Canonical LR parser",
+        "C": "Canonical LR parser is more powerful than LALR parser",
+        "D": "The parsers SLR, Canonical CR, and LALR have the same power"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/1663/gate1998-1-26\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q27",
+      "source_id": 1101727,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Type checking is normally done during\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "lexical analysis",
+        "B": "syntax analysis",
+        "C": "syntax directed translation",
+        "D": "code optimization"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Syntax-directed Translation",
+      "explanation": "<a href=\"https://gateoverflow.in/1664/gate1998-1-27\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q28",
+      "source_id": 1101728,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A linker reads four modules whose lengths are 200, 800, 600 and 500 words, respectively. If they are loaded in that order, what are the relocation constants?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]0, 200, 500, 600[/latex]",
+        "B": "[latex]0, 200, 1000, 1600[/latex]",
+        "C": "[latex]200, 500, 600, 800[/latex]",
+        "D": "[latex]200, 700, 1300, 2100[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/1665/gate1998-1-28\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q29",
+      "source_id": 1101729,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is an example of a spooled device?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The terminal used to enter the input data for the C program being executed",
+        "B": "An output device used to print the output of a number of jobs",
+        "C": "The secondary memory device in a virtual storage system",
+        "D": "The swapping area on a disk used by the swapper"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "IO Interface",
+      "explanation": "<a href=\"https://gateoverflow.in/1666/gate1998-1-29\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q30",
+      "source_id": 1101730,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "When the result of a computation depends on the speed of the processes involved, there is said to be\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "cycle stealing",
+        "B": "race condition",
+        "C": "a time lock",
+        "D": "a deadlock"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/1667/gate1998-1-30\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q31",
+      "source_id": 1101731,
+      "number": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A counting semaphore was initialized to 10. Then 6P (wait) operations and 4V (signal) operations were completed on this semaphore. The resulting value of the semaphore is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/1668/gate1998-1-31\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q32",
+      "source_id": 1101732,
+      "number": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A computer has six tape drives, with n processes competing for them. Each process may need two drives. What is the maximum value of n for the system to be deadlock free?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Deadlock",
+      "explanation": "<a href=\"https://gateoverflow.in/1669/gate1998-1-32\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q33",
+      "source_id": 1101733,
+      "number": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Given two union compatible relations [latex]R_1(A, B)[/latex] and [latex]R_2 (C, D)[/latex], what is the result of the operation [latex]R_1 \\Join_{ A = C \\wedge B = D} R_2[/latex]?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]R_1 \\cup R_2[/latex]",
+        "B": "[latex]R_1 \\times R_2[/latex]",
+        "C": "[latex]R_1- R_2[/latex]",
+        "D": "[latex]R_1 \\cap R_2[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1670/gate1998-1-33\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q34",
+      "source_id": 1101734,
+      "number": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which normal form is considered adequate for normal relational database design?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2NF",
+        "B": "5NF",
+        "C": "4NF",
+        "D": "3NF"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "<a href=\"https://gateoverflow.in/1671/gate1998-1-34\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q35",
+      "source_id": 1101735,
+      "number": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "There are five records in a database.<br>\n[latex]\\begin{array}{|c|c|c|c|} \\hline \\textbf {Name} & \\textbf {Age} & \\textbf {Occupation} & \\textbf{Category } \\\\\\hline \\text{Rama} & \\text{27} & \\text{CON} & \\text{A} \\\\\\hline \\text{Abdul} & \\text{22} & \\text{ENG} & \\text{A} \\\\\\hline \\text{Jennifer} & \\text{28} & \\text{DOC} & \\text{B} \\\\\\hline \\text{Maya} & \\text{32} & \\text{SER} & \\text{D} \\\\\\hline \\text{Dev} & \\text{24} & \\text{MUS} & \\text{C} \\\\\\hline \\end{array}[/latex]<br>There is an index file associated with this and it contains the values 1, 3, 2, 5 and 4. Which one of the fields is the index built from?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Age",
+        "B": "Name",
+        "C": "Occupation",
+        "D": "Category"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "<a href=\"https://gateoverflow.in/1672/gate1998-1-35\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q36",
+      "source_id": 1101736,
+      "number": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The rank of the matrix given below is:<br>\n[latex]\\begin{bmatrix} 1 &4 &8 &7\\\\ 0 &0& 3 &0\\\\ 4 &2& 3 &1\\\\ 3 &12 &24 &21 \\end{bmatrix}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1673/gate1998-2-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q37",
+      "source_id": 1101737,
+      "number": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following determinant [latex]\\Delta = \\begin{vmatrix} 1 & a & bc \\\\ 1 & b & ca \\\\ 1 & c & ab \\end{vmatrix}[/latex]<br>\nWhich of the following is a factor of [latex]\\Delta[/latex]?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a+b",
+        "B": "a-b",
+        "C": "a+b+c",
+        "D": "abc"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1674/gate1998-2-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q38",
+      "source_id": 1101738,
+      "number": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The binary relation [latex]R = \\{(1, 1), (2, 1), (2, 2), (2, 3), (2, 4), (3, 1), (3, 2), (3, 3), (3, 4)\\}[/latex] on the set [latex]A=\\{1, 2, 3, 4\\}[/latex] is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "reflexive, symmetric and transitive",
+        "B": "neither reflexive, nor irreflexive but transitive",
+        "C": "irreflexive, symmetric and transitive",
+        "D": "irreflexive and antisymmetric"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1675/gate1998-2-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q39",
+      "source_id": 1101739,
+      "number": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a room containing 28 people, there are 18 people who speak English, 15, people who speak Hindi and 22 people who speak Kannada. 9 persons speak both English and Hindi, 11 persons speak both Hindi and Kannada whereas 13 persons speak both Kannada and English. How many speak all three languages?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "7",
+        "D": "6"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1676/gate1998-2-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q40",
+      "source_id": 1101740,
+      "number": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let L be the set of all binary strings whose last two symbols are the same. The number of states in the minimal state deterministic finite state automaton accepting L is \n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "8",
+        "D": "3"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/1677/gate1998-2-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q41",
+      "source_id": 1101741,
+      "number": 41,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is false?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Every finite subset of a non-regular set is regular",
+        "B": "Every subset of a regular set is regular",
+        "C": "Every finite subset of a regular set is regular",
+        "D": "The intersection of two regular sets is regular"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "<a href=\"https://gateoverflow.in/1678/gate1998-2-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q42",
+      "source_id": 1101742,
+      "number": 42,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The function represented by the Karnaugh map given below is<br><img src=\"/wp-content/uploads/GATE/CS/19981/q2.7.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19981/q2.7.jpg"
+      ],
+      "options": {
+        "A": "[latex]A \\cdot B[/latex]",
+        "B": "[latex]AB+BC+CA[/latex]",
+        "C": "[latex]\\overline{B \\oplus C}[/latex]",
+        "D": "[latex]A \\cdot BC[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1679/gate1998-2-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q43",
+      "source_id": 1101743,
+      "number": 43,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following operations is commutative but not associative?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "AND",
+        "B": "OR",
+        "C": "NAND",
+        "D": "EXOR"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1680/gate1998-2-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q44",
+      "source_id": 1101744,
+      "number": 44,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Formatting for a floppy disk refers to\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "arranging the data on the disk in contiguous fashion",
+        "B": "writing the directory",
+        "C": "erasing the system data",
+        "D": "writing identification information on all tracks and sectors"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Secondary Storage",
+      "explanation": "<a href=\"https://gateoverflow.in/1681/gate1998-2-9\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q45",
+      "source_id": 1101745,
+      "number": 45,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The address space of 8086 CPU is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "one Megabyte",
+        "B": "256 Kilobytes",
+        "C": "1 K Megabytes",
+        "D": "64 Kilobytes"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "explanation": "<a href=\"https://gateoverflow.in/1682/gate1998-2-10-isro2008-17\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q46",
+      "source_id": 1101746,
+      "number": 46,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A complete n-ary tree is one in which every node has 0 or n sons. If x is the number of internal nodes of a complete n-ary tree, the number of leaves in it is given by\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "x(n-1)+1",
+        "B": "xn-1",
+        "C": "xn+1",
+        "D": "x(n+1)"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "n-ary Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1683/gate1998-2-11\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q47",
+      "source_id": 1101747,
+      "number": 47,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What value would the following function return for the input x=95?<br>\n<pre><code> Function fun (x:integer):integer;\nBegin\n    If x > 100 then fun = x- 10\n    Else fun = fun(fun (x+11))\nEnd;</code></pre> \n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "89",
+        "B": "90",
+        "C": "91",
+        "D": "92"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/1684/gate1998-2-12\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q48",
+      "source_id": 1101748,
+      "number": 48,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the result of the following program?<br>\n<pre><code>    program side-effect (input, output);\n    var x, result: integer;\n    function f (var x:integer):integer;\n    begin\n        x:=x+1;f:=x;\n    end\n    begin\n    x:=5;\n    result:=f(x)*f(x);\n    writeln(result);\n    end</code></pre> \n ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "5",
+        "B": "25",
+        "C": "36",
+        "D": "42"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/1685/gate1998-2-13\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q49",
+      "source_id": 1101749,
+      "number": 49,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A be a two dimensional array declared as follows:<br>\r\n<pre><code> A: array [1 ... 10] [1 ... 15] of integer;</code></pre>\r\nAssuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location 100, what is the address of the element A[i][j]?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "15i+j+84",
+        "B": "15j+i+84",
+        "C": "10i+j+89",
+        "D": "10j+i+89"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array",
+      "explanation": "<a href=\"https://gateoverflow.in/1686/gate1998-2-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q50",
+      "source_id": 1101750,
+      "number": 50,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Faster access to non-local variables is achieved using an array of pointers to activation records called a \n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "stack",
+        "B": "heap",
+        "C": "display",
+        "D": "activation tree"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/1687/gate1998-2-15\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q51",
+      "source_id": 1101751,
+      "number": 51,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The overlay tree for a program is as shown below:<br><img src=\"/wp-content/uploads/GATE/CS/19981/q2.16.jpg\" /><br>What will be the size of the partition (in physical memory) required to load (and run) this program?\n\n",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19981/q2.16.jpg"
+      ],
+      "options": {
+        "A": "12 KB",
+        "B": "14 KB",
+        "C": "10 KB",
+        "D": "8 KB"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/1689/gate1998-2-16\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q52",
+      "source_id": 1101752,
+      "number": 52,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider [latex]n[/latex] processes sharing the CPU in a round-robin fashion. Assuming that each process switch takes [latex]s[/latex] seconds, what must be the quantum size [latex]q[/latex] such that the overhead resulting from process switching is minimized but at the same time each process is guaranteed to get its turn at the CPU at least every [latex]t[/latex] seconds?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]q \\leq \\frac{t-ns}{n-1}[/latex]",
+        "B": "[latex]q \\geq \\frac{t-ns}{n-1}[/latex]",
+        "C": "[latex]q \\leq \\frac{t-ns}{n+1}[/latex]",
+        "D": "[latex]q \\geq \\frac{t-ns}{n+1}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/1690/gate1998-2-17-ugcnet-dec2012-iii-43\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q53",
+      "source_id": 1101753,
+      "number": 53,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If an instruction takes [latex]i[/latex] microseconds and a page fault takes an additional [latex]j[/latex] microseconds, the effective instruction time if on the average a page fault occurs every [latex]k[/latex] instruction is:\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]i + \\dfrac{j}{k}[/latex]",
+        "B": "[latex]i +(j\\times k)[/latex]",
+        "C": "[latex]\\dfrac{i+j}{k}[/latex]",
+        "D": "[latex]({i+j})\\times {k}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/1691/gate1998-2-18-ugcnet-june2012-iii-48\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q54",
+      "source_id": 1101754,
+      "number": 54,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following query transformations (i.e., replacing the l.h.s. expression by the r.h.s expression) is incorrect? [latex]R_1[/latex] and [latex]R_2[/latex] are relations, [latex]C_1[/latex] and [latex]C_2[/latex] are selection conditions and [latex]A_1[/latex] and [latex]A_1[/latex] are attributes of [latex]R_1[/latex].\n\n ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\sigma_{C_1} \\left(\\sigma_{C_2}\\left(R_1\\right)\\right) \\to \\sigma_{C_2} \\left(\\sigma_{C_1}\\left(R_1\\right)\\right)[/latex]",
+        "B": "[latex]\\sigma_{C_1} \\left(\\pi_{A_1}\\left(R_1\\right)\\right) \\to \\pi_{A_1} \\left(\\sigma_{C_1}\\left(R_1\\right)\\right)[/latex]",
+        "C": "[latex]\\sigma_{C_1} \\left(R_1 \\cup R_2\\right) \\to \\sigma_{C_1}\\left(R_1\\right) \\cup \\sigma_{C_1} \\left(R_2\\right)[/latex]",
+        "D": "[latex]\\pi_{A_1} \\left(\\sigma_{C_1}\\left(R_1\\right)\\right) \\to \\sigma_{C_1} \\left(\\pi_{A_1}\\left(R_1\\right)\\right)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1692/gate1998-2-19\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1998-Q55",
+      "source_id": 1101755,
+      "number": 55,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose the domain set of an attribute consists of signed four digit numbers. What is the percentage of reduction in storage space of this attribute if it is stored as an integer rather than in character form?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "80%",
+        "B": "20%",
+        "C": "60%",
+        "D": "40%"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/1693/gate1998-2-20\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

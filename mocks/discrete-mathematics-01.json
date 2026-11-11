@@ -1,0 +1,841 @@
+{
+  "paper_id": "discrete-mathematics-01",
+  "paper": "Discrete Mathematics: Topic Mock 1",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 1,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2025-S1-Q22",
+      "source_id": 1125122,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A box contains 5 coins: 4 regular coins and 1 fake coin. When a regular coin is tossed, the probability [latex]P(\\text{head}) = 0.5[/latex] and for a fake coin, [latex]P(\\text{head}) = 1[/latex]. You pick a coin at random and toss it twice, and get two heads. The probability that the coin you have chosen is the fake coin is _______. (rounded off to two decimal places)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.49,
+        0.51
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "By Bayes' theorem, [latex]P(\\text{fake}\\mid HH)=\\dfrac{P(HH\\mid\\text{fake})P(\\text{fake})}{P(HH)}[/latex].<br><br>\n[latex]P(HH\\mid\\text{fake})=1\\times1=1[/latex] (fake coin always shows heads). [latex]P(HH\\mid\\text{regular})=0.5\\times0.5=0.25[/latex].<br>\n[latex]P(\\text{fake})=\\dfrac15[/latex], [latex]P(\\text{regular})=\\dfrac45[/latex].<br><br>\n[latex]P(HH)=1\\times\\dfrac15+0.25\\times\\dfrac45=0.2+0.2=0.4[/latex].<br><br>\n[latex]P(\\text{fake}\\mid HH)=\\dfrac{0.2}{0.4}=0.5[/latex].<br><br>\n<b>Answer: 0.50</b><br><br><a href=\"https://gateoverflow.in/460058/gate-cse-2025-set-1-question-22#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 22
+    },
+    {
+      "id": "2010-Q1",
+      "source_id": 1110101,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G=(V, E) be a graph. Define [latex]\\xi (G)=\\sum_{d}i_{d}*d[/latex] , where [latex]i_{d}[/latex] is the number of\nvertices of degree d in G. If S and T are two different trees with [latex]\\xi (S)=\\xi (T)[/latex] , then",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "|S|= 2|T|",
+        "B": "|S|=|T|-1",
+        "C": "|S|=|T| ",
+        "D": "|S|=|T|+1"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "[latex]\\xi(G)=\\sum_d i_d\\cdot d[/latex] is just the sum of all degrees = 2|E|.<br><br>\nA tree with n vertices has n [latex]-[/latex] 1 edges, so [latex]\\xi=2(n-1)[/latex]. Equal [latex]\\xi[/latex] means equal number of vertices.<br><br>\n<b>Answer: |S| = |T|</b><br><br><a href=\"https://gateoverflow.in/1147/gate2010-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 1
+    },
+    {
+      "id": "1994-Q10",
+      "source_id": 1101310,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Some group (G, o) is known to be abelian. Then, which one of the following is true for G?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]g=g^{-1} \\text{ for every } g \\in G[/latex]",
+        "B": "[latex]g=g^2 \\text{ for every }g \\in G[/latex]",
+        "C": "[latex](goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G[/latex]",
+        "D": "G is of finite order"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2451/gate1994-1-10\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1994",
+      "source_number": 10
+    },
+    {
+      "id": "1997-Q17",
+      "source_id": 1101617,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following propositions is a tautology?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](p \\vee q) \\rightarrow p[/latex]",
+        "B": "[latex]p \\vee (q \\rightarrow p)[/latex]",
+        "C": "[latex]p \\vee (p \\rightarrow q)[/latex]",
+        "D": "[latex]p \\rightarrow (p \\rightarrow q)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/2233/gate1997-3-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 17
+    },
+    {
+      "id": "2021-S1-Q19",
+      "source_id": 1121119,
+      "number": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "There are 6 jobs with distinct difficulty levels, and 3 computers with distinct processing speeds. Each job is assigned to a computer such that:<br><br>\n\nThe fastest computer gets the toughest job and the slowest computer gets the easiest job.<br>\nEvery computer gets at least one job.<br><br>\nThe number of ways in which this can be done is ___________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        65.0,
+        65.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "The toughest job goes to the fastest and the easiest to the slowest. The other 4 jobs can go to any of the 3 computers: [latex]3^4=81[/latex] ways.<br><br>\nThe middle computer must get at least one job; remove the cases where all 4 go to the other two: [latex]2^4=16[/latex].<br><br>\n81 [latex]-[/latex] 16 = 65<br><br>\n<b>Answer: 65</b><br><br><a href=\"https://gateoverflow.in/357432/gate-cse-2021-set-1-question-19#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 19
+    },
+    {
+      "id": "2013-Q1",
+      "source_id": 1113101,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A binary operation [latex]\\oplus[/latex] on a set of integers is defined as [latex] x \\oplus y= x^{2}+y^{2}[/latex]. Which one of the following statements is TRUE about [latex]\\oplus[/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Commutative but not associative",
+        "B": "Both commutative and associative",
+        "C": "Associative but not commutative",
+        "D": "Neither commutative nor associative"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Checking each statement:<br>- Commutative: [latex]x^2+y^2=y^2+x^2[/latex] [latex]\\rightarrow[/latex] yes<br>\n- Associative: [latex](x\\oplus y)\\oplus z=(x^2+y^2)^2+z^2[/latex] but [latex]x\\oplus(y\\oplus z)=x^2+(y^2+z^2)^2[/latex]. For x = 1, y = 1, z = 0: [latex](1+1)^2+0=4[/latex] but [latex]1+(1+0)^2=2[/latex] [latex]\\rightarrow[/latex] not associative<br><br>\n<b>Answer: Commutative but not associative</b><br><br><a href=\"https://gateoverflow.in/59/gate2013-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 1
+    },
+    {
+      "id": "2000-Q1",
+      "source_id": 1101901,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The minimum number of cards to be dealt from an arbitrarily shuffled deck of 52 cards to guarantee that three cards are from same suit is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/624/gate2000-1-1\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 1
+    },
+    {
+      "id": "2014-S1-Q13",
+      "source_id": 1114113,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the directed graph given below. <br><img src=\"/wp-content/uploads/GATE/CS/20141/q13.jpg\"/><br> Which one of the following is TRUE?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20141/q13.jpg"
+      ],
+      "options": {
+        "A": "The graph does not have any topological ordering",
+        "B": "Both PQRS and SRQP are topological orderings",
+        "C": "Both PSRQ and SPRQ are topological orderings.",
+        "D": "PSRQ is the only topological ordering"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Edges: P [latex]\\rightarrow[/latex] Q, P [latex]\\rightarrow[/latex] R, R [latex]\\rightarrow[/latex] Q, S [latex]\\rightarrow[/latex] R, S [latex]\\rightarrow[/latex] Q. P and S have no incoming edges and can come first in either order; R must come before Q.<br><br>\nPSRQ and SPRQ are both valid; PQRS is not (Q before R).<br><br>\n<b>Answer: Both PSRQ and SPRQ are topological orderings</b><br><br><a href=\"https://gateoverflow.in/1779/gate2014-1-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 13
+    },
+    {
+      "id": "2006-Q4",
+      "source_id": 1106104,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A relation R is defined on ordered pairs of integers as follows:<br>\n(x,y)R(u,v) if x[latex]\\lt[/latex]u and y[latex]\\gt[/latex]v. Then R is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Neither a Partial Order nor an Equivalence Relation",
+        "B": "A Partial Order but not a Total Order",
+        "C": "A Total Order",
+        "D": "An Equivalence Relation"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/883/gate2006-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 4
+    },
+    {
+      "id": "2006-Q18",
+      "source_id": 1106118,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "We are given a set [latex]X=\\{x_{1},...,x_{n}\\}[/latex] where [latex]x_{i}=2^{i}[/latex]. A sample [latex]S\\subseteq X[/latex]  is drawn by selecting each   [latex]x_{i}[/latex] independently with probability [latex]p_{i}=\\frac{1}{2}[/latex]. The expected value of the smallest number in sample S is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1/n",
+        "B": "2",
+        "C": "[latex]\\sqrt{n}[/latex]",
+        "D": "n"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/979/gate2006-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 18
+    },
+    {
+      "id": "2016-S1-Q2",
+      "source_id": 1116102,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]a_{n}[/latex] be the number of n-bit strings that do NOT contain two consecutive 1s. Which one of the following is the recurrence relation for [latex]a_{n}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]a_{n}=a_{n-1}+2a_{n-2}[/latex]",
+        "B": "[latex]a_{n}=a_{n-1}+a_{n-2}[/latex]",
+        "C": "[latex]a_{n}=2a_{n-1}+a_{n-2}[/latex]",
+        "D": "[latex]a_{n}=2a_{n-1}+2a_{n-2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Recurrence",
+      "explanation": "Look at the first bit of a valid n-bit string:<br>\n- starts with 0: the rest is any valid (n [latex]-[/latex] 1)-bit string [latex]\\rightarrow[/latex] [latex]a_{n-1}[/latex]<br>\n- starts with 1: the next bit must be 0, then any valid (n [latex]-[/latex] 2)-bit string [latex]\\rightarrow[/latex] [latex]a_{n-2}[/latex]<br><br>\n[latex]a_n=a_{n-1}+a_{n-2}[/latex]<br><br>\n<b>Answer: [latex]a_n=a_{n-1}+a_{n-2}[/latex]</b><br><br><a href=\"https://gateoverflow.in/39636/gate2016-1-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 2
+    },
+    {
+      "id": "2026-S2-Q16",
+      "source_id": 1126216,
+      "number": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]R[/latex] be a binary relation on the set [latex]\\{1,2, \\ldots, 10\\}[/latex], where [latex](x, y) \\in R[/latex] if the product of [latex]x[/latex] and [latex]y[/latex] is square of an integer. Which of the following properties is/are satisfied by [latex]R[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Reflexive",
+        "B": "Symmetric",
+        "C": "Transitive",
+        "D": "Antisymmetric"
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "[latex](x,y)\\in R[/latex] iff [latex]xy[/latex] is a perfect square.<br><br>\n- <b>Reflexive:</b> [latex]x\\cdot x=x^2[/latex] is always a perfect square, so [latex](x,x)\\in R[/latex] for every [latex]x[/latex]. <b>Holds.</b><br>\n- <b>Symmetric:</b> [latex]xy=yx[/latex], so if [latex]xy[/latex] is a perfect square then so is [latex]yx[/latex] (the same number). <b>Holds.</b><br>\n- <b>Transitive:</b> Write each number as [latex]n=k^2\\cdot s[/latex] where [latex]s[/latex] is its square-free part. Then [latex]xy[/latex] is a perfect square exactly when [latex]x[/latex] and [latex]y[/latex] have the <i>same</i> square-free part. This \"same square-free part\" relation is a genuine equivalence relation, so it is transitive: if [latex]x,y[/latex] share a square-free part and [latex]y,z[/latex] share the same square-free part, then [latex]x,z[/latex] do too, making [latex]xz[/latex] a perfect square. <b>Holds.</b><br>\n- <b>Antisymmetric:</b> a counterexample: [latex]x=2,y=8[/latex] gives [latex]xy=16=4^2[/latex], so [latex](2,8)\\in R[/latex] and (by symmetry) [latex](8,2)\\in R[/latex] too, even though [latex]2\\ne8[/latex]. <b>Fails.</b><br><br>\n<b>Answer: Reflexive, Symmetric, and Transitive all hold (R is an equivalence relation); Antisymmetric does not hold.</b> <br><br> <a href=\"https://gateoverflow.in/523130/gate-cse-2026-set-2-question-16#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 16
+    },
+    {
+      "id": "2011-Q3",
+      "source_id": 1111103,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If two fair coins are flipped and at least one of the outcomes is known to be a\nhead, what is the probability that both outcomes are heads?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]1/3[/latex]",
+        "B": "[latex]1/4[/latex]",
+        "C": "[latex]1/2[/latex]",
+        "D": "[latex]2/3[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Outcomes with at least one head: HH, HT, TH (equally likely).<br><br>\nP(both heads) = 1/3<br><br>\n<b>Answer: 1/3</b><br><br><a href=\"https://gateoverflow.in/2105/gate2011-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 3
+    },
+    {
+      "id": "2003-Q3",
+      "source_id": 1103103,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let P(E) denote the probability of the event E. Given P(A) = 1, P(B) = 1/2, the values of P(A|B) and P(B|A) respectively are ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1/4,1/2",
+        "B": "1/2, 1/14",
+        "C": "1/2, 1",
+        "D": "1, 1/2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/894/gate2003-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 3
+    },
+    {
+      "id": "2001-Q3",
+      "source_id": 1101103,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider two well-formed formulas in prepositional logic. <br> [latex]F1: \\; P\\Rightarrow \\neg P[/latex]<br> [latex]F2: \\;( P\\Rightarrow \\neg P)\\vee ( \\neg P\\Rightarrow P)[/latex]\n<br>\n Which of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "F1 is satisfiable, F2 is valid",
+        "B": "F1 unsatisfiable, F2 is satisfiable",
+        "C": "F1 is unsatisfiable, F2 is valid",
+        "D": "F1 and F2 are both satisfiable"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/696/gate2001-1-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 3
+    },
+    {
+      "id": "2014-S3-Q49",
+      "source_id": 1114349,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the set of all functions f:{0,1,...,2014}[latex]\\rightarrow[/latex]{0,1...,2014} such that f(f(i))=i, for 0[latex]\\leq[/latex]i[latex]\\leq[/latex]2014 . Consider the following statements. <br>\nP. For each such function it must be the case that for every i, f(i) = i, <br>\nQ. For each such function it must be the case that for some i,f(i) = i, <br>\nR. Each such function must be onto. <br>\nWhich one of the following is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P, Q and R are true",
+        "B": "Only Q and R are true",
+        "C": "Only P and Q are true",
+        "D": "Only R is true"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "f(f(i)) = i means f is its own inverse, so f is a bijection [latex]\\rightarrow[/latex] R true.<br><br>\n- P false: f can swap pairs, e.g. f(0) = 1, f(1) = 0.<br>\n- Q true: f splits the 2015 elements into fixed points and swapped pairs. 2015 is odd, so at least one fixed point exists.<br><br>\n<b>Answer: Only Q and R are true</b><br><br><a href=\"https://gateoverflow.in/2083/gate2014-3-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 49
+    },
+    {
+      "id": "2003-Q70",
+      "source_id": 1103170,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let G = (V,E) be a direction graph with n vertices. A path from [latex]v_{i}[/latex]\n to [latex]v_{i}[/latex] in G is\nsequence of vertices ([latex]v_{i}[/latex],[latex]v_{i+1}[/latex],....., [latex]v_{j}[/latex]) such that ([latex]v_{k}[/latex],[latex]v_{k+1}[/latex])[latex]\\in[/latex]E for all k in i through\nj - 1. A simple path is a path in which no vertex appears more than once. <br>\nLet A be an n x n array initialized as follows. <br> [latex]A[j,k]=\\left\\{\\begin{matrix} 1 & if (j,k) \\in E \\\\ 0&  otherwise \\end{matrix}\\right.[/latex]<br> Consider the following algorithm\n<pre><code> for i = 1 to n\n   for j = 1 to n\n      for k = 1 to n\n         A [j , k] = max (A[j, k] (A[j, i] + A [i, k]); </pre></code>\nWhich of the following statements is necessarily true for all j and k after terminal\nof the above algorithm?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]A[j,k]\\leq n[/latex]",
+        "B": "If [latex]A[j,k]\\geq n- 1[/latex], then G has a Haniltonian cycle",
+        "C": "If there exists a path from j to k,A[j,k] contains the longest path lens from\nj to k",
+        "D": "If there exists a path from j to k , every simple path from j to k contain\nmost A[j,k] edges"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/957/gate2003-70#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 70
+    },
+    {
+      "id": "2026-S1-Q45",
+      "source_id": 1126145,
+      "number": 18,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "An undirected, unweighted, simple graph [latex]G(V, E)[/latex] is said to be [latex]2[/latex]-colorable if there exists a function [latex]c: V \\rightarrow\\{0,1\\}[/latex] such that for every [latex](u, v) \\in E, c(u) \\neq c(v)[/latex].<br><br> Which of the following statements about [latex]2[/latex]-colorable graphs is/are true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If [latex]G[/latex] is [latex]2[/latex]-colorable, then [latex]G[/latex] may contain cycles of odd length",
+        "B": "If [latex]G[/latex] is [latex]2[/latex]-colorable, then [latex]G[/latex] may contain cycles of even length",
+        "C": "An optimal algorithm for testing whether [latex]G[/latex] is [latex]2[/latex]-colorable runs in time [latex]\\Theta(|V|+|E|)[/latex], if [latex]G[/latex] is represented as an adjacency list",
+        "D": "An optimal algorithm for testing whether [latex]G[/latex] is [latex]2[/latex]-colorable runs in time [latex]\\Theta(|E| \\log |V|)[/latex], if [latex]G[/latex] is represented as an adjacency list"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "A graph is [latex]2[/latex]-colorable if and only if it is <b>bipartite</b>, which is exactly equivalent to having <b>no odd-length cycle</b>.<br><br>\n- \"May contain cycles of odd length\" &mdash; <b>false</b>, a 2-colorable graph can never contain an odd cycle (that's precisely the bipartiteness characterization).<br>\n- \"May contain cycles of even length\" &mdash; <b>true</b>, even cycles are perfectly fine in a bipartite graph (e.g. alternating the two colors around the cycle works exactly when the cycle length is even).<br>\n- <b>Algorithm complexity:</b> Testing bipartiteness/[latex]2[/latex]-colorability is done via a single BFS or DFS traversal, alternately coloring each vertex as it's visited and checking for conflicts &mdash; this runs in [latex]\\Theta(|V|+|E|)[/latex] time on an adjacency-list representation, and this is optimal since you must at least look at every vertex and edge once. <b>True.</b><br>\n- [latex]\\Theta(|E|\\log|V|)[/latex] is not the optimal/typical complexity for this simple traversal-based check (that bound is more associated with, e.g., priority-queue-based MST/shortest-path algorithms), so this is <b>false</b> as a claim about the optimal algorithm for 2-colorability testing.<br><br>\n<b>Answer: G may contain even-length cycles; and the optimal 2-colorability test runs in &Theta;(|V|+|E|) time.</b> <br><br> <a href=\"https://gateoverflow.in/523035/gate-cse-2026-set-1-question-45#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 45
+    },
+    {
+      "id": "2004-Q72",
+      "source_id": 1104172,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The following is the incomplete operation table of a 4-element group.  <br><img src=\"/wp-content/uploads/GATE/CS/20041/q72.jpg\"/> <br> The last row of the table is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q72.jpg"
+      ],
+      "options": {
+        "A": "caeb",
+        "B": "cbae",
+        "C": "cbea",
+        "D": "ceab"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1066/gate2004-72#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 72
+    },
+    {
+      "id": "2007-Q26",
+      "source_id": 1107126,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "<img src=\"/wp-content/uploads/GATE/CS/20071/q26a.jpg\"/>  <br><img src=\"/wp-content/uploads/GATE/CS/20071/q26b.jpg\"/> ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20071/q26a.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20071/q26b.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1224/gate2007-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 26
+    },
+    {
+      "id": "2020-Q39",
+      "source_id": 1120139,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following predicate formulae is NOT logically valid?\n<br>\nNote that W is a predicate formula without any free occurrence of x.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall x(p(x)\\vee W)\\equiv \\forall xp(x)\\vee W[/latex]",
+        "B": "[latex]\\exists x(p(x)\\wedge W)\\equiv \\exists xp(x)\\wedge W[/latex]",
+        "C": "[latex]\\forall x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W[/latex]",
+        "D": "[latex]\\exists x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Since x is not free in W:<br>\n- [latex]\\forall x(p(x)\\vee W)\\equiv\\forall x\\,p(x)\\vee W[/latex] [latex]\\text{---}[/latex] valid.<br>\n- [latex]\\exists x(p(x)\\wedge W)\\equiv\\exists x\\,p(x)\\wedge W[/latex] [latex]\\text{---}[/latex] valid.<br>\n- [latex]\\forall x(p(x)\\rightarrow W)\\equiv\\forall x(\\neg p(x)\\vee W)\\equiv\\neg\\exists x\\,p(x)\\vee W\\equiv\\exists x\\,p(x)\\rightarrow W[/latex], <b>not</b> [latex]\\forall x\\,p(x)\\rightarrow W[/latex] [latex]\\text{---}[/latex] not valid.<br>\n- [latex]\\exists x(p(x)\\rightarrow W)\\equiv\\neg\\forall x\\,p(x)\\vee W\\equiv\\forall x\\,p(x)\\rightarrow W[/latex] [latex]\\text{---}[/latex] valid.<br><br>\n<b>Answer: Option 3</b><br><br><a href=\"https://gateoverflow.in/333192/gate2020-cs-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 39
+    },
+    {
+      "id": "2007-Q23",
+      "source_id": 1107123,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which of the following graphs has an Eulerian circuit?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Any k-regular graph where k is an even number.",
+        "B": "A complete graph on 90 vertices.",
+        "C": "The complement of a cycle on 25 vertices.",
+        "D": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1221/gate2007-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 23
+    },
+    {
+      "id": "2017-S1-Q47",
+      "source_id": 1117147,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The number of integers between 1 and 500 (both inclusive) that are divisible by 3 or 5 or 7 is\n______________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        271.0,
+        271.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "Inclusion-exclusion for 1-500:<br>\n[latex]\\lfloor\\tfrac{500}{3}\\rfloor+\\lfloor\\tfrac{500}{5}\\rfloor+\\lfloor\\tfrac{500}{7}\\rfloor-\\lfloor\\tfrac{500}{15}\\rfloor-\\lfloor\\tfrac{500}{21}\\rfloor-\\lfloor\\tfrac{500}{35}\\rfloor+\\lfloor\\tfrac{500}{105}\\rfloor[/latex]<br>\n= 166 + 100 + 71 [latex]-[/latex] 33 [latex]-[/latex] 23 [latex]-[/latex] 14 + 4 = 271<br><br>\n<b>Answer: 271</b><br><br><a href=\"https://gateoverflow.in/118330/gate2017-1-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 47
+    },
+    {
+      "id": "2014-S2-Q53",
+      "source_id": 1114253,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following Boolean expressions is NOT a tautology?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]((a\\rightarrow b)\\wedge (b\\rightarrow c))\\rightarrow (a\\rightarrow c)[/latex]",
+        "B": "[latex](a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))[/latex]",
+        "C": "[latex](a\\wedge b\\wedge c)\\rightarrow (c\\wedge a)[/latex]",
+        "D": "[latex]a\\rightarrow (b\\rightarrow a)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Check option 2 with a = 0, b = 0, c = 0:<br>\n[latex]a\\rightarrow c=1[/latex], but [latex]\\sim b\\rightarrow(a\\wedge c)=1\\rightarrow0=0[/latex]. The whole is [latex]1\\rightarrow0=0[/latex], so it is not a tautology.<br><br>\nOptions 1 (transitivity), 3 and 4 are always true.<br><br>\n<b>Answer: [latex](a\\rightarrow c)\\rightarrow(\\sim b\\rightarrow(a\\wedge c))[/latex]</b><br><br><a href=\"https://gateoverflow.in/2020/gate2014-2-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 53
+    },
+    {
+      "id": "2004-Q73",
+      "source_id": 1104173,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The inclusion of which of the following sets into <br><br>\nS = {{1, 2}, {1, 2, 3}, {1, 3, 5}, {1, 2, 4}, {1, 2, 3, 4, 5}} <br><br>\nis necessary and sufficient to make S a complete lattice under the partial order defined by set\ncontainment?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{1}",
+        "B": "{1}, {2, 3}",
+        "C": "{1}, {1, 3}",
+        "D": "{1}, {1, 3}, {1, 2, 3, 4}, {1, 2, 3, 5}"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Lattice",
+      "explanation": "<a href=\"https://gateoverflow.in/1067/gate2004-73#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 73
+    },
+    {
+      "id": "2004-Q74",
+      "source_id": 1104174,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An examination paper has 150 multiple choice questions of one mark each, with each question having\nfour choices. Each incorrect answer fetches -0.25 marks. Suppose 1000 students choose all their\nanswers randomly with uniform probability. The sum total of the expected marks obtained by all\nthese students is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "2550",
+        "C": "7525",
+        "D": "9375"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1068/gate2004-74#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 74
+    },
+    {
+      "id": "2003-Q60",
+      "source_id": 1103160,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A program consists of two modules executed sequentially. Let f1(t) and f2(t)\nrespectively denote the probability density functions of time taken to execute the\ntwo modules. The probability density function of the overall time taken to execute\nthe program is given by",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]f_{1}(t)+f_{2}(t)[/latex]",
+        "B": "[latex]\\int_{0}^{t}f_{1}(x)f_{2}(x)dx[/latex]",
+        "C": "[latex]\\int_{0}^{t}f_{1}(x)f_{2}(t-x)dx[/latex]",
+        "D": "max{[latex]f_{1}(t),f_{2}(t)[/latex]\n}"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/948/gate2003-60#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 60
+    },
+    {
+      "id": "2025-S1-Q46",
+      "source_id": 1125146,
+      "number": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose a 5-bit message is transmitted from a source to a destination through a noisy channel. The probability that a bit of the message gets flipped during transmission is 0.01. Flipping of each bit is independent of one another. The probability that the message is delivered error-free to the destination is _________. (rounded off to three decimal places)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.949,
+        0.952
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Each of the [latex]5[/latex] bits is flipped independently with probability [latex]0.01[/latex], so each bit survives correctly with probability [latex]0.99[/latex]. The whole message arrives error-free only if <i>every</i> bit survives:<br><br>\n[latex]P(\\text{error-free})=(0.99)^5\\approx0.951[/latex]<br><br>\n<b>Answer: 0.951</b><br><br><a href=\"https://gateoverflow.in/460034/gate-cse-2025-set-1-question-46#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 46
+    },
+    {
+      "id": "2020-Q45",
+      "source_id": 1120145,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "For n[latex]\\gt[/latex]2, let [latex]a \\in \\{0,1\\}^n[/latex] be a non-zero vector. Suppose that x is chosen uniformly at random from [latex]\\{0,1\\}^n[/latex]. Then, the probability that [latex]\\sum_{i=1}^{n}a_ix_i[/latex] is an odd number is______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.5,
+        0.5
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Pick an index j with [latex]a_j=1[/latex]. For any fixed values of the other [latex]x_i[/latex], flipping [latex]x_j[/latex] changes the parity of the sum. So exactly half of all x make it odd.<br><br>\n<b>Answer: 0.5</b><br><br><a href=\"https://gateoverflow.in/333186/gate2020-cs-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 45
+    },
+    {
+      "id": "2024-S2-Q50",
+      "source_id": 1124250,
+      "number": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The chromatic number of a graph is the minimum number of colours used in a\nproper colouring of the graph. The chromatic number of the following graph\nis _______<br><img src=\"/wp-content/uploads/GATE/CS/20242/q50.webp\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20242/q50.webp"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Number the 8 vertices 1 to 8 around the octagon.<br><br>\n- The 8 outer sides join consecutive vertices (odd-even).<br>\n- Every inner line (the 2 vertical, 2 horizontal and 4 slanted lines) joins two vertices 3 steps apart around the octagon, which is again one odd and one even vertex.<br><br>\nSo colour odd vertices with colour 1 and even vertices with colour 2: no edge has both ends the same colour. The graph is bipartite, and it has edges, so it needs at least 2 colours.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/422847/gate-cse-2024-set-2-question-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 50
+    }
+  ]
+}

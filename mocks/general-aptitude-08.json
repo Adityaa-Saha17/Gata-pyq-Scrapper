@@ -1,0 +1,857 @@
+{
+  "paper_id": "general-aptitude-08",
+  "paper": "General Aptitude: Topic Mock 8",
+  "kind": "topic_mock",
+  "topic": "General Aptitude",
+  "set": 8,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2020-Q58",
+      "source_id": 1120158,
+      "number": 1,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Select the word that fits the analogy:\n<br><br>\nCook : Cook :: Fly : _______",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Flyer",
+        "B": "Flying",
+        "C": "Flew",
+        "D": "Flighter"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The verb \"cook\" also names the person who cooks (a cook). For \"fly\", the person who flies is a <b>flyer</b>.<br><br>\n<b>Answer: Flyer</b><br><br><a href=\"https://gateoverflow.in/333238/gate-cse-2020-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 58
+    },
+    {
+      "id": "2014-S1-Q57",
+      "source_id": 1114157,
+      "number": 2,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the most appropriate word from the options given below to complete the following sentence.\n<br><br>\nHe could not understand the judges awarding her the first prize, because he thought that her performance was quite _________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "superb",
+        "B": "medium",
+        "C": "mediocre",
+        "D": "exhilarating"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "He could not understand the award because he thought her performance was ordinary: <b>mediocre</b>.<br><br>\n<b>Answer: mediocre</b><br><br><a href=\"https://gateoverflow.in/771/gate-cse-2014-set-1-question-ga-2#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 57
+    },
+    {
+      "id": "2019-Q56",
+      "source_id": 1119156,
+      "number": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The expenditure on the project __________ as follows: equipment Rs.20 lakhs, salaries Rs.12 lakhs, and contingency Rs.3 lakhs.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "break down",
+        "B": "break",
+        "C": "breaks down",
+        "D": "breaks"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The subject \"the expenditure\" is singular, so the verb must be singular: <b>breaks down</b> (meaning \"is divided into\" the listed parts).<br><br>\n<b>Answer: breaks down</b><br><br><a href=\"https://gateoverflow.in/302872/gate-cse-2019-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 56
+    },
+    {
+      "id": "2022-Q57",
+      "source_id": 1122157,
+      "number": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A function [latex]y(x)[/latex] is defined in the interval [0, 1] on the [latex]x-[/latex]axis as<br>[latex]y(x)= \\left \\{ \\begin{matrix}\n2 &if  & 0 \\leq x \\leq  \\frac{1}{3} \\\\ \n 3&  if&  \\frac{1}{3} \\leq x \\leq  \\frac{3}{4} \\\\ \n 1&  if&  \\frac{3}{4} \\leq x \\leq 1\n \\end{matrix} \\right.[/latex]<br>Which one of the following is the area under the curve for the interval [0, 1] on the [latex]x-[/latex]axis?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{5}{6}[/latex]",
+        "B": "[latex]\\frac{6}{5}[/latex]",
+        "C": "[latex]\\frac{13}{6}[/latex]",
+        "D": "[latex]\\frac{6}{13}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Area = sum of (height [latex]\\times[/latex] width) of each piece:<br>\n[latex]2\\times\\frac13+3\\times\\left(\\frac34-\\frac13\\right)+1\\times\\frac14=\\frac{8}{12}+\\frac{15}{12}+\\frac{3}{12}=\\frac{26}{12}=\\frac{13}{6}[/latex]<br><br>\n<b>Answer: [latex]\\frac{13}{6}[/latex]</b><br><br><a href=\"https://gateoverflow.in/371504/Gate-cse-2022-question-2#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 57
+    },
+    {
+      "id": "2026-S2-Q60",
+      "source_id": 1126260,
+      "number": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "'When it is raining, peacocks dance.' <br><br>Based only on this sentence, which one of the following options is necessarily true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Peacocks dance only when it is raining.",
+        "B": "When peacocks dance, it is raining.",
+        "C": "When peacocks are not dancing, it is not raining.",
+        "D": "When it is not raining, peacocks do not dance."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The statement is [latex]\\text{Raining}\\Rightarrow\\text{Dancing}[/latex]. The only thing <i>logically guaranteed</i> to also be true is its <b>contrapositive</b>: [latex]\\neg\\text{Dancing}\\Rightarrow\\neg\\text{Raining}[/latex], i.e. <b>\"When peacocks are not dancing, it is not raining.\"</b> A contrapositive is always logically equivalent to the original conditional, so it must hold whenever the original does.<br><br>\nThe other options are logical fallacies here: <br>\n- \"Peacocks dance only when it is raining\" and \"when peacocks dance, it is raining\" are both the (unwarranted) <b>converse</b> &mdash; peacocks might also dance for entirely unrelated reasons.<br>\n- \"When it is not raining, peacocks do not dance\" is the (unwarranted) <b>inverse</b> &mdash; again, nothing rules out peacocks dancing on a dry day for some other reason.<br><br>\n<b>Answer: When peacocks are not dancing, it is not raining.</b> <br><br> <a href=\"https://gateoverflow.in/523153/gate-cse-2026-set-2-ga-question-5#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 60
+    },
+    {
+      "id": "2025-S1-Q59",
+      "source_id": 1125159,
+      "number": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the relationships among P, Q, R, S, and T:  <br><br>\n     P is the brother of Q.<br>\n     S is the daughter of Q.<br>  \n     T is the sister of S. <br>\n     R is the mother of Q.  \n<br><br>\nThe following statements are made based on the relationships given above.<br><br>  \n     R is the grandmother of S.<br>\n     P is the uncle of S and T.<br>\n     R has only one son.<br>\n     Q has only one daughter.\n<br><br>\nWhich one of the following options is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both (1) and (2) are true.",
+        "B": "Both (1) and (3) are true.",
+        "C": "Only (3) is true.",
+        "D": "Only (4) is true."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "From the given facts: [latex]P[/latex] is [latex]Q[/latex]'s brother; [latex]S[/latex] is [latex]Q[/latex]'s daughter; [latex]T[/latex] is [latex]S[/latex]'s sister (so [latex]T[/latex] is also [latex]Q[/latex]'s daughter); [latex]R[/latex] is [latex]Q[/latex]'s mother.<br><br>\n- <b>\"R is the grandmother of S\"</b>: since [latex]R[/latex] is [latex]Q[/latex]'s mother and [latex]S[/latex] is [latex]Q[/latex]'s daughter, [latex]R[/latex] is indeed [latex]S[/latex]'s grandmother. <b>True.</b><br>\n- <b>\"P is the uncle of S and T\"</b>: [latex]P[/latex], as [latex]Q[/latex]'s sibling, is uncle to [latex]Q[/latex]'s children [latex]S[/latex] and [latex]T[/latex]. <b>True.</b><br>\n- \"R has only one son\": we're only told [latex]P[/latex] is <i>a</i> brother of [latex]Q[/latex] &mdash; nothing rules out [latex]R[/latex] having other sons not mentioned. <b>Not established, so not necessarily true.</b><br>\n- \"Q has only one daughter\": we're explicitly told about <i>two</i> daughters of [latex]Q[/latex] ([latex]S[/latex] and her sister [latex]T[/latex]), directly contradicting this. <b>False.</b><br><br>\n<b>Answer: Both (1) and (2) are true.</b><br><br><a href=\"https://gateoverflow.in/460097/gate-cse-2025-set-1-ga-question-4#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2011-Q59",
+      "source_id": 1111159,
+      "number": 7,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the most appropriate word from the options given below to complete the following sentence.\n<br>\nIf you are trying to make a strong impression on your audience, you cannot do so by being understated, tentative or ________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "hyperbolic",
+        "B": "restrained",
+        "C": "argumentative",
+        "D": "indifferent"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The blank must be like \"understated\" and \"tentative\" (holding back). \"Restrained\" fits.<br><br>\n<b>Answer: restrained</b><br><br><a href=\"https://gateoverflow.in/2169/gate-cse-2011-question-59#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 59
+    },
+    {
+      "id": "2016-S1-Q59",
+      "source_id": 1116159,
+      "number": 8,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could mean 'aftercare'?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "zentaga",
+        "B": "tagafer",
+        "C": "tagazen",
+        "D": "relffer"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "From the words: taga = care, and the modifier comes <b>before</b> taga: relf-taga = free + care (carefree), o-taga = ful + care, fer-taga = less + care.<br><br>\nIn \"aftercare\", after comes before care in English, so in this code it comes after taga: taga + (after). Only \"tagazen\" has that form.<br><br>\n<b>Answer: tagazen</b><br><br><a href=\"https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2024-S1-Q59",
+      "source_id": 1124159,
+      "number": 9,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of coins of Rs. 1, Rs. 5, and Rs. 10 denominations that a person has are in the\nratio 5:3:13. Of the total amount, the percentage of money in Rs. 5 coins is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] 21\\%[/latex]",
+        "B": "[latex]14 \\frac{2}{7} \\% [/latex]",
+        "C": "[latex] 10\\%[/latex]",
+        "D": "[latex] 30\\%[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let coins be [latex]5k,3k,13k[/latex].<br>\nMoney: Rs.1 [latex]\\rightarrow[/latex] [latex]5k[/latex], Rs.5 [latex]\\rightarrow[/latex] [latex]15k[/latex], Rs.10 [latex]\\rightarrow[/latex] [latex]130k[/latex]. Total [latex]=150k[/latex].<br><br>\nShare of Rs.5 coins [latex]=\\dfrac{15k}{150k}\\times100=10\\%[/latex]<br><br>\n<b>Answer: 10%</b><br><br><a href=\"https://gateoverflow.in/422783/gate-cse-2024-set-1-ga-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2024-S2-Q60",
+      "source_id": 1124260,
+      "number": 10,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the sequence 6, 9, 14, x, 30, 41, a possible value of x is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "25",
+        "B": "21",
+        "C": "18",
+        "D": "20"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Differences: 9[latex]-[/latex]6 = 3, 14[latex]-[/latex]9 = 5, then 7, 9, 11 (odd numbers).<br><br>\n[latex]x=14+7=21[/latex]; check [latex]21+9=30[/latex], [latex]30+11=41[/latex] True<br><br>\n<b>Answer: 21</b><br><br><a href=\"https://gateoverflow.in/422902/gate-cse-2024-set-2-ga-question-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 60
+    },
+    {
+      "id": "2022-Q56",
+      "source_id": 1122156,
+      "number": 11,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The _____ is too high for it to be considered ______",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "fair / fare",
+        "B": "faer / fair",
+        "C": "fare / fare",
+        "D": "fare / fair"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "<b>Fare</b> = price of a ticket/journey; <b>fair</b> = reasonable / just.<br><br>\n\"The <b>fare</b> is too high for it to be considered <b>fair</b>.\"<br><br>\n<b>Answer: fare / fair</b><br><br><a href=\"https://gateoverflow.in/371505/Gate-cse-2022-ga-question-1#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 56
+    },
+    {
+      "id": "2021-S1-Q57",
+      "source_id": 1121157,
+      "number": 12,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A polygon is convex if, for every pair of points, P and Q belonging to the polygon, the line segment PQ lies completely inside or on the polygon.\n<br>\nWhich one of the following is NOT a convex polygon?<br><img src=\"/wp-content/uploads/GATE/CS/20211/q57.jpg\" />",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20211/q57.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Shape (A) has a notch (an inward corner). A segment between two points on either side of the notch passes outside the shape, so it is <b>not convex</b>. The triangle, square and trapezium are convex.<br><br>\n<b>Answer: A</b><br><br><a href=\"https://gateoverflow.in/357475/gate-cse-2021-set-1-ga-question-2#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 57
+    },
+    {
+      "id": "2011-Q60",
+      "source_id": 1111160,
+      "number": 13,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the word from the options given below that is most nearly opposite in the meaning to the given word\n<br>\nAmalgamate",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "merge",
+        "B": "split",
+        "C": "collect",
+        "D": "separate"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Amalgamate = combine into one. Opposite: separate.<br><br>\n<b>Answer: separate</b><br><br><a href=\"https://gateoverflow.in/2170/gate-cse-2011-question-60#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 60
+    },
+    {
+      "id": "2021-S2-Q58",
+      "source_id": 1121258,
+      "number": 14,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]\\theta[/latex] is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube, then, [latex]\\cos \\theta =[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{2}[/latex]",
+        "B": "[latex]\\frac{1}{\\sqrt{3}}[/latex]",
+        "C": "[latex]\\frac{1}{\\sqrt{2}}[/latex]",
+        "D": "[latex]\\frac{\\sqrt{3}}{2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "For a cube of side a, the long diagonal is (a, a, a) with length [latex]a\\sqrt3[/latex]. An edge along the x-axis is (a, 0, 0).<br><br>\n[latex]\\cos\\theta=\\frac{a\\cdot a}{a\\cdot a\\sqrt3}=\\frac{1}{\\sqrt3}[/latex]<br><br>\n<b>Answer: [latex]\\frac{1}{\\sqrt3}[/latex]</b><br><br><a href=\"https://gateoverflow.in/357547/gate-cse-2021-set-2-ga-question-3#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 58
+    },
+    {
+      "id": "2016-S2-Q60",
+      "source_id": 1116260,
+      "number": 15,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a quadratic function, the value of the product of the roots [latex](\\\\alpha ,\\\\beta )[/latex] is 4. Find the value of <br><br>[latex]\\\\frac{\\\\alpha^{n}+\\\\beta^{n}}{\\\\alpha^{-n}+\\\\beta^{-n}}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]n^4[/latex]",
+        "B": "[latex]4^n[/latex]",
+        "C": "[latex]2^{2n-1}[/latex]",
+        "D": "[latex]4^{n-1}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]\\alpha^{-n}+\\beta^{-n}=\\frac{\\alpha^n+\\beta^n}{(\\alpha\\beta)^n}[/latex], so the ratio is [latex](\\alpha\\beta)^n=4^n[/latex].<br><br>\n<b>Answer: [latex]4^n[/latex]</b><br><br><a href=\"https://gateoverflow.in/39532/gate-cse-2016-set-2-question-ga-05#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 60
+    },
+    {
+      "id": "2021-S1-Q63",
+      "source_id": 1121163,
+      "number": 16,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "There are five bags each containing identical sets of ten distinct chocolates. One chocolate is picked from each bag.\n<br>\nThe probability that at least two chocolates are identical is _________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0.3024",
+        "B": "0.4235",
+        "C": "0.6976",
+        "D": "0.8125"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "P(all 5 different) = [latex]\\frac{10\\times9\\times8\\times7\\times6}{10^5}=\\frac{30240}{100000}=0.3024[/latex]<br><br>\nP(at least two identical) = 1 [latex]-[/latex] 0.3024 = 0.6976<br><br>\n<b>Answer: 0.6976</b><br><br><a href=\"https://gateoverflow.in/357469/gate-cse-2021-set-1-ga-question-8#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 63
+    },
+    {
+      "id": "2021-S2-Q65",
+      "source_id": 1121265,
+      "number": 17,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Six students P, Q, R, S, T and U, with distinct heights, compare their heights and make the following observations.<br><br>\nObservation I: S is taller than R.<br>\nObservation II: Q is the shortest of all.<br>\nObservation III: U is taller than only one student.<br>\nObservation IV: T is taller than S but is not the tallest<br><br>\nThe number of students that are taller than R is the same as the number of students shorter than ____________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "T",
+        "B": "R",
+        "C": "S",
+        "D": "P"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From the observations: Q is shortest, U is second shortest, and T is taller than S but not tallest, so P is the tallest. R is shorter than S and above U.<br><br>\nOrder (short [latex]\\rightarrow[/latex] tall): Q, U, R, S, T, P.<br><br>\nTaller than R: S, T, P = 3. Shorter than S: R, U, Q = 3.<br><br>\n<b>Answer: S</b><br><br><a href=\"https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 65
+    },
+    {
+      "id": "2026-S1-Q65",
+      "source_id": 1126165,
+      "number": 18,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An unbiased six-faced dice whose faces are marked with numbers [latex]1,2,3,4,5[/latex], and [latex]6[/latex] is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is ________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{6}[/latex]",
+        "B": "[latex]\\frac{5}{18}[/latex]",
+        "C": "[latex]\\frac{7}{18}[/latex]",
+        "D": "[latex]\\frac{5}{6}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "For the first roll [latex]=a[/latex] and second roll [latex]=b[/latex] (each uniformly from [latex]\\{1,\\ldots,6\\}[/latex]), we need [latex]b[/latex] to be a multiple of [latex]a[/latex]. Count, for each value of [latex]a[/latex], how many values of [latex]b\\in\\{1,\\ldots,6\\}[/latex] are multiples of [latex]a[/latex]:<br><br>\n[latex]\\begin{array}{c|c}a&\\text{multiples of }a\\text{ in }\\{1,...,6\\}\\\\\\hline1&1,2,3,4,5,6\\ (6)\\\\2&2,4,6\\ (3)\\\\3&3,6\\ (2)\\\\4&4\\ (1)\\\\5&5\\ (1)\\\\6&6\\ (1)\\end{array}[/latex]<br><br>\nTotal favorable outcomes [latex]=6+3+2+1+1+1=14[/latex] out of [latex]6\\times6=36[/latex] equally likely outcomes.<br><br>\nProbability [latex]=\\dfrac{14}{36}=\\dfrac{7}{18}[/latex].<br><br>\n<b>Answer: 7/18</b> <br><br> <a href=\"https://gateoverflow.in/523080/gate-cse-2026-set-1-ga-question-10#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 65
+    },
+    {
+      "id": "2024-S2-Q62",
+      "source_id": 1124262,
+      "number": 19,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A person sold two different items at the same price. He made 10% profit in one\nitem, and 10% loss in the other item. In selling these two items, the person made a\ntotal of",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1% profit",
+        "B": "2% profit",
+        "C": "1% loss",
+        "D": "2% loss"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let each selling price be S.<br>\nCost prices: [latex]\\frac{S}{1.1}=\\frac{10S}{11}[/latex] and [latex]\\frac{S}{0.9}=\\frac{10S}{9}[/latex]. Total CP [latex]=\\frac{200S}{99}[/latex], total SP [latex]=2S=\\frac{198S}{99}[/latex].<br><br>\nLoss [latex]=\\frac{2S}{99}[/latex], loss % [latex]=\\frac{2}{200}\\times100=1\\%[/latex]<br><br>\n(Shortcut: same SP with x% profit and x% loss always gives a loss of [latex]\\frac{x^2}{100}\\%[/latex].)<br><br>\n<b>Answer: 1% loss</b><br><br><a href=\"https://gateoverflow.in/422900/gate-cse-2024-set-2-ga-question-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 62
+    },
+    {
+      "id": "2014-S1-Q62",
+      "source_id": 1114162,
+      "number": 20,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Geneticists say that they are very close to confirming the genetic roots of psychiatric illnesses such as depression and schizophrenia, and consequently, that doctors will be able to eradicate these diseases through early identification and gene therapy.\n<br><br>\nOn which of the following assumptions does the statement above rely?\n<br>\nSelect one:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Strategies are now available for eliminating psychiatric illnesses",
+        "B": "Certain psychiatric illnesses have a genetic basis",
+        "C": "All human diseases can be traced back to genes and how they are expressed",
+        "D": "In the future, genetics will become the only relevant field for identifying psychiatric illnesses"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Gene therapy can cure these illnesses only if they actually have a genetic basis, so the statement assumes that certain psychiatric illnesses are genetic.<br><br>\n<b>Answer: Certain psychiatric illnesses have a genetic basis</b><br><br><a href=\"https://gateoverflow.in/775/gate-cse-2014-set-1-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 62
+    },
+    {
+      "id": "2021-S1-Q62",
+      "source_id": 1121162,
+      "number": 21,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "[latex]\\begin{array}{|c|c|c|c|} \\hline \\textbf{Items} & \\textbf{Cost} & \\textbf{Profit \\%} & \\textbf{Marked Price} \\\\ & (Rs.) & & (Rs.) \\\\ \\hline P &5,400 &---&5,860\\\\ \\hline Q&---&25&10,000\\\\ \\hline \\end{array}[/latex] <br><br>Details of prices of two items P and Q are presented in the above table. The ratio of cost of item P to cost of item Q is 3:4. Discount is calculated as the difference between the marked price and the selling price. The profit percentage is calculated as the ratio of the difference between selling price and cost, to the cost <br>\n\n[latex](\\text{Profit} \\%=\\dfrac{\\text{Selling price - Cost}}{\\text{Cost}} \\times 100)[/latex]\n<br>The discount on item Q, as a percentage of its marked price, is _______",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "25",
+        "B": "12.5",
+        "C": "10",
+        "D": "5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Cost of Q = [latex]5400\\times\\frac43=7200[/latex].<br>\nSelling price of Q = 7200 [latex]\\times[/latex] 1.25 = 9000.<br>\nDiscount = 10000 [latex]-[/latex] 9000 = 1000 = 10% of the marked price.<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/357470/gate-cse-2021-set-1-ga-question-7#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 62
+    },
+    {
+      "id": "2015-S1-Q62",
+      "source_id": 1115162,
+      "number": 22,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Select the alternative meaning of the underlined part of the sentence.\n<br>\nThe chain snatchers [latex]\\underline{\\text{took to their heels}}[/latex] when the police party arrived.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Took shelter in a thick jungle",
+        "B": "Open indiscriminate fire",
+        "C": "Took to flight",
+        "D": "Unconditionally surrendered"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Take to one's heels\" means to run away, i.e. to take flight.<br><br>\n<b>Answer: Took to flight</b><br><br><a href=\"https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 62
+    },
+    {
+      "id": "2025-S2-Q61",
+      "source_id": 1125261,
+      "number": 23,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Based only on the conversation below, identify the logically correct inference:  <br><br>\n\"Even if I had known that you were in the hospital, I would not have gone there to see you\", Ramya told Josephine.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Ramya knew that Josephine was in the hospital.",
+        "B": "Ramya did not know that Josephine was in the hospital.",
+        "C": "Ramya and Josephine were once close friends; but now, they are not.",
+        "D": "Josephine was in the hospital due to an injury to her leg."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability ",
+      "explanation": "The sentence \"Even if I had known that you were in the hospital, I would not have gone there to see you\" is a <b>counterfactual conditional</b> &mdash; the phrase \"even if I <i>had</i> known\" (past perfect, hypothetical) directly implies that Ramya did <i>not</i>, in fact, know that Josephine was in the hospital at the time. The sentence only tells us what Ramya claims she <i>would</i> have done in that hypothetical scenario, not anything about their friendship history or the reason Josephine was hospitalized.<br><br>\n<b>Answer: Ramya did not know that Josephine was in the hospital.</b><br><br><a href=\"https://gateoverflow.in/460445/gate-cse-2025-set-2-ga-question-6#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 61
+    },
+    {
+      "id": "2010-Q62",
+      "source_id": 1110162,
+      "number": 24,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on 1st January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:\n<br><br>\ni.   Hari's age + Gita's age > Irfan's age + Saira's age<br>\nii.  The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.<br>\niii. There are no twins.<br><br>\nIn what order they were born (oldest first)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "HSIG",
+        "B": "SGHI",
+        "C": "IGSH",
+        "D": "IHSG"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "G and S differ by 1 year, so they are adjacent. G is not oldest and S not youngest.<br><br>\n- HSIG: G and S are not adjacent [latex]\\rightarrow[/latex] fails (ii)<br>\n- IGSH: I older than G and S older than H, so I + S [latex]\\gt[/latex] G + H [latex]\\rightarrow[/latex] fails (i)<br>\n- IHSG: I older than H and S older than G, so I + S [latex]\\gt[/latex] H + G [latex]\\rightarrow[/latex] fails (i)<br>\n- SGHI: S, G oldest pair; H + G [latex]\\gt[/latex] I + S is possible (e.g. ages 10, 9, 7, 5: 16 [latex]\\gt[/latex] 15)<br><br>\n<b>Answer: SGHI</b><br><br><a href=\"https://gateoverflow.in/2370/gate-cse-2010-question-62#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 62
+    },
+    {
+      "id": "2010-Q64",
+      "source_id": 1110164,
+      "number": 25,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "5  skilled workers can build a wall in 20 days; 8 semi-skilled workers can build a wall in 25 days; 10 unskilled workers can build a wall in 30 days. If a team has 2 skilled, 6 semi-skilled and 5 unskilled workers, how long it will take to build the wall?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "20 days",
+        "B": "18 days",
+        "C": "16 days",
+        "D": "15 days"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Work per person per day (one wall = 1):<br>\n- skilled = [latex]\\frac{1}{5\\times20}=\\frac1{100}[/latex], semi-skilled = [latex]\\frac1{200}[/latex], unskilled = [latex]\\frac1{300}[/latex]<br><br>\nTeam: [latex]\\frac2{100}+\\frac6{200}+\\frac5{300}=\\frac{6+9+5}{300}=\\frac1{15}[/latex] per day [latex]\\rightarrow[/latex] 15 days<br><br>\n<b>Answer: 15 days</b><br><br><a href=\"https://gateoverflow.in/2372/gate-cse-2010-question-64#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 64
+    },
+    {
+      "id": "2026-S1-Q64",
+      "source_id": 1126164,
+      "number": 26,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the [latex]2020[/latex] summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws: <br><br> i.) The first and second rounds were dominated by Neeraj Chopra with a gold \nmedal performance in his second throw, while the other two athletes did \nnot have any medal winning throws in these rounds. <br><br>\nii.) The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely \nwere fouls and were not considered for scoring. <br><br>\niii.) After four rounds, Vitezlav Vesely was in the second position and could \nnot improve upon his best throw in the succeeding rounds. <br><br>\niv.) In the fourth round, the throw by Jakub Vadlejch was the best in that \nround.<br><br>In which round did Vitezlav Vesely have his best throw? ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Third",
+        "B": "Fourth",
+        "C": "Fifth",
+        "D": "Sixth"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Work through the clues step by step:<br><br>\n(i) Rounds [latex]1[/latex] and [latex]2[/latex] belong entirely to Neeraj Chopra (his 2nd throw was gold-medal-worthy); Jakub and Vesely achieved <i>none</i> of their medal-relevant (best) throws in these two rounds. So <b>neither Jakub's nor Vesely's personal-best throw happened in round 1 or 2</b> &mdash; both of their best throws must fall somewhere in rounds [latex]3[/latex]-[latex]6[/latex].<br><br>\n(ii) Both Jakub's and Vesely's round-[latex]6[/latex] throws were fouls (not counted at all), so neither of their best throws can be in round [latex]6[/latex] either. This narrows their best throws down to rounds [latex]3,4,5[/latex].<br><br>\n(iii) After [latex]4[/latex] rounds, Vesely already held [latex]2[/latex]nd position, and he never improved on this best throw afterward (rounds [latex]5[/latex] and [latex]6[/latex] didn't help him). So <b>Vesely's personal-best throw must have occurred within rounds [latex]1[/latex]-[latex]4[/latex]</b> &mdash; combined with the earlier elimination of rounds [latex]1,2[/latex], this leaves only round [latex]3[/latex] or round [latex]4[/latex] as candidates.<br><br>\n(iv) In round [latex]4[/latex], it was <i>Jakub's</i> throw that was the best of that round (not Vesely's) &mdash; this is consistent with Vesely's personal best having already been set earlier, in round [latex]3[/latex], and round [latex]4[/latex] simply being a round where Jakub (not Vesely) peaked.<br><br>\nPutting it together, Vesely's best throw was in <b>round 3</b>.<br><br>\n<b>Answer: Third</b> <br><br> <a href=\"https://gateoverflow.in/523081/gate-cse-2026-set-1-ga-question-9#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 64
+    },
+    {
+      "id": "2026-S2-Q64",
+      "source_id": 1126264,
+      "number": 27,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The figure in Panel [latex]\\text{I}[/latex] below is a grid of cells with four rows and four columns. The numbers on the top and on the left represent the number of cells that are to be shaded in that column and row, respectively. Which one of the options shown in Panel [latex]\\text{II}[/latex] below represents the grid shaded correctly?<br><img src=\"/wp-content/uploads/GATE/CS/20262/q64.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20262/q64.webp"
+      ],
+      "options": {
+        "A": "[latex]\\text{(i)}[/latex]",
+        "B": "[latex]\\text{(ii)}[/latex]",
+        "C": "[latex]\\text{(iii)}[/latex]",
+        "D": "[latex]\\text{(iv)}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "This is a logic-grid (\"shading\") puzzle: a [latex]4\\times4[/latex] grid must be shaded so that the number of shaded cells in each row and column matches the given row/column totals in Panel I.<br><br>\nTesting each candidate grid in Panel II against the row and column count constraints, only option (ii) produces a shading pattern whose row sums and column sums simultaneously match every one of the given target numbers.<br><br>\n<b>Answer: (ii)</b> <br><br> <a href=\"https://gateoverflow.in/523149/gate-cse-2026-set-2-ga-question-9#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2025-S1-Q62",
+      "source_id": 1125162,
+      "number": 28,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two lines is half the shortest distance between the point P and line QR. What is the ratio of the area of the triangle PST to the area of the trapezium SQRT?  \n<br>Note: The figure shown is representative.<br><img src=\"/wp-content/uploads/GATE/CS/20251/q62.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20251/q62.webp"
+      ],
+      "options": {
+        "A": " [latex]\\frac{1}{3}[/latex]",
+        "B": " [latex]\\frac{1}{4}[/latex]",
+        "C": " [latex]\\frac{2}{5}[/latex]",
+        "D": " [latex]\\frac{1}{2}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let [latex]h[/latex] be the perpendicular distance from [latex]P[/latex] to line [latex]QR[/latex] (the full height of triangle [latex]PQR[/latex]). We're told the distance between the parallel lines [latex]ST[/latex] and [latex]QR[/latex] is [latex]h/2[/latex], which means [latex]ST[/latex] sits exactly halfway between [latex]P[/latex] and [latex]QR[/latex] (height from [latex]P[/latex] down to [latex]ST[/latex] is also [latex]h/2[/latex], since [latex]h/2+h/2=h[/latex]).<br><br>\nSince [latex]ST\\parallel QR[/latex] and [latex]ST[/latex] is at exactly half the height from [latex]P[/latex], triangle [latex]PST[/latex] is similar to triangle [latex]PQR[/latex] with linear scale factor [latex]\\tfrac12[/latex], so its area is [latex]\\left(\\tfrac12\\right)^2=\\tfrac14[/latex] of triangle [latex]PQR[/latex]'s area.<br><br>\nArea of trapezium [latex]SQRT[/latex] [latex]=[/latex] Area([latex]PQR[/latex]) [latex]-[/latex] Area([latex]PST[/latex]) [latex]=1-\\tfrac14=\\tfrac34[/latex] of Area([latex]PQR[/latex]).<br><br>\nRatio [latex]=\\dfrac{\\text{Area}(PST)}{\\text{Area}(SQRT)}=\\dfrac{1/4}{3/4}=\\dfrac13[/latex]<br><br>\n<b>Answer: 1/3</b><br><br><a href=\"https://gateoverflow.in/460094/gate-cse-2025-set-1-ga-question-7#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 62
+    },
+    {
+      "id": "2015-S1-Q64",
+      "source_id": 1115164,
+      "number": 29,
+      "section": "General Aptitude",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The pie chart below has the breakup of the number of students from different departments in an engineering college for the year 2012. The proportion of male to female students in each department is 5:4. There are 40 males in Electrical Engineering. What is the difference between the numbers of female students in the civil department and the female students in the Mechanical department?<br><img src=\"/wp-content/uploads/GATE/CS/20151/q64.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20151/q64.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        32.0,
+        32.0
+      ],
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Electrical = 20% with 40 males. Males : females = 5 : 4, so Electrical total = 40 [latex]\\times[/latex] 9/5 = 72 [latex]\\rightarrow[/latex] college total = 360.<br><br>\n- Civil (30%) = 108 [latex]\\rightarrow[/latex] females = 108 [latex]\\times[/latex] 4/9 = 48<br>\n- Mechanical (10%) = 36 [latex]\\rightarrow[/latex] females = 16<br><br>\nDifference = 48 [latex]-[/latex] 16 = 32<br><br>\n<b>Answer: 32</b><br><br><a href=\"https://gateoverflow.in/8013/gate-cse-2015-set-1-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 64
+    },
+    {
+      "id": "2022-Q64",
+      "source_id": 1122164,
+      "number": 30,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The corners and mid-points of the sides of a triangle are named using the distinct letters P, Q, R, S, T and U, but not necessarily in the same order. Consider the following statements:\n<br><br>\nThe line joining P and R is parallel to the line joining Q and S.<br> P is placed on the side opposite to the corner T.\n<br> S and U cannot be placed on the same side.\n<br><br>\nWhich one of the following statements is correct based on the above information?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P cannot be placed at a corner",
+        "B": "S cannot be placed at a corner",
+        "C": "U cannot be placed at a mid-point",
+        "D": "R cannot be placed at a corner"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "In a triangle, two such lines can be parallel only if one joins <b>two midpoints</b> and the other lies along the opposite side.<br><br>\n- If Q and S are the two midpoints, S is a midpoint.<br>\n- Otherwise P and R are the midpoints, and Q, S lie on the parallel side (its two corners and its midpoint). P sits on the side opposite T, so T is also a point of that side, and U is the remaining corner. S cannot share a side with U, and both corners of that side share a side with U. So S must be the <b>midpoint</b>.<br><br>\nIn every case S is a midpoint.<br><br>\n<b>Answer: S cannot be placed at a corner</b><br><br><a href=\"https://gateoverflow.in/371497/Gate-cse-2022-question-9#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 64
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "paper_id": "1987",
+  "paper": "GATE CSE 1987",
+  "year": 1987,
+  "set": null,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-1987",
+  "source_id": 11004,
+  "total_marks": 29,
+  "scraped_at": "2026-11-06T10:17:31Z",
+  "questions": [
+    {
+      "id": "1987-Q1",
+      "source_id": 1100401,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The Boolean expression [latex]A \\oplus B \\oplus A[/latex] is equivalent to\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]AB + \\bar {A}\\bar B[/latex]",
+        "B": "[latex]\\bar{A}B+A\\bar{B}[/latex]",
+        "C": "B",
+        "D": "[latex]\\bar{A}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/82556/gate1987-12-a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q2",
+      "source_id": 1100402,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The below figure shows four D-type flip-flops connected as a shift register using a XOR gate. The initial state and three subsequent states for three clock pulses are also given.<br><img src=\"/wp-content/uploads/GATE/CS/19871/q13-a.jpg\" /><br><br>[latex]\\begin{array}{|c|c|c|c|c|} \\hline \\text{State} & Q_{A} & Q_{B} & Q_{C} & Q_{D} \\\\\\hline \\text{Initial} & 1 & 1 & 1 & 1 \\\\\\hline \\text{After the first clock} & 0 & 1 & 1 & 1 \\\\\\hline \\text{After the second clock} & 0 & 0 & 1 & 1 \\\\\\hline \\text{After the third clock} & 0 & 0 & 0 & 1 \\\\\\hline \\end{array}[/latex]<br><br>The state [latex]Q_{A} Q_{B} Q_{C} Q_{D}[/latex] after the fourth clock pulse is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19871/q13-a.jpg"
+      ],
+      "options": {
+        "A": "0000",
+        "B": "1111",
+        "C": "1001",
+        "D": "1000"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/82607/gate1987-13-a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q3",
+      "source_id": 1100403,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Fig. below shows the circuit diagram of a wien bridge oscillator using an op-amp.<br><img src=\"/wp-content/uploads/GATE/CS/19871/q15a.jpg\" /><br>The frequency of oscillation is given by [latex]f= 1/2 \\pi[/latex] CR. To have the system oscillate the ratio [latex]R_{2}/R_{1}[/latex] should be",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19871/q15a.jpg"
+      ],
+      "options": {
+        "A": "0.5",
+        "B": "29",
+        "C": "2",
+        "D": "Any value"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/82656/gate1987-15a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q4",
+      "source_id": 1100404,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A Boolean function f is to be realized only by NOR gates. Its K-map is given below:<br><img src=\"/wp-content/uploads/GATE/CS/19871/q16-aa.jpg\" /><br>The realization is<br><img src=\"/wp-content/uploads/GATE/CS/19871/q16-ab.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19871/q16-aa.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19871/q16-ab.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/82698/gate1987-16-a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q5",
+      "source_id": 1100405,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The refreshing rate of dynamic RAMs is in the range of",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2 microseconds",
+        "B": "2 milliseconds.",
+        "C": "50 milli seconds",
+        "D": "500 milliseconds"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory Chip Design",
+      "explanation": "<a href=\"https://gateoverflow.in/80278/gate1987-1-ix\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q6",
+      "source_id": 1100406,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The data transfer rate of a double-density floppy disk system is about:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "5K bits/sec",
+        "B": "50K bits/sec",
+        "C": "500K bits/sec",
+        "D": "5000K bits/sec"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Secondary Storage",
+      "explanation": "<a href=\"https://gateoverflow.in/80281/gate1987-1-x\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q7",
+      "source_id": 1100407,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a compiler the module that checks every character of the source text is called:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The code generator.",
+        "B": "The code optimiser.",
+        "C": "The lexical analyser.",
+        "D": "The syntax analyser."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Lexical Analysis",
+      "explanation": "<a href=\"https://gateoverflow.in/80282/gate1987-1-xi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q8",
+      "source_id": 1100408,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A context-free grammar is ambiguous if:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The grammar contains useless non-terminals.",
+        "B": "It produces more than one parse tree for some sentence.",
+        "C": "Some production has two non terminals side by side on the right-hand side.",
+        "D": "None of the above."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "<a href=\"https://gateoverflow.in/80291/gate1987-1-xii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q9",
+      "source_id": 1100409,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "FORTRAN is a:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Regular language.",
+        "B": "Context-free language.",
+        "C": "Context-senstive language.",
+        "D": "None of the above."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Programming Languages",
+      "explanation": "<a href=\"https://gateoverflow.in/80293/gate1987-1-xiii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q10",
+      "source_id": 1100410,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "An operator precedence parser is a\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Bottom-up parser.",
+        "B": "Top-down parser.",
+        "C": "Back tracking parser.",
+        "D": "None of the above."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/80295/gate1987-1-xiv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q11",
+      "source_id": 1100411,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a circular linked list oraganisation, insertion of a record involves modification of\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "One pointer.",
+        "B": "Two pointers.",
+        "C": "Multiple pointers.",
+        "D": "No pointer."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Link List",
+      "explanation": "<a href=\"https://gateoverflow.in/80298/gate1987-1-xv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q12",
+      "source_id": 1100412,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A critical region is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "One which is enclosed by a pair of P and V operations on semaphores.",
+        "B": "A program segment that has not been proved bug-free.",
+        "C": "A program segment that often causes unexpected system crashes.",
+        "D": "A program segment where shared resources are accessed."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/80362/gate1987-1-xvi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q13",
+      "source_id": 1100413,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let P be a quicksort program to sort numbers in ascending order. Let [latex]t_{1}[/latex] and [latex]t_{2}[/latex] be the time taken by the program for the inputs [latex]\\left[1 \\ 2 \\ 3 \\ 4\\right][/latex] and [latex]\\left[5 \\ 4 \\ 3 \\ 2 \\ 1\\right][/latex], respectively. Which of the following holds?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]t_{1} = t_{2}[/latex]",
+        "B": "[latex]t_{1} \\gt t_{2}[/latex]",
+        "C": "[latex]t_{1} \\lt t_{2}[/latex]",
+        "D": "[latex]t_{1}=t_{2}+5 \\log 5[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/80366/gate1987-1-xviii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q14",
+      "source_id": 1100414,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Study the following program written in a block-structured language:<br>\n<pre><code> Var x, y:integer; \nprocedure P(n:integer);\nbegin\n     x:=(n+2)/(n-3);\nend;\n\nprocedure Q \nVar x, y:integer;\nbegin   \n    x:=3;\n    y:=4; \n    P(y);\n    Write(x)          __(1)\nend;\n \nbegin\n    x:=7;\n    y:=8;\n    Q; \nWrite(x);             __(2) \nend.</code></pre> <br>\nWhat will be printed by the write statements marked (1) and (2) in the program if the variables are statically scoped?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3, 6",
+        "B": "6, 7",
+        "C": "3, 7",
+        "D": "None of the above."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/80373/gate1987-1-xix\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q15",
+      "source_id": 1100415,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For the program given below what will be printed by the write statements marked (1) and (2) in the program if the variables are dynamically scoped?<br>\n<pre><code> Var x, y:integer; \nprocedure P(n:integer);\nbegin\n     x := (n+2)/(n-3);\nend;\n\nprocedure Q \nVar x, y:integer;\nbegin   \n    x:=3;\n    y:=4; \n    P(y);\n    Write(x);           __(1)\nend;\n \nbegin\n    x:=7;\n    y:=8;\n    Q; \n    Write(x);           __(2)\nend.</code></pre> ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3, 6",
+        "B": "6, 7",
+        "C": "3, 7",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/80374/gate1987-1-xx\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q16",
+      "source_id": 1100416,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If a, b, and c are constants, which of the following is a linear inequality?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]ax+bcy=0[/latex]",
+        "B": "[latex]ax^{2}+cy^{2}=21[/latex]",
+        "C": "[latex]abx+a^{2}y \\geq 15[/latex]",
+        "D": "[latex]xy+ax \\geq 20[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/80377/gate1987-1-xxi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q17",
+      "source_id": 1100417,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The equation<br>[latex]7x^{7}+14x^{6}+12x^{5}+3x^{4}+12x^{3}+10x^{2}+5x+7=0 [/latex] has\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "All complex roots",
+        "B": "At least one real root",
+        "C": "Four pairs of imaginary roots",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/80379/gate1987-1-xxii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q18",
+      "source_id": 1100418,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A square matrix is singular whenever \n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The rows are linearly independent",
+        "B": "The columns are linearly independent",
+        "C": "The row are linearly dependent",
+        "D": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/80380/gate1987-1-xxiii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q19",
+      "source_id": 1100419,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The simplex method is so named because \n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "It is simple.",
+        "B": "It is based on the theory of algebraic complexes.",
+        "C": "The simple pendulum works on this method.",
+        "D": "No one thought of a better name."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/80559/gate1987-1-xxiv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q20",
+      "source_id": 1100420,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is true in respect of the convergence of the Newton-Rephson procedure?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "It converges always under all circumstances.",
+        "B": "It does not converge to a tool where the second differential coefficient changes sign.",
+        "C": "It does not converge to a root where the second differential coefficient vanishes.",
+        "D": "None of the above."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/80562/gate1987-1-xxv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q21",
+      "source_id": 1100421,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]f(x_{i}).f(x_{i+1}) \\lt 0[/latex] then\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There must be a root of f(x) between [latex]x_i[/latex] and [latex]x_{i+1}[/latex]",
+        "B": "There need not be a root of f(x) between [latex]x_{i}[/latex] and [latex]x_{i+1}[/latex].",
+        "C": "There fourth derivative of f(x) with respect to x vanishes at [latex]x_{i}[/latex].",
+        "D": "The fourth derivative of f(x) with respect to x vanishes at [latex]x_{i+1}[/latex]."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/80571/gate1987-1-xxvi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q22",
+      "source_id": 1100422,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Microprogrammed control unit:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "is faster than a hardwired control unit",
+        "B": "facilitates easy implementation of new instructions",
+        "C": "is useful when very small programs are to be run",
+        "D": "usually refers to control unit of a microprocessor"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "ALU Data Path and Control Unit",
+      "explanation": "<a href=\"https://gateoverflow.in/166/gate1987-1-vi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q23",
+      "source_id": 1100423,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The total number of Boolean functions which can be realised with four variables is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "17",
+        "C": "256",
+        "D": "65, 536"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/80032/gate1987-1-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q24",
+      "source_id": 1100424,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "<br><img src=\"/wp-content/uploads/GATE/CS/19871/q1-IIIa.jpg\" /><br><br><img src=\"/wp-content/uploads/GATE/CS/19871/q1-IIIb.jpg\" /><br>The above circuit produces the output sequence:",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19871/q1-IIIa.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19871/q1-IIIb.jpg"
+      ],
+      "options": {
+        "A": "1111       1111       0000       0000",
+        "B": "1111       0000      1111        000",
+        "C": "1111       0001      0011       010",
+        "D": "1010      1010      1010       1010"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/80034/gate1987-1-iii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q25",
+      "source_id": 1100425,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The output F of the below multiplexer circuit can be represented by <br><img src=\"/wp-content/uploads/GATE/CS/19871/q1-IV.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19871/q1-IV.jpg"
+      ],
+      "options": {
+        "A": "[latex]AB+B\\bar{C}+\\bar{C}A+\\bar{B}\\bar{C}[/latex]",
+        "B": "[latex]A\\oplus B\\oplus C[/latex]",
+        "C": "[latex]A \\oplus B[/latex]",
+        "D": "[latex]\\bar{A} \\bar{B} C+ \\bar{A} B \\bar{C}+A \\bar{B} \\bar{C}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/80193/gate1987-1-iv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q26",
+      "source_id": 1100426,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The most relevant addressing mode to write position-independent codes is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Direct mode",
+        "B": "Indirect mode",
+        "C": "Relative mode",
+        "D": "Indexed mode"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "<a href=\"https://gateoverflow.in/80194/gate1987-1-v\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q27",
+      "source_id": 1100427,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A microprogrammed control unit\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Is faster than a hard-wired control unit.",
+        "B": "Facilitates easy implementation of new instruction.",
+        "C": "Is useful when very small programs are to be run.",
+        "D": "Usually refers to the control unit of a microprocessor."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "ALU Data Path and Control Unit",
+      "explanation": "<a href=\"https://gateoverflow.in/80199/gate1987-1-vi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q28",
+      "source_id": 1100428,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The exponent of a floating-point number is represented in excess-N code so that:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The dynamic range is large.",
+        "B": "The precision is high.",
+        "C": "The smallest number is represented by all zeros.",
+        "D": "Overflow is avoided."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/80201/gate1987-1-vii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1987-Q29",
+      "source_id": 1100429,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "On receiving an interrupt from a I/O device the CPU:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Halts for a predetermined time.",
+        "B": "Hands over control of address bus and data bus to the interrupting device.",
+        "C": "Branches off to the interrupt service routine immediately.",
+        "D": "Branches off to the interrupt service routine after completion of the current instruction."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupt",
+      "explanation": "<a href=\"https://gateoverflow.in/80274/gate1987-1-viii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "paper_id": "1991",
+  "paper": "GATE CSE 1991",
+  "year": 1991,
+  "set": null,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-1991",
+  "source_id": 11008,
+  "total_marks": 14,
+  "scraped_at": "2026-11-06T10:17:31Z",
+  "questions": [
+    {
+      "id": "1991-Q1",
+      "source_id": 1100801,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>The advantages of CMOS technology over a MOS is:\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " lower power dissipation",
+        "B": " greater speed",
+        "C": " smaller chip size",
+        "D": " fewer masks for fabrication",
+        "E": "none of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory Chip Design",
+      "explanation": "<a href=\"https://gateoverflow.in/515/gate1991-03-i\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q2",
+      "source_id": 1100802,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nAdvantage of synchronous sequential circuits over asynchronous ones is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "faster operation",
+        "B": "ease of avoiding problems due to hazards",
+        "C": "lower hardware requirement",
+        "D": "better noise immunity",
+        "E": "none of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/516/gate1991-03-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q3",
+      "source_id": 1100803,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nThe total size of address space in a virtual memory system is limited by:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "the length of MAR",
+        "B": "the available secondary storage",
+        "C": "the available main memory",
+        "D": "all of the above",
+        "E": "none of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/517/gate1991-03-iii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q4",
+      "source_id": 1100804,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nThe TRAP interrupts mechanism of the 8085 microprocessor:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " executes an RST by hardware",
+        "B": " executes an instruction supplied by an external device through the INTA signal",
+        "C": " executes an instruction from memory location 20H",
+        "D": " executes a NOP",
+        "E": " none of the above"
+      },
+      "correct": [
+        "E"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupt",
+      "explanation": "<a href=\"https://gateoverflow.in/518/gate1991-03-iv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q5",
+      "source_id": 1100805,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct ) and write the corresponding letters only<br>\n\nA \"link editor\" is a program that:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "matches the parameters of the macro-definition with locations of the parameters of the macro call",
+        "B": "matches external names of one program with their location in other programs",
+        "C": "matches the parameters of subroutine definition with the location of parameters of subroutine call.",
+        "D": "acts as a link between text editor and the user",
+        "E": "acts as a link between compiler and the user program"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/519/gate1991-03-ix\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q6",
+      "source_id": 1100806,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>The ALE line of  an 8085 microprocessor is used to:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " Latch the output of an I/O instruction into an external latch.",
+        "B": " Deactivate the chip-select signal from memory devices.",
+        "C": " Latch the 8 bits of address lines AD7-AD0 into  an external latch.",
+        "D": " Find the interrupt enable status of the TRAP interrupt.",
+        "E": " None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "explanation": "<a href=\"https://gateoverflow.in/520/gate1991-03-v\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q7",
+      "source_id": 1100807,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Kruskal's algorithm for finding a minimum spanning tree of a weighted graph G with n vertices and m edges has the time complexity of:\n \n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]O(n^{2})[/latex]",
+        "B": "O(mn)",
+        "C": "O(m+n)",
+        "D": "[latex]O(m \\log n)[/latex]",
+        "E": "[latex]O(m^2)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/521/gate1991-03-vi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q8",
+      "source_id": 1100808,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>The following sequence of operations is performed on a stack:<br>\nPUSH  (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP<br>\nThe sequence of values popped out is<br>\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "20,10,20,10,20",
+        "B": "20,20,10,10,20",
+        "C": "10,20,20,10,20",
+        "D": "20,20,10,20,10"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack",
+      "explanation": "<a href=\"https://gateoverflow.in/522/gate1991-03-vii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q9",
+      "source_id": 1100809,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Consider the following Pascal function:<br><pre><code>Function X(M:integer):integer;\nVar i:integer;\nBegin\n    i := 0;\n    while i*i < M\n    do i:= i+1\n    X := i\n end </code></pre> <br>The function call X(N), if N is positive, will return\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\lfloor\\sqrt N \\rfloor[/latex]",
+        "B": "[latex]\\lfloor\\sqrt N \\rfloor[/latex]",
+        "C": "[latex]\\lceil \\sqrt N \\rceil[/latex]",
+        "D": "[latex]\\lceil \\sqrt N \\rceil +1[/latex]",
+        "E": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/523/gate1991-03-viii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q10",
+      "source_id": 1100810,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following is the strongest correct statement about a finite language over some finite alphabet [latex]\\Sigma[/latex]?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "It could be undecidable",
+        "B": "It is Turing-machine recognizable",
+        "C": "It is a context sensitive language.",
+        "D": "It is a regular language.",
+        "E": "None of the above,"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "<a href=\"https://gateoverflow.in/528/gate1991-03-xiv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q11",
+      "source_id": 1100811,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\n\nIndicate all the true statements from the following:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Recursive descent parsing cannot be used for grammar with left recursion.",
+        "B": "The intermediate form for representing expressions which is best suited for code optimization is the postfix form.",
+        "C": "A programming language not supporting either recursion or pointer type does not need the support of dynamic memory allocation.",
+        "D": "Although C does not support call-by-name parameter passing, the effect can be correctly simulated in C",
+        "E": "No feature of Pascal typing violates strong typing in Pascal."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "<a href=\"https://gateoverflow.in/524/gate1991-03-x\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q12",
+      "source_id": 1100812,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one can be correct) and write the corresponding letters only:<br>Indicate all the false statements from the statements given below:\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The amount of virtual memory available is limited by the availability of the secondary memory",
+        "B": "Any implementation of a critical section requires the use of an indivisible machine- instruction ,such as test-and-set.",
+        "C": "The use of monitors ensure that no dead-locks will be caused .",
+        "D": "The LRU page-replacement policy may cause thrashing for some type of programs.",
+        "E": "The best fit techniques for memory allocation ensures that memory will never be fragmented."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/525/gate1991-03-xi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q13",
+      "source_id": 1100813,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nIf [latex]F_1[/latex], [latex]F_2[/latex] and [latex]F_3[/latex] are propositional formulae such that [latex]F_1 \\land F_2 \\rightarrow F_3[/latex] and [latex]F_1 \\land F_2 \\rightarrow \\sim F_3[/latex] are both tautologies, then which of the following is true:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both[latex]F_1[/latex] and [latex]F_2[/latex] are tautologies",
+        "B": "The conjunction [latex]F_1 \\land F_2[/latex] is not satisfiable",
+        "C": "Neither is tautologous",
+        "D": "Neither is satisfiable",
+        "E": "None of the above."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/526/gate1991-03-xii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1991-Q14",
+      "source_id": 1100814,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only.<br>Let [latex]r=1(1+0)^*, s=11^*0 \\text{ and } t=1^*0[/latex] be three regular expressions. Which one of the following is true?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]L(s) \\subseteq L(r) \\text{ and } L(s) \\subseteq L(t)[/latex]",
+        "B": "[latex]L(r) \\subseteq L(s) \\text{ and }  L(s) \\subseteq L(t)[/latex]",
+        "C": "[latex]L(s) \\subseteq L(t) \\text{ and }  L(s) \\subseteq L(r)[/latex]",
+        "D": "[latex]L(t) \\subseteq L(s)\\text{ and }  L(s) \\subseteq L(r)[/latex]",
+        "E": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "<a href=\"https://gateoverflow.in/527/gate1991-03-xiii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

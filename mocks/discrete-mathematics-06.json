@@ -1,0 +1,840 @@
+{
+  "paper_id": "discrete-mathematics-06",
+  "paper": "Discrete Mathematics: Topic Mock 6",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 6,
+  "duration_min": 90,
+  "total_marks": 43,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "1999-Q26",
+      "source_id": 1101826,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider two events [latex]E_1[/latex] and [latex]E_0[/latex] such that probability of [latex]E_1, P_r[E_1]=\\frac{1}{2}[/latex], probability of [latex]E_2, P_r[E_{2}]=\\frac{1}{3}[/latex], and probability of [latex]E_1[/latex], and [latex]E_2, P_r[E_1 \\:\\text{and}\\: E_2] = \\frac{1}{5}[/latex]. Which of the following statements is/are true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]P_r[E_1\\: \\text{or} \\:E_2] \\text{ is } \\frac{2}{3}[/latex]",
+        "B": "Events [latex]E_1[/latex] and [latex]E_2[/latex] are independent",
+        "C": "Events [latex]E_1[/latex] and [latex]E_2[/latex] are not independent",
+        "D": "[latex]P_r \\left[{E_1}\\mid{E_2} \\right] = \\frac{4}{5}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1479/gate1999-2-1\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 26
+    },
+    {
+      "id": "2017-S1-Q1",
+      "source_id": 1117101,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The statement [latex](\\neg p)\\Rightarrow (\\neg q)[/latex] is logically equivalent to which of the statements below? <br>I. [latex] p\\Rightarrow q [/latex] <br>II. [latex]q \\Rightarrow p [/latex]<br>III. [latex](\\neg q)\\vee p[/latex] <br>IV. [latex](\\neg p)\\vee q[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I only",
+        "B": "I and IV only",
+        "C": "II only",
+        "D": "II and III only"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex]\\neg p\\Rightarrow\\neg q[/latex] is the contrapositive of [latex]q\\Rightarrow p[/latex], so they are equivalent (II). Also [latex]a\\Rightarrow b\\equiv\\neg a\\vee b[/latex], so [latex]\\neg p\\Rightarrow\\neg q\\equiv p\\vee\\neg q[/latex] (III).<br><br>\nI ([latex]p\\Rightarrow q[/latex]) and IV ([latex]\\neg p\\vee q[/latex]) are the converse, which is different.<br><br>\n<b>Answer: II and III only</b><br><br><a href=\"https://gateoverflow.in/118698/gate2017-1-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 1
+    },
+    {
+      "id": "2001-Q26",
+      "source_id": 1101126,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "How many 4-digit even numbers have all 4 digits distinct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2240",
+        "B": "2296",
+        "C": "2620",
+        "D": "4536"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/719/gate2001-2-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 26
+    },
+    {
+      "id": "2019-Q10",
+      "source_id": 1119110,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be an arbitrary group. Consider the following relations on G:<br><br>\nR1: [latex]\\forall a,b \\in G, aR_1b[/latex] if and only if [latex]\\exists g \\in G[/latex] such that [latex]a=g^{-1}bg[/latex]<br>\n R2: [latex]\\forall a,b \\in G, aR_2b[/latex] if and only if  [latex]a=b^{-1}[/latex]<br><br>\nWhich of the above is/are equivalence relation/relations?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R1 and R2",
+        "B": "R1 only",
+        "C": "R2 only",
+        "D": "Neither R1 nor R2"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<b>R1</b> (conjugacy):<br>\n- Reflexive: [latex]a=e^{-1}ae[/latex]<br>\n- Symmetric: if [latex]a=g^{-1}bg[/latex] then [latex]b=gag^{-1}[/latex]<br>\n- Transitive: [latex]a=g^{-1}bg,\\ b=h^{-1}ch\\Rightarrow a=(hg)^{-1}c(hg)[/latex]<br>\nSo R1 is an equivalence relation.<br><br>\n<b>R2</b>: aR2a would need [latex]a=a^{-1}[/latex], which fails in general (e.g. 1 in [latex]\\mathbb{Z}_3[/latex]). Not reflexive.<br><br>\n<b>Answer: R1 only</b><br><br><a href=\"https://gateoverflow.in/302838/gate2019-cs-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 10
+    },
+    {
+      "id": "2019-Q12",
+      "source_id": 1119112,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be an undirected complete graph on n vertices, where n[latex]\\gt[/latex]2. Then, the number of different Hamiltonian cycles in G is equal to",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n!",
+        "B": "(n-1)!",
+        "C": "1",
+        "D": "[latex]\\frac{(n-1)!}{2}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Fix one vertex as the start. The remaining n [latex]-[/latex] 1 vertices can be arranged in (n [latex]-[/latex] 1)! orders, and each cycle is counted twice (two directions).<br><br>\nNumber of Hamiltonian cycles [latex]=\\frac{(n-1)!}{2}[/latex]<br><br>\n<b>Answer: [latex]\\frac{(n-1)!}{2}[/latex]</b><br><br><a href=\"https://gateoverflow.in/302836/gate2019-cs-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 12
+    },
+    {
+      "id": "2009-Q1",
+      "source_id": 1109101,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following in NOT necessarily a property of a Group?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Commutativity",
+        "B": "Associativity",
+        "C": "Existence of inverse for every element",
+        "D": "Existence of identity"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/795/gate2009-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 1
+    },
+    {
+      "id": "2012-Q17",
+      "source_id": 1112117,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be a simple undirected planar graph on 10 vertices with 15 edges. If G is a connected graph,\nthen the number of bounded faces in any embedding of G on the plane is equal to",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Planar Graph",
+      "explanation": "Euler's formula: f = e [latex]-[/latex] v + 2 = 15 [latex]-[/latex] 10 + 2 = 7 faces, including the one unbounded outer face.<br><br>\nBounded faces = 7 [latex]-[/latex] 1 = 6<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/49/gate2012-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 17
+    },
+    {
+      "id": "1996-Q2",
+      "source_id": 1101502,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]X = \\{2, 3, 6, 12, 24\\}[/latex], Let [latex]\\leq[/latex] be the partial order defined by [latex]X \\leq Y[/latex] if x divides y. Number of edges in the Hasse diagram of [latex](X, \\leq)[/latex] is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "9",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2706/gate1996-1-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 2
+    },
+    {
+      "id": "1996-Q26",
+      "source_id": 1101526,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let R denote the set of real numbers. Let [latex]f:R\\times R \\rightarrow R \\times R[/latex] be a bijective function defined by [latex]f(x,y) = (x+y, x-y)[/latex]. The inverse function of [latex]f[/latex] is given by\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]f^{-1} (x,y) = \\left( \\frac {1}{x+y}, \\frac{1}{x-y}\\right)[/latex]",
+        "B": "[latex]f^{ -1} (x,y) = (x-y , x+y)[/latex]",
+        "C": "[latex]f^{-1} (x,y) = \\left( \\frac {x+y}{2}, \\frac{x-y}{2}\\right)[/latex]",
+        "D": "[latex]f^{-1}(x,y)=\\left [ 2\\left(x-y\\right),2\\left(x+y\\right) \\right ][/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/2730/gate1996-2-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 26
+    },
+    {
+      "id": "1993-Q23",
+      "source_id": 1101223,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A be a finite set of size n. The number of elements in the power set of [latex]A\\times A[/latex] is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]2^{2^n}[/latex]",
+        "B": "[latex]2^{n^2}[/latex]",
+        "C": "[latex](2^n)^2[/latex]",
+        "D": "[latex](2^2)^n[/latex]",
+        "E": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2302/gate1993-8-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1993",
+      "source_number": 23
+    },
+    {
+      "id": "1997-Q43",
+      "source_id": 1101643,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of equivalence relations of the set {1,2,3,4} is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "24",
+        "D": "4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/2259/gate1997-6-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 43
+    },
+    {
+      "id": "2017-S1-Q2",
+      "source_id": 1117102,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the first-order logic sentence [latex]F:\\forall x(\\exists yR(x,y))[/latex]. Assuming non-empty logical\ndomains, which of the sentences below are implied by F? <br>I. [latex]\\exists y(\\exists xR(x,y))[/latex]<br> II. [latex]\\exists y(\\forall xR(x,y)) [/latex]<br>III. [latex]\\forall y(\\exists xR(x,y))[/latex]<br> IV. [latex]\\neg \\exists x(\\forall y\\neg R(x,y))[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "IV only",
+        "B": "I and IV only",
+        "C": "II only",
+        "D": "II and III only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "F: every x has some y with R(x, y).<br>\n- I: [latex]\\exists y\\exists x R(x,y)[/latex] follows (the domain is non-empty) True<br>\n- IV: [latex]\\neg\\exists x\\forall y\\neg R(x,y)\\equiv\\forall x\\exists y R(x,y)[/latex], which is F itself True<br>\n- II (one y for all x) and III (every y is hit) do not follow.<br><br>\n<b>Answer: I and IV only</b><br><br><a href=\"https://gateoverflow.in/118701/gate2017-1-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 2
+    },
+    {
+      "id": "1999-Q1",
+      "source_id": 1101801,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose that the expectation of a random variable X is 5. Which of the following statements is true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There is a sample point at which X has the value 5.",
+        "B": "There is a sample point at which X has value greater than 5.",
+        "C": "There is a sample point at which X has a value greater than equal to 5.",
+        "D": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1455/gate1999-1-1\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 1
+    },
+    {
+      "id": "2005-Q13",
+      "source_id": 1105113,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The set {1, 2, 4, 7, 8, 11, 13, 14} is a group under multiplication modulo 15. The inverses of 4 and 7 are respectively:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "and 13",
+        "B": "2 and 11",
+        "C": "4 and 13",
+        "D": "8 and 14"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1163/gate2005-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 13
+    },
+    {
+      "id": "2014-S2-Q2",
+      "source_id": 1114202,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Each of the nine words in the sentence \"The quick brown fox jumps over the lazy dog\" is\nwritten on a separate piece of paper. These nine pieces of paper are kept in a box. One of the pieces is drawn at random from the box. The expected length of the word drawn is\n_____________. (The answer should be rounded to one decimal place)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.8,
+        3.9
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Word lengths: The(3), quick(5), brown(5), fox(3), jumps(5), over(4), the(3), lazy(4), dog(3).<br><br>\n[latex]E=\\frac{3+5+5+3+5+4+3+4+3}{9}=\\frac{35}{9}=3.89\\approx 3.9[/latex]<br><br>\n<b>Answer: 3.9</b><br><br><a href=\"https://gateoverflow.in/1954/gate2014-2-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 2
+    },
+    {
+      "id": "2014-S2-Q3",
+      "source_id": 1114203,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The maximum number of edges in a bipartite graph on 12 vertices is _____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        36.0,
+        36.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "A bipartite graph with parts of size a and b has at most ab edges. With a + b = 12 the product is largest when a = b = 6.<br><br>\n[latex]6\\times6=36[/latex]<br><br>\n<b>Answer: 36</b><br><br><a href=\"https://gateoverflow.in/1955/gate2014-2-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 3
+    },
+    {
+      "id": "2016-S2-Q1",
+      "source_id": 1116201,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following expressions:<br>\n(i) false <br>\n(ii) Q <br>\n(iii) true <br>\n(iv) [latex]P\\vee Q[/latex] <br>\n(v) [latex]\\neg Q \\vee P[/latex] <br>\nThe number of expressions given above that are logically implied by [latex]P \\wedge (P \\Rightarrow Q)[/latex] is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex]P\\wedge(P\\Rightarrow Q)[/latex] means P is true and Q is true. Check each expression with P = Q = true:<br>\n- false False<br>\n- Q True, true True, [latex]P\\vee Q[/latex] True, [latex]\\neg Q\\vee P[/latex] True<br><br>\n4 expressions are implied.<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/39568/gate2016-2-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 1
+    },
+    {
+      "id": "2003-Q31",
+      "source_id": 1103131,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let (S,[latex]\\leq[/latex]) be a partial order with two minimal elements a and b, and a maximum element c. <br> Let P:S [latex]\\rightarrow[/latex]\n {True, False} be a predicate defined on S . Suppose that\nP(a) = True, P(b) =False and P(x) [latex]\\Rightarrow[/latex] p(y) for all x,y [latex]\\in[/latex] S satisfying x[latex]\\leq[/latex]y, where [latex]\\Rightarrow[/latex] stands for logical implication. Which of the following statements CANNOT be true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P(x) =True for all x [latex]\\in[/latex] S such that x  [latex]\\neq[/latex] b",
+        "B": " P(x) =False for all x [latex]\\in[/latex] S such that x [latex]\\neq[/latex] a and x [latex]\\neq[/latex] c",
+        "C": "P(x) =False for all x [latex]\\in[/latex] S such that b [latex]\\leq[/latex] x and x [latex]\\neq[/latex] c",
+        "D": " P(x) =False for all x [latex]\\in[/latex] S such that a [latex]\\leq[/latex] x and b [latex]\\leq[/latex] x"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/921/gate2003-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 31
+    },
+    {
+      "id": "2004-Q78",
+      "source_id": 1104178,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Two n bit binary strings, S1 and S2, are chosen randomly with uniform probability. The probability that the Hamming distance between these strings (the number of bit positions where the two strings differ) is equal to d is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]^nC_d/2^{n}[/latex]",
+        "B": "[latex]^nC_d/2^{d}[/latex]",
+        "C": "[latex]d/2^{n}[/latex]",
+        "D": "[latex]1/2^{d}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1072/gate2004-78#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 78
+    },
+    {
+      "id": "2013-Q47",
+      "source_id": 1113147,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following is NOT logically equivalent to [latex]\\neg \\exists x(\\forall y(\\alpha )\\wedge \\forall z(\\beta ))[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall x(\\exists z(\\neg \\beta )\\rightarrow \\forall y(\\alpha ))[/latex]",
+        "B": "[latex]\\forall x(\\forall z(\\beta )\\rightarrow \\exists z(\\neg \\alpha ))[/latex]",
+        "C": "[latex]\\forall x(\\forall y(\\alpha )\\rightarrow \\exists z(\\neg \\beta ))[/latex]",
+        "D": "[latex]\\forall x (\\exists y(\\neg \\alpha )\\rightarrow \\exists z(\\neg \\beta ))[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex]\\neg\\exists x(\\forall y\\,\\alpha\\wedge\\forall z\\,\\beta)\\equiv\\forall x(\\neg\\forall y\\,\\alpha\\vee\\neg\\forall z\\,\\beta)\\equiv\\forall x(\\forall y\\,\\alpha\\rightarrow\\exists z\\,\\neg\\beta)[/latex], which is option 3 (option 2 is the same form).<br><br>\n- Option 1: [latex]\\forall x(\\exists z\\neg\\beta\\rightarrow\\forall y\\,\\alpha)\\equiv\\forall x(\\forall z\\,\\beta\\vee\\forall y\\,\\alpha)[/latex] [latex]\\rightarrow[/latex] not equivalent<br>\n- Option 4: [latex]\\forall x(\\exists y\\neg\\alpha\\rightarrow\\exists z\\neg\\beta)\\equiv\\forall x(\\forall y\\,\\alpha\\vee\\exists z\\neg\\beta)[/latex] [latex]\\rightarrow[/latex] not equivalent<br><br>\nTwo options are not equivalent, so marks were given to all.<br><br>\n<b>Answer: Options 1 and 4</b><br><br>In GATE 2013 marks were given to all for this question<br><a href=\"https://gateoverflow.in/80/gate2013-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 47
+    },
+    {
+      "id": "2026-S1-Q37",
+      "source_id": 1126137,
+      "number": 21,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]G(V, E)[/latex] be a simple, undirected graph. A vertex cover of [latex]G[/latex] is a subset [latex]V^{\\prime} \\subseteq V[/latex] such that for every [latex](u, v) \\in E, u \\in V^{\\prime}[/latex] or [latex]v \\in V^{\\prime}[/latex]. Let the size of the smallest vertex cover in [latex]G[/latex] be [latex]k[/latex]. Let [latex]S[/latex] be any vertex cover of size [latex]k[/latex]. <br><br>For a vertex [latex]v \\in V[/latex], which of the following constraints will always ensure that [latex]v \\in S[/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The degree of [latex]v[/latex] is at least [latex]k+1[/latex]",
+        "B": "The vertex [latex]v[/latex] is on a path of length [latex]k+1[/latex]",
+        "C": "The vertex [latex]v[/latex] is on a cycle of length [latex]k+1[/latex]",
+        "D": "The vertex [latex]v[/latex] is a part of a clique of size [latex]k[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Suppose, for contradiction, [latex]v[/latex] has degree [latex]\\ge k+1[/latex] but [latex]v\\notin S[/latex] for some minimum vertex cover [latex]S[/latex] of size [latex]k[/latex]. Since [latex]v\\notin S[/latex], every edge incident on [latex]v[/latex] must be covered by its <i>other</i> endpoint (because [latex]S[/latex] is a vertex cover), so all [latex]\\ge k+1[/latex] distinct neighbors of [latex]v[/latex] must belong to [latex]S[/latex]. But then [latex]|S|\\ge k+1>k[/latex], contradicting that [latex]S[/latex] has size exactly [latex]k[/latex]. So [latex]v[/latex] must be in every minimum vertex cover.<br><br>\nThe other conditions don't force inclusion: a vertex on a long path or cycle can often be excluded by choosing the cover among its neighbors instead; and being part of a size-[latex]k[/latex] clique only forces [latex]k-1[/latex] of the clique's vertices into the cover (any one clique vertex, including [latex]v[/latex], can be the one left out).<br><br>\n<b>Answer: \"The degree of v is at least k+1\" always forces v &isin; S.</b> <br><br> <a href=\"https://gateoverflow.in/523043/gate-cse-2026-set-1-question-37#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 37
+    },
+    {
+      "id": "2017-S2-Q26",
+      "source_id": 1117226,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "P and Q are considering to apply for a job. The probability that P applies for the job is 1/4.\nThe probability that P applies for the job given that Q applies for the job is 1/2\n, and the probability that Q applies for the job given that P applies for the job 1/3.\nThen the probability that P does not apply for the job given that Q does not apply for the job is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{4}{5}[/latex]",
+        "B": "[latex]\\frac{5}{6}[/latex]",
+        "C": "[latex]\\frac{7}{8}[/latex]",
+        "D": "[latex]\\frac{11}{12}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex]P(P\\cap Q)=P(P)\\,P(Q|P)=\\frac14\\cdot\\frac13=\\frac1{12}[/latex], and [latex]P(Q)=\\frac{P(P\\cap Q)}{P(P|Q)}=\\frac16[/latex].<br><br>\n[latex]P(\\bar P\\cap\\bar Q)=1-\\left(\\frac14+\\frac16-\\frac1{12}\\right)=\\frac23[/latex], [latex]P(\\bar Q)=\\frac56[/latex]<br><br>\n[latex]P(\\bar P|\\bar Q)=\\frac{2/3}{5/6}=\\frac45[/latex]<br><br>\n<b>Answer: [latex]\\frac45[/latex]</b><br><br><a href=\"https://gateoverflow.in/118368/gate2017-2-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 26
+    },
+    {
+      "id": "2004-Q79",
+      "source_id": 1104179,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "How many graphs on n labeled vertices exist which have at least [latex]\\frac{(n^{2}-3n)}{2}[/latex] edges ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]^{(n^{2}-n)/2}C_{(n^{2}-3n)/2}[/latex]",
+        "B": "[latex]\\sum_{k=0}^{(n^{2}-3n)/2}(n^{2}-3n)/2[/latex]",
+        "C": "[latex]^{(n^{2}-n)/2}C_{n}[/latex]",
+        "D": "[latex]\\sum_{k=0}^{n} {^{(n^{2}-n)/2}C_{k}}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1073/gate2004-79#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 79
+    },
+    {
+      "id": "2014-S2-Q50",
+      "source_id": 1114250,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following relation on subsets of the set S of integers between 1 and 2014. For\ntwo distinct subsets U and V of S we say U[latex]\\lt[/latex]V if the minimum element in the symmetric\ndifference of the two sets is in U. <br>\nConsider the following two statements: <br>\nS1: There is a subset of S that is larger than every other subset. <br>\nS2: There is a subset of S that is smaller than every other subset. <br>\nWhich one of the following is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both S1 and S2 are true",
+        "B": "S1 is true and S2 is false",
+        "C": "S2 is true and S1 is false",
+        "D": "Neither S1 nor S2 is true"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "U [latex]\\lt[/latex] V when the smallest element of [latex]U\\triangle V[/latex] lies in U.<br><br>\n- Take U = S (the full set). For any V [latex]\\ne[/latex] S, [latex]S\\triangle V=S-V[/latex], whose minimum is in S. So S is smaller than every other subset [latex]\\rightarrow[/latex] S2 true.<br>\n- Take V = [latex]\\emptyset[/latex]. For any U, [latex]U\\triangle\\emptyset=U[/latex], minimum in U, so U [latex]\\lt\\emptyset[/latex]. So [latex]\\emptyset[/latex] is larger than every other subset [latex]\\rightarrow[/latex] S1 true.<br><br>\n<b>Answer: Both S1 and S2 are true</b><br><br><a href=\"https://gateoverflow.in/2016/gate2014-2-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 50
+    },
+    {
+      "id": "2025-S1-Q39",
+      "source_id": 1125139,
+      "number": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "[latex] A = \\{ 0,1,2,3,\\dots \\} [/latex] is the set of non-negative integers. Let [latex] {F} [/latex] be the set of functions from [latex] A [/latex] to itself. For any two functions, [latex] f_1, f_2 \\in {F} [/latex], we define  \n<br><br>\n[latex] (f_1 \\odot f_2)(n) = f_1(n) + f_2(n)[/latex]\n<br><br>\nfor every number [latex] n [/latex] in [latex] A [/latex]. Which of the following is/are CORRECT about the mathematical structure [latex] ({F}, \\odot ) [/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] ({F}, \\odot ) [/latex] is an Abelian group.",
+        "B": "[latex] ({F}, \\odot ) [/latex] is an Abelian monoid.",
+        "C": "[latex] ({F}, \\odot ) [/latex] is a non-Abelian group.",
+        "D": "[latex] ({F}, \\odot ) [/latex] is a non-Abelian monoid."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "[latex](f_1\\odot f_2)(n)=f_1(n)+f_2(n)[/latex] &mdash; pointwise addition of functions into the non-negative integers.<br><br>\n- <b>Closure:</b> the sum of two non-negative-integer values is still a non-negative integer, so [latex]F[/latex] is closed under [latex]\\odot[/latex].<br>\n- <b>Associativity:</b> inherited directly from ordinary integer addition being associative.<br>\n- <b>Identity:</b> the constant-zero function [latex]z(n)=0[/latex] satisfies [latex]f\\odot z=f[/latex] for every [latex]f[/latex] &mdash; an identity element exists.<br>\n- <b>Commutativity:</b> [latex]f_1(n)+f_2(n)=f_2(n)+f_1(n)[/latex] pointwise, so [latex]\\odot[/latex] is commutative.<br>\n- <b>Inverses:</b> for a general [latex]f[/latex] (e.g. [latex]f(n)=n[/latex]), we'd need some [latex]g[/latex] with [latex]f(n)+g(n)=0[/latex], forcing [latex]g(n)=-f(n)[/latex] &mdash; but negative values aren't allowed in the codomain [latex]A[/latex]. So inverses generally don't exist.<br><br>\nSince it's closed, associative, has an identity, and is commutative, but lacks inverses, [latex](F,\\odot)[/latex] is exactly an <b>Abelian monoid</b> (not a group).<br><br>\n<b>Answer: (F, &#8857;) is an Abelian monoid.</b><br><br><a href=\"https://gateoverflow.in/460041/gate-cse-2025-set-1-question-39#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 39
+    },
+    {
+      "id": "2019-Q47",
+      "source_id": 1119147,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose Y is distributed uniformly in the open interval (1,6). The probability that the polynomial [latex]3x^2+6xY+3Y+6[/latex] has only real roots is (rounded off to 1 decimal place) _________. ",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.8,
+        0.8
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Real roots need discriminant [latex]\\ge0[/latex]:<br>\n[latex](6Y)^2-4\\cdot3\\cdot(3Y+6)\\ge0\\Rightarrow36Y^2-36Y-72\\ge0\\Rightarrow(Y-2)(Y+1)\\ge0[/latex]<br><br>\nFor Y in (1, 6) this means [latex]Y\\ge2[/latex]. Probability [latex]=\\frac{6-2}{6-1}=\\frac45=0.8[/latex]<br><br>\n<b>Answer: 0.8</b><br><br><a href=\"https://gateoverflow.in/302801/gate2019-cs-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 47
+    },
+    {
+      "id": "2023-Q39",
+      "source_id": 1123139,
+      "number": 27,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex] f:A\\rightarrow B[/latex] be an onto (or surjective) function, where [latex]A[/latex]  and [latex]B[/latex] are nonempty\nsets. Define an equivalence relation [latex] \\sim [/latex]  on the set [latex]A[/latex] as<br> [latex] a_1\\sim a_2 \\text{ if } f(a_1)=f(a_2),[/latex]  <br> where [latex] a_1, a_2  \\in A[/latex] . Let [latex] \\varepsilon =\\{[x]:x \\in A\\}[/latex]  be the set of all the equivalence classes\nunder [latex] \\sim [/latex]. Define a new mapping [latex] F: \\varepsilon \\rightarrow B[/latex]  as  <br>[latex]F([x]) = f(x),[/latex] for all the equivalence classes [latex][x][/latex] in [latex]  \\varepsilon[/latex]<br>Which of the following statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "F is NOT well-defined.",
+        "B": "F is an onto (or surjective) function.",
+        "C": "F is a one-to-one (or injective) function.",
+        "D": "F is a bijective function."
+      },
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "Check each property of F:<br>- <b>Well-defined</b>: if [x] = [y], then f(x) = f(y), so F gives the same value for every representative (option 1 FALSE).<br>\n- <b>Onto</b>: for any b in B, f is onto, so f(a) = b for some a, and F([a]) = b.<br>\n- <b>One-to-one</b>: F([x]) = F([y]) means f(x) = f(y), so [latex]x\\sim y[/latex] and [x] = [y].<br>\n- Onto and one-to-one [latex]\\rightarrow[/latex] <b>bijective</b>.<br><br>\n<b>Answer: Options 2, 3 and 4</b><br><br><a href=\"https://gateoverflow.in/399272/gate-cse-2023-question-39#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 39
+    },
+    {
+      "id": "2003-Q40",
+      "source_id": 1103140,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A graph G = (V, E) satisfies |E| [latex]\\leq[/latex]3|V|-6. The min-degree of G is defined as [latex]\\underset{v \\in V}{min}\\{degree(v)\\}[/latex].<br> Therefore, min-degree of G cannot be",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/931/gate2003-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 40
+    },
+    {
+      "id": "2021-S1-Q43",
+      "source_id": 1121143,
+      "number": 29,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A relation [latex]R[/latex] is said to be circular if [latex]aRb[/latex] and [latex]bRc[/latex] together imply [latex]cRa[/latex].\n<br>\nWhich of the following options is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If a relation S is reflexive and symmetric, then S is an equivalence relation.",
+        "B": "If a relation S is circular and symmetric, then S is an equivalence relation.",
+        "C": "If a relation S is reflexive and circular, then S is an equivalence relation.",
+        "D": "If a relation S is transitive and circular, then S is an equivalence relation."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<b>Reflexive + circular</b> gives an equivalence relation:<br>\n- Symmetric: aRb and bRb (reflexive) [latex]\\Rightarrow[/latex] bRa (circular).<br>\n- Transitive: aRb and bRc [latex]\\Rightarrow[/latex] cRa (circular) [latex]\\Rightarrow[/latex] aRc (symmetric).<br><br>\nThe others fail: reflexive + symmetric need not be transitive; circular + symmetric need not be reflexive (e.g. the empty relation); transitive + circular need not be reflexive either.<br><br>\n<b>Answer: Reflexive and circular [latex]\\Rightarrow[/latex] equivalence relation</b><br><br><a href=\"https://gateoverflow.in/357408/gate-cse-2021-set-1-question-43#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 43
+    },
+    {
+      "id": "2003-Q39",
+      "source_id": 1103139,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex]\\Sigma[/latex] = (a, b, c, d, e) be an alphabet. We define an encoding scheme as follows : g(a) = 3, g(b) = 5, g(c) = 7, g(d) = 9, g(e) = 11. <br> Let [latex]p_{i}[/latex] denote the i-th prime number ([latex]p_{i}[/latex]=2).  <br> For a non-empty string [latex]s=a_{1}...a_{n}[/latex], where each [latex]a_{i} \\in \\Sigma[/latex], define [latex]f(i)=\\prod_{i=1}^{n}{P_{i}}^{g(a_{i})}[/latex]. <br>\nFor a non-empty sequence [latex]< s_{j},...,s_{n} >[/latex] of strings from [latex]\\Sigma^{+}[/latex], <br>\ndefine [latex]h(<s_{i}...s_{n} >)=\\prod_{i=1}^{n}{P_{i}}^{f(s_{i})}[/latex] <br>\nWhich of the following numbers is the encoding, h, of a non-empty sequence of\nstrings?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]2^{7}3^{7}5^{7}[/latex]",
+        "B": "[latex]2^{8}3^{8}5^{8}[/latex]",
+        "C": "[latex]2^{9}3^{9}5^{9}[/latex]",
+        "D": "[latex]2^{10}5^{10}7^{10}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/930/gate2003-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 39
+    }
+  ]
+}

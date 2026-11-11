@@ -1,0 +1,825 @@
+{
+  "paper_id": "engineering-mathematics-01",
+  "paper": "Engineering Mathematics: Topic Mock 1",
+  "kind": "topic_mock",
+  "topic": "Engineering Mathematics",
+  "set": 1,
+  "duration_min": 90,
+  "total_marks": 41,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2014-S1-Q4",
+      "source_id": 1114104,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following system of equations: <br>     3x + 2y = 1 <br>\n4x + 7z = 1 <br>\nx + y + z = 3 <br>\nx - 2y + 7z = 0 <br>\nThe number of solutions for this system is",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.0,
+        1.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Solve the first three equations: from 3x + 2y = 1 and 4x + 7z = 1, substitute into x + y + z = 3: x = [latex]-[/latex]2.2, y = 3.8, z = 1.4.<br><br>\nCheck the 4th equation: [latex]-[/latex]2.2 [latex]-[/latex] 7.6 + 9.8 = 0 True. So the system is consistent with exactly one solution.<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/1757/gate2014-1-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 4
+    },
+    {
+      "id": "1998-Q3",
+      "source_id": 1101703,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements applies to the bisection method used for finding roots of functions:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "converges within a few iterations",
+        "B": "guaranteed to work for all continuous functions",
+        "C": "is faster than the Newton-Raphson method",
+        "D": "requires that there be no error in determining the sign of the function"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/1640/gate1998-1-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 3
+    },
+    {
+      "id": "2023-Q21",
+      "source_id": 1123121,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The value of the definite integral [latex] \\int_{-3}^{3}  \\int_{-2}^{2}  \\int_{-1}^{1} (4x^2y-z^3)dzdydx[/latex] is _____. (Rounded off to the nearest integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.0,
+        0.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Split the integrand:<br>\n- [latex]4x^2y[/latex]: odd in y, integrated over the symmetric range [latex][-2,2][/latex] [latex]\\rightarrow[/latex] 0<br>\n- [latex]z^3[/latex]: odd in z, integrated over [latex][-1,1][/latex] [latex]\\rightarrow[/latex] 0<br><br>\nTotal = 0<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/399290/gate-cse-2023-question-21#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 21
+    },
+    {
+      "id": "2012-Q11",
+      "source_id": 1112111,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A be the 2x2 matrix with elements [latex]a_{11}=a_{12}=a_{21}=+1[/latex] and [latex]a_{22}=-1[/latex]. Then the eigenvalues of\nthe matrix [latex]A^{19}[/latex] are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1024 and -1024",
+        "B": "1024[latex]\\sqrt{2}[/latex] and -1024[latex]\\sqrt{2}[/latex]",
+        "C": "4[latex]\\sqrt{2}[/latex] and -4[latex]\\sqrt{2}[/latex]",
+        "D": "512[latex]\\sqrt{2}[/latex] and -512[latex]\\sqrt{2}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]A=\\begin{bmatrix}1&1\\\\1&-1\\end{bmatrix}[/latex] has [latex]A^2=2I[/latex], so [latex]A^{19}=(A^2)^9A=512A[/latex].<br><br>\nThe eigenvalues of A are [latex]\\pm\\sqrt2[/latex] ([latex]\\lambda^2=2[/latex]), so those of [latex]A^{19}[/latex] are [latex]\\pm512\\sqrt2[/latex].<br><br>\n<b>Answer: [latex]512\\sqrt2[/latex] and [latex]-512\\sqrt2[/latex]</b><br><br><a href=\"https://gateoverflow.in/43/gate2012-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 11
+    },
+    {
+      "id": "2000-Q24",
+      "source_id": 1101924,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "X, Y and Z are closed intervals of unit length on the real line. The overlap of X and Y is half a unit. The overlap of Y and Z is also half a unit. Let the overlap of X and Z be k units. Which of the following is true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "k must be 1",
+        "B": "k must be 0",
+        "C": "k can take any value between 0 and 1",
+        "D": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/648/gate2000-2-1\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 24
+    },
+    {
+      "id": "2000-Q26",
+      "source_id": 1101926,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]S = \\sum_{i=3}^{100} i \\log_{2} i[/latex], and [latex]T = \\int_{2}^{100} x \\log_{2}x dx.[/latex]<br>\nWhich of the following statements is true?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " [latex]S \\gt T [/latex]",
+        "B": " [latex]S = T [/latex]",
+        "C": " [latex]S \\lt T [/latex] and  [latex]2S \\gt T [/latex]",
+        "D": " [latex]2S \\leq T[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/650/gate2000-2-3\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 26
+    },
+    {
+      "id": "1998-Q37",
+      "source_id": 1101737,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following determinant [latex]\\Delta = \\begin{vmatrix} 1 & a & bc \\\\ 1 & b & ca \\\\ 1 & c & ab \\end{vmatrix}[/latex]<br>\nWhich of the following is a factor of [latex]\\Delta[/latex]?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a+b",
+        "B": "a-b",
+        "C": "a+b+c",
+        "D": "abc"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1674/gate1998-2-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 37
+    },
+    {
+      "id": "2015-S1-Q2",
+      "source_id": 1115102,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "[latex]\\lim_{x\\rightarrow \\infty }x^{1/x}[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\infty[/latex]",
+        "B": "0",
+        "C": "1",
+        "D": "Not defined"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]x^{1/x}=e^{\\frac{\\ln x}{x}}[/latex], and [latex]\\frac{\\ln x}{x}\\rightarrow0[/latex] as [latex]x\\rightarrow\\infty[/latex].<br><br>\nSo the limit is [latex]e^0=1[/latex].<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/8021/gate2015-1-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 2
+    },
+    {
+      "id": "2007-Q1",
+      "source_id": 1107101,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following two statements about the function f(x)=|x|:<br><br>\r\nP.  f(x) is continuous for all real values of x <br>\r\nQ. f(x) is differentiable for all real values of x <br><br>\r\nWhich of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P is true and Q is false.",
+        "B": "P is false and Q is true.",
+        "C": "Both P and Q are true.",
+        "D": "Both P and Q are false."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/1200/gate2007-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 1
+    },
+    {
+      "id": "2019-Q9",
+      "source_id": 1119109,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let X be a square matrix. Consider the following two statements on X.<br><br>\nI. X is invertible<br>\nII. Determinant of X is non-zero <br><br>\nWhich one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I implies II; II does not imply I",
+        "B": "II implies I; I does not imply II",
+        "C": "I does not imply II; II does not imply I",
+        "D": "I and II are equivalent statements"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "A square matrix is invertible <b>if and only if</b> its determinant is non-zero ([latex]X^{-1}=\\frac{adj(X)}{\\det X}[/latex]). So I and II imply each other.<br><br>\n<b>Answer: I and II are equivalent statements</b><br><br><a href=\"https://gateoverflow.in/302839/gate2019-cs-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 9
+    },
+    {
+      "id": "1997-Q29",
+      "source_id": 1101629,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A polynomial p(x) is such that p(0)=5,p(1)=4,p(2)=9 and p(3)=20. The minimum degree it should have is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2245/gate1997-4-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 29
+    },
+    {
+      "id": "2026-S2-Q21",
+      "source_id": 1126221,
+      "number": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the system of linear equations given below.<br><br> [latex] \\begin{array}{c} a x+y=b \\\\ 16 x+a y=24 \\end{array} [/latex] <br><br>Suppose the values of [latex]a[/latex] and [latex]b[/latex] are chosen such that the system of linear equations produce multiple solutions. Then the product of [latex]a[/latex] and [latex]b[/latex] is ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        24.0,
+        24.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "The system [latex]ax+y=b,\\ 16x+ay=24[/latex] has infinitely many (multiple) solutions exactly when the two equations describe the <i>same line</i>, i.e. all three coefficient ratios are equal:<br>\n[latex]\\dfrac{a}{16}=\\dfrac{1}{a}=\\dfrac{b}{24}[/latex]<br><br>\nFrom [latex]\\dfrac{a}{16}=\\dfrac{1}{a}[/latex]: [latex]a^2=16\\Rightarrow a=\\pm4[/latex].<br>\nFrom [latex]\\dfrac{1}{a}=\\dfrac{b}{24}[/latex]: [latex]b=\\dfrac{24}{a}[/latex].<br><br>\nIf [latex]a=4[/latex]: [latex]b=24/4=6[/latex], so [latex]ab=4\\times6=24[/latex].<br>\nIf [latex]a=-4[/latex]: [latex]b=24/(-4)=-6[/latex], so [latex]ab=(-4)\\times(-6)=24[/latex].<br><br>\nEither valid choice of [latex]a[/latex] gives the same product.<br><br>\n<b>Answer: 24</b> <br><br> <a href=\"https://gateoverflow.in/523125/gate-cse-2026-set-2-question-21#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 21
+    },
+    {
+      "id": "1995-Q24",
+      "source_id": 1101424,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The rank of the following [latex](n+1) \\times (n+1)[/latex] matrix, where a is a real number is <br>\r\n[latex]\\begin{bmatrix} 1 & a & a^2 & \\dots & a^n \\\\ 1 & a & a^2 & \\dots & a^n \\\\ \\vdots & \\vdots & \\vdots & \\: & \\vdots \\\\ \\vdots & \\vdots & \\vdots & \\: & \\vdots \\\\ 1 & a & a^2 & \\dots & a^n \\end{bmatrix}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "n",
+        "D": "Depends on the value of a"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2611/gate1995-1-24\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 24
+    },
+    {
+      "id": "2022-Q24",
+      "source_id": 1122124,
+      "number": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The value of the following limit is _____<br>[latex] \\lim_{x  \\to 0+} \\frac{ \\sqrt{x}}{1-e^{2 \\sqrt{x}}}[/latex]",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        -0.5,
+        -0.5
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Let [latex]t=\\sqrt x\\to0^+[/latex]: the limit is [latex]\\lim_{t\\to0}\\frac{t}{1-e^{2t}}[/latex] (form 0/0).<br><br>\nSince [latex]e^{2t}\\approx1+2t[/latex]: [latex]\\frac{t}{1-e^{2t}}\\approx\\frac{t}{-2t}=-\\frac12[/latex] (same by L'Hospital: [latex]\\frac{1}{-2e^{2t}}\\to-\\frac12[/latex]).<br><br>\n<b>Answer: -0.5</b><br><br><a href=\"https://gateoverflow.in/371912/Gate-cse-2022-question-24#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 24
+    },
+    {
+      "id": "2026-S1-Q3",
+      "source_id": 1126103,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For [latex]n>1[/latex], the maximum multiplicity of any eigenvalue of an [latex]n \\times n[/latex] matrix with elements from [latex]\\mathbb{R}[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]n[/latex]",
+        "B": "[latex]n-1[/latex]",
+        "C": "[latex]1[/latex]",
+        "D": "[latex]n+1[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "For an [latex]n\\times n[/latex] real matrix, the multiplicity of any eigenvalue (as a root of the characteristic polynomial, which has degree [latex]n[/latex]) can be at most [latex]n[/latex].<br><br>\r\nThis bound is achieved: for example, the identity matrix [latex]I_n[/latex] (or any scalar matrix [latex]cI_n[/latex]) has the single eigenvalue [latex]c[/latex] repeated exactly [latex]n[/latex] times.<br><br>\r\nSo the maximum possible multiplicity of any eigenvalue is [latex]n[/latex].<br><br>\r\n<b>Answer: n</b><br><br> <a href=\"https://gateoverflow.in/523077/gate-cse-2026-set-1-question-3#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 3
+    },
+    {
+      "id": "1997-Q27",
+      "source_id": 1101627,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]A=(a_{ij})[/latex] be an n-rowed square matrix and [latex]I_{12}[/latex] be the matrix obtained by interchanging the first and second rows of the n-rowed Identity matrix. Then [latex]AI_{12}[/latex] is such that its first\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Row is the same as its second row",
+        "B": "Row is the same as the second row of A",
+        "C": "Column is the same as the second column of A",
+        "D": "Row is all zero"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2243/gate1997-4-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 27
+    },
+    {
+      "id": "2010-Q5",
+      "source_id": 1110105,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the value of [latex]\\lim_{n\\rightarrow \\infty }(1-\\frac{1}{n})^{2n}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "[latex]e^{-2}[/latex]",
+        "C": "[latex]e^{-1/2}[/latex]",
+        "D": "1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]\\left(1-\\frac1n\\right)^{2n}=\\left[\\left(1-\\frac1n\\right)^{n}\\right]^2\\rightarrow(e^{-1})^2=e^{-2}[/latex]<br><br>\n<b>Answer: [latex]e^{-2}[/latex]</b><br><br><a href=\"https://gateoverflow.in/1151/gate2010-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 5
+    },
+    {
+      "id": "1995-Q23",
+      "source_id": 1101423,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The value of k for which [latex]4x^2 - 8xy + ky^2 = 0[/latex] does not represent a pair of straight lines (both passing through the origin) is:\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "9",
+        "D": "3"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": null,
+      "explanation": "<a href=\"https://gateoverflow.in/2610/gate1995-1-23\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 23
+    },
+    {
+      "id": "2015-S1-Q23",
+      "source_id": 1115123,
+      "number": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "In the LU decomposition of the matrix [latex]\\begin{bmatrix} 2 & 2\\\\ 4&9 \\end{bmatrix}[/latex], if the diagonal elements of U are both 1, then the lower diagonal entry [latex]l_{22}[/latex] of L is________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Crout form: [latex]\\begin{bmatrix}2&2\\\\4&9\\end{bmatrix}=\\begin{bmatrix}l_{11}&0\\\\l_{21}&l_{22}\\end{bmatrix}\\begin{bmatrix}1&u_{12}\\\\0&1\\end{bmatrix}[/latex]<br><br>\n- [latex]l_{11}=2,\\; l_{11}u_{12}=2\\Rightarrow u_{12}=1[/latex]<br>\n- [latex]l_{21}=4,\\; l_{21}u_{12}+l_{22}=9\\Rightarrow l_{22}=5[/latex]<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/8241/gate2015-1-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 23
+    },
+    {
+      "id": "2004-Q71",
+      "source_id": 1104171,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "How many solutions does the following system of linear equations have?<br><br>\n-x + 5y = -1 <br>\nx - y = 2 <br>\nx + 3y = 3 <br>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "infinitely many",
+        "B": "two distinct solutions",
+        "C": "unique",
+        "D": "none"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1065/gate2004-71#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 71
+    },
+    {
+      "id": "2017-S1-Q30",
+      "source_id": 1117130,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let u and v be two vectors in [latex]R^{2}[/latex] whose Euclidean norms satisfy ||u||=2|| v|| . What is the value of [latex]\\alpha[/latex] such that w=u+[latex]\\alpha[/latex]v bisects the angle between u and v ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "[latex]1/2[/latex]",
+        "C": "1",
+        "D": "[latex]-1/2[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "The bisector points along the sum of the <b>unit</b> vectors: [latex]\\frac{u}{\\|u\\|}+\\frac{v}{\\|v\\|}=\\frac{u}{2\\|v\\|}+\\frac{v}{\\|v\\|}=\\frac{1}{2\\|v\\|}(u+2v)[/latex].<br><br>\nSo w = u + 2v bisects the angle: [latex]\\alpha=2[/latex].<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/118311/gate2017-1-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 30
+    },
+    {
+      "id": "2026-S2-Q54",
+      "source_id": 1126254,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a function [latex]f : (0,1) \\rightarrow \\{0,1\\}[/latex] defined as follows.<br><br>\nFor a real number [latex]r \\in (0,1)[/latex], [latex]f(r) = 1[/latex] if the second digit after the decimal point in [latex]r[/latex] is one of the four digits [latex]2, 3, 6,[/latex] and [latex]7[/latex]. Otherwise, [latex]f(r)[/latex] is equal to [latex]0[/latex].<br><br>\nThe number of points in [latex](0,1)[/latex] at which [latex]f[/latex] is discontinuous is ______. (Answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        40.0,
+        40.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]f(r)[/latex] depends <i>only</i> on the second digit after the decimal point of [latex]r[/latex]. So [latex](0,1)[/latex] is effectively divided into [latex]100[/latex] equal sub-intervals of length [latex]0.01[/latex] (one for each combination of the first two decimal digits), and [latex]f[/latex] is <b>constant</b> throughout each sub-interval, jumping only at the [latex]99[/latex] internal boundary points [latex]r=0.01,0.02,\\ldots,0.99[/latex] (a discontinuity occurs at a boundary only if [latex]f[/latex]'s value actually changes across it, i.e. the second digit switches between the \"special\" set [latex]\\{2,3,6,7\\}[/latex] and the rest).<br><br>\nWithin any fixed first digit, as the second digit cycles [latex]0,1,2,\\ldots,9[/latex], the pattern of \"special vs. non-special\" is: N,N,S,S,N,N,S,S,N,N. Checking each of the [latex]9[/latex] consecutive transitions within this block ([latex]0|1,1|2,\\ldots,8|9[/latex]): the value actually <i>changes</i> at [latex]1|2,\\ 3|4,\\ 5|6,[/latex] and [latex]7|8[/latex] (four changes), while it stays the same at the other five transitions (including the wrap from [latex]9[/latex] to the next first-digit's [latex]0[/latex], since both are non-special).<br><br>\nSo each of the [latex]10[/latex] first-digit blocks contributes exactly [latex]4[/latex] genuine discontinuities, and the wrap-around boundaries between blocks never add any more (non-special to non-special). Total discontinuities [latex]=10\\times4=40[/latex].<br><br>\n<b>Answer: 40</b> <br><br> <a href=\"https://gateoverflow.in/523092/gate-cse-2026-set-2-question-54#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 54
+    },
+    {
+      "id": "2011-Q31",
+      "source_id": 1111131,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given [latex]i=\\sqrt{-1}[/latex], what will be the evaluation of the definite integral [latex]\\int_{0}^{\\pi /2}\\frac{cosx + i sinx}{cosx -i sinx} dx[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "i",
+        "D": "[latex]-i[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]\\frac{\\cos x+i\\sin x}{\\cos x-i\\sin x}=\\frac{e^{ix}}{e^{-ix}}=e^{2ix}[/latex]<br><br>\n[latex]\\int_0^{\\pi/2}e^{2ix}dx=\\frac{e^{i\\pi}-1}{2i}=\\frac{-2}{2i}=-\\frac1i=i[/latex]<br><br>\n<b>Answer: i</b><br><br><a href=\"https://gateoverflow.in/2133/gate2011-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 31
+    },
+    {
+      "id": "2014-S2-Q47",
+      "source_id": 1114247,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The product of the non-zero eigenvalues of the matrix <br>[latex]\\begin{bmatrix} 1 & 0&0 & 0&1 \\\\ 0& 1& 1 & 1 & 0\\\\ 0& 1& 1& 1&0 \\\\ 0 & 1 & 1 & 1 & 0\\\\ 1&0 & 0&0 & 1 \\end{bmatrix}[/latex] <br> is_______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        6.0,
+        6.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Rows/columns 1, 5 form the block [latex]\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}[/latex] with eigenvalues 2, 0.<br>\nRows/columns 2, 3, 4 form the 3 [latex]\\times[/latex] 3 all-ones block with eigenvalues 3, 0, 0.<br><br>\nNon-zero eigenvalues are 2 and 3, product = 6.<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/2013/gate2014-2-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 47
+    },
+    {
+      "id": "2016-S2-Q27",
+      "source_id": 1116227,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following well-formed formulae in predicate calculus is NOT valid?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](\\forall x p(x)\\Rightarrow \\forall xq(x))\\Rightarrow (\\exists x\\neg p(x) \\vee \\forall xq(x))[/latex]",
+        "B": "[latex](\\exists xp(x)\\vee \\exists xq(x))\\Rightarrow \\exists x(p(x)\\vee  q(x))[/latex]",
+        "C": "[latex]\\exists x (p(x)\\wedge q(x)) \\Rightarrow (\\exists xp(x)\\wedge \\exists xq(x))[/latex]",
+        "D": "[latex]\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) [/latex]\n"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Option 4 is not valid: take a domain {1, 2} with p(1), q(2) true and p(2), q(1) false. Then every x satisfies p(x) [latex]\\vee[/latex] q(x), but neither \"all p\" nor \"all q\" holds.<br><br>\nOptions 1-3 are standard valid implications.<br><br>\n<b>Answer: Option 4</b><br><br><a href=\"https://gateoverflow.in/39618/gate2016-2-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 27
+    },
+    {
+      "id": "2022-Q43",
+      "source_id": 1122143,
+      "number": 26,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Which of the following is/are the eigenvector(s) for the matrix given below?<br>[latex] \\begin{pmatrix}\n-9 &-6  &-2  &-4  \\\\ \n -8& -6 & -3 & -1 \\\\ \n20 & 15 & 8 & 5 \\\\ \n 32&  21&  7&12 \n \\end{pmatrix}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\begin{pmatrix}\n-1\\\\ \n1\\\\ \n0\\\\\n1\n\\end{pmatrix}[/latex]",
+        "B": "[latex]\\begin{pmatrix}\n1\\\\ \n0\\\\ \n-1\\\\\n0\n\\end{pmatrix}[/latex]",
+        "C": "[latex]\\begin{pmatrix}\r\n-1\\\\ \r\n0\\\\ \r\n2\\\\\r\n2\r\n\\end{pmatrix}[/latex]",
+        "D": "[latex]\\begin{pmatrix}\n0\\\\ \n1\\\\ \n-3\\\\\n0\n\\end{pmatrix}[/latex]"
+      },
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Multiply the matrix by each vector and check if the result is a multiple of it:<br>\n- [latex](-1,1,0,1)\\rightarrow(-1,1,0,1)[/latex] = 1[latex]\\cdot[/latex]v True<br>\n- [latex](1,0,-1,0)\\rightarrow(-7,-5,12,25)[/latex] [latex]\\text{---}[/latex] not a multiple False<br>\n- [latex](-1,0,2,2)\\rightarrow(-3,0,6,6)[/latex] = 3[latex]\\cdot[/latex]v True<br>\n- [latex](0,1,-3,0)\\rightarrow(0,3,-9,0)[/latex] = 3[latex]\\cdot[/latex]v True<br><br>\n<b>Answer: Options 1, 3 and 4</b><br><br><a href=\"https://gateoverflow.in/371893/Gate-cse-2022-question-43#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 43
+    },
+    {
+      "id": "2003-Q41",
+      "source_id": 1103141,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following system of linear equations <br>  [latex]\\begin{bmatrix} 2 & 1 & -4\\\\ 4 & 3 & -12\\\\ 1 & 2 & -8 \\end{bmatrix}\\begin{bmatrix} x\\\\ y\\\\ z \\end{bmatrix}\\begin{bmatrix} \\alpha \\\\ 5\\\\ 7 \\end{bmatrix}[/latex] <br>  Notice that the second and the third columns of the coefficient matrix are linearly\r\ndependent. For how many values of [latex]\\alpha[/latex], does this system of equations have\r\ninfinitely many solutions?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "infinitely many"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/932/gate2003-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 41
+    },
+    {
+      "id": "2006-Q23",
+      "source_id": 1106123,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "F is an nxn real matrix. b is an nx1 real vector. Suppose there are two nx1\nvectors, u and v such that u[latex]\\neq[/latex]v , and Fu=b, Fv=b.\n Which one of the following statements is false?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Determinant of F is zero",
+        "B": "There are an infinite number of solutions to Fx = b",
+        "C": "There is an x[latex]\\neq[/latex]0 such that Fx = 0",
+        "D": "F must have two identical rows"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/984/gate2006-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 23
+    },
+    {
+      "id": "2016-S1-Q26",
+      "source_id": 1116126,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The coefficient of [latex]x^{12}[/latex] in [latex](x^{3}+x^{4}+x^{5}+x^{6}+. . . )^{3}[/latex] is ______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        10.0,
+        10.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex](x^3+x^4+\\cdots)^3=x^9(1+x+x^2+\\cdots)^3=x^9(1-x)^{-3}[/latex]<br><br>\nWe need the coefficient of [latex]x^3[/latex] in [latex](1-x)^{-3}[/latex]: [latex]\\binom{3+2}{2}=10[/latex].<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/39693/gate2016-1-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 26
+    },
+    {
+      "id": "2015-S2-Q41",
+      "source_id": 1115241,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The secant method is used to find the root of an equation f(x)=0. It is started from two distinct estimates [latex]x_{a}[/latex] and [latex]x_{b}[/latex] for the root. It is an iterative procedure involving linear interpolation to a root. The iteration stops if [latex]f(x_{b})[/latex] is very small and then [latex]x_{b}[/latex] is the solution. The procedure is given below. Observe that there is an expression which is missing and is marked by ?. Which is the suitable expression that is to be put in place of ? so that it follows all steps of the secant method?  <br><img src=\"/wp-content/uploads/GATE/CS/20152/q41.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20152/q41.jpg"
+      ],
+      "options": {
+        "A": "[latex]x_{b}-(f_{b}-f(x_{a}))f_{b}/(x_{b}-x_{a})[/latex]",
+        "B": "[latex]x_{a}-(f_{b}-f(x_{a}))f_{a}/(x_{b}-x_{a})[/latex]",
+        "C": "[latex]x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))[/latex]",
+        "D": "[latex]x_{a}-(x_{b}-x_{a})f_{a}/(f_{b}-f(x_{a}))[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "The secant line through [latex](x_a,f(x_a))[/latex] and [latex](x_b,f_b)[/latex] crosses the x-axis at:<br><br>\n[latex]x_t=x_b-\\frac{(x_b-x_a)f_b}{f_b-f(x_a)}[/latex]<br><br>\n<b>Answer: [latex]x_b-(x_b-x_a)f_b/(f_b-f(x_a))[/latex]</b><br><br><a href=\"https://gateoverflow.in/8210/gate2015-2-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 41
+    }
+  ]
+}

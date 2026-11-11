@@ -1,0 +1,850 @@
+{
+  "paper_id": "databases-02",
+  "paper": "Databases: Topic Mock 2",
+  "kind": "topic_mock",
+  "topic": "Databases",
+  "set": 2,
+  "duration_min": 90,
+  "total_marks": 49,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2026-S2-Q5",
+      "source_id": 1126205,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the context of DBMS, consider the two sets [latex]\\mathbf{T}[/latex] and [latex]\\mathbf{S}[/latex] given below. <br><br>[latex] \\begin{array}{|l|l|} \\hline \\quad\\quad\\quad\\textbf{T} & \\quad\\quad\\quad\\textbf{S} \\\\ \\hline \\text{I: Logical schema} & \\text{L: Views} \\\\ \\text{II: Physical schema} & \\text{M: File organization and indexes} \\\\ \\text{III: External schema} & \\text{N: Relations} \\\\ \\hline \\end{array} [/latex] <br><br>Which one of the following is the correct match from [latex]\\mathbf{T}[/latex] to [latex]\\mathbf{S}[/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]{I}-{L}, {II}-{M}, {III}-{N}[/latex]",
+        "B": "[latex]{I}-{M}, {II}-{L}, {III}-{N}[/latex]",
+        "C": "[latex]{I}-{N}, {II}-{M}, {III}-{L}[/latex]",
+        "D": "[latex]{I}-{N}, {II}-{L}, {III}-{M}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "Matching each schema level in the three-tier DBMS architecture to what it describes:<br><br>\n- <b>Logical schema (I):</b> describes the overall logical structure of the database for the whole community of users &mdash; this is exactly what <b>relations (N)</b> capture.<br>\n- <b>Physical schema (II):</b> describes how data is actually stored at the lowest level &mdash; <b>file organization and indexes (M)</b>.<br>\n- <b>External schema (III):</b> describes a customized, user-specific way of seeing part of the data &mdash; exactly what <b>views (L)</b> provide.<br><br>\n<b>Answer: I-N, II-M, III-L</b> <br><br> <a href=\"https://gateoverflow.in/523141/gate-cse-2026-set-2-question-5#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 5
+    },
+    {
+      "id": "2024-S2-Q9",
+      "source_id": 1124209,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Once the DBMS informs the user that a transaction has been successfully\ncompleted, its effect should persist even if the system crashes before all its changes\nare reflected on disk. This property is called",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "durability",
+        "B": "atomicity",
+        "C": "consistency",
+        "D": "isolation"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "Once a transaction commits, its changes must survive any later crash (using the log for recovery). This is the <b>Durability</b> property of ACID.<br><br>\n<b>Answer: durability</b><br><br><a href=\"https://gateoverflow.in/422888/gate-cse-2024-set-2-question-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 9
+    },
+    {
+      "id": "2010-Q19",
+      "source_id": 1110119,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A relational schema for a train reservation database is given below\n<br><img src=\"/wp-content/uploads/GATE/CS/20101/q19.jpg\"/> <br> What pids are returned by the following SQL query for the above instance of the\ntables?\n<pre><code> SELECT pid\nFROM Re servation\nWHERE class = 'AC' AND\n     EXISTS (SELECT *\n                      FROM Passenger\n                      WHERE age > 65 AND\n                      Passenger.pid = Reservation.pid) </pre></code>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20101/q19.jpg"
+      ],
+      "options": {
+        "A": "1,0",
+        "B": "1,2",
+        "C": "1,3",
+        "D": "1,5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "AC reservations: pids 0, 1, 5, 3.<br><br>\nKeep those with a passenger of age [latex]\\gt[/latex] 65:<br>\n- 0: age 65 [latex]\\rightarrow[/latex] no<br>\n- 1: 66 [latex]\\rightarrow[/latex] yes<br>\n- 5: no such passenger [latex]\\rightarrow[/latex] no<br>\n- 3: 69 [latex]\\rightarrow[/latex] yes<br><br>\n<b>Answer: 1, 3</b><br><br><a href=\"https://gateoverflow.in/2194/gate2010-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 19
+    },
+    {
+      "id": "2022-Q4",
+      "source_id": 1122104,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a relational data model, which one of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A relation with only two attributes is always in BCNF.",
+        "B": "If all attributes of a relation are prime attributes, then the relation is in BCNF.",
+        "C": "Every relation has at least one non-prime attribute.",
+        "D": "BCNF decompositions preserve functional dependencies."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "Checking each statement:<br>- Relation R(A, B): the only possible non-trivial FDs are [latex]A\\rightarrow B[/latex] or [latex]B\\rightarrow A[/latex]. In each case the left side is a key, so R is always in BCNF [latex]\\text{---}[/latex] TRUE.<br>\n- All attributes prime guarantees 3NF, not BCNF (e.g. [latex]AB\\rightarrow C,\\ C\\rightarrow B[/latex]) [latex]\\text{---}[/latex] FALSE.<br>\n- A relation can have no non-prime attribute (e.g. all attributes form the key) [latex]\\text{---}[/latex] FALSE.<br>\n- BCNF decomposition does not always preserve FDs [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: A relation with only two attributes is always in BCNF</b><br><br><a href=\"https://gateoverflow.in/371932/Gate-cse-2022-question-4#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 4
+    },
+    {
+      "id": "2014-S3-Q21",
+      "source_id": 1114321,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the optimized version of the relation algebra expression  [latex]\\pi _{A1}(\\pi _{A2}(\\sigma _{F1}(\\sigma_{F2}(r))))[/latex] , where A1, A2 are sets of attributes in r with [latex]A_{1}\\subset A_{2}[/latex] and F1, F2 are Boolean expressions based on the attributes in r?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\pi _{A1}(\\sigma_{(F1 \\wedge F2)}(r))[/latex]",
+        "B": "[latex]\\pi _{A1}(\\sigma_{(F1\\vee F2)}(r))[/latex]",
+        "C": "[latex]\\pi _{A2}(\\sigma_{(F1\\wedge F2)}(r))[/latex]",
+        "D": "[latex]\\pi _{A2}(\\sigma_{(F1 \\vee F2)}(r))[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "Checking each statement:<br>- Two selections combine: [latex]\\sigma_{F1}(\\sigma_{F2}(r))=\\sigma_{F1\\wedge F2}(r)[/latex]<br>\n- Since [latex]A_1\\subset A_2[/latex], [latex]\\pi_{A1}(\\pi_{A2}(\\cdot))=\\pi_{A1}(\\cdot)[/latex]<br><br>\n<b>Answer: [latex]\\pi_{A1}(\\sigma_{F1\\wedge F2}(r))[/latex]</b><br><br><a href=\"https://gateoverflow.in/2055/gate2014-3-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 21
+    },
+    {
+      "id": "2020-Q13",
+      "source_id": 1120113,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a relational database containing the following schemas. <br><img src=\"/wp-content/uploads/GATE/CS/20201/q13.jpg\" /><br>The primary key of each table is indicated by underlining the constituent fields.    <pre><code> SELECT s.sno, s.sname\n    FROM Suppliers s, Catalogue c\n    WHERE s.sno=c.sno AND\n        cost > (SELECT AVG (cost)\n                FROM Catalogue\n                WHERE pno = 'P4'\n                GROUP BY pno) ;</pre></code><br>The number of rows returned by the above SQL query is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20201/q13.jpg"
+      ],
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "0",
+        "D": "2"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "Subquery: average cost of P4 = (200 + 250) / 2 = 225.<br><br>\nCatalogue rows with cost [latex]\\gt[/latex] 225: (S2, P5, 250), (S3, P1, 250), (S3, P5, 300), (S3, P4, 250) [latex]\\rightarrow[/latex] 4 rows.<br><br>\nEach joins with exactly one supplier, and there is no DISTINCT, so 4 rows are returned.<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/333218/gate2020-cs-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 13
+    },
+    {
+      "id": "2002-Q50",
+      "source_id": 1102150,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "From the following instance of relation schema R(A,B,C), we can conclude that : <br><img src=\"/wp-content/uploads/GATE/CS/20021/q50.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20021/q50.jpg"
+      ],
+      "options": {
+        "A": "A functionally determines B and B functionally determines C",
+        "B": "A functionally determines B and B does not functionally determines C .",
+        "C": "B does not functionally determines C",
+        "D": "A does not functionally B and B does not functionally determines."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "<a href=\"https://gateoverflow.in/855/gate2002-2-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 50
+    },
+    {
+      "id": "2005-Q29",
+      "source_id": 1105129,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following statements about normal forms is FALSE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "BCNF is stricter than 3NF",
+        "B": "Lossless, dependency-preserving decomposition into 3NF is always possible",
+        "C": "Lossless, dependency-preserving decomposition into BCNF is always possible",
+        "D": "Any relation with two attributes is in BCNF"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "<a href=\"https://gateoverflow.in/1365/gate2005-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 29
+    },
+    {
+      "id": "2020-Q14",
+      "source_id": 1120114,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is used to represent the supporting many-one relationships of a weak entity set in an entity-relationship diagram?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Diamonds with double/bold border ",
+        "B": "Rectangles with double/bold border",
+        "C": "Ovals with double/bold border",
+        "D": "Ovals that contain underlined identifiers"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "ER Model",
+      "explanation": "The relationship that links a weak entity to its owner (the <b>identifying relationship</b>) is drawn as a diamond with a double border. The weak entity itself is a double rectangle.<br><br>\n<b>Answer: Diamonds with double/bold border</b><br><br><a href=\"https://gateoverflow.in/333217/gate2020-cs-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 14
+    },
+    {
+      "id": "2014-S2-Q21",
+      "source_id": 1114221,
+      "number": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The maximum number of super keys for the relation schema R (E, F, G, H) with E as the key\nis __________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "A super key must contain E. The other attributes F, G, H may or may not be included.<br><br>\n[latex]2^3=8[/latex] super keys.<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/1978/gate2014-2-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 21
+    },
+    {
+      "id": "2010-Q20",
+      "source_id": 1110120,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following concurrency control protocols ensure both conflict\nserializability and freedom from deadlock?<br>\nI. 2-phase locking <br>\nII. Time-stamp ordering",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "Checking each statement:<br>- 2PL guarantees conflict serializability but can deadlock.<br>\n- Timestamp ordering is serializable in timestamp order and never waits in a cycle (it aborts instead) [latex]\\rightarrow[/latex] deadlock-free.<br><br>\n<b>Answer: II only</b><br><br><a href=\"https://gateoverflow.in/2196/gate2010-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 20
+    },
+    {
+      "id": "2005-Q77",
+      "source_id": 1105177,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The relation book (title, price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list? <pre><code> select title\n  from book as B\n  where (select count(*)\n     from book as T\n     where T.price > B.price) < 5 </pre></code> ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Titles of the four most expensive books",
+        "B": "Title of the fifth most inexpensive book",
+        "C": "Title of the fifth most expensive bookTitles of the five most expensive books",
+        "D": "Titles of the five most expensive books"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "<a href=\"https://gateoverflow.in/1400/gate2005-77#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 77
+    },
+    {
+      "id": "2015-S3-Q41",
+      "source_id": 1115341,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following partial Schedule S involving two transactions T1 and T2. Only the read and the write operations have been shown. The read operation on data item P is denoted by read(P) and the write operation on data item P is denoted by write(P). <br><img src=\"/wp-content/uploads/GATE/CS/20153/q41.jpg\"/> <br> Suppose that the transaction T1 fails immediately after time instance 9. Which one of the following statements is correct?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q41.jpg"
+      ],
+      "options": {
+        "A": "T2 must be aborted and then both T1 and T2 must be re-started to ensure transaction atomicity",
+        "B": "Schedule S is non-recoverable and cannot ensure transaction atomicity",
+        "C": "Only T2 must be aborted and then re-started to ensure transaction atomicity",
+        "D": "Schedule S is recoverable and can ensure atomicity and nothing else needs to be done"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "T2 reads A (time 7) after T1 wrote it (time 2), and T2 commits at time 8 before T1 commits.<br><br>\nWhen T1 fails, T2 has already committed using a value of A that must be rolled back. Its effects cannot be undone, so S is non-recoverable.<br><br>\n<b>Answer: Schedule S is non-recoverable and cannot ensure transaction atomicity</b><br><br><a href=\"https://gateoverflow.in/8482/gate2015-3-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 41
+    },
+    {
+      "id": "2024-S1-Q36",
+      "source_id": 1124136,
+      "number": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following read-write schedule [latex] S [/latex] over three transactions [latex] T_1, T_2 [/latex], and [latex] T_3 [/latex], where the subscripts in the schedule indicate transaction IDs:\n<br> <br>[latex]\nS: r_1(z) ; w_1(z) ; r_2(x) ; r_3(y) ; w_3(y) ; r_2(y) ; w_2(x) ; w_2(y) ;\n [/latex] <br><br>\n\nWhich of the following transaction schedules is/are conflict equivalent to [latex] S [/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] T_1 T_2 T_3 [/latex]",
+        "B": "[latex] T_1 T_3 T_2 [/latex]",
+        "C": "[latex] T_3 T_2 T_1 [/latex]",
+        "D": "[latex] T_3 T_1 T_2 [/latex]"
+      },
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "Conflicting pairs (same item, different transactions, at least one write):<br>\n- z: only T1 uses it [latex]\\rightarrow[/latex] T1 has no conflict with anyone.<br>\n- x: only T2 uses it.<br>\n- y: [latex]r_3(y),w_3(y)[/latex] come before [latex]r_2(y),w_2(y)[/latex] [latex]\\rightarrow[/latex] <b>T3 must come before T2</b>.<br><br>\nSo any serial order with T3 before T2 is conflict equivalent, and T1 can be anywhere: [latex]T_1T_3T_2,\\;T_3T_2T_1,\\;T_3T_1T_2[/latex].<br>\n[latex]T_1T_2T_3[/latex] puts T2 before T3 [latex]\\rightarrow[/latex] not equivalent.<br><br>\n<b>Answer: [latex]T_1T_3T_2[/latex], [latex]T_3T_2T_1[/latex], [latex]T_3T_1T_2[/latex]</b><br><br><a href=\"https://gateoverflow.in/422806/gate-cse-2024-set-1-question-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 36
+    },
+    {
+      "id": "2015-S1-Q38",
+      "source_id": 1115138,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider an Entity-Relationship (ER) model in which entity sets E1 and E2 are connected by an m : n relationship R12. E1 and E3 are connected by a 1 : n (1 on the side of E1 and n on the side of E3) relationship R13. <br><br>E1 has two single-valued attributes a11 and a12 of which a11 is the key attribute. E2 has two single-valued attributes a21 and a22 of which a21 is the key attribute. E3 has two single-valued attributes a31 and a32 of which a31 is the key attribute. The relationships do not have any attributes. <br><br> If a relational model is derived from the above ER model, then the minimum number of relations that would be generated if all the relations are in 3NF is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Databases",
+      "subtopic": "ER Model",
+      "explanation": "Checking each statement:<br>- E1(a11, a12), E2(a21, a22): one relation each<br>\n- R12 is m:n: needs its own relation (a11, a21)<br>\n- R13 is 1:n: add a11 as a foreign key in E3(a31, a32, a11), no separate table<br><br>\nTotal = 4<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/8309/gate2015-1-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 38
+    },
+    {
+      "id": "2012-Q43",
+      "source_id": 1112143,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose R1(A, B) and R2(C, D) are two relation schemas. Let r1 and r2 be the corresponding\nrelation instances. B is a foreign key that refers to C in R2. If data in r1 and r2 satisfy referential\nintegrity constraints, which of the following is ALWAYS TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) =\\phi[/latex]",
+        "B": "[latex]\\Pi_{C}(r_{1})- \\Pi_{B}(r_{2}) =\\phi[/latex]",
+        "C": "[latex]\\Pi_{B}(r_{1})= \\Pi_{C}(r_{2})[/latex]",
+        "D": "[latex]\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) \\neq \\phi[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "Referential integrity: every B value in r1 must appear as a C value in r2. So [latex]\\Pi_B(r_1)\\subseteq\\Pi_C(r_2)[/latex], i.e. [latex]\\Pi_B(r_1)-\\Pi_C(r_2)=\\phi[/latex].<br><br>\nEquality need not hold (r2 may have C values nobody refers to).<br><br>\n<b>Answer: [latex]\\Pi_B(r_1)-\\Pi_C(r_2)=\\phi[/latex]</b><br><br><a href=\"https://gateoverflow.in/2151/gate2012-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 43
+    },
+    {
+      "id": "2026-S2-Q36",
+      "source_id": 1126236,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An index in a DBMS is said to be dense if an index entry appears for every search-key value in the indexed file. Otherwise it is called a sparse index. Consider the following two statements.  <br><br>[latex]\\text{S1}[/latex]: A hash index must be a dense index <br>[latex]\\text{S2}[/latex]: A [latex]B^{+}[/latex] tree index can be a sparse index <br><br>Which one of the following options is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both [latex]\\text{S1}[/latex] and [latex]\\text{S2}[/latex] are true",
+        "B": "Both [latex]\\text{S1}[/latex] and [latex]\\text{S2}[/latex] are false",
+        "C": "[latex]\\text{S1}[/latex] is true and [latex]\\text{S2}[/latex] is false",
+        "D": "[latex]\\text{S1}[/latex] is false and [latex]\\text{S2}[/latex] is true"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "<b>S1 (hash index must be dense):</b> A hash index computes a bucket location directly from the key via a hash function; there is no notion of \"sorted order\" to allow skipping entries the way a sparse index can, so a hash index inherently needs a separate index entry pointing to the data for every distinct search-key value. <b>True.</b><br><br>\n<b>S2 ([latex]B^+[/latex]-tree can be sparse):</b> When the [latex]B^+[/latex]-tree index is built on a search key that also determines the physical sorted order of the underlying data file (i.e. it's a primary/clustering index), it's sufficient to have just one index entry per data <i>block</i> (pointing to the first record of that block) rather than one per record, since all other records of that block can be found by scanning sequentially from there. This makes a sparse [latex]B^+[/latex]-tree index entirely feasible. <b>True.</b><br><br>\n<b>Answer: Both S1 and S2 are true.</b> <br><br> <a href=\"https://gateoverflow.in/523110/gate-cse-2026-set-2-question-36#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 36
+    },
+    {
+      "id": "2007-Q61",
+      "source_id": 1107161,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the table employee(empId, name, department, salary) and the two\nqueries Q1 ,Q2 below. Assuming that department 5 has more than one employee,\nand we want to find the employees who get higher salary than anyone in the department 5, which one of the statements is TRUE for any arbitrary employee table?<pre><code>Q1 : Select e.empId\n     From employee e\n     Where not exists\n        (Select * From employee s where s.department = \"5\" and \n                                        s.salary >=e.salary) <br>\nQ2 : Select e.empId\n     From employee e\n     Where e.salary > Any\n    (Select distinct salary From employee s Where s.department =\"5\"</pre></code>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Q1 is the correct query",
+        "B": "Q2 is the correct query",
+        "C": "Both Q1 and Q2 produce the same answer.",
+        "D": "Neither Q1 nor Q2 is the correct query"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "<a href=\"https://gateoverflow.in/1259/gate2007-61#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 61
+    },
+    {
+      "id": "2009-Q45",
+      "source_id": 1109145,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let R and S be relational schemes such that R={a,b,c} and S={c}. Now consider\r\nthe following queries on the database: <br> [latex]I.\\pi _{R-S}(r)-\\pi_{R-S}(\\pi_{R-S}(r) \\times  S -\\pi_{R-S,S}(r))[/latex]  <br>  [latex] II.\\{t|t\\in \\pi _{R-S}(r)\\wedge \\forall u \\in s (\\exists v \\in  r(u=v[s]\\wedge t=v[R-S]))\\} [/latex]  <br>  [latex] III.\\{t|t\\in \\pi _{R-S}(r)\\wedge \\forall v\\in r(\\exists u\\in s(u=v[s]\\wedge t=v[R-S]))\\}[/latex]  <br> IV. Select R.a, R.b\r\nFrom R,S\r\nWhere R.c=S.c <br><br>\r\nWhich of the above queries are equivalent?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II",
+        "B": "I and III",
+        "C": "II and IV",
+        "D": "III and IV"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Tuple Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/1331/gate2009-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 45
+    },
+    {
+      "id": "2013-Q55",
+      "source_id": 1113155,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values.  <br>  [latex]F=\\{CH\\rightarrow G, A\\rightarrow BC,B\\rightarrow CFH,E\\rightarrow A,F\\rightarrow EG\\}[/latex]  is a set of functional dependencies (FDs) so that [latex]F^{+}[/latex] is\nexactly the set of FDs that hold for R. <br>The relation R is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "in 1NF, but not in 2NF.",
+        "B": "in 2NF, but not in 3NF.",
+        "C": "in 3NF, but not in BCNF.",
+        "D": "in BCNF"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "Prime attributes: A, B, D, E, F. Non-prime: C, G, H.<br><br>\nA [latex]\\rightarrow[/latex] C, where A is only part of the key AD. So non-prime C depends on part of a key: a partial dependency. R is not in 2NF.<br><br>\n<b>Answer: in 1NF, but not in 2NF</b><br><br><a href=\"https://gateoverflow.in/43290/gate2013-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 55
+    },
+    {
+      "id": "2015-S3-Q29",
+      "source_id": 1115329,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a B+ tree in which the search key is 12 bytes long, block size is 1024 bytes, record pointer is 10 bytes long and block pointer is 8 bytes long. The maximum number of keys that can be accommodated in each non-leaf node of the tree is ____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        50.0,
+        50.0
+      ],
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "A non-leaf node with n block pointers holds n [latex]-[/latex] 1 keys:<br><br>\n[latex]8n+12(n-1)\\le1024\\Rightarrow20n\\le1036\\Rightarrow n=51[/latex]<br><br>\nKeys = 51 [latex]-[/latex] 1 = 50<br><br>\n<b>Answer: 50</b><br><br><a href=\"https://gateoverflow.in/8555/gate2015-3-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 29
+    },
+    {
+      "id": "2011-Q32",
+      "source_id": 1111132,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a database table T containing two columns X and Y each of type integer.\nAfter the creation of the table, one record (X=1,Y=1) is inserted in the table. <br><br>\nLet MX and MY denote the respective maximum values of X and Y among all\nrecords in the table at any point in time. Using MX and MY, new records are\ninserted in the table 128 times with X and Y values being MX+1, 2*MY+1\nrespectively. It may be noted that each time after the insertion, values of MX and\nMY change. <br><br>\nWhat will be the output of the following SQL query after the steps mentioned\nabove are carried out? <br><br>\nSELECT Y FROM T WHERE X=7;",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "127",
+        "B": "255",
+        "C": "129",
+        "D": "257"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "Rows: (1, 1), (2, 3), (3, 7), (4, 15), ... Each new Y = 2Y + 1, so [latex]Y=2^X-1[/latex].<br><br>\nX = 7: Y = [latex]2^7-1=127[/latex]<br><br>\n<b>Answer: 127</b><br><br><a href=\"https://gateoverflow.in/2134/gate2011-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 32
+    },
+    {
+      "id": "2012-Q27",
+      "source_id": 1112127,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following transactions with data items P and Q initialized to zero:<pre><code>\nT1 :read (P);\n       read (Q);\n       if P = 0 then Q := Q + 1 ; \n       write (Q).\nT2 : read (Q);\n        read (P);\n        if Q = 0 then P := P + 1 ;\n        write (P). </pre></code>\nAny non-serial interleaving of T1 and T2 for concurrent execution leads to",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a serializable schedule",
+        "B": "a schedule that is not conflict serializable",
+        "C": "a conflict serializable schedule",
+        "D": "a schedule for which a precedence graph cannot be drawn"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "In any interleaving that is not serial:<br>\n- T1 reads P before T2 writes P [latex]\\rightarrow[/latex] T1 [latex]\\rightarrow[/latex] T2<br>\n- T2 reads Q before T1 writes Q [latex]\\rightarrow[/latex] T2 [latex]\\rightarrow[/latex] T1<br><br>\nThe precedence graph has a cycle, so the schedule is not conflict serializable.<br><br>\n<b>Answer: a schedule that is not conflict serializable</b><br><br><a href=\"https://gateoverflow.in/1612/gate2012-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 27
+    },
+    {
+      "id": "2014-S1-Q30",
+      "source_id": 1114130,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given the following two statements: <br>\nS1: Every table with two single-valued attributes is in 1NF, 2NF, 3NF and BCNF <br>\nS2 : AB[latex]\\rightarrow[/latex]C, D[latex]\\rightarrow[/latex] E, E[latex]\\rightarrow[/latex]C is a minimal cover for the set of functional dependencies AB[latex]\\rightarrow[/latex]C, D[latex]\\rightarrow[/latex]E, AB[latex]\\rightarrow[/latex] E,E[latex]\\rightarrow[/latex]C. <br>\nWhich one of the following is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1 is TRUE and S2 is FALSE",
+        "B": "Both S1 and S2 are TRUE.",
+        "C": "S1 is FALSE and S2 is TRUE.",
+        "D": "Both S1 and S2 are FALSE."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "Checking each statement:<br>- S1: with two attributes, every non-trivial FD has a key on the left [latex]\\rightarrow[/latex] BCNF (and so 1NF, 2NF, 3NF) [latex]\\rightarrow[/latex] TRUE.<br>\n- S2: in the given set, AB [latex]\\rightarrow[/latex] C is redundant (AB [latex]\\rightarrow[/latex] E [latex]\\rightarrow[/latex] C). A minimal cover is AB [latex]\\rightarrow[/latex] E, D [latex]\\rightarrow[/latex] E, E [latex]\\rightarrow[/latex] C. The proposed cover drops AB [latex]\\rightarrow[/latex] E, which cannot be derived from it [latex]\\rightarrow[/latex] FALSE.<br><br>\n<b>Answer: S1 is TRUE and S2 is FALSE</b><br><br><a href=\"https://gateoverflow.in/1797/gate2014-1-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 30
+    },
+    {
+      "id": "2025-S2-Q36",
+      "source_id": 1125236,
+      "number": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following relational schema along with all the functional dependencies that hold on them.  <br><br>\n[latex]\nR1(A, B, C, D, E): \\{ D \\to E, EA \\to B, EB \\to C \\}\n[/latex]<br>\n[latex]\nR2(A, B, C, D): \\{ A \\to D, A \\to B, C \\to A \\}\n[/latex]<br><br>\nWhich of the following statement(s) is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]R1 [/latex] is in 3NF",
+        "B": "[latex]R2 [/latex] is in 3NF",
+        "C": "[latex]R1 [/latex] is NOT in 3NF",
+        "D": "[latex]R2 [/latex] is NOT in 3NF"
+      },
+      "correct": [
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "<b>[latex]R1(A,B,C,D,E)[/latex]: [latex]\\{D\\to E,\\ EA\\to B,\\ EB\\to C\\}[/latex].</b> Computing candidate keys: [latex]\\{A,D\\}^+[/latex]: [latex]D\\to E[/latex] gives [latex]\\{A,D,E\\}[/latex]; then [latex]EA\\to B[/latex] gives [latex]\\{A,B,D,E\\}[/latex]; then [latex]EB\\to C[/latex] gives all of [latex]\\{A,B,C,D,E\\}[/latex]. So [latex]\\{A,D\\}[/latex] is the (only, minimal) candidate key.<br>\nCheck [latex]D\\to E[/latex] against 3NF: is [latex]D[/latex] a superkey? No ([latex]D[/latex] alone only reaches [latex]\\{D,E\\}[/latex]). Is [latex]E[/latex] a prime attribute (part of some candidate key)? No (the only key is [latex]\\{A,D\\}[/latex], which doesn't include [latex]E[/latex]). Since neither condition holds, this FD <b>violates 3NF</b>. <b>R1 is NOT in 3NF.</b><br><br>\n<b>[latex]R2(A,B,C,D)[/latex]: [latex]\\{A\\to D,\\ A\\to B,\\ C\\to A\\}[/latex].</b> [latex]\\{C\\}^+[/latex]: [latex]C\\to A[/latex] gives [latex]\\{A,C\\}[/latex]; then [latex]A\\to D,A\\to B[/latex] gives all of [latex]\\{A,B,C,D\\}[/latex]. So [latex]\\{C\\}[/latex] alone is the candidate key.<br>\nCheck [latex]A\\to D[/latex]: is [latex]A[/latex] a superkey? No ([latex]A[/latex] alone reaches [latex]\\{A,B,D\\}[/latex], missing [latex]C[/latex]). Is [latex]D[/latex] prime? No (key is just [latex]\\{C\\}[/latex]). This FD also <b>violates 3NF</b>. <b>R2 is NOT in 3NF.</b><br><br>\n<b>Answer: R1 is NOT in 3NF; and R2 is NOT in 3NF.</b><br><br><a href=\"https://gateoverflow.in/460799/gate-cse-2025-set-2-question-36#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 36
+    },
+    {
+      "id": "2017-S1-Q46",
+      "source_id": 1117146,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a database that has the relation schema CR (StudentName, CourseName). An\ninstance of the schema CR is as given below. <br><img src=\"/wp-content/uploads/GATE/CS/20171/q53.jpg\"/><br> The following query is made on the database <br><br>[latex]T1\\leftarrow \\pi _{CourseName}(\\sigma _{StudentName='SA'}(CR))[/latex]<br>[latex] T2\\leftarrow CR\\div T1[/latex] <br><br>The number of rows in T2 is ____________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20171/q53.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "T1 = courses of SA = {CA, CB, CC}. T2 = students who take <b>all</b> of these:<br>\n- SA True, SB (no CA) False, SC True, SD True, SE (no CC) False, SF True<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/118329/gate2017-1-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 46
+    },
+    {
+      "id": "2017-S2-Q46",
+      "source_id": 1117246,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following database table named top_scorer. <br><img src=\"/wp-content/uploads/GATE/CS/20172/q49.jpg\"/> <br>      Consider the following SQL query:\n<br><img src=\"/wp-content/uploads/GATE/CS/20172/q49a.jpg\"/> <br> \nThe number of tuples returned by the above SQL query is ___________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20172/q49.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20172/q49a.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        7.0,
+        7.0
+      ],
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "Checking each statement:<br>- No player is from Spain, so \"[latex]\\gt[/latex] ALL (empty set)\" is true for everyone.<br>\n- \"[latex]\\gt[/latex] ANY (German goals: 16, 14, 11, 10, 10)\" means goals [latex]\\gt[/latex] 10 (the smallest).<br><br>\nPlayers with more than 10 goals: Klose, Ronaldo, G Muller, Fontaine, Pele, Klinsmann, Kocsis = 7<br><br>\n<b>Answer: 7</b><br><br><a href=\"https://gateoverflow.in/118391/gate2017-2-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 46
+    },
+    {
+      "id": "2018-Q41",
+      "source_id": 1118141,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relations r(A, B) and s(B, C), where s.B is a primary key and r.B is a foreign key referencing s.B. Consider the query<br> [latex]Q:r \\Join (\\sigma _{B\\lt 5}(s))[/latex] <br> Let LOJ denote the natural left outer-join operation. Assume that r and s contain no null values. <br>\nWhich one of the following queries is NOT equivalent to Q?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\sigma _{B \\lt 5}(r\\Join s)[/latex]",
+        "B": "[latex]\\sigma _{B\\lt 5}(r LOJ s)[/latex]",
+        "C": "[latex]r LOJ(\\sigma _{B\\lt 5}(s))[/latex]",
+        "D": "[latex]\\sigma _{B\\lt 5}(r) LOJ s[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Algebra",
+      "explanation": "Q keeps only r-tuples whose B value is [latex]\\lt[/latex] 5 (joined with s).<br>\nOption 3, [latex]r\\ LOJ\\ \\sigma_{B \\lt 5}(s)[/latex], also keeps r-tuples with B [latex]\\ge[/latex] 5, padded with NULLs, so it returns extra rows [latex]\\rightarrow[/latex] not equivalent.<br><br>\nThe others filter on B [latex]\\lt[/latex] 5, and since every r.B exists in s (foreign key), the outer joins add nothing.<br><br>\n<b>Answer: [latex]r\\ LOJ\\ (\\sigma_{B \\lt 5}(s))[/latex]</b><br><br><a href=\"https://gateoverflow.in/204115/gate2018-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 41
+    },
+    {
+      "id": "2025-S1-Q37",
+      "source_id": 1125137,
+      "number": 29,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a relational schema [latex] team(name, city, owner) [/latex], with functional dependencies  [latex]\\{ name \\to city [/latex], [latex] name \\to owner \\} [/latex] .  \n<br><br>\nThe relation [latex] team [/latex] is decomposed into two relations, [latex] t_1(name, city) [/latex] and [latex] t_2(name, owner) [/latex]. Which of the following statement(s) is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The relation [latex] team [/latex] is NOT in BCNF.",
+        "B": "The relations [latex] t_1 [/latex] and [latex] t_2 [/latex] are in BCNF.",
+        "C": "The decomposition constitutes a lossless join.",
+        "D": "The relation [latex]team [/latex]is NOT in 3NF."
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "[latex]team(name,city,owner)[/latex] with [latex]name\\to city,\\ name\\to owner[/latex]. Since [latex]name[/latex] alone functionally determines every other attribute, [latex]name[/latex] is already a candidate key of [latex]team[/latex] &mdash; and since every FD's left-hand side ([latex]name[/latex]) is already a superkey, [latex]team[/latex] is <i>already</i> in BCNF (and hence also in 3NF) even before decomposing. So both \"team is NOT in BCNF\" and \"team is NOT in 3NF\" are <b>false</b>.<br><br>\nDecomposing into [latex]t_1(name,city)[/latex] and [latex]t_2(name,owner)[/latex]: in each projection, [latex]name[/latex] remains a key (it determines the sole remaining attribute), so both [latex]t_1[/latex] and [latex]t_2[/latex] are trivially in BCNF. <b>True.</b><br><br>\nFor losslessness, the common attribute of the decomposition is [latex]name[/latex], and [latex]name\\to city[/latex] (i.e. [latex]name[/latex] alone determines all of [latex]t_1[/latex]) &mdash; satisfying the standard lossless-join test ([latex]R_1\\cap R_2[/latex] is a superkey of at least one of the two pieces). <b>True.</b><br><br>\n<b>Answer: t1 and t2 are in BCNF; and the decomposition is lossless.</b><br><br><a href=\"https://gateoverflow.in/460043/gate-cse-2025-set-1-question-37#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 37
+    },
+    {
+      "id": "2014-S3-Q29",
+      "source_id": 1114329,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the transactions T1, T2, and T3 and the schedules S1 and S2 given below. <br>\nT1 : r1(x); r1(Z) ; w1(x); w1(Z) <br>\nT2 : r2(x); r2(Z); w2(Z) <br>\nT3 : r3(x); r3(x); w3(Y)<br> <br>\nS1: r1(x); r3(Y); r3(x); r2(Y); r2(Z); w3(Y); w2(Z); r1(Z); w1(x); w1(Z) <br>\nS2: r1(x); r3(Y); r2(Y); r3(x); r1(Z); r2(Z); w3(Y); w1(x); w2(Z); w1(Z) <br>\nWhich one of the following statements about the schedules is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S1 is conflict-serializable",
+        "B": "Only S2 is conflict-serializable.",
+        "C": "Both S1 and S2 are conflict-serializable",
+        "D": "Neither S1 nor S2 is conflict-serializable"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "<b>S1:</b> r2(Y) before w3(Y): T2[latex]\\rightarrow[/latex]T3; r3(x) before w1(x): T3[latex]\\rightarrow[/latex]T1; r2(Z), w2(Z) before r1(Z), w1(Z): T2[latex]\\rightarrow[/latex]T1. No cycle [latex]\\rightarrow[/latex] serializable (T2, T3, T1).<br><br>\n<b>S2:</b> r1(Z) before w2(Z): T1[latex]\\rightarrow[/latex]T2; r2(Z) before w1(Z): T2[latex]\\rightarrow[/latex]T1. Cycle [latex]\\rightarrow[/latex] not serializable.<br><br>\n<b>Answer: Only S1 is conflict-serializable</b><br><br><a href=\"https://gateoverflow.in/2063/gate2014-3-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 29
+    }
+  ]
+}

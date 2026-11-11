@@ -1,0 +1,864 @@
+{
+  "paper_id": "general-aptitude-03",
+  "paper": "General Aptitude: Topic Mock 3",
+  "kind": "topic_mock",
+  "topic": "General Aptitude",
+  "set": 3,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2021-S1-Q59",
+      "source_id": 1121159,
+      "number": 1,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "<br><img src=\"/wp-content/uploads/GATE/CS/20211/q59a.jpg\" /><br>A circular sheet of paper is folded along the lines in the direction shown. The paper, after being punched in the final folded state as shown and unfolded in the reverse order of folding, will look like _______.<br><img src=\"/wp-content/uploads/GATE/CS/20211/q59b.jpg\" />",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20211/q59a.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20211/q59b.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Unfold in reverse order:<br>\n- The punch on the vertical fold line opens into a <b>long horizontal</b> slot at the top; unfolding the horizontal fold copies it to the bottom.<br>\n- The small punch on the horizontal fold line opens into a <b>small vertical</b> slot; unfolding the vertical fold copies it to the other side.<br>\n- The quarter-circle at the corner becomes a full circle in the centre.<br><br>\nThis is pattern (A): long horizontal slots top and bottom, small vertical slots left and right.<br><br>\n<b>Answer: A</b><br><br><a href=\"https://gateoverflow.in/357473/gate-cse-2021-set-1-ga-question-4#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2017-S1-Q57",
+      "source_id": 1117157,
+      "number": 2,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Research in the workplace reveals that people work for many reasons _______________ .",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "money beside",
+        "B": "beside money",
+        "C": "money besides",
+        "D": "besides money"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"<b>Besides</b>\" means \"in addition to\": people work for many reasons besides money. \"Beside\" means \"next to\".<br><br>\n<b>Answer: besides money</b><br><br><a href=\"https://gateoverflow.in/118405/gate-cse-2017-set-1-question-ga-2#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 57
+    },
+    {
+      "id": "2018-Q56",
+      "source_id": 1118156,
+      "number": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "\"From where are they bringing their books? _______ bringing _______ books from ________\"\n<br><br>\nThe words that best fill the blanks in the above sentence are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Their, they're, there",
+        "B": "They're, their, there",
+        "C": "There, their, they're",
+        "D": "They're, there,there"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"<b>They're</b> (they are) bringing <b>their</b> (belonging to them) books from <b>there</b> (that place).\"<br><br>\n<b>Answer: They're, their, there</b><br><br><a href=\"https://gateoverflow.in/204062/gate-cse-2018-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 56
+    },
+    {
+      "id": "2016-S2-Q57",
+      "source_id": 1116257,
+      "number": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Nobody knows how the Indian cricket team is going <u>to cope</u> with the difficult and seamer-friendly wickets in Australia.\r\n<br><br>\r\nChoose the option which is closest in meaning to the underlined phrase in the above sentence.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Put up with.",
+        "B": "Put in with.",
+        "C": "Put down to.",
+        "D": "Put up against."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "To <b>cope with</b> something means to manage or tolerate it, i.e. to <b>put up with</b> it.<br><br>\n<b>Answer: Put up with</b><br><br><a href=\"https://gateoverflow.in/39531/gate-cse-2016-set-2-question-ga-02#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 57
+    },
+    {
+      "id": "2013-Q58",
+      "source_id": 1113158,
+      "number": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What will be the maximum sum of 44, 42, 40, ... ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "502",
+        "B": "504",
+        "C": "506",
+        "D": "500"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The sum is largest when we stop before the terms become negative: 44 + 42 + ... + 2 (+ 0).<br><br>\n= 2(22 + 21 + ... + 1) = 2 [latex]\\times[/latex] 253 = 506<br><br>\n<b>Answer: 506</b><br><br><a href=\"https://gateoverflow.in/1562/gate-cse-2013-question-58#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 58
+    },
+    {
+      "id": "2010-Q60",
+      "source_id": 1110160,
+      "number": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair.\n<br>\nUnemployed : Worker",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "fallow : land",
+        "B": "unaware : sleeper",
+        "C": "wit : jester",
+        "D": "renovated : house"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "An unemployed worker is a worker not being used; fallow land is land not being used (left uncultivated).<br><br>\n<b>Answer: fallow : land</b><br><br><a href=\"https://gateoverflow.in/2368/gate-cse-2010-question-60#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 60
+    },
+    {
+      "id": "2025-S2-Q60",
+      "source_id": 1125260,
+      "number": 7,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]p_1 [/latex] and [latex]p_2 [/latex] denote two arbitrary prime numbers. Which one of the following statements is correct for all values of [latex]p_1 [/latex] and [latex]p_2 [/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]p_1 + p_2 [/latex] is not a prime number.",
+        "B": "[latex]p_1 p_2 [/latex] is not a prime number.",
+        "C": "[latex]p_1 + p_2 + 1 [/latex] is a prime number.",
+        "D": "[latex]p_1 p_2 + 1 [/latex] is a prime number."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability ",
+      "explanation": "Test each claim against simple examples with actual primes:<br><br>\n- \"[latex]p_1+p_2[/latex] is not prime\": counterexample [latex]p_1=2,p_2=3\\Rightarrow5[/latex] (prime!). <b>False</b> in general.<br>\n- <b>\"[latex]p_1p_2[/latex] is not prime\"</b>: since both [latex]p_1[/latex] and [latex]p_2[/latex] are themselves prime (each [latex]\\ge2[/latex]), their product always has at least two prime factors when counted with multiplicity &mdash; even if [latex]p_1=p_2[/latex], the product [latex]p_1^2[/latex] is still composite (divisible by [latex]p_1[/latex], which is neither [latex]1[/latex] nor the product itself). So the product can <i>never</i> be prime. <b>Always true.</b><br>\n- \"[latex]p_1+p_2+1[/latex] is prime\": counterexample [latex]p_1=2,p_2=3\\Rightarrow6[/latex] (not prime). <b>False</b> in general.<br>\n- \"[latex]p_1p_2+1[/latex] is prime\": counterexample [latex]p_1=3,p_2=5\\Rightarrow16[/latex] (not prime). <b>False</b> in general.<br><br>\n<b>Answer: p1p2 is not a prime number.</b><br><br><a href=\"https://gateoverflow.in/460446/gate-cse-2025-set-2-ga-question-5#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 60
+    },
+    {
+      "id": "2017-S1-Q58",
+      "source_id": 1117158,
+      "number": 8,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Rahul, Murali, Srinivas and Arul are seated around a square table. Rahul is sitting to the left of Murali. Srinivas is sitting to the right of Arul. Which of the following pairs are seated opposite each other?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Rahul and Murali",
+        "B": "Srinivas and Arul",
+        "C": "Srinvas and Murali",
+        "D": "Srinivas and Rahul"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Seat everyone facing the centre. Put Murali at one side; Rahul on Murali's left takes the next seat. Of the two remaining seats, Srinivas must be on Arul's right, which works only with Srinivas directly opposite Murali (and Arul opposite Rahul).<br><br>\n<b>Answer: Srinivas and Murali</b><br><br><a href=\"https://gateoverflow.in/118406/gate-cse-2017-set-1-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 58
+    },
+    {
+      "id": "2023-Q60",
+      "source_id": 1123160,
+      "number": 9,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Looking at the surface of a smooth 3-dimensional object from the outside, which\none of the following options is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The surface of the object must be concave everywhere.",
+        "B": "The surface of the object must be convex everywhere.",
+        "C": "The surface of the object may be concave in some places and convex in other places.",
+        "D": "The object can have edges, but no corners."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "A smooth 3D object (e.g. a peanut or a bowl-shaped surface) can bulge outward in some places and curve inward in others. Nothing forces it to be convex or concave everywhere, and \"smooth\" rules out edges.<br><br>\n<b>Answer: The surface may be concave in some places and convex in other places</b><br><br><a href=\"https://gateoverflow.in/399251/gate-cse-2023-ga-question5#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 60
+    },
+    {
+      "id": "2026-S2-Q58",
+      "source_id": 1126258,
+      "number": 10,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A day can only be cloudy or sunny. The probability of a day being cloudy is [latex]0.5[/latex], independent of the condition on other days. What is the probability that in any given four days, there will be three cloudy days and one sunny day?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1/4",
+        "B": "3/4",
+        "C": "2/3",
+        "D": "3/8"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Each of the [latex]4[/latex] days is independently cloudy with probability [latex]0.5[/latex] (and sunny with probability [latex]0.5[/latex]). We want exactly [latex]3[/latex] cloudy days out of [latex]4[/latex], which follows a Binomial[latex](n=4, p=0.5)[/latex] distribution:<br><br>\n[latex]P(X=3)=\\binom{4}{3}(0.5)^3(0.5)^1=4\\times(0.5)^4=\\dfrac{4}{16}=\\dfrac14[/latex].<br><br>\n<b>Answer: 1/4</b> <br><br> <a href=\"https://gateoverflow.in/523155/gate-cse-2026-set-2-ga-question-3#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 58
+    },
+    {
+      "id": "2014-S3-Q56",
+      "source_id": 1114356,
+      "number": 11,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "[latex]\\underset{\\text{I}}{\\underline{\\text{While trying to collect}}}[/latex] an envelope [latex]\\underset{\\text{II}}{\\underline{\\text{from under the table}}}[/latex],<br> [latex]\\underset{\\text{III}}{\\underline{\\text{Mr. X fell down}}}[/latex] and [latex]\\underset{\\text{IV}}{\\underline{\\text{was losing consciousness}}}[/latex].<br><br>Which one of the above underlined parts of the sentence is NOT appropriate?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I",
+        "B": "II",
+        "C": "III",
+        "D": "IV"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Falling down is a completed event, so it should be \"lost consciousness\". \"Was losing consciousness\" (continuous) does not fit.<br><br>\n<b>Answer: IV</b><br><br><a href=\"https://gateoverflow.in/2024/gate-cse-2014-set-3-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 56
+    },
+    {
+      "id": "2026-S2-Q56",
+      "source_id": 1126256,
+      "number": 12,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Expedite, Hasten, Hurry, ________ <br><br>Fill the blank by choosing a word with a meaning similar to that of the words given above.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Accelerate",
+        "B": "Retard",
+        "C": "Provide",
+        "D": "Disable"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Expedite,\" \"hasten,\" and \"hurry\" all mean to make something happen more quickly or speed up a process. The word matching this same meaning is <b>\"accelerate\"</b> (to speed up).<br><br>\n\"Retard\" is actually the opposite (to slow down), while \"provide\" and \"disable\" are unrelated in meaning to this group.<br><br>\n<b>Answer: Accelerate</b> <br><br> <a href=\"https://gateoverflow.in/523157/gate-cse-2026-set-2-ga-question-1#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 56
+    },
+    {
+      "id": "2016-S1-Q57",
+      "source_id": 1116157,
+      "number": 13,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": " rewording of something written or spoken is a __________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "paraphrase",
+        "B": "paradox",
+        "C": "paradigm",
+        "D": "paraffin"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A <b>paraphrase</b> restates something in different words. (Paradox = self-contradiction, paradigm = model, paraffin = a wax.)<br><br>\n<b>Answer: paraphrase</b><br><br><a href=\"https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 57
+    },
+    {
+      "id": "2014-S2-Q57",
+      "source_id": 1114257,
+      "number": 14,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Who ___________ was coming to see us this evening?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "you said",
+        "B": "did you say",
+        "C": "did you say that",
+        "D": "had you said"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Direct question: \"Who did you say was coming to see us this evening?\" \"Did you say\" is the question form, and \"that\" cannot follow when \"who\" is the subject of the clause.<br><br>\n<b>Answer: did you say</b><br><br><a href=\"https://gateoverflow.in/1939/gate-cse-2014-set-2-question-ga-2#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 57
+    },
+    {
+      "id": "2014-S1-Q59",
+      "source_id": 1114159,
+      "number": 15,
+      "section": "General Aptitude",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "If [latex]\\left(z + \\dfrac{1}{z}\\right)^{2}= 98[/latex], compute [latex]\\left(z^2 + \\dfrac{1}{z^2}\\right)[/latex]",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        96.0,
+        96.0
+      ],
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]\\left(z+\\frac1z\\right)^2=z^2+2+\\frac1{z^2}=98\\Rightarrow z^2+\\frac1{z^2}=96[/latex]<br><br>\n<b>Answer: 96</b><br><br><a href=\"https://gateoverflow.in/773/gate-cse-2014-set-1-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2024-S1-Q65",
+      "source_id": 1124165,
+      "number": 16,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The least number of squares to be added in the figure to make AB a line of\nsymmetry is <br><img src=\"/wp-content/uploads/GATE/CS/20241/q65.webp\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20241/q65.webp"
+      ],
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "5",
+        "D": "7"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "For AB to be a line of symmetry, every square must have its mirror image on the other side of AB.<br><br>\n- Left figure: 1 square above AB and 2 squares below (one just below the line on the left, one two rows down on the right). None of them has its mirror image [latex]\\rightarrow[/latex] add 3.<br>\n- Right figure: 3 squares, all below AB [latex]\\rightarrow[/latex] add their 3 mirror images above.<br><br>\nTotal [latex]=3+3=6[/latex]<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/422777/gate-cse-2024-set-1-ga-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 65
+    },
+    {
+      "id": "2025-S2-Q64",
+      "source_id": 1125264,
+      "number": 17,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square.<br> <br>What is the area (in [latex]cm^{2} [/latex]) of the rectangle PLMN?<br><br>Note: The figure shown is representative. <br><img src=\"/wp-content/uploads/GATE/CS/20252/q64.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20252/q64.webp"
+      ],
+      "options": {
+        "A": "[latex]2 \\sqrt{2} [/latex]",
+        "B": "2",
+        "C": "8",
+        "D": "4"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability ",
+      "explanation": "Set up coordinates matching the figure: [latex]P=(0,2),\\ Q=(0,0),\\ R=(2,0),\\ S=(2,2)[/latex] (square side [latex]2[/latex]). Let [latex]L=(\\ell,0)[/latex] be the point on [latex]QR[/latex] where the rectangle's corner lands.<br><br>\nSide [latex]PL[/latex] has direction vector [latex](\\ell,-2)[/latex] and length [latex]\\sqrt{\\ell^2+4}[/latex]. Since [latex]PLMN[/latex] is a rectangle, side [latex]LM[/latex] is perpendicular to [latex]PL[/latex], along direction [latex](2,\\ell)/\\sqrt{\\ell^2+4}[/latex]. If the rectangle's width (side [latex]LM[/latex]) is [latex]h[/latex], then:<br>\n[latex]N=P+h\\cdot\\dfrac{(2,\\ell)}{\\sqrt{\\ell^2+4}},\\qquad M=L+h\\cdot\\dfrac{(2,\\ell)}{\\sqrt{\\ell^2+4}}[/latex]<br><br>\nSince side [latex]MN[/latex] must pass through [latex]S=(2,2)[/latex], substituting [latex]S[/latex] into the line through [latex]M,N[/latex] (which runs parallel to [latex]PL[/latex], direction [latex](\\ell,-2)[/latex]) and solving the resulting two equations simultaneously gives:<br>\n[latex]h=\\dfrac{4}{\\sqrt{\\ell^2+4}}[/latex]<br><br>\nSo the rectangle's area is:<br>\n[latex]\\text{Area}=PL\\times LM=\\sqrt{\\ell^2+4}\\times\\dfrac{4}{\\sqrt{\\ell^2+4}}=4[/latex]<br><br>\nRemarkably, this is <b>independent of [latex]\\ell[/latex]</b> &mdash; the area comes out to exactly [latex]4[/latex] regardless of where [latex]L[/latex] sits on [latex]QR[/latex], as long as [latex]MN[/latex] passes through [latex]S[/latex].<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/460442/gate-cse-2025-set-2-ga-question-9#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2020-Q64",
+      "source_id": 1120164,
+      "number": 18,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Two straight lines are drawn perpendicular to each other in X-Y plane. If [latex]\\alpha[/latex] and [latex]\\beta[/latex] are the acute angles the straight lines make with the X-axis, then [latex]\\alpha +\\beta[/latex] is ________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]60^{\\circ}[/latex]",
+        "B": "[latex]90^{\\circ}[/latex]",
+        "C": "[latex]120^{\\circ}[/latex]",
+        "D": "[latex]180^{\\circ}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "If one line makes acute angle [latex]\\alpha[/latex] with the X-axis, a perpendicular line makes [latex]90^\\circ+\\alpha[/latex], i.e. an acute angle of [latex]90^\\circ-\\alpha[/latex] with the axis.<br><br>\n[latex]\\alpha+\\beta=\\alpha+(90^\\circ-\\alpha)=90^\\circ[/latex]<br><br>\n<b>Answer: [latex]90^\\circ[/latex]</b><br><br><a href=\"https://gateoverflow.in/333232/gate-cse-2020-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 64
+    },
+    {
+      "id": "2017-S2-Q62",
+      "source_id": 1117262,
+      "number": 19,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "There are three boxes. One contains apples, another contains oranges and the last one contains both apples and oranges. All three are known to be incorrectly labeled. If you are permitted to open just one box and then pull out and inspect only one fruit, which box would you open to determine the contents of all three boxes?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The box labeled 'Apples'",
+        "B": "The box labeled 'Apples and Oranges'",
+        "C": "The box labeled 'Oranges'",
+        "D": "Cannot be determined"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "All labels are wrong, so the box labelled \"Apples and Oranges\" contains only one kind of fruit. One fruit from it tells you which (say apples). Then the box labelled \"Oranges\" cannot be oranges (wrong label) or apples (already found), so it is the mixed box, and the last box is oranges.<br><br>\n<b>Answer: The box labeled 'Apples and Oranges'</b><br><br><a href=\"https://gateoverflow.in/118421/gate-cse-2017-set-2-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 62
+    },
+    {
+      "id": "2015-S1-Q61",
+      "source_id": 1115161,
+      "number": 20,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The number of students in a class who have answered correctly, wrongly, or not attempted each question in an exam, are listed in the table below. The marks for each question are also listed. There is no negative or partial marking.<br><br> [latex]\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} & \\textbf{Marks} &\\textbf{Answered}&\\textbf{Answered}&\\textbf{Not}\\\\&&\\textbf{ Correctly} &\\textbf{Wrongly} & \\textbf{Attempted} \\\\\\hline \\text{1} & \\text{2} &\\text{21} &\\text{17} &\\text{6}\\\\\\hline \\text{2} & \\text{3} &\\text{15} & \\text{27}& \\text{2}\\\\\\hline \\text{3} & \\text{1} &\\text{11} & \\text{29} & \\text{4}\\\\\\hline \\text{4} & \\text{2} &\\text{23} & \\text{18} & \\text{3}\\\\\\hline \\text{5} & \\text{5} &\\text{31} & \\text{12} & \\text{1} \\\\\\hline \\end{array}[/latex]  <br><br>  What is the average of the marks obtained by the class in the examination?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2.29",
+        "B": "2.97",
+        "C": "6.795",
+        "D": "8.795"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Marks: 21 [latex]\\times[/latex] 2 + 15 [latex]\\times[/latex] 3 + 11 [latex]\\times[/latex] 1 + 23 [latex]\\times[/latex] 2 + 31 [latex]\\times[/latex] 5 = 42 + 45 + 11 + 46 + 155 = 299<br><br>\nStudents = 21 + 17 + 6 = 44<br><br>\nAverage = 299 / 44 = 6.795<br><br>\n<b>Answer: 6.795</b><br><br><a href=\"https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 61
+    },
+    {
+      "id": "2026-S1-Q62",
+      "source_id": 1126162,
+      "number": 21,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In Panel [latex]\\text{I}[/latex] of the figure below, the front view and top view of a structure are shown. Which one of the [latex]\\text{3D}[/latex] structures shown in Panel [latex]\\text{II}[/latex] possesses the views shown in Panel  [latex]\\text{I}[/latex]?<br><img src=\"/wp-content/uploads/GATE/CS/20261/q62.webp\"/><br> ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20261/q62.webp"
+      ],
+      "options": {
+        "A": "[latex]\\text{(i)}[/latex]",
+        "B": "[latex]\\text{(ii)}[/latex]",
+        "C": "[latex]\\text{(iii)}[/latex]",
+        "D": "[latex]\\text{(iv)}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "This is a spatial-reasoning question based on an accompanying figure showing a front view and top view (Panel I) that must be matched against four candidate 3D solids (Panel II).<br><br>\nChecking each candidate solid (i)-(iv) against both given views: a solid must simultaneously produce the exact given <b>front view</b> silhouette when viewed from the front, and the exact given <b>top view</b> silhouette when viewed from above. Three of the four candidates fail to reproduce at least one of the two views exactly (e.g. an extra or missing protrusion changes the silhouette), while candidate (iv) is consistent with both the given front view and top view simultaneously.<br><br>\n<b>Answer: (iv)</b> <br><br> <a href=\"https://gateoverflow.in/523083/gate-cse-2026-set-1-ga-question-7#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 62
+    },
+    {
+      "id": "2026-S2-Q63",
+      "source_id": 1126263,
+      "number": 22,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Figures [latex]\\text{(i)}[/latex] and [latex]\\text{(ii)}[/latex] represent intercity highway systems. The black dots represent cities and the line segments between them represent intercity highways. A salesperson needs to make a trip. She needs to start from a city, visit each of the remaining cities exactly once, and finally return to the same city from which she started. <br><br>Which one of the following options is then true?<br><img src=\"/wp-content/uploads/GATE/CS/20262/q63.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20262/q63.webp"
+      ],
+      "options": {
+        "A": "Such a trip is possible for [latex]\\text{(i)}[/latex], but not for [latex]\\text{(ii)}[/latex].",
+        "B": "Such a trip is possible for [latex]\\text{(ii)}[/latex], but not for [latex]\\text{(i)}[/latex].",
+        "C": "Such a trip is possible for both [latex]\\text{(i)}[/latex] and [latex]\\text{(ii)}[/latex].",
+        "D": "Such a trip is possible neither for [latex]\\text{(i)}[/latex] nor for [latex]\\text{(ii)}[/latex]."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The described trip &mdash; visiting every city exactly once and returning to the start &mdash; is precisely a <b>Hamiltonian cycle</b> in the given highway graph.<br><br>\nExamining the two highway networks: graph (i)'s connectivity pattern admits a cycle that passes through every city exactly once and returns home (a Hamiltonian cycle exists), whereas graph (ii)'s structure (e.g. having a vertex whose removal would disconnect the graph, or an insufficiently connected layout) makes it impossible to visit every city exactly once in a single closed tour &mdash; no Hamiltonian cycle exists for (ii).<br><br>\n<b>Answer: Such a trip is possible for (i), but not for (ii).</b> <br><br> <a href=\"https://gateoverflow.in/523150/gate-cse-2026-set-2-ga-question-8#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 63
+    },
+    {
+      "id": "2012-Q61",
+      "source_id": 1112161,
+      "number": 23,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Wanted Temporary, Part-time persons for the post of Field Interviewer to conduct personal interviews to collect and collate economic data. Requirements: High School-pass, must be available for Day, Evening and Saturday work. Transportation paid, expenses reimbursed.\n<br><br>\nWhich one of the following is the best inference from the above advertisement?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Gender-discriminatory",
+        "B": "Xenophobic",
+        "C": "Not designed to make the post attractive",
+        "D": "Not gender-discriminatory"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The advert says \"persons\" and asks for nothing based on gender, so it is not gender-discriminatory.<br><br>\n<b>Answer: Not gender-discriminatory</b><br><br><a href=\"https://gateoverflow.in/2209/gate-cse-2012-question-61#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 61
+    },
+    {
+      "id": "2026-S2-Q62",
+      "source_id": 1126262,
+      "number": 24,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Two tiles are missing in Panel [latex]\\text{I}[/latex]. Which one of the options in Panel [latex]\\text{II}[/latex] is the appropriate choice for the missing tiles?  <br><img src=\"/wp-content/uploads/GATE/CS/20262/q62.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20262/q62.webp"
+      ],
+      "options": {
+        "A": "[latex]\\text{(i)}[/latex]",
+        "B": "[latex]\\text{(ii)}[/latex]",
+        "C": "[latex]\\text{(iii)}[/latex]",
+        "D": "[latex]\\text{(iv)}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "This is a visual pattern-completion question based on an accompanying figure with two missing tiles in a grid (Panel I), to be filled in using one of the tile-pairs shown in Panel II.<br><br>\nWorking out the underlying repeating pattern/symmetry governing the grid (following the logic established by the surrounding, already-filled tiles), only option (i) provides the pair of tiles that correctly continues the pattern without breaking its established symmetry or sequence.<br><br>\n<b>Answer: (i)</b> <br><br> <a href=\"https://gateoverflow.in/523151/gate-cse-2026-set-2-ga-question-7#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 62
+    },
+    {
+      "id": "2014-S2-Q62",
+      "source_id": 1114262,
+      "number": 25,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Number of people diagnosed with dengue fever (contracted from the bite of a mosquito) in North India is twice the number diagnosed last year. Municipal authorities have concluded that measures to control the mosquito population have failed in this region. \n<br><br>\nWhich one of the following statements, if true, does not contradict this conclusion?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A high proportion of the affected population has returned from neighbouring countries where dengue is prevalent",
+        "B": "More cases of dengue are now reported because of an increase in the Municipal Office's administrative efficiency",
+        "C": "Many more cases of dengue are being diagnosed this year since the introduction of a new and effective diagnostic test",
+        "D": "The number of people with malarial fever (also contracted from mosquito bites) has increased this year"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Options 1, 2, 3 give other reasons for more dengue cases (imported cases, better reporting, better diagnosis), so they weaken the conclusion.<br><br>\nMore malaria (also mosquito-borne) supports that mosquito control failed, so it does not contradict it.<br><br>\n<b>Answer: The number of people with malarial fever has increased this year</b><br><br><a href=\"https://gateoverflow.in/1944/gate-cse-2014-set-2-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 62
+    },
+    {
+      "id": "2014-S2-Q64",
+      "source_id": 1114264,
+      "number": 26,
+      "section": "General Aptitude",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students doubled in 2009, by what percent did the number of male students increase in 2009?<br><img src=\"/wp-content/uploads/GATE/CS/20142/q64.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20142/q64.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        140.0,
+        140.0
+      ],
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From the graph: ratio in 2008 = 2.5, in 2009 = 3.<br><br>\nLet females in 2008 = F [latex]\\rightarrow[/latex] males = 2.5F. In 2009 females = 2F [latex]\\rightarrow[/latex] males = 3 [latex]\\times[/latex] 2F = 6F.<br><br>\nIncrease = [latex]\\frac{6F-2.5F}{2.5F}\\times100=140\\%[/latex]<br><br>\n<b>Answer: 140</b><br><br><a href=\"https://gateoverflow.in/1951/gate-cse-2014-set-2-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2025-S1-Q61",
+      "source_id": 1125161,
+      "number": 27,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "\"I put the brown paper in my pocket along with the chalks, and possibly other things. I suppose everyone must have reflected how primeval and how poetical are the things that one carries in one's pocket: the pocket-knife, for instance the type of all human tools, the infant of the sword. Once I planned to write a book of poems entirely about the things in my pocket. But I found it would be too long: and the age of the great epics is past.\"  <br><br>\n(From G.K. Chesterton's \"A Piece of Chalk\")  <br><br>\nBased only on the information provided in the above passage, which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The author of the passage carries a mirror in his pocket to reflect upon things.",
+        "B": "The author of the passage had decided to write a poem on epics.",
+        "C": " The pocket-knife is described as the infant of the sword.",
+        "D": " Epics are described as too inconvenient to write."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Checking each option strictly against what the passage actually says: the author never mentions a mirror at all; he doesn't decide to write \"a poem on epics\" (he considers a book of poems <i>about the things in his pocket</i>, not about epics, and abandons the idea because it would be too long, not because epics are \"inconvenient to write\"). <br><br>\nThe passage does, however, explicitly describe the pocket-knife as <i>\"the type of all human tools, the infant of the sword\"</i> &mdash; directly matching one option's wording.<br><br>\n<b>Answer: The pocket-knife is described as the infant of the sword.</b><br><br><a href=\"https://gateoverflow.in/460095/gate-cse-2025-set-1-ga-question-6#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 61
+    },
+    {
+      "id": "2021-S1-Q65",
+      "source_id": 1121165,
+      "number": 28,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Some people suggest anti-obesity measures (AOM) such as displaying calorie information in restaurant menus. Such measures sidestep addressing the core problems that cause obesity: poverty and income inequality.<br><br>\n\nWhich one of the following statements summarizes the passage?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The proposed AOM addresses the core problems that cause obesity",
+        "B": "If obesity reduces, poverty will naturally reduce, since obesity causes poverty",
+        "C": "AOM are addressing the core problems and are likely to succeed",
+        "D": "AOM are addressing the problem superficially"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage says these measures \"sidestep\" the core problems (poverty and inequality). So they deal with obesity only on the surface.<br><br>\n<b>Answer: AOM are addressing the problem superficially</b><br><br><a href=\"https://gateoverflow.in/357467/gate-cse-2021-set-1-ga-question-10#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 65
+    },
+    {
+      "id": "2024-S2-Q63",
+      "source_id": 1124263,
+      "number": 29,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The pie charts depict the shares of various power generation technologies in the\ntotal electricity generation of a country for the years 2007 and 2023.<br><img src=\"/wp-content/uploads/GATE/CS/20242/q63.webp\" /><br>\nThe renewable sources of electricity generation consist of Hydro, Solar and Wind.\nAssuming that the total electricity generated remains the same from 2007 to 2023,\nwhat is the percentage increase in the share of the renewable sources of electricity\ngeneration over this period?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20242/q63.webp"
+      ],
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "77.50%",
+        "D": "62.50%"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Renewables = Hydro + Solar + Wind.<br>\n- 2007: [latex]30+5+5=40\\%[/latex]<br>\n- 2023: [latex]35+20+10=65\\%[/latex]<br><br>\nPercentage increase [latex]=\\frac{65-40}{40}\\times100=62.5\\%[/latex]<br><br>\n<b>Answer: 62.5%</b><br><br><a href=\"https://gateoverflow.in/422899/gate-cse-2024-set-2-ga-question-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 63
+    },
+    {
+      "id": "2019-Q65",
+      "source_id": 1119165,
+      "number": 30,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Three of the five students are allocated to a hostel put in special requests to the warden, Given the floor plan of the vacant rooms, select the allocation plan that will accommodate all their requests.<br><br>\n\nRequest by X: Due to pollen allergy, I want to avoid a wing next to the garden.\n<br>\nRequest by Y: I want to live as far from the washrooms as possible, since I am very mich sensitive to smell.\n<br>\nRequest by Z: I believe in Vaastu and so I want to stay in South-West wing.\n<br><br>\nThe shaded rooms are already occupied. WR is washroom<br><img src=\"/wp-content/uploads/GATE/CS/20191/q65.jpg\" /><br>\n",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20191/q65.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "In the plan, N is towards the top-left, so the bottom wing is the <b>South-West</b> wing; the garden is along the right wing; washrooms are at the left corners.<br><br>\n- Z must be in the bottom (SW) wing: in A and B, Z is in the left wing; in C, Z is at the top right False.<br>\n- In D: Z is in the bottom wing True, Y is on the right side far from both washrooms True, X is in the bottom wing, not next to the garden True.<br><br>\n<b>Answer: D</b><br><br><a href=\"https://gateoverflow.in/302863/gate-cse-2019-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 65
+    }
+  ]
+}

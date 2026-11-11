@@ -1,0 +1,1668 @@
+{
+  "paper_id": "2021-S2",
+  "paper": "GATE CSE 2021 SET 2",
+  "year": 2021,
+  "set": 2,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-2021-set-2",
+  "source_id": 11212,
+  "total_marks": 100,
+  "scraped_at": "2026-11-06T09:25:53Z",
+  "questions": [
+    {
+      "id": "2021-S2-Q1",
+      "source_id": 1121201,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be a connected undirected weighted graph. Consider the following two statements.<br><br>\nS1: There exists a minimum weight edge in G which is present in every minimum spanning tree of G.<br>\nS2: If every edge in G has distinct weight, then G has a unique minimum spanning tree.<br><br>\nWhich one of the following options is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both S1 and S2 are true",
+        "B": "S1 is true and S2 is false",
+        "C": "S1 is false and S2 is true",
+        "D": "Both S1 and S2 are false"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Checking each statement:<br>- S1: if several edges share the minimum weight (e.g. a triangle with all weights 1), each MST leaves out one of them, so no single minimum edge is in <b>every</b> MST [latex]\\text{---}[/latex] FALSE.<br>\n- S2: distinct weights [latex]\\Rightarrow[/latex] unique MST [latex]\\text{---}[/latex] TRUE.<br><br>\n<b>Answer: S1 is false and S2 is true</b><br><br><a href=\"https://gateoverflow.in/357539/gate-cse-2021-set-2-question-1#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q2",
+      "source_id": 1121202,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let H be a binary min-heap consisting of n elements implemented as an array. What is the worst case time complexity of an optimal algorithm to find the maximum element in H?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta (1)[/latex]",
+        "B": "[latex]\\Theta (\\log n)[/latex]",
+        "C": "[latex]\\Theta ( n)[/latex]",
+        "D": "[latex]\\Theta (n \\log n)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "In a min-heap the maximum is in one of the [latex]\\lceil n/2\\rceil[/latex] leaves, and the leaves are not ordered among themselves, so all of them must be checked: [latex]\\Theta(n)[/latex].<br><br>\n<b>Answer: [latex]\\Theta(n)[/latex]</b><br><br><a href=\"https://gateoverflow.in/357538/gate-cse-2021-set-2-question-2#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q3",
+      "source_id": 1121203,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following ANSI C program:<pre><code>int main () {\n    Integer x;\n    return 0;\n} </pre></code>  Which one of the following phases in a seven-phase C compiler will throw an error?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Lexical analyzer",
+        "B": "Syntax analyzer",
+        "C": "Semantic analyzer",
+        "D": "Machine dependent optimizer"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Syntax-directed Translation",
+      "explanation": "\"Integer x;\" is lexically fine (Integer is an identifier) and syntactically looks like a declaration \"type-name identifier\". But Integer is not a declared type, and that is found only by the <b>semantic analyzer</b> (symbol table / type checking).<br><br>\n<b>Answer: Semantic analyzer</b><br><br><a href=\"https://gateoverflow.in/357537/gate-cse-2021-set-2-question-3#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q4",
+      "source_id": 1121204,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The format of the single-precision floating point representation of a real number as per the IEEE 754 standard is as follows:<br><br>\n[latex]\\begin{array}{|c|c|c|} \\hline \\text{sign} & \\text{exponent} & \\text{mantissa} \\\\ \\hline \\end{array}[/latex]<br><br>\nWhich one of the following choices is correct with respect to the smallest normalized positive number represented using the standard?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "exponent = 00000000 and mantissa = 0000000000000000000000000",
+        "B": "exponent = 00000000 and mantissa = 0000000000000000000000001",
+        "C": "exponent = 00000001 and mantissa = 0000000000000000000000000",
+        "D": "exponent = 00000001 and mantissa = 0000000000000000000000001"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "Normalized numbers need exponent field from 1 to 254 (0 is for zero/denormals). The smallest normalized positive number has exponent 00000001 and mantissa all 0: [latex]1.0\\times2^{1-127}=2^{-126}[/latex].<br><br>\n<b>Answer: exponent = 00000001 and mantissa = 0[latex]\\ldots[/latex]0</b><br><br><a href=\"https://gateoverflow.in/357536/gate-cse-2021-set-2-question-4#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q5",
+      "source_id": 1121205,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following circuits implements the Boolean function given below?<br><br>[latex]f(x,y,z) = m_0+m_1+m_3+m_4+m_5+m_6[/latex]<br><br>where [latex]m_i[/latex] is the [latex]i^{th}[/latex] minterm.<br><img src=\"/wp-content/uploads/GATE/CS/20212/q5.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q5.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "Select lines are y (s1) and z (s0), so input [latex]I_{2y+z}[/latex] must equal f with x free:<br>\n- yz = 00: m0 (x = 0), m4 (x = 1) both 1 [latex]\\rightarrow[/latex] [latex]I_0=1[/latex]<br>\n- yz = 01: m1, m5 both 1 [latex]\\rightarrow[/latex] [latex]I_1=1[/latex]<br>\n- yz = 10: m2 = 0, m6 = 1 [latex]\\rightarrow[/latex] [latex]I_2=x[/latex]<br>\n- yz = 11: m3 = 1, m7 = 0 [latex]\\rightarrow[/latex] [latex]I_3=\\bar x[/latex]<br><br>\nInputs (1, 1, x, x') = circuit A.<br><br>\n<b>Answer: A</b><br><br><a href=\"https://gateoverflow.in/357535/gate-cse-2021-set-2-question-5#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q6",
+      "source_id": 1121206,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements S1 and S2 about the relational data model:<br>\n<br>\nS1: A relation scheme can have at most one foreign key.<br>\nS2: A foreign key in a relation scheme R cannot be used to refer to tuples of R.<br><br>\nWhich one of the following choices is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both S1 and S2 are true",
+        "B": "S1 is true and S2 is false",
+        "C": "S1 is false and S2 is true",
+        "D": "Both S1 and S2 are false"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "Checking each statement:<br>- S1: a relation can have several foreign keys (e.g. Enrolment(studentId, courseId) refers to two tables) [latex]\\text{---}[/latex] FALSE.<br>\n- S2: a foreign key can refer to the same relation (e.g. Employee.managerId [latex]\\rightarrow[/latex] Employee.empId) [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: Both S1 and S2 are false</b><br><br><a href=\"https://gateoverflow.in/357534/gate-cse-2021-set-2-question-6#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q7",
+      "source_id": 1121207,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the three-way handshake mechanism followed during TCP connection establishment between hosts P and Q. Let X and Y be two random 32-bit starting sequence numbers chosen by P and Q respectively. Suppose P sends a TCP connection request message to Q with a TCP segment having SYN bit =1, SEQ number =X, and ACK bit =0. Suppose Q accepts the connection request. Which one of the following choices represents the information present in the TCP segment header that is sent by Q to P?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "SYN  bit =1, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =0",
+        "B": "SYN  bit =0, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =1",
+        "C": "SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0",
+        "D": "SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X, FIN bit =0"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Q's reply is the SYN-ACK:<br>\n- <b>SYN = 1</b> with Q's own initial sequence number <b>SEQ = Y</b><br>\n- <b>ACK = 1</b>, acknowledging P's SYN (which uses one number) [latex]\\rightarrow[/latex] <b>ACK number = X + 1</b><br>\n- FIN = 0<br><br>\n<b>Answer: SYN = 1, SEQ = Y, ACK = 1, ACK number = X+1, FIN = 0</b><br><br><a href=\"https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q8",
+      "source_id": 1121208,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the worst-case number of arithmetic operations performed by recursive binary search on a sorted array of size n?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta (\\sqrt{n})[/latex]",
+        "B": "[latex]\\Theta ( \\log _2 (n))[/latex]",
+        "C": "[latex]\\Theta ( n^2)[/latex]",
+        "D": "[latex]\\Theta ( n)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array",
+      "explanation": "Each recursive call does a constant number of arithmetic operations (computing mid) and halves the range. The depth is [latex]\\log_2 n[/latex], so the total is [latex]\\Theta(\\log_2 n)[/latex].<br><br>\n<b>Answer: [latex]\\Theta(\\log_2(n))[/latex]</b><br><br><a href=\"https://gateoverflow.in/357532/gate-cse-2021-set-2-question-8#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q9",
+      "source_id": 1121209,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]L \\subseteq \\{0,1\\}^*[/latex] be an arbitrary regular language accepted by a minimal DFA with k states. Which one of the following languages must necessarily be accepted by a minimal DFA with k states?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]L - \\{01\\}[/latex]",
+        "B": "[latex]L \\cup \\{01\\}[/latex]",
+        "C": "[latex] \\{0,1\\}^* -L[/latex]",
+        "D": "[latex]L  \\cdot L[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "For the complement, use the same DFA and swap final and non-final states. It has k states and is still minimal (any two states distinguishable for L are also distinguishable for its complement).<br><br>\nAdding or removing the single string 01, or computing L[latex]\\cdot[/latex]L, can change the number of states.<br><br>\n<b>Answer: [latex]\\{0,1\\}^*-L[/latex]</b><br><br><a href=\"https://gateoverflow.in/357531/gate-cse-2021-set-2-question-9#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q10",
+      "source_id": 1121210,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following ANSI C program.<pre><code> #include &lt;stdio.h&gt;\nint main( ) \n{\n    int arr[4][5];\n    int  i, j;\n    for (i=0; i < 4; i++) \n  {\n        for (j=0; j < 5; j++) \n        {\n            arr[i][j] = 10 * i + j;\n        }\n    }\n    printf(\"%d\", *(arr[1]+9));\n    return 0;\n}</code></pre>  What is the output of the above program?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "14",
+        "B": "20",
+        "C": "24",
+        "D": "30"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array and Pointer",
+      "explanation": "arr[1] points to arr[1][0]; +9 moves 9 ints ahead in the row-major layout: position 5 + 9 = 14 = row 2, column 4.<br><br>\narr[2][4] = 10 [latex]\\times[/latex] 2 + 4 = 24<br><br>\n<b>Answer: 24</b><br><br><a href=\"https://gateoverflow.in/357530/gate-cse-2021-set-2-question-10#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q11",
+      "source_id": 1121211,
+      "number": 11,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following sets, where [latex]n\\geq 2[/latex]:<br><br>\n\nS1: Set of all nxn matrices with entries from the set [latex]\\{a, b, c\\}[/latex]<br>\nS2: Set of all functions from the set[latex]\\{0,1,2,...,n^2-1\\}[/latex] to the set [latex]\\{0, 1, 2 \\}[/latex]<br><br>\nWhich of the following choice(s) is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There does not exist a bijection from S1 to S2",
+        "B": "There exists a surjection from S1 to S2",
+        "C": "There exists a bijection from S1 to S2",
+        "D": "There does not exist an injection from S1 to S2"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "Checking each statement:<br>- [latex]|S_1|=3^{n^2}[/latex] (each of the [latex]n^2[/latex] entries has 3 choices).<br>\n- [latex]|S_2|=3^{n^2}[/latex] (each of the [latex]n^2[/latex] inputs has 3 choices).<br><br>\nEqual finite sizes [latex]\\rightarrow[/latex] a bijection exists (read the matrix entries in order as the function values). A bijection is also a surjection and an injection.<br><br>\n<b>Answer: A surjection exists; a bijection exists</b><br><br><a href=\"https://gateoverflow.in/357529/gate-cse-2021-set-2-question-11#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q12",
+      "source_id": 1121212,
+      "number": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]L_1[/latex] be a regular language and [latex]L_2[/latex] be a context-free language. Which of the following languages is/are context-free?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]L_1 \\cap \\overline{L_2}[/latex]",
+        "B": "[latex]\\overline{\\overline{L_1} \\cup \\overline{L_2}}[/latex]",
+        "C": "[latex]L_1 \\cup (L_2 \\cup \\overline{L_2})[/latex]",
+        "D": "[latex](L_1 \\cap L_2) \\cup (\\overline{L_1} \\cap L_2)[/latex]"
+      },
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "Checking each statement:<br>- [latex]L_1\\cap\\overline{L_2}[/latex]: [latex]\\overline{L_2}[/latex] need not be CFL [latex]\\rightarrow[/latex] not always CFL.<br>\n- [latex]\\overline{\\overline{L_1}\\cup\\overline{L_2}}=L_1\\cap L_2[/latex] (De Morgan) [latex]\\rightarrow[/latex] CFL True<br>\n- [latex]L_2\\cup\\overline{L_2}=\\Sigma^*[/latex], so the whole thing is [latex]\\Sigma^*[/latex] [latex]\\rightarrow[/latex] CFL True<br>\n- [latex](L_1\\cap L_2)\\cup(\\overline{L_1}\\cap L_2)=L_2[/latex] [latex]\\rightarrow[/latex] CFL True<br><br>\n<b>Answer: Options 2, 3 and 4</b><br><br><a href=\"https://gateoverflow.in/357528/gate-cse-2021-set-2-question-12#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q13",
+      "source_id": 1121213,
+      "number": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "In the context of compilers, which of the following is/are NOT an intermediate representation of the source program?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Three address code",
+        "B": "Abstract Syntax Tree (AST)",
+        "C": "Control Flow Graph (CFG)",
+        "D": "Symbol table"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "Three address code, AST and CFG are all forms of the program used between front end and back end. The <b>symbol table</b> only stores information about names; it is not a representation of the program.<br><br>\n<b>Answer: Symbol table</b><br><br><a href=\"https://gateoverflow.in/357527/gate-cse-2021-set-2-question-13#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q14",
+      "source_id": 1121214,
+      "number": 14,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following statement(s) is/are correct in the context of CPU scheduling?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Turnaround time includes waiting time",
+        "B": "The goal is to only maximize CPU utilization and minimize throughput",
+        "C": "Round-robin policy can be used even when the CPU time required by each of the processes is not known apriori",
+        "D": "Implementing preemptive scheduling needs hardware support"
+      },
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "Checking each statement:<br>- Turnaround = completion [latex]-[/latex] arrival, which includes waiting time [latex]\\text{---}[/latex] TRUE.<br>\n- The goal is to <b>maximize</b> throughput (and utilization), not minimize it [latex]\\text{---}[/latex] FALSE.<br>\n- Round-robin only needs a time quantum, not burst lengths [latex]\\text{---}[/latex] TRUE.<br>\n- Preemption needs a hardware timer interrupt [latex]\\text{---}[/latex] TRUE.<br><br>\n<b>Answer: Options 1, 3 and 4</b><br><br><a href=\"https://gateoverflow.in/357526/gate-cse-2021-set-2-question-14#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q15",
+      "source_id": 1121215,
+      "number": 15,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Choose the correct choice(s) regarding the following proportional logic assertion S:<br><br>[latex]S: (( P \\wedge Q) \\rightarrow R) \\rightarrow (( P \\wedge Q) \\rightarrow (Q \\rightarrow R))[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S  is neither a tautology nor a contradiction",
+        "B": "S  is a tautology",
+        "C": "S  is a contradiction",
+        "D": "The antecedent of S is logically equivalent to the consequent of S"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Simplify the consequent: [latex](P\\wedge Q)\\rightarrow(Q\\rightarrow R)\\equiv(P\\wedge Q\\wedge Q)\\rightarrow R\\equiv(P\\wedge Q)\\rightarrow R[/latex], which is exactly the antecedent.<br><br>\nSo S has the form [latex]A\\rightarrow A[/latex], which is always true.<br><br>\n<b>Answer: S is a tautology; its antecedent is equivalent to its consequent</b><br><br><a href=\"https://gateoverflow.in/357525/gate-cse-2021-set-2-question-15#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q16",
+      "source_id": 1121216,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a complete binary tree with 7 nodes. Let A denote the set of first 3 elements obtained by performing Breadth-First Search (BFS) starting from the root. Let B denote the set of first 3 elements obtained by performing Depth-First Search (DFS) starting from the root.<br><br>\nThe value of |A-B| is _____________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.0,
+        1.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "Complete binary tree with 7 nodes: root, its two children L and R, and four grandchildren.<br>\n- BFS first 3: root, L, R [latex]\\rightarrow[/latex] A = {root, L, R}<br>\n- DFS first 3: root, L, L's left child [latex]\\rightarrow[/latex] B = {root, L, LL}<br><br>\nA [latex]-[/latex] B = {R} [latex]\\rightarrow[/latex] |A [latex]-[/latex] B| = 1<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/357524/gate-cse-2021-set-2-question-16#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q17",
+      "source_id": 1121217,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following deterministic finite automaton (DFA)<br><img src=\"/wp-content/uploads/GATE/CS/20212/q17.jpg\" /><br>The number of strings of length 8 accepted by the above automaton is  _________",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q17.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        256.0,
+        256.0
+      ],
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "Every path from the start reaches the final state after exactly 3 symbols (start [latex]\\rightarrow[/latex] level 1 [latex]\\rightarrow[/latex] level 2 [latex]\\rightarrow[/latex] final, on either symbol at every step), and the final state loops on 0 and 1.<br><br>\nSo every string of length [latex]\\ge3[/latex] is accepted. Strings of length 8: [latex]2^8=256[/latex].<br><br>\n<b>Answer: 256</b><br><br><a href=\"https://gateoverflow.in/357523/gate-cse-2021-set-2-question-17#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q18",
+      "source_id": 1121218,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "If [latex]x[/latex] and [latex]y[/latex] are two decimal digits and [latex](0.1101)_2 = (0.8xy5)_{10}[/latex], the decimal value of [latex]x+y[/latex] is ___________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "[latex](0.1101)_2=\\frac12+\\frac14+\\frac1{16}=0.8125[/latex]<br><br>\n0.8xy5 = 0.8125 [latex]\\rightarrow[/latex] x = 1, y = 2 [latex]\\rightarrow[/latex] x + y = 3<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/357522/gate-cse-2021-set-2-question-18#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q19",
+      "source_id": 1121219,
+      "number": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a set-associative cache of size 2KB ([latex]1KB=2^{10}[/latex] bytes) with cache block size of 64 bytes. Assume that the cache is byte-addressable and a 32 -bit address is used for accessing the cache. If the width of the tag field is 22 bits, the associativity of the cache is ______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Offset = [latex]\\log_2 64=6[/latex] bits. Tag = 22 [latex]\\rightarrow[/latex] set index = 32 [latex]-[/latex] 22 [latex]-[/latex] 6 = 4 bits [latex]\\rightarrow[/latex] 16 sets.<br><br>\nLines = 2 KB / 64 B = 32. Associativity = 32 / 16 = 2.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/357521/gate-cse-2021-set-2-question-19#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q20",
+      "source_id": 1121220,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a computer system with DMA support. The DMA module is transferring one 8-bit character in one CPU cycle from a device to memory through cycle stealing at regular intervals. Consider a 2 MHz processor. If 0.5% processor cycles are used for DMA, the data transfer rate of the device is __________ bits per second.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        80000.0,
+        80000.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "IO Interface",
+      "explanation": "Cycles used for DMA per second = 0.5% of [latex]2\\times10^6[/latex] = [latex]10^4[/latex].<br>\nEach cycle moves 8 bits [latex]\\rightarrow[/latex] [latex]10^4\\times8=80000[/latex] bits/s.<br><br>\n<b>Answer: 80000</b><br><br><a href=\"https://gateoverflow.in/357520/gate-cse-2021-set-2-question-20#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q21",
+      "source_id": 1121221,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A data file consisting of 1,50,000 student-records is stored on a hard disk with block size of 4096 bytes. The data file is sorted on the primary key RollNo. The size of a record pointer for this disk is 7 bytes. Each student-record has a candidate key attribute called ANum of size 12 bytes. Suppose an index file with records consisting of two fields, ANum value and the record pointer the corresponding student record, is built and stored on the same disk. Assume that the records of data file and index file are not split across disk blocks. The number of blocks in the index file is ______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        698.0,
+        698.0
+      ],
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "ANum is not the sorting key, so the index must be <b>dense</b>: one entry per record.<br><br>\nEntry size = 12 + 7 = 19 bytes [latex]\\rightarrow[/latex] entries per block = [latex]\\lfloor4096/19\\rfloor=215[/latex].<br>\nBlocks = [latex]\\lceil150000/215\\rceil=698[/latex]<br><br>\n<b>Answer: 698</b><br><br><a href=\"https://gateoverflow.in/357519/gate-cse-2021-set-2-question-21#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q22",
+      "source_id": 1121222,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "For a given biased coin, the probability that the outcome of a toss is a head is 0.4. This coin is tossed 1,000 times. Let X denote the random variable whose value is the number of times that head appeared in these 1,000 tosses. The standard deviation of X (rounded to 2 decimal place) is ________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        16.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "X is binomial with n = 1000, p = 0.4.<br>\n[latex]\\sigma=\\sqrt{np(1-p)}=\\sqrt{1000\\times0.4\\times0.6}=\\sqrt{240}\\approx15.49[/latex]<br><br>\n<b>Answer: 15.49</b><br><br><a href=\"https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q23",
+      "source_id": 1121223,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following ANSI C function:<pre><code>int SomeFunction (int x, int y)\n{\n    if ((x==1) || (y==1)) return 1;\n    if (x==y) return x;\n    if (x > y) return SomeFunction(x-y, y);\n    if (y > x) return SomeFunction (x, y-x);\n \n} </code></pre>The value returned by SomeFunction(15, 255) is __________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        15.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "The function computes the GCD by repeated subtraction (and stops at 1 if either value hits 1).<br>\nSomeFunction(15, 255): 255 [latex]-[/latex] 15 repeatedly [latex]\\rightarrow[/latex] (15, 240) [latex]\\rightarrow[/latex] [latex]\\ldots[/latex] [latex]\\rightarrow[/latex] (15, 15) [latex]\\rightarrow[/latex] returns 15.<br><br>\ngcd(15, 255) = 15<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/357517/gate-cse-2021-set-2-question-23#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q24",
+      "source_id": 1121224,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Suppose that P is a 4x5 matrix such that every solution of the equation Px=0 is a scalar multiple of [latex]\\begin{bmatrix} 2 & 5 & 4 &3 & 1 \\end{bmatrix}^T[/latex]. The rank of P is _______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "All solutions of Px = 0 are multiples of one vector [latex]\\rightarrow[/latex] nullity = 1.<br>\nP has 5 columns, so by rank-nullity: rank = 5 [latex]-[/latex] 1 = 4.<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/357516/gate-cse-2021-set-2-question-24#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q25",
+      "source_id": 1121225,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Suppose that [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R}[/latex] is a continuous function on the interval [-3,3] and a differentiable function in the interval (-3,3) such that for every [latex]x[/latex] in the interval, [latex]f'(x) \\leq 2[/latex]. If [latex]f(-3) =7[/latex], then [latex]f(3) [/latex] is at most __________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        19.0,
+        19.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "By the mean value theorem, [latex]f(3)-f(-3)=f'(c)\\cdot6\\le2\\times6=12[/latex].<br><br>\n[latex]f(3)\\le7+12=19[/latex]<br><br>\n<b>Answer: 19</b><br><br><a href=\"https://gateoverflow.in/357515/gate-cse-2021-set-2-question-25#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q26",
+      "source_id": 1121226,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the string abbccddeee. Each letter in the string must be assigned a binary code satisfying the following properties:\n<br><br>\nFor any two letters, the code assigned to one letter must not be a prefix of the code assigned to the other letter.<br>\nFor any two letters of the same frequency, the letter which occurs earlier in the dictionary order is assigned a code whose length is at most the length of the code assigned to the other letter.<br><br>\nAmong the set of all binary code assignments which satisfy the above two properties, what is the minimum length of the encoded string?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "21",
+        "B": "23",
+        "C": "25",
+        "D": "30"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Greedy Technique",
+      "explanation": "Frequencies: a 1, b 2, c 2, d 2, e 3 (total 10).<br><br>\nHuffman: merge a(1) with a frequency-2 letter. To respect the tie rule (b, c, d in dictionary order), merge a with <b>d</b> [latex]\\rightarrow[/latex] 3; then b + c [latex]\\rightarrow[/latex] 4; then ad + e [latex]\\rightarrow[/latex] 6; then 4 + 6.<br>\nCode lengths: a 3, d 3, b 2, c 2, e 2 (b [latex]\\le[/latex] c [latex]\\le[/latex] d True).<br><br>\nLength = 1[latex]\\times[/latex]3 + 2[latex]\\times[/latex]2 + 2[latex]\\times[/latex]2 + 2[latex]\\times[/latex]3 + 3[latex]\\times[/latex]2 = 3 + 4 + 4 + 6 + 6 = 23<br><br>\n<b>Answer: 23</b><br><br><a href=\"https://gateoverflow.in/357514/gate-cse-2021-set-2-question-26#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q27",
+      "source_id": 1121227,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Assume a two-level inclusive cache hierarchy, L1 and L2, where L2 is the larger of the two. Consider the following statements.\n<br><br>\nS1: Read misses in a write through L1 cache do not result in writebacks of dirty lines to the L2<br>\nS2: Write allocate policy must be used in conjunction with write through caches and no-write allocate policy is used with writeback caches.<br><br>\nWhich of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1  is true and S2 is false",
+        "B": "S1  is false and S2 is true",
+        "C": "S1  is true and S2 is true",
+        "D": "S1  is false and S2 is false"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Checking each statement:<br>- S1: a write-through L1 never has dirty lines (every write already goes to L2), so a read miss never writes back a dirty line [latex]\\text{---}[/latex] TRUE.<br>\n- S2: the usual pairing is the opposite (write-allocate with write-back, no-write-allocate with write-through), and neither is mandatory [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: S1 is true and S2 is false</b><br><br><a href=\"https://gateoverflow.in/357513/gate-cse-2021-set-2-question-27#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q28",
+      "source_id": 1121228,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose we want to design a synchronous circuit that processes a string of 0's and 1's. Given a string, it produces another string by replacing the first 1 in any subsequence of consecutive 1's by a 0. Consider the following example.<br><br>\n[latex]\\begin{array}{ll} \\text{Input sequence:} & 00100011000011100 \\\\ \\text{Output sequence:} & 00000001000001100 \\end{array}[/latex]<br><br>\nA Mealy Machine is a state machine where both the next state and the output are functions of the present state and the current input.<br>\n\nThe above mentioned circuit can be designed as a two-state Mealy machine. The states in the Mealy machine can be represented using Boolean values 0 and 1. We denote the current state, the next state, the next incoming bit, and the output bit of the Mealy machine by the variables s, t, b and y respectively.\n<br>\nAssume the initial state of the Mealy machine is 0.\n<br><br>\nWhat are the Boolean expressions corresponding to t and y in terms of s and b?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "t=s+b<br>y=sb",
+        "B": "t=b<br>y=sb",
+        "C": "t=b<br>y=s[latex]\\bar{b}[/latex]",
+        "D": "t=s+b<br>y=s[latex]\\bar{b}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "The state remembers the previous bit: <b>t = b</b>.<br><br>\nOutput 1 only for a 1 that is not the first of a run, i.e. the current bit is 1 <b>and</b> the previous bit was 1: <b>y = sb</b>.<br><br>\nCheck with 0011: outputs 0, 0, 0, 1 True<br><br>\n<b>Answer: t = b, y = sb</b><br><br><a href=\"https://gateoverflow.in/357512/gate-cse-2021-set-2-question-28#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q29",
+      "source_id": 1121229,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In an examination, a student can choose the order in which two questions (QuesA and QuesB) must be attempted.<br><br>\n\nIf the first question is answered wrong, the student gets zero marks.<br>\nIf the first question is answered correctly and the second question is not answered correctly, the student gets the marks only for the first question.<br>\nIf both the questions are answered correctly, the student gets the sum of the marks of the two questions.<br><br>\nThe following table shows the probability of correctly answering a question and the marks of the question respectively.\n<br><br>[latex]\\begin{array}{c|c|c} \\text{question} & \\text{probabiloty of answering correctly} & \\text{marks} \\\\ \\hline \\textsf{QuesA} & 0.8 & 10 \\\\ \\textsf{QuesB} & 0.5 & 20 \\end{array}[/latex]\n<br><br>\nAssuming that the student always wants to maximize her expected marks in the examination, in which order should she attempt  the questions and what is the expected marks for that order (assume that the questions are independent)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "First QuesA and then QuesB. Expected marks 14.",
+        "B": "First QuesB and then QuesA. Expected marks 14.",
+        "C": "First QuesB and then QuesA. Expected marks 22.",
+        "D": "First QuesA and then QuesB. Expected marks 16."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Checking each statement:<br>- A first: [latex]0.8\\times(10+0.5\\times20)=0.8\\times20=16[/latex]<br>\n- B first: [latex]0.5\\times(20+0.8\\times10)=0.5\\times28=14[/latex]<br><br>\nA first gives more.<br><br>\n<b>Answer: First QuesA and then QuesB. Expected marks 16</b><br><br><a href=\"https://gateoverflow.in/357511/gate-cse-2021-set-2-question-29#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q30",
+      "source_id": 1121230,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following ANSI C code segment:<pre><code> z=x + 3 + y-> f1 + y-> f2;\nfor (i = 0; i < 200; i = i + 2) \n{\n    if (z > i) \n    {\n        p = p + x + 3;\n        q = q + y-> f1;\n    } else \n    {\n        p = p + y-> f2;\n        q = q + x + 3;\n    }\n}</pre></code>Assume that the variable y points to a struct (allocated on the heap) containing two fields f1 and f2, and the local variables x, y, z, p, q, and i are allotted registers. Common sub-expression elimination (CSE) optimization is applied on the code. The number of addition and the dereference operations (of the form  y -> f1 or y -> f2) in the optimized code, respectively, are:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "403  and 102",
+        "B": "203  and 2",
+        "C": "303  and 102",
+        "D": "303  and 2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "CSE computes x + 3, y[latex]\\rightarrow[/latex]f1 and y[latex]\\rightarrow[/latex]f2 <b>once</b> before the loop and reuses them.<br><br>\n- Before the loop: t = x + 3, then z = t + f1 + f2 [latex]\\rightarrow[/latex] 3 additions, 2 dereferences.<br>\n- Loop: 100 iterations (i = 0, 2, [latex]\\ldots[/latex], 198), each with i + 2, one addition to p and one to q [latex]\\rightarrow[/latex] 3 additions [latex]\\times[/latex] 100 = 300.<br><br>\nTotal: 303 additions, 2 dereferences.<br><br>\n<b>Answer: 303 and 2</b><br><br><a href=\"https://gateoverflow.in/357510/gate-cse-2021-set-2-question-30#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q31",
+      "source_id": 1121231,
+      "number": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The relation scheme given below is used to store information about the employees of a company, where empId is the key and deptId indicates the department to which the employee is assigned. Each employee is assigned to exactly one department.<br><br>\n[latex]\\textsf{emp($\\underline{\\textsf{empId}}$, name, gender, salary, deptId)}[/latex]<br><br>\nConsider the following SQL query:<pre><code> select deptId, count(*)\nfrom emp\nwhere gender = \"female\" and salary > (select avg(salary)from emp)\ngroup by deptId;</pre></code>The above query gives, for each department in the company, the number of female employees whose salary is greater than the average salary of",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "employees in the department",
+        "B": "employees in the company",
+        "C": "female employees in the department",
+        "D": "female employees in the company"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "The subquery (select avg(salary) from emp) has no condition and is not correlated, so it is the average salary of <b>all employees in the company</b>.<br><br>\n<b>Answer: employees in the company</b><br><br><a href=\"https://gateoverflow.in/357509/gate-cse-2021-set-2-question-31#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q32",
+      "source_id": 1121232,
+      "number": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let S be the following schedule of operations of three transactions [latex]T_1, T_2 \\text{ and }T_3[/latex] in a relational database system:<br><br>\n[latex]R_2(Y), R_1(X), R_3(Z), R_1(Y)W_1(X), R_2(Z), W_2(Y), R_3(X), W_3(Z)[/latex]<br><br>\nConsider the statements P and Q below:<br><br>\nP: S is conflict-serializable.<br>\nQ: If [latex]T_3[/latex] commits before [latex]T_1[/latex] finishes, then S is recoverable.<br><br>\nWhich one of the following choices is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both P and Q are true",
+        "B": "P is true and Q is false",
+        "C": "P is false and Q is true",
+        "D": "Both P and Q are false"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "Conflicts:<br>\n- [latex]R_1(Y)[/latex] before [latex]W_2(Y)[/latex]: T1 [latex]\\rightarrow[/latex] T2<br>\n- [latex]W_1(X)[/latex] before [latex]R_3(X)[/latex]: T1 [latex]\\rightarrow[/latex] T3<br>\n- [latex]R_2(Z)[/latex] before [latex]W_3(Z)[/latex]: T2 [latex]\\rightarrow[/latex] T3<br>\nNo cycle [latex]\\rightarrow[/latex] conflict serializable (T1, T2, T3). P is true.<br><br>\nT3 reads X written by T1. If T3 commits before T1, and T1 later aborts, T3 cannot be undone [latex]\\rightarrow[/latex] not recoverable. Q is false.<br><br>\n<b>Answer: P is true and Q is false</b><br><br><a href=\"https://gateoverflow.in/357508/gate-cse-2021-set-2-question-32#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q33",
+      "source_id": 1121233,
+      "number": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A bag has [latex]r[/latex] red balls and [latex]b[/latex] black balls. All balls are identical except for their colours. In a trial, a ball is randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along with another ball of the same colour. Note that the number of balls in the bag will increase by one, after the trial. A sequence of four such trials is conducted. Which one of the following choices gives the probability of drawing a red ball in the fourth trial?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\dfrac{r}{r+b}[/latex]",
+        "B": "[latex]\\dfrac{r}{r+b+3}[/latex]",
+        "C": "[latex]\\dfrac{r+3}{r+b+3}[/latex]",
+        "D": "[latex]\\left( \\dfrac{r}{r+b} \\right) \\left ( \\dfrac{r+1}{r+b+1} \\right) \\left( \\dfrac{r+2}{r+b+2} \\right) \\left( \\dfrac{r+3}{r+b+3} \\right)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "This is Polya's urn. By symmetry, every draw has the same chance of being red as the first draw.<br><br>\nCheck for the 2nd draw: [latex]\\frac{r}{r+b}\\cdot\\frac{r+1}{r+b+1}+\\frac{b}{r+b}\\cdot\\frac{r}{r+b+1}=\\frac{r(r+b+1)}{(r+b)(r+b+1)}=\\frac{r}{r+b}[/latex]. The same holds for the 4th.<br><br>\n<b>Answer: [latex]\\frac{r}{r+b}[/latex]</b><br><br><a href=\"https://gateoverflow.in/357507/gate-cse-2021-set-2-question-33#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q34",
+      "source_id": 1121234,
+      "number": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the cyclic redundancy check (CRC) based error detecting scheme having the generator polynomial [latex]X^3+X+1[/latex]. Suppose the message [latex]m_4m_3m_2m_1m_0=11000[/latex] is to be transmitted. Check bits [latex]c_2c_1c_0[/latex] are appended at the end of the message by the transmitter using the above CRC scheme. The transmitted bit string is denoted by [latex]m_4m_3m_2m_1m_0c_2c_1c_0[/latex]. The value of the checkbit sequence [latex]c_2c_1c_0[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "101",
+        "B": "110",
+        "C": "100",
+        "D": "111"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Generator [latex]x^3+x+1[/latex] = 1011. Append 3 zeros: 11000<b>000</b>, then divide (XOR):<br>\n- 1100 [latex]\\oplus[/latex] 1011 = 0111 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 1110<br>\n- 1110 [latex]\\oplus[/latex] 1011 = 0101 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 1010<br>\n- 1010 [latex]\\oplus[/latex] 1011 = 0001 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 0010 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 0100<br><br>\nRemainder = 100<br><br>\n<b>Answer: 100</b><br><br><a href=\"https://gateoverflow.in/357506/gate-cse-2021-set-2-question-34#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q35",
+      "source_id": 1121235,
+      "number": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following ANSI C program:<pre><code>#include &lt stdio.h &gt\n\n#include &lt stdlib.h &gt\n\nstruct Node{\n        int value;\n        struct Node *next;};\nint main( ) {\n    struct Node *boxE, *head, *boxN; int index=0;\n    boxE=head= (struct Node *) malloc(sizeof(struct Node));\n    head -> value = index;\n    for (index =1; index < = 3; index++){\n        boxN = (struct Node *) malloc (sizeof(struct Node));\n        boxE -> next = boxN;\n        boxN -> value = index;\n        boxE = boxN; }\nfor (index=0; index < = 3; index++) {\n    printf(\"Value at index %d is %d\\n\", index, head -> value);\n    head = head -> next;\n    printf(\"Value at index %d is %d\\n\", index+1, head -> value); } } </code></pre>Which one of the following statements below is correct about the program?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Upon execution, the program creates a linked-list of five nodes",
+        "B": "Upon execution, the program goes into an infinite loop",
+        "C": "It has a missing returnreturn which will be reported as an error by the compiler",
+        "D": "It dereferences an uninitialized pointer that may result in a run-time error"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Link List",
+      "explanation": "The list has 4 nodes (values 0, 1, 2, 3). The last node's next is <b>never set</b>; malloc does not initialize it.<br><br>\nIn the last loop pass (index = 3), head moves to the 4th node and then to its next (garbage), and the second printf dereferences that pointer [latex]\\rightarrow[/latex] undefined behaviour / possible crash.<br><br>\n(A missing return in main is allowed in C.)<br><br>\n<b>Answer: It dereferences an uninitialized pointer that may result in a run-time error</b><br><br><a href=\"https://gateoverflow.in/357505/gate-cse-2021-set-2-question-35#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q36",
+      "source_id": 1121236,
+      "number": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following two statements about regular languages:<br><br>\nS1: Every infinite regular language contains an undecidable language as a subset.<br>\nS2: Every finite language is regular.<br><br>\nWhich one of the following choices is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S1 is true",
+        "B": "Only S2 is true",
+        "C": "Both S1 and S2 are true",
+        "D": "Neither S1 nor S2 is true"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "Checking each statement:<br>- S1: an infinite language has uncountably many subsets, but only countably many are decidable. So some subset is undecidable [latex]\\text{---}[/latex] TRUE.<br>\n- S2: a finite language is a finite union of single strings [latex]\\rightarrow[/latex] regular [latex]\\text{---}[/latex] TRUE.<br><br>\n<b>Answer: Both S1 and S2 are true</b><br><br><a href=\"https://gateoverflow.in/357504/gate-cse-2021-set-2-question-36#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q37",
+      "source_id": 1121237,
+      "number": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For two n-dimensional real vectors [latex]P[/latex] and [latex]Q[/latex], the operation [latex]s(P,Q)[/latex] is defined as follows:\n<br><br>\n[latex]s(P,Q) = \\displaystyle \\sum_{i=1}^n (P[i] \\cdot Q[i])[/latex]\n<br><br>Let [latex]\\mathcal{L}[/latex] be a set of 10-dimensional non-zero real vectors such that for every pair of distinct vectors [latex]P,Q \\in \\mathcal{L}, s(P,Q)=0[/latex]. What is the maximum cardinality possible for the set [latex]\\mathcal{L}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "100"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "s(P, Q) is the dot product, so the set contains mutually <b>orthogonal</b> non-zero vectors. Such vectors are linearly independent, and [latex]\\mathbb{R}^{10}[/latex] has at most 10 independent vectors (e.g. the 10 unit vectors).<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/357503/gate-cse-2021-set-2-question-37#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q38",
+      "source_id": 1121238,
+      "number": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For a statement S in a program, in the context of liveness analysis, the following sets are defined:<br><br>\n\nUSE(S) : the set of variables used in S<br>\nIN(S) : the set of variables that are live at the entry of S<br>\nOUT(S) : the set of variables that are live at the exit of S<br><br>\nConsider a basic block that consists of two statements, S1 followed by S2. Which one of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "OUT(S1) = IN (S2)",
+        "B": "OUT (S1) = IN (S1) [latex]\\cup[/latex] USE (S1)",
+        "C": "OUT (S1) =IN (S2) [latex]\\cup[/latex] OUT (S2)",
+        "D": "OUT (S1) = USE (S1)[latex]\\cup[/latex] IN (S2)"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "In a basic block, control always goes from S1 straight to S2, so whatever is live just after S1 is exactly what is live just before S2: OUT(S1) = IN(S2).<br><br>\n<b>Answer: OUT(S1) = IN(S2)</b><br><br><a href=\"https://gateoverflow.in/357502/gate-cse-2021-set-2-question-38#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q39",
+      "source_id": 1121239,
+      "number": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For constants [latex]a\\geq 1[/latex] and [latex]b \\gt 1[/latex], consider the following recurrence defined on the non-negative integers:\n<br><br>\n[latex]T(n) = a \\cdot T \\left(\\dfrac{n}{b} \\right) + f(n)[/latex]\n<br><br>Which one of the following options is correct about the recurrence [latex]T(n)[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "if [latex]f(n)[/latex] is [latex]n \\log_2(n)[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(n \\log_2(n))[/latex].",
+        "B": "if [latex]f(n)[/latex] is [latex]\\dfrac{n}{\\log_2(n)}[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(\\log_2(n))[/latex].",
+        "C": "if [latex]f(n)[/latex] is [latex]O(n^{\\log_b(a)-\\epsilon})[/latex] for some [latex]\\epsilon \\gt 0[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(n ^{\\log_b(a)})[/latex].",
+        "D": "if [latex]f(n)[/latex] is [latex]\\Theta(n ^{\\log_b(a)})[/latex], then [latex]T(n)[/latex] is [latex]\\Theta(n ^{\\log_b(a)})[/latex]."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "This is exactly <b>case 1</b> of the Master theorem: if [latex]f(n)=O(n^{\\log_b a-\\epsilon})[/latex], then [latex]T(n)=\\Theta(n^{\\log_b a})[/latex].<br><br>\nThe others are wrong in general: e.g. option 1 fails for a = 4, b = 2 (gives [latex]\\Theta(n^2)[/latex]), and case 2 has an extra log factor ([latex]\\Theta(n^{\\log_b a}\\log n)[/latex]).<br><br>\n<b>Answer: Option 3</b><br><br><a href=\"https://gateoverflow.in/357501/gate-cse-2021-set-2-question-39#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q40",
+      "source_id": 1121240,
+      "number": 40,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose the following functional dependencies hold on a relation U with attributes [latex]P, Q, R, S, \\text{ and } T[/latex]:\n<br><br>[latex]P \\rightarrow QR \\\\ RS \\rightarrow T[/latex]<br><br>\nWhich of the following functional dependencies can be inferred from the above functional dependencies?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]PS \\rightarrow T[/latex]",
+        "B": "[latex]R \\rightarrow T[/latex]",
+        "C": "[latex]P \\rightarrow R[/latex]",
+        "D": "[latex]PS \\rightarrow Q[/latex]"
+      },
+      "correct": [
+        "A",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "Checking each statement:<br>- [latex]P\\rightarrow QR[/latex] [latex]\\Rightarrow[/latex] [latex]P\\rightarrow R[/latex] (decomposition) True<br>\n- [latex]PS\\rightarrow RS[/latex] (augmentation) and [latex]RS\\rightarrow T[/latex] [latex]\\Rightarrow[/latex] [latex]PS\\rightarrow T[/latex] True<br>\n- [latex]P\\rightarrow Q[/latex] [latex]\\Rightarrow[/latex] [latex]PS\\rightarrow Q[/latex] True<br>\n- [latex]R\\rightarrow T[/latex]: [latex]R^+=\\{R\\}[/latex], so not implied False<br><br>\n<b>Answer: [latex]PS\\rightarrow T,\\ P\\rightarrow R,\\ PS\\rightarrow Q[/latex]</b><br><br><a href=\"https://gateoverflow.in/357500/gate-cse-2021-set-2-question-40#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q41",
+      "source_id": 1121241,
+      "number": 41,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "For a string [latex]w[/latex], we define [latex]w^R[/latex] to be the reverse of [latex]w[/latex]. For example, if [latex]w=01101[/latex] then [latex]w^R=10110[/latex].\n<br>\nWhich of the following languages is/are context-free?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\{ wxw^Rx^R \\mid w,x \\in \\{0,1\\} ^* \\}[/latex]",
+        "B": "[latex]\\{ ww^Rxx^R \\mid w,x \\in \\{0,1\\} ^* \\}[/latex]",
+        "C": "[latex]\\{ wxw^R \\mid w,x \\in \\{0,1\\} ^* \\}[/latex]",
+        "D": "[latex]\\{ wxx^Rw^R \\mid w,x \\in \\{0,1\\} ^* \\}[/latex]"
+      },
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "Checking each statement:<br>- [latex]wxw^Rx^R[/latex]: the w-pair and x-pair <b>cross</b> each other [latex]\\rightarrow[/latex] not CFL.<br>\n- [latex]ww^Rxx^R[/latex]: two even palindromes one after another [latex]\\rightarrow[/latex] CFL.<br>\n- [latex]wxw^R[/latex]: take w = [latex]\\epsilon[/latex], so it is all of [latex]\\{0,1\\}^*[/latex] [latex]\\rightarrow[/latex] regular, hence CFL.<br>\n- [latex]wxx^Rw^R[/latex]: nested matching (an even palindrome) [latex]\\rightarrow[/latex] CFL.<br><br>\n<b>Answer: Options 2, 3 and 4</b><br><br><a href=\"https://gateoverflow.in/357499/gate-cse-2021-set-2-question-41#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q42",
+      "source_id": 1121242,
+      "number": 42,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following multi-threaded code segment (in a mix of C and pseudo-code), invoked by two processes P1 and P2, and each of the processes spawns two threads T1 and T2:<pre><code>int x = 0;  // global\nLock L1;    // global\nmain () { \n    create a thread to execute foo( ); // Thread T1\n    create a thread to execute foo( ); // Thread T2\n    wait for the two threads to finish execution;\n    print(x);}\n    \n    \nfoo() {\n    int y = 0;\n    Acquire L1;\n    x = x + 1;\n    y = y + 1;\n    Release L1;\n    print (y);} </pre></code>Which of the following statement(s) is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both P1 and P2 will print the value of x as 2.",
+        "B": "At least of P1 and P2 will print the value of x as 4.",
+        "C": "At least one of the threads will print the value of y as 2.",
+        "D": "Both T1 and T2, in both the processes, will print the value of y as 1."
+      },
+      "correct": [
+        "A",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Thread",
+      "explanation": "Checking each statement:<br>- P1 and P2 are separate processes with separate copies of x. In each, the two threads increment x under the lock [latex]\\rightarrow[/latex] each prints <b>x = 2</b>.<br>\n- y is a local variable of foo, so each thread has its own y starting at 0 [latex]\\rightarrow[/latex] every thread prints <b>y = 1</b>.<br><br>\n<b>Answer: Options 1 and 4</b><br><br><a href=\"https://gateoverflow.in/357498/gate-cse-2021-set-2-question-42#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q43",
+      "source_id": 1121243,
+      "number": 43,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a computer system with multiple shared resource types, with one instance per resource type. Each instance can be owned by only one process at a time. Owning and freeing of resources are done by holding a global lock (L). The following scheme is used to own a resource instance:<pre><code> function OWNRESOURCE(Resource R) \n    Acquire lock L // a global lock \n    if R is available then \n        Acquire R        \n        Release lock L \n    else\n        if R is owned by another process P then        \n        Terminate P, after releasing all resources owned by P        \n        Acquire R        \n        Restart P        \n        Release lock L        \n        end if\n    end if    \nend function</pre></code>Which of the following choice(s) about the above scheme is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The scheme ensures that deadlocks will not occur",
+        "B": "The scheme may lead to live-lock",
+        "C": "The scheme may lead to starvation",
+        "D": "The scheme violates the mutual exclusion property"
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "Checking each statement:<br>- A process never waits while holding resources (the owner is terminated instead), so there is no circular wait [latex]\\rightarrow[/latex] <b>no deadlock</b>.<br>\n- Two processes can keep terminating and restarting each other without progress [latex]\\rightarrow[/latex] <b>livelock</b> possible.<br>\n- A process may be terminated again and again and never finish [latex]\\rightarrow[/latex] <b>starvation</b> possible.<br>\n- Each resource still has only one owner at a time [latex]\\rightarrow[/latex] mutual exclusion is kept.<br><br>\n<b>Answer: Options 1, 2 and 3</b><br><br><a href=\"https://gateoverflow.in/357497/gate-cse-2021-set-2-question-43#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q44",
+      "source_id": 1121244,
+      "number": 44,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "If the numerical value of a 2-byte unsigned integer on a little endian computer is 255 more than that on a big endian computer, which of the following choices represent(s) the unsigned integer on a little endian computer?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0x6665",
+        "B": "0x0001",
+        "C": "0x4243",
+        "D": "0x0100"
+      },
+      "correct": [
+        "A",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "Write the little-endian value as [latex]256h+l[/latex] (high byte h, low byte l). The same bytes read big-endian give [latex]256l+h[/latex].<br><br>\nDifference [latex]=255(h-l)=255\\Rightarrow h=l+1[/latex].<br>\n- 0x6665: h = 0x66, l = 0x65 True<br>\n- 0x0100: h = 1, l = 0 True<br>\n- 0x0001 and 0x4243 have h = l [latex]-[/latex] 1 False<br><br>\n<b>Answer: 0x6665 and 0x0100</b><br><br><a href=\"https://gateoverflow.in/357496/gate-cse-2021-set-2-question-44#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q45",
+      "source_id": 1121245,
+      "number": 45,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a computer network using the distance vector routing algorithm in its network layer. The partial topology of the network is shown below.<br><img src=\"/wp-content/uploads/GATE/CS/20212/q45.jpg\" /><br>\nThe objective is to find the shortest-cost path from the router R to routers P and Q. Assume that R does not initially know the shortest routes to P and Q. Assume that R has three neighboring routers denoted as X, Y and Z. During one iteration, R measures its distance to its neighbors X, Y, and Z as 3, 2 and 5, respectively. Router R gets routing vectors from its neighbors that indicate that the distance to router P from routers X, Y and Z are 7, 6 and 5, respectively. The routing vector also indicates that the distance to router Q from routers X, Y and Z are 4, 6 and 8 respectively. Which of the following statement(s) is/are correct with respect to the new routing table o R, after updation during this iteration?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q45.jpg"
+      ],
+      "options": {
+        "A": "The distance from R to P will be stored as 10",
+        "B": "The distance from R to Q will be stored as 7",
+        "C": "The next hop router for a packet from R to P is Y",
+        "D": "The next hop router for a packet from R to Q is Z"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Cost via each neighbour = (R to neighbour) + (neighbour's distance):<br>\n- To P: X 3 + 7 = 10, Y 2 + 6 = <b>8</b>, Z 5 + 5 = 10 [latex]\\rightarrow[/latex] 8 via Y<br>\n- To Q: X 3 + 4 = <b>7</b>, Y 2 + 6 = 8, Z 5 + 8 = 13 [latex]\\rightarrow[/latex] 7 via X<br><br>\nSo R-P is 8 via Y (not 10), and R-Q is 7 via X (not via Z).<br><br>\n<b>Answer: Distance to Q is 7; next hop to P is Y</b><br><br><a href=\"https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q46",
+      "source_id": 1121246,
+      "number": 46,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following directed graph:<br><img src=\"/wp-content/uploads/GATE/CS/20212/q46.jpg\" /><br>\nWhich of the following is/are correct about the graph?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q46.jpg"
+      ],
+      "options": {
+        "A": "The graph does not have a topological order",
+        "B": "A depth-first traversal starting at vertex S classifies three directed edges as back edges",
+        "C": "The graph does not have a strongly connected component",
+        "D": "For each pair of vertices u and v, there is a directed path from u to v"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Following the arrows, the graph has three directed cycles:<br>\n- around the top-middle square (between the top two rows),<br>\n- around the bottom-left square through S,<br>\n- around the bottom-right square.<br><br>\n- A cycle means there is no topological order [latex]\\text{---}[/latex] TRUE.<br>\n- A DFS from S reaches every vertex, and each of these three cycles produces exactly one back edge [latex]\\rightarrow[/latex] 3 back edges [latex]\\text{---}[/latex] TRUE.<br>\n- Every graph has strongly connected components (at least single vertices) [latex]\\text{---}[/latex] FALSE.<br>\n- Not every pair is mutually reachable (e.g. nothing returns from the top-right corner) [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: Options 1 and 2</b><br><br><a href=\"https://gateoverflow.in/357494/gate-cse-2021-set-2-question-46#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q47",
+      "source_id": 1121247,
+      "number": 47,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Which of the following regular expressions represent(s) the set of all binary numbers that are divisible by three? Assume that the string [latex]\\epsilon[/latex] is divisible by three.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](0+1(01^*0)^*1)^*[/latex]",
+        "B": "[latex](0+11+10(1+00)^*01)^*[/latex]",
+        "C": "[latex](0^*(1(01^*0)^*1)^*)^*[/latex]",
+        "D": "[latex](0+11+11(1+00)^*00)^*[/latex]"
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "The DFA for \"value mod 3\" has states 0, 1, 2 (start and final 0); reading bit b moves r to [latex](2r+b)\\bmod3[/latex].<br>\n- Option 1: from state 0, \"0\" stays; \"1\" goes to 1, [latex](01^*0)^*[/latex] loops 1 [latex]\\rightarrow[/latex] 2 [latex]\\rightarrow[/latex] 1, and the final \"1\" returns to 0 True<br>\n- Option 2: same paths written differently (11, or 10 to state 2, loop, 01 back) True<br>\n- Option 3: [latex](0^*X^*)^*=(0+X)^*[/latex] where X is the loop in option 1 True<br>\n- Option 4: cannot produce 1001 (= 9, divisible by 3) False<br><br>\n<b>Answer: Options 1, 2 and 3</b><br><br><a href=\"https://gateoverflow.in/357493/gate-cse-2021-set-2-question-47#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q48",
+      "source_id": 1121248,
+      "number": 48,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a three-level page table to translate a 39-bit virtual address to a physical address as shown below:<br><img src=\"/wp-content/uploads/GATE/CS/20212/q48.jpg\" /><br>\nThe page size is 4 KB = (1KB =[latex]2^{10}[/latex] bytes) and page table entry size at every level is 8 bytes. A process P is currently using 2 GB (1 GB =[latex]2^{30}[/latex] bytes) virtual memory which os mapped to 2 GB of physical memory. The minimum amount of memory required for the page table of P across all levels is _________ KB",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q48.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4108.0,
+        4108.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "2 GB / 4 KB = [latex]2^{19}[/latex] pages. Each page-table page holds 4096 / 8 = 512 = [latex]2^9[/latex] entries.<br><br>\nFor the minimum, the pages are contiguous:<br>\n- Level 3: [latex]2^{19}/2^9=1024[/latex] pages<br>\n- Level 2: 1024 entries [latex]\\rightarrow[/latex] 2 pages<br>\n- Level 1: 1 page<br><br>\nTotal = 1027 pages [latex]\\times[/latex] 4 KB = 4108 KB<br><br>\n<b>Answer: 4108</b><br><br><a href=\"https://gateoverflow.in/357489/gate-cse-2021-set-2-question-48#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q49",
+      "source_id": 1121249,
+      "number": 49,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following ANSI C program<pre><code> #include &lt;stdio.h&gt;\nint foo(int x, int y, int q) \n    {\n        if ((x &lt;= 0) && (y &lt;= 0))\n        return q;\n        if (x &lt;= 0)\n        return foo(x, y-q, q);\n        if (y &lt;= 0)\n        return foo(x-q, y, q);\n        return foo(x, y-q, q) + foo(x-q, y, q);\n    }\nint main( )\n{\n    int r = foo(15, 15, 10);\n    printf(\"%d\", r);\n    return 0;\n}</code></pre>  The output of the program upon execution is ____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        60.0,
+        60.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "Let F(x, y) = foo(x, y, 10). Both values go 15 [latex]\\rightarrow[/latex] 5 [latex]\\rightarrow[/latex] [latex]-[/latex]5.<br>\n- F([latex]-[/latex]5, [latex]-[/latex]5) = 10<br>\n- F(5, [latex]-[/latex]5) = F([latex]-[/latex]5, [latex]-[/latex]5) = 10, and similarly F([latex]-[/latex]5, 5) = 10<br>\n- F(5, 5) = F(5, [latex]-[/latex]5) + F([latex]-[/latex]5, 5) = 20<br>\n- F(15, [latex]-[/latex]5) = F(5, [latex]-[/latex]5) = 10, so F(15, 5) = F(15, [latex]-[/latex]5) + F(5, 5) = 30<br>\n- By symmetry F(5, 15) = 30<br><br>\nF(15, 15) = F(15, 5) + F(5, 15) = 60<br><br>\n<b>Answer: 60</b><br><br><a href=\"https://gateoverflow.in/357488/gate-cse-2021-set-2-question-49#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q50",
+      "source_id": 1121250,
+      "number": 50,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let S be a set of consisting of 10 elements. The number of tuples of the form (A,B) such that A and B are subsets of S, and [latex]A\\subseteq B[/latex] is _______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        59049.0,
+        59049.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "For [latex]A\\subseteq B\\subseteq S[/latex], each element of S is in one of 3 states: not in B, in B but not A, or in A.<br><br>\n[latex]3^{10}=59049[/latex]<br><br>\n<b>Answer: 59049</b><br><br><a href=\"https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q51",
+      "source_id": 1121251,
+      "number": 51,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following augmented grammar with [latex]\\{ \\#, @, <, >, a, b, c \\}[/latex] as the set of terminals.<br><br>\n[latex]\\begin{array}{l} S' \\rightarrow S \\\\ S \\rightarrow S \\# cS \\\\ S \\rightarrow SS \\\\ S \\rightarrow S @ \\\\ S \\rightarrow < S > \\\\ S \\rightarrow a \\\\ S \\rightarrow b \\\\ S \\rightarrow c \\end{array}[/latex]<br><br>\nLet [latex]I_0 = \\text{CLOSURE}(\\{S' \\rightarrow \\bullet S\\})[/latex]. The number of items in the set [latex]\\text{GOTO(GOTO}(I_0 \\lt ), \\lt )[/latex] is ___________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "In [latex]I_0[/latex], [latex]S\\rightarrow\\bullet\\lt S\\gt[/latex] moves on [latex]\\lt[/latex] to [latex]S\\rightarrow\\lt\\bullet S\\gt[/latex], and its closure adds all 7 S-items with the dot at the start: 1 + 7 = 8 items.<br><br>\nDoing GOTO on [latex]\\lt[/latex] again (from [latex]S\\rightarrow\\bullet\\lt S\\gt[/latex] inside that set) gives the same set again: <b>8</b> items.<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/357486/gate-cse-2021-set-2-question-51#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q52",
+      "source_id": 1121252,
+      "number": 52,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a Boolean function [latex]f(w,x,y,z) [/latex] such that  <br><br>[latex]\\begin{array}{lll} f(w,0,0,z) & = & 1 \\\\ f(1,x,1,z) & =& x+z \\\\ f(w,1,y,z) & = & wz +y \\end{array}[/latex]<br><br>\nThe number of literals in the minimal sum-of-products expression of  [latex]f [/latex] is ________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        6.0,
+        6.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "From the conditions:<br>\n- x = 0, y = 0 [latex]\\rightarrow[/latex] f = 1 (term [latex]\\bar x\\bar y[/latex])<br>\n- x = 1 [latex]\\rightarrow[/latex] f = wz + y<br>\n- x = 0, y = 1, w = 1 [latex]\\rightarrow[/latex] f = z<br><br>\n[latex]f=\\bar x\\bar y+xy+wz[/latex] satisfies all three (the case x = 0, y = 1, w = 0 is not fixed). It has 2 + 2 + 2 = 6 literals, and no shorter expression fits.<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/357485/gate-cse-2021-set-2-question-52#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q53",
+      "source_id": 1121253,
+      "number": 53,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a pipelined processor with 5 stages, Instruction Fetch(IF), Instruction Decode(ID), Execute (EX), Memory Access (MEM), and Write Back (WB). Each stage of the pipeline, except the EX stage, takes one cycle. Assume that the ID stage merely decodes the instruction and the register read is performed in the EX stage. The EX stage takes one cycle for ADD instruction and the register read is performed in the EX stage, The EX stage takes one cycle for ADD instruction and two cycles for MUL instruction. Ignore pipeline register latencies.<br>\nConsider the following sequence of 8 instructions:<br><br>\nADD, MUL, ADD, MUL, ADD, MUL, ADD, MUL<br><br>\nAssume that every MUL instruction is data-dependent on the ADD instruction just before it and every ADD instruction (except the first ADD) is data-dependent on the MUL instruction just before it. The speedup defined as follows.\n<br><br>\n[latex]\\textit{Speedup} = \\dfrac{\\text{Execution time without operand forwarding}}{\\text{Execution time with operand forearding}}[/latex]\n<br><br>\nThe Speedup achieved in executing the given instruction sequence on the pipelined processor (rounded to 2 decimal places) is _____________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.87,
+        1.88
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "Each instruction depends on the one before it. ADD uses EX for 1 cycle, MUL for 2.<br><br>\n<b>With forwarding</b>: the EX stages run back to back: 4 [latex]\\times[/latex] (1 + 2) = 12 EX cycles from cycle 3 to 14, then MEM and WB [latex]\\rightarrow[/latex] <b>16 cycles</b>.<br><br>\n<b>Without forwarding</b>: each instruction's EX (register read) waits until the previous one's WB. Each ADD/MUL pair then takes 1 + 2 EX cycles plus 2 waiting cycles (MEM, WB) each [latex]\\rightarrow[/latex] the last WB is at cycle <b>30</b>.<br><br>\nSpeedup = 30 / 16 = 1.875 [latex]\\approx[/latex] 1.87<br><br>\n<b>Answer: 1.87</b><br><br><a href=\"https://gateoverflow.in/357484/gate-cse-2021-set-2-question-53#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q54",
+      "source_id": 1121254,
+      "number": 54,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a network using the pure ALOHA medium access control protocol, where each frame is of length 1,000 bits. The channel transmission rate is 1 Mbps (=[latex]10^6[/latex] bits per second). The aggregate number of transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions) is modelled as a Poisson process with a rate of 1,000 frames per second. Throughput is defined as the average number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest integer) is ______________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        130.0,
+        140.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Frame time T = 1000 / [latex]10^6[/latex] = 1 ms. Load G = 1000 frames/s [latex]\\times[/latex] 1 ms = 1.<br><br>\nPure ALOHA success probability = [latex]e^{-2G}=e^{-2}\\approx0.135[/latex].<br>\nThroughput = 1000 [latex]\\times[/latex] 0.135 [latex]\\approx[/latex] 135 frames/s<br><br>\n<b>Answer: 135</b><br><br><a href=\"https://gateoverflow.in/357483/gate-cse-2021-set-2-question-54#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q55",
+      "source_id": 1121255,
+      "number": 55,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "In a directed acyclic graph with a source vertex s, the quality-score of a directed path is defined to be the product of the weights of the edges on the path. Further, for a vertex v other than s, the quality-score of v is defined to be the maximum among the quality-scores of all the paths from s to v. The quality-score of s is assumed to be 1.\n<br><img src=\"/wp-content/uploads/GATE/CS/20212/q55.jpg\" /><br>\nThe sum of the quality-scores of all vertices on the graph shown above is ______",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q55.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        929.0,
+        929.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Go in topological order, taking the best product into each vertex:<br>\n- s = 1, c = 1, a = 9<br>\n- f = c [latex]\\times[/latex] 9 = 9, b = a [latex]\\times[/latex] 1 = 9<br>\n- d = max(c [latex]\\times[/latex] 1, a [latex]\\times[/latex] 1) = 9<br>\n- g = max(f [latex]\\times[/latex] 1, d [latex]\\times[/latex] 9) = 81<br>\n- e = max(d [latex]\\times[/latex] 9, b [latex]\\times[/latex] 1) = 81<br>\n- t = max(g [latex]\\times[/latex] 1, e [latex]\\times[/latex] 9) = 729<br><br>\nSum = 1 + 1 + 9 + 9 + 9 + 9 + 81 + 81 + 729 = 929<br><br>\n<b>Answer: 929</b><br><br><a href=\"https://gateoverflow.in/357482/gate-cse-2021-set-2-question-55#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q56",
+      "source_id": 1121256,
+      "number": 56,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Gauri said that she can play the keyboard __________ her sister.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "as well as",
+        "B": "as better as",
+        "C": "as nicest as",
+        "D": "as worse as"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The correct comparison phrase is \"<b>as well as</b>\" (as + adverb + as). \"As better as\", \"as nicest as\" and \"as worse as\" are ungrammatical.<br><br>\n<b>Answer: as well as</b><br><br><a href=\"https://gateoverflow.in/357549/gate-cse-2021-set-2-ga-question-1#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q57",
+      "source_id": 1121257,
+      "number": 57,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "<br><img src=\"/wp-content/uploads/GATE/CS/20212/q57a.jpg\" /><br>A transparent square sheet shown above is folded along the dotted line. The folded sheet will look like ___________<br><img src=\"/wp-content/uploads/GATE/CS/20212/q57b.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q57a.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q57b.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The sheet is transparent, so folding the left half over the dotted line puts the <b>mirror image</b> of the left drawing on top of the right half.<br><br>\nThe rising curve on the left reflects into a falling curve that meets the existing curve at the fold, making a closed lens. The two small vertical ticks on the left reflect and join the two horizontal dashes, giving the step-shaped marks inside the lens. Only option B shows this.<br><br>\n<b>Answer: B</b><br><br><a href=\"https://gateoverflow.in/357548/gate-cse-2021-set-2-ga-question-2#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q58",
+      "source_id": 1121258,
+      "number": 58,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]\\theta[/latex] is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube, then, [latex]\\cos \\theta =[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{2}[/latex]",
+        "B": "[latex]\\frac{1}{\\sqrt{3}}[/latex]",
+        "C": "[latex]\\frac{1}{\\sqrt{2}}[/latex]",
+        "D": "[latex]\\frac{\\sqrt{3}}{2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "For a cube of side a, the long diagonal is (a, a, a) with length [latex]a\\sqrt3[/latex]. An edge along the x-axis is (a, 0, 0).<br><br>\n[latex]\\cos\\theta=\\frac{a\\cdot a}{a\\cdot a\\sqrt3}=\\frac{1}{\\sqrt3}[/latex]<br><br>\n<b>Answer: [latex]\\frac{1}{\\sqrt3}[/latex]</b><br><br><a href=\"https://gateoverflow.in/357547/gate-cse-2021-set-2-ga-question-3#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q59",
+      "source_id": 1121259,
+      "number": 59,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]\\left( x - \\dfrac{1}{2} \\right)^2 - \\left( x- \\dfrac{3}{2} \\right) ^2 = x+2[/latex], then the value of [latex]x[/latex] is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Difference of squares: [latex](x-\\tfrac12)^2-(x-\\tfrac32)^2=\\left[(x-\\tfrac12)-(x-\\tfrac32)\\right]\\left[(x-\\tfrac12)+(x-\\tfrac32)\\right]=1\\cdot(2x-2)[/latex]<br><br>\n[latex]2x-2=x+2\\Rightarrow x=4[/latex]<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/357546/gate-cse-2021-set-2-ga-question-4#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q60",
+      "source_id": 1121260,
+      "number": 60,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Pen : Write :: Knife :  _______<br><br>\nWhich one of the following options maintains a similar logical relation in the above?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Vegetables",
+        "B": "Sharp",
+        "C": "Cut",
+        "D": "Blunt"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A pen is used to <b>write</b>; a knife is used to <b>cut</b> (tool : its function).<br><br>\n<b>Answer: Cut</b><br><br><a href=\"https://gateoverflow.in/357545/gate-cse-2021-set-2-ga-question-5#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q61",
+      "source_id": 1121261,
+      "number": 61,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Listening to music during exercise improves performance and reduces discomfort. Scientists researched whether listening to music while studying can help students learn better and the results were inconclusive. Students who needed external stimulation for studying fared worse while students who did not need any external stimulation benefited from music.<br><br>\nWhich one of the following statements is the CORRECT inference of the above passage?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Listening to music has no effect on learning and a positive effect on physical exercise",
+        "B": "Listening to music has a clear positive effect both in physical exercise and on learning",
+        "C": "Listening to music has a clear positive effect on physical exercise. Music has a positive effect on learning only in some students",
+        "D": "Listening to music has a clear positive effect on learning in all students. Music has a positive effect only in some students who exercise"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage says music clearly helps physical exercise, but for studying the results were mixed: it helped some students and hurt others.<br><br>\n<b>Answer: Clear positive effect on exercise; positive effect on learning only in some students</b><br><br><a href=\"https://gateoverflow.in/357544/gate-cse-2021-set-2-ga-question-6#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q62",
+      "source_id": 1121262,
+      "number": 62,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "<br><img src=\"/wp-content/uploads/GATE/CS/20212/q62a.jpg\" /><br>A jigsaw puzzle has 2 pieces. One of the pieces is shown above. Which one of the given options for the missing piece when assembled will form a rectangle? The piece can be moved, rotated or flipped to assemble with the above piece.<br><img src=\"/wp-content/uploads/GATE/CS/20212/q62b.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q62a.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q62b.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The given piece has a straight right edge and a jagged left edge with teeth of different lengths. The missing piece, rotated to sit next to it, must have teeth that exactly fill those gaps.<br><br>\nOnly option A has the matching pattern of widths and depths, so together they form a rectangle.<br><br>\n<b>Answer: A</b><br><br><a href=\"https://gateoverflow.in/357543/gate-cse-2021-set-2-ga-question-7#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q63",
+      "source_id": 1121263,
+      "number": 63,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The number of students in three classes is in the ratio 3:13:6. If 18 students are added to each class, the ratio changes to 15:35:21.\n<br><br>\nThe total number of students in all the three classes in the beginning was:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "22",
+        "B": "66",
+        "C": "88",
+        "D": "110"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let the classes be 3k, 13k, 6k. After adding 18 to each:<br>\n[latex]\\frac{3k+18}{13k+18}=\\frac{15}{35}=\\frac37\\Rightarrow21k+126=39k+54\\Rightarrow k=4[/latex]<br><br>\nInitial total = 22k = 88. (Check: 30 : 70 : 42 = 15 : 35 : 21 True)<br><br>\n<b>Answer: 88</b><br><br><a href=\"https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q64",
+      "source_id": 1121264,
+      "number": 64,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "<br><img src=\"/wp-content/uploads/GATE/CS/20212/q64.jpg\" /><br>The number of units of a product sold in three different years and the respective net profits are presented in the figure above. The cost/unit in Year 3 was Re. 1, which was half the cost/unit in Year 2. The cost/unit in Year 3 was one-third of the cost/unit in Year 1. Taxes were paid on the selling price at 10%, 13%, and 15% respectively for the three years. Net profit is calculated as the difference between the selling price and teh sum of cost and taxes paid in that year.<br><br>\nThe ratio of the selling price in Year 2 to the selling price in Year 3 is _________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q64.jpg"
+      ],
+      "options": {
+        "A": "04:03",
+        "B": "01:01",
+        "C": "03:04",
+        "D": "01:02"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Cost/unit: Year 3 = 1, Year 2 = 2.<br>\nNet profit = SP [latex]-[/latex] cost [latex]-[/latex] tax on SP = SP(1 [latex]-[/latex] t) [latex]-[/latex] cost.<br>\n- Year 2: 200 units, cost 400, profit 296, tax 13%: [latex]0.87\\,SP=696\\Rightarrow SP=800[/latex]<br>\n- Year 3: 300 units, cost 300, profit 210, tax 15%: [latex]0.85\\,SP=510\\Rightarrow SP=600[/latex]<br><br>\nRatio = 800 : 600 = 4 : 3<br><br>\n<b>Answer: 4 : 3</b><br><br><a href=\"https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2021-S2-Q65",
+      "source_id": 1121265,
+      "number": 65,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Six students P, Q, R, S, T and U, with distinct heights, compare their heights and make the following observations.<br><br>\nObservation I: S is taller than R.<br>\nObservation II: Q is the shortest of all.<br>\nObservation III: U is taller than only one student.<br>\nObservation IV: T is taller than S but is not the tallest<br><br>\nThe number of students that are taller than R is the same as the number of students shorter than ____________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "T",
+        "B": "R",
+        "C": "S",
+        "D": "P"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From the observations: Q is shortest, U is second shortest, and T is taller than S but not tallest, so P is the tallest. R is shorter than S and above U.<br><br>\nOrder (short [latex]\\rightarrow[/latex] tall): Q, U, R, S, T, P.<br><br>\nTaller than R: S, T, P = 3. Shorter than S: R, U, Q = 3.<br><br>\n<b>Answer: S</b><br><br><a href=\"https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

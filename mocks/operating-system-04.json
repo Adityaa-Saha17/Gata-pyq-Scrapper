@@ -1,0 +1,827 @@
+{
+  "paper_id": "operating-system-04",
+  "paper": "Operating System: Topic Mock 4",
+  "kind": "topic_mock",
+  "topic": "Operating System",
+  "set": 4,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2022-Q16",
+      "source_id": 1122116,
+      "number": 1,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following statements is/are TRUE with respect to deadlocks?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Circular wait is a necessary condition for the formation of deadlock.",
+        "B": "In a system where each resource has more than one instance, a cycle in its wait-for graph indicates the presence of a deadlock.",
+        "C": "If the current allocation of resources to processes leads the system to unsafe state, then deadlock will necessarily occur.",
+        "D": "In the resource-allocation graph of a system, if every edge is an assignment edge, then the system is not in deadlock state."
+      },
+      "correct": [
+        "A",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Deadlock",
+      "explanation": "Checking each statement:<br>- Circular wait is one of the four necessary conditions (with mutual exclusion, hold [latex]\\&[/latex] wait, no preemption) [latex]\\text{---}[/latex] TRUE.<br>\n- With multiple instances per resource, a cycle is necessary but not sufficient for deadlock [latex]\\text{---}[/latex] FALSE.<br>\n- An unsafe state only <i>may</i> lead to deadlock; processes might release resources early [latex]\\text{---}[/latex] FALSE.<br>\n- If every edge is an assignment edge, no process is waiting for anything, so there is no deadlock [latex]\\text{---}[/latex] TRUE.<br><br>\n<b>Answer: Options 1 and 4</b><br><br><a href=\"https://gateoverflow.in/371920/Gate-cse-2022-question-16#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 16
+    },
+    {
+      "id": "2017-S1-Q24",
+      "source_id": 1117124,
+      "number": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following CPU processes with arrival times (in milliseconds) and length of CPU\nburst (in milliseconds) as given below:  <br><img src=\"/wp-content/uploads/GATE/CS/20171/q9.jpg\"/><br> If the pre-emptive shortest remaining time first scheduling algorithm is used to schedule the processes., then the average waiting time across all processes is ________ milliseconds.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20171/q9.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "SRTF: P1 0-3 (4 left); P2 (3) preempts, runs 3-6; at 6: P1 4, P3 5, P4 2 [latex]\\rightarrow[/latex] P4 6-8; P1 8-12; P3 12-17.<br><br>\nWaiting: P1 = 12 [latex]-[/latex] 0 [latex]-[/latex] 7 = 5, P2 = 0, P3 = 17 [latex]-[/latex] 5 [latex]-[/latex] 5 = 7, P4 = 0 [latex]\\rightarrow[/latex] average = 12 / 4 = 3<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/118304/gate2017-1-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 24
+    },
+    {
+      "id": "1999-Q11",
+      "source_id": 1101811,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "System calls are usually invoked by using\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a software interrupt",
+        "B": "polling",
+        "C": "an indirect jump",
+        "D": "a privileged instruction"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "System Call",
+      "explanation": "<a href=\"https://gateoverflow.in/1464/gate1999-1-11-ugcnet-dec2015-ii-44\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 11
+    },
+    {
+      "id": "2019-Q23",
+      "source_id": 1119123,
+      "number": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider three concurrent processes P1, P2 and P3 as shown below, which access a shared variable D that has been initialized to 100. <br><img src=\"/wp-content/uploads/GATE/CS/20191/q23.jpg\" /><br>\nThe process are executed on a uniprocessor system running a time-shared operating system. If the minimum and maximum possible values of D after the three processes have completed execution are X and Y respectively, then the value of Y-X is __________. ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20191/q23.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        80.0,
+        80.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "Each update is really load D, change, store D, so a process can overwrite the others' results.<br><br>\n- <b>Maximum</b>: lose P2's update. P1 reads 100; P2 runs fully (D = 50); P1 writes 120; then P3 makes it 130. So [latex]Y=130[/latex].<br>\n- <b>Minimum</b>: lose both additions. P2 reads 100; P1 and P3 run fully (D = 130); P2 writes 100 [latex]-[/latex] 50 = 50. So [latex]X=50[/latex].<br><br>\n[latex]Y-X=130-50=80[/latex]<br><br>\n<b>Answer: 80</b><br><br><a href=\"https://gateoverflow.in/302825/gate2019-cs-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 23
+    },
+    {
+      "id": "2001-Q19",
+      "source_id": 1101119,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a set of n tasks with known runtimes [latex]r_{1},r_{2},....r_{n}[/latex] to be run on a uniprocessor machine. Which of the following processor scheduling algorithms will result in the maximum throughput ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Round-Robin",
+        "B": "Shortest-Job-First",
+        "C": "Highest-Response-Ratio-Next",
+        "D": "First-come-First-Served"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/712/gate2001-1-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 19
+    },
+    {
+      "id": "2017-S2-Q7",
+      "source_id": 1117207,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is/are shared by all the threads in a process ?<br>\nI. Program counter <br>II. Stack <br>\nIII. Address space<br> IV. Registers",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and II only",
+        "B": "III only",
+        "C": "IV only",
+        "D": "III and IV only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Thread",
+      "explanation": "Each thread has its own program counter, stack and registers. All threads of a process share the <b>address space</b> (code, data, heap, open files).<br><br>\n<b>Answer: III only</b><br><br><a href=\"https://gateoverflow.in/118240/gate2017-2-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 7
+    },
+    {
+      "id": "2003-Q26",
+      "source_id": 1103126,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a system with 32 bit virtual addresses and 1 KB page size, use of one-level\npage tables for virtual to physical address translation is not practical because of",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "the large amount of internal fragmentation",
+        "B": "the large amount of external fragmentation",
+        "C": " the large memory overhead in maintaining page tables",
+        "D": "the large computation overhead in the translation process"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/916/gate2003-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 26
+    },
+    {
+      "id": "1998-Q53",
+      "source_id": 1101753,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If an instruction takes [latex]i[/latex] microseconds and a page fault takes an additional [latex]j[/latex] microseconds, the effective instruction time if on the average a page fault occurs every [latex]k[/latex] instruction is:\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]i + \\dfrac{j}{k}[/latex]",
+        "B": "[latex]i +(j\\times k)[/latex]",
+        "C": "[latex]\\dfrac{i+j}{k}[/latex]",
+        "D": "[latex]({i+j})\\times {k}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/1691/gate1998-2-18-ugcnet-june2012-iii-48\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 53
+    },
+    {
+      "id": "1998-Q52",
+      "source_id": 1101752,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider [latex]n[/latex] processes sharing the CPU in a round-robin fashion. Assuming that each process switch takes [latex]s[/latex] seconds, what must be the quantum size [latex]q[/latex] such that the overhead resulting from process switching is minimized but at the same time each process is guaranteed to get its turn at the CPU at least every [latex]t[/latex] seconds?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]q \\leq \\frac{t-ns}{n-1}[/latex]",
+        "B": "[latex]q \\geq \\frac{t-ns}{n-1}[/latex]",
+        "C": "[latex]q \\leq \\frac{t-ns}{n+1}[/latex]",
+        "D": "[latex]q \\geq \\frac{t-ns}{n+1}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/1690/gate1998-2-17-ugcnet-dec2012-iii-43\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 52
+    },
+    {
+      "id": "2010-Q24",
+      "source_id": 1110124,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A system uses FIFO policy for page replacement. It has 4 page frames with no pages loaded to begin with. The system first accesses 100 distinct pages in some order and then accesses the same 100 pages but now in the reverse order. How many page faults will occur?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "196",
+        "B": "192",
+        "C": "197",
+        "D": "195"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "First pass: all 100 pages fault (100). Frames now hold the last 4 pages: 97, 98, 99, 100.<br><br>\nReverse pass: 100, 99, 98, 97 are hits. The remaining 96 pages all fault.<br><br>\nTotal = 100 + 96 = 196<br><br>\n<b>Answer: 196</b><br><br><a href=\"https://gateoverflow.in/2203/gate2010-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 24
+    },
+    {
+      "id": "1996-Q43",
+      "source_id": 1101543,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A 1000 Kbyte memory is managed using variable partitions but no compaction. It currently has two partitions of sizes 200 Kbyte and 260 Kbyte respectively. The smallest allocation request in Kbyte that could be denied is for\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "151",
+        "B": "181",
+        "C": "231",
+        "D": "541"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/2747/gate1996-2-18\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 43
+    },
+    {
+      "id": "2015-S1-Q19",
+      "source_id": 1115119,
+      "number": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a system with byte-addressable memory, 32-bit logical addresses, 4 kilobyte page size and page table entries of 4 bytes each. The size of the page table in the system in megabytes is ________ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "Number of pages = [latex]\\frac{2^{32}}{2^{12}}=2^{20}[/latex]<br><br>\nPage table size = [latex]2^{20}\\times4[/latex] B = 4 MB<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/8186/gate2015-1-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 19
+    },
+    {
+      "id": "2020-Q12",
+      "source_id": 1120112,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements about process state transitions for a system using preemptive scheduling. <br><br>\nI. A running process can move to ready state.<br>\nII. A ready process can move to running state.<br>\nIII. A blocked process can move to running state.<br>\nIV. A blocked process can move to ready state.<br><br>\nWhich of the above statements are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I, II and III only",
+        "B": "II and III only",
+        "C": "I, II and IV only",
+        "D": "I, II, III and IV only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process",
+      "explanation": "Checking each statement:<br>- Running [latex]\\rightarrow[/latex] Ready (preemption) [latex]\\text{---}[/latex] possible.<br>\n- Ready [latex]\\rightarrow[/latex] Running (dispatch) [latex]\\text{---}[/latex] possible.<br>\n- Blocked [latex]\\rightarrow[/latex] Running [latex]\\text{---}[/latex] <b>not possible</b>; a blocked process goes to Ready first.<br>\n- Blocked [latex]\\rightarrow[/latex] Ready (I/O done) [latex]\\text{---}[/latex] possible.<br><br>\n<b>Answer: I, II and IV only</b><br><br><a href=\"https://gateoverflow.in/333219/gate2020-cs-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 12
+    },
+    {
+      "id": "1997-Q48",
+      "source_id": 1101648,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Each Process [latex]P_i, i = 1\\ldots 9[/latex] is coded as follows<br>\n<pre><code> repeat \n    P(mutex)\n    {Critical section}\n    V(mutex)\nforever</pre></code> <br>\nThe code for [latex]P_{10}[/latex] is identical except it uses V(mutex) in place of P(mutex). What is the largest number of processes that can be inside the critical section at any moment?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "None"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/2264/gate1997-6-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 48
+    },
+    {
+      "id": "2014-S2-Q20",
+      "source_id": 1114220,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A FAT (file allocation table) based file system is being used and the total overhead of each\nentry in the FAT is 4 bytes in size. Given a 100x[latex]10^{6}[/latex] bytes disk on which the file system is\nstored and data block size is [latex]10^{3}[/latex] bytes, the maximum size of a file that can be stored on this\ndisk in units of [latex]10^{6}[/latex] bytes is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        99.55,
+        99.65
+      ],
+      "topic": "Operating System",
+      "subtopic": "File Systems",
+      "explanation": "Number of blocks = [latex]\\frac{100\\times10^6}{10^3}=10^5[/latex], one FAT entry per block.<br><br>\nFAT size = [latex]10^5\\times4=0.4\\times10^6[/latex] bytes.<br><br>\nMax file size = [latex](100-0.4)\\times10^6=99.6\\times10^6[/latex] bytes.<br><br>\n<b>Answer: 99.6</b><br><br><a href=\"https://gateoverflow.in/1977/gate2014-2-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 20
+    },
+    {
+      "id": "2009-Q30",
+      "source_id": 1109130,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a system with 4 types of resources R1 (3 units), R2 (2 units), R3 (3 units), R4 (2 units). A non-preemptive resource allocation policy is used. At any given instance, a request is not entertained if it cannot be completely satisfied. Three processes P1, P2, P3 request the sources as follows if executed\nindependently. <br><img src=\"/wp-content/uploads/GATE/CS/20091/q30.jpg\"/> <br> Which one of the following statements is TRUE if all three processes run concurrently starting at time t=0?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20091/q30.jpg"
+      ],
+      "options": {
+        "A": "All processes will finish without any deadlock",
+        "B": "Only P1 and P2 will be in deadlock",
+        "C": "Only P1 and P3 will be in a deadlock",
+        "D": "All three processes will be in deadlock"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Deadlock",
+      "explanation": "<a href=\"https://gateoverflow.in/1316/gate2009-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 30
+    },
+    {
+      "id": "2020-Q34",
+      "source_id": 1120134,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Each of a set of n processes executes the following code using two semaphores a and b initialized to 1 and 0, respectively. Assume that count is a shared variable initialized to 0 and not used in CODE SECTION P.<br><img src=\"/wp-content/uploads/GATE/CS/20201/q34.jpg\" /><br> What does the code achieve?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20201/q34.jpg"
+      ],
+      "options": {
+        "A": "It ensures that no process executes CODE SECTION Q before every process has finished CODE SECTION P.",
+        "B": "It ensures that two processes are in CODE SECTION Q at any time.",
+        "C": "It ensures that all processes execute CODE SECTION P mutually exclusively.",
+        "D": "It ensures that at most n-1 processes are in CODE SECTION P at any time."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "Semaphore a protects count; b starts at 0.<br>\n- Each process increments count after CODE SECTION P, then waits on b.<br>\n- Only the <b>n-th</b> (last) process signals b; then each process that passes wait(b) signals b again for the next one.<br><br>\nSo nobody enters CODE SECTION Q until all n processes have finished P. This is a <b>barrier</b>.<br><br>\n<b>Answer: No process executes CODE SECTION Q before every process has finished CODE SECTION P</b><br><br><a href=\"https://gateoverflow.in/333197/gate2020-cs-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 34
+    },
+    {
+      "id": "2015-S3-Q35",
+      "source_id": 1115335,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following policies for preventing deadlock in a system with mutually exclusive resources. <br>\nI. Processes should acquire all their resources at the beginning of execution. If any resource is not available, all resources acquired so far are released <br>\nII. The resources are numbered uniquely, and processes are allowed to request for resources only in increasing resource numbers <br>\nIII. The resources are numbered uniquely, and processes are allowed to request for resources only in decreasing resource numbers <br>\nIV. The resources are numbered uniquely. A process is allowed to request only for a resource with resource number larger than its currently held resources <br>\nWhich of the above policies can be used for preventing deadlock?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Any one of I and III but not II or IV",
+        "B": "Any one of I, III, and IV but not II",
+        "C": "Any one of II and III but not I or IV",
+        "D": "Any one of I, II, III, and IV"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Deadlock",
+      "explanation": "Checking each statement:<br>- I removes hold-and-wait (all or nothing).<br>\n- II, III and IV each impose a single global order on requests (increasing or decreasing), which removes circular wait.<br><br>\nAll four prevent deadlock.<br><br>\n<b>Answer: Any one of I, II, III, and IV</b><br><br><a href=\"https://gateoverflow.in/8561/gate2015-3-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 35
+    },
+    {
+      "id": "2014-S3-Q32",
+      "source_id": 1114332,
+      "number": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "An operating system uses shortest remaining time first scheduling algorithm for pre-emptive\nscheduling of processes. Consider the following set of processes with their arrival times and\nCPU burst times (in milliseconds): <br><img src=\"/wp-content/uploads/GATE/CS/20143/q32.jpg\"/><br>  The average waiting time (in milliseconds) of the processes is _________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20143/q32.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.5,
+        5.5
+      ],
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "SRTF schedule:<br>\n- 0-2 P1 (rem 10)<br>\n- 2-6 P2 (P3 arriving at 3 needs 6, more than P2's remaining)<br>\n- 6-12 P3 (P4 arriving at 8 needs 5, more than P3's remaining 4)<br>\n- 12-17 P4, 17-27 P1<br><br>\nWaiting = completion [latex]-[/latex] arrival [latex]-[/latex] burst:<br>\nP1 = 27 [latex]-[/latex] 0 [latex]-[/latex] 12 = 15, P2 = 0, P3 = 12 [latex]-[/latex] 3 [latex]-[/latex] 6 = 3, P4 = 17 [latex]-[/latex] 8 [latex]-[/latex] 5 = 4<br><br>\nAverage = 22 / 4 = 5.5<br><br>\n<b>Answer: 5.5</b><br><br><a href=\"https://gateoverflow.in/2066/gate2014-3-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 32
+    },
+    {
+      "id": "2015-S2-Q33",
+      "source_id": 1115233,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A computer system implements 8 kilobyte pages and a 32-bit physical address space. Each page table entry contains a valid bit, a dirty bit, three permission bits, and the translation. If the maximum size of the page table of a process is 24 megabytes, the length of the virtual address supported by the system is _____ bits.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        36.0,
+        36.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "Checking each statement:<br>- Frames = [latex]2^{32}/2^{13}=2^{19}[/latex] [latex]\\rightarrow[/latex] 19 bits for translation<br>\n- PTE = 19 + 1 + 1 + 3 = 24 bits = 3 bytes<br>\n- Entries = 24 MB / 3 B = 8M = [latex]2^{23}[/latex] pages<br><br>\nVirtual address = 23 + 13 = 36 bits<br><br>\n<b>Answer: 36</b><br><br><a href=\"https://gateoverflow.in/8247/gate2015-2-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 33
+    },
+    {
+      "id": "2006-Q64",
+      "source_id": 1106164,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider three processes (process id 0,1,2, respectively) with compute time bursts\n2,4, and 8 time units. All processes arrive at time zero. Consider the longest remaining time first (LRTF) scheduling algorithm. In LRTF ties are broken by giving priority to the process with the lowest process id . The average turn around time is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "13units",
+        "B": "14units",
+        "C": "15units",
+        "D": "16units"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/1842/gate2006-64#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 64
+    },
+    {
+      "id": "2019-Q33",
+      "source_id": 1119133,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Assume that in a certain computer, the virtual addresses are 64 bits long and the physical addresses are 48 bits long. The memory is word addressable. The page size is 8kB and the word size is 4 bytes. The Translation Look-aside Buffer (TLB) in the address translation path has 128 valid entries. At most how many distinct virtual addresses can be translated without any TLB miss?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]16 \\times 2^{10}[/latex]",
+        "B": "[latex]256 \\times 2^{10}[/latex]",
+        "C": "[latex]4 \\times 2^{20}[/latex]",
+        "D": "[latex]8 \\times 2^{20}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "Word addressable, word = 4 bytes, so one page = 8 KB / 4 B = [latex]2^{11}[/latex] words = 2048 addresses.<br><br>\n128 TLB entries cover 128 pages: [latex]128\\times2^{11}=2^{18}=256\\times2^{10}[/latex] addresses without a TLB miss.<br><br>\n<b>Answer: [latex]256\\times2^{10}[/latex]</b><br><br><a href=\"https://gateoverflow.in/302815/gate2019-cs-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 33
+    },
+    {
+      "id": "2022-Q54",
+      "source_id": 1122154,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a demand paging system with four page frames (initially empty) and LRU page replacement policy. For the following page reference string\n<br><br>\n7, 2, 7, 3, 2, 5, 3, 4, 6, 7, 7,1, 5, 6,1\n<br><br>\nthe page fault rate, defined as the ratio of number of page faults to the number of memory accesses (rounded off to one decimal place) is\n",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.6,
+        0.6
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "LRU with 4 frames (F = fault):<br>\n7 F, 2 F, 7 hit, 3 F, 2 hit, 5 F [7, 2, 3, 5], 3 hit,<br>\n4 F (evict 7), 6 F (evict 2), 7 F (evict 5), 7 hit, 1 F (evict 3), 5 F (evict 4), 6 hit, 1 hit.<br><br>\nFaults = 9 out of 15 references. Rate [latex]=\\frac{9}{15}=0.6[/latex]<br><br>\n<b>Answer: 0.6</b><br><br><a href=\"https://gateoverflow.in/371882/Gate-cse-2022-question-54#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 54
+    },
+    {
+      "id": "2026-S1-Q53",
+      "source_id": 1126153,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the fork() system call is always successful in creating a process. <pre><code>int main () {\n  int i;\n  for (i = 0; i < 3; i++) {\n  \tif (fork() == 0) {\n  \t\tcontinue;\n  \t}\n  \tbreak;\n  }\n  printf(\"Hello!\");\n  return 0;\n } </pre></code>The total number of times that the printf statement gets executed is ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "System Call",
+      "explanation": "Trace the loop, remembering that after [latex]\\text{fork()}[/latex], the <b>child</b> gets return value [latex]0[/latex] (executes [latex]\\text{continue}[/latex], moving to the next loop iteration), while the <b>parent</b> gets a nonzero value (executes [latex]\\text{break}[/latex], immediately leaving the loop).<br><br>\n- [latex]i=0[/latex]: original process forks &rarr; <b>parent breaks</b> immediately (1 process reaches printf with [latex]i=0[/latex]); the <b>child continues</b> the loop.<br>\n- [latex]i=1[/latex] (in that child): it forks again &rarr; this process (now acting as parent of its own fork) <b>breaks</b> (2nd process reaches printf); its own child continues.<br>\n- [latex]i=2[/latex] (in that grandchild): forks again &rarr; this one <b>breaks</b> (3rd process reaches printf); its child continues.<br>\n- [latex]i=3[/latex] (in the great-grandchild): loop condition [latex]i<3[/latex] fails, so the loop ends naturally without another fork (4th process reaches printf).<br><br>\nSo exactly [latex]4[/latex] distinct processes each execute the [latex]\\text{printf}[/latex] statement exactly once.<br><br>\n<b>Answer: 4</b> <br><br> <a href=\"https://gateoverflow.in/523027/gate-cse-2026-set-1-question-53#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 53
+    },
+    {
+      "id": "2009-Q31",
+      "source_id": 1109131,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a disk system with 100 cylinders. The requests to access the cylinders\r\noccur in following sequence: <br><br>\r\n4, 34, 10, 7, 19, 73, 2, 15, 6, 20<br><br>\r\nAssuming that the head is currently at cylinder 50, what is the time taken to\r\nsatisfy all requests if it takes 1ms to move from one cylinder to adjacent one and\r\nshortest seek time first policy is used?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "95ms",
+        "B": "119ms",
+        "C": "233ms",
+        "D": "276ms"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Disk Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/1317/gate2009-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 31
+    },
+    {
+      "id": "2016-S2-Q47",
+      "source_id": 1116247,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following processes, with the arrival time and the length of the CPU burst given in milli seconds.The scheduling algorithm used is preemptive shortest remaining-time first.<br><img src=\"/wp-content/uploads/GATE/CS/20162/q47.jpg\"/><br> The average turn around time of these processes is milliseconds.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20162/q47.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.2,
+        8.3
+      ],
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "SRTF: P1 0-3 (7 left); P2 arrives (6 [latex]\\lt[/latex] 7) and runs 3-7 (2 left); P3 (1) runs 7-8; P2 runs 8-10; P4 runs 10-13; P1 runs 13-20.<br><br>\nTurnaround: P1 20, P2 10 [latex]-[/latex] 3 = 7, P3 8 [latex]-[/latex] 7 = 1, P4 13 [latex]-[/latex] 8 = 5.<br><br>\nAverage = 33 / 4 = 8.25<br><br>\n<b>Answer: 8.25</b><br><br><a href=\"https://gateoverflow.in/39625/gate2016-2-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 47
+    },
+    {
+      "id": "2003-Q81",
+      "source_id": 1103181,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose we want to synchronize two concurrent processes P and Q using binary semaphores S and T. The code for the processes P and Q is shown below. <pre><code> Process P:\r\nwhile (1) {\r\nW:\r\n   print '0';\r\n   print '0';\r\nX:\r\n}\r\n \r\nProcess Q:\r\nwhile (1) {\r\nY:\r\n   print '1';\r\n   print '1';\r\nZ:\r\n}</pre></code> Synchronization statements can be inserted only at points W, X, Y and Z.<br> Which of the following will ensure that the output string never contains a substring of the form  [latex]01^{n}0[/latex] or [latex]10^{n}1[/latex], where n is odd?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(S) at W, V(S) at X, P(T) at Y, V(T) at Z, S and T initially 1",
+        "B": "P(S) at W, V(T) at X, P(T) at Y, V(S) at Z, S and T initially 1",
+        "C": "P(S) at W, V(S) at X, P(S) at Y, V(S) at Z, S initially 1",
+        "D": "V(S) at W, V(T) at X, P(S) at Y, P(T) at Z, S and T initially 1"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/43574/gate2003-81#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 81
+    },
+    {
+      "id": "2026-S2-Q45",
+      "source_id": 1126245,
+      "number": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme. Suppose there are [latex]8[/latex] holes in the memory of sizes [latex]20 \\text{KB}, 4 \\text{KB}[/latex], [latex]25 \\text{KB}, 18 \\text{KB}, 7 \\text{KB}, 9 \\text{KB}, 15 \\text{KB}[/latex], and [latex]12\\text{KB}[/latex]. Assume that no two holes are adjacent. Two processes [latex]\\text{P1}[/latex] of size [latex]16KB[/latex]  and [latex]\\text{P2}[/latex] of size [latex]9KB[/latex]  arrive in that order, and they are allocated memory using the best-fit technique. After allocating space to [latex]\\text{P1}[/latex] and [latex]\\text{P2}[/latex], the number of holes of size less than [latex]8KB[/latex]  is ________. (answer in integer) <br>Note: [latex]1 {K}=2^{10}[/latex]",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<b>Best-fit</b> always picks the smallest hole that is still large enough to satisfy the request.<br><br>\nInitial holes (KB): [latex]20,4,25,18,7,9,15,12[/latex].<br><br>\n<b>P1 (16 KB):</b> smallest hole [latex]\\ge16[/latex] is [latex]18[/latex]. Allocate there, leaving a remainder hole of [latex]18-16=2[/latex] KB. Holes become: [latex]20,4,25,7,9,15,12,2[/latex].<br><br>\n<b>P2 (9 KB):</b> smallest hole [latex]\\ge9[/latex] is the exact-fit [latex]9[/latex] KB hole itself, which is fully consumed (disappears entirely). Holes become: [latex]20,4,25,7,15,12,2[/latex] ([latex]7[/latex] holes remaining).<br><br>\nCounting holes smaller than [latex]8[/latex] KB among [latex]\\{20,4,25,7,15,12,2\\}[/latex]: [latex]4[/latex] KB, [latex]7[/latex] KB, and [latex]2[/latex] KB &mdash; exactly [latex]3[/latex] holes.<br><br>\n<b>Answer: 3</b> <br><br> <a href=\"https://gateoverflow.in/523101/gate-cse-2026-set-2-question-45#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 45
+    },
+    {
+      "id": "2024-S2-Q36",
+      "source_id": 1124236,
+      "number": 29,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a multi-threaded program with two threads T1 and T2. The threads share\ntwo semaphores: s1 (initialized to 1) and s2 (initialized to 0). The threads also\nshare a global variable x (initialized to 0). The threads execute the code shown\nbelow.<pre><code>\n// code of T1\nwait(s1);\nx = x+1;\nprint(x);\nwait(s2);\nsignal(s1);\n\n// code of T2\nwait(s1);\nx = x+1;\nprint(x);\nsignal(s2);\nsignal(s1);</pre></code>\nWhich of the following outcomes is/are possible when threads T1 and T2 execute\nconcurrently?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "T1 runs first and prints 1, T2 runs next and prints 2",
+        "B": "T2 runs first and prints 1, T1 runs next and prints 2",
+        "C": "T1 runs first and prints 1, T2 does not print anything (deadlock)",
+        "D": "T2 runs first and prints 1, T1 does not print anything (deadlock)"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "s1 works as a mutex, so whichever thread gets s1 first runs its part first.<br><br>\n<b>T1 first:</b> wait(s1), x = 1, print 1, then wait(s2) blocks (s2 = 0) <i>while holding s1</i>. T2 blocks on wait(s1) [latex]\\rightarrow[/latex] <b>deadlock</b>, only \"1\" printed. So option 3 is possible and option 1 is not.<br><br>\n<b>T2 first:</b> wait(s1), x = 1, print 1, signal(s2), signal(s1). Then T1: x = 2, print 2, wait(s2) succeeds, signal(s1). So option 2 is possible; T2 never blocks, so option 4 is not.<br><br>\n<b>Answer: Options 2 and 3</b><br><br><a href=\"https://gateoverflow.in/422861/gate-cse-2024-set-2-question-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 36
+    },
+    {
+      "id": "2003-Q78",
+      "source_id": 1103178,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A processor uses 2-level page tables for virtual to physical address translation. Page tables for both levels are stored in the main memory. Virtual and physical addresses are both 32 bits wide. The memory is byte addressable. For virtual to physical address translation, the 10 most significant bits of the virtual address are used as index into the first level page table while the next 10 bits are used as index into the second level page table. The 12 least significant bits of the virtual address are used as offset within the page. Assume that the page table entries in both levels of page tables are 4 bytes wide. Further, the processor has a translation look-aside buffer (TLB), with a hit rate of 96%. The TLB caches recently used virtual page numbers and the corresponding physical page numbers. The processor also has a physically addressed cache with a hit rate of 90%. Main memory access time is 10 ns, cache access time is 1 ns, and TLB access time is also 1 ns. <br><br>Assuming that no page faults occur, the average time taken to access a virtual address is approximately (to the nearest 0.5 ns)",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1.5 ns",
+        "B": "2 ns",
+        "C": "3 ns",
+        "D": "4 ns"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/788/gate2003-78#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 78
+    }
+  ]
+}

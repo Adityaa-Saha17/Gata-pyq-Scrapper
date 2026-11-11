@@ -1,0 +1,828 @@
+{
+  "paper_id": "computer-networks-02",
+  "paper": "Computer Networks: Topic Mock 2",
+  "kind": "topic_mock",
+  "topic": "Computer Networks",
+  "set": 2,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2005-Q24",
+      "source_id": 1105124,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The address resolution protocol (ARP) is used for:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Finding the IP address from the DNS",
+        "B": "Finding the IP address of the default gateway",
+        "C": "Finding the IP address that corresponds to a MAC address",
+        "D": "Finding the MAC address that corresponds to an IP address"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/1360/gate2005-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 24
+    },
+    {
+      "id": "2014-S2-Q25",
+      "source_id": 1114225,
+      "number": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "In the diagram shown below, L1 is an Ethernet LAN and L2 is a Token-Ring LAN. An IP\npacket originates from sender S and traverses to R, as shown. The links within each ISP and\nacross the two ISPs, are all point-to-point' optical links. The initial value of the TTL field is\n32. The maximum possible value of the TTL field when R receives the datagram is\n____________. <br><img src=\"/wp-content/uploads/GATE/CS/20142/q25.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20142/q25.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        26.0,
+        26.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "TTL is decremented only by routers (layer 3). The bridges/switches inside LAN L1 and the stations on token ring L2 work at layer 2 and do not touch TTL.<br><br>\nFollowing the path, the datagram passes through 6 routers (the square boxes).<br><br>\nTTL at R = 32 [latex]-[/latex] 6 = 26<br><br>\n<b>Answer: 26</b><br><br><a href=\"https://gateoverflow.in/1983/gate2014-2-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 25
+    },
+    {
+      "id": "2015-S2-Q25",
+      "source_id": 1115225,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following statements is NOT correct about HTTP cookies?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A cookie is a piece of code that has the potential to compromise the security of an Internet user",
+        "B": "A cookie gains entry to the user's work area through an HTTP header",
+        "C": "A cookie has an expiry date and time",
+        "D": "Cookies can be used to track the browsing pattern of a user at a particular site"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "A cookie is a small piece of <b>data</b> (name-value text) stored by the browser, not executable code.<br><br>\nIt does come in the Set-Cookie HTTP header, has an expiry time and can track browsing on a site.<br><br>\n<b>Answer: A cookie is a piece of code that has the potential to compromise security</b><br><br><a href=\"https://gateoverflow.in/8063/gate2015-2-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 25
+    },
+    {
+      "id": "2015-S1-Q14",
+      "source_id": 1115114,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose that everyone in a group of N people wants to communicate secretly with the N-1 others using symmetric key cryptographic system. The communication between any two persons should not be decodable by the others in the group. The number of keys required in the system as a whole to satisfy the confidentiality requirement is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2N",
+        "B": "N(N-1)",
+        "C": "N(N-1)/2",
+        "D": "[latex](N-1)^{2}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "Each pair of people needs its own shared secret key.<br><br>\nNumber of pairs = [latex]\\binom N2=\\frac{N(N-1)}{2}[/latex]<br><br>\n<b>Answer: N(N-1)/2</b><br><br><a href=\"https://gateoverflow.in/8244/gate2015-1-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 14
+    },
+    {
+      "id": "2005-Q25",
+      "source_id": 1105125,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The maximum window size for data transmission using the selective reject protocol with n-bit frame sequence numbers is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]2^{n}[/latex]",
+        "B": "[latex]2^{n-1}[/latex]",
+        "C": "[latex]2^{n}-1[/latex]",
+        "D": "[latex]2^{n-2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1361/gate2005-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 25
+    },
+    {
+      "id": "2012-Q10",
+      "source_id": 1112110,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The protocol data unit (PDU) for the application layer in the Internet stack is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Segment",
+        "B": "Datagram",
+        "C": "Message",
+        "D": "Frame"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "PDUs by layer: application = message, transport = segment, network = datagram, link = frame.<br><br>\n<b>Answer: Message</b><br><br><a href=\"https://gateoverflow.in/42/gate2012-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 10
+    },
+    {
+      "id": "2013-Q14",
+      "source_id": 1113114,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Assume that source S and destination D are connected through two intermediate routers labeled R.\nDetermine how many times each packet has to visit the network layer and the data link layer during\na transmission from S to D. <br><img src=\"/wp-content/uploads/GATE/CS/20131/q14.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20131/q14.jpg"
+      ],
+      "options": {
+        "A": "Network layer - 4 times and Data link layer - 4 times",
+        "B": "Network layer - 4 times and Data link layer - 3 times",
+        "C": "Network layer - 4 times and Data link layer - 6 times",
+        "D": "Network layer - 2 times and Data link layer - 6 times"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Checking each statement:<br>- Network layer: at S, both routers, and D = 4 times<br>\n- Data link layer: S (send) + 2 per router (receive and send) + D (receive) = 1 + 4 + 1 = 6 times<br><br>\n<b>Answer: Network layer 4 times and Data link layer 6 times</b><br><br><a href=\"https://gateoverflow.in/1436/gate2013-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 14
+    },
+    {
+      "id": "2022-Q25",
+      "source_id": 1122125,
+      "number": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the resolution of the domain name [latex]www.gate.org.in[/latex] by a DNS resolver. Assume that no resource records are cached anywhere across the DNS servers and that iterative query mechanism is used in the resolution. The number of DNS query-response pairs involved in completely resolving the domain name is .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "With iterative resolution and empty caches, the resolver asks each level in turn:<br>\n1. Root server [latex]\\rightarrow[/latex] refers to the <b>.in</b> server<br>\n2. .in server [latex]\\rightarrow[/latex] refers to <b>org.in</b><br>\n3. org.in server [latex]\\rightarrow[/latex] refers to <b>gate.org.in</b><br>\n4. gate.org.in server [latex]\\rightarrow[/latex] returns the IP of www.gate.org.in<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/371911/Gate-cse-2022-question-25#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 25
+    },
+    {
+      "id": "2013-Q12",
+      "source_id": 1113112,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The transport layer protocols used for real time multimedia, file transfer, DNS and email,\nrespectively are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "TCP, UDP, UDP and TCP",
+        "B": "UDP, TCP, TCP and UDP",
+        "C": "UDP, TCP, UDP and TCP",
+        "D": "TCP, UDP, TCP and UDP"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement:<br>- Real-time multimedia: UDP (speed over reliability)<br>\n- File transfer: TCP (reliable)<br>\n- DNS: UDP (short queries)<br>\n- Email (SMTP): TCP<br><br>\n<b>Answer: UDP, TCP, UDP and TCP</b><br><br><a href=\"https://gateoverflow.in/1421/gate2013-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 12
+    },
+    {
+      "id": "2014-S3-Q23",
+      "source_id": 1114323,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the following pairs of OSI protocol layer/sub-layer and its functionality, the\nINCORRECT pair is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Network layer and Routing",
+        "B": "Data Link Layer and Bit synchronization",
+        "C": "Transport layer and End-to-end process communication",
+        "D": "Medium Access Control sub-layer and Channel sharing"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "OSI Layer",
+      "explanation": "Bit synchronization is done by the physical layer. The data link layer handles framing, error control and flow control.<br><br>\nThe other pairs are correct.<br><br>\n<b>Answer: Data Link Layer and Bit synchronization</b><br><br><a href=\"https://gateoverflow.in/2057/gate2014-3-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 23
+    },
+    {
+      "id": "2015-S3-Q9",
+      "source_id": 1115309,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements.<br>\nI. TCP connections are full duplex <br>\nII. TCP has no option for selective acknowledgement <br>\nIII. TCP connections are message streams ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I is correct",
+        "B": "Only I and III are correct",
+        "C": "Only II and III are correct",
+        "D": "All of I, II and III are correct"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement:<br>- I: TCP connections are full duplex [latex]\\rightarrow[/latex] True<br>\n- II: TCP has a SACK (selective acknowledgement) option [latex]\\rightarrow[/latex] False<br>\n- III: TCP is a byte stream, not a message stream [latex]\\rightarrow[/latex] False<br><br>\n<b>Answer: Only I is correct</b><br><br><a href=\"https://gateoverflow.in/8425/gate2015-3-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 9
+    },
+    {
+      "id": "2024-S2-Q13",
+      "source_id": 1124213,
+      "number": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Node X has a TCP connection open to node Y. The packets from X to Y go through\nan intermediate IP router R. Ethernet switch S is the first switch on the network path\nbetween X and R. Consider a packet sent from X to Y over this connection.<br>\nWhich of the following statements is/are TRUE about the destination IP and MAC\naddresses on this packet at the time it leaves X?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The destination IP address is the IP address of R",
+        "B": "The destination IP address is the IP address of Y",
+        "C": "The destination MAC address is the MAC address of S",
+        "D": "The destination MAC address is the MAC address of Y"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Recall how addresses change along the path:<br>- IP addresses are end-to-end: the destination IP stays the IP of <b>Y</b> on the whole path.<br>\n- MAC addresses are hop-by-hop: the destination MAC is that of the next IP hop, which is router <b>R</b>. A switch only forwards frames; it is never the destination MAC.<br><br>\nSo the only true statement is: destination IP = IP of Y.<br><br>\n<b>Answer: The destination IP address is the IP address of Y</b><br><br><a href=\"https://gateoverflow.in/422884/gate-cse-2024-set-2-question-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 13
+    },
+    {
+      "id": "2024-S2-Q18",
+      "source_id": 1124218,
+      "number": 13,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following statements about IPv4 fragmentation is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The fragmentation of an IP datagram is performed only at the source of the datagram",
+        "B": "The fragmentation of an IP datagram is performed at any IP router which finds that the size of the datagram to be transmitted exceeds the MTU",
+        "C": "The reassembly of fragments is performed only at the destination of the datagram",
+        "D": "The reassembly of fragments is performed at all intermediate routers along the path from the source to the destination"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Recall the IPv4 fragmentation rules:<br>- In IPv4, <b>any router</b> whose outgoing link MTU is smaller than the datagram can fragment it (not only the source).<br>\n- Fragments may take different routes, so <b>reassembly is done only at the destination</b>.<br><br>\n<b>Answer: Options 2 and 3</b><br><br><a href=\"https://gateoverflow.in/422879/gate-cse-2024-set-2-question-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 18
+    },
+    {
+      "id": "2014-S2-Q23",
+      "source_id": 1114223,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is TRUE about the interior gateway routing protocols - Routing\nInformation Protocol (RIP) and Open Shortest Path First (OSPF)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "RIP uses distance vector routing and OSPF uses link state routing",
+        "B": "OSPF uses distance vector routing and RIP uses link state routing",
+        "C": "Both RIP and OSPF use link state routing",
+        "D": "Both RIP and OSPF use distance vector routing"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "RIP shares distance vectors with neighbours (Bellman-Ford). OSPF floods link-state advertisements and runs Dijkstra.<br><br>\n<b>Answer: RIP uses distance vector routing and OSPF uses link state routing</b><br><br><a href=\"https://gateoverflow.in/1981/gate2014-2-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 23
+    },
+    {
+      "id": "2026-S2-Q11",
+      "source_id": 1126211,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a file of size [latex]4[/latex] million bytes being transferred between two hosts connected via a path consisting of three consecutive links of bandwidth [latex]2[/latex] Mbps , [latex]500[/latex] kbps , and [latex]1[/latex] Mbps , respectively. All processing delays and propagation delays are negligible. Assume that there is no other background traffic over the path and no other additional overhead to transfer the file. <br><br>Which one of the following is the total time (in seconds) to transfer the file? <br>Note: [latex]1 {M}=10^{6}, 1 {k}=10^{3}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "731",
+        "B": "64",
+        "C": "8",
+        "D": "16"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "explanation": "With processing and propagation delays negligible, the effective throughput of a series of links is limited by the <b>slowest (bottleneck) link</b> in the path &mdash; here, [latex]500[/latex] kbps (since it's the minimum of [latex]2[/latex] Mbps, [latex]500[/latex] kbps, and [latex]1[/latex] Mbps).<br><br>\nFile size [latex]=4\\times10^6[/latex] bytes [latex]=4\\times10^6\\times8=32\\times10^6[/latex] bits.<br><br>\nTotal transfer time [latex]=\\dfrac{32\\times10^6\\text{ bits}}{500\\times10^3\\text{ bps}}=64[/latex] seconds.<br><br>\n<b>Answer: 64</b> <br><br> <a href=\"https://gateoverflow.in/523135/gate-cse-2026-set-2-question-11#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 11
+    },
+    {
+      "id": "2016-S1-Q53",
+      "source_id": 1116153,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "An IP datagram of size 1000 bytes arrives at a router. The router has to forward this packet on a link whose MTU (maximum transmission unit)is 100bytes. Assume that the size of the IP header is 20bytes. <br> The number of fragments that the IP datagram will be divided into for transmission is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        13.0,
+        13.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Data = 1000 [latex]-[/latex] 20 = 980 bytes. Per fragment: 100 [latex]-[/latex] 20 = 80 bytes of data (already a multiple of 8).<br><br>\nFragments = [latex]\\lceil980/80\\rceil=\\lceil12.25\\rceil=13[/latex]<br><br>\n<b>Answer: 13</b><br><br><a href=\"https://gateoverflow.in/39712/gate2016-1-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 53
+    },
+    {
+      "id": "2003-Q83",
+      "source_id": 1103183,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A 2 km long brodcast LAN has [latex]10^{7}[/latex] bps bandwidth and uses CSMA/CD. The\nsignal travels along the wire at 2*[latex]10^{8}[/latex]m/s. What is the minimum packet size that can be used on this network ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "50bytes",
+        "B": "100bytes",
+        "C": "200bytes",
+        "D": "None of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/966/gate2003-83#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 83
+    },
+    {
+      "id": "2017-S1-Q32",
+      "source_id": 1117132,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A computer network uses polynomials over GF(2) for error checking with 8 bits as\ninformation bits and uses [latex]x^{3}+x+1[/latex] as the generator polynomial to generate the check bits. In\nthis network, the message 01011011 is transmitted as",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "01011011010",
+        "B": "01011011011",
+        "C": "01011011101",
+        "D": "01011011100"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Generator [latex]x^3+x+1[/latex] = 1011. Append 3 zeros to 01011011 and divide: 01011011000 [latex]\\div[/latex] 1011 leaves remainder <b>101</b>.<br><br>\nTransmitted = 01011011 101<br><br>\n<b>Answer: 01011011101</b><br><br><a href=\"https://gateoverflow.in/118313/gate2017-1-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 32
+    },
+    {
+      "id": "2006-Q44",
+      "source_id": 1106144,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Station A uses 32 byte packets to transmit messages to Station B using a sliding\nwindow protocol. The round trip delay between A and B is 80 milliseconds and\nthe bottleneck bankwidth on the path between A and B is 128 kbps. What is the\noptimal window size that A should use ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "20",
+        "B": "40",
+        "C": "160",
+        "D": "320"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1820/gate2006-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 44
+    },
+    {
+      "id": "2024-S2-Q45",
+      "source_id": 1124245,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider an Ethernet segment with a transmission speed of [latex]10^8[/latex] bits/sec and a\nmaximum segment length of 500 meters. If the speed of propagation of the signal\nin the medium is [latex]2 \\times 10^8[/latex] meters/sec, then the minimum frame size (in bits) required\nfor collision detection is _________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        500.0,
+        500.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "For collision detection, transmission time must be at least the round-trip propagation time: [latex]\\frac{L}{B}\\ge2\\frac{d}{v}[/latex]<br><br>\n[latex]T_p=\\dfrac{500}{2\\times10^8}=2.5\\ \\mu s[/latex]<br><br>\n[latex]L=2\\times2.5\\times10^{-6}\\times10^8=500[/latex] bits<br><br>\n<b>Answer: 500</b><br><br><a href=\"https://gateoverflow.in/422852/gate-cse-2024-set-2-question-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 45
+    },
+    {
+      "id": "2007-Q65",
+      "source_id": 1107165,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "There are n stations in a slotted LAN. Each station attempts to transmit with a probability p in each time slot. What is the probability that ONLY one station transmits in a given time slot?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]np(1-p)^{n-1}[/latex]",
+        "B": "[latex](1-p)^{n-1}[/latex]",
+        "C": "[latex]p(1-p)^{n-1}[/latex]",
+        "D": "[latex]1-(1-p)^{n-1}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1263/gate2007-65#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 65
+    },
+    {
+      "id": "2014-S3-Q28",
+      "source_id": 1114328,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An IP router with a Maximum Transmission Unit (MTU) of 1500 bytes has received an IP packet of size 4404 bytes with an IP header of length 20 bytes. The values of the relevant fields in the header of the third IP fragment generated by the router for this packet are",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "MF bit: 0, Datagram Length: 1444; Offset: 370",
+        "B": "MF bit: 1, Datagram Length: 1424; Offset: 185",
+        "C": "MF bit: 1, Datagram Length: 1500; Offset: 370",
+        "D": "MF bit: 0, Datagram Length: 1424; Offset: 2960"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Data = 4404 [latex]-[/latex] 20 = 4384 B. Max data per fragment = 1480 B (multiple of 8).<br><br>\n- Fragment 1: 1480 B, offset 0<br>\n- Fragment 2: 1480 B, offset 185<br>\n- Fragment 3: 4384 [latex]-[/latex] 2960 = 1424 B, offset 2960 / 8 = 370, last fragment so MF = 0<br><br>\nDatagram length = 1424 + 20 = 1444<br><br>\n<b>Answer: MF bit: 0, Datagram Length: 1444, Offset: 370</b><br><br><a href=\"https://gateoverflow.in/2062/gate2014-3-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 28
+    },
+    {
+      "id": "2012-Q45",
+      "source_id": 1112145,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider an instance of TCP's Additive Increase Multiplicative Decrease (AIMD) algorithm where\nthe window size at the start of the slow start phase is 2 MSS and the threshold at the start of the first\ntransmission is 8 MSS. Assume that a timeout occurs during the fifth transmission. Find the\ncongestion window size at the end of the tenth transmission.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "8 MSS",
+        "B": "14 MSS",
+        "C": "7 MSS",
+        "D": "12 MSS"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement:<br>- Transmissions 1-3 (slow start): 2, 4, 8 (threshold reached)<br>\n- 4, 5: 9, 10 (additive increase), timeout during the 5th<br>\n- New threshold = 10/2 = 5, window restarts at 2<br>\n- 6: 2, 7: 4, 8: 5 (capped at the threshold), 9: 6, 10: 7<br><br>\n<b>Answer: 7 MSS</b><br><br><a href=\"https://gateoverflow.in/2156/gate2012-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 45
+    },
+    {
+      "id": "2024-S1-Q26",
+      "source_id": 1124126,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a network path [latex]\\mathrm{P}-\\mathrm{Q}-\\mathrm{R} [/latex] between nodes [latex]\\mathrm{P} [/latex] and [latex]\\mathrm{R} [/latex] via router [latex]\\mathrm{Q} [/latex]. Node [latex]\\mathrm{P} [/latex] sends a file of size [latex]10^6 [/latex] bytes to [latex]R [/latex] via this path by splitting the file into chunks of [latex]10^3 [/latex] bytes each. Node [latex]P [/latex] sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU.\n<br>\nEach of the links [latex]\\mathrm{P}-\\mathrm{Q} [/latex] and [latex]\\mathrm{Q}-\\mathrm{R} [/latex] has a bandwidth of [latex]10^6 \\mathrm{bits} / \\mathrm{sec} [/latex], and negligible propagation latency. Router [latex]Q [/latex] immediately transmits every packet it receives from [latex]P [/latex] to [latex]R [/latex], with negligible processing and queueing delays. Router [latex]Q [/latex] can simultaneously receive on link [latex]P-Q [/latex] and transmit on [latex]\\operatorname{link} Q-R [/latex].\n<br>\nAssume P starts transmitting the chunks at time [latex]t=0 [/latex].\nWhich one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which [latex]\\mathrm{R} [/latex] receives all the chunks of the file?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "8",
+        "B": "8.008",
+        "C": "15.992",
+        "D": "16"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Number of chunks [latex]=10^6/10^3=1000[/latex]. Each chunk [latex]=8000[/latex] bits, so transmission time on a link [latex]=\\frac{8000}{10^6}=8[/latex] ms.<br><br>\nP sends the chunks back to back: the last chunk is fully sent by P at [latex]1000\\times8\\text{ ms}=8[/latex] s.<br>\nQ forwards each chunk while receiving the next, so only the last chunk adds one more transmission of 8 ms on Q-R.<br><br>\nTotal [latex]=8+0.008=8.008[/latex] s.<br><br>\n<b>Answer: 8.008</b><br><br><a href=\"https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 26
+    },
+    {
+      "id": "2016-S1-Q54",
+      "source_id": 1116154,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a capacity of 1 megabyte and the maximum output rate is 20 megabytes per second. Tokens arrive at a rate to sustain output at a rate of 10megabytes per second. The  token bucket is currently full and the machine needs to send 12megabytes of data. The minimum time required to transmit the data is _____seconds.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.1,
+        1.1
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Bucket starts full (1 MB). While it drains, the host sends at 20 MB/s while tokens arrive at 10 MB/s:<br>\n[latex]20t=1+10t\\Rightarrow t=0.1[/latex] s, sending 2 MB.<br><br>\nThe remaining 10 MB go at 10 MB/s = 1 s.<br><br>\nTotal = 0.1 + 1 = 1.1 s<br><br>\n<b>Answer: 1.1</b><br><br><a href=\"https://gateoverflow.in/39720/gate2016-1-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 54
+    },
+    {
+      "id": "2018-Q54",
+      "source_id": 1118154,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider an IP packet with a length of 4,500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header in all the outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value stored in the first fragment is 0. <br>\nThe fragmentation offset value stored in the third fragment is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        144.0,
+        144.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Data = 4500 [latex]-[/latex] 20 = 4480 bytes. Each fragment carries 600 [latex]-[/latex] 20 = 580, rounded down to a multiple of 8: 576 bytes.<br><br>\nOffsets (in 8-byte units): fragment 1 = 0, fragment 2 = 576/8 = 72, fragment 3 = 1152/8 = 144.<br><br>\n<b>Answer: 144</b><br><br><a href=\"https://gateoverflow.in/204129/gate2018-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 54
+    },
+    {
+      "id": "2021-S2-Q54",
+      "source_id": 1121254,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a network using the pure ALOHA medium access control protocol, where each frame is of length 1,000 bits. The channel transmission rate is 1 Mbps (=[latex]10^6[/latex] bits per second). The aggregate number of transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions) is modelled as a Poisson process with a rate of 1,000 frames per second. Throughput is defined as the average number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest integer) is ______________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        130.0,
+        140.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Frame time T = 1000 / [latex]10^6[/latex] = 1 ms. Load G = 1000 frames/s [latex]\\times[/latex] 1 ms = 1.<br><br>\nPure ALOHA success probability = [latex]e^{-2G}=e^{-2}\\approx0.135[/latex].<br>\nThroughput = 1000 [latex]\\times[/latex] 0.135 [latex]\\approx[/latex] 135 frames/s<br><br>\n<b>Answer: 135</b><br><br><a href=\"https://gateoverflow.in/357483/gate-cse-2021-set-2-question-54#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 54
+    },
+    {
+      "id": "2022-Q49",
+      "source_id": 1122149,
+      "number": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a 100 Mbps link between an earth station (sender) and a satellite (receiver) at an altitude of 2100 km. The signal propagates at a speed of [latex]3  \\times 10^8[/latex] m/s. The time taken (in milliseconds, rounded off to two decimal places) for the receiver to completely receive a packet of 1000 bytes transmitted by the sender is",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        7.07,
+        7.09
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Total time = transmission time + propagation time.<br>- Transmission time [latex]=\\frac{1000\\times8}{100\\times10^6}=0.08[/latex] ms<br>\n- Propagation time [latex]=\\frac{2100\\times10^3}{3\\times10^8}=7[/latex] ms<br><br>\nTotal [latex]=0.08+7=7.08[/latex] ms<br><br>\n<b>Answer: 7.08</b><br><br><a href=\"https://gateoverflow.in/371887/Gate-cse-2022-question-49#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 49
+    },
+    {
+      "id": "2025-S1-Q30",
+      "source_id": 1125130,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A packet with the destination IP address 145.36.109.70 arrives at a router whose routing table is shown. Which interface will the packet be forwarded to?\n<br>    [latex]\\begin{array}{|c|c|c|}\n    \\hline\n    \\textbf{Subnet Address} & \\textbf{Subnet Mask (in CIDR notation)} & \\textbf{Interface} \\\\ \n    \\hline\n    145.36.0.0 & /16 & E1 \\\\ \n    \\hline\n    145.36.128.0 & /17 & E2 \\\\ \n    \\hline\n    145.36.64.0 & /18 & E3 \\\\ \n    \\hline\n    145.36.255.0 & /24 & E4 \\\\ \n    \\hline\n    \\text{Default} & -- & E5 \\\\ \n    \\hline\n\\end{array}[/latex]\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]E3[/latex]",
+        "B": "[latex]E1[/latex]",
+        "C": "[latex]E2[/latex]",
+        "D": "[latex]E5[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Routers use <b>longest-prefix matching</b>: find every subnet entry that contains the destination address, and among those, forward via the one with the most specific (longest) prefix.<br><br>\nDestination: [latex]145.36.109.70[/latex]. Check each entry:<br>\n- [latex]145.36.0.0/16[/latex] (E1): matches any [latex]145.36.x.x[/latex] &mdash; matches.<br>\n- [latex]145.36.128.0/17[/latex] (E2): covers 3rd octet [latex]128[/latex]-[latex]255[/latex]; our 3rd octet is [latex]109[/latex] &mdash; no match.<br>\n- [latex]145.36.64.0/18[/latex] (E3): covers 3rd octet [latex]64[/latex]-[latex]127[/latex]; [latex]109[/latex] falls in this range &mdash; matches.<br>\n- [latex]145.36.255.0/24[/latex] (E4): only [latex]145.36.255.x[/latex]; no match.<br><br>\nBetween the two matches (E1's [latex]/16[/latex] and E3's [latex]/18[/latex]), the [latex]/18[/latex] is more specific (longer prefix), so it wins.<br><br>\n<b>Answer: E3</b><br><br><a href=\"https://gateoverflow.in/460050/gate-cse-2025-set-1-question-30#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 30
+    },
+    {
+      "id": "2004-Q55",
+      "source_id": 1104155,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The routing table of a router is shown below: <br><img src=\"/wp-content/uploads/GATE/CS/20041/q55.jpg\"/><br> On which interface will the router forward packets addressed to destinations 128.75.43.16 and 192.12.17.10 respectively?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q55.jpg"
+      ],
+      "options": {
+        "A": "Eth1 and Eth2",
+        "B": "Eth0 and Eth2",
+        "C": "Eth0 and Eth3",
+        "D": "Eth1 and Eth3"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/1051/gate2004-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 55
+    }
+  ]
+}

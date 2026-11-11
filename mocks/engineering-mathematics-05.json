@@ -1,0 +1,828 @@
+{
+  "paper_id": "engineering-mathematics-05",
+  "paper": "Engineering Mathematics: Topic Mock 5",
+  "kind": "topic_mock",
+  "topic": "Engineering Mathematics",
+  "set": 5,
+  "duration_min": 90,
+  "total_marks": 42,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2014-S1-Q6",
+      "source_id": 1114106,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let the function <br> [latex]f(\\theta)=\\begin{vmatrix} sin\\theta & cos\\theta & tan\\theta \\\\ sin(\\frac{\\pi}{6}) & cos(\\frac{\\pi}{6}) & tan(\\frac{\\pi}{6})\\\\ sin(\\frac{\\pi}{3})& cos(\\frac{\\pi}{3}) & tan(\\frac{\\pi}{3}) \\end{vmatrix}[/latex] <br>  where [latex]\\theta \\in [\\frac{\\pi}{6},\\frac{\\pi}{3}][/latex] and [latex]f'(\\theta )[/latex] denote the derivative of  f with respect to [latex]\\theta[/latex] . Which of the following\nstatements is/are TRUE? <br>(I) There existrs [latex]\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})[/latex] such that [latex]f'(\\theta )=0[/latex] <br> (I) There existrs [latex]\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})[/latex] such that [latex]f'(\\theta )\\neq 0[/latex] ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I only ",
+        "B": "II only",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "At [latex]\\theta=\\pi/6[/latex] the first row equals the second, and at [latex]\\theta=\\pi/3[/latex] it equals the third, so [latex]f(\\pi/6)=f(\\pi/3)=0[/latex].<br><br>\n- By Rolle's theorem, [latex]f'(\\theta)=0[/latex] somewhere in between [latex]\\rightarrow[/latex] I true.<br>\n- f is not constant, so [latex]f'(\\theta)\\ne0[/latex] somewhere [latex]\\rightarrow[/latex] II true.<br><br>\n<b>Answer: Both I and II</b><br><br><a href=\"https://gateoverflow.in/1763/gate2014-1-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 6
+    },
+    {
+      "id": "2023-Q20",
+      "source_id": 1123120,
+      "number": 2,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let A be the adjacency matrix of the graph with vertices {1, 2, 3, 4, 5}.<br><img src=\"/wp-content/uploads/GATE/CS/20231/q20.jpg\" /><br>Let [latex]\\lambda _1,\\lambda _2,\\lambda _3,\\lambda _4,\\; and \\; \\lambda _5[/latex] be the five eigenvalues of A. Note that these eigenvalues\nneed not be distinct.<br>The value of [latex]\\lambda _1+\\lambda _2+\\lambda _3+ \\lambda _4+  \\lambda _5 \n =[/latex] _____",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20231/q20.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Sum of eigenvalues = trace of A = sum of the diagonal entries.<br><br>\nA diagonal entry [latex]a_{ii}[/latex] is 1 only if vertex i has a <b>self-loop</b>. In the graph, vertices 3 and 4 have self-loops, so trace [latex]=1+1=2[/latex].<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/399291/gate-cse-2023-question-20#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "accepted": [
+        [
+          4,
+          4
+        ]
+      ],
+      "key_source": "GATE 2023 CS official key Q30: '2 to 2 OR 4 to 4'",
+      "source_paper_id": "2023",
+      "source_number": 20
+    },
+    {
+      "id": "2021-S1-Q20",
+      "source_id": 1121120,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following expression.<br>[latex]\\lim_{x\\rightarrow-3}\\frac{\\sqrt{2x+22}-4}{x+3}[/latex]\n<br>\nThe value of the above expression (rounded to 2 decimal places) is ___________. ",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.25,
+        0.25
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "At x = [latex]-[/latex]3 the numerator is [latex]\\sqrt{16}-4=0[/latex] (form 0/0). Use L'Hospital:<br>\n[latex]\\frac{d}{dx}\\sqrt{2x+22}=\\frac{1}{\\sqrt{2x+22}}[/latex] [latex]\\rightarrow[/latex] at x = [latex]-[/latex]3: [latex]\\frac14=0.25[/latex]<br><br>\n<b>Answer: 0.25</b><br><br><a href=\"https://gateoverflow.in/357431/gate-cse-2021-set-1-question-20#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 20
+    },
+    {
+      "id": "1997-Q28",
+      "source_id": 1101628,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Using the forward Euler method to solve [latex]y''(t) = f(t), y'(0)=0[/latex] with a step size of [latex]h[/latex], we obtain the following values of [latex]y[/latex] in the first four iterations:\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]0, hf (0), h(f(0) + f(h)) \\text{ and }h(f(0) - f(h) + f(2h))[/latex]",
+        "B": "[latex]0, 0, h^2f(0)\\text{ and } 2h^2 f(0) + f(h)[/latex]",
+        "C": "[latex]0, 0, h^2f(0) \\text{ and } 3h^2f(0)[/latex]",
+        "D": "[latex]0, 0, hf(0) + h^2f(0) \\text{ and }hf (0) + h^2f(0) + hf(h)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/2244/gate1997-4-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 28
+    },
+    {
+      "id": "2024-S2-Q6",
+      "source_id": 1124206,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex] f(x) [/latex] be a continuous function from [latex] \\mathbb{R} [/latex] to [latex] \\mathbb{R} [/latex] such that\n<br> [latex]\nf(x)=1-f(2-x)\n [/latex] <br>\nWhich one of the following options is the CORRECT value of [latex] \\int_0^2 f(x) d x [/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] 0  [/latex]",
+        "B": "[latex] 1  [/latex]",
+        "C": "[latex] 2  [/latex]",
+        "D": "[latex] -1  [/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Let [latex]I=\\int_0^2 f(x)\\,dx[/latex]. Substituting [latex]x\\to2-x[/latex] gives [latex]I=\\int_0^2 f(2-x)\\,dx[/latex].<br><br>\nAdding both: [latex]2I=\\int_0^2\\big(f(x)+f(2-x)\\big)dx=\\int_0^2 1\\,dx=2[/latex]<br><br>\n[latex]I=1[/latex]<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 6
+    },
+    {
+      "id": "2017-S2-Q24",
+      "source_id": 1117224,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a quadratic equation [latex]x^{2} -13x +36 = 0[/latex] with coefficients in a base b. The solutions of this equation in the same base b are x = 5 and x = 6. Then b = ___________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "In base b: 13 = b + 3 and 36 = 3b + 6. Sum of roots: 5 + 6 = 11 = b + 3 [latex]\\rightarrow[/latex] b = 8. Check product: 30 = 3 [latex]\\times[/latex] 8 + 6 True<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/118185/gate2017-2-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 24
+    },
+    {
+      "id": "2001-Q1",
+      "source_id": 1101101,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements:\r\n<br><br>\r\nS1: The sum of two singular nxn matrices may be non-singular<br>\r\nS2: The sum of two nxn non-singular matrices may be singular.  <br>\r\n<br><br>\r\nWhich of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1 and S2 are both true",
+        "B": "S1 is true, S2 is false",
+        "C": "S1 is false, S2 is true",
+        "D": "S1 and S2 are both false"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/694/gate2001-1-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 1
+    },
+    {
+      "id": "2016-S2-Q6",
+      "source_id": 1116206,
+      "number": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Suppose that the eigen values of matrix A are 1, 2, 4. The determinant of [latex](A^{-1})^{T}[/latex] is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.124,
+        0.126
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]\\det A=1\\times2\\times4=8[/latex]. Transpose does not change the determinant, and [latex]\\det(A^{-1})=\\frac{1}{\\det A}[/latex].<br><br>\n[latex]\\det(A^{-1})^T=\\frac18=0.125[/latex]<br><br>\n<b>Answer: 0.125</b><br><br><a href=\"https://gateoverflow.in/39549/gate2016-2-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 6
+    },
+    {
+      "id": "2020-Q1",
+      "source_id": 1120101,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the functions <br><br>I. [latex]e^{-x}[/latex] <br>II. [latex]x^2-\\sin x[/latex] <br>III. [latex]\\sqrt{x^3+1}[/latex] <br> <br> \nWhich of the above functions is/are increasing everywhere in [0,1] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "III only",
+        "B": "II only",
+        "C": "II and III only",
+        "D": "I and III only"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Check the derivative on [0, 1]:<br>\n- I: [latex](e^{-x})'=-e^{-x} \\lt 0[/latex] [latex]\\rightarrow[/latex] decreasing.<br>\n- II: [latex]2x-\\cos x[/latex] is [latex]-1[/latex] at x = 0 [latex]\\rightarrow[/latex] decreasing near 0.<br>\n- III: [latex]\\frac{3x^2}{2\\sqrt{x^3+1}}\\ge0[/latex] [latex]\\rightarrow[/latex] increasing on the whole interval.<br><br>\n<b>Answer: III only</b><br><br><a href=\"https://gateoverflow.in/333230/gate2020-cs-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 1
+    },
+    {
+      "id": "2025-S2-Q4",
+      "source_id": 1125204,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]L [/latex], [latex]M [/latex], and [latex]N [/latex] be non-singular matrices of order 3 satisfying the equations <br><br>\n[latex] L^2 = L^{-1}, \\quad M = L^8, \\quad N = L^2. [/latex]<br><br>\nWhich ONE of the following is the value of the determinant of [latex](M - N) [/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "From [latex]L^2=L^{-1}[/latex], multiply both sides by [latex]L[/latex]: [latex]L^3=L^2\\cdot L=L^{-1}\\cdot L=I[/latex]. So [latex]L[/latex] has order dividing [latex]3[/latex].<br><br>\n[latex]M=L^8=L^{6+2}=(L^3)^2\\cdot L^2=I^2\\cdot L^2=L^2[/latex]. But we're also given [latex]N=L^2[/latex]. So [latex]M=N[/latex] exactly, meaning [latex]M-N[/latex] is the zero matrix.<br><br>\n[latex]\\det(M-N)=\\det(0)=0[/latex]<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/460831/gate-cse-2025-set-2-question-4#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 4
+    },
+    {
+      "id": "1996-Q31",
+      "source_id": 1101531,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The matrices [latex]\\begin{bmatrix} \\cos\\theta && -\\sin\\theta \\\\ \\sin\\theta && \\cos\\theta \\end{bmatrix}[/latex] and [latex]\\begin{bmatrix} a && 0\\\\ 0&& b \\end{bmatrix}[/latex] commute under multiplication\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "if [latex]a=b \\text{ or } \\theta = n\\pi[/latex], n is an integer",
+        "B": "always",
+        "C": "never",
+        "D": "if [latex]a \\cos\\theta = b \\sin\\theta[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2735/gate1996-2-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 31
+    },
+    {
+      "id": "2024-S1-Q2",
+      "source_id": 1124102,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The product of all eigenvalues of the matrix [latex]\\begin{bmatrix}\n1 & 2 & 3\\\\ \n4 & 5 &6 \\\\ \n7 &8  & 9\n\\end{bmatrix}[/latex] is ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]-1[/latex]",
+        "B": "[latex]0[/latex]",
+        "C": "[latex]1[/latex]",
+        "D": "[latex]2[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Product of all eigenvalues [latex]=\\det(A)[/latex].<br><br>\n[latex]\\det(A)=1(45-48)-2(36-42)+3(32-35)=-3+12-9=0[/latex]<br><br>\n(Quick check: [latex]R_1+R_3=2R_2[/latex], so the rows are dependent and the matrix is singular.)<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/422840/gate-cse-2024-set-1-question-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 2
+    },
+    {
+      "id": "2002-Q40",
+      "source_id": 1102140,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The Newton-Raphson iteration [latex]X_{n+1}=(X_{n}/2)+(3/(2X_{n}))[/latex]\n can be used to solve the equation",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]X^{2}=3[/latex]",
+        "B": "[latex]X^{3}=3[/latex]",
+        "C": "[latex]X^{2}=2[/latex]",
+        "D": "[latex]X^{3}=2[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/845/gate2002-2-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 40
+    },
+    {
+      "id": "1996-Q7",
+      "source_id": 1101507,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let AX = b be a system of linear equations where A is an [latex]m \\times n[/latex] matrix and b is a [latex]m \\times 1[/latex] column vector and X is an [latex]n \\times 1[/latex] column vector of unknowns. Which of the following is false?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The system has a solution if and only if, both A and the augmented matrix [Ab] have the same rank.",
+        "B": "If m < n and b is the zero vector, then the system has infinitely many solutions.",
+        "C": "If m=n and b is a non-zero vector, then the system has a unique solution.",
+        "D": "The system will have only a trivial solution when m=n, b is the zero vector and rank (A) =n."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2711/gate1996-1-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 7
+    },
+    {
+      "id": "1998-Q36",
+      "source_id": 1101736,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The rank of the matrix given below is:<br>\n[latex]\\begin{bmatrix} 1 &4 &8 &7\\\\ 0 &0& 3 &0\\\\ 4 &2& 3 &1\\\\ 3 &12 &24 &21 \\end{bmatrix}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1673/gate1998-2-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 36
+    },
+    {
+      "id": "2017-S1-Q3",
+      "source_id": 1117103,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]c_{1}....c_{n}[/latex]  be scalars, not all zero, such that [latex]\\sum_{i=1}^{n}c_{i}a_{i}=0[/latex]<br> where [latex]a_{i}[/latex] are column vectors in [latex]R^{n}[/latex]. Consider the set of linear equations Ax = b <br>\nwhere A=[latex]a_{1}....a_{n}[/latex] and b=[latex]\\sum_{i=1}^{n}a_{i}[/latex]. The set of equations has",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a unique solution at  [latex]x=J_{n}[/latex] where [latex]J_{n}[/latex] denotes a n-dimensional vector of all 1",
+        "B": " no solution",
+        "C": " infinitely many solutions",
+        "D": "finitely many solutions"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]\\sum c_ia_i=0[/latex] with not all [latex]c_i[/latex] zero means the columns are dependent, so Ax = 0 has a non-zero solution c.<br><br>\n[latex]x=(1,\\ldots,1)[/latex] solves Ax = b, and so does [latex](1,\\ldots,1)+tc[/latex] for every t [latex]\\rightarrow[/latex] <b>infinitely many</b> solutions.<br><br>\n<b>Answer: infinitely many solutions</b><br><br><a href=\"https://gateoverflow.in/118282/gate2017-1-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 3
+    },
+    {
+      "id": "2014-S3-Q6",
+      "source_id": 1114306,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "If [latex]\\int_{0}^{2\\pi}|x sinx| dx=k \\pi[/latex], then the value of k is equal to _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "On [latex][0,\\pi][/latex], [latex]x\\sin x\\ge0[/latex]; on [latex][\\pi,2\\pi][/latex], [latex]x\\sin x\\le0[/latex]. Antiderivative of [latex]x\\sin x[/latex] is [latex]\\sin x-x\\cos x[/latex].<br><br>\n- [latex]\\int_0^{\\pi}x\\sin x\\,dx=\\pi[/latex]<br>\n- [latex]-\\int_{\\pi}^{2\\pi}x\\sin x\\,dx=-[(0-2\\pi)-(0+\\pi)]=3\\pi[/latex]<br><br>\nTotal = [latex]4\\pi[/latex] [latex]\\rightarrow[/latex] k = 4<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/2040/gate2014-3-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 6
+    },
+    {
+      "id": "2019-Q13",
+      "source_id": 1119113,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Compute [latex]\\lim_{x \\to 3}\\frac{x^4-81}{2x^2-5x-3}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "53/12",
+        "C": "108/7",
+        "D": "Limit does not exist"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Factor both and cancel (x [latex]-[/latex] 3):<br>\n[latex]\\frac{(x-3)(x+3)(x^2+9)}{(x-3)(2x+1)}=\\frac{(x+3)(x^2+9)}{2x+1}[/latex]<br><br>\nAt x = 3: [latex]\\frac{6\\times18}{7}=\\frac{108}{7}[/latex]<br><br>\n<b>Answer: 108/7</b><br><br><a href=\"https://gateoverflow.in/302835/gate2019-cs-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 13
+    },
+    {
+      "id": "2005-Q49",
+      "source_id": 1105149,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What are the eigen values of the following 2 x 2 matrix? <br> [latex]\\begin{bmatrix} 2 &-1 \\\\ -4 & 5 \\end{bmatrix}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1 and -1",
+        "B": "1 and 6",
+        "C": "2 and 5",
+        "D": "4 and -1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1174/gate2005-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 49
+    },
+    {
+      "id": "2004-Q80",
+      "source_id": 1104180,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A point is randomly selected with uniform probability in the X-Y plane within the rectangle with corners at (0,0), (1,0), (1,2) and (0,2). If p is the length of the position vector of the point, the expected value of [latex]p^{2}[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2/3",
+        "B": "1",
+        "C": "4/3",
+        "D": "5/3"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/1074/gate2004-80#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 80
+    },
+    {
+      "id": "2026-S2-Q52",
+      "source_id": 1126252,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The determinant of a [latex]4 \\times 4[/latex] matrix [latex]A[/latex] is [latex]3[/latex]. The value of the determinant of [latex]2 A[/latex] is ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        48.0,
+        48.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "For an [latex]n\\times n[/latex] matrix [latex]A[/latex] and scalar [latex]c[/latex], scaling every entry by [latex]c[/latex] scales the determinant by [latex]c^n[/latex] (since determinant is a degree-[latex]n[/latex] multilinear function of the rows/columns): [latex]\\det(cA)=c^n\\det(A)[/latex].<br><br>\nHere [latex]n=4[/latex], [latex]c=2[/latex], [latex]\\det(A)=3[/latex]:<br>\n[latex]\\det(2A)=2^4\\times3=16\\times3=48[/latex].<br><br>\n<b>Answer: 48</b> <br><br> <a href=\"https://gateoverflow.in/523094/gate-cse-2026-set-2-question-52#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 52
+    },
+    {
+      "id": "2017-S1-Q31",
+      "source_id": 1117131,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let A be nxn real valued square symmetric matrix of rank 2 with [latex]\\sum_{i=1}^{n}\\sum_{j=1}^{n}A^{2}_{ij}=50[/latex]. Consider\nthe following statements. <br> <br>(I) One eigen value must be in [-5, 5]   <br>      (II) The eigen value with the largest magnitude must be strictly greater than 5. <br> <br>\nWhich of the above statements about eigen values of A is/are necessarily CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both (I) and (II)",
+        "B": "(I) only",
+        "C": "(II) only",
+        "D": "Neither (I) nor (II)"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "A is symmetric with rank 2, so it has two non-zero eigenvalues [latex]\\lambda_1,\\lambda_2[/latex] (the rest are 0), and [latex]\\sum A_{ij}^2=\\lambda_1^2+\\lambda_2^2=50[/latex].<br><br>\n- (I): [latex]\\lambda_1^2+\\lambda_2^2=50[/latex] forces one of them to have [latex]|\\lambda|\\le5[/latex] (and the zero eigenvalues are in [[latex]-[/latex]5, 5] anyway) True<br>\n- (II): [latex]\\lambda_1=\\lambda_2=5[/latex] gives 50, and the largest is not strictly greater than 5 False<br><br>\n<b>Answer: (I) only</b><br><br><a href=\"https://gateoverflow.in/118312/gate2017-1-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 31
+    },
+    {
+      "id": "2014-S1-Q47",
+      "source_id": 1114147,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A function f(x) is continuous in the interval [0,2]. It is known that f(0)=f(2)=-1 and f(1)=1.\nWhich one of the following statements must be true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There exists a y in the interval (0,1) such that f(y)=f(y+1)",
+        "B": "For every y in the interval (0,1), f(y)=f(2-y)",
+        "C": "The maximum value of the function in the interval (0.2) is 1",
+        "D": "There exists a y in the interval (0,1) such that f(y)=-f(2-y)"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Let g(y) = f(y) [latex]-[/latex] f(y + 1) on [0, 1]. g(0) = f(0) [latex]-[/latex] f(1) = [latex]-[/latex]2 and g(1) = f(1) [latex]-[/latex] f(2) = 2. g is continuous and changes sign, so g(y) = 0 for some y in (0, 1), i.e. f(y) = f(y + 1).<br><br>\n<b>Answer: There exists a y in (0,1) such that f(y)=f(y+1)</b><br><br><a href=\"https://gateoverflow.in/1925/gate2014-1-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 47
+    },
+    {
+      "id": "2005-Q50",
+      "source_id": 1105150,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex]G(x)=\\frac{1}{(1-x)^{2}}=\\sum_{i=0}^{\\infty }g(i)x^{i}[/latex], where [latex]|x| \\lt 1[/latex]. What is g(i)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "i",
+        "B": "i+1",
+        "C": "2i",
+        "D": "[latex]2^{i}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/1175/gate2005-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 50
+    },
+    {
+      "id": "2015-S3-Q26",
+      "source_id": 1115326,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The velocity v (in kilometer/minute) of a motorbike which starts from rest, is given at fixed intervals of time t (in minutes) as follows: <br><img src=\"/wp-content/uploads/GATE/CS/20153/q26.jpg\"/> <br> The approximate distance (in kilometers) rounded to two places of decimals covered in 20 minutes using Simpson's [latex]1/3^{rd}[/latex] rule is _______________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q26.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        308.0,
+        310.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "The bike starts from rest, so v = 0 at t = 0. With h = 2 we have 11 points:<br>\nv = 0, 10, 18, 25, 29, 32, 20, 11, 5, 2, 0<br><br>\n- Odd positions: 10 + 25 + 32 + 11 + 2 = 80<br>\n- Even (inner) positions: 18 + 29 + 20 + 5 = 72<br><br>\n[latex]D=\\frac{h}{3}[v_0+v_{10}+4(80)+2(72)]=\\frac23(0+0+320+144)=309.33[/latex]<br><br>\n<b>Answer: 309.33</b><br><br><a href=\"https://gateoverflow.in/8559/gate2015-3-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 26
+    },
+    {
+      "id": "2018-Q26",
+      "source_id": 1118126,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a matrix P whose only eigenvectors are the multiples of [latex]\\begin{bmatrix} 1\\\\ 4 \\end{bmatrix}[/latex]. <br>\nConsider the following statements. <br>\n(I) P does not have an inverse <br>\n(II) P has a repeated eigenvalue <br>\n(III) P cannot be diagonalized <br>\nWhich one of the following options is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I and III are necessarily true",
+        "B": "Only II is necessarily true",
+        "C": "Only I and II are necessarily true",
+        "D": "Only II and III are necessarily true"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "A 2 [latex]\\times[/latex] 2 matrix with only one independent eigenvector must have a <b>repeated eigenvalue</b> (II), and without 2 independent eigenvectors it <b>cannot be diagonalized</b> (III). The repeated eigenvalue can be any number, including a non-zero one, and then P is invertible; so I is not necessarily true.<br><br>\n<b>Answer: Only II and III are necessarily true</b><br><br><a href=\"https://gateoverflow.in/204100/gate2018-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 26
+    },
+    {
+      "id": "2021-S1-Q52",
+      "source_id": 1121152,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following matrix.<br>[latex]\\begin{pmatrix} 0 & 1 & 1 & 1\\\\ 1& 0& 1 & 1\\\\ 1& 1 & 0 & 1 \\\\1 & 1 & 1 & 0 \\end{pmatrix}[/latex]<br>The largest eigenvalue of the above matrix is __________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "The matrix is [latex]J-I[/latex], where J is the 4 [latex]\\times[/latex] 4 all-ones matrix.<br>\nEigenvalues of J: 4, 0, 0, 0. Subtracting 1: 3, [latex]-[/latex]1, [latex]-[/latex]1, [latex]-[/latex]1.<br><br>\nLargest = 3<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/357399/gate-cse-2021-set-1-question-52#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 52
+    },
+    {
+      "id": "2021-S2-Q37",
+      "source_id": 1121237,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For two n-dimensional real vectors [latex]P[/latex] and [latex]Q[/latex], the operation [latex]s(P,Q)[/latex] is defined as follows:\n<br><br>\n[latex]s(P,Q) = \\displaystyle \\sum_{i=1}^n (P[i] \\cdot Q[i])[/latex]\n<br><br>Let [latex]\\mathcal{L}[/latex] be a set of 10-dimensional non-zero real vectors such that for every pair of distinct vectors [latex]P,Q \\in \\mathcal{L}, s(P,Q)=0[/latex]. What is the maximum cardinality possible for the set [latex]\\mathcal{L}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "100"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "s(P, Q) is the dot product, so the set contains mutually <b>orthogonal</b> non-zero vectors. Such vectors are linearly independent, and [latex]\\mathbb{R}^{10}[/latex] has at most 10 independent vectors (e.g. the 10 unit vectors).<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/357503/gate-cse-2021-set-2-question-37#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 37
+    },
+    {
+      "id": "2017-S2-Q48",
+      "source_id": 1117248,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "If a random variable X has a Poisson distribution with mean 5, then the expectation [latex]E[(X+2)^{2}][/latex] equals ______________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        54.0,
+        54.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "For Poisson, mean = variance = 5, so [latex]E[X^2]=5+25=30[/latex].<br><br>\n[latex]E[(X+2)^2]=E[X^2]+4E[X]+4=30+20+4=54[/latex]<br><br>\n<b>Answer: 54</b><br><br><a href=\"https://gateoverflow.in/118513/gate2017-2-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 48
+    },
+    {
+      "id": "2007-Q28",
+      "source_id": 1107128,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the series [latex]x_{n+1}=\\frac{x_{n}}{2}+\\frac{9}{8x_{n}},x_{0}=0.5[/latex] obtained from the Newton-Raphson method. The series converges to",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1.5",
+        "B": "[latex]\\sqrt{2}[/latex]",
+        "C": "1.6",
+        "D": "1.4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/1226/gate2007-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 28
+    }
+  ]
+}

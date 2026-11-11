@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/gate-pyq/paper.schema.json",
+  "title": "GATE CSE paper",
+  "type": "object",
+  "required": ["paper_id", "paper", "year", "source_url", "scraped_at", "questions"],
+  "properties": {
+    "paper_id": {
+      "type": "string",
+      "description": "Stable id for this paper. Format: YYYY (no set) or YYYY-S<n> (with set).",
+      "examples": ["2024-S1", "2020", "2015-S3"],
+      "pattern": "^\\d{4}(-S[1-9])?$"
+    },
+    "paper": {
+      "type": "string",
+      "description": "Human-readable name as rendered by the source.",
+      "examples": ["GATE CSE 2024 SET-1"]
+    },
+    "year": { "type": "integer", "minimum": 1987, "maximum": 2100 },
+    "set": {
+      "type": ["integer", "null"],
+      "description": "Set number when the year has multiple sets; null when the year is a single paper.",
+      "minimum": 1
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL (page 1) at the source site."
+    },
+    "source_id": {
+      "type": ["integer", "null"],
+      "description": "The site's internal quizId, for debugging."
+    },
+    "total_marks": { "type": "integer" },
+    "scraped_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp when the paper was scraped."
+    },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "question": {
+      "type": "object",
+      "required": [
+        "id", "number", "section", "type", "marks", "negative_marks",
+        "question", "options", "correct", "nat_range",
+        "topic", "subtopic", "images", "explanation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable id, format '<paper_id>-Q<number>'. The join key for results and the reviewer.",
+          "examples": ["2024-S1-Q23"]
+        },
+        "source_id": {
+          "type": ["integer", "null"],
+          "description": "Site's internal question id, for debugging."
+        },
+        "number": { "type": "integer", "minimum": 1 },
+        "source_paper_id": {
+          "type": "string",
+          "description": "Topic mocks only. The paper this question came from; images are cached under this id.",
+          "pattern": "^\\d{4}(-S[1-9])?$"
+        },
+        "source_number": {
+          "type": "integer",
+          "description": "Topic mocks only. The question's number in its original paper ('number' is its position in the mock).",
+          "minimum": 1
+        },
+        "section": {
+          "type": "string",
+          "enum": ["General Aptitude", "Technical"]
+        },
+        "type": { "type": "string", "enum": ["MCQ", "MSQ", "NAT"] },
+        "marks": { "type": "integer", "enum": [1, 2] },
+        "negative_marks": {
+          "type": "number",
+          "description": "Penalty for a wrong answer. 0 for MSQ and NAT; marks/3 for MCQ.",
+          "minimum": 0
+        },
+        "question": {
+          "type": "string",
+          "description": "Question body with [latex]...[/latex] wrappers kept raw, inline <br> and <img> kept."
+        },
+        "code": {
+          "type": ["string", "null"],
+          "description": "Reserved. Null unless the scraper confidently extracted a code block to display monospaced."
+        },
+        "images": {
+          "type": "array",
+          "description": "Image URLs referenced from the question or its options (absolute URLs). Downloads happen in a later stage.",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "options": {
+          "description": "Object keyed by A/B/C/D for MCQ and MSQ (plus E on some pre-1995 papers). Null for NAT.",
+          "oneOf": [
+            {
+              "type": "object",
+              "required": ["A", "B", "C", "D"],
+              "properties": {
+                "A": { "type": "string" },
+                "B": { "type": "string" },
+                "C": { "type": "string" },
+                "D": { "type": "string" },
+                "E": { "type": "string" }
+              },
+              "additionalProperties": false
+            },
+            { "type": "null" }
+          ]
+        },
+        "correct": {
+          "description": "Array of letters for MCQ (exactly 1) and MSQ (1..5). Null for NAT.",
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 5,
+              "uniqueItems": true,
+              "items": { "type": "string", "enum": ["A", "B", "C", "D", "E"] }
+            },
+            { "type": "null" }
+          ]
+        },
+        "nat_range": {
+          "description": "[low, high] accepted range for NAT (inclusive). Null for MCQ/MSQ.",
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": { "type": "number" }
+            },
+            { "type": "null" }
+          ]
+        },
+        "accepted": {
+          "type": "array",
+          "description": "Optional. Extra answers the official key also accepts: letter arrays for MCQ/MSQ, [low, high] ranges for NAT.",
+          "items": {
+            "oneOf": [
+              { "type": "array", "minItems": 1, "items": { "type": "string", "enum": ["A", "B", "C", "D", "E"] } },
+              { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "number" } }
+            ]
+          }
+        },
+        "marks_to_all": {
+          "type": "boolean",
+          "description": "Optional. True when the official key awarded full marks to every candidate (question dropped)."
+        },
+        "key_source": {
+          "type": "string",
+          "description": "Optional. Where a corrected key came from, when it differs from the site."
+        },
+        "topic": {
+          "type": "string",
+          "description": "Canonical topic from schema/topics.json (official GATE CSE syllabus subjects)."
+        },
+        "subtopic": {
+          "type": ["string", "null"],
+          "description": "Free-form subtopic from the source tag."
+        },
+        "explanation": {
+          "type": ["string", "null"],
+          "description": "Explanation/solution. Captured from the source when available; may later be rewritten by the reviewer."
+        },
+        "explanation_source": {
+          "type": "string",
+          "enum": ["site", "llm", "none"],
+          "description": "Where the current explanation came from. 'none' until populated."
+        }
+      },
+      "additionalProperties": false,
+
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "MCQ" } } },
+          "then": {
+            "properties": {
+              "options": { "type": "object" },
+              "correct": { "type": "array", "minItems": 1, "maxItems": 1 },
+              "nat_range": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "MSQ" } } },
+          "then": {
+            "properties": {
+              "options": { "type": "object" },
+              "correct": { "type": "array", "minItems": 1 },
+              "nat_range": { "type": "null" },
+              "negative_marks": { "const": 0 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "NAT" } } },
+          "then": {
+            "properties": {
+              "options": { "type": "null" },
+              "correct": { "type": "null" },
+              "nat_range": { "type": "array" },
+              "negative_marks": { "const": 0 }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

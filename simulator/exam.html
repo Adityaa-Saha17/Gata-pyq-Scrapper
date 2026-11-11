@@ -1,0 +1,1230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GATE Mock Exam</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<style>
+  :root {
+    --bg: #f4f6f9;
+    --panel: #ffffff;
+    --text: #1d2330;
+    --muted: #5d6677;
+    --border: #d5dae3;
+    --accent: #1f5fae;
+    --accent-text: #ffffff;
+    --nv: #d9dde4;
+    --na: #d64545;
+    --an: #2e9d57;
+    --mr: #7a4fc0;
+    --danger: #c0392b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .hidden { display: none !important; }
+  button {
+    font: inherit;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--text);
+    padding: 7px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  button.danger { background: var(--danger); color: #fff; border-color: var(--danger); }
+
+  /* ---------- picker / summary / results ---------- */
+  .page { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+  .paper-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+  .paper-list button { text-align: left; padding: 12px; }
+  .paper-list .tag { display: block; font-size: 12px; color: var(--mr); }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin-top: 16px; }
+  .card ul { margin: 8px 0 16px; padding-left: 20px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .manual { margin-top: 20px; }
+  .manual input { font: inherit; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; width: 140px; }
+  .error { color: var(--danger); margin-top: 12px; }
+
+  /* ---------- exam layout ---------- */
+  #exam { display: flex; flex-direction: column; height: 100vh; }
+  .topbar {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    background: var(--accent); color: var(--accent-text); padding: 10px 16px;
+  }
+  .topbar .title { font-weight: 600; }
+  .timer { font-variant-numeric: tabular-nums; font-weight: 600; background: rgba(255,255,255,.15); padding: 4px 10px; border-radius: 6px; }
+  .timer.low { background: var(--danger); }
+  .tabs { display: flex; gap: 4px; padding: 8px 16px 0; background: var(--panel); border-bottom: 1px solid var(--border); }
+  .tabs button { border-radius: 6px 6px 0 0; border-bottom: none; }
+  .tabs button.active { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  .body { flex: 1; display: flex; min-height: 0; }
+  .qpane { flex: 1; overflow-y: auto; padding: 18px 22px; background: var(--panel); }
+  .qmeta { display: flex; flex-wrap: wrap; gap: 14px; color: var(--muted); font-size: 13px; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 14px; }
+  .qmeta strong { color: var(--text); }
+  .rich { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .rich pre { white-space: pre; background: #f1f3f7; border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; overflow-x: auto; font: 13.5px/1.45 ui-monospace, Menlo, Consolas, monospace; }
+  .rich code { font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .rich img { max-width: 100%; height: auto; display: block; margin: 8px 0; }
+  .rich table { border-collapse: collapse; margin: 8px 0; white-space: normal; }
+  .rich td, .rich th { border: 1px solid var(--border); padding: 4px 8px; }
+  .options { margin-top: 18px; display: flex; flex-direction: column; gap: 8px; }
+  .option { display: flex; gap: 10px; align-items: flex-start; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; cursor: pointer; }
+  .option:hover { border-color: var(--accent); }
+  .option input { margin-top: 4px; }
+  .option .letter { font-weight: 600; min-width: 18px; }
+  .nat { margin-top: 18px; }
+  .nat input { font: 18px ui-monospace, Menlo, monospace; padding: 8px 10px; width: 220px; border: 1px solid var(--border); border-radius: 6px; }
+  .nat .hint { color: var(--muted); font-size: 13px; margin-top: 6px; }
+
+  .side { width: 300px; border-left: 1px solid var(--border); background: var(--bg); overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 14px; }
+  .legend { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; font-size: 12.5px; }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .palette { display: grid; grid-template-columns: repeat(5, 1fr); gap: 7px; }
+  .pq { height: 38px; padding: 0; font-weight: 600; border-radius: 6px; position: relative; }
+  .st-nv { background: var(--nv); color: var(--text); }
+  .st-na { background: var(--na); color: #fff; border-color: var(--na); }
+  .st-an { background: var(--an); color: #fff; border-color: var(--an); }
+  .st-mr { background: var(--mr); color: #fff; border-color: var(--mr); border-radius: 50%; }
+  .st-am { background: var(--mr); color: #fff; border-color: var(--mr); border-radius: 50%; }
+  .st-am::after { content: ""; position: absolute; right: 2px; bottom: 2px; width: 9px; height: 9px; border-radius: 50%; background: var(--an); border: 1px solid #fff; }
+  .pq.current { outline: 3px solid var(--accent); outline-offset: 1px; }
+  .chip { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 22px; border-radius: 4px; font-size: 12px; font-weight: 600; position: relative; }
+  .actions { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; padding: 10px 16px; border-top: 1px solid var(--border); background: var(--panel); }
+  .actions .row { gap: 8px; }
+
+  /* ---------- results ---------- */
+  .stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+  .stat .v { font-size: 22px; font-weight: 700; }
+  .stat .k { color: var(--muted); font-size: 12.5px; }
+  .table-wrap { overflow-x: auto; margin-top: 16px; }
+  table.res { border-collapse: collapse; width: 100%; background: var(--panel); font-size: 13.5px; }
+  table.res th, table.res td { border-bottom: 1px solid var(--border); padding: 6px 8px; text-align: left; white-space: nowrap; }
+  table.res tr.ok td:nth-child(6) { color: var(--an); font-weight: 600; }
+  table.res tr.bad td:nth-child(6) { color: var(--danger); font-weight: 600; }
+
+  /* ---------- topic mocks on the start page ---------- */
+  h2.group { font-size: 16px; margin: 28px 0 4px; }
+  .topic-row { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; padding: 9px 0; border-bottom: 1px solid var(--border); }
+  .topic-row .name { flex: 0 0 250px; font-weight: 600; }
+  .topic-row .sets { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
+  .topic-row .sets button { min-width: 40px; padding: 5px 8px; text-align: center; position: relative; }
+  .topic-row .sets button.running { border-color: var(--mr); color: var(--mr); font-weight: 600; }
+
+  /* ---------- calculator ---------- */
+  .topbar .tools { display: flex; align-items: center; gap: 10px; }
+  .topbar .calc-toggle { background: rgba(255,255,255,.15); color: var(--accent-text); border-color: rgba(255,255,255,.4); padding: 4px 12px; }
+  .topbar .calc-toggle[aria-pressed="true"] { background: var(--accent-text); color: var(--accent); }
+  .calc {
+    position: fixed; top: 64px; right: 320px; z-index: 50; width: 336px;
+    background: #e9edf3; border: 1px solid #8a94a6; border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 30, 50, .28); user-select: none;
+  }
+  .calc-bar { display: flex; justify-content: space-between; align-items: center; padding: 6px 8px 6px 12px;
+    background: #2b3648; color: #fff; border-radius: 9px 9px 0 0; cursor: move; touch-action: none; font-weight: 600; font-size: 13.5px; }
+  .calc-bar button { background: transparent; color: #fff; border: none; padding: 0 8px; font-size: 18px; line-height: 1.2; }
+  .calc-screen { margin: 10px 10px 6px; background: #fff; border: 1px solid #8a94a6; border-radius: 6px; padding: 6px 10px; }
+  .calc-expr { min-height: 20px; font: 13px/1.5 ui-monospace, Menlo, Consolas, monospace; color: var(--muted); overflow-wrap: anywhere; text-align: right; }
+  .calc-value { font: 600 22px/1.4 ui-monospace, Menlo, Consolas, monospace; text-align: right; overflow-x: auto; white-space: nowrap; user-select: text; }
+  .calc-flags { display: flex; justify-content: space-between; align-items: center; margin: 0 10px 6px; font-size: 12.5px; color: var(--muted); }
+  .calc-flags label { margin-right: 10px; cursor: pointer; }
+  .calc-keys { display: grid; grid-template-columns: repeat(6, 1fr); gap: 5px; padding: 0 10px 10px; }
+  .calc-keys button { padding: 7px 0; font-size: 13.5px; border-radius: 5px; border-color: #b4bccb; background: #f8f9fb; }
+  .calc-keys button.num { background: #fff; font-weight: 600; font-size: 15px; }
+  .calc-keys button.op { background: #dfe6f1; font-weight: 600; }
+  .calc-keys button.mem { background: #ece6f6; }
+  .calc-keys button.clr { background: #f6dede; }
+  .calc-keys button.eq { background: var(--an); border-color: var(--an); color: #fff; font-weight: 700; font-size: 16px; }
+
+  @media (max-width: 760px) {
+    .calc { left: 50% !important; right: auto; top: auto !important; bottom: 8px; transform: translateX(-50%); width: min(336px, calc(100vw - 16px)); }
+    .topic-row .name { flex-basis: 100%; }
+    #exam { height: auto; min-height: 100vh; }
+    .body { flex-direction: column; }
+    .side { width: auto; border-left: none; border-top: 1px solid var(--border); }
+    .qpane { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ paper picker ============ -->
+<div id="picker" class="page">
+  <h1>GATE CSE Mock Exam</h1>
+  <p class="sub">Pick a full paper or a topic-wise mock. GATE scoring, on-screen calculator, results saved as JSON.</p>
+
+  <h2 class="group">Full papers</h2>
+  <p class="sub">The whole paper, 180 minutes.</p>
+  <div id="paperList" class="paper-list"></div>
+
+  <h2 class="group">Topic-wise mocks</h2>
+  <p class="sub" id="mockSub">One topic per test, questions drawn from across its subtopics and years.</p>
+  <div id="mockList"></div>
+
+  <div class="manual row">
+    <span>Or open by id:</span>
+    <input id="manualId" placeholder="e.g. 2024-S1">
+    <button id="manualGo">Open</button>
+  </div>
+  <div id="pickerError" class="error"></div>
+
+  <div id="summary" class="card hidden">
+    <h1 id="sumTitle"></h1>
+    <ul id="sumList"></ul>
+    <p class="sub">Answers count only after <b>Save &amp; Next</b> or <b>Mark for Review &amp; Next</b>, as in the real exam.
+      Jumping away with the palette discards an unsaved selection.</p>
+    <div class="row">
+      <button id="startBtn" class="primary">Start new attempt</button>
+      <button id="resumeBtn" class="hidden">Resume saved attempt</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ exam ============ -->
+<div id="exam" class="hidden">
+  <div class="topbar">
+    <div class="title" id="examTitle"></div>
+    <div class="tools">
+      <button class="calc-toggle" id="calcToggle" aria-pressed="false">Calculator</button>
+      <div class="timer" id="timer">03:00:00</div>
+    </div>
+  </div>
+  <div class="tabs" id="tabs"></div>
+  <div class="body">
+    <div class="qpane">
+      <div class="qmeta" id="qmeta"></div>
+      <div class="rich" id="qtext"></div>
+      <div id="qanswer"></div>
+    </div>
+    <aside class="side">
+      <div class="legend" id="legend"></div>
+      <div class="palette" id="palette"></div>
+      <button class="danger" id="submitBtn">Submit test</button>
+    </aside>
+  </div>
+  <div class="actions">
+    <div class="row">
+      <button id="markBtn">Mark for Review &amp; Next</button>
+      <button id="clearBtn">Clear Response</button>
+    </div>
+    <div class="row">
+      <button id="prevBtn">Previous</button>
+      <button id="saveBtn" class="primary">Save &amp; Next</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ calculator ============ -->
+<div id="calc" class="calc hidden" role="dialog" aria-label="Scientific calculator">
+  <div class="calc-bar" id="calcBar">
+    <span>Scientific Calculator</span>
+    <button id="calcClose" aria-label="Close calculator">&times;</button>
+  </div>
+  <div class="calc-screen">
+    <div class="calc-expr" id="calcExpr"></div>
+    <div class="calc-value" id="calcValue">0</div>
+  </div>
+  <div class="calc-flags">
+    <span>
+      <label><input type="radio" name="calcAngle" value="deg" checked> Deg</label>
+      <label><input type="radio" name="calcAngle" value="rad"> Rad</label>
+    </span>
+    <span id="calcMem"></span>
+  </div>
+  <div class="calc-keys" id="calcKeys"></div>
+</div>
+
+<!-- ============ results ============ -->
+<div id="result" class="page hidden">
+  <h1 id="resTitle"></h1>
+  <p class="sub" id="resSub"></p>
+  <div class="stats" id="resStats"></div>
+  <div class="row" style="margin-top:16px">
+    <button class="primary" id="downloadBtn">Download results JSON</button>
+    <button id="backBtn">Back to start page</button>
+  </div>
+  <p class="sub" style="margin-top:10px">Move the downloaded file into the project's <code>results/</code> folder for the performance tracker.</p>
+  <div class="table-wrap"><table class="res" id="resTable"></table></div>
+</div>
+
+<script>
+"use strict";
+
+const DEFAULT_MINUTES = 180;
+const PAPERS_URL = "../papers/";
+const MOCKS_URL = "../mocks/";
+const IMAGES_URL = "../cache/images/";
+const SITE = "https://practicepaper.in";
+const LETTERS = ["A", "B", "C", "D", "E"];
+const ALLOWED_TAGS = ["br", "b", "strong", "i", "em", "u", "s", "sub", "sup", "p", "span", "div",
+  "pre", "code", "table", "thead", "tbody", "tr", "td", "th", "ul", "ol", "li", "img", "a", "hr", "center"];
+const DROP_TAGS = new Set(["script", "style", "iframe", "object", "embed", "link", "meta", "form", "input", "button", "svg", "math"]);
+const STRAY_LT_RE = new RegExp(`<(?!\\/?(?:${ALLOWED_TAGS.join("|")})[\\s/>])`, "gi");
+const MATH_OPEN = "";
+const MATH_CLOSE = "";
+
+const STATUS = {
+  nv: "Not visited",
+  na: "Not answered",
+  an: "Answered",
+  mr: "Marked for review",
+  am: "Answered & marked",
+};
+
+let paper = null;
+let state = null;
+let draft = null;
+let activeSection = null;
+let timerHandle = null;
+let lastTick = 0;
+let lastResult = null;
+
+const $ = (id) => document.getElementById(id);
+
+// ---------------------------------------------------------------- storage
+function storageKey(paperId) { return `gate-mock:${paperId}`; }
+function loadSaved(paperId) {
+  try { return JSON.parse(localStorage.getItem(storageKey(paperId)) || "null"); } catch { return null; }
+}
+function persist() {
+  if (!state) return;
+  try { localStorage.setItem(storageKey(state.paper_id), JSON.stringify(state)); } catch { /* storage unavailable */ }
+}
+function dropSaved(paperId) {
+  try { localStorage.removeItem(storageKey(paperId)); } catch { /* storage unavailable */ }
+}
+
+// ---------------------------------------------------------------- rich text
+function decodeEntities(s) {
+  const t = document.createElement("textarea");
+  t.innerHTML = s;
+  return t.value;
+}
+
+function renderMath(tex, doc) {
+  const span = doc.createElement("span");
+  const clean = decodeEntities(tex.replace(/<br\s*\/?>/gi, " ").replace(/<[^>]*>/g, "")).trim();
+  if (window.katex) {
+    span.innerHTML = katex.renderToString(clean, { throwOnError: false, displayMode: false });
+  } else {
+    span.textContent = `$${clean}$`;
+  }
+  return span;
+}
+
+function sanitize(node) {
+  for (const child of [...node.childNodes]) {
+    if (child.nodeType === Node.TEXT_NODE) continue;
+    if (child.nodeType !== Node.ELEMENT_NODE) { child.remove(); continue; }
+    const tag = child.tagName.toLowerCase();
+    if (DROP_TAGS.has(tag)) { child.remove(); continue; }
+    if (!ALLOWED_TAGS.includes(tag)) {
+      sanitize(child);
+      child.replaceWith(...child.childNodes);
+      continue;
+    }
+    const src = child.getAttribute("src");
+    const href = child.getAttribute("href");
+    const colspan = child.getAttribute("colspan");
+    const rowspan = child.getAttribute("rowspan");
+    for (const attr of [...child.attributes]) child.removeAttribute(attr.name);
+    if (tag === "img" && src) {
+      child.setAttribute("data-src", src);
+      child.setAttribute("alt", "figure");
+    }
+    if (tag === "a" && href && /^https?:\/\//i.test(href)) {
+      child.setAttribute("href", href);
+      child.setAttribute("target", "_blank");
+      child.setAttribute("rel", "noopener noreferrer");
+    }
+    if ((tag === "td" || tag === "th") && /^\d+$/.test(colspan || "")) child.setAttribute("colspan", colspan);
+    if ((tag === "td" || tag === "th") && /^\d+$/.test(rowspan || "")) child.setAttribute("rowspan", rowspan);
+    sanitize(child);
+  }
+}
+
+function renderRich(container, raw, paperId) {
+  container.replaceChildren();
+  if (!raw) return;
+  const maths = [];
+  let html = raw.replace(/\[latex\]([\s\S]*?)\[\/latex\]/g, (_, tex) => {
+    maths.push(tex);
+    return `${MATH_OPEN}${maths.length - 1}${MATH_CLOSE}`;
+  });
+  html = html.replace(/<br\s*\/?>[ \t]*\n/gi, "<br>").replace(STRAY_LT_RE, "&lt;");
+
+  const doc = new DOMParser().parseFromString(`<div>${html}</div>`, "text/html");
+  const root = doc.body.firstElementChild;
+  sanitize(root);
+
+  const walker = doc.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+  const splitRe = new RegExp(`${MATH_OPEN}(\\d+)${MATH_CLOSE}`);
+  for (const node of textNodes) {
+    if (!node.nodeValue.includes(MATH_OPEN)) continue;
+    const parts = node.nodeValue.split(splitRe);
+    const frag = doc.createDocumentFragment();
+    parts.forEach((part, i) => {
+      if (i % 2 === 0) { if (part) frag.appendChild(doc.createTextNode(part)); }
+      else frag.appendChild(renderMath(maths[Number(part)], doc));
+    });
+    node.replaceWith(frag);
+  }
+
+  while (root.firstChild) container.appendChild(document.adoptNode(root.firstChild));
+  wireImages(container, paperId);
+}
+
+function wireImages(container, paperId) {
+  container.querySelectorAll("img[data-src]").forEach((img) => {
+    const src = img.dataset.src;
+    const remote = /^https?:\/\//i.test(src) ? src : SITE + (src.startsWith("/") ? "" : "/") + src;
+    const name = remote.split(/[?#]/)[0].split("/").pop();
+    const local = `${IMAGES_URL}${encodeURIComponent(paperId)}/${encodeURIComponent(name)}`;
+    img.addEventListener("error", () => { if (img.dataset.fallback !== "1") { img.dataset.fallback = "1"; img.src = remote; } });
+    img.src = local;
+  });
+}
+
+// ---------------------------------------------------------------- picker
+async function listPapers() {
+  const box = $("paperList");
+  try {
+    const resp = await fetch(PAPERS_URL);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const text = await resp.text();
+    const ids = [...new Set([...text.matchAll(/href="([^"\/]+)\.json"/g)].map((m) => decodeURIComponent(m[1])))];
+    ids.sort((a, b) => b.localeCompare(a));
+    if (!ids.length) throw new Error("no papers found");
+    for (const id of ids) {
+      const btn = document.createElement("button");
+      btn.textContent = id;
+      if (loadSaved(id)) {
+        const tag = document.createElement("span");
+        tag.className = "tag";
+        tag.textContent = "attempt in progress";
+        btn.appendChild(tag);
+      }
+      btn.addEventListener("click", () => openPaper(id));
+      box.appendChild(btn);
+    }
+  } catch (e) {
+    $("pickerError").textContent = `Could not list ${PAPERS_URL} (${e.message}). Serve the project root with "python3 -m http.server" and open /simulator/exam.html, or type an id below.`;
+  }
+}
+
+async function listMocks() {
+  const box = $("mockList");
+  try {
+    const resp = await fetch(`${MOCKS_URL}index.json`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const index = await resp.json();
+    $("mockSub").textContent = `One topic per test: ${index.questions_per_mock} questions, ${index.duration_min} minutes, `
+      + "drawn from across the topic's subtopics and years. No question repeats between the sets of a topic.";
+    for (const entry of index.topics) {
+      const row = document.createElement("div");
+      row.className = "topic-row";
+      const name = document.createElement("span");
+      name.className = "name";
+      name.textContent = entry.topic;
+      const sets = document.createElement("div");
+      sets.className = "sets";
+      for (const mock of entry.sets) {
+        const btn = document.createElement("button");
+        btn.textContent = mock.set;
+        btn.title = `${entry.topic}, set ${mock.set}: ${mock.questions} questions, ${mock.total_marks} marks`;
+        if (loadSaved(mock.paper_id)) {
+          btn.classList.add("running");
+          btn.title += " (attempt in progress)";
+        }
+        btn.addEventListener("click", () => openPaper(mock.paper_id));
+        sets.appendChild(btn);
+      }
+      row.append(name, sets);
+      box.appendChild(row);
+    }
+  } catch (e) {
+    $("mockSub").textContent = `No topic mocks found (${e.message}). Build them with "python tools/make_topic_mocks.py".`;
+  }
+}
+
+// Full papers are named by year (2024-S1); anything else is a topic mock.
+function paperUrl(paperId) {
+  const dir = /^\d{4}(-S\d)?$/.test(paperId) ? PAPERS_URL : MOCKS_URL;
+  return `${dir}${encodeURIComponent(paperId)}.json`;
+}
+function isTopicMock() { return paper.kind === "topic_mock"; }
+function examMinutes() { return paper.duration_min || DEFAULT_MINUTES; }
+function imageFolder(q) { return q.source_paper_id || paper.paper_id; }
+
+async function openPaper(paperId) {
+  $("pickerError").textContent = "";
+  try {
+    const resp = await fetch(paperUrl(paperId));
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    paper = await resp.json();
+  } catch (e) {
+    $("pickerError").textContent = `Could not load paper ${paperId}: ${e.message}`;
+    return;
+  }
+  const qs = paper.questions;
+  const count = (fn) => qs.filter(fn).length;
+  $("sumTitle").textContent = paper.paper;
+  $("sumList").replaceChildren(...[
+    `${qs.length} questions, ${paper.total_marks} marks, ${examMinutes()} minutes`,
+    `MCQ ${count((q) => q.type === "MCQ")} · MSQ ${count((q) => q.type === "MSQ")} · NAT ${count((q) => q.type === "NAT")}`,
+    isTopicMock()
+      ? `Topic: ${paper.topic}. Previous-year questions from several subtopics, 1-mark questions first.`
+      : `General Aptitude ${count((q) => q.section === "General Aptitude")} · Technical ${count((q) => q.section === "Technical")}`,
+    "MCQ wrong answer: −1/3 of its marks. MSQ and NAT: no negative marking, no partial credit.",
+    "A scientific calculator is available from the top bar during the test.",
+  ].map((t) => { const li = document.createElement("li"); li.textContent = t; return li; }));
+  const saved = loadSaved(paper.paper_id);
+  $("resumeBtn").classList.toggle("hidden", !saved);
+  $("summary").classList.remove("hidden");
+  $("summary").scrollIntoView({ behavior: "smooth" });
+}
+
+// ---------------------------------------------------------------- exam
+function newState() {
+  const now = new Date();
+  const stamp = now.toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z");
+  return {
+    attempt_id: `${paper.paper_id}_${stamp}`,
+    paper_id: paper.paper_id,
+    started_at: now.toISOString(),
+    deadline_ms: now.getTime() + examMinutes() * 60 * 1000,
+    current: 0,
+    q: paper.questions.map(() => ({ saved: null, marked: false, visited: false, time_ms: 0 })),
+  };
+}
+
+function startExam(resume) {
+  state = resume ? loadSaved(paper.paper_id) : newState();
+  if (!state || state.q.length !== paper.questions.length) state = newState();
+  if (!resume) dropSaved(paper.paper_id);
+  $("picker").classList.add("hidden");
+  $("result").classList.add("hidden");
+  $("exam").classList.remove("hidden");
+  $("examTitle").textContent = paper.paper;
+  buildTabs();
+  buildLegend();
+  calcReset();
+  lastTick = Date.now();
+  goTo(state.current);
+  clearInterval(timerHandle);
+  timerHandle = setInterval(tick, 1000);
+  tick();
+  window.addEventListener("beforeunload", warnUnload);
+}
+
+function warnUnload(e) { e.preventDefault(); e.returnValue = ""; }
+
+function tick() {
+  const now = Date.now();
+  state.q[state.current].time_ms += now - lastTick;
+  lastTick = now;
+  const left = Math.max(0, Math.round((state.deadline_ms - now) / 1000));
+  const h = String(Math.floor(left / 3600)).padStart(2, "0");
+  const m = String(Math.floor((left % 3600) / 60)).padStart(2, "0");
+  const s = String(left % 60).padStart(2, "0");
+  $("timer").textContent = `Time left ${h}:${m}:${s}`;
+  $("timer").classList.toggle("low", left <= 300);
+  if (left % 5 === 0) persist();
+  if (left === 0) submitExam(true);
+}
+
+function sections() {
+  const seen = [];
+  for (const q of paper.questions) if (!seen.includes(q.section)) seen.push(q.section);
+  return seen;
+}
+
+function buildTabs() {
+  const tabs = $("tabs");
+  tabs.replaceChildren();
+  for (const sec of sections()) {
+    const btn = document.createElement("button");
+    btn.textContent = sec;
+    btn.dataset.section = sec;
+    btn.addEventListener("click", () => {
+      const first = paper.questions.findIndex((q) => q.section === sec);
+      if (first >= 0) goTo(first);
+    });
+    tabs.appendChild(btn);
+  }
+}
+
+function buildLegend() {
+  const legend = $("legend");
+  legend.replaceChildren();
+  for (const [code, label] of Object.entries(STATUS)) {
+    const span = document.createElement("span");
+    const chip = document.createElement("span");
+    chip.className = `chip st-${code}`;
+    chip.dataset.count = code;
+    span.append(chip, label);
+    legend.appendChild(span);
+  }
+}
+
+function statusOf(i) {
+  const qs = state.q[i];
+  if (!qs.visited) return "nv";
+  if (qs.saved !== null && qs.marked) return "am";
+  if (qs.marked) return "mr";
+  if (qs.saved !== null) return "an";
+  return "na";
+}
+
+function renderPalette() {
+  const pal = $("palette");
+  pal.replaceChildren();
+  paper.questions.forEach((q, i) => {
+    if (q.section !== activeSection) return;
+    const btn = document.createElement("button");
+    btn.className = `pq st-${statusOf(i)}${i === state.current ? " current" : ""}`;
+    btn.textContent = q.number;
+    btn.title = STATUS[statusOf(i)];
+    btn.addEventListener("click", () => goTo(i));
+    pal.appendChild(btn);
+  });
+  const counts = { nv: 0, na: 0, an: 0, mr: 0, am: 0 };
+  paper.questions.forEach((_, i) => { counts[statusOf(i)] += 1; });
+  document.querySelectorAll("#legend .chip").forEach((chip) => { chip.textContent = counts[chip.dataset.count]; });
+  document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("active", b.dataset.section === activeSection));
+}
+
+function goTo(i) {
+  const now = Date.now();
+  state.q[state.current].time_ms += now - lastTick;
+  lastTick = now;
+  state.current = i;
+  state.q[i].visited = true;
+  const saved = state.q[i].saved;
+  draft = Array.isArray(saved) ? [...saved] : saved;
+  activeSection = paper.questions[i].section;
+  renderQuestion();
+  renderPalette();
+  persist();
+}
+
+function renderQuestion() {
+  const q = paper.questions[state.current];
+  const meta = $("qmeta");
+  meta.replaceChildren();
+  const neg = q.negative_marks ? `−${q.negative_marks}` : "none";
+  for (const [k, v] of [["Question", q.number], ["Type", q.type], ["Marks", q.marks], ["Negative", neg], ["Section", q.section]]) {
+    const span = document.createElement("span");
+    const strong = document.createElement("strong");
+    strong.textContent = v;
+    span.append(`${k}: `, strong);
+    meta.appendChild(span);
+  }
+  renderRich($("qtext"), q.question, imageFolder(q));
+
+  const box = $("qanswer");
+  box.replaceChildren();
+  if (q.type === "NAT") {
+    const wrap = document.createElement("div");
+    wrap.className = "nat";
+    const input = document.createElement("input");
+    input.type = "text";
+    input.inputMode = "decimal";
+    input.autocomplete = "off";
+    input.placeholder = "Enter numeric answer";
+    input.value = draft ?? "";
+    input.addEventListener("input", () => {
+      if (!/^-?\d*\.?\d*$/.test(input.value)) input.value = input.value.replace(/[^\d.-]/g, "").replace(/(?!^)-/g, "").replace(/(\..*)\./g, "$1");
+      draft = input.value;
+    });
+    const hint = document.createElement("div");
+    hint.className = "hint";
+    hint.textContent = "Digits, one decimal point, optional leading minus.";
+    wrap.append(input, hint);
+    box.appendChild(wrap);
+    return;
+  }
+
+  const list = document.createElement("div");
+  list.className = "options";
+  const multi = q.type === "MSQ";
+  for (const letter of LETTERS.filter((l) => l in q.options)) {
+    const label = document.createElement("label");
+    label.className = "option";
+    const input = document.createElement("input");
+    input.type = multi ? "checkbox" : "radio";
+    input.name = "opt";
+    input.value = letter;
+    input.checked = multi ? (draft || []).includes(letter) : draft === letter;
+    input.addEventListener("change", () => {
+      if (multi) {
+        draft = [...list.querySelectorAll("input:checked")].map((el) => el.value);
+      } else {
+        draft = letter;
+      }
+    });
+    const tag = document.createElement("span");
+    tag.className = "letter";
+    tag.textContent = `${letter}.`;
+    const body = document.createElement("div");
+    body.className = "rich";
+    renderRich(body, q.options[letter], imageFolder(q));
+    label.append(input, tag, body);
+    list.appendChild(label);
+  }
+  box.appendChild(list);
+}
+
+function normalizedDraft() {
+  const q = paper.questions[state.current];
+  if (q.type === "MSQ") return Array.isArray(draft) && draft.length ? [...draft].sort() : null;
+  if (q.type === "NAT") {
+    const v = (draft ?? "").trim();
+    return v === "" || v === "-" || v === "." || v === "-." ? null : v;
+  }
+  return draft || null;
+}
+
+function nextIndex() { return (state.current + 1) % paper.questions.length; }
+
+function saveAndNext() {
+  const qs = state.q[state.current];
+  qs.saved = normalizedDraft();
+  qs.marked = false;
+  goTo(nextIndex());
+}
+
+function markAndNext() {
+  const qs = state.q[state.current];
+  qs.saved = normalizedDraft();
+  qs.marked = true;
+  goTo(nextIndex());
+}
+
+function clearResponse() {
+  draft = null;
+  state.q[state.current].saved = null;
+  renderQuestion();
+  renderPalette();
+  persist();
+}
+
+function previous() {
+  const n = paper.questions.length;
+  goTo((state.current - 1 + n) % n);
+}
+
+// ---------------------------------------------------------------- scoring
+function evaluate(q, saved) {
+  const response = saved === null || saved === undefined ? null
+    : q.type === "MSQ" ? [...saved]
+    : q.type === "NAT" ? (Number.isFinite(Number(saved)) ? Number(saved) : null)
+    : saved;
+  // Official key dropped the question: everyone gets full marks.
+  if (q.marks_to_all) return { response, is_correct: true, marks_earned: q.marks };
+  if (response === null) return { response: null, is_correct: null, marks_earned: 0 };
+  const extra = q.accepted || [];
+  if (q.type === "MCQ") {
+    const ok = [q.correct, ...extra].some((alt) => alt.length === 1 && alt[0] === response);
+    return { response, is_correct: ok, marks_earned: ok ? q.marks : -q.negative_marks };
+  }
+  if (q.type === "MSQ") {
+    const picked = [...response].sort().join();
+    const ok = [q.correct, ...extra].some((alt) => [...alt].sort().join() === picked);
+    return { response, is_correct: ok, marks_earned: ok ? q.marks : 0 };
+  }
+  const ok = [q.nat_range, ...extra].some(([lo, hi]) => response >= lo - 1e-9 && response <= hi + 1e-9);
+  return { response, is_correct: ok, marks_earned: ok ? q.marks : 0 };
+}
+
+const round2 = (x) => Math.round(x * 100) / 100;
+
+function buildResult(auto) {
+  const now = Date.now();
+  state.q[state.current].time_ms += now - lastTick;
+  lastTick = now;
+  let ga = 0;
+  let tech = 0;
+  const answers = paper.questions.map((q, i) => {
+    const qs = state.q[i];
+    const ev = evaluate(q, qs.saved);
+    if (q.section === "General Aptitude") ga += ev.marks_earned; else tech += ev.marks_earned;
+    return {
+      question_id: q.id,
+      type: q.type,
+      response: ev.response,
+      is_correct: ev.is_correct,
+      marks_earned: round2(ev.marks_earned),
+      time_spent_sec: Math.round(qs.time_ms / 1000),
+      marked_for_review: qs.marked,
+      visited: qs.visited,
+    };
+  });
+  const startedMs = Date.parse(state.started_at);
+  const endedMs = Math.min(now, state.deadline_ms);
+  return {
+    attempt_id: state.attempt_id,
+    paper_id: state.paper_id,
+    started_at: state.started_at,
+    ended_at: new Date(endedMs).toISOString(),
+    duration_sec: Math.max(0, Math.round((endedMs - startedMs) / 1000)),
+    submitted_early: !auto,
+    total_marks: paper.total_marks,
+    score: round2(ga + tech),
+    score_breakdown: { general_aptitude: round2(ga), technical: round2(tech) },
+    answers,
+  };
+}
+
+function submitExam(auto) {
+  if (!auto) {
+    const counts = { nv: 0, na: 0, an: 0, mr: 0, am: 0 };
+    paper.questions.forEach((_, i) => { counts[statusOf(i)] += 1; });
+    const answered = counts.an + counts.am;
+    const msg = `Submit the test?\n\nAnswered: ${answered}\nMarked for review (unanswered, not evaluated): ${counts.mr}\nNot answered: ${counts.na}\nNot visited: ${counts.nv}`;
+    if (!confirm(msg)) return;
+  }
+  clearInterval(timerHandle);
+  window.removeEventListener("beforeunload", warnUnload);
+  calcShow(false);
+  lastResult = buildResult(auto);
+  dropSaved(state.paper_id);
+  showResult(lastResult);
+  // Download on time-out too: the saved attempt is already gone, so this is the only copy.
+  downloadResult();
+}
+
+function downloadResult() {
+  if (!lastResult) return;
+  const blob = new Blob([JSON.stringify(lastResult, null, 2) + "\n"], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${lastResult.attempt_id}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function fmtTime(sec) {
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${m}m ${String(s).padStart(2, "0")}s`;
+}
+
+function fmtAnswer(v) {
+  if (v === null || v === undefined) return "—";
+  return Array.isArray(v) ? v.join(", ") : String(v);
+}
+
+function fmtCorrect(q) {
+  if (q.marks_to_all) return "Marks to all";
+  const one = (alt) => q.type === "NAT"
+    ? (alt[0] === alt[1] ? String(alt[0]) : `${alt[0]} to ${alt[1]}`)
+    : alt.join(", ");
+  return [q.type === "NAT" ? q.nat_range : q.correct, ...(q.accepted || [])].map(one).join(" or ");
+}
+
+function showResult(res) {
+  $("exam").classList.add("hidden");
+  $("result").classList.remove("hidden");
+  window.scrollTo(0, 0);
+  $("resTitle").textContent = `${paper.paper}: ${res.score} / ${res.total_marks}`;
+  $("resSub").textContent = `${res.submitted_early ? "Submitted" : "Auto-submitted at time-out"} after ${fmtTime(res.duration_sec)}. Attempt ${res.attempt_id}.`;
+
+  const correct = res.answers.filter((a) => a.is_correct === true).length;
+  const wrong = res.answers.filter((a) => a.is_correct === false).length;
+  const skipped = res.answers.filter((a) => a.is_correct === null).length;
+  const negative = round2(res.answers.reduce((s, a) => s + Math.min(0, a.marks_earned), 0));
+  const present = sections();
+  const stats = [
+    ["Score", `${res.score} / ${res.total_marks}`],
+    ...(present.includes("General Aptitude") && present.length > 1 ? [["General Aptitude", res.score_breakdown.general_aptitude]] : []),
+    ...(present.includes("Technical") && present.length > 1 ? [["Technical", res.score_breakdown.technical]] : []),
+    ["Correct", correct],
+    ["Wrong", wrong],
+    ["Unattempted", skipped],
+    ["Negative marks", negative],
+  ];
+  $("resStats").replaceChildren(...stats.map(([k, v]) => {
+    const div = document.createElement("div");
+    div.className = "stat";
+    const vEl = document.createElement("div");
+    vEl.className = "v";
+    vEl.textContent = v;
+    const kEl = document.createElement("div");
+    kEl.className = "k";
+    kEl.textContent = k;
+    div.append(vEl, kEl);
+    return div;
+  }));
+
+  const table = $("resTable");
+  table.replaceChildren();
+  const head = document.createElement("tr");
+  for (const h of ["Q", "Section", "Type", "Your answer", "Correct", "Marks", "Time", "Topic", ...(isTopicMock() ? ["From"] : [])]) {
+    const th = document.createElement("th");
+    th.textContent = h;
+    head.appendChild(th);
+  }
+  table.appendChild(head);
+  paper.questions.forEach((q, i) => {
+    const a = res.answers[i];
+    const tr = document.createElement("tr");
+    if (a.is_correct === true) tr.className = "ok";
+    if (a.is_correct === false) tr.className = "bad";
+    const cells = [q.number, q.section === "General Aptitude" ? "GA" : "Tech", q.type, fmtAnswer(a.response),
+      fmtCorrect(q), a.marks_earned, fmtTime(a.time_spent_sec), `${q.topic}${q.subtopic ? " / " + q.subtopic : ""}`,
+      ...(isTopicMock() ? [q.id] : [])];
+    for (const c of cells) {
+      const td = document.createElement("td");
+      td.textContent = c;
+      tr.appendChild(td);
+    }
+    table.appendChild(tr);
+  });
+}
+
+// ---------------------------------------------------------------- calculator
+// Mouse-operated scientific calculator, as in the real exam interface.
+// You build an expression with the keys and "=" evaluates it. Nothing is
+// passed to eval(): the expression goes through the small parser below.
+
+// [label, display text, parser text, kind, css class, tooltip]
+// kind: "start" begins an operand, "cont" continues one (operator or postfix).
+const CALC_KEYS = [
+  ["MC", null, "mc", "cmd", "mem", "Clear memory"],
+  ["MR", null, "mr", "cmd", "mem", "Recall memory"],
+  ["MS", null, "ms", "cmd", "mem", "Store the result in memory"],
+  ["M+", null, "m+", "cmd", "mem", "Add the result to memory"],
+  ["M−", null, "m-", "cmd", "mem", "Subtract the result from memory"],
+  ["⌫", null, "back", "cmd", "clr", "Delete the last entry"],
+
+  ["sin", "sin(", "sin(", "start", "", ""],
+  ["cos", "cos(", "cos(", "start", "", ""],
+  ["tan", "tan(", "tan(", "start", "", ""],
+  ["ln", "ln(", "ln(", "start", "", "Natural logarithm"],
+  ["log", "log(", "log(", "start", "", "Logarithm, base 10"],
+  ["C", null, "clear", "cmd", "clr", "Clear"],
+
+  ["sin⁻¹", "sin⁻¹(", "asin(", "start", "", "Inverse sine"],
+  ["cos⁻¹", "cos⁻¹(", "acos(", "start", "", "Inverse cosine"],
+  ["tan⁻¹", "tan⁻¹(", "atan(", "start", "", "Inverse tangent"],
+  ["eˣ", "e^(", "exp(", "start", "", "e to the power x"],
+  ["10ˣ", "10^(", " (10)^(", "start", "", "10 to the power x"],
+  ["log₂", "log₂(", "log2(", "start", "", "Logarithm, base 2"],
+
+  ["x²", "²", "^2", "cont", "", "Square"],
+  ["xʸ", "^", "^", "cont", "", "x to the power y"],
+  ["√", "√(", "sqrt(", "start", "", "Square root"],
+  ["∛", "∛(", "cbrt(", "start", "", "Cube root"],
+  ["1/x", "⁻¹", "^(-1)", "cont", "", "Reciprocal"],
+  ["n!", "!", "!", "cont", "", "Factorial"],
+
+  ["7", "7", "7", "digit", "num", ""], ["8", "8", "8", "digit", "num", ""], ["9", "9", "9", "digit", "num", ""],
+  ["÷", "÷", "/", "cont", "op", "Divide"],
+  ["(", "(", "(", "start", "op", ""], [")", ")", ")", "cont", "op", ""],
+
+  ["4", "4", "4", "digit", "num", ""], ["5", "5", "5", "digit", "num", ""], ["6", "6", "6", "digit", "num", ""],
+  ["×", "×", "*", "cont", "op", "Multiply"],
+  ["π", "π", " pi ", "start", "", "Pi"], ["e", "e", " e ", "start", "", "Euler's number"],
+
+  ["1", "1", "1", "digit", "num", ""], ["2", "2", "2", "digit", "num", ""], ["3", "3", "3", "digit", "num", ""],
+  ["−", "−", "-", "minus", "op", "Subtract, or a minus sign"],
+  ["mod", " mod ", " mod ", "cont", "", "Remainder"], ["%", "%", "%", "cont", "", "Percent"],
+
+  ["0", "0", "0", "digit", "num", ""], [".", ".", ".", "digit", "num", ""],
+  ["EXP", "E", "E", "exp", "", "Times ten to the power: 6.02 EXP 23"],
+  ["+", "+", "+", "cont", "op", "Add"],
+  ["Ans", "Ans", " Ans ", "start", "", "The last result"],
+  ["=", null, "equals", "cmd", "eq", "Evaluate"],
+];
+
+const calc = { tokens: [], shown: "", value: "0", ans: 0, memory: null, done: false, error: false };
+
+const CALC_FUNCTIONS = {
+  sin: (x) => calcSnap(Math.sin(calcToRad(x))),
+  cos: (x) => calcSnap(Math.cos(calcToRad(x))),
+  tan: (x) => {
+    const r = calcToRad(x);
+    return Math.abs(Math.cos(r)) < 1e-14 ? NaN : calcSnap(Math.tan(r));
+  },
+  asin: (x) => calcFromRad(Math.asin(x)),
+  acos: (x) => calcFromRad(Math.acos(x)),
+  atan: (x) => calcFromRad(Math.atan(x)),
+  ln: Math.log,
+  log: Math.log10,
+  log2: Math.log2,
+  exp: Math.exp,
+  sqrt: Math.sqrt,
+  cbrt: Math.cbrt,
+};
+
+function calcAngle() { return document.querySelector('input[name="calcAngle"]:checked').value; }
+function calcToRad(x) { return calcAngle() === "deg" ? (x * Math.PI) / 180 : x; }
+function calcFromRad(x) { return calcAngle() === "deg" ? (x * 180) / Math.PI : x; }
+function calcSnap(x) { return Math.abs(x) < 1e-14 ? 0 : x; }
+
+function calcFactorial(n) {
+  if (!Number.isInteger(n) || n < 0 || n > 170) return NaN;
+  let ans = 1;
+  for (let i = 2; i <= n; i += 1) ans *= i;
+  return ans;
+}
+
+// Recursive-descent parser. Throws on a malformed expression.
+function calcEvaluate(text) {
+  const tokens = [];
+  const re = /((?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?)|([A-Za-z][A-Za-z0-9]*)|(\S)/g;
+  for (const m of text.matchAll(re)) {
+    if (m[1] !== undefined) tokens.push({ type: "num", value: Number(m[1]) });
+    else if (m[2] !== undefined) tokens.push({ type: "name", value: m[2] });
+    else tokens.push({ type: "sym", value: m[3] });
+  }
+  let pos = 0;
+  const peek = () => tokens[pos];
+  const isSym = (v) => peek() && peek().type === "sym" && peek().value === v;
+  const isName = (v) => peek() && peek().type === "name" && peek().value === v;
+  const fail = () => { throw new Error("syntax"); };
+  const closeParen = () => { if (isSym(")")) pos += 1; else if (peek()) fail(); };  // a missing ")" at the end is allowed
+
+  function primary() {
+    const tok = peek();
+    if (!tok) fail();
+    pos += 1;
+    if (tok.type === "num") {
+      if (peek() && peek().type === "num") fail();
+      return tok.value;
+    }
+    if (tok.type === "name") {
+      if (tok.value === "pi") return Math.PI;
+      if (tok.value === "e") return Math.E;
+      if (tok.value === "Ans") return calc.ans;
+      const fn = CALC_FUNCTIONS[tok.value];
+      if (!fn || !isSym("(")) fail();
+      pos += 1;
+      const arg = expression();
+      closeParen();
+      return fn(arg);
+    }
+    if (tok.value === "(") {
+      const inner = expression();
+      closeParen();
+      return inner;
+    }
+    return fail();
+  }
+  function postfix() {
+    let v = primary();
+    while (isSym("!") || isSym("%")) {
+      v = isSym("!") ? calcFactorial(v) : v / 100;
+      pos += 1;
+    }
+    return v;
+  }
+  function power() {
+    const base = postfix();
+    if (!isSym("^")) return base;
+    pos += 1;
+    return Math.pow(base, unary());
+  }
+  function unary() {
+    if (isSym("-")) { pos += 1; return -unary(); }
+    if (isSym("+")) { pos += 1; return unary(); }
+    return power();
+  }
+  function term() {
+    let v = unary();
+    for (;;) {
+      if (isSym("*")) { pos += 1; v *= unary(); }
+      else if (isSym("/")) { pos += 1; v /= unary(); }
+      else if (isName("mod")) {
+        pos += 1;
+        const d = unary();
+        v = d === 0 ? NaN : v - d * Math.floor(v / d);
+      }
+      // Implicit multiplication: 2π, 3(4+1), 2sin(30)
+      else if (peek() && (peek().type === "num" || peek().type === "name" || isSym("("))) v *= power();
+      else return v;
+    }
+  }
+  function expression() {
+    let v = term();
+    for (;;) {
+      if (isSym("+")) { pos += 1; v += term(); }
+      else if (isSym("-")) { pos += 1; v -= term(); }
+      else return v;
+    }
+  }
+
+  const result = expression();
+  if (pos < tokens.length) fail();
+  if (!Number.isFinite(result)) throw new Error("math");
+  return result;
+}
+
+function calcFormat(x) {
+  if (x === 0) return "0";
+  const abs = Math.abs(x);
+  if (abs >= 1e15 || abs < 1e-9) return x.toExponential(9).replace(/\.?0+e/, "e").replace("e+", "e");
+  return String(Number(x.toPrecision(12)));
+}
+
+function calcRender() {
+  $("calcExpr").textContent = calc.shown || calc.tokens.map((t) => t[0]).join("");
+  $("calcValue").textContent = calc.value;
+  $("calcMem").textContent = calc.memory === null ? "" : `M = ${calcFormat(calc.memory)}`;
+}
+
+// Evaluate what has been typed. Returns the number, or null on an error or an empty entry.
+function calcEquals() {
+  if (!calc.tokens.length) return calc.error ? null : calc.ans;
+  const shown = calc.tokens.map((t) => t[0]).join("");
+  try {
+    calc.ans = calcEvaluate(calc.tokens.map((t) => t[1]).join(""));
+  } catch {
+    calc.value = "Error";
+    calc.error = true;
+    return null;
+  }
+  calc.value = calcFormat(calc.ans);
+  calc.shown = `${shown} =`;
+  calc.tokens = [];
+  calc.done = true;
+  calc.error = false;
+  return calc.ans;
+}
+
+function calcCommand(name) {
+  if (name === "clear") {
+    Object.assign(calc, { tokens: [], shown: "", value: "0", ans: 0, done: false, error: false });
+  } else if (name === "back") {
+    calc.tokens.pop();
+    calc.shown = "";
+    if (calc.error) { calc.error = false; calc.value = calcFormat(calc.ans); }
+  } else if (name === "equals") {
+    calcEquals();
+  } else if (name === "mc") {
+    calc.memory = null;
+  } else if (name === "mr") {
+    if (calc.memory !== null) calcInsert([calcFormat(calc.memory), ` (${String(calc.memory)}) `, "start"]);
+  } else {
+    const v = calcEquals();
+    if (v === null) return;
+    if (name === "ms") calc.memory = v;
+    if (name === "m+") calc.memory = (calc.memory ?? 0) + v;
+    if (name === "m-") calc.memory = (calc.memory ?? 0) - v;
+  }
+}
+
+function calcInsert([shown, code, kind]) {
+  if (calc.error) { calc.error = false; calc.value = calcFormat(calc.ans); }
+  if (calc.done) {
+    // After "=", an operator carries on from the result; anything else starts afresh.
+    calc.tokens = kind === "cont" || kind === "minus" ? [["Ans", " Ans ", "start"]] : [];
+    calc.done = false;
+  }
+  calc.shown = "";
+  if (code === ".") {
+    // One decimal point per number.
+    for (let i = calc.tokens.length - 1; i >= 0 && calc.tokens[i][2] === "digit"; i -= 1) {
+      if (calc.tokens[i][1] === ".") return;
+    }
+  }
+  const last = calc.tokens[calc.tokens.length - 1];
+  if (kind === "exp" && !(last && last[2] === "digit")) return;  // EXP needs a number before it
+  calc.tokens.push([shown, code, kind]);
+}
+
+function calcPress(key) {
+  const [, shown, code, kind] = key;
+  if (kind === "cmd") calcCommand(code);
+  else calcInsert([shown, code, kind]);
+  calcRender();
+}
+
+function calcShow(show) {
+  $("calc").classList.toggle("hidden", !show);
+  $("calcToggle").setAttribute("aria-pressed", String(show));
+}
+
+function calcReset() {
+  Object.assign(calc, { tokens: [], shown: "", value: "0", ans: 0, memory: null, done: false, error: false });
+  const box = $("calc");
+  box.style.left = "";
+  box.style.top = "";
+  box.style.right = "";
+  calcShow(false);
+  calcRender();
+}
+
+function calcBuild() {
+  const keys = $("calcKeys");
+  for (const key of CALC_KEYS) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.textContent = key[0];
+    if (key[4]) btn.className = key[4];
+    if (key[5]) btn.title = key[5];
+    btn.addEventListener("click", () => calcPress(key));
+    keys.appendChild(btn);
+  }
+  $("calcToggle").addEventListener("click", () => calcShow($("calc").classList.contains("hidden")));
+  $("calcClose").addEventListener("click", () => calcShow(false));
+
+  // Drag by the title bar, kept inside the window.
+  const box = $("calc");
+  const bar = $("calcBar");
+  let grab = null;
+  bar.addEventListener("pointerdown", (e) => {
+    if (e.target.closest("button")) return;
+    const rect = box.getBoundingClientRect();
+    grab = { dx: e.clientX - rect.left, dy: e.clientY - rect.top };
+    bar.setPointerCapture(e.pointerId);
+  });
+  bar.addEventListener("pointermove", (e) => {
+    if (!grab) return;
+    const left = Math.min(Math.max(0, e.clientX - grab.dx), window.innerWidth - box.offsetWidth);
+    const top = Math.min(Math.max(0, e.clientY - grab.dy), window.innerHeight - bar.offsetHeight);
+    box.style.left = `${left}px`;
+    box.style.top = `${top}px`;
+    box.style.right = "auto";
+  });
+  const release = () => { grab = null; };
+  bar.addEventListener("pointerup", release);
+  bar.addEventListener("pointercancel", release);
+  calcRender();
+}
+
+// ---------------------------------------------------------------- wiring
+$("startBtn").addEventListener("click", () => startExam(false));
+$("resumeBtn").addEventListener("click", () => startExam(true));
+$("saveBtn").addEventListener("click", saveAndNext);
+$("markBtn").addEventListener("click", markAndNext);
+$("clearBtn").addEventListener("click", clearResponse);
+$("prevBtn").addEventListener("click", previous);
+$("submitBtn").addEventListener("click", () => submitExam(false));
+$("downloadBtn").addEventListener("click", downloadResult);
+$("backBtn").addEventListener("click", () => location.reload());
+$("manualGo").addEventListener("click", () => { const id = $("manualId").value.trim(); if (id) openPaper(id); });
+calcBuild();
+
+const requested = new URLSearchParams(location.search).get("paper");
+Promise.all([listPapers(), listMocks()]).then(() => { if (requested) openPaper(requested); });
+</script>
+</body>
+</html>

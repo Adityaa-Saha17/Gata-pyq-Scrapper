@@ -1,0 +1,847 @@
+{
+  "paper_id": "computer-networks-05",
+  "paper": "Computer Networks: Topic Mock 5",
+  "kind": "topic_mock",
+  "topic": "Computer Networks",
+  "set": 5,
+  "duration_min": 90,
+  "total_marks": 49,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2013-Q13",
+      "source_id": 1113113,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Using public key cryptography, X adds a digital signature [latex]\\sigma[/latex]  to message M, encrypts [latex]\\lt M, \\sigma \\gt[/latex], and\nsends it to Y, where it is decrypted. Which one of the following sequences of keys is used for the\noperations?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Encryption: X's private key followed by Y's private key; Decryption: X's public key followed\nby Y's public key",
+        "B": "Encryption: X's private key followed by Y's public key; Decryption: X's public key followed\nby Y's private key",
+        "C": "Encryption: X's public key followed by Y's private key; Decryption: Y's public key followed\nby X's private key",
+        "D": "Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed\r\nby X's public key"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "Checking each statement:<br>- Signing: X uses its own private key; encrypting for Y: Y's public key.<br>\n- Y decrypts with its private key, then verifies the signature with X's public key.<br><br>\n<b>Answer: Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed by X's public key</b><br><br><a href=\"https://gateoverflow.in/1435/gate2013-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 13
+    },
+    {
+      "id": "2023-Q7",
+      "source_id": 1123107,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose two hosts are connected by a point-to-point link and they are configured\nto use Stop-and-Wait protocol for reliable data transfer. Identify in which one of\nthe following scenarios, the utilization of the link is the lowest.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Longer link length and lower transmission rate",
+        "B": "Longer link length and higher transmission rate",
+        "C": "Shorter link length and lower transmission rate",
+        "D": "Shorter link length and higher transmission rate"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Stop-and-wait utilization [latex]=\\frac{T_t}{T_t+2T_p}=\\frac{1}{1+2a}[/latex], where [latex]a=\\frac{T_p}{T_t}[/latex].<br><br>\nUtilization is lowest when [latex]a[/latex] is largest:<br>\n- longer link [latex]\\rightarrow[/latex] larger [latex]T_p[/latex]<br>\n- higher transmission rate [latex]\\rightarrow[/latex] smaller [latex]T_t[/latex]<br><br>\n<b>Answer: Longer link length and higher transmission rate</b><br><br><a href=\"https://gateoverflow.in/399305/gate-cse-2023-question-7#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 7
+    },
+    {
+      "id": "2017-S1-Q14",
+      "source_id": 1117114,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a TCP client and a TCP server running on two different machines. After completing\ndata transfer, the TCP client calls close to terminate the connectional and a FIN segment is\nsent to the TCP server. Server-side TCP responds by sending an ACK which is received by\nthe client-side TCP. As per the TCP connections state diagram (RFC 793), in which state does\nthe client-side TCP connection wait for the FIN from the sever-side TCP?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "LAST-ACK",
+        "B": "TIME-WAIT",
+        "C": "FIN-WAIT-1",
+        "D": "FIN-WAIT-2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Client sends FIN [latex]\\rightarrow[/latex] FIN-WAIT-1. When the ACK of its FIN arrives [latex]\\rightarrow[/latex] <b>FIN-WAIT-2</b>, where it waits for the server's FIN.<br><br>\n<b>Answer: FIN-WAIT-2</b><br><br><a href=\"https://gateoverflow.in/118194/gate2017-1-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 14
+    },
+    {
+      "id": "2022-Q12",
+      "source_id": 1122112,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider an enterprise network with two Ethernet segments, a web server and a firewall, connected via three routers as shown below.<br><img src=\"/wp-content/uploads/GATE/CS/20221/q12.jpg\" /><br>What is the number of subnets inside the enterprise network?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20221/q12.jpg"
+      ],
+      "options": {
+        "A": "3",
+        "B": "12",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Every link between router interfaces (and every LAN behind a router) is a separate subnet:<br>\n1. Firewall - left router<br>\n2. Firewall - top router<br>\n3. Top router - web server<br>\n4. Top router - right router<br>\n5. Left router - left Ethernet<br>\n6. Right router - right Ethernet<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/371924/Gate-cse-2022-question-12#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 12
+    },
+    {
+      "id": "2021-S2-Q7",
+      "source_id": 1121207,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the three-way handshake mechanism followed during TCP connection establishment between hosts P and Q. Let X and Y be two random 32-bit starting sequence numbers chosen by P and Q respectively. Suppose P sends a TCP connection request message to Q with a TCP segment having SYN bit =1, SEQ number =X, and ACK bit =0. Suppose Q accepts the connection request. Which one of the following choices represents the information present in the TCP segment header that is sent by Q to P?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "SYN  bit =1, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =0",
+        "B": "SYN  bit =0, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =1",
+        "C": "SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0",
+        "D": "SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X, FIN bit =0"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Q's reply is the SYN-ACK:<br>\n- <b>SYN = 1</b> with Q's own initial sequence number <b>SEQ = Y</b><br>\n- <b>ACK = 1</b>, acknowledging P's SYN (which uses one number) [latex]\\rightarrow[/latex] <b>ACK number = X + 1</b><br>\n- FIN = 0<br><br>\n<b>Answer: SYN = 1, SEQ = Y, ACK = 1, ACK number = X+1, FIN = 0</b><br><br><a href=\"https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 7
+    },
+    {
+      "id": "2024-S2-Q22",
+      "source_id": 1124222,
+      "number": 6,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following fields of an IP header is/are always modified by any router before it forwards the IP packet?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Source IP Address",
+        "B": "Protocol",
+        "C": "Time to Live (TTL)",
+        "D": "Header Checksum"
+      },
+      "correct": [
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Every router decrements the <b>TTL</b>. Since a header field changed, the <b>header checksum</b> must be recomputed too.<br><br>\nSource IP and protocol are not changed by an ordinary router (source IP changes only with NAT, which is not \"any router\").<br><br>\n<b>Answer: TTL, Header Checksum</b><br><br><a href=\"https://gateoverflow.in/422875/gate-cse-2024-set-2-question-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 22
+    },
+    {
+      "id": "2010-Q16",
+      "source_id": 1110116,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is not a client server application?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Internet chat",
+        "B": "Web browsing",
+        "C": "E-mail",
+        "D": "Ping"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "Chat, web browsing and e-mail all have client and server programs. Ping just sends ICMP echo messages handled by the OS network stack, not by a server application.<br><br>\n<b>Answer: Ping</b><br><br><a href=\"https://gateoverflow.in/2189/gate2010-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 16
+    },
+    {
+      "id": "2026-S1-Q8",
+      "source_id": 1126108,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "With respect to a TCP connection between a client and a server, which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The client and server use a two-way handshake mechanism before the start of data transmission",
+        "B": "The server cannot initiate closing of the connection before the client initiates closing of the connection",
+        "C": "The TCP connection is half-duplex",
+        "D": "The client and server can initiate closing of the connection at the same time"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement about a TCP connection:<br><br>\r\n- TCP uses a <b>three-way</b> handshake (SYN, SYN-ACK, ACK), not a two-way handshake &mdash; false.<br>\r\n- Either side (client or server) is free to initiate connection termination first; the server is not required to wait for the client &mdash; false.<br>\r\n- TCP is a <b>full-duplex</b> protocol &mdash; data can flow in both directions simultaneously &mdash; so \"half-duplex\" is false.<br>\r\n- TCP supports <b>simultaneous close</b>: both client and server can send a FIN at (roughly) the same time, and each independently acknowledges the other's FIN. This is a valid connection-termination scenario in TCP's state machine.<br><br>\r\n<b>Answer: The client and server can initiate closing of the connection at the same time</b><br><br><a href=\"https://gateoverflow.in/523072/gate-cse-2026-set-1-question-8#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 8
+    },
+    {
+      "id": "2014-S3-Q25",
+      "source_id": 1114325,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Host A (on TCP/IP v4 network A) sends an IP datagram D to host B (also on TCP/IP V4\nnetwork B). Assume that no error occurred during the transmission of D. When D reaches B, which of the following IP header field(s) may be different from that of the original datagram D?<br>\n(i) TTL <br>(ii) Checksum <br> (iii) Fragment Offset",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) only",
+        "B": "(i) and (ii) only",
+        "C": "(ii) and (iii) only",
+        "D": "(i), (ii) and (iii)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Checking each statement:<br>- TTL is decremented at each router.<br>\n- Checksum is recomputed whenever the header changes.<br>\n- If a router fragments D, the fragments have new Fragment Offset values.<br><br>\nAll three may differ.<br><br>\n<b>Answer: (i), (ii) and (iii)</b><br><br><a href=\"https://gateoverflow.in/2059/gate2014-3-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 25
+    },
+    {
+      "id": "2012-Q23",
+      "source_id": 1112123,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the IPv4 addressing format, the number of networks allowed under Class C addresses is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]2^{14}[/latex]",
+        "B": "[latex]2^{7}[/latex]",
+        "C": "[latex]2^{21}[/latex]",
+        "D": "[latex]2^{24}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Class C: first 3 bits are fixed as 110, and the network part is 24 bits. Free network bits = 24 [latex]-[/latex] 3 = 21 [latex]\\rightarrow[/latex] [latex]2^{21}[/latex] networks.<br><br>\n<b>Answer: [latex]2^{21}[/latex]</b><br><br><a href=\"https://gateoverflow.in/1606/gate2012-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 23
+    },
+    {
+      "id": "2011-Q9",
+      "source_id": 1111109,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "HTML (Hyper Text Markup Language) has language elements which permit\ncertain actions other than describing the structure of the web document. Which\none of the following actions is NOT supported by pure HTML (without any server\nor client side scripting) pages?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Embed web objects from different sites into the same page",
+        "B": "Refresh the page automatically after a specified interval",
+        "C": "Automatically redirect to another page upon download",
+        "D": " Display the client time as part of the page"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "Pure HTML can embed objects (iframe, img) and refresh or redirect (meta refresh). The client's current time needs JavaScript (client-side scripting).<br><br>\n<b>Answer: Display the client time as part of the page</b><br><br><a href=\"https://gateoverflow.in/2111/gate2011-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 9
+    },
+    {
+      "id": "2021-S2-Q34",
+      "source_id": 1121234,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the cyclic redundancy check (CRC) based error detecting scheme having the generator polynomial [latex]X^3+X+1[/latex]. Suppose the message [latex]m_4m_3m_2m_1m_0=11000[/latex] is to be transmitted. Check bits [latex]c_2c_1c_0[/latex] are appended at the end of the message by the transmitter using the above CRC scheme. The transmitted bit string is denoted by [latex]m_4m_3m_2m_1m_0c_2c_1c_0[/latex]. The value of the checkbit sequence [latex]c_2c_1c_0[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "101",
+        "B": "110",
+        "C": "100",
+        "D": "111"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Generator [latex]x^3+x+1[/latex] = 1011. Append 3 zeros: 11000<b>000</b>, then divide (XOR):<br>\n- 1100 [latex]\\oplus[/latex] 1011 = 0111 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 1110<br>\n- 1110 [latex]\\oplus[/latex] 1011 = 0101 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 1010<br>\n- 1010 [latex]\\oplus[/latex] 1011 = 0001 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 0010 [latex]\\rightarrow[/latex] bring 0 [latex]\\rightarrow[/latex] 0100<br><br>\nRemainder = 100<br><br>\n<b>Answer: 100</b><br><br><a href=\"https://gateoverflow.in/357506/gate-cse-2021-set-2-question-34#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 34
+    },
+    {
+      "id": "2015-S2-Q27",
+      "source_id": 1115227,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Host A sends a UDP datagram containing 8880 bytes of user data to host B over an Ethernet LAN. Ethernet frames may carry data up to 1500 bytes (i.e. MTU=1500 bytes). Size of UDP header is 8 bytes and size of IP header is 20 bytes. There is no option field in IP header. How many total number of IP fragments will be transmitted and what will be the contents of offset field in the last fragment?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "6 and 925",
+        "B": "6 and 7400",
+        "C": "7 and 1110",
+        "D": "7 and 8880"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "IP payload = 8880 + 8 (UDP header) = 8888 bytes. Max data per fragment = 1500 [latex]-[/latex] 20 = 1480.<br><br>\n6 fragments carry 6 [latex]\\times[/latex] 1480 = 8880 bytes, and 8 bytes remain [latex]\\rightarrow[/latex] 7 fragments.<br><br>\nOffset of the last = 8880 / 8 = 1110<br><br>\n<b>Answer: 7 and 1110</b><br><br><a href=\"https://gateoverflow.in/8255/gate2015-2-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 27
+    },
+    {
+      "id": "2013-Q36",
+      "source_id": 1113136,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Determine the maximum length of the cable (in km) for transmitting data at a rate of 500 Mbps in\nan Ethernet LAN with frames of size 10,000 bits. Assume the signal speed in the cable to be\n2,00,000 km/s.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "2.5",
+        "D": "5"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Ethernet needs [latex]T_t\\ge2T_p[/latex]:<br>\n[latex]T_t=\\frac{10^4}{5\\times10^8}=20\\,\\mu s\\Rightarrow T_p\\le10\\,\\mu s[/latex]<br><br>\nLength = 200000 km/s [latex]\\times[/latex] 10 [latex]\\mu s[/latex] = 2 km<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/1547/gate2013-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 36
+    },
+    {
+      "id": "2016-S2-Q54",
+      "source_id": 1116254,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For the IEEE802.11 MAC protocol for wireless communication,which of the following\nstatements is/are TRUE?<br>\nI. At least three non-overlapping channels are available for transmissions.<br>\nII. The RTS-CTS mechan is misused for collision detection.<br>\nIII. Unicast frames are ACKed.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "All I,II,andIII",
+        "B": "I andIIIonly",
+        "C": "II andIIIonly",
+        "D": "II only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- I: 802.11 (2.4 GHz) has 3 non-overlapping channels (1, 6, 11) True<br>\n- II: RTS/CTS is for collision <b>avoidance</b> (hidden terminals); wireless stations cannot detect collisions False<br>\n- III: unicast frames are acknowledged True<br><br>\n<b>Answer: I and III only</b><br><br><a href=\"https://gateoverflow.in/39593/gate2016-2-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 54
+    },
+    {
+      "id": "2010-Q47",
+      "source_id": 1110147,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose computers A and B have IP addresses 10.105.1.113 and 10.105.1.91\nrespectively and they both use the same net mask N. Which of the values of N\ngiven below should not be used if A and B should belong to the same network?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "255.255.255.0",
+        "B": "255.255.255.128",
+        "C": "255.255.255.192",
+        "D": "255.255.255.224"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Last octets: 113 = 0111 0001, 91 = 0101 1011. They agree only in the first 2 bits.<br><br>\n- Masks .0, .128, .192 use at most the first 2 bits [latex]\\rightarrow[/latex] same network.<br>\n- .224 uses 3 bits: 011 vs 010 [latex]\\rightarrow[/latex] different networks.<br><br>\n<b>Answer: 255.255.255.224</b><br><br><a href=\"https://gateoverflow.in/2349/gate2010-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 47
+    },
+    {
+      "id": "2017-S1-Q45",
+      "source_id": 1117145,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The values of parameters for the Stop-and-Wait ARQ protocol are as given below:<br><br>\nBit rate of the transmission channel = 1Mbps <br>\nPropagation delay from sender to receiver = 0.75 ms <br>\nTime to process a frame = 0.25ms <br>\nNumber of bytes in the information frame =1980 <br>\nNumber of bytes in the acknowledge frame = 20          <br>                               Number of overhead bytes in the information frame = 20 <br><br>\nAssume that there are no transmission errors. Then the transmission efficiency ( expressed in\npercentage) of the Stop-and - Wait ARQ protocol for the above parameters is _________(\ncorrect to 2 decimal places)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        86.5,
+        89.5
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- Frame transmission: 1980 [latex]\\times[/latex] 8 / [latex]10^6[/latex] = 15.84 ms (useful data 1960 bytes = 15.68 ms)<br>\n- ACK transmission: 20 [latex]\\times[/latex] 8 / [latex]10^6[/latex] = 0.16 ms<br>\n- Propagation: 0.75 ms each way; processing 0.25 ms<br><br>\nCycle = 15.84 + 0.75 + 0.25 + 0.16 + 0.75 = 17.75 ms<br>\nEfficiency = 15.68 / 17.75 [latex]\\approx[/latex] 88.34%<br><br>\n<b>Answer: 88.34</b><br><br><a href=\"https://gateoverflow.in/118328/gate2017-1-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 45
+    },
+    {
+      "id": "2014-S2-Q26",
+      "source_id": 1114226,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the store and forward packet switched network given below. Assume that the\nbandwidth of each link is [latex]10^{6}[/latex] bytes / sec. A user on host A sends a file of size [latex]10^{3}[/latex] bytes to\nhost B through routers R1 and R2 in three different ways. In the first case a single packet\ncontaining the complete file is transmitted from A to B. In the second case, the file is split\ninto 10 equal parts, and these packets are transmitted from A to B. In the third case, the file is split into 20 equal parts and these packets are sent from A to B. Each packet contains 100\nbytes of header information along with the user data. Consider only transmission time and\nignore processing, queuing and propagation delays. Also assume that there are no errors\nduring transmission. Let T1, T2 and T3 be the times taken to transmit the file in the first,\nsecond and third case respectively. Which one of the following is CORRECT?<br><img src=\"/wp-content/uploads/GATE/CS/20142/q26.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20142/q26.jpg"
+      ],
+      "options": {
+        "A": "[latex]T1 \\lt T2 \\lt T3[/latex]",
+        "B": "[latex]T1 \\gt T2 \\gt T3[/latex]",
+        "C": "[latex]T2=T3, T3 \\lt T1[/latex]",
+        "D": "[latex]T1=T3, T3 \\gt T2[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Rate = [latex]10^6[/latex] B/s, so 1 byte takes 1 [latex]\\mu s[/latex]. There are 3 links (A[latex]\\rightarrow[/latex]R1[latex]\\rightarrow[/latex]R2[latex]\\rightarrow[/latex]B). With pipelining, time = (packets + 2) [latex]\\times[/latex] one-packet time.<br><br>\n- T1: 1 packet of 1000 + 100 = 1100 B [latex]\\rightarrow[/latex] 3 [latex]\\times[/latex] 1100 = 3300 [latex]\\mu s[/latex]<br>\n- T2: 10 packets of 100 + 100 = 200 B [latex]\\rightarrow[/latex] 12 [latex]\\times[/latex] 200 = 2400 [latex]\\mu s[/latex]<br>\n- T3: 20 packets of 50 + 100 = 150 B [latex]\\rightarrow[/latex] 22 [latex]\\times[/latex] 150 = 3300 [latex]\\mu s[/latex]<br><br>\n<b>Answer: T1 = T3, T3 [latex]\\gt[/latex] T2</b><br><br><a href=\"https://gateoverflow.in/1985/gate2014-2-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 26
+    },
+    {
+      "id": "2023-Q42",
+      "source_id": 1123142,
+      "number": 19,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose in a web browser, you click on the www.gate-2023.in URL. The browser\ncache is empty. The IP address for this URL is not cached in your local host, so\na DNS lookup is triggered (by the local DNS server deployed on your local host)\nover the 3-tier DNS hierarchy in an iterative mode. No resource records are cached\nanywhere across all DNS servers.<br>\nLet RTT denote the round trip time between your local host and DNS servers\nin the DNS hierarchy. The round trip time between the local host and the web\nserver hosting www.gate-2023.in is also equal to RTT. The HTML file associated\nwith the URL is small enough to have negligible transmission time and negligible\nrendering time by your web browser, which references 10 equally small objects on\nthe same web server.<br>\nWhich of the following statements is/are CORRECT about the minimum elapsed\ntime between clicking on the URL and your browser fully rendering it?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "7 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.",
+        "B": "5 RTTs, in case of persistent HTTP with pipelining.",
+        "C": "9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.",
+        "D": "6 RTTs, in case of persistent HTTP with pipelining."
+      },
+      "correct": [
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "DNS (iterative, 3 tiers: root, TLD, authoritative) = <b>3 RTT</b>.<br><br>\n<b>Non-persistent, 5 parallel connections:</b> base HTML = TCP setup + request = 2 RTT. The 10 objects go in 2 batches of 5, each batch 2 RTT (new connection each) = 4 RTT.<br>\nTotal = 3 + 2 + 4 = <b>9 RTT</b>.<br><br>\n<b>Persistent with pipelining:</b> TCP setup 1 RTT + HTML 1 RTT + all 10 objects pipelined in 1 RTT.<br>\nTotal = 3 + 1 + 1 + 1 = <b>6 RTT</b>.<br><br>\n<b>Answer: 9 RTTs (non-persistent, 5 parallel) and 6 RTTs (persistent with pipelining)</b><br><br><a href=\"https://gateoverflow.in/399269/gate-cse-2023-question-42#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 42
+    },
+    {
+      "id": "2024-S1-Q48",
+      "source_id": 1124148,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the entries shown below in the forwarding table of an [latex] \\mathbb{P} [/latex] router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation \"[latex] \\mathrm{/N} [/latex]\" in a prefix indicates a subnet mask with the most significant [latex] \\mathrm{N} [/latex] bits set to 1. <br><br> [latex]\n\\begin{array}{|l|c|}\n\\hline Prefix & Next\\;  hop \\; router \\\\\n\\hline  10.1 .1 .0 / 24  & R1 \\\\\n\\hline 10.1 .1 .128 / 25  & R2 \\\\\n\\hline  10.1 .1 .64 / 26 & R3 \\\\\n\\hline 10.1 .1 .192 / 26  & R4 \\\\\n\\hline\n\\end{array}[/latex]\n<br><br>\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205. The number of packets forwarded via the next hop router [latex] R 2 [/latex] is",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        40.0,
+        40.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Use longest prefix match. Address ranges (last byte):<br>\n/24 [latex]\\rightarrow[/latex] 0-255 (R1), .128/25 [latex]\\rightarrow[/latex] 128-255 (R2), .64/26 [latex]\\rightarrow[/latex] 64-127 (R3), .192/26 [latex]\\rightarrow[/latex] 192-255 (R4).<br><br>\n- 10.1.1.16 [latex]\\rightarrow[/latex] only /24 [latex]\\rightarrow[/latex] R1<br>\n- 10.1.1.72 [latex]\\rightarrow[/latex] /26 (64-127) [latex]\\rightarrow[/latex] R3<br>\n- 10.1.1.132 [latex]\\rightarrow[/latex] /25 [latex]\\rightarrow[/latex] <b>R2</b><br>\n- 10.1.1.191 [latex]\\rightarrow[/latex] /25 (not in 192-255) [latex]\\rightarrow[/latex] <b>R2</b><br>\n- 10.1.1.205 [latex]\\rightarrow[/latex] /26 (192-255) [latex]\\rightarrow[/latex] R4<br><br>\nR2 gets 2 hosts [latex]\\times[/latex] 20 packets [latex]=40[/latex].<br><br>\n<b>Answer: 40</b><br><br><a href=\"https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 48
+    },
+    {
+      "id": "2019-Q54",
+      "source_id": 1119154,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "In an RSA cryptosystem, the value of the public modulus parameter n is 3007. If it is also is known that [latex]\\phi(n)=2880[/latex], where [latex]\\phi()[/latex] denotes Euler's Totient Function, then the prime factors of n which is greater than 50 is _________ . ",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        97.0,
+        97.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "n = pq and [latex]\\phi(n)=(p-1)(q-1)=n-(p+q)+1[/latex].<br>\nSo [latex]p+q=3007-2880+1=128[/latex] and [latex]pq=3007[/latex].<br><br>\np, q are roots of [latex]t^2-128t+3007=0[/latex]: [latex]t=\\frac{128\\pm\\sqrt{16384-12028}}{2}=\\frac{128\\pm66}{2}[/latex] [latex]\\rightarrow[/latex] 97 and 31.<br><br>\n<b>Answer: 97</b><br><br><a href=\"https://gateoverflow.in/302794/gate2019-cs-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 54
+    },
+    {
+      "id": "2021-S1-Q29",
+      "source_id": 1121129,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Assume that a 12-bit Hamming codeword consisting of 8-bit data and 4 check bits is [latex]d_8d_7d_6d_5c_8d_4d_4d_3d_2c_4d_1c_2c_1[/latex], where the data bits and the check bits are given in the following tables:\n<br><img src=\"/wp-content/uploads/GATE/CS/20211/q29.jpg\" /><br>\nWhich one of the following choices gives the correct values of x and y?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20211/q29.jpg"
+      ],
+      "options": {
+        "A": "x is 0 and y is 0",
+        "B": "x is 0 and y is 1",
+        "C": "x is 1 and y is 0",
+        "D": "x is 1 and y is 1"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Positions: 1 c1, 2 c2, 3 d1, 4 c4, 5 d2, 6 d3, 7 d4, 8 c8, 9 d5, 10 d6, 11 d7, 12 d8 (even parity).<br>\n- c1 checks d1, d2, d4, d5, d7 = 1 + 0 + 0 + x + 1 = x. Given c1 = 0 [latex]\\rightarrow[/latex] <b>x = 0</b>.<br>\n- c8 checks d5, d6, d7, d8 = 0 + 0 + 1 + 1 = 0 [latex]\\rightarrow[/latex] <b>y = 0</b>.<br>\n(c2 and c4 also match: 1 and 0.)<br><br>\n<b>Answer: x is 0 and y is 0</b><br><br><a href=\"https://gateoverflow.in/357422/gate-cse-2021-set-1-question-29#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 29
+    },
+    {
+      "id": "2004-Q56",
+      "source_id": 1104156,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider three IP networks A, B and C. Host HA in network A sends messages each containing 180 bytes of application data to a host HC in network C. The TCP layer prefixes a 20 byte header to the message. This passes through an intermediate net?work B. The maximum packet size, including 20 byte IP header, in each network is  <br><br> A : 1000 bytes <br> B : 100 bytes <br> C : 1000 bytes <br><br> The network A and B are connected through a 1 Mbps link, while B and C are connected by a 512 Kbps link (bps = bits per second).  <br><img src=\"/wp-content/uploads/GATE/CS/20041/q56.jpg\"/> <br>  Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the IP layer at the destination for one application message, in the best case ? Consider only data packets.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q56.jpg"
+      ],
+      "options": {
+        "A": "200",
+        "B": "220",
+        "C": "240",
+        "D": "260"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/1052/gate2004-56#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 56
+    },
+    {
+      "id": "2022-Q50",
+      "source_id": 1122150,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the data transfer using TCP over a 1 Gbps link. Assuming that the maximum segment lifetime (MSL) is set to 60 seconds, the minimum number of bits required for the sequence number field of the TCP header, to prevent the sequence number space from wrapping around during the MSL is",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        33.0,
+        33.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "TCP numbers <b>bytes</b>. Bytes sent in one MSL:<br>\n[latex]\\frac{10^9\\times60}{8}=7.5\\times10^9[/latex] bytes<br><br>\nWe need [latex]2^k\\ge7.5\\times10^9[/latex]. [latex]2^{32}\\approx4.29\\times10^9[/latex] (too small), [latex]2^{33}\\approx8.59\\times10^9[/latex] (enough).<br><br>\n<b>Answer: 33</b><br><br><a href=\"https://gateoverflow.in/371886/Gate-cse-2022-question-50#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 50
+    },
+    {
+      "id": "2015-S2-Q26",
+      "source_id": 1115226,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following routing table at an IP router: <br><img src=\"/wp-content/uploads/GATE/CS/20152/q26.jpg\"/><br> For each IP address in Group I identify the correct choice of the next hop from Group II using the entries from the routing table above.<br><img src=\"/wp-content/uploads/GATE/CS/20152/q26a.jpg\"/>\n",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20152/q26.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20152/q26a.jpg"
+      ],
+      "options": {
+        "A": "i-a, ii-c, iii-e, iv-d",
+        "B": "i-a, ii-d, iii-b, iv-e",
+        "C": "i-b, ii-c, iii-d, iv-e",
+        "D": "i-b, ii-c, iii-e, iv-d"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "AND the address with each mask and look for the longest match:<br><br>\n- i) 171 AND 254 = 170 [latex]\\rightarrow[/latex] Interface 0 (a)<br>\n- ii) 167 AND 254 = 166 [latex]\\rightarrow[/latex] R2 (c)<br>\n- iii) 163: /23 gives 162, /22 gives 160, no match [latex]\\rightarrow[/latex] default R4 (e)<br>\n- iv) 165: /23 gives 164 (no /23 entry), /22 gives 164 [latex]\\rightarrow[/latex] R3 (d)<br><br>\n<b>Answer: i-a, ii-c, iii-e, iv-d</b><br><br><a href=\"https://gateoverflow.in/8213/gate2015-2-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 26
+    },
+    {
+      "id": "2016-S2-Q53",
+      "source_id": 1116253,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A network has a data transmission bandwidth of [latex]20 \\times 10^{6}[/latex] bits per second. It uses CSMA/CD in the MAClayer. The maximum signal propagation time from one node to another node is 40 microseconds. The minimum size of a frame in the network is  ______ bytes.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        200.0,
+        200.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "For CSMA/CD the frame must still be sending when news of a collision returns: [latex]T_t\\ge2T_p[/latex].<br><br>\nMin frame = [latex]2\\times40\\times10^{-6}\\times20\\times10^6=1600[/latex] bits = 200 bytes<br><br>\n<b>Answer: 200</b><br><br><a href=\"https://gateoverflow.in/39589/gate2016-2-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 53
+    },
+    {
+      "id": "2021-S2-Q45",
+      "source_id": 1121245,
+      "number": 27,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a computer network using the distance vector routing algorithm in its network layer. The partial topology of the network is shown below.<br><img src=\"/wp-content/uploads/GATE/CS/20212/q45.jpg\" /><br>\nThe objective is to find the shortest-cost path from the router R to routers P and Q. Assume that R does not initially know the shortest routes to P and Q. Assume that R has three neighboring routers denoted as X, Y and Z. During one iteration, R measures its distance to its neighbors X, Y, and Z as 3, 2 and 5, respectively. Router R gets routing vectors from its neighbors that indicate that the distance to router P from routers X, Y and Z are 7, 6 and 5, respectively. The routing vector also indicates that the distance to router Q from routers X, Y and Z are 4, 6 and 8 respectively. Which of the following statement(s) is/are correct with respect to the new routing table o R, after updation during this iteration?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q45.jpg"
+      ],
+      "options": {
+        "A": "The distance from R to P will be stored as 10",
+        "B": "The distance from R to Q will be stored as 7",
+        "C": "The next hop router for a packet from R to P is Y",
+        "D": "The next hop router for a packet from R to Q is Z"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Cost via each neighbour = (R to neighbour) + (neighbour's distance):<br>\n- To P: X 3 + 7 = 10, Y 2 + 6 = <b>8</b>, Z 5 + 5 = 10 [latex]\\rightarrow[/latex] 8 via Y<br>\n- To Q: X 3 + 4 = <b>7</b>, Y 2 + 6 = 8, Z 5 + 8 = 13 [latex]\\rightarrow[/latex] 7 via X<br><br>\nSo R-P is 8 via Y (not 10), and R-Q is 7 via X (not via Z).<br><br>\n<b>Answer: Distance to Q is 7; next hop to P is Y</b><br><br><a href=\"https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 45
+    },
+    {
+      "id": "2023-Q40",
+      "source_id": 1123140,
+      "number": 28,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose you are asked to design a new reliable byte-stream transport protocol\nlike TCP. This protocol, named myTCP, runs over a 100 Mbps network with Round\nTrip Time of 150 milliseconds and the maximum segment lifetime of 2 minutes.<br>\nWhich of the following is/are valid lengths of the Sequence Number field in the\nmyTCP header?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "30 bits",
+        "B": "32 bits",
+        "C": "34 bits",
+        "D": "36 bits"
+      },
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "The sequence numbers must not wrap around within one MSL. Bytes sent in 2 minutes:<br>\n[latex]\\frac{100\\times10^6}{8}\\times120=1.5\\times10^9[/latex] bytes<br><br>\n[latex]2^{30}\\approx1.07\\times10^9[/latex] (too small), [latex]2^{31}\\approx2.15\\times10^9[/latex] (enough). So the field needs at least 31 bits.<br><br>\n32, 34 and 36 bits are valid; 30 bits is not.<br><br>\n<b>Answer: 32 bits, 34 bits, 36 bits</b><br><br><a href=\"https://gateoverflow.in/399271/gate-cse-2023-question-40#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 40
+    },
+    {
+      "id": "2007-Q70",
+      "source_id": 1107170,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Match the following:\n<pre><code> (P) SMTP     (1) Application layer\n(Q) BGP      (2) Transport layer\n(R) TCP      (3) Data link layer\n(S) PPP      (4) Network layer\n             (5) Physical layer </pre></code>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P - 2 Q - 1 R - 3 S - 5",
+        "B": "P - 1 Q - 4 R - 2 S - 3",
+        "C": "P - 1 Q - 4 R - 2 S - 5",
+        "D": "P - 2 Q - 4 R - 1 S - 3"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "OSI Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1268/gate2007-70#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 70
+    },
+    {
+      "id": "2016-S2-Q55",
+      "source_id": 1116255,
+      "number": 30,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a [latex]128 \\times 10^{3}[/latex] bits/second satellite communication link with one way propagation delay of 150 milliseconds. Selective retransmission(repeat) protocol is used on this link to send data with a frame size of 1 kilobyte. Neglect the transmission time of acknowledgement. The minimum number of bits required for the sequence number field to achieve 100% utilization is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Frame = 1 KB = 8192 bits [latex]\\rightarrow[/latex] [latex]T_t=\\frac{8192}{128000}=64[/latex] ms. RTT = 300 ms.<br>\nFor 100% utilization the window must cover [latex]\\frac{64+300}{64}\\approx5.7[/latex] [latex]\\rightarrow[/latex] 6 frames.<br><br>\nSelective repeat needs window [latex]\\le2^{k-1}[/latex]: [latex]2^{k-1}\\ge6\\Rightarrow k=4[/latex].<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/39577/gate2016-2-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 55
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/gate-pyq/results.schema.json",
+  "title": "Mock test attempt result",
+  "type": "object",
+  "required": [
+    "attempt_id", "paper_id", "started_at", "ended_at",
+    "duration_sec", "total_marks", "score", "answers"
+  ],
+  "properties": {
+    "attempt_id": {
+      "type": "string",
+      "description": "Stable id for the attempt. Format: '<paper_id>_<yyyymmddThhmmssZ>'.",
+      "examples": ["2024-S1_20261106T083000Z"]
+    },
+    "paper_id": {
+      "type": "string",
+      "description": "Matches paper.paper_id ('2024-S1') or a topic mock's paper_id ('digital-logic-03').",
+      "pattern": "^(\\d{4}(-S[1-9])?|[a-z][a-z-]*-\\d{2})$"
+    },
+    "started_at": { "type": "string", "format": "date-time" },
+    "ended_at": { "type": "string", "format": "date-time" },
+    "duration_sec": {
+      "type": "integer",
+      "description": "Elapsed test time in seconds. At most 10800 (180 min) for a full paper and 5400 (90 min) for a topic mock.",
+      "minimum": 0
+    },
+    "submitted_early": { "type": "boolean" },
+    "total_marks": { "type": "integer" },
+    "score": {
+      "type": "number",
+      "description": "Raw GATE score before normalization: sum of marks_earned."
+    },
+    "score_breakdown": {
+      "type": "object",
+      "description": "Score aggregated by section.",
+      "properties": {
+        "general_aptitude": { "type": "number" },
+        "technical": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "answers": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/answer" }
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "answer": {
+      "type": "object",
+      "required": [
+        "question_id", "type", "response", "is_correct",
+        "marks_earned", "time_spent_sec", "marked_for_review", "visited"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "description": "Matches question.id from the paper JSON, e.g. '2024-S1-Q23'. Topic mocks use the question's original id."
+        },
+        "type": { "type": "string", "enum": ["MCQ", "MSQ", "NAT"] },
+        "response": {
+          "description": "User's answer. For MCQ: single letter. For MSQ: array of letters (may be empty). For NAT: number (as number, not string) or null when unanswered.",
+          "oneOf": [
+            { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+            {
+              "type": "array",
+              "items": { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+              "uniqueItems": true
+            },
+            { "type": "number" },
+            { "type": "null" }
+          ]
+        },
+        "is_correct": {
+          "type": ["boolean", "null"],
+          "description": "Null when unanswered."
+        },
+        "marks_earned": {
+          "type": "number",
+          "description": "Positive for correct, negative for wrong MCQ (negative marking), 0 otherwise."
+        },
+        "time_spent_sec": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Cumulative seconds spent with this question visible."
+        },
+        "marked_for_review": { "type": "boolean" },
+        "visited": {
+          "type": "boolean",
+          "description": "True if the user ever navigated to this question."
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

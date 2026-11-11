@@ -1,0 +1,824 @@
+{
+  "paper_id": "discrete-mathematics-07",
+  "paper": "Discrete Mathematics: Topic Mock 7",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 7,
+  "duration_min": 90,
+  "total_marks": 43,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2015-S2-Q1",
+      "source_id": 1115201,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following two statements.<br><br>\nS1: If a candidate is known to be corrupt, then he will not be elected <br>\nS2: If a candidate is kind, he will be elected <br><br>\nWhich one of the following statements follows from S1 and S2 as per sound inference rules of logic?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If a person is known to be corrupt, he is kind",
+        "B": "If a person is not known to be corrupt, he is not kind",
+        "C": "If a person is kind, he is not known to be corrupt",
+        "D": "If a person is not kind, he is not known to be corrupt"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Checking each statement:<br>- S1: corrupt [latex]\\rightarrow\\neg[/latex] elected, whose contrapositive is elected [latex]\\rightarrow\\neg[/latex] corrupt<br>\n- S2: kind [latex]\\rightarrow[/latex] elected<br><br>\nChaining: kind [latex]\\rightarrow[/latex] elected [latex]\\rightarrow\\neg[/latex] corrupt.<br><br>\n<b>Answer: If a person is kind, he is not known to be corrupt</b><br><br><a href=\"https://gateoverflow.in/8049/gate2015-2-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 1
+    },
+    {
+      "id": "2002-Q4",
+      "source_id": 1102104,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The minimum number of colours required to colour the vertices of a cycle with n\nnodes in such a way that no two adjacent nodes have same colour is.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "[latex]n-2[\\frac{n}{2}]+2[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/808/gate2002-1-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 4
+    },
+    {
+      "id": "2022-Q17",
+      "source_id": 1122117,
+      "number": 3,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following statements is/are TRUE for a group [latex]G[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If for all [latex]x,y \\in G, (xy)^2=x^2y^2[/latex], then [latex]G[/latex] is commutative.",
+        "B": "If for all [latex]x \\in G, x^2=1[/latex], then [latex]G[/latex] is commutative. Here, 1 is the identity element of [latex]G[/latex].",
+        "C": "If the order of [latex]G[/latex] is 2 , then [latex]G[/latex] is commutative.",
+        "D": "If [latex]G[/latex] is commutative, then a subgroup of [latex]G[/latex] need not be commutative."
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "Checking each statement:<br>- [latex](xy)^2=x^2y^2[/latex] means [latex]xyxy=xxyy[/latex]. Cancel x on the left and y on the right: [latex]yx=xy[/latex] [latex]\\text{---}[/latex] TRUE.<br>\n- [latex]x^2=1[/latex] means every element is its own inverse. Then [latex]xy=(xy)^{-1}=y^{-1}x^{-1}=yx[/latex] [latex]\\text{---}[/latex] TRUE.<br>\n- A group of order 2 is [latex]\\{1,a\\}[/latex], which is cyclic, hence commutative [latex]\\text{---}[/latex] TRUE.<br>\n- Every subgroup of a commutative group is commutative (same operation) [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: Options 1, 2 and 3</b><br><br><a href=\"https://gateoverflow.in/371919/Gate-cse-2022-question-17#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 17
+    },
+    {
+      "id": "1995-Q39",
+      "source_id": 1101439,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A bag contains 10 white balls and 15 black balls. Two balls are drawn in succession. The probability that one of them is black and the other is white is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{2}{3}[/latex]",
+        "B": "[latex]\\frac{4}{5}[/latex]",
+        "C": "[latex]\\frac{1}{2}[/latex]",
+        "D": "[latex]\\frac{1}{3}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2626/gate1995-2-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 39
+    },
+    {
+      "id": "1993-Q22",
+      "source_id": 1101222,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let S be an infinite set and [latex]S_1 \\dots , S_n[/latex] be sets such that [latex]S_1 \\cup S_2 \\cup \\dots \\cup S_n = S[/latex]. Then\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "at least one of the set [latex]S_i[/latex] is a finite set",
+        "B": "not more than one of the set [latex]S_i[/latex] can be finite",
+        "C": "at least one of the sets [latex]S_i[/latex] is an infinite",
+        "D": "not more than one of the sets [latex]S_i[/latex] can be infinite",
+        "E": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2301/gate1993-8-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1993",
+      "source_number": 22
+    },
+    {
+      "id": "1996-Q32",
+      "source_id": 1101532,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The probability that top and bottom cards of a randomly shuffled deck are both aces is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{4}{52} \\times \\frac{4}{52}[/latex]",
+        "B": "[latex]\\frac{4}{52} \\times \\frac{3}{52}[/latex]",
+        "C": "[latex]\\frac{4}{52} \\times \\frac{3}{51}[/latex]",
+        "D": "[latex]\\frac{4}{52} \\times \\frac{4}{51}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2736/gate1996-2-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 32
+    },
+    {
+      "id": "2016-S1-Q1",
+      "source_id": 1116101,
+      "number": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let p,q, r, s represent the following propositions.<br><br>\np:  x[latex]\\in[/latex]{8,9,10,11,12} <br>\nq:  x is a composite number <br>\nr:  x is a perfect square <br>\ns:  x is a prime number <br><br>\nThe integer x[latex]\\geq[/latex]2 which satisfies [latex]\\neg((p\\Rightarrow q)\\wedge (\\neg r \\vee \\neg s))[/latex] is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        11.0,
+        11.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex]\\neg((p\\Rightarrow q)\\wedge(\\neg r\\vee\\neg s))\\equiv(p\\wedge\\neg q)\\vee(r\\wedge s)[/latex]<br><br>\n- [latex]r\\wedge s[/latex] (perfect square and prime) is impossible.<br>\n- So we need [latex]p\\wedge\\neg q[/latex]: x in {8, 9, 10, 11, 12} and <b>not composite</b>. Only 11 qualifies.<br><br>\n<b>Answer: 11</b><br><br><a href=\"https://gateoverflow.in/39663/gate2016-1-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 1
+    },
+    {
+      "id": "2024-S2-Q24",
+      "source_id": 1124224,
+      "number": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex] P [/latex] be the partial order defined on the set [latex] \\{1,2,3,4\\} [/latex] as follows\n<br> [latex]\nP=\\{(x, x) \\mid x \\in\\{1,2,3,4\\}\\} \\cup\\{(1,2),(3,2),(3,4)\\}\n [/latex] <br>\nThe number of total orders on [latex] \\{1,2,3,4\\} [/latex] that contain [latex] P [/latex] is ______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "A total order containing P must keep [latex]1 \\lt 2,\\ 3 \\lt 2,\\ 3 \\lt 4[/latex]. Count such orderings (linear extensions).<br><br>\nThe first element must be 1 or 3 (nothing must come before them).<br>\n- Start with 1: next must be 3 (both 2 and 4 need 3 first), then 2, 4 in any order [latex]\\rightarrow[/latex] 1324, 1342 (2 orders).<br>\n- Start with 3: arrange 1, 2, 4 with 1 before 2 [latex]\\rightarrow[/latex] 3124, 3142, 3412 (3 orders).<br><br>\nTotal = 5<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/422873/gate-cse-2024-set-2-question-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 24
+    },
+    {
+      "id": "1996-Q27",
+      "source_id": 1101527,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let R be a non-empty relation on a collection of sets defined by [latex]_{A}R_ B[/latex] if and only if [latex]A \\cap B = \\phi[/latex]. Then, (pick the true statement)\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A is reflexive and transitive",
+        "B": "R is symmetric and not transitive",
+        "C": "R is an equivalence relation",
+        "D": "R is not reflexive and not symmetric"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/2731/gate1996-2-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 27
+    },
+    {
+      "id": "2024-S1-Q1",
+      "source_id": 1124101,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R} [/latex] be a function such that [latex]f(x)=\\max \\left\\{x, x^3\\right\\}, x \\in \\mathbb{R} [/latex], where [latex]\\mathbb{R} [/latex] is the set of all real numbers. The set of all points where [latex]f(x) [/latex] is NOT differentiable is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]-1,1,2 [/latex]",
+        "B": "[latex]-2,-1,1 [/latex]",
+        "C": "[latex]0,1 [/latex]",
+        "D": "[latex]-1,0,1[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "Compare [latex]x[/latex] and [latex]x^3[/latex]: they are equal at [latex]x=-1,0,1[/latex]. So\n[latex]f(x)=x[/latex] for [latex]x\\le -1[/latex], [latex]x^3[/latex] on [latex][-1,0][/latex], [latex]x[/latex] on [latex][0,1][/latex], [latex]x^3[/latex] for [latex]x\\ge1[/latex].<br><br>\nAt every switching point the two pieces have different slopes ([latex]\\frac{d}{dx}x=1[/latex], [latex]\\frac{d}{dx}x^3=3x^2[/latex]):<br>\n- [latex]x=-1[/latex]: slopes [latex]1[/latex] and [latex]3[/latex] [latex]\\rightarrow[/latex] corner<br>\n- [latex]x=0[/latex]: slopes [latex]0[/latex] and [latex]1[/latex] [latex]\\rightarrow[/latex] corner<br>\n- [latex]x=1[/latex]: slopes [latex]1[/latex] and [latex]3[/latex] [latex]\\rightarrow[/latex] corner<br><br>\nEverywhere else [latex]f[/latex] is a polynomial, hence differentiable.<br><br>\n<b>Answer: [latex]\\{-1,0,1\\}[/latex]</b><br><br><a href=\"https://gateoverflow.in/422841/gate-cse-2024-set-1-question-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 1
+    },
+    {
+      "id": "2010-Q4",
+      "source_id": 1110104,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the set S = {1, [latex]\\omega ,\\omega ^{2}[/latex]}, where [latex]\\omega[/latex] and [latex]\\omega ^{2}[/latex] are cube roots of unity. If * denotes the multiplication operation, the structure (S, *) forms",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A group",
+        "B": "A ring",
+        "C": "An integral domain",
+        "D": "A field"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "Under multiplication:<br>\n- Closed: [latex]\\omega\\cdot\\omega^2=\\omega^3=1[/latex], [latex]\\omega^2\\cdot\\omega^2=\\omega[/latex], ...<br>\n- Identity 1, inverses: [latex]\\omega^{-1}=\\omega^2[/latex]<br><br>\nSo it is a group. It is not a ring/field, because it is not closed under addition ([latex]1+\\omega\\notin S[/latex]).<br><br>\n<b>Answer: A group</b><br><br><a href=\"https://gateoverflow.in/1150/gate2010-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 4
+    },
+    {
+      "id": "2009-Q4",
+      "source_id": 1109104,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the binary relation R = {(x,y), (x,z), (z,x), (z,y)} on the set {x,y,z}.\nWhich one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R is symmetric but NOT antisymmetric",
+        "B": "R is NOT symmetric but antisymmetric",
+        "C": "R is both symmetric and antisymmetric",
+        "D": "R is neither symmetric nor antisymmetric"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/797/gate2009-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 4
+    },
+    {
+      "id": "2021-S1-Q16",
+      "source_id": 1121116,
+      "number": 13,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "In an undirected connected planar graph G, there are eight vertices and five faces. The number of edges in G is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        11.0,
+        11.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Planar Graph",
+      "explanation": "Euler's formula for a connected planar graph: V [latex]-[/latex] E + F = 2.<br><br>\n8 [latex]-[/latex] E + 5 = 2 [latex]\\rightarrow[/latex] E = 11<br><br>\n<b>Answer: 11</b><br><br><a href=\"https://gateoverflow.in/357435/gate-cse-2021-set-1-question-16#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 16
+    },
+    {
+      "id": "2022-Q20",
+      "source_id": 1122120,
+      "number": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a simple undirected graph of 10 vertices. If the graph is disconnected, then the maximum number of edges it can have is .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        36.0,
+        36.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "A disconnected graph has at least two components. To keep as many edges as possible, make one component [latex]K_9[/latex] and leave 1 vertex isolated.<br><br>\nEdges [latex]=\\binom{9}{2}=36[/latex] (in general [latex]\\binom{n-1}{2}[/latex]).<br><br>\n<b>Answer: 36</b><br><br><a href=\"https://gateoverflow.in/371916/Gate-cse-2022-question-20#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 20
+    },
+    {
+      "id": "2016-S2-Q5",
+      "source_id": 1116205,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Suppose that a shop has an equal number of LED bulbs of two different types. The probability of an LED bulb lasting more than 100 hours given that it is of Type 1 is 0.7, and given that it is of Type 2 is 0.4. The probability that an LED bulb chosen uniformly at random lasts more than 100 hours is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.55,
+        0.55
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Both types are equally likely (0.5 each). Total probability:<br>\n[latex]P=0.5\\times0.7+0.5\\times0.4=0.35+0.2=0.55[/latex]<br><br>\n<b>Answer: 0.55</b><br><br><a href=\"https://gateoverflow.in/39541/gate2016-2-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 5
+    },
+    {
+      "id": "1998-Q23",
+      "source_id": 1101723,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "How many sub strings of different lengths (non-zero) can be formed from a character string of length n?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n",
+        "B": "[latex]n^2[/latex]",
+        "C": "[latex]2^n[/latex]",
+        "D": "[latex]\\frac{n(n+1)}{2}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/1660/gate1998-1-23\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 23
+    },
+    {
+      "id": "2026-S2-Q1",
+      "source_id": 1126201,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For two different persons [latex]x[/latex] and [latex]y[/latex], the predicate [latex]M(x, y)[/latex] denotes that [latex]x[/latex] knows [latex]y[/latex]. <br>Consider the following statement.<br><br><i>There is a person who does not know anyone else, but that person is known by everyone else.</i> <br><br>Which one of the following expressions represents the above statement?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](\\exists y)(\\forall x)((x \\neq y) \\rightarrow(M(x, y) \\wedge \\neg M(y, x)))[/latex]",
+        "B": "[latex](\\forall y)(\\exists x)((x \\neq y) \\rightarrow(M(x, y) \\wedge \\neg M(y, x)))[/latex]",
+        "C": "[latex](\\exists y)(\\exists x)((x \\neq y) \\rightarrow(M(x, y) \\wedge \\neg M(y, x)))[/latex]",
+        "D": "[latex](\\forall y)(\\forall x)((x \\neq y) \\rightarrow(M(x, y) \\wedge \\neg M(y, x)))[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "We need to translate: \"There is a person [latex]y[/latex] such that [latex]y[/latex] doesn't know anyone else, but everyone else knows [latex]y[/latex].\"<br><br>\n- \"There is a person [latex]y[/latex]\" &rarr; [latex](\\exists y)[/latex].<br>\n- \"for every other person [latex]x[/latex] ([latex]x\\ne y[/latex])\" &rarr; [latex](\\forall x)(x\\ne y\\rightarrow\\ldots)[/latex].<br>\n- \"[latex]x[/latex] knows [latex]y[/latex]\" (everyone else knows this person) &rarr; [latex]M(x,y)[/latex].<br>\n- \"[latex]y[/latex] does not know [latex]x[/latex]\" (this person doesn't know anyone else) &rarr; [latex]\\neg M(y,x)[/latex].<br><br>\nCombining: [latex](\\exists y)(\\forall x)\\big((x\\ne y)\\rightarrow(M(x,y)\\wedge\\neg M(y,x))\\big)[/latex] &mdash; there exists such a special person [latex]y[/latex], and for every other person [latex]x[/latex], [latex]x[/latex] knows [latex]y[/latex] but [latex]y[/latex] does not know [latex]x[/latex].<br><br>\nThe other options either use [latex]\\forall y[/latex] (wrongly requiring <i>every</i> person to have this property, instead of just one special person), or use [latex]\\exists x[/latex] (existentially quantifying [latex]x[/latex] instead of requiring it for <i>every</i> other person), which don't match the intended meaning.<br><br>\n<b>Answer: [latex](\\exists y)(\\forall x)\\left((x\\neq y)\\rightarrow(M(x,y)\\wedge\\neg M(y,x))\\right)[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523146/gate-cse-2026-set-2-question-1#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 1
+    },
+    {
+      "id": "2026-S1-Q47",
+      "source_id": 1126147,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]G[/latex] be an undirected graph, which is a path on [latex]8[/latex] vertices. The number of matchings in [latex]G[/latex] is ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        34.0,
+        34.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Let [latex]f(k)[/latex] denote the number of matchings (including the empty matching) in a path graph with [latex]k[/latex] edges. Considering the last edge of the path: either it is <b>not</b> used in the matching (leaving [latex]f(k-1)[/latex] choices for the rest), or it <b>is</b> used (which forbids the adjacent edge, leaving [latex]f(k-2)[/latex] choices for the rest). This gives the Fibonacci-like recurrence:<br>\n[latex]f(k)=f(k-1)+f(k-2)[/latex], with [latex]f(0)=1[/latex] (no edges: only the empty matching) and [latex]f(1)=2[/latex] (one edge: either included or not).<br><br>\n[latex]f(2)=3,\\ f(3)=5,\\ f(4)=8,\\ f(5)=13,\\ f(6)=21,\\ f(7)=34[/latex].<br><br>\nA path on [latex]8[/latex] vertices has [latex]7[/latex] edges, so the number of matchings is [latex]f(7)=34[/latex].<br><br>\n<b>Answer: 34</b> <br><br> <a href=\"https://gateoverflow.in/523033/gate-cse-2026-set-1-question-47#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 47
+    },
+    {
+      "id": "2003-Q32",
+      "source_id": 1103132,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which of the following is a valid first order formula?\n(Here [latex]\\alpha [/latex]\n and [latex]\\beta[/latex]\n are first order formulae with x as their only free variable)<br><img src=\"/wp-content/uploads/GATE/CS/20031/q32.jpg\"/>  ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q32.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/922/gate2003-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 32
+    },
+    {
+      "id": "2006-Q21",
+      "source_id": 1106121,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For each element in set of size 2n, an unbiased coin is tossed. The 2n coin tossed\nare independent. An element is chosen if the corresponding coin toss were head.\nThe probability that exactly n elements are chosen is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{\\binom{2n}{n}}{4^{n}}[/latex]",
+        "B": "[latex]\\frac{\\binom{2n}{n}}{2^{n}}[/latex]",
+        "C": "[latex]\\frac{1}{\\binom{2n}{n}}[/latex]",
+        "D": "[latex]\\frac{1}{2}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/982/gate2006-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 21
+    },
+    {
+      "id": "2025-S1-Q48",
+      "source_id": 1125148,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a probability distribution given by the density function [latex] P(x) [/latex].  \n<br><br>\n[latex] P(x) = \n\\begin{cases} \nCx^2, &\\text{for   } 1 \\leq x \\leq 4 \\\\\n0, &   \\text{for   }x < 1 \\text{ or } x > 4\n\\end{cases}[/latex]\n<br><br>\nThe probability that [latex] x [/latex] lies between 2 and 3, i.e., [latex] P(2 \\leq x \\leq 3) [/latex] is _________. (rounded off to three decimal places)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.3,
+        0.302
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "First find [latex]C[/latex] using the normalization condition [latex]\\int_1^4Cx^2\\,dx=1[/latex]:<br>\n[latex]C\\left[\\dfrac{x^3}{3}\\right]_1^4=C\\cdot\\dfrac{64-1}{3}=21C=1\\ \\Rightarrow\\ C=\\dfrac1{21}[/latex]<br><br>\n[latex]P(2\\le x\\le3)=\\displaystyle\\int_2^3\\dfrac{x^2}{21}\\,dx=\\dfrac1{21}\\left[\\dfrac{x^3}3\\right]_2^3=\\dfrac1{21}\\cdot\\dfrac{27-8}3=\\dfrac1{21}\\cdot\\dfrac{19}3=\\dfrac{19}{63}\\approx0.302[/latex]<br><br>\n<b>Answer: 0.302</b><br><br><a href=\"https://gateoverflow.in/460032/gate-cse-2025-set-1-question-48#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 48
+    },
+    {
+      "id": "2024-S2-Q53",
+      "source_id": 1124253,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex] Z_n [/latex] be the group of integers [latex] \\{0,1,2, \\ldots, n-1\\} [/latex] with addition modulo [latex] n [/latex] as the group operation. The number of elements in the group [latex] Z_2 \\times Z_3 \\times Z_4 [/latex] that are their own inverses is",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "[latex](a,b,c)[/latex] is its own inverse iff [latex]2a\\equiv0\\ (\\text{mod }2)[/latex], [latex]2b\\equiv0\\ (\\text{mod }3)[/latex], [latex]2c\\equiv0\\ (\\text{mod }4)[/latex].<br><br>\n- [latex]Z_2[/latex]: a = 0, 1 [latex]\\rightarrow[/latex] 2 choices<br>\n- [latex]Z_3[/latex]: b = 0 only [latex]\\rightarrow[/latex] 1 choice<br>\n- [latex]Z_4[/latex]: c = 0, 2 [latex]\\rightarrow[/latex] 2 choices<br><br>\nTotal [latex]=2\\times1\\times2=4[/latex]<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/422844/gate-cse-2024-set-2-question-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 53
+    },
+    {
+      "id": "2025-S2-Q32",
+      "source_id": 1125232,
+      "number": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]\\mathcal{F} [/latex] be the set of all functions from [latex]\\{1, \\dots, n\\} [/latex] to [latex]\\{0,1\\} [/latex]. Define the binary relation [latex]\\preceq [/latex] on [latex]\\mathcal{F} [/latex] as follows:<br>\n[latex]\n\\forall f, g \\in \\mathcal{F}, \\, f \\preceq g \\quad \\text{if and only if} \\quad \\forall x \\in \\{1, \\dots, n\\}, f(x) \\leq g(x), \\text{ where } 0 \\leq 1.\n[/latex]<br>\nWhich of the following statement(s) is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\preceq [/latex] is a symmetric relation",
+        "B": "[latex](\\mathcal{F}, \\preceq) [/latex] is a partial order",
+        "C": "[latex](\\mathcal{F}, \\preceq) [/latex] is a lattice",
+        "D": "[latex]\\preceq [/latex] is an equivalence relation"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "[latex]f\\preceq g[/latex] iff [latex]f(x)\\le g(x)[/latex] for every [latex]x[/latex] &mdash; this is the standard pointwise \"less than or equal to\" ordering on binary functions.<br><br>\n- <b>Reflexive:</b> [latex]f(x)\\le f(x)[/latex] always. <b>Antisymmetric:</b> if [latex]f\\preceq g[/latex] and [latex]g\\preceq f[/latex], then [latex]f(x)=g(x)[/latex] for all [latex]x[/latex], so [latex]f=g[/latex]. <b>Transitive:</b> chains through in the obvious way. So [latex]\\preceq[/latex] is a genuine <b>partial order</b> (not symmetric, and not an equivalence relation, since e.g. [latex]f\\preceq g[/latex] doesn't imply [latex]g\\preceq f[/latex] unless [latex]f=g[/latex]).<br><br>\n- <b>Lattice:</b> for any two functions [latex]f,g[/latex], their pointwise <b>max</b> (taking [latex]\\max(f(x),g(x))[/latex] at every [latex]x[/latex]) is their least upper bound, and their pointwise <b>min</b> is their greatest lower bound &mdash; both always exist within [latex]\\mathcal F[/latex]. So [latex](\\mathcal F,\\preceq)[/latex] is indeed a <b>lattice</b>.<br><br>\n<b>Answer: (F,&preceq;) is a partial order; and (F,&preceq;) is a lattice.</b><br><br><a href=\"https://gateoverflow.in/460803/gate-cse-2025-set-2-question-32#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 32
+    },
+    {
+      "id": "2006-Q71",
+      "source_id": 1106171,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The [latex]2^{n}[/latex] vertices of graph G correspond to all subsets of a set of size n, for [latex]n\\geq 6[/latex]. Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br> <br> The number of vertices of degree zero in G is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "n",
+        "C": "n+1",
+        "D": "[latex]2^{n}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1850/gate2006-71#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 71
+    },
+    {
+      "id": "2021-S1-Q35",
+      "source_id": 1121135,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the two statements.\n<br><br>\nS1: There exist random variables [latex]X[/latex] and [latex]Y[/latex] such that [latex]\\left(\\mathbb E[(X-\\mathbb E(X))(Y-\\mathbb E(Y))]\\right)^2 > \\textsf{Var}[X]\\textsf{Var}[Y][/latex]<br>\nS2: For all random variables [latex]X[/latex] and [latex]Y[/latex], [latex]\\textsf{Cov}[X,Y]=\\mathbb E \\left[|X-\\mathbb E[X]||Y-\\mathbb E[Y]|\\right ][/latex]<br><br>\nWhich one of the following choices is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both S1 and S2 are true.",
+        "B": "S1 is true, but S2 is false.",
+        "C": "S1 is false, but S2 is true.",
+        "D": "Both S1 and S2 are false."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Checking each statement:<br>- S1: the left side is [latex]Cov(X,Y)^2[/latex]. By Cauchy-Schwarz, [latex]Cov(X,Y)^2\\le Var(X)Var(Y)[/latex] always, so S1 is FALSE.<br>\n- S2: the right side is always [latex]\\ge0[/latex], but covariance can be negative (e.g. Y = [latex]-[/latex]X) [latex]\\rightarrow[/latex] FALSE.<br><br>\n<b>Answer: Both S1 and S2 are false</b><br><br><a href=\"https://gateoverflow.in/357416/gate-cse-2021-set-1-question-35#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 35
+    },
+    {
+      "id": "2003-Q33",
+      "source_id": 1103133,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following formula [latex]\\alpha[/latex]\r\n and its two interpretations [latex]I_{1} \\; and \\; I_{2}[/latex]  <br><br> [latex]\\alpha :(\\forall x)[P_{x}\\leftrightarrow (\\forall y)[Q_{xy}\\leftrightarrow \\neg Q_{yy}]]\\rightarrow (\\forall x)[\\neg P_{x}][/latex] <br><br>I1: Domain : the set of natural numbers<br>\r\n[latex]P_{x}\\equiv x[/latex] is a prime number <br>\r\n[latex]Q_{xy}\\equiv y[/latex]  divides x <br><br>\r\nI2; same as I1 except that [latex]P_{x}\\equiv x[/latex] is a composite number. <br><br>\r\nWhich of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I1 satisfies [latex]\\alpha[/latex]\r\n , I2 does not",
+        "B": "I2 satisfies [latex]\\alpha[/latex]\r\n,I1 does not",
+        "C": "Neither I2 nor I2 satisfies [latex]\\alpha[/latex]\r\n",
+        "D": "Both I1 and I2 satisfy [latex]\\alpha[/latex]\r\n"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/923/gate2003-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 33
+    },
+    {
+      "id": "2014-S1-Q50",
+      "source_id": 1114150,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let S denote the set of all functions f:[latex]{\\{0,1\\}}^{4} \\rightarrow \\{0,1\\}[/latex]. Denote by N the number of functions from S to the set {0,1}. The value of  [latex]log_{2} log_{2}N[/latex] is______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        16.0,
+        16.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "[latex]|\\{0,1\\}^4|=16[/latex], so [latex]|S|=2^{16}[/latex]. Functions from S to {0, 1}: [latex]N=2^{2^{16}}[/latex].<br><br>\n[latex]\\log_2\\log_2N=\\log_2 2^{16}=16[/latex]<br><br>\n<b>Answer: 16</b><br><br><a href=\"https://gateoverflow.in/1930/gate2014-1-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 50
+    },
+    {
+      "id": "2023-Q41",
+      "source_id": 1123141,
+      "number": 28,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]X[/latex] be a set and [latex]2^X[/latex] denote the powerset of [latex]X[/latex].<br>\nDefine a binary operation [latex] \\Delta [/latex] on [latex]2^X[/latex] as follows:<br>[latex]A  \\Delta B=(A-B) \\cup (B-A)[/latex] <br>Let [latex] H=(2^X,\\Delta ) [/latex]. Which of the following statements about [latex]H[/latex] is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]H[/latex] is a group.",
+        "B": "Every element in [latex]H[/latex] has an inverse, but [latex]H[/latex] is NOT a group.",
+        "C": "For every [latex]A \\in 2^X[/latex], the inverse of [latex]A[/latex] is the complement of [latex]A[/latex].",
+        "D": "For every [latex]A \\in 2^X[/latex], the inverse of [latex]A[/latex] is [latex]A[/latex]."
+      },
+      "correct": [
+        "A",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Check the group properties of symmetric difference on [latex]2^X[/latex]:<br>\n- Closed: [latex]A\\Delta B\\subseteq X[/latex]<br>\n- Associative: yes (it behaves like XOR on membership)<br>\n- Identity: [latex]\\phi[/latex], since [latex]A\\Delta\\phi=A[/latex]<br>\n- Inverse: [latex]A\\Delta A=\\phi[/latex], so every A is <b>its own inverse</b> (not its complement: [latex]A\\Delta A^c=X[/latex])<br><br>\n<b>Answer: H is a group; the inverse of A is A</b><br><br><a href=\"https://gateoverflow.in/399270/gate-cse-2023-question-41#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 41
+    },
+    {
+      "id": "2006-Q31",
+      "source_id": 1106131,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let SHAM3 be the problem of finding a Hamiltonian cycle in a graph G=(V,E) with |V| divisible by 3 and DHAM3 be the problem of determining if a Hamltonian cycle exists in such graphs. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both DHAM3 and SHAM3 are NP-hard",
+        "B": "SHAM3 is NP-hard, but DHAM3 is not",
+        "C": "DHAM3 is NP-hard, but SHAM3 is not",
+        "D": "Neither DHAM3 nor SHAM3 is NP-hard"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/994/gate2006-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 31
+    },
+    {
+      "id": "2005-Q44",
+      "source_id": 1105144,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What is the minimum number of ordered pairs of non-negative numbers that should be chosen to\nensure that there are two pairs (a,b) and (c,d) in the chosen set such that <br>\na [latex]\\equiv[/latex] c mod 3 and b [latex]\\equiv[/latex] d mod 5 <br>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "16",
+        "D": "24"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/1170/gate2005-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 44
+    }
+  ]
+}

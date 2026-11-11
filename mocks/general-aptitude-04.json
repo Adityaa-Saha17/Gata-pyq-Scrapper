@@ -1,0 +1,863 @@
+{
+  "paper_id": "general-aptitude-04",
+  "paper": "General Aptitude: Topic Mock 4",
+  "kind": "topic_mock",
+  "topic": "General Aptitude",
+  "set": 4,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2011-Q57",
+      "source_id": 1111157,
+      "number": 1,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]\\log (\\text{P}) = (1/2)\\log (\\text{Q}) = (1/3)\\log (\\text{R})[/latex], then which of the following options is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\text{P}^2 = \\text{Q}^3\\text{R}^2[/latex]",
+        "B": "[latex]\\text{Q}^2 = \\text{PR}[/latex]",
+        "C": "[latex]\\text{Q}^2 = \\text{R}^3\\text{P}[/latex]",
+        "D": "[latex]\\text{R} = \\text{P}^2\\text{Q}^2[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let log P = k. Then log Q = 2k and log R = 3k.<br><br>\nlog(Q[latex]^2[/latex]) = 4k and log(PR) = k + 3k = 4k [latex]\\rightarrow[/latex] Q[latex]^2[/latex] = PR<br><br>\n<b>Answer: Q[latex]^2[/latex] = PR</b><br><br><a href=\"https://gateoverflow.in/2166/gate-cse-2011-question-57#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 57
+    },
+    {
+      "id": "2018-Q58",
+      "source_id": 1118158,
+      "number": 2,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The area of a square is [latex]d[/latex]. What is the area of the circle which has the diagonal of the square as its diameter?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\pi d[/latex]",
+        "B": "[latex]\\pi d^2[/latex]",
+        "C": "[latex]\\frac{1}{4} \\pi d^2[/latex]",
+        "D": "[latex]\\frac{1}{2} \\pi d[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Side s with [latex]s^2=d[/latex]. Diagonal = [latex]s\\sqrt2[/latex], so the circle's radius is [latex]\\frac{s}{\\sqrt2}[/latex].<br>\nArea = [latex]\\pi\\frac{s^2}{2}=\\frac12\\pi d[/latex]<br><br>\n<b>Answer: [latex]\\frac12\\pi d[/latex]</b><br><br><a href=\"https://gateoverflow.in/204064/gate-cse-2018-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 58
+    },
+    {
+      "id": "2022-Q58",
+      "source_id": 1122158,
+      "number": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]r[/latex] be a root of the equation [latex]x^2+2x+6=0[/latex]<br>\nThen the value of the expression  [latex](r+2)(r+3)(r+4)(r+5)[/latex] is\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]51[/latex]",
+        "B": "[latex]-51[/latex]",
+        "C": "[latex]126[/latex]",
+        "D": "[latex]-126[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Pair the factors: [latex](r+2)(r+5)=r^2+7r+10[/latex] and [latex](r+3)(r+4)=r^2+7r+12[/latex].<br><br>\nFrom [latex]r^2=-2r-6[/latex]: these become [latex]5r+4[/latex] and [latex]5r+6[/latex].<br><br>\n[latex](5r+4)(5r+6)=25r^2+50r+24=25(r^2+2r)+24=25(-6)+24=-126[/latex]<br><br>\n<b>Answer: -126</b><br><br><a href=\"https://gateoverflow.in/371503/Gate-cse-2022-question-3#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 58
+    },
+    {
+      "id": "2022-Q59",
+      "source_id": 1122159,
+      "number": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Given below are four statements. <br><br>Statement 1: All students are inquisitive. <br>Statement 2: Some students are inquisitive. <br>Statement 3: No student is inquisitive.\n<br>Statement 4: Some students are not inquisitive.\n<br><br>\nFrom the given four statements, find the two statements that CANNOT BE TRUE simultaneously, assuming that there is at least one student in the class.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Statement 1 and Statement 3",
+        "B": "Statement 1 and Statement 2",
+        "C": "Statement 2 and Statement 4",
+        "D": "Statement 3 and Statement 4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"All students are inquisitive\" and \"No student is inquisitive\" directly contradict each other (there is at least one student), so they can never both be true.<br><br>\nEvery other pair can hold together (e.g. statements 2 and 4 hold when some are and some are not inquisitive).<br><br>\n<b>Answer: Statement 1 and Statement 3</b><br><br><a href=\"https://gateoverflow.in/371502/Gate-cse-2022-question-4#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 59
+    },
+    {
+      "id": "2026-S2-Q57",
+      "source_id": 1126257,
+      "number": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A black square PQRS has been cut into two parts. One part of it is shown in Panel [latex]\\text{I}.[/latex] Which one of the shapes in Panel [latex]\\text{II}[/latex] is the other part? <br><img src=\"/wp-content/uploads/GATE/CS/20262/q57.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20262/q57.webp"
+      ],
+      "options": {
+        "A": "[latex]\\text{(i)}[/latex]",
+        "B": "[latex]\\text{(ii)}[/latex]",
+        "C": "[latex]\\text{(iii)}[/latex]",
+        "D": "[latex]\\text{(iv)}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "This is a spatial-reasoning question: a black square [latex]PQRS[/latex] has been cut into two pieces, one of which is shown in Panel I, and we must identify its complementary piece from Panel II.<br><br>\nThe correct complementary piece must, when combined with the piece shown in Panel I (through rotation/translation as needed, without overlapping), exactly reconstruct the original square with no gaps and no extra area. Checking each candidate shape against this requirement, only option (iii) has precisely the matching boundary/area needed to complete the square together with the given piece.<br><br>\n<b>Answer: (iii)</b> <br><br> <a href=\"https://gateoverflow.in/523156/gate-cse-2026-set-2-ga-question-2#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 57
+    },
+    {
+      "id": "2010-Q56",
+      "source_id": 1110156,
+      "number": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the most appropriate word from the options given below to complete the following sentence:\n<br>\nHis rather casual remarks on politics ________ his lack of seriousness about the subject.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "masked",
+        "B": "belied",
+        "C": "betrayed",
+        "D": "suppressed"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Betrayed\" = revealed unintentionally. His casual remarks revealed his lack of seriousness. \"Belied\" would mean contradicted, which is the opposite.<br><br>\n<b>Answer: betrayed</b><br><br><a href=\"https://gateoverflow.in/2364/gate-cse-2010-question-56#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 56
+    },
+    {
+      "id": "2017-S2-Q56",
+      "source_id": 1117256,
+      "number": 7,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the option with words that are not synonyms.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "aversion, dislike",
+        "B": "luminous, radiant",
+        "C": "plunder, loot",
+        "D": "yielding, resistant"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Aversion/dislike, luminous/radiant and plunder/loot are synonyms. Yielding (giving way) and resistant are <b>opposites</b>.<br><br>\n<b>Answer: yielding, resistant</b><br><br><a href=\"https://gateoverflow.in/118415/gate-cse-2017-set-2-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 56
+    },
+    {
+      "id": "2017-S1-Q59",
+      "source_id": 1117159,
+      "number": 8,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Find the smallest number [latex]y[/latex] such that [latex]y  \\times 162[/latex] is a perfect cube.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "24",
+        "B": "27",
+        "C": "32",
+        "D": "36"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]162=2\\times3^4[/latex]. For a cube every exponent must be a multiple of 3: we need [latex]2^2\\times3^2=36[/latex].<br>\n[latex]36\\times162=5832=18^3[/latex]<br><br>\n<b>Answer: 36</b><br><br><a href=\"https://gateoverflow.in/118407/gate-cse-2017-set-1-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2012-Q58",
+      "source_id": 1112158,
+      "number": 9,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following options is the closest in meaning to the word given below?\n<br><br>\nMitigate  ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Diminish",
+        "B": "Divulge",
+        "C": "Dedicate",
+        "D": "Denote"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Mitigate = make less severe [latex]\\rightarrow[/latex] diminish.<br><br>\n<b>Answer: Diminish</b><br><br><a href=\"https://gateoverflow.in/2197/gate-cse-2012-question-58#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 58
+    },
+    {
+      "id": "2013-Q56",
+      "source_id": 1113156,
+      "number": 10,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following options is the closest in meaning to the word given below?<br><br>\nNadir",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Highest",
+        "B": "Lowest",
+        "C": "Medium",
+        "D": "Integration"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Nadir = the lowest point (opposite of zenith).<br><br>\n<b>Answer: Lowest</b><br><br><a href=\"https://gateoverflow.in/1559/gate-cse-2013-question-56#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 56
+    },
+    {
+      "id": "2026-S1-Q56",
+      "source_id": 1126156,
+      "number": 11,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The antonym of the word protagonist is ________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "agnostic",
+        "B": "antagonist",
+        "C": "arsonist",
+        "D": "anarchist"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A <b>protagonist</b> is the central, leading character of a story (the \"hero\"). Its direct opposite is the <b>antagonist</b> &mdash; the character who opposes or works against the protagonist.<br><br>\nThe other options (agnostic, arsonist, anarchist) are unrelated words that merely share a similar sound/suffix but have no antonym relationship with \"protagonist.\"<br><br>\n<b>Answer: antagonist</b> <br><br> <a href=\"https://gateoverflow.in/523089/gate-cse-2026-set-1-ga-question-1#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 56
+    },
+    {
+      "id": "2014-S2-Q60",
+      "source_id": 1114260,
+      "number": 12,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The value of [latex]\\sqrt{12+\\sqrt{12+\\sqrt{12+\\dots}}}[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3.464",
+        "B": "3.932",
+        "C": "4",
+        "D": "4.444"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let [latex]x=\\sqrt{12+x}[/latex] [latex]\\rightarrow[/latex] [latex]x^2-x-12=0[/latex] [latex]\\rightarrow[/latex] (x [latex]-[/latex] 4)(x + 3) = 0.<br><br>\nx must be positive, so x = 4.<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/1942/gate-cse-2014-set-2-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 60
+    },
+    {
+      "id": "2025-S1-Q60",
+      "source_id": 1125160,
+      "number": 13,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "According to the map shown in the figure, which one of the following statements is correct?  <br>\nNote: The figure shown is representative. <br><img src=\"/wp-content/uploads/GATE/CS/20251/q60.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20251/q60.webp"
+      ],
+      "options": {
+        "A": "The library is located to the northwest of the canteen.",
+        "B": "The hospital is located to the east of the chemistry lab.",
+        "C": "The chemistry lab is to the southeast of the physics lab.",
+        "D": "The classrooms and canteen are next to each other."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Using the given map layout (Library and Physics Lab on the upper-left; Canteen and Hospital on the upper-right; Hostels and Classrooms on the lower-left; Chemistry Lab on the lower-right; with North pointing up):<br><br>\nThe Physics Lab sits in the upper-left region, while the Chemistry Lab sits in the lower-right region &mdash; directly diagonally opposite, i.e. to the <b>southeast</b> of the Physics Lab.<br><br>\nThe other options don't hold up against the actual layout: the library isn't northwest of the canteen (they're roughly at the same latitude, on opposite sides), the hospital isn't east of the chemistry lab (it's north of it), and classrooms/canteen are diagonally placed, not adjacent.<br><br>\n<b>Answer: The chemistry lab is to the southeast of the physics lab.</b><br><br><a href=\"https://gateoverflow.in/460096/gate-cse-2025-set-1-ga-question-5#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 60
+    },
+    {
+      "id": "2015-S3-Q57",
+      "source_id": 1115357,
+      "number": 14,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The Tamil version of __________ John Abraham-starrer Madras Cafe __________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Mr., was, found, on",
+        "B": "a, was, found, at",
+        "C": "the, was, found, on",
+        "D": "a, being, find at"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"<b>the</b> John Abraham-starrer\", \"<b>was</b> cleared\" (passive, singular), \"distributor <b>found</b>\" (past), release \"<b>on</b> this Friday\".<br><br>\n<b>Answer: the, was, found, on</b><br><br><a href=\"https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 57
+    },
+    {
+      "id": "2023-Q59",
+      "source_id": 1123159,
+      "number": 15,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A survey for a certain year found that 90% of pregnant women received medical\ncare at least once before giving birth. Of these women, 60% received medical care\nfrom doctors, while 40% received medical care from other healthcare providers.<br>\nGiven this information, which one of the following statements can be inferred with\ncertainty?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "More than half of the pregnant women received medical care at least once from a\ndoctor.",
+        "B": "Less than half of the pregnant women received medical care at least once from a\ndoctor.",
+        "C": "More than half of the pregnant women received medical care at most once from a\ndoctor.",
+        "D": "Less than half of the pregnant women received medical care at most once from a\ndoctor."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Women who received care from doctors = 60% of 90% = <b>54%</b> of all pregnant women.<br><br>\n54% is more than half, so more than half received care at least once from a doctor. The data says nothing about \"at most once\".<br><br>\n<b>Answer: More than half of the pregnant women received medical care at least once from a doctor</b><br><br><a href=\"https://gateoverflow.in/399252/gate-cse-2023-ga-question4#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 59
+    },
+    {
+      "id": "2013-Q65",
+      "source_id": 1113165,
+      "number": 16,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The current erection cost of a structure is Rs. 13,200. If the labour wages per day increase by 1/5 of the current wages and the working hours decrease by 1/24 of the current period, then the new cost of erection in Rs. Is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "16500",
+        "B": "15180",
+        "C": "11000",
+        "D": "10120"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Cost [latex]\\propto[/latex] wage per day [latex]\\times[/latex] working time.<br><br>\nNew cost = [latex]13200\\times\\frac65\\times\\frac{23}{24}=13200\\times1.15=15180[/latex]<br><br>\n<b>Answer: 15180</b><br><br><a href=\"https://gateoverflow.in/1569/gate-cse-2013-question-65#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 65
+    },
+    {
+      "id": "2017-S2-Q63",
+      "source_id": 1117263,
+      "number": 17,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "[latex]X[/latex] is a 30 digit number starting with the digit 4 followed by the digit 7. Then the number [latex]X^3[/latex] will have",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "90 digits",
+        "B": "91 digits",
+        "C": "92 digits",
+        "D": "93 digits"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "X is between [latex]4.7\\times10^{29}[/latex] and [latex]4.8\\times10^{29}[/latex].<br>\n[latex]4.7^3\\approx103.8[/latex] and [latex]4.8^3\\approx110.6[/latex], so [latex]X^3[/latex] is between [latex]1.038\\times10^{89}[/latex] and [latex]1.106\\times10^{89}[/latex] [latex]\\rightarrow[/latex] 90 digits.<br><br>\n<b>Answer: 90 digits</b><br><br><a href=\"https://gateoverflow.in/118422/gate-cse-2017-set-2-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 63
+    },
+    {
+      "id": "2014-S3-Q64",
+      "source_id": 1114364,
+      "number": 18,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students in 2011 and 2012 is equal, what is the ratio of male students in 2012 to male students in 2011?<br><img src=\"/wp-content/uploads/GATE/CS/20142/q64.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20142/q64.jpg"
+      ],
+      "options": {
+        "A": "01:01",
+        "B": "02:01",
+        "C": "1.5:1",
+        "D": "2.5:1"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From the graph: male/female in 2011 = 1, in 2012 = 1.5.<br><br>\nWith equal females F: males in 2012 : 2011 = 1.5F : F = 1.5 : 1<br><br>\n<b>Answer: 1.5:1</b><br><br><a href=\"https://gateoverflow.in/2033/gate-cse-2014-set-3-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 64
+    },
+    {
+      "id": "2022-Q62",
+      "source_id": 1122162,
+      "number": 19,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a recently conducted national entrance test, boys constituted 65% of those who appeared for the test. Girls constituted the remaining candidates and they accounted for 60% of the qualified candidates.\n<br>\nWhich one of the following is the correct logical inference based on the information provided in the above passage?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Equal number of boys and girls qualified",
+        "B": "Equal number of boys and girls appeared for the test",
+        "C": "The number of boys who appeared for the test is less than the number of girls who appeared",
+        "D": "The number of boys who qualified the test is less than the number of girls who qualified"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Girls are 60% of the qualified candidates, so boys are only 40% of them. Hence fewer boys than girls qualified.<br><br>\n(Boys were 65% of those who appeared, so the options about who appeared are wrong, and the qualified numbers are not equal.)<br><br>\n<b>Answer: The number of boys who qualified the test is less than the number of girls who qualified</b><br><br><a href=\"https://gateoverflow.in/371499/Gate-cse-2022-question-7#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 62
+    },
+    {
+      "id": "2019-Q64",
+      "source_id": 1119164,
+      "number": 20,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a college, there are three student clubs, 60 students are only in the Drama club, 80 students are only in the Dance club, 30 students are only in Maths club, 40 students are in both Drama and Dance clubs, 12 students are in both Dance and Maths clubs, 7 students are in both Drama and Maths clubs, and 2 students are in all clubs. If 75% of the students in the college are not in any of these clubs, then the total number of students in the college is _____.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1000",
+        "B": "975",
+        "C": "900",
+        "D": "225"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The \"both\" counts include the 2 students in all three clubs, so the exactly-two counts are 38, 10 and 5.<br><br>\nStudents in clubs = 60 + 80 + 30 (only one) + 38 + 10 + 5 (exactly two) + 2 (all three) = 225.<br><br>\nThese are 25% of the college, so total = 225 / 0.25 = 900.<br><br>\n<b>Answer: 900</b><br><br><a href=\"https://gateoverflow.in/302864/gate-cse-2019-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 64
+    },
+    {
+      "id": "2025-S2-Q65",
+      "source_id": 1125265,
+      "number": 21,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The diagram below shows a river system consisting of 7 segments, marked P, Q, R, S, T, U, and V. It splits the land into 5 zones, marked Z1, Z2, Z3, Z4, and Z5. We need to connect these zones using the least number of bridges. Out of the following options, which one is correct? <br>Note: The figure shown is representative. <br><img src=\"/wp-content/uploads/GATE/CS/20252/q65.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20252/q65.webp"
+      ],
+      "options": {
+        "A": "Bridges on P, Q, and T",
+        "B": "Bridges on P, Q, S, and T",
+        "C": "Bridges on Q, R, T, and V",
+        "D": "Bridges on P, Q, S, U, and V"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability ",
+      "explanation": "This problem can be solved by representing the map as a <b>graph</b>:<br><br>\n\n- Each <b>zone</b> is represented as a <b>vertex</b>.\n- Each <b>river segment</b> where a bridge can be built is represented as an <b>edge</b> connecting the adjacent zones.<br><br>\n\nThe graph is as follows:<br><br>\n\n<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;  width:auto;\">\n    <tr>\n        <th>River Segment</th>\n        <th>Adjacent Zones</th>\n    </tr>\n    <tr>\n        <td>P</td>\n        <td>Z1- Z2</td>\n    </tr>\n    <tr>\n        <td>Q</td>\n        <td>Z1- Z3</td>\n    </tr>\n    <tr>\n        <td>R</td>\n        <td>Z2- Z3</td>\n    </tr>\n    <tr>\n        <td>S</td>\n        <td>Z1- Z5</td>\n    </tr>\n    <tr>\n        <td>T</td>\n        <td>Z3- Z5</td>\n    </tr>\n    <tr>\n        <td>U</td>\n        <td>Z5- Z4</td>\n    </tr>\n    <tr>\n        <td>V</td>\n        <td>Z3- Z4</td>\n    </tr>\n</table><br>\n\nWe have <b>5 vertices (zones)</b>. To connect all zones with the minimum number of bridges, we need a <b>spanning tree</b>, which always contains<br><br>\n\n[latex]\nn-1=5-1=4\n[/latex]\n\nedges.<br><br>\n\nNow check each option.<br><br>\n\n<b>Option A:</b> Bridges on <b>P, Q, and T</b><br>\n\nOnly 3 bridges are used, so all 5 zones cannot be connected.<br>\n\nIncorrect.<br><br>\n\n<b>Option B:</b> Bridges on <b>P, Q, S, and T</b><br>\n\nThe selected edges are:<br>\n\n- P : Z1-Z2\n- Q : Z1-Z3\n- S : Z1-Z5\n- T : Z3-Z5<br><br>\n\nZone Z4 is not connected.<br>\n\nIncorrect.<br><br>\n\n<b>Option C:</b> Bridges on <b>Q, R, T, and V</b><br>\n\nThe selected edges are:<br>\n\n- Q : Z1-Z3\n- R : Z2-Z3\n- T : Z3-Z5\n- V : Z3-Z4<br><br>\n\nEvery zone is connected, and there are exactly 4 bridges (forming a spanning tree).<br>\n\nCorrect.<br><br>\n\n\n<b>Option D:</b> Bridges on <b>P, Q, S, U, and V</b><br>\n\nUses 5 bridges, whereas only 4 are required for a minimum spanning connection.<br>\n\nIncorrect.<br><br><a href=\"https://gateoverflow.in/460441/gate-cse-2025-set-2-ga-question-10#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 65
+    },
+    {
+      "id": "2018-Q61",
+      "source_id": 1118161,
+      "number": 22,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In appreciation of the social improvements completed in a town, a wealthy philanthropist \ndecided to gift Rs. 750 to each male senior citizen in the town and Rs. 1000 to each\nfemale senior citizen.  Altogether, there were 300 senior citizens eligible for this gift. However,\nonly [latex]{\\frac{8}{9}}^{th}[/latex] of the eligible men and [latex]{\\frac{2}{3}}^{rd}[/latex] of the eligible women claimed the gift. How much\nmoney (in Rupees) did the philanthropist give away in total?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1,50,000",
+        "B": "2,00,000",
+        "C": "1,75,000",
+        "D": "1,51,000"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "With m men and w women (m + w = 300):<br>\n[latex]750\\cdot\\frac89m+1000\\cdot\\frac23w=\\frac{2000}{3}(m+w)=\\frac{2000}{3}\\times300=2{,}00{,}000[/latex]<br><br>\n<b>Answer: 2,00,000</b><br><br><a href=\"https://gateoverflow.in/204067/gate-cse-2018-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 61
+    },
+    {
+      "id": "2015-S2-Q65",
+      "source_id": 1115265,
+      "number": 23,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Out of the following 4 sentences, select the most suitable sentence with respect to grammar and usage:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Since the report lacked needed information, it was of no use to them.",
+        "B": "The report was useless to them because there were no needed information in it.",
+        "C": "Since the report did not contain the needed information, it was not real useful to them.",
+        "D": "Since the report lacked needed information, it would not had been useful to them."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Checking each statement:<br>- Option 2: \"information\" is uncountable, so \"were no\" is wrong.<br>\n- Option 3: \"real useful\" should be \"really useful\".<br>\n- Option 4: \"would not had been\" should be \"would not have been\".<br><br>\nOption 1 is correct.<br><br>\n<b>Answer: Since the report lacked needed information, it was of no use to them</b><br><br><a href=\"https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 65
+    },
+    {
+      "id": "2021-S2-Q64",
+      "source_id": 1121264,
+      "number": 24,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "<br><img src=\"/wp-content/uploads/GATE/CS/20212/q64.jpg\" /><br>The number of units of a product sold in three different years and the respective net profits are presented in the figure above. The cost/unit in Year 3 was Re. 1, which was half the cost/unit in Year 2. The cost/unit in Year 3 was one-third of the cost/unit in Year 1. Taxes were paid on the selling price at 10%, 13%, and 15% respectively for the three years. Net profit is calculated as the difference between the selling price and teh sum of cost and taxes paid in that year.<br><br>\nThe ratio of the selling price in Year 2 to the selling price in Year 3 is _________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20212/q64.jpg"
+      ],
+      "options": {
+        "A": "04:03",
+        "B": "01:01",
+        "C": "03:04",
+        "D": "01:02"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Cost/unit: Year 3 = 1, Year 2 = 2.<br>\nNet profit = SP [latex]-[/latex] cost [latex]-[/latex] tax on SP = SP(1 [latex]-[/latex] t) [latex]-[/latex] cost.<br>\n- Year 2: 200 units, cost 400, profit 296, tax 13%: [latex]0.87\\,SP=696\\Rightarrow SP=800[/latex]<br>\n- Year 3: 300 units, cost 300, profit 210, tax 15%: [latex]0.85\\,SP=510\\Rightarrow SP=600[/latex]<br><br>\nRatio = 800 : 600 = 4 : 3<br><br>\n<b>Answer: 4 : 3</b><br><br><a href=\"https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2016-S1-Q61",
+      "source_id": 1116161,
+      "number": 25,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A shaving set company sells 4 different types of razors- Elegance, Smooth, Soft and Executive.<br>\n\nElegance sells at Rs. 48, Smooth at Rs. 63, Soft at Rs. 78 and Executive at Rs. 173 per piece. The table below shows the numbers of each razor sold in each quarter of a year.  <br><br>   [latex]\\begin{array}{|c|r|r|r|r|} \\hline \\textbf{Quarter/Product} & \\textbf{Elegance} &\\textbf{Smooth} &\\textbf{Soft} & \\textbf{Executive}\\\\\\hline \\text{Q1} & \\text{27300} &\\text{20009} &\\text{17602} &\\text{9999}\\\\\\hline \\text{Q2} & \\text{25222} &\\text{19392} & \\text{18445}& \\text{8942}\\\\\\hline \\text{Q3} & \\text{28976} &\\text{22429} & \\text{19544} & \\text{10234}\\\\\\hline \\text{Q4} &\\text{21012} & \\text{18229} & \\text{16595} & \\text{10109}\\\\\\hline \\end{array}[/latex]\n<br> <br>Which product contributes the greatest fraction to the revenue of the company in that year?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Elegance",
+        "B": "Executive",
+        "C": "Smooth",
+        "D": "Soft"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Yearly revenue = price [latex]\\times[/latex] total units:<br>\n- Elegance: 48 [latex]\\times[/latex] 102510 [latex]\\approx[/latex] 49.2 lakh<br>\n- Smooth: 63 [latex]\\times[/latex] 80059 [latex]\\approx[/latex] 50.4 lakh<br>\n- Soft: 78 [latex]\\times[/latex] 72186 [latex]\\approx[/latex] 56.3 lakh<br>\n- Executive: 173 [latex]\\times[/latex] 39284 [latex]\\approx[/latex] <b>68.0 lakh</b><br><br>\n<b>Answer: Executive</b><br><br><a href=\"https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 61
+    },
+    {
+      "id": "2017-S1-Q62",
+      "source_id": 1117162,
+      "number": 26,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Six people are seated around a circular table. There are at least two men and two women. There are at least three right-handed persons. Every woman has a left-handed person to her immediate right. None of the women are right-handed. The number of women at the table is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "Cannot be determined"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Women are not right-handed, so they are left-handed, and each woman has a left-handed person on her immediate right. With at least 3 right-handed people, at most 3 people are left-handed.<br><br>\nWith 2 women sitting together (W1, W2) and one left-handed man to W2's right, the other 3 men are right-handed True. With 3 or more women, the left-handed requirement forces at least 4 left-handed people, which is impossible.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/118410/gate-cse-2017-set-1-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 62
+    },
+    {
+      "id": "2020-Q62",
+      "source_id": 1120162,
+      "number": 27,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If P=3, R=27, T=243, then Q + S = ________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "40",
+        "B": "80",
+        "C": "90",
+        "D": "110"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "P, Q, R, S, T are consecutive powers of 3: P = [latex]3^1[/latex], Q = [latex]3^2[/latex] = 9, R = [latex]3^3[/latex] = 27, S = [latex]3^4[/latex] = 81, T = [latex]3^5[/latex] = 243.<br><br>\nQ + S = 9 + 81 = 90<br><br>\n<b>Answer: 90</b><br><br><a href=\"https://gateoverflow.in/333234/gate-cse-2020-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 62
+    },
+    {
+      "id": "2024-S2-Q61",
+      "source_id": 1124261,
+      "number": 28,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Sequence the following sentences in a coherent passage.<br><br>\nP:    This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone.\n<br>Q:    Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.\n<br>R:    The natural  process  of  the  cooling  of  this massive  edifice  absorbed  large quantities of atmospheric carbon dioxide, altering the earth?s atmosphere and making it better suited for life.\n<br>S:    Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "QPSR",
+        "B": "QSPR",
+        "C": "SPRQ",
+        "D": "SRPQ"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Follow the references between sentences:<br>- <b>S</b> starts the story: the plates collided.<br>\n- <b>P</b> \"This fortuitous geological event\" refers to the collision, which raised the rocks.<br>\n- <b>R</b> \"this massive edifice\" refers to the raised rocks and their cooling.<br>\n- <b>Q</b> \"Thus[latex]\\ldots[/latex]\" gives the conclusion.<br><br>\n<b>Answer: SPRQ</b><br><br><a href=\"https://gateoverflow.in/422901/gate-cse-2024-set-2-ga-question-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 61
+    },
+    {
+      "id": "2014-S3-Q62",
+      "source_id": 1114362,
+      "number": 29,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "By the beginning of the 20th century, several hypotheses were being proposed, suggesting a paradigm shift in our understanding of the universe. However, the clinching evidence was provided by experimental measurements of the position of a star which was directly behind our sun.\n<br><br>\nWhich of the following inference(s) may be drawn from the above passage? <br><br>i.   Our understanding of the universe changes based on the positions of stars\n<br>ii.  Paradigm shifts usually occur at the beginning of centuries\n<br>iii. Stars are important objects in the universe\n<br>iv.  Experimental evidence was important in confirming this paradigm shift",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "i, ii and iv",
+        "B": "iii only",
+        "C": "i and iv",
+        "D": "iv only"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage only says experimental measurement provided the clinching evidence for the paradigm shift.<br><br>\nIt does not claim that star positions change our understanding in general, that shifts happen at the start of centuries, or that stars are important objects.<br><br>\n<b>Answer: iv only</b><br><br><a href=\"https://gateoverflow.in/2031/gate-cse-2014-set-3-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 62
+    },
+    {
+      "id": "2014-S2-Q65",
+      "source_id": 1114265,
+      "number": 30,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "At what time between 6 a. m. and 7 a. m. will the minute hand and hour hand of a clock make an angle closest to [latex]60^{\\circ}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "6: 22 a.m.",
+        "B": "6: 27 a.m.",
+        "C": "6: 38 a.m.",
+        "D": "6: 45 a.m."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Angle at 6:m = [latex]|180-5.5m|[/latex].<br><br>\nSetting it to 60: 5.5m = 120 [latex]\\rightarrow[/latex] m = 21.8 minutes.<br><br>\nAt 6:22 the angle is 180 [latex]-[/latex] 121 = 59[latex]^\\circ[/latex], the closest among the options.<br><br>\n<b>Answer: 6:22 a.m.</b><br><br><a href=\"https://gateoverflow.in/1952/gate-cse-2014-set-2-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 65
+    }
+  ]
+}

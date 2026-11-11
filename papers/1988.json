@@ -1,0 +1,38 @@
+{
+  "paper_id": "1988",
+  "paper": "GATE CSE 1988",
+  "year": 1988,
+  "set": null,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-1988",
+  "source_id": 11005,
+  "total_marks": 1,
+  "scraped_at": "2026-11-06T10:15:58Z",
+  "questions": [
+    {
+      "id": "1988-Q1",
+      "source_id": 1100501,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a compiler the module that checks every character of the source text is called:\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The code generator.",
+        "B": "The code optimiser.",
+        "C": "The lexical analyser.",
+        "D": "The syntax analyser."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Lexical Analysis",
+      "explanation": "<a href=\"https://gateoverflow.in/80282/gate1987-1-xi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

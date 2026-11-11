@@ -1,0 +1,868 @@
+{
+  "paper_id": "general-aptitude-05",
+  "paper": "General Aptitude: Topic Mock 5",
+  "kind": "topic_mock",
+  "topic": "General Aptitude",
+  "set": 5,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2021-S2-Q60",
+      "source_id": 1121260,
+      "number": 1,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Pen : Write :: Knife :  _______<br><br>\nWhich one of the following options maintains a similar logical relation in the above?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Vegetables",
+        "B": "Sharp",
+        "C": "Cut",
+        "D": "Blunt"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A pen is used to <b>write</b>; a knife is used to <b>cut</b> (tool : its function).<br><br>\n<b>Answer: Cut</b><br><br><a href=\"https://gateoverflow.in/357545/gate-cse-2021-set-2-ga-question-5#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 60
+    },
+    {
+      "id": "2021-S2-Q56",
+      "source_id": 1121256,
+      "number": 2,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Gauri said that she can play the keyboard __________ her sister.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "as well as",
+        "B": "as better as",
+        "C": "as nicest as",
+        "D": "as worse as"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The correct comparison phrase is \"<b>as well as</b>\" (as + adverb + as). \"As better as\", \"as nicest as\" and \"as worse as\" are ungrammatical.<br><br>\n<b>Answer: as well as</b><br><br><a href=\"https://gateoverflow.in/357549/gate-cse-2021-set-2-ga-question-1#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 56
+    },
+    {
+      "id": "2014-S2-Q59",
+      "source_id": 1114259,
+      "number": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the average of all multiples of 10 from 2 to 198?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "90",
+        "B": "100",
+        "C": "110",
+        "D": "120"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Multiples of 10 between 2 and 198: 10, 20, ..., 190 (an AP).<br><br>\nAverage = [latex]\\frac{10+190}{2}=100[/latex]<br><br>\n<b>Answer: 100</b><br><br><a href=\"https://gateoverflow.in/1941/gate-cse-2014-set-2-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2026-S1-Q57",
+      "source_id": 1126157,
+      "number": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The figure shows two [latex]4[/latex]-tile patterns. <br><img src=\"/wp-content/uploads/GATE/CS/20261/q57a.webp\"/><br> Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two [latex]4[/latex]-tile patterns assuming there are no overlaps among them?<br><img src=\"/wp-content/uploads/GATE/CS/20261/q57b.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20261/q57a.webp",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20261/q57b.webp"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "This is a visual tiling/pattern-matching question based on an accompanying figure: two given [latex]4[/latex]-tile shapes (usable any number of times, in any rotation/reflection, without overlapping) must be combined to try to reconstruct each of the candidate patterns (A, B, C, D).<br><br>\nChecking each candidate pattern by attempting to tile it using only copies of the two given [latex]4[/latex]-tile shapes (in any orientation): patterns A, B, and D can each be fully covered by some combination of the two tile shapes with no gaps or overlaps, but pattern C's shape cannot be decomposed into a combination of the two given tiles no matter how they are rotated or arranged &mdash; some region of C is always left over or mismatched.<br><br>\n<b>Answer: Pattern C cannot be constructed.</b> <br><br> <a href=\"https://gateoverflow.in/523088/gate-cse-2026-set-1-ga-question-2#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 57
+    },
+    {
+      "id": "2015-S2-Q58",
+      "source_id": 1115258,
+      "number": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a function [latex]f(x) = 1- |x| \\text{ on } -1 \\leq x \\leq 1[/latex]. The value of [latex]x[/latex] at which the function attains a maximum, and the maximum value of the function are:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0, -1",
+        "B": "-1, 0",
+        "C": "0, 1",
+        "D": "-1, 2"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "|x| is smallest (0) at x = 0, so f(x) = 1 [latex]-[/latex] |x| is largest there: f(0) = 1.<br><br>\n<b>Answer: 0, 1</b><br><br><a href=\"https://gateoverflow.in/8030/gate-cse-2015-set-2-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 58
+    },
+    {
+      "id": "2026-S2-Q59",
+      "source_id": 1126259,
+      "number": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The values of Stock [latex]\\text{A}[/latex] and Stock [latex]\\text{B}[/latex] on a particular day are Rs. [latex]50[/latex] and Rs. [latex]80[/latex], respectively. An investor invests Rs. [latex]100[/latex] in Stock [latex]\\text{A}[/latex] and Rs. [latex]80[/latex] in Stock [latex]\\text{B}[/latex]. He sells all the stocks the next day when the value of Stock [latex]\\text{A}[/latex] is Rs. [latex]55[/latex] and Stock [latex]\\text{B}[/latex] is Rs. [latex]70[/latex]. The profit made by the investor is Rs. ________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "10",
+        "D": "20"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "<b>Stock A:</b> Rs. [latex]100[/latex] invested at Rs. [latex]50[/latex]/share buys [latex]100/50=2[/latex] shares. Sold next day at Rs. [latex]55[/latex]/share: [latex]2\\times55=110[/latex]. Profit [latex]=110-100=10[/latex].<br><br>\n<b>Stock B:</b> Rs. [latex]80[/latex] invested at Rs. [latex]80[/latex]/share buys [latex]80/80=1[/latex] share. Sold next day at Rs. [latex]70[/latex]/share: [latex]1\\times70=70[/latex]. Profit [latex]=70-80=-10[/latex] (a loss).<br><br>\nTotal profit [latex]=10+(-10)=0[/latex].<br><br>\n<b>Answer: 0</b> <br><br> <a href=\"https://gateoverflow.in/523154/gate-cse-2026-set-2-ga-question-4#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2015-S3-Q59",
+      "source_id": 1115359,
+      "number": 7,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Select the pair of best expresses a relationship similar to that expressed in the pair:\n<br><br>\nChildren : Pediatrician",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Adult : Orthopaedist",
+        "B": "Females : Gynaecologist",
+        "C": "Kidney : Nephrologist",
+        "D": "Skin : Dermatologist"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A paediatrician treats a group of people (children). Similarly, a gynaecologist treats a group of people (females). The others match an organ with its specialist.<br><br>\n<b>Answer: Females : Gynaecologist</b><br><br><a href=\"https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 59
+    },
+    {
+      "id": "2025-S2-Q59",
+      "source_id": 1125259,
+      "number": 8,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube?<br>Note: The figures shown are representative.  <br><img src=\"/wp-content/uploads/GATE/CS/20252/q59a.webp\"/><br><br><img src=\"/wp-content/uploads/GATE/CS/20252/q59b.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20252/q59a.webp",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20252/q59b.webp"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability ",
+      "explanation": "Label the net's center square (holding the hollow triangle [latex]\\triangle[/latex]) as the cube's <b>front</b> face. When a plus-shaped net folds into a cube, each square adjacent to the center folds directly onto the corresponding adjacent cube face:<br><br>\n- The square directly <b>above</b> center (holding the filled dot [latex]\\bullet[/latex]) becomes the <b>top</b> face.<br>\n- The square directly <b>below</b> center (holding the hollow circle [latex]\\circ[/latex]) becomes the <b>bottom</b> face.<br>\n- The square to the <b>right</b> of center (holding the filled triangle [latex]\\blacktriangle[/latex]) becomes the <b>right</b> face.<br>\n- The square to the <b>left</b> of center (blank) becomes the <b>left</b> face.<br><br>\nSo on the folded cube: <b>front = [latex]\\triangle[/latex], top = [latex]\\bullet[/latex], right = [latex]\\blacktriangle[/latex], bottom = [latex]\\circ[/latex], left = blank</b>.<br><br>\nChecking the candidate cubes (each drawn showing the front face with [latex]\\triangle[/latex] and one other visible face): the cube where the <b>dot appears on the top face</b> alongside the triangle on the front &mdash; exactly matching the derived front/top relationship &mdash; is option A. The other options place a different symbol (or the same symbol in the wrong position/face) adjacent to the front triangle, which contradicts the adjacency established directly from the net.<br><br>\n<b>Answer: A</b><br><br><a href=\"https://gateoverflow.in/460447/gate-cse-2025-set-2-ga-question-4#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2025-S1-Q58",
+      "source_id": 1125158,
+      "number": 9,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The average marks obtained by a class in an examination were calculated as 30.8. However, while checking the marks entered, the teacher found that the marks of one student were entered incorrectly as 24 instead of 42. After correcting the marks, the average becomes 31.4. How many students does the class have? ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "25",
+        "B": "28",
+        "C": "30",
+        "D": "32"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let the class have [latex]n[/latex] students. The total marks initially (with the error) [latex]=30.8n[/latex]. Correcting one student's mark from [latex]24[/latex] to [latex]42[/latex] adds [latex]42-24=18[/latex] to the total:<br><br>\n[latex]30.8n+18=31.4n\\ \\Rightarrow\\ 18=0.6n\\ \\Rightarrow\\ n=30[/latex]<br><br>\n<b>Answer: 30</b><br><br><a href=\"https://gateoverflow.in/460098/gate-cse-2025-set-1-ga-question-3#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 58
+    },
+    {
+      "id": "2015-S1-Q59",
+      "source_id": 1115159,
+      "number": 10,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Based on the given statements, select the most appropriate option to solve the given question.\n<br><br>\nIf two floors in a certain building are 9 feet apart, how many steps are there in a set of stairs that extends from the first floor to the second floor of the building?\n<br><br>\nStatements:\n<br><br>\nI.  Each step is 3/4 foot high.<br>\nII. Each step is 1 foot wide. ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Statements I alone is sufficient, but statement II alone is not sufficient.",
+        "B": "Statements II alone is sufficient, but statement I alone is not sufficient.",
+        "C": "Both statements together are sufficient, but neither statement alone is sufficient.",
+        "D": "Statements I and II together are not sufficient.?"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Number of steps = height / step height = 9 / (3/4) = 12, so statement I alone answers it.<br><br>\nThe width of a step does not tell how many steps there are.<br><br>\n<b>Answer: Statement I alone is sufficient, but statement II alone is not</b><br><br><a href=\"https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2011-Q58",
+      "source_id": 1111158,
+      "number": 11,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the most appropriate word(s) from the options given below to complete the following sentence.\n<br>\nI contemplated _________ Singapore for my vacation but decided against it.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "to visit",
+        "B": "having to visit",
+        "C": "visiting",
+        "D": "for a visit"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Contemplate\" is followed by a gerund (-ing form): \"contemplated visiting\".<br><br>\n<b>Answer: visiting</b><br><br><a href=\"https://gateoverflow.in/2167/gate-cse-2011-question-58#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 58
+    },
+    {
+      "id": "2015-S1-Q60",
+      "source_id": 1115160,
+      "number": 12,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following combinations is incorrect?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Acquiescence - Submission",
+        "B": "Wheedle - Roundabout",
+        "C": "Flippancy - Lightness",
+        "D": "Profligate - Extravagant"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Wheedle means to coax or flatter someone into doing something. It does not mean roundabout.<br><br>\nThe other pairs are correct.<br><br>\n<b>Answer: Wheedle - Roundabout</b><br><br><a href=\"https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 60
+    },
+    {
+      "id": "2016-S1-Q58",
+      "source_id": 1116158,
+      "number": 13,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Archimedes said, \"Give me a lever long enough and a fulcrum on which to place it, and I will move the world.\"\n<br><br>\nThe sentence above is an example of a ____________ statement.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "figurative",
+        "B": "collateral",
+        "C": "literal",
+        "D": "figurine"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Archimedes did not literally plan to move the world; he used the image to show the power of a lever. That is a <b>figurative</b> statement.<br><br>\n<b>Answer: figurative</b><br><br><a href=\"https://gateoverflow.in/39606/gate-cse-2016-set-1-question-ga03#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 58
+    },
+    {
+      "id": "2015-S2-Q59",
+      "source_id": 1115259,
+      "number": 14,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A generic term that includes various items of clothing such as a skirt, a pair of trousers and a shirt is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "fabric",
+        "B": "textile",
+        "C": "fiber",
+        "D": "apparel"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Apparel is the general word for clothing (skirts, trousers, shirts). Fabric, textile and fiber are materials.<br><br>\n<b>Answer: apparel</b><br><br><a href=\"https://gateoverflow.in/8032/gate-cse-2015-set-2-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2025-S1-Q57",
+      "source_id": 1125157,
+      "number": 15,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The CEO's decision to downsize the workforce was considered myopic because it sacrificed long-term stability to accommodate short-term gains.  <br>\nSelect the most appropriate option that can replace the word \"myopic\" without changing the meaning of the sentence. ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "visionary",
+        "B": " shortsighted",
+        "C": "progressive",
+        "D": "innovative"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Myopic\" literally means near-sighted, and figuratively means lacking foresight or focused only on the short term &mdash; exactly matching \"shortsighted.\" \"Visionary,\" \"progressive,\" and \"innovative\" all carry positive, forward-looking connotations that are the opposite of what \"myopic\" implies here.<br><br>\n<b>Answer: shortsighted</b><br><br><a href=\"https://gateoverflow.in/460099/gate-cse-2025-set-1-ga-question-2#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 57
+    },
+    {
+      "id": "2014-S3-Q61",
+      "source_id": 1114361,
+      "number": 16,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A dance programme is scheduled for 10.00 a.m. Some students are participating in the programme and they need to come an hour earlier than the start of the event. These students should be accompanied by a parent. Other students and parents should come in time for the programme. The instruction you think that is appropriate for this is ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Students should come at 9.00 a.m. and parents should come at 10.00 a.m.",
+        "B": "Participating students should come at 9.00 a.m. accompanied by a parent, and other parents and students should come by 10.00 a.m.",
+        "C": "Students who are not participating should come by 10.00 a.m. and they should not bring their parents. Participating students should come at 9.00 a.m.",
+        "D": "Participating students should come before 9.00 a.m. Parents who accompany them should come at 9.00 a.m. All others should come at 10.00 a.m."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Only participating students come at 9 a.m. with a parent; everyone else comes by 10 a.m. Option 2 says exactly this.<br><br>\nOption 1 sends all students at 9; option 3 forbids parents; option 4 has the students before 9.<br><br>\n<b>Answer: Option 2</b><br><br><a href=\"https://gateoverflow.in/2029/gate-cse-2014-set-3-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 61
+    },
+    {
+      "id": "2025-S1-Q64",
+      "source_id": 1125164,
+      "number": 17,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A square paper, shown in figure (I), is folded along the dotted lines as shown in the figures (II) and (III). Then a few cuts are made as shown in figure (IV). Which one of the following patterns will be obtained when the paper is unfolded?  \n<br>Note: The figures shown are representative.<br><img src=\"/wp-content/uploads/GATE/CS/20251/q64a.webp\"/><br><br><img src=\"/wp-content/uploads/GATE/CS/20251/q64b.webp\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20251/q64a.webp",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20251/q64b.webp"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Working through the fold sequence (square folded in half, then folded again diagonally as shown in figures II and III) and then tracking exactly where the described cuts land on the multiply-folded paper, each cut passes through several layers simultaneously. Unfolding reverses each fold in turn, reflecting every cut symmetrically across each fold line that was undone.<br><br>\nCarefully mapping the cut positions back through both fold-reversals (first undoing the diagonal fold, then the half-fold) reproduces a specific symmetric pattern of shapes at mirrored positions around the square &mdash; matching exactly one of the four candidate unfolded patterns and none of the others (which place the cut-out shapes at inconsistent or asymmetric positions relative to the actual fold lines).<br><br>\n<b>Answer: (A)</b><br><br><a href=\"https://gateoverflow.in/460092/gate-cse-2025-set-1-ga-question-9#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 64
+    },
+    {
+      "id": "2026-S2-Q65",
+      "source_id": 1126265,
+      "number": 18,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An unbiased six-faced dice whose faces are marked with numbers [latex]1,2,3,4,5[/latex], and [latex]6[/latex] is rolled twice in succession and the number on the top face is recorded each time. The probability that the sum of the two recorded numbers is a prime number is ________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{3}{36}[/latex]",
+        "B": "[latex]\\frac{13}{36}[/latex]",
+        "C": "[latex]\\frac{15}{36}[/latex]",
+        "D": "[latex]\\frac{19}{36}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Out of the [latex]36[/latex] equally likely outcomes of rolling two dice, count how many give a <b>prime</b> sum (possible sums range from [latex]2[/latex] to [latex]12[/latex]; the primes in this range are [latex]2,3,5,7,11[/latex]):<br><br>\n[latex]\\begin{array}{c|c}\\text{Sum}&\\text{Number of ways}\\\\\\hline2&1\\\\3&2\\\\5&4\\\\7&6\\\\11&2\\end{array}[/latex]<br><br>\nTotal favorable outcomes [latex]=1+2+4+6+2=15[/latex].<br><br>\nProbability [latex]=\\dfrac{15}{36}[/latex].<br><br>\n<b>Answer: 15/36</b> <br><br> <a href=\"https://gateoverflow.in/523148/gate-cse-2026-set-2-ga-question-10#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 65
+    },
+    {
+      "id": "2024-S2-Q65",
+      "source_id": 1124265,
+      "number": 19,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the 4 x 4 array shown below, each cell of the first three rows has either a\ncross (X) or a number.<br><img src=\"/wp-content/uploads/GATE/CS/20242/q65.webp\" /><br>\nThe number in a cell represents the count of the immediate neighboring cells\n(left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row\nhas no crosses (X), the sum of the four numbers to be filled in the last row is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20242/q65.webp"
+      ],
+      "options": {
+        "A": "11",
+        "B": "10",
+        "C": "12",
+        "D": "9"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Row 3 is: 3, X, 6, X. The last row has no crosses. Count neighbours without X for each cell of row 4:<br>\n- Cell 1: (3,1), (4,2) [(3,2) is X] [latex]\\rightarrow[/latex] 2<br>\n- Cell 2: (3,1), (3,3), (4,1), (4,3) [(3,2) is X] [latex]\\rightarrow[/latex] 4<br>\n- Cell 3: (3,3), (4,2), (4,4) [(3,2), (3,4) are X] [latex]\\rightarrow[/latex] 3<br>\n- Cell 4: (3,3), (4,3) [(3,4) is X] [latex]\\rightarrow[/latex] 2<br><br>\nSum [latex]=2+4+3+2=11[/latex]<br><br>\n<b>Answer: 11</b><br><br><a href=\"https://gateoverflow.in/422897/gate-cse-2024-set-2-ga-question-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 65
+    },
+    {
+      "id": "2012-Q65",
+      "source_id": 1112165,
+      "number": 20,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given the sequence of terms, AD CG FK JP, the next term is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "OV",
+        "B": "OW",
+        "C": "PV",
+        "D": "PW"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Letter positions:<br>\n- First letters: A(1), C(3), F(6), J(10), adding 2, 3, 4, so next is 15 = O<br>\n- Second letters: D(4), G(7), K(11), P(16), adding 3, 4, 5, so next is 22 = V<br><br>\n<b>Answer: OV</b><br><br><a href=\"https://gateoverflow.in/2213/gate-cse-2012-question-65#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 65
+    },
+    {
+      "id": "2011-Q61",
+      "source_id": 1111161,
+      "number": 21,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Few school curricula include a unit on how to deal with bereavement and grief, and\nyet all students at some point in their lives suffer from losses through death and parting.\n<br>\nBased on the above passage which topic would not be included in a unit on bereavement?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "how to write a letter of condolence",
+        "B": "what emotional stages are passed through in the healing process",
+        "C": "what the leading causes of death are",
+        "D": "how to give support to a grieving friend"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A bereavement unit is about coping with loss: emotions, condolence, supporting others. Leading causes of death is a medical/statistical topic, not about dealing with grief.<br><br>\n<b>Answer: what the leading causes of death are</b><br><br><a href=\"https://gateoverflow.in/2171/gate-cse-2011-question-61#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 61
+    },
+    {
+      "id": "2015-S3-Q63",
+      "source_id": 1115363,
+      "number": 22,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Choose the most appropriate equation for the function drawn as thick line, in the plot below.<br><img src=\"/wp-content/uploads/GATE/CS/20153/q63.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q63.jpg"
+      ],
+      "options": {
+        "A": "x=y - |y|",
+        "B": "x= -(y -|y|)",
+        "C": "x=y + |y|",
+        "D": "x= -(y + |y|)"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From the plot: for y [latex]\\gt[/latex] 0, x = 0; for y [latex]\\lt[/latex] 0, the line passes through (2, [latex]-[/latex]1), so x = [latex]-[/latex]2y.<br><br>\nx = [latex]-[/latex](y [latex]-[/latex] |y|): y [latex]\\gt[/latex] 0 gives 0, and y [latex]\\lt[/latex] 0 gives [latex]-[/latex](y + y) = [latex]-[/latex]2y [latex]\\checkmark[/latex]<br><br>\n<b>Answer: x = [latex]-[/latex](y [latex]-[/latex] |y|)</b><br><br><a href=\"https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 63
+    },
+    {
+      "id": "2014-S3-Q65",
+      "source_id": 1114365,
+      "number": 23,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the equation: [latex](7526)_8 - (Y)_8=(4364)_8[/latex], where [latex](X)_N[/latex] stands for [latex]X[/latex] to the base [latex]N[/latex]. Find [latex]Y[/latex].",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1634",
+        "B": "1737",
+        "C": "3142",
+        "D": "3162"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]Y=(7526)_8-(4364)_8[/latex] (subtract in base 8, borrowing 8):<br><br>\n- 6 [latex]-[/latex] 4 = 2<br>\n- 2 [latex]-[/latex] 6: borrow, 8 + 2 [latex]-[/latex] 6 = 4<br>\n- 4 [latex]-[/latex] 3 = 1<br>\n- 7 [latex]-[/latex] 4 = 3<br><br>\nY = 3142. Check: 4364 + 3142 = 7526 in octal.<br><br>\n<b>Answer: 3142</b><br><br><a href=\"https://gateoverflow.in/2034/gate-cse-2014-set-3-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 65
+    },
+    {
+      "id": "2024-S2-Q64",
+      "source_id": 1124264,
+      "number": 24,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be\nstraight and it should not stop till it reaches the other end of the cube.<br>\nThe minimum number of such cuts required is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "8"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Make three cuts through the centre, one perpendicular to each axis (length, width, height). Each cut doubles the pieces: [latex]2\\times2\\times2=8[/latex] equal cubes.<br><br>\nTwo straight cuts can give at most 4 such equal pieces, so 3 is the minimum.<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/422898/gate-cse-2024-set-2-ga-question-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2025-S2-Q62",
+      "source_id": 1125262,
+      "number": 25,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively then, which one among the given options is the most appropriate code for BEACH?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "CEADP",
+        "B": "IDBFC",
+        "C": "JGIBC",
+        "D": "IBCEC"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability ",
+      "explanation": "Comparing each letter's position to its coded counterpart across both examples reveals the rule: <b>reverse the word, then shift every letter forward by one position in the alphabet</b>. Check: IMAGE reversed is EGAMI; shifting each letter [latex]+1[/latex] gives FHBNJ &mdash; matches exactly. FIELD reversed is DLEIF; shifting [latex]+1[/latex] gives EMFJG &mdash; matches exactly.<br><br>\nApplying the same rule to BEACH: reversed is HCAEB; shifting each letter forward by [latex]1[/latex]: H&rarr;I, C&rarr;D, A&rarr;B, E&rarr;F, B&rarr;C, giving <b>IDBFC</b>.<br><br>\n<b>Answer: IDBFC</b><br><br><a href=\"https://gateoverflow.in/460444/gate-cse-2025-set-2-ga-question-7#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 62
+    },
+    {
+      "id": "2023-Q61",
+      "source_id": 1123161,
+      "number": 26,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The country of Zombieland is in distress since more than 75% of its working\npopulation is suffering from serious health issues. Studies conducted by competent\nhealth experts concluded that a complete lack of physical exercise among its\nworking population was one of the leading causes of their health issues. As one of\nthe measures to address the problem, the Government of Zombieland has decided\nto provide monetary incentives to those who ride bicycles to work.<br>\nBased only on the information provided above, which one of the following\nstatements can be logically inferred with certainty?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "All the working population of Zombieland will henceforth ride bicycles to work.",
+        "B": "Riding bicycles will ensure that all of the working population of Zombieland is free\nof health issues.",
+        "C": "The health experts suggested to the Government of Zombieland to declare riding\nbicycles as mandatory.",
+        "D": "The Government of Zombieland believes that riding bicycles is a form of physical\nexercise."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The government gives incentives for cycling <i>because</i> lack of exercise is a cause of the health issues. This only makes sense if it believes cycling is a form of physical exercise.<br><br>\nThe other options claim things the passage does not support (everyone will cycle, all will be healthy, experts asked for it to be mandatory).<br><br>\n<b>Answer: The Government of Zombieland believes that riding bicycles is a form of physical exercise</b><br><br><a href=\"https://gateoverflow.in/399250/gate-cse-2023-ga-question6#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 61
+    },
+    {
+      "id": "2018-Q64",
+      "source_id": 1118164,
+      "number": 27,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the figure below,  [latex]\\angle DEC + \\angle BFC[/latex]  is equal to _____<br><img src=\"/wp-content/uploads/GATE/CS/2018/q64.webp\" /> <br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/2018/q64.webp"
+      ],
+      "options": {
+        "A": "[latex]\\angle BCD - \\angle BAD[/latex]",
+        "B": "[latex]\\angle BAD + \\angle BCF[/latex]",
+        "C": "[latex]\\angle BAD + \\angle BCD[/latex]",
+        "D": "[latex]\\angle CBA + \\angle ADC[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let [latex]a=\\angle BAD[/latex], [latex]e=\\angle DEC[/latex], [latex]f=\\angle BFC[/latex]. In quadrilateral ABCD:<br>\n- [latex]\\angle ABC=180^\\circ-a-e[/latex] (from triangle AEB)<br>\n- [latex]\\angle ADC=180^\\circ-a-f[/latex] (from triangle ADF)<br>\n- [latex]\\angle BCD=360^\\circ-a-(180^\\circ-a-e)-(180^\\circ-a-f)=a+e+f[/latex]<br><br>\nSo [latex]e+f=\\angle BCD-\\angle BAD[/latex].<br><br>\n<b>Answer: [latex]\\angle BCD-\\angle BAD[/latex]</b><br><br><a href=\"https://gateoverflow.in/204070/gate-cse-2018-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 64
+    },
+    {
+      "id": "2015-S1-Q63",
+      "source_id": 1115163,
+      "number": 28,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The given statement is followed by some courses of action. Assuming the statement to be true, decide the correct option.\n<br><br>\nStatement:\n<br>\nThere has been a significant drop in the water level in the lakes supplying water to the city.\n<br><br>\nCourse of action:\n<br>\nI.   The water supply authority should impose a partial cut in supply to tackle the situation.\n<br>II.  The government should appeal to all the residents through mass media for minimal use of water.\n<br>III. The government should ban the water supply in lower areas.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Statements I and II follow.",
+        "B": "Statements I and III follow.",
+        "C": "Statements II and III follow.",
+        "D": "All the statements follow."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A partial supply cut (I) and an appeal to save water (II) are sensible ways to manage a shortage.<br><br>\nBanning supply only in lower areas (III) is unfair and extreme.<br><br>\n<b>Answer: Statements I and II follow</b><br><br><a href=\"https://gateoverflow.in/8012/gate-cse-2015-set-1-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 63
+    },
+    {
+      "id": "2010-Q65",
+      "source_id": 1110165,
+      "number": 29,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given digits 2, 2, 3, 3, 3, 4, 4, 4, 4 how many distinct 4 digit numbers greater than 3000 can be formed?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "50",
+        "B": "51",
+        "C": "52",
+        "D": "54"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "First digit must be 3 or 4.<br><br>\n- First 3: remaining 2, 2, 3, 3, 4, 4, 4, 4. All [latex]3^3=27[/latex] three-digit strings except 222 and 333 [latex]\\rightarrow[/latex] 25<br>\n- First 4: remaining 2, 2, 3, 3, 3, 4, 4, 4. All 27 except 222 [latex]\\rightarrow[/latex] 26<br><br>\nTotal = 25 + 26 = 51<br><br>\n<b>Answer: 51</b><br><br><a href=\"https://gateoverflow.in/2373/gate-cse-2010-question-65#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 65
+    },
+    {
+      "id": "2023-Q63",
+      "source_id": 1123163,
+      "number": 30,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following sentence sequences creates a coherent narrative?<br>\n<br>(i) Once on the terrace, on her way to her small room in the corner, she\nnotices the man right away.\n<br>(ii) She begins to pant by the time she has climbed all the stairs.\n<br>(iii) Mina has bought vegetables and rice at the market, so her bags are\nheavy.\n<br>(iv) He was leaning against the parapet, watching the traffic below.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i), (ii), (iv), (iii)",
+        "B": "(ii), (iii), (i), (iv)",
+        "C": "(iv), (ii), (i), (iii)",
+        "D": "(iii), (ii), (i), (iv)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Follow the story:<br>- (iii) introduces Mina and her heavy bags.<br>\n- (ii) explains that she pants after climbing the stairs (because of the bags).<br>\n- (i) she reaches the terrace and notices \"the man\".<br>\n- (iv) describes him (\"He was leaning[latex]\\ldots[/latex]\").<br><br>\n<b>Answer: (iii), (ii), (i), (iv)</b><br><br><a href=\"https://gateoverflow.in/399248/gate-cse-2023-ga-question8#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 63
+    }
+  ]
+}

@@ -1,0 +1,1612 @@
+{
+  "paper_id": "2016-S1",
+  "paper": "GATE CS 2016 SET 1",
+  "year": 2016,
+  "set": 1,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-2016-set-1",
+  "source_id": 11161,
+  "total_marks": 100,
+  "scraped_at": "2026-11-06T09:38:45Z",
+  "questions": [
+    {
+      "id": "2016-S1-Q1",
+      "source_id": 1116101,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let p,q, r, s represent the following propositions.<br><br>\np:  x[latex]\\in[/latex]{8,9,10,11,12} <br>\nq:  x is a composite number <br>\nr:  x is a perfect square <br>\ns:  x is a prime number <br><br>\nThe integer x[latex]\\geq[/latex]2 which satisfies [latex]\\neg((p\\Rightarrow q)\\wedge (\\neg r \\vee \\neg s))[/latex] is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        11.0,
+        11.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex]\\neg((p\\Rightarrow q)\\wedge(\\neg r\\vee\\neg s))\\equiv(p\\wedge\\neg q)\\vee(r\\wedge s)[/latex]<br><br>\n- [latex]r\\wedge s[/latex] (perfect square and prime) is impossible.<br>\n- So we need [latex]p\\wedge\\neg q[/latex]: x in {8, 9, 10, 11, 12} and <b>not composite</b>. Only 11 qualifies.<br><br>\n<b>Answer: 11</b><br><br><a href=\"https://gateoverflow.in/39663/gate2016-1-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q2",
+      "source_id": 1116102,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]a_{n}[/latex] be the number of n-bit strings that do NOT contain two consecutive 1s. Which one of the following is the recurrence relation for [latex]a_{n}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]a_{n}=a_{n-1}+2a_{n-2}[/latex]",
+        "B": "[latex]a_{n}=a_{n-1}+a_{n-2}[/latex]",
+        "C": "[latex]a_{n}=2a_{n-1}+a_{n-2}[/latex]",
+        "D": "[latex]a_{n}=2a_{n-1}+2a_{n-2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Recurrence",
+      "explanation": "Look at the first bit of a valid n-bit string:<br>\n- starts with 0: the rest is any valid (n [latex]-[/latex] 1)-bit string [latex]\\rightarrow[/latex] [latex]a_{n-1}[/latex]<br>\n- starts with 1: the next bit must be 0, then any valid (n [latex]-[/latex] 2)-bit string [latex]\\rightarrow[/latex] [latex]a_{n-2}[/latex]<br><br>\n[latex]a_n=a_{n-1}+a_{n-2}[/latex]<br><br>\n<b>Answer: [latex]a_n=a_{n-1}+a_{n-2}[/latex]</b><br><br><a href=\"https://gateoverflow.in/39636/gate2016-1-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q3",
+      "source_id": 1116103,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "[latex]\\lim_{x\\rightarrow 4}\\frac{sin(x-4)}{x-4}[/latex]=_________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.0,
+        1.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Put [latex]t=x-4\\rightarrow0[/latex]: [latex]\\lim_{t\\to0}\\frac{\\sin t}{t}=1[/latex].<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/39630/gate2016-1-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q4",
+      "source_id": 1116104,
+      "number": 4,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A probability density function on the interval [a,1] is given by 1/[latex]x^{2}[/latex]\n and outside this interval the value of the function is zero.The value of a is __________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.5,
+        0.5
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Total probability must be 1:<br>\n[latex]\\int_a^1\\frac{1}{x^2}dx=\\left[-\\frac1x\\right]_a^1=\\frac1a-1=1\\Rightarrow a=\\frac12[/latex]<br><br>\n<b>Answer: 0.5</b><br><br><a href=\"https://gateoverflow.in/39661/gate2016-1-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q5",
+      "source_id": 1116105,
+      "number": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Two eigen values of a 3x3 real matrix P are (2+[latex]\\sqrt{-1}[/latex]) and 3.The determinantof P is __________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        15.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "A real matrix has complex eigenvalues in conjugate pairs, so [latex]2-i[/latex] is the third eigenvalue.<br><br>\n[latex]\\det P=(2+i)(2-i)\\times3=(4+1)\\times3=15[/latex]<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/39634/gate2016-1-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q6",
+      "source_id": 1116106,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the Boolean operator with the following properties:<br>\n[latex]x \\# 0=x, x \\# 1=\\bar{x}[/latex], [latex]x \\# x=0[/latex] and [latex]x \\# \\bar{x}=1[/latex]. Then [latex]x \\# y[/latex] is equivalent to",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]x\\bar{y}+\\bar{x}y[/latex]",
+        "B": "[latex]x\\bar{y}+\\bar{x}\\bar{y}[/latex]",
+        "C": "[latex]\\bar{x}y+xy[/latex]",
+        "D": "[latex]xy+\\bar{x}\\bar{y}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "[latex]x\\#0=x[/latex], [latex]x\\#1=\\bar x[/latex], [latex]x\\#x=0[/latex], [latex]x\\#\\bar x=1[/latex]: these are exactly the properties of <b>XOR</b>.<br><br>\n[latex]x\\#y=x\\bar y+\\bar xy[/latex]<br><br>\n<b>Answer: [latex]x\\bar y+\\bar xy[/latex]</b><br><br><a href=\"https://gateoverflow.in/39629/gate2016-1-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q7",
+      "source_id": 1116107,
+      "number": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The 16 bit 2's complement representation of an integer is 1111 1111 1111 0101;   its decimal representation is__________ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        -11.0,
+        -11.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "The MSB is 1, so the number is negative. Take the 2's complement of 1111 1111 1111 0101:<br>\ninvert [latex]\\rightarrow[/latex] 0000 0000 0000 1010, add 1 [latex]\\rightarrow[/latex] 0000 0000 0000 1011 = 11.<br><br>\n<b>Answer: -11</b><br><br><a href=\"https://gateoverflow.in/39649/gate2016-1-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q8",
+      "source_id": 1116108,
+      "number": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "We want to design a synchronous counter that counts these quence 0-1-0-2-0-3 and then repeats. The minimum number of J-K flip flop srequired to implement this counteris ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        4.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "The sequence 0, 1, 0, 2, 0, 3 has 6 steps, and the three 0s are followed by different numbers, so the counter needs 6 different internal states.<br><br>\n6 states need [latex]\\lceil\\log_2 6\\rceil=3[/latex] flip-flops (the output is then decoded from the state).<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/39670/gate2016-1-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q9",
+      "source_id": 1116109,
+      "number": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A processor can support a maximum memory of 4GB, where the memory is word-addressable (a word consists of two bytes). The size of the address bus of the process or is at least bits________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        31.0,
+        31.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "4 GB = [latex]2^{32}[/latex] bytes. One word = 2 bytes, so there are [latex]2^{31}[/latex] words.<br>\nWord addressable [latex]\\rightarrow[/latex] [latex]2^{31}[/latex] addresses [latex]\\rightarrow[/latex] 31 address bits.<br><br>\n<b>Answer: 31</b><br><br><a href=\"https://gateoverflow.in/39632/gate2016-1-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q10",
+      "source_id": 1116110,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A queue is implemented using an array such that ENQUEUE and DEQUEUE operations are performed efficiently. Which one of the following statements is CORRECT (n refers to the number of items in the queue)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both operations can be performed in O(1) time",
+        "B": "At most one operation can be performed in O(1) time but the worst case time for\nthe other operation will be [latex]\\Omega[/latex](n)",
+        "C": "The worst case time complexity for both operations will be [latex]\\Omega[/latex](n)",
+        "D": "Worst case time complexity for both operations will be [latex]\\Omega[/latex](logn)"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Queue",
+      "explanation": "Use a <b>circular array</b> with front and rear indices: ENQUEUE writes at rear and moves it, DEQUEUE reads at front and moves it (both modulo the array size). No shifting is needed, so both are [latex]O(1)[/latex].<br><br>\n<b>Answer: Both operations can be performed in O(1) time</b><br><br><a href=\"https://gateoverflow.in/39667/gate2016-1-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q11",
+      "source_id": 1116111,
+      "number": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following directed graph: <br><img src=\"/wp-content/uploads/GATE/CS/20161/q11.jpg\"/> <br>\nThe number of different topological orderings of the vertices of the graph is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20161/q11.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        6.0,
+        6.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Graph Traversal",
+      "explanation": "a must come first and f last. In between, b must come before c, and d before e, but the two chains are independent.<br><br>\nNumber of ways to interleave b c with d e = [latex]\\binom42=6[/latex].<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/39669/gate2016-1-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q12",
+      "source_id": 1116112,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following C program. <pre><code> void f(int,short);\nvoid main()\n{\nint i=100;\nshort s=12;\nshort *p=&s;\n__________ ;//calltof()\n} </code></pre> Which one of the following expressions, when placed in the blank above, will NOT result in a typec hecking error?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "f(s,*s)",
+        "B": "i=f(i,s)",
+        "C": "f(i,*s)",
+        "D": "f(i,*p)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "f takes (int, short) and returns void.<br>\n- f(s, *s): s is a short, not a pointer, so *s is invalid.<br>\n- i = f(i, s): f returns void, so it cannot be assigned.<br>\n- f(i, *s): again *s is invalid.<br>\n- <b>f(i, *p)</b>: i is int, *p is the short s True<br><br>\n<b>Answer: f(i,*p)</b><br><br><a href=\"https://gateoverflow.in/39638/gate2016-1-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q13",
+      "source_id": 1116113,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The worst case running times of Insertion sort, Mergesort and Quicksort, respectively, are:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta[/latex](n logn), [latex]\\Theta[/latex](n logn), and [latex]\\Theta(n^{2})[/latex]",
+        "B": "[latex]\\Theta (n^{2}),\\Theta(n^{2}), and \\Theta (n logn)[/latex]",
+        "C": "[latex]\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n logn)[/latex]",
+        "D": "[latex]\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n^{2})[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "Checking each statement:<br>- Insertion sort worst case (reverse sorted): [latex]\\Theta(n^2)[/latex]<br>\n- Merge sort is always [latex]\\Theta(n\\log n)[/latex]<br>\n- Quicksort worst case (bad pivots every time): [latex]\\Theta(n^2)[/latex]<br><br>\n<b>Answer: [latex]\\Theta(n^2),\\Theta(n\\log n),\\Theta(n^2)[/latex]</b><br><br><a href=\"https://gateoverflow.in/39660/gate2016-1-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q14",
+      "source_id": 1116114,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be a weighted connected undirected graph with distinct positive edge weights. If every edge weight is increasedby the same value ,then which of the following statements is/are TRUE?<br>\nP: Minimum spanning tree of G does not change <br>\nQ: Shortest path between any pair of vertices does not change",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P only",
+        "B": "Q only",
+        "C": "Neither P nor Q",
+        "D": "Both P and Q"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Checking each statement:<br>- <b>P</b>: adding the same value to every edge keeps their relative order, so Kruskal picks the same edges [latex]\\rightarrow[/latex] the MST does not change [latex]\\text{---}[/latex] TRUE.<br>\n- <b>Q</b>: a path with more edges gains more. E.g. a path 1 + 1 = 2 vs a direct edge 3 becomes 11 + 11 = 22 vs 13 (adding 10) [latex]\\rightarrow[/latex] shortest paths can change [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: P only</b><br><br><a href=\"https://gateoverflow.in/39673/gate2016-1-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q15",
+      "source_id": 1116115,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider  the following C program.<pre><code>\n#include &lt;stdio.h&gt;\nvoid mystery(int *ptra,int *ptrb){\n   int *temp;\n   temp =ptrb; \n   ptrb =ptra;\n   ptra =temp;\n}\nint main(){\n   int a=2016,b=0,c=4,d=42;\n   mystery(&a, &b);\n   if (a &lt; c)\n            mystery(&c, &a);\n   mystery(&a, &d);\n   printf(\"%d\\n\", a);\n}</code></pre>\nThe output of the program is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2016.0,
+        2016.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "mystery only swaps its <b>local pointer copies</b> (ptra, ptrb); it never changes *ptra or *ptrb. So a, b, c, d in main never change.<br><br>\na is still 2016.<br><br>\n<b>Answer: 2016</b><br><br><a href=\"https://gateoverflow.in/39642/gate2016-1-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q16",
+      "source_id": 1116116,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following languages is generated by the given grammar?<br> [latex]S\\rightarrow aS|bS|\\varepsilon[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\{a^{n}b^{m}|n,m\\geq 0 \\}[/latex]",
+        "B": "{[latex]\\{w\\in \\{a,b\\}^*| w [/latex] has equal number of a's and b's}",
+        "C": "[latex]\\{a^{n}|n\\geq 0\\}\\cup \\{b^{n}|n\\geq 0\\}\\cup \\{a^{n}b^{n}\\geq 0\\}[/latex]",
+        "D": "{a,b}*"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "[latex]S\\rightarrow aS\\mid bS\\mid\\varepsilon[/latex] adds any a or b at each step, in any order and any number of times, so it generates every string over {a, b}, including [latex]\\varepsilon[/latex].<br><br>\n<b>Answer: {a,b}*</b><br><br><a href=\"https://gateoverflow.in/39640/gate2016-1-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q17",
+      "source_id": 1116117,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which  of the following decision problems are undecidable?<br>\nI. Given NFAs N1 and N2, is L(N1)[latex]\\cap[/latex]L(N2) = [latex]\\phi[/latex]?<br>\nII. Given a CFG G = (N,[latex]\\Sigma [/latex],P,S)  and a string  [latex]x \\in\\Sigma ^*[/latex], does  [latex]x \\in[/latex] L(G)?<br>\nIII. Given CFGs G1 and G2, is L(G1) = L(G2)?<br>\nIV. Given a TM M, is L(M) = [latex]\\phi[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and IV only",
+        "B": "II and III only",
+        "C": "III and IV only",
+        "D": "II and IV only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Undecidability",
+      "explanation": "Checking each statement:<br>- I: NFA intersection emptiness: build the product automaton and check reachability [latex]\\rightarrow[/latex] decidable.<br>\n- II: CFG membership: CYK algorithm [latex]\\rightarrow[/latex] decidable.<br>\n- III: equivalence of two CFGs [latex]\\rightarrow[/latex] <b>undecidable</b>.<br>\n- IV: emptiness of a TM's language (Rice) [latex]\\rightarrow[/latex] <b>undecidable</b>.<br><br>\n<b>Answer: III and IV only</b><br><br><a href=\"https://gateoverflow.in/39651/gate2016-1-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q18",
+      "source_id": 1116118,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following regular expressions represents the language: the set of all binary strings having two consecutive 0s and two consecutive 1s?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(0+1)*0011(0+1)*+(0+1)*1100(0+1)*",
+        "B": "(0+1)*(00(0+1)*11+11(0+1)*00)(0+1)*",
+        "C": "(0+1)*00(0+1)*+(0+1)*11(0+1)*",
+        "D": "00(0+1)*11+11(0+1)*00"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "The string must contain \"00\" somewhere and \"11\" somewhere, in either order:<br>\n[latex](0+1)^*\\big(00(0+1)^*11+11(0+1)^*00\\big)(0+1)^*[/latex] True<br><br>\n- Option 1 forces 00 and 11 to be adjacent (0011 or 1100).<br>\n- Option 3 needs only one of them.<br>\n- Option 4 forces them at the very start and end.<br><br>\n<b>Answer: Option 2</b><br><br><a href=\"https://gateoverflow.in/39647/gate2016-1-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q19",
+      "source_id": 1116119,
+      "number": 19,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following code segment.<br>\nx =u-t; <br>\ny =x*v; <br> \nx =y+w; <br>\ny =t-z; <br>\ny =x*y; <br>\nThe minimum number of total variables required to convert the above code segment to static single assignment form is__________ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        10.0,
+        10.0
+      ],
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "In SSA form every assignment gets a new variable:<br>\n[latex]x_1=u-t;\\ y_1=x_1v;\\ x_2=y_1+w;\\ y_2=t-z;\\ y_3=x_2y_2[/latex]<br><br>\nNew variables: [latex]x_1,y_1,x_2,y_2,y_3[/latex] (5), plus the inputs u, t, v, w, z (5).<br><br>\nTotal = 10<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/39675/gate2016-1-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q20",
+      "source_id": 1116120,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider an arbitrary set of CPU-bound processes with unequal CPU burst lengths\nsubmitted at the same time to a computer system.Which one of the following process scheduling algorithms would minimize the average waiting time in the ready queue?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Shortest remaining time first",
+        "B": "Round-robin with time quantum less than the shortest CPU burst",
+        "C": "Uniform random",
+        "D": "Highest priority first with priority proportional to CPU burst length"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "All processes arrive together, so shortest remaining time first behaves like SJF, which is <b>optimal</b> for average waiting time. Round robin, random order or \"long jobs first\" make short jobs wait longer.<br><br>\n<b>Answer: Shortest remaining time first</b><br><br><a href=\"https://gateoverflow.in/39655/gate2016-1-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q21",
+      "source_id": 1116121,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is NOT a superkey in a relational schema with attributes\nV,W, X, Y, Z and primary key V Y?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "VXYZ",
+        "B": "VWXZ",
+        "C": "VWXY",
+        "D": "VWXYZ"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "A superkey must contain the whole primary key {V, Y}.<br>\nVWXZ has V but <b>no Y</b> [latex]\\rightarrow[/latex] not a superkey. The others all contain both V and Y.<br><br>\n<b>Answer: VWXZ</b><br><br><a href=\"https://gateoverflow.in/39637/gate2016-1-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q22",
+      "source_id": 1116122,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is NOT a part of the ACID properties of database transactions?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Atomicity",
+        "B": "Consistency",
+        "C": "Isolation",
+        "D": "Deadlock-freedom"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "ACID = Atomicity, Consistency, Isolation, Durability. Deadlock-freedom is not one of them.<br><br>\n<b>Answer: Deadlock-freedom</b><br><br><a href=\"https://gateoverflow.in/39644/gate2016-1-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q23",
+      "source_id": 1116123,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A database of resear charticles in a journal uses the following schema.\n<br><img src=\"/wp-content/uploads/GATE/CS/20161/q23.jpg\"/> <br>\nWhich is the weakest normal form that the new database satisfies,but the old one does not?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20161/q23.jpg"
+      ],
+      "options": {
+        "A": "1NF",
+        "B": "2NF",
+        "C": "3NF",
+        "D": "BCNF"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "Old schema: key (VOLUME, NUMBER, STARTPAGE, ENDPAGE), and (VOLUME, NUMBER) [latex]\\rightarrow[/latex] YEAR is a <b>partial dependency</b> (part of the key determines a non-key attribute) [latex]\\rightarrow[/latex] only 1NF.<br><br>\nNew schemas: YEAR moves to (VOLUME, NUMBER, YEAR), so the partial dependency is gone [latex]\\rightarrow[/latex] 2NF (in fact both are in BCNF).<br><br>\nThe weakest form the new one satisfies but the old one does not is <b>2NF</b>.<br><br>\n<b>Answer: 2NF</b><br><br><a href=\"https://gateoverflow.in/39646/gate2016-1-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q24",
+      "source_id": 1116124,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following protocols is NOT used to resolve one form of address to another one?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "DNS",
+        "B": "ARP",
+        "C": "DHCP",
+        "D": "RARP"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Checking each statement:<br>- DNS: hostname [latex]\\rightarrow[/latex] IP<br>\n- ARP: IP [latex]\\rightarrow[/latex] MAC<br>\n- RARP: MAC [latex]\\rightarrow[/latex] IP<br>\n- <b>DHCP</b> assigns IP configuration to hosts; it does not translate one address form into another.<br><br>\n<b>Answer: DHCP</b><br><br><a href=\"https://gateoverflow.in/39639/gate2016-1-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q25",
+      "source_id": 1116125,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is/are example(s) of stateful application layer protocols?<br>\n(i) HTTP <br>\n(ii) FTP <br>\n(iii) TCP <br>\n(iv) POP3",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) and(ii)only",
+        "B": "(ii) and(iii)only",
+        "C": "(ii) and(iv)only",
+        "D": "(iv)only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Application Layer Protocols",
+      "explanation": "Checking each statement:<br>- HTTP is stateless (each request is independent).<br>\n- FTP keeps session state (login, current directory) [latex]\\rightarrow[/latex] stateful.<br>\n- TCP is a transport protocol, not application layer.<br>\n- POP3 keeps session state (authorization, transaction states) [latex]\\rightarrow[/latex] stateful.<br><br>\n<b>Answer: (ii) and (iv) only</b><br><br><a href=\"https://gateoverflow.in/39628/gate2016-1-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q26",
+      "source_id": 1116126,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The coefficient of [latex]x^{12}[/latex] in [latex](x^{3}+x^{4}+x^{5}+x^{6}+. . . )^{3}[/latex] is ______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        10.0,
+        10.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex](x^3+x^4+\\cdots)^3=x^9(1+x+x^2+\\cdots)^3=x^9(1-x)^{-3}[/latex]<br><br>\nWe need the coefficient of [latex]x^3[/latex] in [latex](1-x)^{-3}[/latex]: [latex]\\binom{3+2}{2}=10[/latex].<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/39693/gate2016-1-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q27",
+      "source_id": 1116127,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the recurrence relation [latex]a_{1}[/latex]=8, [latex]a_{n}=6n^{2}+2n+a_{n-1}[/latex]. Let [latex]a_{99}= K  \\times  10^{4}[/latex]. The value of K is .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        197.9,
+        198.1
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Recurrence",
+      "explanation": "Since [latex]a_1=8=6+2[/latex], [latex]a_n=\\sum_{k=1}^{n}(6k^2+2k)=n(n+1)(2n+1)+n(n+1)=2n(n+1)^2[/latex].<br><br>\n[latex]a_{99}=2\\times99\\times100^2=1980000=198\\times10^4[/latex]<br><br>\n<b>Answer: 198</b><br><br><a href=\"https://gateoverflow.in/39714/gate2016-1-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q28",
+      "source_id": 1116128,
+      "number": 28,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A function [latex]f:\\mathbb{N}^{+}\\rightarrow \\mathbb{N}^{+}[/latex], defined on the set of positive integers [latex]\\mathbb{N}^{+}[/latex], satisfies the following properties:<br>\nf(n)=f(n/2)   if n  is even <br>\nf(n)=f(n+5)   if n is odd <br>\nLet R={[latex]i|\\exists j:f(j)=i[/latex]} be the set of distinct values that f takes. The maximum possible size of R is ____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Both rules keep a number inside its class:<br>\n- If n is a multiple of 5, n/2 (when even) and n + 5 are still multiples of 5.<br>\n- If n is not a multiple of 5, neither are n/2 and n + 5.<br><br>\nWithin each class all values are linked (e.g. 1 [latex]\\rightarrow[/latex] 6 [latex]\\rightarrow[/latex] 3 [latex]\\rightarrow[/latex] 8 [latex]\\rightarrow[/latex] 4 [latex]\\rightarrow[/latex] 2 [latex]\\rightarrow[/latex] 1, and 5 [latex]\\rightarrow[/latex] 10 [latex]\\rightarrow[/latex] 5), so f can take at most one value per class: at most 2 values.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/39717/gate2016-1-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q29",
+      "source_id": 1116129,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following experiment. <br>\nStep 1. Flip a fair coin twice. <br>\nStep 2. If the outcomes are(TAILS, HEADS) then output Y and stop. <br>\nStep 3. If the outcomes are either(HEADS, HEADS) or(HEADS, TAILS), then output N and stop. <br>\nStep 4. If the out comes are(TAILS, TAILS), then go to Step1. <br>\nThe probability that the output of the experiment is Y is (up to two decimal places)_____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.33,
+        0.34
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "In each round of two flips: Y with probability 1/4 (TH), N with 1/2 (HH or HT), repeat with 1/4 (TT).<br><br>\n[latex]P(Y)=\\frac{1/4}{1/4+1/2}=\\frac13\\approx0.33[/latex]<br><br>\n<b>Answer: 0.33</b><br><br><a href=\"https://gateoverflow.in/39709/gate2016-1-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q30",
+      "source_id": 1116130,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the two cascaded 2-to-1 multiplexers as shown in the figure. <br><img src=\"/wp-content/uploads/GATE/CS/20161/q30.jpg\"/>  <br> The minimal sum of products form of the output X is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20161/q30.jpg"
+      ],
+      "options": {
+        "A": "[latex]\\bar{P}\\bar{Q}+PQR[/latex]",
+        "B": "[latex]\\bar{P}Q+QR[/latex]",
+        "C": "[latex]PQ+\\bar{P}\\bar{Q}R[/latex]",
+        "D": "[latex]\\bar{Q}\\bar{R}+PQR[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "First mux (select P): output = R if P = 1, else 0 [latex]\\rightarrow[/latex] PR.<br>\nSecond mux (select Q): X = PR if Q = 1, else [latex]\\bar R[/latex].<br><br>\n[latex]X=\\bar Q\\bar R+QPR[/latex]<br><br>\n<b>Answer: [latex]\\bar Q\\bar R+PQR[/latex]</b><br><br><a href=\"https://gateoverflow.in/39722/gate2016-1-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q31",
+      "source_id": 1116131,
+      "number": 31,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The size of the data count register of a DMA controller is 16 bits.The processor needs to transfer a file of 29,154 kilobytes from disk to main memory.The memory is byte addressable. The minimum number of times the DMA control lerneeds to get the control of the systembus from the processor to transfer the file from the disk to main memory is ____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        456.0,
+        456.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "IO Interface",
+      "explanation": "A 16-bit count register lets the DMA move at most [latex]2^{16}[/latex] bytes = 64 KB each time it takes the bus.<br><br>\n[latex]\\lceil29154/64\\rceil=\\lceil455.5\\rceil=456[/latex]<br><br>\n<b>Answer: 456</b><br><br><a href=\"https://gateoverflow.in/39698/gate2016-1-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q32",
+      "source_id": 1116132,
+      "number": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The stage delays in a 4-stage pipeline are 800,500,400 and 300 picoseconds.The first stage (with delay 800 picoseconds)is replaced with a functionally equivalent design involving two stages with respective delays 600 and 350 picoseconds.The throughput increase of the pipeline is ________ percent.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        33.0,
+        34.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "Throughput is 1 / (slowest stage).<br>\n- Before: max delay 800 ps.<br>\n- After: stages 600, 350, 500, 400, 300 [latex]\\rightarrow[/latex] max 600 ps.<br><br>\nIncrease [latex]=\\frac{1/600-1/800}{1/800}=\\frac{800}{600}-1=33.3\\%[/latex]<br><br>\n<b>Answer: 33.33</b><br><br><a href=\"https://gateoverflow.in/39691/gate2016-1-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q33",
+      "source_id": 1116133,
+      "number": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a carry lookahead adder for adding two n-bit integers,built using gates of fan-in at most two. The time to perform addition using this adder is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta (1)[/latex]",
+        "B": "[latex]\\Theta (log(n))[/latex]",
+        "C": "[latex]\\Theta \\sqrt{n}[/latex]",
+        "D": "[latex]\\Theta (n)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "Carry lookahead computes all carries from the generate/propagate signals. With gates of fan-in 2, combining n signals needs a tree of depth [latex]\\log_2 n[/latex].<br><br>\n<b>Answer: [latex]\\Theta(\\log n)[/latex]</b><br><br><a href=\"https://gateoverflow.in/39688/gate2016-1-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q34",
+      "source_id": 1116134,
+      "number": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The following function computes the maximum value contained in an integer array p[] of size n (n&gt;=1).<pre><code> \nint max(int*p, int n){\n   int a=0,b=n-1;\n   while (__________){\n   if (p[a]<=p[b]){a=a+1;} \n   else {b=b-1;}\n   }\n   return p[a];\n}</code></pre>\nThe missing loop condition is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a !=n",
+        "B": "b !=0",
+        "C": "b [latex]\\gt[/latex] (a+1)",
+        "D": "b !=a"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Loop",
+      "explanation": "Two pointers start at the ends; each step discards the smaller of p[a] and p[b] (the maximum is never discarded). The loop must stop when only one candidate is left, i.e. when a and b meet.<br><br>\nLoop condition: b != a.<br><br>\n<b>Answer: b != a</b><br><br><a href=\"https://gateoverflow.in/39704/gate2016-1-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q35",
+      "source_id": 1116135,
+      "number": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What will be the output of the following C program?<pre><code>\nvoid count(int n){\n   static int d=1;\n   printf(\"%d \",n);\n   printf(\"%d \",d);\n   d++;\n   if(n&gt1) count(n-1);\n   printf(\"%d \",d);\n}\nvoid main(){\n    count(3);\n}</code></pre>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "312213444",
+        "B": "312111222",
+        "C": "3122134",
+        "D": "3121112"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "d is static (one copy, starts at 1).<br>\n- count(3): prints 3, 1; d = 2; calls count(2)<br>\n- count(2): prints 2, 2; d = 3; calls count(1)<br>\n- count(1): prints 1, 3; d = 4; prints 4<br>\n- back in count(2): prints 4; back in count(3): prints 4<br><br>\nOutput: 3 1 2 2 1 3 4 4 4<br><br>\n<b>Answer: 312213444</b><br><br><a href=\"https://gateoverflow.in/39730/gate2016-1-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q36",
+      "source_id": 1116136,
+      "number": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What will be the output of the following pseudo-code when parameters are passed by reference and dynamic scoping is assumed?<pre><code>\na=3;\nvoid n(x){x=x*a;  print(x);}\nvoid m(y){a=1;a=y-a;n(a);print(a);}\nvoid main(){m(a);}</code></pre>",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "6,2",
+        "B": "6,6",
+        "C": "4,2",
+        "D": "4,4"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "Read \"a = 1\" in m as declaring a <b>local a</b> of m. y refers to the global a (= 3).<br>\n- m: local a = 1, then a = y [latex]-[/latex] a = 3 [latex]-[/latex] 1 = <b>2</b>.<br>\n- n(a): x refers to m's local a. With dynamic scoping, the a inside n is also m's a (the most recent active a). x = x [latex]\\times[/latex] a = 2 [latex]\\times[/latex] 2 = 4, and since x is that same a, a becomes 4. Prints <b>4</b>.<br>\n- Back in m: print(a) prints <b>4</b>.<br><br>\n<b>Answer: 4,4</b><br><br><a href=\"https://gateoverflow.in/39701/gate2016-1-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q37",
+      "source_id": 1116137,
+      "number": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An operator delete(i) for a binary heap data structure is to be designed to delete the item in the i-th node.Assume that the heap is implemented in an array and i refers to the i-th index of thearray.If the heap tree has depth d (number of edges on the path from the root to the farthest leaf),the n what is the time complexity to re-fix the heap efficiently after the removal of the element?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "O(1)",
+        "B": "O(d) but not O(1)",
+        "C": "O([latex]2^{d}[/latex]) but not O(d)",
+        "D": "O(d [latex]2^{d}[/latex]) but not O([latex]2^{d}[/latex])"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "To delete node i: move the last element into position i, then either sift it up or down. Either way it moves along one root-to-leaf path, at most d levels [latex]\\rightarrow[/latex] [latex]O(d)[/latex]. It can take that long, so it is not [latex]O(1)[/latex].<br><br>\n<b>Answer: O(d) but not O(1)</b><br><br><a href=\"https://gateoverflow.in/39706/gate2016-1-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q38",
+      "source_id": 1116138,
+      "number": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the weighted undirected graph with 4 vertices,where the weigh to edge {i, j} is given by the entry Wij in the matrix W. <br> [latex]W=\\begin{bmatrix} 0 & 2&8 & 5\\\\ 2& 0& 5 &8 \\\\ 8 & 5 & 0& x\\\\ 5&8 & x&0 \\end{bmatrix}[/latex] <br>The largest possible integer value of x, for which at least one shortest path between some pair\nof vertices will contain the edge with weight x is ____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        12.0,
+        12.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "Without edge {3, 4}, the shortest path from 3 to 4 is 3-2-1-4 = 5 + 2 + 5 = 12.<br><br>\nThe edge of weight x lies on a shortest path (at least one, possibly tied) only if [latex]x\\le12[/latex]. The largest integer is 12.<br><br>\n<b>Answer: 12</b><br><br><a href=\"https://gateoverflow.in/39731/gate2016-1-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q39",
+      "source_id": 1116139,
+      "number": 39,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let G be a complete undirected graph on 4 vertices, having 6 edges  with weights being 1,2,3,4,5, and 6. The maximum possible weight that a minimum weight spanning tree of G can haveis .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        7.0,
+        7.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "An MST of 4 vertices has 3 edges; edges 1 and 2 are always taken (two edges cannot form a cycle).<br><br>\nTo make the third edge as heavy as possible, put edges 1, 2, 3 in a triangle, so 3 is rejected. The 4th vertex must then be joined by the next lightest edge, 4.<br><br>\nMaximum MST weight = 1 + 2 + 4 = 7<br><br>\n<b>Answer: 7</b><br><br><a href=\"https://gateoverflow.in/39725/gate2016-1-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q40",
+      "source_id": 1116140,
+      "number": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "G = (V,E) is an undirected simple graph in which each edge has a distinct weight,and e is a particular edgeof G. Which of the following statements about the minimum spanning trees (MSTs) of G is/are TRUE? <br>\nI. If e is the lightest edge of some cycle in G, then every MST of G includes e <br>\nII. If e is the heaviest edge of some cycle in G, then every MST of G excludes e",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I only",
+        "B": "II only",
+        "C": "both I and II",
+        "D": "neither I nor II"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Checking each statement:<br>- I: the lightest edge of one cycle can still be the heaviest edge of another cycle and be excluded [latex]\\text{---}[/latex] FALSE.<br>\n- II: <b>cycle property</b>: with distinct weights, the heaviest edge of any cycle is in no MST [latex]\\text{---}[/latex] TRUE.<br><br>\n<b>Answer: II only</b><br><br><a href=\"https://gateoverflow.in/39727/gate2016-1-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q41",
+      "source_id": 1116141,
+      "number": 41,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let Q denote a queue containing sixteen numbers and S be an empty stack. Head(Q) returns the element at the head of the queue Q without removing it from Q. Similarly Top(S) returns the element at the top of S without removing it from S. Consider the algorithm given below. <br><img src=\"/wp-content/uploads/GATE/CS/20161/q41.jpg\"/><br> The maximum possible number of iterations of the while loop in the algorithm is_________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20161/q41.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        256.0,
+        256.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Queue",
+      "explanation": "The loop keeps the stack in sorted order, sending larger stack tops back to the queue. The worst case is when the queue is in decreasing order: every element has to be cycled between the stack and the queue many times.<br><br>\nFor n elements the worst case is [latex]n^2[/latex] iterations (check n = 2 with queue [2, 1]: 4 iterations). For n = 16: [latex]16^2=256[/latex].<br><br>\n<b>Answer: 256</b><br><br><a href=\"https://gateoverflow.in/39684/gate2016-1-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q42",
+      "source_id": 1116142,
+      "number": 42,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following context-free grammars:<br><br>\nG1: S[latex]\\rightarrow[/latex]aS|B,<br> B[latex]\\rightarrow[/latex]b|bB <br>\nG2: S[latex]\\rightarrow[/latex]aA|bB, <br> A[latex]\\rightarrow[/latex]aA|B|[latex]\\varepsilon[/latex], <br>  B[latex]\\rightarrow[/latex]bB|[latex]\\varepsilon[/latex] <br><br> Which one of the following pair of languages is generated by G1 and G2, respectively?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\{a^{m}b^{n}|m \\gt 0 \\; or \\;  n \\gt 0\\} [/latex] and [latex]\\{a^{m}b^{n}|m\\gt 0  \\;  and  \\;  n\\gt 0\\}[/latex]",
+        "B": "[latex]\\{a^{m}b^{n}|m\\gt 0  \\; or \\;  n\\gt 0\\}[/latex] and  [latex]\\{a^{m}b^{n}|m\\gt 0  \\; and  \\; n \\geq  0\\}[/latex]",
+        "C": "[latex]\\{a^{m}b^{n}|m\\geq 0  \\;  or   \\; n\\gt 0\\} [/latex] and [latex]\\{a^{m}b^{n}|m\\gt 0  \\;  and  \\;  n\\gt  0\\}[/latex]",
+        "D": "[latex]\\{a^{m}b^{n}|m\\geq 0  \\; and  \\;  n\\gt 0\\} [/latex] and [latex]\\{a^{m}b^{n}|m\\gt 0  \\;  or  \\;  n\\gt 0\\}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "Checking each statement:<br>- G1: [latex]S\\rightarrow aS\\mid B[/latex], [latex]B\\rightarrow b\\mid bB[/latex] gives [latex]a^*b^+[/latex] [latex]\\rightarrow[/latex] [latex]\\{a^mb^n\\mid m\\ge0,\\ n \\gt 0\\}[/latex].<br>\n- G2: aA gives [latex]a^+b^*[/latex] and bB gives [latex]b^+[/latex] [latex]\\rightarrow[/latex] [latex]\\{a^mb^n\\mid m \\gt 0\\text{ or }n \\gt 0\\}[/latex].<br><br>\n<b>Answer: Option 4</b><br><br><a href=\"https://gateoverflow.in/39705/gate2016-1-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q43",
+      "source_id": 1116143,
+      "number": 43,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the transition diagram of a PDA given below with input alphabet [latex]\\Sigma [/latex]={a,b} and stack alphabet [latex]\\Gamma[/latex]={X,Z}. Z is the initial stack symbol. Let L denote the language accepted by the PDA. <br><img src=\"/wp-content/uploads/GATE/CS/20161/q43.jpg\"/> <br>Which one of the following is TRUE?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20161/q43.jpg"
+      ],
+      "options": {
+        "A": "[latex]L=\\{a^{n}b^{n}|n\\geq 0\\}[/latex] is not accepted by any finite automata",
+        "B": "[latex]L=\\{a^{n}|n\\geq 0\\}\\cup \\{a^{n}b^{n}|n\\geq 0\\}[/latex] is not accepted by any deterministic PDA",
+        "C": "L is not accepted by any Turing machine that halts one very input",
+        "D": "[latex]L=\\{a^{n}|n\\geq 0\\}\\cup \\{a^{n}b^{n}|n\\geq 0\\}[/latex] is deterministic context-free"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Push-down Automata",
+      "explanation": "The PDA pushes an X for every a in the start state (which is final), then pops one X per b, and accepts when only Z is left.<br>\nSo [latex]L=\\{a^n\\mid n\\ge0\\}\\cup\\{a^nb^n\\mid n\\ge1\\}[/latex], and every move is deterministic [latex]\\rightarrow[/latex] L is a <b>deterministic CFL</b>.<br><br>\n<b>Answer: L is deterministic context-free</b><br><br><a href=\"https://gateoverflow.in/39732/gate2016-1-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q44",
+      "source_id": 1116144,
+      "number": 44,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let X be a recursive language and Y be a recursively enumerable but not recursive language. Let W and Z be two languages such that [latex]\\bar{Y}[/latex]  reduces to W, and Z reduces to [latex]\\bar{X}[/latex] (reduction means the standard many-one-reduction). Which one of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "W can be recursively enumerable and Z is recursive.",
+        "B": "W can be recursive and Z is recursively enumerable",
+        "C": "W is not recursively enumerable and Z is recursive",
+        "D": "W is not recursively enumerable and Z is not recursive."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Recursive Language",
+      "explanation": "Checking each statement:<br>- Y is RE but not recursive, so [latex]\\bar Y[/latex] is <b>not RE</b>. Since [latex]\\bar Y[/latex] reduces to W, W cannot be RE (otherwise [latex]\\bar Y[/latex] would be).<br>\n- X is recursive, so [latex]\\bar X[/latex] is recursive. Z reduces to [latex]\\bar X[/latex], so Z is <b>recursive</b>.<br><br>\n<b>Answer: W is not recursively enumerable and Z is recursive</b><br><br><a href=\"https://gateoverflow.in/39721/gate2016-1-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q45",
+      "source_id": 1116145,
+      "number": 45,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The attributes of three arithmetic operators in some programming language are given below.\n <br><img src=\"/wp-content/uploads/GATE/CS/20161/q45.jpg\"/> <br>\nThe value of the expression 2-5+1-7*3 in this language is_______ .",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20161/q45.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        9.0,
+        9.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Arithmetic Operation",
+      "explanation": "Precedence: + (highest) [latex]\\gt[/latex] [latex]-[/latex] [latex]\\gt[/latex] * (lowest). So * is applied last:<br>\n[latex](2-5+1-7)*3[/latex]<br><br>\nInside: + first, 5 + 1 = 6 [latex]\\rightarrow[/latex] 2 [latex]-[/latex] 6 [latex]-[/latex] 7. [latex]-[/latex] is right associative: [latex]2-(6-7)=2-(-1)=3[/latex].<br><br>\n[latex]3*3=9[/latex]<br><br>\n<b>Answer: 9</b><br><br><a href=\"https://gateoverflow.in/39697/gate2016-1-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q46",
+      "source_id": 1116146,
+      "number": 46,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following Syntax Directed Translation Scheme(SDTS),with non-terminals {S, A} and terminals {a, b}. <br>\nS [latex]\\rightarrow[/latex] aA {print 1} <br>\nS [latex]\\rightarrow[/latex] a { print 2} <br>\nA [latex]\\rightarrow[/latex] Sb { print 3} <br>\nUsing the above SDTS, the output printed by a bottom-up parser, for the input aab is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "132",
+        "B": "223",
+        "C": "231",
+        "D": "syntax error"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "Parse aab bottom-up:<br>\n1. The second a is reduced by [latex]S\\rightarrow a[/latex] [latex]\\rightarrow[/latex] prints <b>2</b><br>\n2. S b is reduced by [latex]A\\rightarrow Sb[/latex] [latex]\\rightarrow[/latex] prints <b>3</b><br>\n3. a A is reduced by [latex]S\\rightarrow aA[/latex] [latex]\\rightarrow[/latex] prints <b>1</b><br><br>\n<b>Answer: 231</b><br><br><a href=\"https://gateoverflow.in/39700/gate2016-1-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q47",
+      "source_id": 1116147,
+      "number": 47,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a computer system with 40-bit virtual addressing and page size of sixteen\nkilobytes. If the computer system has a one level page table per process and each page table entry requires 48 bits, then the size of the per-process page table is _________ mega bytes.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        384.0,
+        384.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "Entries = [latex]\\frac{2^{40}}{2^{14}}=2^{26}[/latex]. Each entry = 48 bits = 6 bytes.<br><br>\nSize [latex]=2^{26}\\times6=6\\times64\\text{ MB}=384[/latex] MB<br><br>\n<b>Answer: 384</b><br><br><a href=\"https://gateoverflow.in/39690/gate2016-1-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q48",
+      "source_id": 1116148,
+      "number": 48,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a disk queue with requests for I/O to blocks on cylinders 47,38,121,191,87,11, 92, 10. The C-LOOK scheduling algorithm is used. The head is initially at cylinder number 63, moving to wards larger cylinder numbers on its servicing pass. The cylinders are numbered from 0to 199. The total head movement (in number of cylinders) incurred while servicing these requests is____ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        346.0,
+        346.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Disk Scheduling",
+      "explanation": "C-LOOK from 63 going up: 87, 92, 121, 191 (movement 191 [latex]-[/latex] 63 = 128), then jump to the lowest request 10 (191 [latex]-[/latex] 10 = 181), then 11, 38, 47 (47 [latex]-[/latex] 10 = 37).<br><br>\nTotal = 128 + 181 + 37 = 346<br><br>\n<b>Answer: 346</b><br><br><a href=\"https://gateoverflow.in/39716/gate2016-1-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q49",
+      "source_id": 1116149,
+      "number": 49,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a computer system with ten physical page frames. The system is provided with an accessse quence [latex](a_{1},a_{2},...,a_{20},a_{1},a_{2},...,a_{20})[/latex], where each [latex]a_{i}[/latex] is a distinct virtual page number. The difference in the number of page faults between the last-in-first-outpage replacement policy and the optimal page replacement policy is ______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.0,
+        1.0
+      ],
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<b>LIFO</b>: the first pass gives 20 faults; a1-a9 stay in memory and the 10th frame keeps getting replaced (ends with a20). Second pass: a1-a9 hit, a10-a20 fault (11). Total 31.<br><br>\n<b>Optimal</b>: 20 faults in the first pass and only 10 in the second (it keeps 10 of the pages needed next). Total 30.<br><br>\nDifference = 31 [latex]-[/latex] 30 = 1<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/39711/gate2016-1-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q50",
+      "source_id": 1116150,
+      "number": 50,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following proposed solution for the critical section problem. There are n processes: [latex]P_{0}...P_{n-1}[/latex] . In the code,function [latex]pmax[/latex] returns an integer not smaller than any of its arguments. For all i, t[i] is initialized to zero.  <br><img src=\"/wp-content/uploads/GATE/CS/20161/q50.jpg\"/> <br>\nWhich one of the following is TRUE about the above solution?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20161/q50.jpg"
+      ],
+      "options": {
+        "A": "At most one process can be in the critical section at any time",
+        "B": "The bounded wait condition is satisfied",
+        "C": "The progress condition is satisfied",
+        "D": "It cannot cause a deadlock"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "This is a bakery-style algorithm: a process enters only after every other process with a smaller (non-zero) ticket has finished, so <b>mutual exclusion</b> holds.<br><br>\nBut two processes can pick the <b>same</b> ticket (pmax is not atomic). Then each waits for the other (t[j] [latex]\\le[/latex] t[i] holds both ways) [latex]\\rightarrow[/latex] deadlock, so progress and bounded waiting also fail.<br><br>\n<b>Answer: At most one process can be in the critical section at any time</b><br><br><a href=\"https://gateoverflow.in/39719/gate2016-1-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q51",
+      "source_id": 1116151,
+      "number": 51,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following two phase locking protocol. Suppose a transaction T accesses (for read or write operations), a certain set of objects {O1,... ,Ok}. This is done in the following manner: <br>\nStep 1. T acquires exclusive locks to O1,...,Ok in increasing order of their addresses. <br>\nStep 2. The required operations are performed.<br>\nStep 3. All locks are released. <br>\nThis protocol will",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "guarantee serializability and deadlock-freedom",
+        "B": "guarantee neither serializability nor deadlock-freedom",
+        "C": "guarantee serializability but not deadlock-freedom",
+        "D": "guarantee deadlock-freedom but not serializability"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "All locks are taken before any operation and released only at the end [latex]\\rightarrow[/latex] a two-phase locking schedule [latex]\\rightarrow[/latex] <b>serializable</b>.<br><br>\nLocks are always requested in increasing address order, so no circular wait can form [latex]\\rightarrow[/latex] <b>deadlock-free</b>.<br><br>\n<b>Answer: guarantee serializability and deadlock-freedom</b><br><br><a href=\"https://gateoverflow.in/39703/gate2016-1-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q52",
+      "source_id": 1116152,
+      "number": 52,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider that B wants to send a message m that is digitally signed to A. Let the pair of private and public keys for A and B be denoted by [latex]K_{x}^{-}[/latex]\n and [latex]K_{x}^{+}[/latex] for x = A,B, respectively. Let  [latex]K_{x}(m)[/latex] \nrepresent the operation of encrypting m with a key [latex]K_{x}[/latex] and H(m) represent the message digest. Which one of the following indicates the CORRECT way of sending the message m along with the digital signature to A?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{[latex]m,K^{+}_{B}(H(m))[/latex]}",
+        "B": "{[latex]{m,K^{-}_{B}(H(m))}[/latex]}",
+        "C": "{[latex]{m,K^{-}_{A}(H(m))}[/latex]}",
+        "D": "{[latex]{m,K^{+}_{A}(H(m))}[/latex]}"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Security",
+      "explanation": "B signs by encrypting the digest with <b>B's private key</b>: [latex]K_B^-(H(m))[/latex]. A checks it with B's public key [latex]K_B^+[/latex] and compares with H(m).<br><br>\n<b>Answer: {m, [latex]K_B^-(H(m))[/latex]}</b><br><br><a href=\"https://gateoverflow.in/39694/gate2016-1-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q53",
+      "source_id": 1116153,
+      "number": 53,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "An IP datagram of size 1000 bytes arrives at a router. The router has to forward this packet on a link whose MTU (maximum transmission unit)is 100bytes. Assume that the size of the IP header is 20bytes. <br> The number of fragments that the IP datagram will be divided into for transmission is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        13.0,
+        13.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "Data = 1000 [latex]-[/latex] 20 = 980 bytes. Per fragment: 100 [latex]-[/latex] 20 = 80 bytes of data (already a multiple of 8).<br><br>\nFragments = [latex]\\lceil980/80\\rceil=\\lceil12.25\\rceil=13[/latex]<br><br>\n<b>Answer: 13</b><br><br><a href=\"https://gateoverflow.in/39712/gate2016-1-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q54",
+      "source_id": 1116154,
+      "number": 54,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a capacity of 1 megabyte and the maximum output rate is 20 megabytes per second. Tokens arrive at a rate to sustain output at a rate of 10megabytes per second. The  token bucket is currently full and the machine needs to send 12megabytes of data. The minimum time required to transmit the data is _____seconds.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.1,
+        1.1
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Bucket starts full (1 MB). While it drains, the host sends at 20 MB/s while tokens arrive at 10 MB/s:<br>\n[latex]20t=1+10t\\Rightarrow t=0.1[/latex] s, sending 2 MB.<br><br>\nThe remaining 10 MB go at 10 MB/s = 1 s.<br><br>\nTotal = 0.1 + 1 = 1.1 s<br><br>\n<b>Answer: 1.1</b><br><br><a href=\"https://gateoverflow.in/39720/gate2016-1-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q55",
+      "source_id": 1116155,
+      "number": 55,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A sender uses the Stop-and Wait ARQ protocol for reliable transmission of frames. Frames are of size 1000bytes and the transmission rate at the sender is 80Kbps(1Kbps=1000 bits/second). Size of anacknowledgement is 100bytes and the transmission rate at the receiver is 8Kbps. The one-way propagation delay is 100milliseconds. <br>Assuming no frame is lost, the sender throughput is _____bytes/second.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2500.0,
+        2500.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- Frame transmission: 8000 bits / 80 Kbps = 0.1 s<br>\n- ACK transmission: 800 bits / 8 Kbps = 0.1 s<br>\n- Propagation: 0.1 s each way<br><br>\nOne frame every 0.1 + 0.1 + 0.1 + 0.1 = 0.4 s [latex]\\rightarrow[/latex] throughput = 1000 / 0.4 = 2500 bytes/s<br><br>\n<b>Answer: 2500</b><br><br><a href=\"https://gateoverflow.in/39696/gate2016-1-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q56",
+      "source_id": 1116156,
+      "number": 56,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Out of the following four sentences, select the most suitable sentence with respect to grammar and usage.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I will not leave the place until the minister does not meet me.",
+        "B": "I will not leave the place until the minister doesn't meet me.",
+        "C": "I will not leave the place until the minister meet me.",
+        "D": "I will not leave the place until the minister meets me."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Until\" already carries the negative idea, so no \"not\" after it, and the singular subject \"minister\" needs \"meets\".<br><br>\n<b>Answer: I will not leave the place until the minister meets me.</b><br><br><a href=\"https://gateoverflow.in/39608/gate-cse-2016-set-1-question-ga01#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q57",
+      "source_id": 1116157,
+      "number": 57,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": " rewording of something written or spoken is a __________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "paraphrase",
+        "B": "paradox",
+        "C": "paradigm",
+        "D": "paraffin"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A <b>paraphrase</b> restates something in different words. (Paradox = self-contradiction, paradigm = model, paraffin = a wax.)<br><br>\n<b>Answer: paraphrase</b><br><br><a href=\"https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q58",
+      "source_id": 1116158,
+      "number": 58,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Archimedes said, \"Give me a lever long enough and a fulcrum on which to place it, and I will move the world.\"\n<br><br>\nThe sentence above is an example of a ____________ statement.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "figurative",
+        "B": "collateral",
+        "C": "literal",
+        "D": "figurine"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Archimedes did not literally plan to move the world; he used the image to show the power of a lever. That is a <b>figurative</b> statement.<br><br>\n<b>Answer: figurative</b><br><br><a href=\"https://gateoverflow.in/39606/gate-cse-2016-set-1-question-ga03#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q59",
+      "source_id": 1116159,
+      "number": 59,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could mean 'aftercare'?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "zentaga",
+        "B": "tagafer",
+        "C": "tagazen",
+        "D": "relffer"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "From the words: taga = care, and the modifier comes <b>before</b> taga: relf-taga = free + care (carefree), o-taga = ful + care, fer-taga = less + care.<br><br>\nIn \"aftercare\", after comes before care in English, so in this code it comes after taga: taga + (after). Only \"tagazen\" has that form.<br><br>\n<b>Answer: tagazen</b><br><br><a href=\"https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q60",
+      "source_id": 1116160,
+      "number": 60,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A cube is built using 64 cubic blocks of side one unit. After it is built, one cubic block is removed from every corner of the cube. The resulting surface area of the body (in square units) after the removal is ________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "56",
+        "B": "64",
+        "C": "72",
+        "D": "96"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The 4 [latex]\\times[/latex] 4 [latex]\\times[/latex] 4 cube has surface area 6 [latex]\\times[/latex] 16 = 96.<br><br>\nRemoving a corner block removes 3 outer unit faces but exposes 3 new unit faces inside the notch. So the area does not change.<br><br>\n<b>Answer: 96</b><br><br><a href=\"https://gateoverflow.in/39610/gate-cse-2016-set-1-question-ga05#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q61",
+      "source_id": 1116161,
+      "number": 61,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A shaving set company sells 4 different types of razors- Elegance, Smooth, Soft and Executive.<br>\n\nElegance sells at Rs. 48, Smooth at Rs. 63, Soft at Rs. 78 and Executive at Rs. 173 per piece. The table below shows the numbers of each razor sold in each quarter of a year.  <br><br>   [latex]\\begin{array}{|c|r|r|r|r|} \\hline \\textbf{Quarter/Product} & \\textbf{Elegance} &\\textbf{Smooth} &\\textbf{Soft} & \\textbf{Executive}\\\\\\hline \\text{Q1} & \\text{27300} &\\text{20009} &\\text{17602} &\\text{9999}\\\\\\hline \\text{Q2} & \\text{25222} &\\text{19392} & \\text{18445}& \\text{8942}\\\\\\hline \\text{Q3} & \\text{28976} &\\text{22429} & \\text{19544} & \\text{10234}\\\\\\hline \\text{Q4} &\\text{21012} & \\text{18229} & \\text{16595} & \\text{10109}\\\\\\hline \\end{array}[/latex]\n<br> <br>Which product contributes the greatest fraction to the revenue of the company in that year?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Elegance",
+        "B": "Executive",
+        "C": "Smooth",
+        "D": "Soft"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Yearly revenue = price [latex]\\times[/latex] total units:<br>\n- Elegance: 48 [latex]\\times[/latex] 102510 [latex]\\approx[/latex] 49.2 lakh<br>\n- Smooth: 63 [latex]\\times[/latex] 80059 [latex]\\approx[/latex] 50.4 lakh<br>\n- Soft: 78 [latex]\\times[/latex] 72186 [latex]\\approx[/latex] 56.3 lakh<br>\n- Executive: 173 [latex]\\times[/latex] 39284 [latex]\\approx[/latex] <b>68.0 lakh</b><br><br>\n<b>Answer: Executive</b><br><br><a href=\"https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q62",
+      "source_id": 1116162,
+      "number": 62,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Indian currency notes show the denomination indicated in at least seventeen languages. If this is not an indication of the nation's diversity, nothing else is.\n<br><br>\nWhich of the following can be logically inferred from the above sentences?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "India is a country of exactly seventeen languages.",
+        "B": "Linguistic pluralism is the only indicator of a nation's diversity.",
+        "C": "Indian currency notes have sufficient space for all the Indian languages.",
+        "D": "Linguistic pluralism is strong evidence of India's diversity."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The sentence says the many languages on the notes are a clear sign of diversity, so linguistic plurality is <b>strong evidence</b> of India's diversity. It does not say exactly 17 languages, or that language is the only indicator.<br><br>\n<b>Answer: Linguistic pluralism is strong evidence of India's diversity.</b><br><br><a href=\"https://gateoverflow.in/39613/gate-cse-2016-set-1-question-ga07#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q63",
+      "source_id": 1116163,
+      "number": 63,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following statements relating to the level of poker play of four players P, Q, R and S.<br><br>\n\nI.    P always beats Q<br>\nII.   R always beats S<br>\nIII.  S loses to P only sometimes.<br>\nIV.  R always loses to Q<br><br>\nWhich of the following can be logically inferred from the above statements?<br><br>(i).  P is likely to beat all the three other players\n<br>(ii).  S is the absolute worst player in the set",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) only",
+        "B": "(ii) only",
+        "C": "(i) and (ii) only",
+        "D": "neither (i) nor (ii)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Checking each statement:<br>- (i): P beats Q always and S only sometimes; nothing is said about P vs R [latex]\\rightarrow[/latex] cannot conclude P beats all three.<br>\n- (ii): S loses to R, but S sometimes beats P, so S is not clearly the worst; there is also no information on S vs Q.<br><br>\n<b>Answer: neither (i) nor (ii)</b><br><br><a href=\"https://gateoverflow.in/39617/gate-cse-2016-set-1-question-ga08#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q64",
+      "source_id": 1116164,
+      "number": 64,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If [latex]f(x) = 2x^{7}+3x-5[/latex], which of the following is a factor of [latex]f(x)[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]x^3+8[/latex]",
+        "B": "[latex]x-1[/latex]",
+        "C": "[latex]2x-5[/latex]",
+        "D": "[latex]x+1[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Factor theorem: [latex]f(1)=2+3-5=0[/latex], so [latex](x-1)[/latex] is a factor.<br>\n(f([latex]-[/latex]1) = [latex]-[/latex]2 [latex]-[/latex] 3 [latex]-[/latex] 5 [latex]\\ne[/latex] 0, so x + 1 is not.)<br><br>\n<b>Answer: x-1</b><br><br><a href=\"https://gateoverflow.in/39611/gate-cse-2016-set-1-question-ga09#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2016-S1-Q65",
+      "source_id": 1116165,
+      "number": 65,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a process, the number of cycles to failure decreases exponentially with an increase in load. At a load of 80 units, it takes 100 cycles for failure. When the load is halved, it takes 10000 cycles for failure.The load for which the failure will happen in 5000 cycles is _________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "40",
+        "B": "46.02",
+        "C": "60.01",
+        "D": "92.02"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let cycles [latex]N=Ae^{-kL}[/latex]. Halving the load from 80 to 40 multiplies N by 100, so [latex]e^{40k}=100[/latex].<br><br>\nFrom L = 40 (10000 cycles) to 5000 cycles: [latex]e^{k(L-40)}=2\\Rightarrow L-40=\\frac{40\\ln2}{\\ln100}=40\\times\\frac{0.301}{2}=6.02[/latex]<br><br>\nL = 46.02<br><br>\n<b>Answer: 46.02</b><br><br><a href=\"https://gateoverflow.in/39612/gate-cse-2016-set-1-question-ga10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/gate-pyq/mock.schema.json",
+  "title": "GATE CSE topic-wise mock",
+  "description": "One topic mock built by tools/make_topic_mocks.py. Questions have the same shape as in a paper and keep their original ids.",
+  "type": "object",
+  "required": ["paper_id", "paper", "kind", "topic", "set", "duration_min", "total_marks", "generated_at", "questions"],
+  "properties": {
+    "paper_id": {
+      "type": "string",
+      "description": "Stable id for this mock. Format: <topic-slug>-<nn>.",
+      "examples": ["digital-logic-03"],
+      "pattern": "^[a-z][a-z-]*-\\d{2}$"
+    },
+    "paper": {
+      "type": "string",
+      "description": "Human-readable name.",
+      "examples": ["Digital Logic: Topic Mock 3"]
+    },
+    "kind": { "const": "topic_mock" },
+    "topic": {
+      "type": "string",
+      "description": "Canonical topic from schema/topics.json. Every question in the mock has this topic."
+    },
+    "set": { "type": "integer", "minimum": 1 },
+    "duration_min": {
+      "type": "integer",
+      "description": "Time limit in minutes. The simulator reads the timer from this.",
+      "minimum": 1
+    },
+    "total_marks": { "type": "integer" },
+    "seed": {
+      "type": "integer",
+      "description": "Shuffle seed used by the generator."
+    },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "allOf": [
+          { "$ref": "https://local/gate-pyq/paper.schema.json#/$defs/question" },
+          { "required": ["source_paper_id", "source_number"] }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

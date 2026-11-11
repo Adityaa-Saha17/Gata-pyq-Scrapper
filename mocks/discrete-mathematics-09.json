@@ -1,0 +1,821 @@
+{
+  "paper_id": "discrete-mathematics-09",
+  "paper": "Discrete Mathematics: Topic Mock 9",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 9,
+  "duration_min": 90,
+  "total_marks": 43,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2004-Q23",
+      "source_id": 1104123,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Identify the correct translation into logical notation of the following assertion. <br><br> Some boys in the class\nare taller than all the girls <br><br>\nNote: taller (x, y) is true if x is taller than y.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](\\exists x)(boy(x)\\rightarrow \\forall (y)(girl(y)\\wedge taller(x,y)))[/latex]",
+        "B": "[latex](\\exists x)(boy(x)\\wedge \\forall (y)(girl(y)\\wedge taller(x,y)))[/latex]",
+        "C": "[latex](\\exists x)(boy(x)\\rightarrow \\forall (y)(girl(y)\\rightarrow taller(x,y)))[/latex]",
+        "D": "[latex](\\exists x)(boy(x)\\wedge \\forall (y)(girl(y)\\rightarrow taller(x,y)))[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/1020/gate2004-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 23
+    },
+    {
+      "id": "2003-Q8",
+      "source_id": 1103108,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be an arbitrary graph with n nodes and k components. If a vertex is\nremoved from G, the number of components in the resultant graph must necessarily\nlie between.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "k and n",
+        "B": "k-1 and k+1",
+        "C": "k-1 and n-1",
+        "D": "k+1 and n-k"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/899/gate2003-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 8
+    },
+    {
+      "id": "1998-Q6",
+      "source_id": 1101706,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose A is a finite set with n elements. The number of elements in the largest equivalence relation of A is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n",
+        "B": "[latex]n^2[/latex]",
+        "C": "1",
+        "D": "n+1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1643/gate1998-1-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 6
+    },
+    {
+      "id": "2006-Q3",
+      "source_id": 1106103,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The set {1, 2, 3, 5, 7, 8, 9} under multiplication modulo 10 is not a group. Given\r\nbelow are four plausible reasons. Which one of them is false?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "It is not closed",
+        "B": "2 does not have an inverse",
+        "C": "3 does not have an inverse",
+        "D": "8 does not have an inverse"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/882/gate2006-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 3
+    },
+    {
+      "id": "2025-S1-Q20",
+      "source_id": 1125120,
+      "number": 5,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let [latex]S[/latex] be the set of all ternary strings defined over the alphabet [latex]\\{a, b, c\\}[/latex]. Consider all strings in [latex]S[/latex] that contain at least one occurrence of two consecutive symbols, that is, \"aa\", \"bb\" or \"cc\". The number of such strings of length 5 that are possible is _______. (Answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        195.0,
+        195.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "Total ternary strings of length [latex]5[/latex] over [latex]\\{a,b,c\\}[/latex]: [latex]3^5=243[/latex].<br><br>\nIt's easier to count the <b>complement</b>: strings with <i>no</i> two consecutive equal symbols anywhere. The first symbol has [latex]3[/latex] choices; each subsequent symbol just needs to differ from its immediate predecessor, giving [latex]2[/latex] choices each time: [latex]3\\times2^4=3\\times16=48[/latex] such \"no-repeat\" strings.<br><br>\nSo strings containing at least one consecutive repeat [latex]=243-48=195[/latex].<br><br>\n<b>Answer: 195</b><br><br><a href=\"https://gateoverflow.in/460060/gate-cse-2025-set-1-question-20#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 20
+    },
+    {
+      "id": "2018-Q19",
+      "source_id": 1118119,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let G be a finite group on 84 elements. The size of a largest possible proper subgroup of G is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        42.0,
+        42.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "By Lagrange's theorem the order of a subgroup divides 84. The largest proper divisor of 84 is 42 (index 2).<br><br>\n<b>Answer: 42</b><br><br><a href=\"https://gateoverflow.in/204093/gate2018-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 19
+    },
+    {
+      "id": "2005-Q11",
+      "source_id": 1105111,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be a simple graph with 20 vertices and 100 edges. The size of the minimum vertex cover of G is 8. then, the size of the maximum independent set of G is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "Less than 8",
+        "D": "More than 12"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1161/gate2005-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 11
+    },
+    {
+      "id": "1994-Q4",
+      "source_id": 1101304,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A and B be any two arbitrary events, then, which one of the following is TRUE?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]P (A \\cap B) = P(A)P(B)[/latex]",
+        "B": "[latex]P (A \\cup B) = P(A)+P(B)[/latex]",
+        "C": "[latex]P (A \\mid B) = P(A \\cap B)P(B)[/latex]",
+        "D": "[latex]P (A \\cup B) \\leq P(A) + P(B)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1994",
+      "source_number": 4
+    },
+    {
+      "id": "2017-S1-Q20",
+      "source_id": 1117120,
+      "number": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let T be a tree with 10 vertices. The sum of the degrees of all the vertices in T is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        18.0,
+        18.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "A tree with 10 vertices has 9 edges. Sum of degrees = 2 [latex]\\times[/latex] edges = 18.<br><br>\n<b>Answer: 18</b><br><br><a href=\"https://gateoverflow.in/118300/gate2017-1-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 20
+    },
+    {
+      "id": "2017-S2-Q11",
+      "source_id": 1117211,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let p, q, r denote the statements \"It is raining ,\" It is cold\", and \" It is pleasant,\"\nrespectively. Then the statement \"It is not raining and it is pleasant, and it is not pleasant\nonly if it is raining and it is cold\" is represented by",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](\\neg p\\wedge r)\\wedge (\\neg r\\rightarrow (p\\wedge q))[/latex]",
+        "B": "[latex](\\neg p\\wedge r)\\wedge ((p\\wedge q)\\rightarrow \\neg r)[/latex]",
+        "C": "[latex](\\neg p\\wedge r)\\vee ((p\\wedge q)\\rightarrow \\neg r)[/latex]",
+        "D": "[latex](\\neg p\\wedge r)\\vee (r \\rightarrow (p\\wedge q))[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Checking each statement:<br>- \"It is not raining and it is pleasant\": [latex]\\neg p\\wedge r[/latex]<br>\n- \"It is not pleasant only if it is raining and cold\": \"A only if B\" means [latex]A\\rightarrow B[/latex], so [latex]\\neg r\\rightarrow(p\\wedge q)[/latex]<br><br>\nJoined by \"and\": [latex](\\neg p\\wedge r)\\wedge(\\neg r\\rightarrow(p\\wedge q))[/latex]<br><br>\n<b>Answer: Option 1</b><br><br><a href=\"https://gateoverflow.in/118151/gate2017-2-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 11
+    },
+    {
+      "id": "2015-S3-Q2",
+      "source_id": 1115302,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose U is the power set of the set S={1,2,3,4,5,6}. For any T[latex]\\in[/latex]U, let |T| denote the number of elements in T and T' denote the complement of T. For any T,R[latex]\\in[/latex]U, let T\\R be the set of all elements in T which are not in R. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall X\\in U \\; (|X|=|X'|)[/latex]",
+        "B": "[latex]\\exists X\\in U \\; \\exists Y\\in U \\; [/latex] [latex](|X|=5,\\; |Y|=5 \\; and \\;  X \\cap  Y=\\phi )[/latex]",
+        "C": "[latex]\\forall X\\in U \\; \\forall Y\\in U \\;[/latex] [latex] (|X|=2,\\; |Y|=3 \\; and \\; X \\setminus  Y=\\phi )[/latex]",
+        "D": "[latex]\\forall X \\in U \\; \\forall Y\\in U\\; (X \\setminus  Y=Y' \\setminus  X')[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "[latex]X\\setminus Y=X\\cap Y'[/latex] and [latex]Y'\\setminus X'=Y'\\cap X[/latex]. These are the same set for every X, Y.<br><br>\n- Option 1 fails for X = {1}.<br>\n- Option 2: two 5-element subsets of a 6-element set must overlap.<br>\n- Option 3 is not true for all X, Y.<br><br>\n<b>Answer: [latex]\\forall X\\,\\forall Y\\,(X\\setminus Y=Y'\\setminus X')[/latex]</b><br><br><a href=\"https://gateoverflow.in/8426/gate2015-3-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 2
+    },
+    {
+      "id": "1996-Q5",
+      "source_id": 1101505,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Two dice are thrown simultaneously. The probability that at least one of them will have 6 facing up is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{36}[/latex]",
+        "B": "[latex]\\frac{1}{3}[/latex]",
+        "C": "[latex]\\frac{25}{36}[/latex]",
+        "D": "[latex]\\frac{11}{36}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2709/gate1996-1-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 5
+    },
+    {
+      "id": "1997-Q18",
+      "source_id": 1101618,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the lattice defined by the Hasse diagram given in following figure, how many complements does the element 'e' have?<br><img src=\"../wp-content/uploads/GATE/CS/19971/q3.3.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19971/q3.3.jpg"
+      ],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "0",
+        "D": "1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Lattice",
+      "explanation": "<a href=\"https://gateoverflow.in/2234/gate1997-3-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 18
+    },
+    {
+      "id": "1998-Q4",
+      "source_id": 1101704,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the function y=|x| in the interval [-1, 1]. In this interval, the function is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "continuous and differentiable",
+        "B": "continuous but not differentiable",
+        "C": "differentiable but not continuous",
+        "D": "neither continuous nor differentiable"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/1641/gate1998-1-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 4
+    },
+    {
+      "id": "2015-S1-Q10",
+      "source_id": 1115110,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For a set A, the power set of A is denoted by [latex]2^{A}[/latex]. If A={5,{6},{7}}, which of the following options are TRUE? <br>\nI. [latex]\\phi \\in 2^{A}[/latex] <br>\nII. [latex]\\phi \\subseteq 2^{A}[/latex] <br>\nIII. {5,{6}} [latex]\\in 2^{A}[/latex] <br>\nIV. {5,{6}}[latex]\\subseteq 2^{A}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and III only",
+        "B": "II and III only",
+        "C": "I, II and III only",
+        "D": "I, II and IV only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Checking each statement:<br>- I: [latex]\\phi\\subseteq A[/latex], so [latex]\\phi\\in2^A[/latex] [latex]\\rightarrow[/latex] True<br>\n- II: the empty set is a subset of every set [latex]\\rightarrow[/latex] True<br>\n- III: {5, {6}} [latex]\\subseteq[/latex] A, so it is an element of [latex]2^A[/latex] [latex]\\rightarrow[/latex] True<br>\n- IV: would need 5 [latex]\\in2^A[/latex], but 5 is not a subset of A [latex]\\rightarrow[/latex] False<br><br>\n<b>Answer: I, II and III only</b><br><br><a href=\"https://gateoverflow.in/8238/gate2015-1-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 10
+    },
+    {
+      "id": "2014-S2-Q1",
+      "source_id": 1114201,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The security system at an IT office is composed of 10 computers of which exactly four are\nworking. To check whether the system is functional, the officials inspect four of the\ncomputers picked at random (without replacement). The system is deemed functional if at\nleast three of the four computers inspected are working. Let the probability that the system is deemed functional be denoted by p.  Then 100p= _____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        11.85,
+        11.95
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "4 working, 6 not working. Choose 4 computers: [latex]\\binom{10}{4}=210[/latex] ways.<br><br>\n- Exactly 3 working: [latex]\\binom43\\binom61=24[/latex]<br>\n- All 4 working: [latex]\\binom44=1[/latex]<br><br>\n[latex]p=\\frac{25}{210}=0.119\\Rightarrow 100p\\approx 11.9[/latex]<br><br>\n<b>Answer: 11.9</b><br><br><a href=\"https://gateoverflow.in/1953/gate2014-2-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 1
+    },
+    {
+      "id": "1998-Q7",
+      "source_id": 1101707,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]R_1[/latex] and [latex]R_1[/latex] be two equivalence relations on a set. Consider the following assertions:<br>\nI.  [latex]R_1 \\cup R_2[/latex] is an equivalence relation<br>\nII. [latex]R_1 \\cap R_2[/latex] is an equivalence relation<br>\nWhich of the following is correct?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both assertions are true",
+        "B": "Assertions (i) is true but assertions (ii) is not true",
+        "C": "Assertions (ii) is true but assertions (i) is not true",
+        "D": "Neither (i) nor (ii) is true"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1644/gate1998-1-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 7
+    },
+    {
+      "id": "2014-S3-Q52",
+      "source_id": 1114352,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex]\\delta[/latex] denote the minimum degree of a vertex in a graph. For all planar graphs on n vertices with [latex]\\delta \\geq 3[/latex], which one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "In any planar embedding, the number of faces is at least [latex]\\frac{n}{2}+2[/latex]",
+        "B": "In any planar embedding, the number of faces is less than [latex]\\frac{n}{2}+2[/latex]",
+        "C": "There is a planar embedding in which the number of faces is less than [latex]\\frac{n}{2}+2[/latex]",
+        "D": "There is a planar embedding in which the number of faces is at most [latex]\\frac{n}{\\delta +1}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Planar Graph",
+      "explanation": "[latex]\\delta\\ge3\\Rightarrow 2e=\\sum\\deg\\ge3n\\Rightarrow e\\ge\\frac{3n}{2}[/latex]<br><br>\nEuler: [latex]f=e-n+2\\ge\\frac{3n}{2}-n+2=\\frac n2+2[/latex], for every planar embedding.<br><br>\n<b>Answer: In any planar embedding, the number of faces is at least [latex]\\frac n2+2[/latex]</b><br><br><a href=\"https://gateoverflow.in/2086/gate2014-3-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 52
+    },
+    {
+      "id": "2003-Q71",
+      "source_id": 1103171,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following logic program P <br>\n[latex]A(x)\\leftarrow B(x,y),C(y) \\leftarrow B(x,x)[/latex] <br>\nWhich of the following first order sentences is equivalent to P? <br><img src=\"/wp-content/uploads/GATE/CS/20031/q71.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q71.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/958/gate2003-71#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 71
+    },
+    {
+      "id": "2026-S1-Q48",
+      "source_id": 1126148,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]X[/latex] be a random variable which takes values in the set [latex]\\{1,2,3,4,5,6,7,8\\}[/latex]. Further, [latex]\\operatorname{Pr}(X=1)=\\operatorname{Pr}(X=2)=\\operatorname{Pr}(X=5)=\\operatorname{Pr}(X=7)=\\frac{1}{6}[/latex] and [latex]\\operatorname{Pr}(X=3)=\\operatorname{Pr}(X=4)=\\operatorname{Pr}(X=6)=\\operatorname{Pr}(X=8)=\\frac{1}{12}[/latex]. <br><br>The expected value of [latex]X[/latex], denoted by [latex]E[X][/latex], is equal to ________. (rounded off to two decimal places)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.24,
+        4.26
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex]E[X]=\\sum x\\cdot\\Pr(X=x)[/latex]<br><br>\n[latex]=\\left(1+2+5+7\\right)\\times\\dfrac{1}{6}+\\left(3+4+6+8\\right)\\times\\dfrac{1}{12}[/latex]<br>\n[latex]=15\\times\\dfrac{1}{6}+21\\times\\dfrac{1}{12}[/latex]<br>\n[latex]=2.5+1.75=4.25[/latex]<br><br>\n<b>Answer: 4.25</b> <br><br> <a href=\"https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 48
+    },
+    {
+      "id": "2017-S1-Q29",
+      "source_id": 1117129,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let p, q, and r be propositions and the expression (p[latex]\\rightarrow[/latex]q)[latex]\\rightarrow[/latex]r be a contradiction. Then, the\nexpression (r[latex]\\rightarrow[/latex]p)[latex]\\rightarrow[/latex]q is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a tautology",
+        "B": "a tautology",
+        "C": "always TRUE when p is FALSE",
+        "D": "always TRUE when q is TRUE"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex](p\\rightarrow q)\\rightarrow r[/latex] is always false, so [latex]p\\rightarrow q[/latex] is always true and r is always false.<br><br>\nThen [latex]r\\rightarrow p[/latex] is true (r is false), so [latex](r\\rightarrow p)\\rightarrow q\\equiv q[/latex]. It is true exactly when q is true.<br><br>\n<b>Answer: always TRUE when q is TRUE</b><br><br><a href=\"https://gateoverflow.in/118310/gate2017-1-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 29
+    },
+    {
+      "id": "2012-Q38",
+      "source_id": 1112138,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let G be a complete undirected graph on 6 vertices. If vertices of G are labeled, then the number of\ndistinct cycles of length 4 in G is equal to",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "15",
+        "B": "45",
+        "C": "90",
+        "D": "360"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Choose 4 vertices: [latex]\\binom64=15[/latex]. Four labelled vertices form [latex]\\frac{(4-1)!}{2}=3[/latex] different 4-cycles.<br><br>\n15 [latex]\\times[/latex] 3 = 45<br><br>\n<b>Answer: 45</b><br><br><a href=\"https://gateoverflow.in/473/gate2012-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 38
+    },
+    {
+      "id": "2006-Q73",
+      "source_id": 1106173,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The [latex]2^{n}[/latex] vertices of graph G correspond to all subsets of a set of size n, for [latex]n\\geq 6[/latex]. Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>   The number of connected components in G is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n",
+        "B": "n+2",
+        "C": "[latex]2^{n/2}[/latex]",
+        "D": "[latex]\\frac{2^{n}}{n}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/43567/gate2006-73#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 73
+    },
+    {
+      "id": "2014-S3-Q48",
+      "source_id": 1114348,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let S be a sample space and two mutually exclusive events A and B be such that A[latex]\\cup[/latex]B = S. If P(.) denotes the probability of the event, the maximum value of P(A)P(B) is ______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.25,
+        0.25
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Mutually exclusive and union = S, so P(A) + P(B) = 1.<br><br>\nP(A)(1 [latex]-[/latex] P(A)) is maximum at P(A) = 0.5, giving 0.5 [latex]\\times[/latex] 0.5 = 0.25.<br><br>\n<b>Answer: 0.25</b><br><br><a href=\"https://gateoverflow.in/2082/gate2014-3-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 48
+    },
+    {
+      "id": "2021-S2-Q50",
+      "source_id": 1121250,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let S be a set of consisting of 10 elements. The number of tuples of the form (A,B) such that A and B are subsets of S, and [latex]A\\subseteq B[/latex] is _______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        59049.0,
+        59049.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "For [latex]A\\subseteq B\\subseteq S[/latex], each element of S is in one of 3 states: not in B, in B but not A, or in A.<br><br>\n[latex]3^{10}=59049[/latex]<br><br>\n<b>Answer: 59049</b><br><br><a href=\"https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 50
+    },
+    {
+      "id": "2006-Q22",
+      "source_id": 1106122,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let E,F and G be finite sets.<br>\nLet X=(E [latex]\\cap[/latex]F) - (F[latex]\\cap[/latex]G) and Y = (E - (E[latex]\\cap[/latex]G)) - (E - F).  <br> Which one of the\nfollowing is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]X\\subset Y[/latex]",
+        "B": "[latex]X\\supset Y[/latex]",
+        "C": "X=Y",
+        "D": "[latex]X-Y\\neq \\phi[/latex] and [latex]Y-X\\neq \\phi[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/983/gate2006-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 22
+    },
+    {
+      "id": "2014-S2-Q49",
+      "source_id": 1114249,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The number of distinct positive integral factors of 2014 is ____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "[latex]2014=2\\times19\\times53[/latex]<br><br>\nNumber of factors = (1 + 1)(1 + 1)(1 + 1) = 8<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/2015/gate2014-2-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 49
+    },
+    {
+      "id": "2007-Q24",
+      "source_id": 1107124,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose we uniformly and randomly select a permutation from the 20!\nPermutations of 1, 2,3 ,...,20. What is the probability that 2 appears at an\nearlier position than any other even number in the selected permutation?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{2}[/latex]",
+        "B": "[latex]\\frac{1}{10}[/latex]",
+        "C": "[latex]\\frac{9!}{20!}[/latex]",
+        "D": "None of these"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1222/gate2007-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 24
+    },
+    {
+      "id": "2014-S1-Q51",
+      "source_id": 1114151,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider an undirected graph G where self-loops are not allowed. The vertex set of G is {(i,f):1[latex]\\leq[/latex]i[latex]\\leq[/latex]12, 1[latex]\\leq[/latex]j[latex]\\leq[/latex]12}. There is an edge between (a,b) and (c,d) if |a-c|[latex]\\leq[/latex]1 and |b-d| [latex]\\leq[/latex]1. The number of edges in the graph is ____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        506.0,
+        506.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "This is a 12 [latex]\\times[/latex] 12 grid where each cell is joined to all 8 neighbours (like king moves):<br>\n- horizontal: 12 [latex]\\times[/latex] 11 = 132<br>\n- vertical: 12 [latex]\\times[/latex] 11 = 132<br>\n- diagonal (both directions): 2 [latex]\\times[/latex] 11 [latex]\\times[/latex] 11 = 242<br><br>\nTotal = 506<br><br>\n<b>Answer: 506</b><br><br><a href=\"https://gateoverflow.in/1931/gate2014-1-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 51
+    },
+    {
+      "id": "2014-S1-Q53",
+      "source_id": 1114153,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following propositional logic formulas is TRUE when exactly two of p, q,\nand r are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]((p\\leftrightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)[/latex]",
+        "B": "[latex](\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)[/latex]",
+        "C": "[latex]((p\\rightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)[/latex]",
+        "D": "[latex](\\sim (p\\leftrightarrow q)\\wedge r)\\wedge (p\\wedge q\\wedge \\sim r)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Exactly two true means either r is true with exactly one of p, q (that is [latex]\\neg(p\\leftrightarrow q)\\wedge r[/latex]), or p and q true with r false ([latex]p\\wedge q\\wedge\\sim r[/latex]). Option 2 is exactly the OR of these two cases.<br><br>\n<b>Answer: Option 2</b><br><br><a href=\"https://gateoverflow.in/1933/gate2014-1-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 53
+    }
+  ]
+}

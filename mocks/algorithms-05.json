@@ -1,0 +1,844 @@
+{
+  "paper_id": "algorithms-05",
+  "paper": "Algorithms: Topic Mock 5",
+  "kind": "topic_mock",
+  "topic": "Algorithms",
+  "set": 5,
+  "duration_min": 90,
+  "total_marks": 46,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2001-Q39",
+      "source_id": 1101139,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the undirected unweighted graph G. Let a breadth-first traversal of\nG be done starting from a node r . Let d(r,u) and d(r,v) be the lengths of the\nshortest paths form r to u and v respectively in G. If u is visited before v during\nthe breadth-first traversal, which of the following statements is correct ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "d(r,u) [latex]\\lt[/latex] d(r,v)",
+        "B": "d(r,u) [latex]\\leq[/latex] d(r,v)",
+        "C": "d(r,u) [latex]\\gt[/latex]d(r,v)",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Graph Traversal",
+      "explanation": "<a href=\"https://gateoverflow.in/732/gate2001-2-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 39
+    },
+    {
+      "id": "2016-S1-Q13",
+      "source_id": 1116113,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The worst case running times of Insertion sort, Mergesort and Quicksort, respectively, are:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta[/latex](n logn), [latex]\\Theta[/latex](n logn), and [latex]\\Theta(n^{2})[/latex]",
+        "B": "[latex]\\Theta (n^{2}),\\Theta(n^{2}), and \\Theta (n logn)[/latex]",
+        "C": "[latex]\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n logn)[/latex]",
+        "D": "[latex]\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n^{2})[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "Checking each statement:<br>- Insertion sort worst case (reverse sorted): [latex]\\Theta(n^2)[/latex]<br>\n- Merge sort is always [latex]\\Theta(n\\log n)[/latex]<br>\n- Quicksort worst case (bad pivots every time): [latex]\\Theta(n^2)[/latex]<br><br>\n<b>Answer: [latex]\\Theta(n^2),\\Theta(n\\log n),\\Theta(n^2)[/latex]</b><br><br><a href=\"https://gateoverflow.in/39660/gate2016-1-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 13
+    },
+    {
+      "id": "2021-S1-Q17",
+      "source_id": 1121117,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the following undirected graph with edge weights as shown:<br><img src=\"/wp-content/uploads/GATE/CS/20211/q17.jpg\" /><br>The number of minimum-weight spanning trees of the graph is __________",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20211/q17.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Take all 0.1 edges first (Kruskal). They form no cycle and split the graph into two trees: the top row (3 vertices) and the bottom 6 vertices.<br><br>\nTo join these two parts we need one 0.9 edge; the three vertical edges from the top row down to the middle row all cost 0.9. Any one of them works.<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/357434/gate-cse-2021-set-1-question-17#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 17
+    },
+    {
+      "id": "2009-Q14",
+      "source_id": 1109114,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]\\pi _{A}[/latex] be a problem that belongs to the class NP. Then which one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There is no polynomial time algorithm for [latex]\\pi _{A}[/latex].",
+        "B": "If [latex]\\pi _{A}[/latex] can be solved deterministically in polynomial time, then P = NP.",
+        "C": "If [latex]\\pi _{A}[/latex] is NP-hard, then it is NP-complete.",
+        "D": "[latex]\\pi _{A}[/latex] may be undecidable"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "P-NP Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1306/gate2009-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 14
+    },
+    {
+      "id": "2007-Q14",
+      "source_id": 1107114,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following sorting algorithms has the lowest worst-case complexity?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Merge sort",
+        "B": "Bubble sort",
+        "C": "Quick sort",
+        "D": "Selection sort"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/1212/gate2007-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 14
+    },
+    {
+      "id": "2015-S1-Q3",
+      "source_id": 1115103,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Match the following:\n<br><img src=\"/wp-content/uploads/GATE/CS/20151/q3.jpg\"/> ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20151/q3.jpg"
+      ],
+      "options": {
+        "A": "P-iii, Q-ii, R-iv, S-i",
+        "B": "P-i, Q-ii, R-iv, S-iii",
+        "C": "P-ii, Q-iii, R-iv, S-i",
+        "D": "P-ii, Q-i, R-iii, S-iv"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Divide and Conquer",
+      "explanation": "Checking each statement:<br>- Prim's MST: greedy (ii)<br>\n- Floyd-Warshall: dynamic programming (iii)<br>\n- Mergesort: divide and conquer (iv)<br>\n- Hamiltonian circuit: backtracking (i)<br><br>\n<b>Answer: P-ii, Q-iii, R-iv, S-i</b><br><br><a href=\"https://gateoverflow.in/8088/gate2015-1-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 3
+    },
+    {
+      "id": "2006-Q11",
+      "source_id": 1106111,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a weighted complete graph G on the vertex set {[latex]v_{1},v_{2},...,v_{n}[/latex]} such that the weight of the edge ([latex]v_{i},v_{j}[/latex]) is 2|i-j|. The weight of a minimum spanning tree",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n-1",
+        "B": "2n-2",
+        "C": "[latex]\\binom{n}{2}[/latex]",
+        "D": "[latex]n^{2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/890/gate2006-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 11
+    },
+    {
+      "id": "2025-S1-Q10",
+      "source_id": 1125110,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following recurrence relation:\n<br><br>\n[latex]T(n) = 2T(n-1) + n2^n \\quad \\text{for} \\quad n > 0, \\quad T(0) = 1[/latex]\n<br><br>\nWhich ONE of the following options is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]T(n) = \\Theta(n^2 2^n)[/latex]",
+        "B": "[latex]T(n) = \\Theta(n 2^n)[/latex]",
+        "C": "[latex]T(n) = \\Theta((\\log n)^2 2^n)[/latex]",
+        "D": "[latex]T(n) = \\Theta(4^n)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "[latex]T(n)=2T(n-1)+n2^n[/latex]. Substitute [latex]T(n)=2^nS(n)[/latex]:<br>\n[latex]2^nS(n)=2\\cdot2^{n-1}S(n-1)+n2^n=2^nS(n-1)+n2^n[/latex]<br>\nDividing through by [latex]2^n[/latex]: [latex]S(n)=S(n-1)+n[/latex].<br><br>\nUnrolling this simple recurrence: [latex]S(n)=S(0)+\\displaystyle\\sum_{k=1}^{n}k=1+\\dfrac{n(n+1)}{2}=\\Theta(n^2)[/latex].<br><br>\nSo [latex]T(n)=2^n\\cdot\\Theta(n^2)=\\Theta(n^22^n)[/latex].<br><br>\n<b>Answer: [latex]T(n)=\\Theta(n^22^n)[/latex]</b><br><br><a href=\"https://gateoverflow.in/460070/gate-cse-2025-set-1-question-10#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 10
+    },
+    {
+      "id": "2026-S2-Q22",
+      "source_id": 1126222,
+      "number": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider an array [latex]A=[10,7,8,19,41,35,25,31][/latex]. Suppose the merge sort algorithm is executed on array [latex]A[/latex] to sort it in increasing order. The merge sort algorithm will carry out a total of [latex]7[/latex] merge operations. <br><br>A merge operation on sorted left array [latex]L[/latex] and sorted right array [latex]R[/latex] is said to be void if the output of the merge operation is the elements of array [latex]L[/latex] followed by the elements of array [latex]R[/latex]. <br><br>The number of void merge operations among these [latex]7[/latex] merge operations is ________. (answer in integer)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "A merge is <b>void</b> when every element of the left sub-array is already [latex]\\le[/latex] every element of the right sub-array, so the merge simply concatenates them with no interleaving.<br><br>\nTrace merge sort on [latex]A=[10,7,8,19,41,35,25,31][/latex]:<br><br>\n<b>Bottom level (pairs):</b><br>\n[latex][10],[7]\\to[7,10][/latex] (result is [latex]R[/latex] then [latex]L[/latex], not \"[latex]L[/latex] then [latex]R[/latex]\") &mdash; <b>not void</b>.<br>\n[latex][8],[19]\\to[8,19][/latex] (already [latex]L[/latex] then [latex]R[/latex] as-is) &mdash; <b>void</b>.<br>\n[latex][41],[35]\\to[35,41][/latex] &mdash; <b>not void</b>.<br>\n[latex][25],[31]\\to[25,31][/latex] (already in order) &mdash; <b>void</b>.<br><br>\n<b>Next level (quads):</b><br>\n[latex][7,10]+[8,19]\\to[7,8,10,19][/latex] (interleaved, not simply [latex]L[/latex] then [latex]R[/latex]) &mdash; <b>not void</b>.<br>\n[latex][35,41]+[25,31]\\to[25,31,35,41][/latex] (interleaved) &mdash; <b>not void</b>.<br><br>\n<b>Final merge:</b><br>\n[latex][7,8,10,19]+[25,31,35,41][/latex]: every element of the left ([latex]\\le19[/latex]) is already smaller than every element of the right ([latex]\\ge25[/latex]), so the merge is simply [latex]L[/latex] followed by [latex]R[/latex] &mdash; <b>void</b>.<br><br>\nTotal merges [latex]=4+2+1=7[/latex] (matches the given count), with exactly [latex]3[/latex] of them void.<br><br>\n<b>Answer: 3</b> <br><br> <a href=\"https://gateoverflow.in/523124/gate-cse-2026-set-2-question-22#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 22
+    },
+    {
+      "id": "2013-Q19",
+      "source_id": 1113119,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete\ngraph of n vertices?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta (n^{2})[/latex]",
+        "B": "[latex]\\Theta (n^{2} log n)[/latex]",
+        "C": "[latex]\\Theta (n^{3})[/latex]",
+        "D": "[latex]\\Theta (n^{3} log n)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "Bellman-Ford takes [latex]\\Theta(VE)[/latex]. A complete graph has [latex]E=\\Theta(n^2)[/latex].<br><br>\n[latex]n\\times n^2=\\Theta(n^3)[/latex]<br><br>\n<b>Answer: [latex]\\Theta(n^3)[/latex]</b><br><br><a href=\"https://gateoverflow.in/1441/gate2013-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 19
+    },
+    {
+      "id": "2017-S2-Q3",
+      "source_id": 1117203,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Match the algorithms with their time complexities: <br><img src=\"/wp-content/uploads/GATE/CS/20172/q16.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20172/q16.jpg"
+      ],
+      "options": {
+        "A": "P-(iii),Q-(iv), R-(i), S-(ii)",
+        "B": "P-(iv),Q-(iii), R-(i), S-(ii)",
+        "C": "P-(iii),Q-(iv), R-(ii), S-(i)",
+        "D": "P-(iv),Q-(iii), R-(ii), S-(i)"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "Checking each statement:<br>- Towers of Hanoi: [latex]T(n)=2T(n-1)+1\\Rightarrow\\Theta(2^n)[/latex] (iii)<br>\n- Binary search: [latex]\\Theta(\\log n)[/latex] (iv)<br>\n- Heap sort worst case: [latex]\\Theta(n\\log n)[/latex] (ii)<br>\n- Adding two n [latex]\\times[/latex] n matrices: [latex]n^2[/latex] additions, [latex]\\Theta(n^2)[/latex] (i)<br><br>\n<b>Answer: P-(iii), Q-(iv), R-(ii), S-(i)</b><br><br><a href=\"https://gateoverflow.in/118156/gate-cse-2017-set-2-question-03#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 3
+    },
+    {
+      "id": "2026-S2-Q15",
+      "source_id": 1126215,
+      "number": 12,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Which of the following can be recurrence relation(s) corresponding to an algorithm with time complexity [latex]\\Theta(n)[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]T(n)=T(n-1)+1, \\quad T(1)=1[/latex]",
+        "B": "[latex]T(n)=2 T\\left(\\frac{n}{2}\\right)+1, \\quad T(1)=1[/latex]",
+        "C": "[latex]T(n)=2 T\\left(\\frac{n}{2}\\right)+n, \\quad T(1)=1[/latex]",
+        "D": "[latex]T(n)=T(n-1)+n, \\quad T(1)=1[/latex]"
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "Solve each recurrence and compare to [latex]\\Theta(n)[/latex]:<br><br>\n- [latex]T(n)=T(n-1)+1[/latex]: unrolling gives [latex]T(n)=T(1)+(n-1)\\times1=\\Theta(n)[/latex]. <b>Matches.</b><br>\n- [latex]T(n)=2T(n/2)+1[/latex]: by the Master theorem, [latex]a=2,b=2[/latex] so [latex]n^{\\log_2 2}=n^1=n[/latex]; since [latex]f(n)=1[/latex] is polynomially smaller than [latex]n[/latex], Case 1 gives [latex]T(n)=\\Theta(n)[/latex]. <b>Matches.</b><br>\n- [latex]T(n)=2T(n/2)+n[/latex]: this is the classic merge-sort recurrence, [latex]f(n)=n=n^{\\log_2 2}[/latex] exactly (Case 2), giving [latex]T(n)=\\Theta(n\\log n)[/latex] &mdash; <b>not</b> [latex]\\Theta(n)[/latex].<br>\n- [latex]T(n)=T(n-1)+n[/latex]: unrolling gives [latex]T(n)=\\Theta(1+2+\\cdots+n)=\\Theta(n^2)[/latex] &mdash; <b>not</b> [latex]\\Theta(n)[/latex].<br><br>\n<b>Answer: T(n)=T(n-1)+1 and T(n)=2T(n/2)+1 both correspond to &Theta;(n) algorithms.</b> <br><br> <a href=\"https://gateoverflow.in/523131/gate-cse-2026-set-2-question-15#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 15
+    },
+    {
+      "id": "2021-S1-Q3",
+      "source_id": 1121103,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following three functions.\n<br><br>\n[latex]f_1=10^n\\; f_2=n^{\\log n}\\;f_3=n^{\\sqrt {n}}[/latex]<br>\n<br>Which one of the following options arranges the functions in the increasing order of asymptotic growth rate?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]f_3, f_2, f_1[/latex]",
+        "B": "[latex]f_2, f_1, f_3[/latex]",
+        "C": "[latex]f_1, f_2, f_3[/latex]",
+        "D": "[latex]f_2, f_3, f_1[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "Write each as a power of 2:<br>\n- [latex]f_2=n^{\\log n}=2^{(\\log n)^2}[/latex]<br>\n- [latex]f_3=n^{\\sqrt n}=2^{\\sqrt n\\log n}[/latex]<br>\n- [latex]f_1=10^n=2^{n\\log10}[/latex]<br><br>\nCompare exponents: [latex](\\log n)^2 \\lt \\sqrt n\\log n \\lt n\\log 10[/latex] for large n.<br><br>\n<b>Answer: [latex]f_2,f_3,f_1[/latex]</b><br><br><a href=\"https://gateoverflow.in/357449/gate-cse-2021-set-1-question-3#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 3
+    },
+    {
+      "id": "2016-S2-Q11",
+      "source_id": 1116211,
+      "number": 14,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Breadth First Search(BFS) is started on a binary tree beginning from the root vertex. There is a vertex t at a distance four from the root. If t is the n-th vertex in this BFS traversal, then the maximum possible value of n is______ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        31.0,
+        31.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Graph Traversal",
+      "explanation": "BFS visits level by level. To make t as late as possible, levels 0-3 are full (1 + 2 + 4 + 8 = 15 nodes) and t is the <b>last</b> of the 16 nodes at level 4.<br><br>\nn = 15 + 16 = 31<br><br>\n<b>Answer: 31</b><br><br><a href=\"https://gateoverflow.in/39563/gate2016-2-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 11
+    },
+    {
+      "id": "2007-Q76",
+      "source_id": 1107176,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Suppose the letters a, b, c, d, e, f have probabilities 1/2, 1/4, 1/8, 1/16, 1/32, 1/32 respectively. <br><br>Which of the following is the Huffman code for the letter a, b, c, d, e, f?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0, 10, 110, 1110, 11110, 11111",
+        "B": "11, 10, 011, 010, 001, 000",
+        "C": "11, 10, 01, 001, 0001, 0000",
+        "D": "110, 100, 010, 000, 001, 111"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Greedy Technique",
+      "explanation": "<a href=\"https://gateoverflow.in/1271/gate2007-76#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 76
+    },
+    {
+      "id": "2025-S1-Q33",
+      "source_id": 1125133,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex]G(V, E)[/latex] be an undirected and unweighted graph with 100 vertices. Let [latex]d(u, v)[/latex] denote the number of edges in a shortest path between vertices [latex]u[/latex] and [latex]v[/latex] in [latex]V[/latex]. Let the maximum value of [latex]d(u, v)[/latex], [latex]u, v \\in V[/latex] such that [latex]u \\neq v[/latex], be 30. Let [latex]T[/latex] be any breadth-first-search tree of [latex]G[/latex]. Which ONE of the given options is CORRECT for every such graph [latex]G[/latex]?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The height of [latex]T[/latex] is exactly 15.",
+        "B": "The height of [latex]T[/latex] is exactly 30.",
+        "C": "The height of [latex]T[/latex] is at least 15.",
+        "D": "The height of [latex]T[/latex] is at least 30."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "\nLet the <b>diameter</b> of the graph be the maximum shortest distance between any two vertices.<br>\nIt is given that \n\n[latex]\n\\max_{u,v\\in V,\\;u\\ne v} d(u,v)=30.\n[/latex]<br>\n\nThus, the <b>diameter</b> of the graph is 30.<br><br>\n<b>Relation between BFS Tree Height and Graph Diameter</b><br><br>\n\nA Breadth-First Search (BFS) tree rooted at a vertex (r) has the following property:<br><br>\n\n- The level of every vertex equals its shortest distance from the root.<br>\n- Therefore, the height of the BFS tree is the maximum shortest distance from the root to any vertex, which is called the <b>eccentricity</b> of the root.<br><br>\n\nLet the height of the BFS tree be (h). Then,\n\n[latex]\nh=\\max_{v\\in V} d(r,v).\n[/latex]<br><br>\n\n\n<b>Using the Diameter</b><br><br>\n\nLet the diameter of the graph be (D=30). A well-known property of graphs is \n\n[latex]\n\\text{Radius} \\ge \\left\\lceil\\frac{D}{2}\\right\\rceil.\n[/latex]<br><br>\n\nSince \n\n[latex]\nD=30,\n[/latex] \n\nwe get \n\n[latex]\n\\left\\lceil\\frac{30}{2}\\right\\rceil=15.\n[/latex]<br><br>\n\nEvery vertex has eccentricity at least the radius. Hence, regardless of the chosen BFS root, \n\n[latex]\nh\\ge 15.\n[/latex]<br><br>\n\nThe height need not be exactly 15 or exactly 30. It can be any value between 15 and 30 depending on the chosen root.<br><br>\n\nFor example:<br><br>\n\n- If the BFS starts from a central vertex, the height can be 15.<br>\n- If it starts from an end vertex of a diameter, the height can be 30.<br><br>\n\n<b>Correct Answer: (C) The height of (T) is at least 15.</b><br><br><a href=\"https://gateoverflow.in/460047/gate-cse-2025-set-1-question-33#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 33
+    },
+    {
+      "id": "2017-S2-Q38",
+      "source_id": 1117238,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following C function<pre><code>\nint fun (int n) {\n  int i, j;\n  for (i = 1; i < = n; i++) {\n      for (j = 1 ; j < n ; j+=i) {\n          printf (\"%d %d , i, j ) ;\n          }\n     }\n}</pre></code>\nAsymptotic Notation of fun in terms of [latex]\\theta[/latex] notation is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\theta (n\\sqrt{n})[/latex]",
+        "B": "[latex]\\theta (n^{2})[/latex]",
+        "C": "[latex]\\theta (n logn)[/latex]",
+        "D": "[latex]\\theta (n^{2} logn)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "For each i, the inner loop runs about n/i times. Total [latex]\\sum_{i=1}^{n}\\frac ni=n\\cdot H_n=\\Theta(n\\log n)[/latex].<br><br>\n<b>Answer: [latex]\\theta(n\\log n)[/latex]</b><br><br><a href=\"https://gateoverflow.in/118283/gate2017-2-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 38
+    },
+    {
+      "id": "2024-S2-Q41",
+      "source_id": 1124241,
+      "number": 18,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]G[/latex] be an undirected connected graph in which every edge has a positive integer weight.  Suppose  that  every  spanning  tree  in  [latex]G[/latex]  has  even  weight.  Which  of  the following statements is/are TRUE for every such graph [latex]G[/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "All edges in [latex]G[/latex] have even weight",
+        "B": "All edges in [latex]G[/latex] have even weight OR all edges in [latex]G[/latex] have odd weight",
+        "C": "In each cycle [latex]G[/latex] in [latex]G[/latex], all edges in [latex]G[/latex] have even weight",
+        "D": "In each cycle [latex]G[/latex] in [latex]G[/latex], either all edges in [latex]G[/latex] have even weight OR all edges in [latex]G[/latex] have odd weight"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Take any cycle C and two edges [latex]e,f[/latex] on it. Extend the path [latex]C-f[/latex] to a spanning tree T (it contains [latex]e[/latex], not [latex]f[/latex]). Then [latex]T'=T-e+f[/latex] is also a spanning tree.<br><br>\n[latex]w(T')-w(T)=w(f)-w(e)[/latex]. Both trees are even, so [latex]w(f)-w(e)[/latex] is even [latex]\\rightarrow[/latex] [latex]e[/latex] and [latex]f[/latex] have the same parity. So in every cycle all edges are even or all are odd [latex]\\text{---}[/latex] TRUE.<br><br>\nCounter-examples for the rest:<br>\n- Triangle with all weights 1: every spanning tree has weight 2 (even), yet edges are odd [latex]\\rightarrow[/latex] options 1 and 3 FALSE.<br>\n- Path with weights 1, 1, 2: only spanning tree has weight 4, but edges are mixed [latex]\\rightarrow[/latex] option 2 FALSE.<br><br>\n<b>Answer: In each cycle, either all edges have even weight OR all edges have odd weight</b><br><br><a href=\"https://gateoverflow.in/422856/gate-cse-2024-set-2-question-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 41
+    },
+    {
+      "id": "2004-Q83",
+      "source_id": 1104183,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The Asymptotic Notation of the following C function is (assume n [latex]\\gt[/latex] 0) <pre><code>int recursive (int n) {\n   if (n == 1)\n      return (1);\n   else\n      return (recursive (n - 1) + recursive (n - 1));\n} </pre></code> ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "O([latex](n^{2})[/latex])",
+        "B": "O(nlog n)",
+        "C": "O(n)",
+        "D": "O([latex](2^{n})[/latex])"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "<a href=\"https://gateoverflow.in/1077/gate2004-83#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 83
+    },
+    {
+      "id": "2015-S3-Q27",
+      "source_id": 1115327,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Assume that a mergesort algorithm in the worst case takes 30 seconds for an input of size 64. Which of the following most closely approximates the maximum input size of a problem that can be solved in 6 minutes?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "256",
+        "B": "512",
+        "C": "1024",
+        "D": "2048"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "Mergesort time [latex]\\propto n\\log n[/latex]. For n = 64: 64 [latex]\\times[/latex] 6 = 384 units in 30 s.<br><br>\n6 minutes = 12 [latex]\\times[/latex] 30 s [latex]\\rightarrow[/latex] 12 [latex]\\times[/latex] 384 = 4608 units.<br><br>\nn = 512: 512 [latex]\\times[/latex] 9 = 4608 [latex]\\checkmark[/latex]<br><br>\n<b>Answer: 512</b><br><br><a href=\"https://gateoverflow.in/8480/gate2015-3-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 27
+    },
+    {
+      "id": "2014-S2-Q52",
+      "source_id": 1114252,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The number of distinct minimum spanning trees for the weighted graph below is  <br><img src=\"/wp-content/uploads/GATE/CS/20142/q52.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20142/q52.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        6.0,
+        6.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Use Kruskal. All weight-1 edges are taken (they form no cycle), leaving components: {top-left, centre, left, bottom}, {top-right, right}, {triangle edge pair of weight 1}, {triangle's bottom-left vertex}.<br><br>\nNow weight-2 edges:<br>\n- Join the two left components: 3 choices (top edge, centre-top-right, centre-right).<br>\n- The long bottom edge is the only link to the triangle [latex]\\rightarrow[/latex] forced.<br>\n- Join the triangle's last vertex: 2 choices (either weight-2 edge of the triangle).<br><br>\nNumber of MSTs = 3 [latex]\\times[/latex] 2 = 6<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/2019/gate2014-2-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 52
+    },
+    {
+      "id": "2026-S2-Q29",
+      "source_id": 1126229,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a table [latex]T[/latex], where the elements [latex]T[i][j], 0 \\leq i, j \\leq n[/latex], represent the cost of the optimal solutions of different subproblems of a problem that is being solved using a dynamic programming algorithm. The recursive formulation to compute the table entries is as follows:<br><br> [latex] \\begin{array}{ll} T[0][k]=T[k][0]=1 & \\text { for } k=0,1,2, \\ldots, n \\\\ T[i][j]=2 T[i-1][j]+3 T[i][j-1] & \\text { for } 1 \\leq i, j \\leq n \\end{array} [/latex] <br><br>Consider the following two algorithms to compute entries of [latex]T[/latex]. Assume that for both the algorithms, for all [latex]0 \\leq i, j \\leq n, T[i][j][/latex] has been initialized to [latex]1[/latex]. <br><br> [latex]\\begin{aligned}\n&\\text{Algorithm } B_1: \\\\\n&\\quad \\text{For } i = 1,2,\\ldots,n \\\\\n&\\quad\\quad \\text{For } j = 1,2,\\ldots,n \\\\\n&\\quad\\quad\\quad T[i][j] = 2T[i-1][j] + 3T[i][j-1] \\\\[6pt]\n\n&\\text{Algorithm } B_2: \\\\\n&\\quad \\text{For } s = 2,3,\\ldots,2n \\\\\n&\\quad\\quad \\text{For } i = 1,2,\\ldots,n \\\\\n&\\quad\\quad\\quad \\text{For } j = 1,2,\\ldots,n \\\\\n&\\quad\\quad\\quad\\quad \\text{If } i + j = = s \\\\\n&\\quad\\quad\\quad\\quad\\quad T[i][j] = 2T[i-1][j] + 3T[i][j-1]\n\\end{aligned}[/latex]  <br><br>Algorithm [latex]B_{k}, k \\in\\{1,2\\}[/latex] is said to be correct if and only if it calculates the correct values of [latex]T[i][j][/latex], for all [latex]0 \\leq i, j \\leq n[/latex], (as per the recursive formulation) at the end of the execution of the algorithm [latex]B_{k}[/latex]. <br><br>Which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both algorithms [latex]B_{1}[/latex] and [latex]B_{2}[/latex] are correct",
+        "B": "Algorithm [latex]B_{1}[/latex] is correct, but algorithm [latex]B_{2}[/latex] is incorrect",
+        "C": "Algorithm [latex]B_{2}[/latex] is correct, but algorithm [latex]B_{1}[/latex] is incorrect",
+        "D": "Both algorithms [latex]B_{1}[/latex] and [latex]B_{2}[/latex] are incorrect"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Dynamic Programming",
+      "explanation": "To correctly compute [latex]T[i][j]=2T[i-1][j]+3T[i][j-1][/latex], both dependencies &mdash; [latex]T[i-1][j][/latex] (the cell directly above) and [latex]T[i][j-1][/latex] (the cell directly to the left) &mdash; must already hold their <i>final, correct</i> values before [latex]T[i][j][/latex] is computed.<br><br>\n<b>Algorithm B1</b> (row-major: outer loop over [latex]i[/latex], inner over [latex]j[/latex]): when computing [latex]T[i][j][/latex], [latex]T[i-1][j][/latex] was already finalized in the previous (fully completed) [latex]i-1[/latex] row, and [latex]T[i][j-1][/latex] was already finalized earlier in the same row (since [latex]j-1<j[/latex] and the inner loop moves left-to-right). Both dependencies are satisfied in time. <b>Correct.</b><br><br>\n<b>Algorithm B2</b> (processes cells in order of increasing anti-diagonal [latex]s=i+j[/latex]): for a cell [latex]T[i][j][/latex] with [latex]i+j=s[/latex], its dependency [latex]T[i-1][j][/latex] lies on diagonal [latex]s-1[/latex] and [latex]T[i][j-1][/latex] also lies on diagonal [latex]s-1[/latex] &mdash; both are processed in the strictly earlier iteration [latex]s-1<s[/latex] (all cells of a smaller diagonal are done before any cell of a larger diagonal begins). Both dependencies are also satisfied in time. <b>Correct.</b><br><br>\n<b>Answer: Both algorithms B1 and B2 are correct.</b> <br><br> <a href=\"https://gateoverflow.in/522917/gate-cse-2026-set-2-question-29#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 29
+    },
+    {
+      "id": "2014-S3-Q38",
+      "source_id": 1114338,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the decision problem 2CNFSAT defined as follows: <br>\n{ [latex]\\phi[/latex] | [latex]\\phi[/latex]  is a satisfiable propositional formula in CNF with at most two literal per clause} <br>\nFor example, [latex]\\phi =(x_{1} \\vee x_{2}) \\wedge (x_{1}  \\vee \\bar{x_{3}}) \\wedge (x_{2}  \\vee x_{4})[/latex] is a Boolean formula and it is in 2CNFSAT. <br> The decision problem 2CNFSAT is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "NP-Complete",
+        "B": "solvable in polynomial time by reduction to directed graph reachability.",
+        "C": "solvable in constant time since any input instance is satisfiable",
+        "D": "NP-hard, but not NP-complete"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "P-NP Theory",
+      "explanation": "Each clause [latex](a\\vee b)[/latex] gives implications [latex]\\neg a\\rightarrow b[/latex] and [latex]\\neg b\\rightarrow a[/latex]. The formula is unsatisfiable iff some x reaches [latex]\\neg x[/latex] and [latex]\\neg x[/latex] reaches x in this implication graph.<br><br>\nSo 2-SAT is solved in polynomial (linear) time by graph reachability.<br><br>\n<b>Answer: solvable in polynomial time by reduction to directed graph reachability</b><br><br><a href=\"https://gateoverflow.in/2072/gate2014-3-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 38
+    },
+    {
+      "id": "2023-Q46",
+      "source_id": 1123146,
+      "number": 24,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]U = \\{1, 2, 3\\}[/latex]. Let [latex]2^U[/latex] denote the powerset of  [latex]U[/latex]. Consider an undirected graph\n [latex]G[/latex] whose vertex set is  [latex]2^U[/latex]. For any  [latex]A,B \\in 2^U, (A,B)[/latex] is an edge in  [latex]G[/latex] if and only\nif (i)  [latex]A \\neq B[/latex], and (ii) either [latex]A \\subseteq B[/latex]   or [latex]B \\subseteq A[/latex]. For any vertex [latex]A[/latex] in [latex]G[/latex], the set of\nall possible orderings in which the vertices of [latex]G[/latex] can be visited in a Breadth First\nSearch (BFS) starting from [latex]A[/latex] is denoted by [latex]B(A)[/latex].<br>\nIf [latex]\\phi [/latex]  denotes the empty set, then the cardinality of [latex]B(\\phi ) [/latex]  is ____.\n",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5040.0,
+        5040.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Graph Traversal",
+      "explanation": "[latex]\\phi[/latex] is a subset of every set, so [latex]\\phi[/latex] is adjacent to all the other [latex]2^3-1=7[/latex] vertices.<br><br>\nBFS from [latex]\\phi[/latex] visits all 7 neighbours at level 1, and these 7 can be visited in any order: [latex]7!=5040[/latex].<br><br>\n<b>Answer: 5040</b><br><br><a href=\"https://gateoverflow.in/399265/gate-cse-2023-question-46#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 46
+    },
+    {
+      "id": "2024-S1-Q32",
+      "source_id": 1124132,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following recurrence relation:\n<br> [latex]\nT(n)=\\left\\{\\begin{array}{c}\n\\sqrt{n} T(\\sqrt{n})+n \\text { for } n \\geq 1, \\\\\n1 \\quad \\text { for } n=1 .\n\\end{array}\\right.\n [/latex] <br>\n\nWhich one of the following options is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]T(n)=\\Theta(n \\log \\log n) [/latex]",
+        "B": "[latex]T(n)=\\Theta(n \\log n) [/latex]",
+        "C": "[latex]T(n)=\\Theta\\left(n^2 \\log n\\right) [/latex]",
+        "D": "[latex]T(n)=\\Theta\\left(n^2 \\log \\log n\\right) [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "Divide both sides by [latex]n[/latex]: [latex]\\frac{T(n)}{n}=\\frac{T(\\sqrt n)}{\\sqrt n}+1[/latex].<br><br>\nLet [latex]S(n)=\\frac{T(n)}{n}[/latex]. Then [latex]S(n)=S(\\sqrt n)+1[/latex].<br><br>\nTaking square roots repeatedly, [latex]n\\to n^{1/2}\\to n^{1/4}\\to\\cdots[/latex] reaches a constant after [latex]\\log\\log n[/latex] steps, adding 1 each step. So [latex]S(n)=\\Theta(\\log\\log n)[/latex].<br><br>\n[latex]T(n)=n\\,S(n)=\\Theta(n\\log\\log n)[/latex]<br><br>\n<b>Answer: [latex]T(n)=\\Theta(n\\log\\log n)[/latex]</b><br><br><a href=\"https://gateoverflow.in/422810/gate-cse-2024-set-1-question-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 32
+    },
+    {
+      "id": "2010-Q51",
+      "source_id": 1110151,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry [latex]W_{ij}[/latex] in\nthe matrix W below is the weight of the edge {i, j}. <br><br>[latex]\\begin{pmatrix} 0&1 & 8 & 1 &4 \\\\ 1& 0 & 12 & 4 & 9\\\\ 8 & 12 & 0 & 7 & 3\\\\ 1& 4& 7 & 0 &2 \\\\ 4& 9 & 3& 2 &0 \\end{pmatrix}[/latex]<br><br>What is the minimum possible weight of a path P from vertex 1 to vertex 2 in this\ngraph such that P contains at most 3 edges?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "Paths from 1 to 2 with at most 3 edges:<br>\n- 1-2: 12<br>\n- 1-0-2: 9, 1-4-2: 12<br>\n- 1-0-4-2: 1 + 4 + 3 = 8<br>\n- 1-3-4-2: 4 + 2 + 3 = 9, 1-0-3-2: 9<br><br>\n(The cheapest overall, 1-0-3-4-2 = 7, uses 4 edges.)<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/43328/gate2010-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 51
+    },
+    {
+      "id": "2005-Q83",
+      "source_id": 1105183,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let s and t be two vertices in a undirected graph G=(V, E) having distinct positive edge weights. Let [X, Y] be a partition of V such that s[latex]\\in[/latex]X and t[latex]\\in[/latex]Y. Consider the edge e having the minimum weight amongst all those edges that have one vertex in X and one vertex in Y. <br><br> The edge e must definitely belong to:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "the minimum weighted spanning tree of G",
+        "B": "the weighted shortest path from s to t",
+        "C": "each path from s to t",
+        "D": "the weighted longest path from s to t"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1404/gate2005-83#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 83
+    },
+    {
+      "id": "2013-Q31",
+      "source_id": 1113131,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following function:\n<pre><code> int unknown(int n){\n   int i, j, k=0;\n   for (i=n/2; i<=n; i++)\n        for (j=2; j<=n; j=j*2)\n             k = k + n/2;\n    return (k);\n} </pre></code>\nThe return value of the function is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta (n^{2})[/latex]",
+        "B": "[latex]\\Theta (n^{2}logn)[/latex]",
+        "C": "[latex]\\Theta (n^{3})[/latex]",
+        "D": "[latex]\\Theta (n^{3}logn)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "Checking each statement:<br>- Outer loop: n/2 + 1 iterations<br>\n- Inner loop (j doubles): about [latex]\\log n[/latex] iterations<br>\n- Each adds n/2<br><br>\n[latex]k\\approx\\frac n2\\cdot\\log n\\cdot\\frac n2=\\Theta(n^2\\log n)[/latex]<br><br>\n<b>Answer: [latex]\\Theta(n^2\\log n)[/latex]</b><br><br><a href=\"https://gateoverflow.in/1542/gate2013-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 31
+    },
+    {
+      "id": "2011-Q38",
+      "source_id": 1111138,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Four matrices M1, M2, M3 and M4 are dimensions p x q, q x r, r x s and s x t\nrespectively can be multiplied in several ways with different number of total\nscalar multiplications. For example When multiplied as [latex]((M_{1} \\times  M_{2})\\times (M_{3}\\times M_{4})[/latex] the total number of scalar multiplications is pqr+rst+prt. When multiplied as [latex](((M_{1}\\times M_{2})\\times M_{3})\\times M_{4})[/latex] , the total number of scalar multiplications is pqr+prs+pst.\nIf p=10, q=100, r=20, s=5 and t=80, then the minimum number of scalar\nmultiplications needed is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "248000",
+        "B": "44000",
+        "C": "19000",
+        "D": "25000"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Dynamic Programming",
+      "explanation": "Dimensions: 10[latex]\\times[/latex]100, 100[latex]\\times[/latex]20, 20[latex]\\times[/latex]5, 5[latex]\\times[/latex]80. Best order: [latex](M_1(M_2M_3))M_4[/latex]:<br><br>\n- [latex]M_2M_3[/latex]: 100 [latex]\\times[/latex] 20 [latex]\\times[/latex] 5 = 10000<br>\n- [latex]M_1(M_2M_3)[/latex]: 10 [latex]\\times[/latex] 100 [latex]\\times[/latex] 5 = 5000<br>\n- [latex]\\times[/latex] [latex]M_4[/latex]: 10 [latex]\\times[/latex] 5 [latex]\\times[/latex] 80 = 4000<br><br>\nTotal = 19000<br><br>\n<b>Answer: 19000</b><br><br><a href=\"https://gateoverflow.in/2140/gate2011-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 38
+    },
+    {
+      "id": "2003-Q68",
+      "source_id": 1103168,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What is the weight of a minimum spanning tree of the following graph? <br><img src=\"/wp-content/uploads/GATE/CS/20031/q68.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q68.jpg"
+      ],
+      "options": {
+        "A": "29",
+        "B": "31",
+        "C": "38",
+        "D": "41"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/955/gate2003-68#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 68
+    }
+  ]
+}

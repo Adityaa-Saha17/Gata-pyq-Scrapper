@@ -1,0 +1,851 @@
+{
+  "paper_id": "discrete-mathematics-03",
+  "paper": "Discrete Mathematics: Topic Mock 3",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 3,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2021-S1-Q18",
+      "source_id": 1121118,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter 2. For a randomly picked component of this type, the probability that its lifetime exceeds the expected lifetime (rounded to 2 decimal places) is _________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.35,
+        0.39
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Exponential with [latex]\\lambda=2[/latex]: mean = [latex]\\frac1\\lambda=\\frac12[/latex], and [latex]P(X \\gt x)=e^{-\\lambda x}[/latex].<br><br>\n[latex]P\\left(X \\gt \\frac12\\right)=e^{-2\\cdot\\frac12}=e^{-1}\\approx0.37[/latex]<br><br>\n<b>Answer: 0.37</b><br><br><a href=\"https://gateoverflow.in/357433/gate-cse-2021-set-1-question-18#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 18
+    },
+    {
+      "id": "1993-Q24",
+      "source_id": 1101224,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The less-than relation, [latex]\\lt[/latex], on reals is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a partial ordering since it is asymmetric and reflexive",
+        "B": "a partial ordering since it is antisymmetric and reflexive",
+        "C": "not a partial ordering because it is not asymmetric and not reflexive",
+        "D": "not a partial ordering because it is not antisymmetric and reflexive",
+        "E": "none of the above"
+      },
+      "correct": [
+        "E"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/2303/gate1993-8-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1993",
+      "source_number": 24
+    },
+    {
+      "id": "1993-Q21",
+      "source_id": 1101221,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The proposition [latex]p \\wedge (\\sim p \\vee q)[/latex] is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a tautology",
+        "B": "logically equivalent to [latex]p \\wedge q[/latex]",
+        "C": "logically equivalent to [latex]p \\vee q[/latex]",
+        "D": "a contradiction",
+        "E": "none of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/2300/gate1993-8-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1993",
+      "source_number": 21
+    },
+    {
+      "id": "2024-S2-Q2",
+      "source_id": 1124202,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex] p [/latex] and [latex] q [/latex] be the following propositions:<br><br>\n[latex] p [/latex] : Fail grade can be given.<br>\n[latex] q [/latex] : Student scores more than [latex] 50 \\% [/latex] marks.\n<br><br>\nConsider the statement: \"Fail grade cannot be given when student scores more than [latex] 50 \\% [/latex] marks.\"\n<br>\nWhich one of the following is the CORRECT representation of the above statement in propositional logic?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]  q \\rightarrow \\neg p [/latex]",
+        "B": "[latex]  q \\rightarrow p [/latex]",
+        "C": "[latex]  p \\rightarrow q [/latex]",
+        "D": "[latex] \\neg p \\rightarrow q [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "\"Fail grade cannot be given <b>when</b> student scores more than 50%\" means: if [latex]q[/latex] (scores [latex]\\gt[/latex] 50%) then not [latex]p[/latex] (fail cannot be given).<br><br>\n[latex]q\\rightarrow\\neg p[/latex]<br><br>\n<b>Answer: [latex]q\\rightarrow\\neg p[/latex]</b><br><br><a href=\"https://gateoverflow.in/422895/gate-cse-2024-set-2-question-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 2
+    },
+    {
+      "id": "1996-Q28",
+      "source_id": 1101528,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is false? Read [latex]\\wedge[/latex] as AND, [latex]\\vee[/latex] as OR, [latex]\\neg[/latex] as NOT,  [latex]\\rightarrow[/latex] as one way implication and [latex]\\leftrightarrow[/latex] as two way implication\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]((x \\rightarrow y) \\wedge x) \\rightarrow y[/latex]",
+        "B": "[latex]((\\neg x \\rightarrow y) \\wedge (\\neg x \\rightarrow \\neg y)) \\rightarrow x[/latex]",
+        "C": "[latex](x \\rightarrow (x \\vee y))[/latex]",
+        "D": "[latex]((x \\vee y) \\leftrightarrow (\\neg x \\rightarrow \\neg y))[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/2732/gate1996-2-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 28
+    },
+    {
+      "id": "1995-Q42",
+      "source_id": 1101442,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A be the set of all non-singular matrices over real number and let * be the matrix multiplication operation. Then\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A is closed under * but [latex]\\langle A, *\\rangle[/latex] is not a semigroup.",
+        "B": "[latex]\\langle A, *\\rangle[/latex] is a semigroup but not a monoid.",
+        "C": "[latex]\\langle A, *\\rangle[/latex] is a monoid but not a group.",
+        "D": "[latex]\\langle A, *\\rangle[/latex] is a a group but not an abelian group."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2629/gate1995-2-17\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 42
+    },
+    {
+      "id": "2000-Q25",
+      "source_id": 1101925,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "[latex]E_{1}[/latex] and [latex]E_{2}[/latex]  are events in a probability space satisfying the following constraints:<br>\n[latex]Pr\\left ( E_{1} \\right ) = Pr\\left ( E_{2} \\right )[/latex]<br>\n[latex]Pr\\left ( E_{1}\\cup E_{2} \\right ) = 1[/latex]<br>\n[latex]E_{1}[/latex] and [latex]E_{2}[/latex] are independent\nThe value of Pr\\left ( E_{1} \\right ), the probability of the event E_{1},  is\n\n ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "[latex]\\dfrac{1}{4}[/latex]",
+        "C": "[latex]\\dfrac{1}{2}[/latex]",
+        "D": "1"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/649/gate2000-2-2\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 25
+    },
+    {
+      "id": "2005-Q10",
+      "source_id": 1105110,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be a simple connected planar graph with 13 vertices and 19 edges. Then, the number of faces in the planar embedding of the graph is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "13"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Planar Graph",
+      "explanation": "<a href=\"https://gateoverflow.in/1159/gate2005-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 10
+    },
+    {
+      "id": "1994-Q6",
+      "source_id": 1101306,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of distinct simple graphs with up to three nodes is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "15",
+        "B": "10",
+        "C": "7",
+        "D": "9"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1994",
+      "source_number": 6
+    },
+    {
+      "id": "2000-Q13",
+      "source_id": 1101913,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The most appropriate matching for the following pairs is: <br>[latex]\\begin{array}{|l|l|}\\hline \\text{X: depth first search} & \\text{1: heap } \\\\\\hline \\text{Y: breadth first search} & \\text{2: queue} \\\\\\hline \\text{Z: sorting} & \\text{3: stack} \\\\\\hline \\end{array}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "X - 1,  Y - 2,  Z - 3",
+        "B": "X - 3,  Y - 1,  Z - 2",
+        "C": "X - 3,  Y - 2,  Z - 1",
+        "D": "X - 2,  Y - 3,  Z - 1"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/636/gate2000-1-13\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 13
+    },
+    {
+      "id": "2003-Q5",
+      "source_id": 1103105,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "n couples are invited to a party with the condition that every husband should be accompanied by his wife. However, a wife need not be accompanied by her husband. The number of different gatherings possible at the party is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\binom{2n}{n}*2^{n}[/latex]",
+        "B": "[latex]3^{n}[/latex]",
+        "C": "[latex]\\frac{(2n)!}{2^{n}}[/latex]\r\n",
+        "D": "[latex]\\binom{2n}{n}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/896/gate2003-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 5
+    },
+    {
+      "id": "2015-S1-Q1",
+      "source_id": 1115101,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]g(x)=1-x[/latex] and [latex]h(x)=\\frac{x}{x-1}[/latex], then [latex]\\frac{g(h(x))}{h(g(x))}[/latex] is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{h(x)}{g(x)}[/latex]",
+        "B": "[latex]\\frac{-1}{x}[/latex]",
+        "C": "[latex]\\frac{g(x)}{h(x)}[/latex]",
+        "D": "[latex]\\frac{x}{(1-x)^{2}}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "Checking each statement:<br>- [latex]g(h(x))=1-\\frac{x}{x-1}=\\frac{-1}{x-1}[/latex]<br>\n- [latex]h(g(x))=\\frac{1-x}{(1-x)-1}=\\frac{x-1}{x}[/latex]<br><br>\n[latex]\\frac{g(h(x))}{h(g(x))}=\\frac{-x}{(x-1)^2}[/latex]<br><br>\nAlso [latex]\\frac{h(x)}{g(x)}=\\frac{x}{(x-1)(1-x)}=\\frac{-x}{(x-1)^2}[/latex], the same.<br><br>\n<b>Answer: [latex]\\frac{h(x)}{g(x)}[/latex]</b><br><br><a href=\"https://gateoverflow.in/8025/gate2015-1-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 1
+    },
+    {
+      "id": "2000-Q29",
+      "source_id": 1101929,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let P(S) denotes the power set of set S. Which of the following is always true?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]P(P(S)) = P(S)[/latex]",
+        "B": "[latex]P(S) \\cap P(P(S)) = \\{ \\emptyset \\}[/latex]",
+        "C": "[latex]P(S) \\cap S = P(S)[/latex]",
+        "D": "[latex]S \\notin P(S)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/653/gate2000-2-6\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 29
+    },
+    {
+      "id": "2005-Q8",
+      "source_id": 1105108,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A, B and C be non-empty sets and let<br>\nX = (A - B) - C and Y = (A - C) - (B - C) <br>\nWhich one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "X=Y",
+        "B": "X[latex]\\subset[/latex]Y",
+        "C": "Y[latex]\\subset[/latex]X",
+        "D": "None of these"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1157/gate2005-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 8
+    },
+    {
+      "id": "2004-Q25",
+      "source_id": 1104125,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If a fair coin is tossed four times. What is the probability that two heads and two tails will result?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3/8",
+        "B": "1/2",
+        "C": "5/8",
+        "D": "2/4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1022/gate2004-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 25
+    },
+    {
+      "id": "2012-Q26",
+      "source_id": 1112126,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which of the following graphs is isomorphic to <br><img src=\"/wp-content/uploads/GATE/CS/20121/q26.jpg\"/><br><img src=\"/wp-content/uploads/GATE/CS/20121/q26a.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20121/q26.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20121/q26a.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "The given graph has 8 vertices and 8 edges, exactly one cycle of length 5, and a degree-4 vertex on that cycle carrying a pendant vertex and a path of length 2.<br><br>\n- A has a 3-cycle and D has a 4-cycle [latex]\\rightarrow[/latex] not isomorphic.<br>\n- C has a 5-cycle but no vertex of degree 4.<br>\n- B matches: 5-cycle (closed by the long arc), with the degree-4 vertex carrying one leaf and a 2-edge path.<br><br>\n<b>Answer: B</b><br><br><a href=\"https://gateoverflow.in/1611/gate2012-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 26
+    },
+    {
+      "id": "2009-Q22",
+      "source_id": 1109122,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For the composition table of a cyclic group shown below  <br><img src=\"/wp-content/uploads/GATE/CS/20091/q22.jpg\"/> <br>Which one of the following choices is correct?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20091/q22.jpg"
+      ],
+      "options": {
+        "A": "a, b are generators",
+        "B": "b, c are generators",
+        "C": "c, d are generators",
+        "D": "d, a are generators"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/799/gate2009-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 22
+    },
+    {
+      "id": "2018-Q44",
+      "source_id": 1118144,
+      "number": 18,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider Guwahati (G) and Delhi (D) whose temperatures can be classified as high (G), medium (M) and low (L). Let P([latex]H_{G}[/latex]) denote the probability that Guwahati has high temperature. Similarly, P([latex]M_{G}[/latex]) and P([latex]L_{G}[/latex]\n) denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use P([latex]H_{D}[/latex]),P([latex]M_{D}[/latex]) and P([latex]L_{D}[/latex]) for Delhi. <br>\nThe following table gives the conditional probabilities for Delhi's temperature given Guwahati's temperature. <br><img src=\"/wp-content/uploads/GATE/CS/2018/q44.jpg\" /> <br>   Consider the first row in the table above. The first entry denotes that if Guwahati has high\ntemperature ([latex]H_{G}[/latex]) then the probability of Delhi also having a high temperature ([latex]H_{D}[/latex]) is 0.40;\ni.e., ([latex]H_{D}[/latex]|[latex]H_{G}[/latex]) = 0.40. Similarly, the next two entries are P([latex]M_{D}[/latex]| [latex]H_{G}[/latex])= 0.48 and\nP([latex]L_{D}[/latex]|[latex]H_{G}[/latex]) = 0.12. Similarly for the other rows.\nIf it is known that P([latex]H_{G}[/latex])= 0.2, P([latex]M_{G}[/latex])= 0.5, andP([latex]L_{G}[/latex])= 0.3, then the probability\n(correct to two decimal places) that Guwahati has high temperature given that Delhi has high\ntemperature is _______",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/2018/q44.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.6,
+        0.62
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex]P(H_D)=0.2(0.40)+0.5(0.10)+0.3(0.01)=0.08+0.05+0.003=0.133[/latex]<br><br>\nBayes: [latex]P(H_G\\mid H_D)=\\frac{0.08}{0.133}\\approx0.60[/latex]<br><br>\n<b>Answer: 0.60</b><br><br><a href=\"https://gateoverflow.in/204119/gate2018-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 44
+    },
+    {
+      "id": "2018-Q28",
+      "source_id": 1118128,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the first-order logic sentence <br> [latex]\\varphi \\equiv \\exists s\\exists t\\exists u\\forall v\\forall w\\forall x\\forall y\\varphi (s,t,u,v,w,x,y)[/latex]<br>  where [latex]\\varphi (s,t,u,v,w,x,y)[/latex] is a quantifier-free first-order logic formula using only predicate\nsymbols, and possibly equality, but no function symbols. Suppose [latex]\\varphi [/latex] has a model with a universe containing 7 elements.\nWhich one of the following statements is necessarily true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There exists at least one model of [latex]\\varphi[/latex] with universe of size less than or equal to 3.",
+        "B": "There exists no model of [latex]\\varphi[/latex] with universe of size less than or equal to 3.",
+        "C": "There exists no model of [latex]\\varphi[/latex] with universe of size greater than 7.",
+        "D": "Every model of [latex]\\varphi[/latex] has a universe of size equal to 7."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "The formula has the form [latex]\\exists s\\,\\exists t\\,\\exists u\\,\\forall\\ldots[/latex] with no function symbols. Take any model and keep only the three elements chosen for s, t, u: universally quantified statements remain true on a subset, so this smaller structure (at most 3 elements) is still a model.<br><br>\n<b>Answer: There exists at least one model with universe of size at most 3</b><br><br><a href=\"https://gateoverflow.in/204102/gate2018-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 28
+    },
+    {
+      "id": "2020-Q52",
+      "source_id": 1120152,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Graph G is obtained by adding vertex s to [latex]K_{3,4}[/latex] and making s adjacent to every vertex of [latex]K_{3,4}[/latex]. The minimum number of colours required to edge-colour G is _______",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        7.0,
+        7.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "s is joined to all 3 + 4 = 7 vertices, so deg(s) = 7, and the edges at s need 7 different colours. So at least 7 colours.<br><br>\n7 is enough: give s's edges colours 1-7. Each vertex of [latex]K_{3,4}[/latex] has degree at most 5 in G and has already used one colour, and the [latex]K_{3,4}[/latex] edges can be coloured with the remaining colours.<br><br>\n<b>Answer: 7</b><br><br><a href=\"https://gateoverflow.in/333179/gate2020-cs-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 52
+    },
+    {
+      "id": "2006-Q24",
+      "source_id": 1106124,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given a set of elements N = {1,2,...,n} and two arbitrary subsets A[latex]\\subseteq[/latex]N and\nB[latex]\\subseteq[/latex]N , how many of the n! permutations p from N to N satisfy min[p(A)]=min[p(B)], where min(S) is the smallest integer in the set of integers S and\np(S) is the set of integers obtained by applying permutation p to each element of S ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](n-|A\\cup B|)|A||B|[/latex]",
+        "B": "[latex](|A|^{2}+|B|^{2})n^{2}[/latex]",
+        "C": "[latex]n!(|A\\cap B|/|A\\cup B|)[/latex]",
+        "D": "[latex]|A\\cap B|^{2}/\\binom{n}{|A\\cup B|^{2}}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/987/gate2006-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 24
+    },
+    {
+      "id": "2021-S2-Q29",
+      "source_id": 1121229,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In an examination, a student can choose the order in which two questions (QuesA and QuesB) must be attempted.<br><br>\n\nIf the first question is answered wrong, the student gets zero marks.<br>\nIf the first question is answered correctly and the second question is not answered correctly, the student gets the marks only for the first question.<br>\nIf both the questions are answered correctly, the student gets the sum of the marks of the two questions.<br><br>\nThe following table shows the probability of correctly answering a question and the marks of the question respectively.\n<br><br>[latex]\\begin{array}{c|c|c} \\text{question} & \\text{probabiloty of answering correctly} & \\text{marks} \\\\ \\hline \\textsf{QuesA} & 0.8 & 10 \\\\ \\textsf{QuesB} & 0.5 & 20 \\end{array}[/latex]\n<br><br>\nAssuming that the student always wants to maximize her expected marks in the examination, in which order should she attempt  the questions and what is the expected marks for that order (assume that the questions are independent)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "First QuesA and then QuesB. Expected marks 14.",
+        "B": "First QuesB and then QuesA. Expected marks 14.",
+        "C": "First QuesB and then QuesA. Expected marks 22.",
+        "D": "First QuesA and then QuesB. Expected marks 16."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Checking each statement:<br>- A first: [latex]0.8\\times(10+0.5\\times20)=0.8\\times20=16[/latex]<br>\n- B first: [latex]0.5\\times(20+0.8\\times10)=0.5\\times28=14[/latex]<br><br>\nA first gives more.<br><br>\n<b>Answer: First QuesA and then QuesB. Expected marks 16</b><br><br><a href=\"https://gateoverflow.in/357511/gate-cse-2021-set-2-question-29#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 29
+    },
+    {
+      "id": "2015-S2-Q51",
+      "source_id": 1115251,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A graph is self-complementary if it is isomorphic to its complement. For all self-complementary graphs on n vertices, n is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A multiple of 4",
+        "B": "Even",
+        "C": "Odd",
+        "D": "Congruent to 0 mod 4, or, 1 mod 4"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "A graph and its complement have equal edges, so each has half of [latex]\\binom n2[/latex]: [latex]\\frac{n(n-1)}{4}[/latex] must be an integer.<br><br>\nThis holds only when n [latex]\\equiv[/latex] 0 or 1 (mod 4).<br><br>\n<b>Answer: Congruent to 0 mod 4, or 1 mod 4</b><br><br><a href=\"https://gateoverflow.in/8134/gate2015-2-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 51
+    },
+    {
+      "id": "2015-S1-Q35",
+      "source_id": 1115135,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex]a_{n}[/latex] represent the number of bit strings of length n containing two consecutive 1s. What is the recurrence relation for [latex]a_{n}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]a_{n-2}+a_{n-1}+2^{n-2}[/latex]",
+        "B": "[latex]a_{n-2}+2a_{n-1}+2^{n-2}[/latex]",
+        "C": "[latex]2a_{n-2}+a_{n-1}+2^{n-2}[/latex]",
+        "D": "[latex]2a_{n-2}+2a_{n-1}+2^{n-2}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Recurrence",
+      "explanation": "Split by how the string starts:<br><br>\n- Starts with 0: the remaining n[latex]-[/latex]1 bits need 11 [latex]\\rightarrow[/latex] [latex]a_{n-1}[/latex]<br>\n- Starts with 10: the remaining n[latex]-[/latex]2 bits need 11 [latex]\\rightarrow[/latex] [latex]a_{n-2}[/latex]<br>\n- Starts with 11: already done, rest free [latex]\\rightarrow[/latex] [latex]2^{n-2}[/latex]<br><br>\n[latex]a_n=a_{n-1}+a_{n-2}+2^{n-2}[/latex]<br><br>\n<b>Answer: [latex]a_{n-2}+a_{n-1}+2^{n-2}[/latex]</b><br><br><a href=\"https://gateoverflow.in/8355/gate-cse-2015-set-1-question-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 35
+    },
+    {
+      "id": "2005-Q43",
+      "source_id": 1105143,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let f: B [latex]\\rightarrow[/latex] C and g: A [latex]\\rightarrow[/latex] B be two functions and let h = f[latex]\\cdot[/latex]g. Given that h is an onto function which one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "f and g should both be onto functions",
+        "B": "f should be onto but g need not to be onto",
+        "C": "g should be onto but f need not be onto",
+        "D": "both f and g need to be onto"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/1168/gate2005-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 43
+    },
+    {
+      "id": "2024-S1-Q41",
+      "source_id": 1124141,
+      "number": 26,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let [latex] G [/latex] be any graph with [latex] n [/latex] vertices and chromatic number [latex] k [/latex]. Which of the following statements is/are always TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]G[/latex] contains a complete subgraph with [latex]k[/latex] vertices",
+        "B": "[latex]G[/latex] contains an independent set of size at least [latex]n/k[/latex]",
+        "C": "[latex]G[/latex] contains at least [latex]k(k - 1)/2[/latex] edges",
+        "D": "[latex]G[/latex] contains a vertex of degree at least [latex]k[/latex]"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Checking each statement:<br>- Complete subgraph of size k: FALSE. The 5-cycle [latex]C_5[/latex] has [latex]\\chi=3[/latex] but no triangle.<br>\n- Independent set of size [latex]\\ge n/k[/latex]: TRUE. The k colour classes are independent sets covering n vertices, so the largest has at least [latex]n/k[/latex] vertices.<br>\n- At least [latex]k(k-1)/2[/latex] edges: TRUE. In a minimum colouring, every pair of colour classes must have an edge between them (otherwise merge the two classes and use [latex]k-1[/latex] colours). That gives [latex]\\binom{k}{2}[/latex] edges.<br>\n- Vertex of degree [latex]\\ge k[/latex]: FALSE. [latex]K_k[/latex] has [latex]\\chi=k[/latex] but every degree is [latex]k-1[/latex].<br><br>\n<b>Answer: Options 2 and 3</b><br><br><a href=\"https://gateoverflow.in/422801/gate-cse-2024-set-1-question-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 41
+    },
+    {
+      "id": "2005-Q52",
+      "source_id": 1105152,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A random bit string of length n is constructed by tossing a fair coin n times and setting a bit to 0 or 1\ndepending on outcomes head and tail, respectively. The probability that two such randomly\ngenerated strings are not identical is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]1/2^{n}[/latex]",
+        "B": "1-1/n",
+        "C": "1/n!",
+        "D": "[latex]1-(1/2^{n})[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1177/gate2005-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 52
+    },
+    {
+      "id": "2023-Q38",
+      "source_id": 1123138,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let U = {1, 2,...,n}, where n is a large positive integer greater than 1000. Let\nk be a positive integer less than n. Let A, B be subsets of U with |A| = |B| = k\nand [latex] A\\cap B=\\phi [/latex]. We say that a permutation of U separates A from B if one of the\nfollowing is true. <br><br>\n- All members of A appear in the permutation before any of the members of B.<br>\n- All members of B appear in the permutation before any of the members of A.<br><br>\nHow many permutations of U separate A from B?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] n![/latex] ",
+        "B": "[latex]\\binom{n}{2k} (n-2k)![/latex] ",
+        "C": "[latex]\\binom{n}{2k} (n-2k)!  (k!)^2[/latex] ",
+        "D": "[latex]2 \\binom{n}{2k} (n-2k)!  (k!)^2[/latex] "
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "Count the permutations step by step:<br>- Choose the 2k positions that A [latex]\\cup[/latex] B will occupy: [latex]\\binom{n}{2k}[/latex]<br>\n- Arrange the other [latex]n-2k[/latex] elements in the rest: [latex](n-2k)![/latex]<br>\n- In the chosen positions, put all of A first and then B, or B first and then A: 2 ways<br>\n- Arrange A among its k places and B among its k places: [latex](k!)^2[/latex]<br><br>\nTotal [latex]=2\\binom{n}{2k}(n-2k)!(k!)^2[/latex]<br><br>\n<b>Answer: [latex]2\\binom{n}{2k}(n-2k)!(k!)^2[/latex]</b><br><br><a href=\"https://gateoverflow.in/399273/gate-cse-2023-question-38#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 38
+    },
+    {
+      "id": "2016-S2-Q26",
+      "source_id": 1116226,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A binary relation R on [latex]\\mathbb{N}\\times \\mathbb{N}[/latex]  is defined as follows: (a,b)R(c,d) if   [latex]a \\leq c[/latex]\nor [latex]b \\leq d[/latex]. Consider the following propositions:<br>\nP: R is reflexive <br>\nQ: R is transitive <br>\nWhich one of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both P and Q are true",
+        "B": "P is true and Q is false.",
+        "C": "P is false and Q is true",
+        "D": "Both P and Q are false"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "Checking each statement:<br>- Reflexive: (a, b) R (a, b) since [latex]a\\le a[/latex] True<br>\n- Transitive fails: (3, 2) R (1, 3) because 2 [latex]\\le[/latex] 3, and (1, 3) R (2, 1) because 1 [latex]\\le[/latex] 2, but (3, 2) R (2, 1) needs 3 [latex]\\le[/latex] 2 or 2 [latex]\\le[/latex] 1 [latex]\\text{---}[/latex] both false.<br><br>\n<b>Answer: P is true and Q is false</b><br><br><a href=\"https://gateoverflow.in/39603/gate2016-2-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 26
+    },
+    {
+      "id": "2009-Q26",
+      "source_id": 1109126,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following well-formed formulae:<br> I. [latex]\\neg \\forall x(P(x))[/latex] <br> II. [latex]\\neg \\exists x(P(x))[/latex] <br>  III. [latex]\\neg \\exists x(\\neg P(x))[/latex]  <br> IV. [latex]\\exists x(\\neg P(x))[/latex]<br> Which of the above are equivalent?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I and III",
+        "B": "I and IV",
+        "C": "II and III",
+        "D": "II and IV"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/803/gate2009-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 26
+    }
+  ]
+}

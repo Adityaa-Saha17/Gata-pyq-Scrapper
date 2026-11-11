@@ -1,0 +1,861 @@
+{
+  "paper_id": "digital-logic-02",
+  "paper": "Digital Logic: Topic Mock 2",
+  "kind": "topic_mock",
+  "topic": "Digital Logic",
+  "set": 2,
+  "duration_min": 90,
+  "total_marks": 41,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2000-Q35",
+      "source_id": 1101935,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The following arrangement of master-slave flip flops<br><img src=\"/wp-content/uploads/GATE/CS/20001/q2.12.jpg\" /><br> has the initial state of P, Q as 0, 1 (respectively). After three clock cycles the output state P, Q is (respectively),",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20001/q2.12.jpg"
+      ],
+      "options": {
+        "A": "1, 0",
+        "B": "1, 1",
+        "C": "0, 0",
+        "D": "0, 1"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/659/gate2000-2-12\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 35
+    },
+    {
+      "id": "1999-Q22",
+      "source_id": 1101822,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The maximum gate delay for any output to appear in an array multiplier for multiplying two n bit numbers is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]O(n^2)[/latex]",
+        "B": "O(n)",
+        "C": "[latex]O(\\log n)[/latex]",
+        "D": "O(1)"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "explanation": "<a href=\"https://gateoverflow.in/1475/gate1999-1-22\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 22
+    },
+    {
+      "id": "1996-Q23",
+      "source_id": 1101523,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Booth's algorithm for integer multiplication gives worst performance when the multiplier pattern is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "101010 ... 1010",
+        "B": "100000 ... 0001",
+        "C": "111111 ... 1111",
+        "D": "011111 ... 1110"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/2727/gate1996-1-23\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 23
+    },
+    {
+      "id": "2013-Q4",
+      "source_id": 1113104,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The smallest integer that can be represented by an 8-bit number in 2's complement form is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "-256",
+        "B": "-128",
+        "C": "-127",
+        "D": "0"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "8-bit 2's complement range is [latex]-2^7[/latex] to [latex]2^7-1[/latex], i.e. [latex]-[/latex]128 to 127.<br><br>\n<b>Answer: [latex]-[/latex]128</b><br><br><a href=\"https://gateoverflow.in/1413/gate2013-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 4
+    },
+    {
+      "id": "2001-Q11",
+      "source_id": 1101111,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Given the following Karnaugh map, which one of the following represents the\nminimal sum-of-Products of the map ?  <br><img src=\"/wp-content/uploads/GATE/CS/20011/q11.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20011/q11.jpg"
+      ],
+      "options": {
+        "A": "xy+y'z",
+        "B": "wx'y'+xy+xz",
+        "C": "w'x+y'z+xy",
+        "D": "xz+y"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/704/gate2001-1-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 11
+    },
+    {
+      "id": "2014-S1-Q8",
+      "source_id": 1114108,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The base (or radix) of the number system such that the following equation holds is_______. <br> [latex]\\frac{312}{20}=13.1[/latex]",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "In base b: [latex]312=3b^2+b+2[/latex], [latex]20=2b[/latex], [latex]13.1=b+3+\\frac1b[/latex].<br>\n[latex]3b^2+b+2=2b\\left(b+3+\\frac1b\\right)=2b^2+6b+2\\Rightarrow b^2=5b\\Rightarrow b=5[/latex]<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/1766/gate2014-1-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 8
+    },
+    {
+      "id": "2014-S1-Q7",
+      "source_id": 1114107,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following Boolean Algebra for F: <br>[latex]F(P,Q,R,S)=PQ+\\bar{P}QR+\\bar{P}Q\\bar{R}S[/latex] <br> The minimal sum-of products form of F is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "PQ+QR+QS",
+        "B": "P+Q+R+S",
+        "C": "[latex]\\bar{P}+\\bar{Q}+\\bar{R}+\\bar{S}[/latex]",
+        "D": "[latex]\\bar{P}R+\\bar{PRS}+P[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "[latex]F=Q(P+\\bar PR+\\bar P\\bar RS)=Q(P+R+S)=PQ+QR+QS[/latex] (using [latex]P+\\bar PR=P+R[/latex] and [latex]R+\\bar RS=R+S[/latex]).<br><br>\n<b>Answer: PQ+QR+QS</b><br><br><a href=\"https://gateoverflow.in/1764/gate2014-1-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 7
+    },
+    {
+      "id": "1995-Q30",
+      "source_id": 1101430,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What values of A, B, C and D satisfy the following simultaneous Boolean equations?<br>\n[latex]\\overline{A} + AB =0, AB=AC, AB+A\\overline{C}+CD=\\overline{C}D[/latex]\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A=1, B=0, C=0, D=1",
+        "B": "A=1, B=1, C=0, D=0",
+        "C": "A=1, B=0, C=1, D=1",
+        "D": "A=1, B=0, C=0, D=0"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2617/gate1995-2-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 30
+    },
+    {
+      "id": "2020-Q19",
+      "source_id": 1120119,
+      "number": 9,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "A multiplexer is placed between a group of 32 registers and an accumulator to regulate data movement such that at any given point in time the content of only one register will move to the accumulator. The number of select lines needed for the multiplexer is ______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "To select one of 32 inputs we need [latex]\\log_2 32=5[/latex] select lines.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/333212/gate2020-cs-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 19
+    },
+    {
+      "id": "2002-Q27",
+      "source_id": 1102127,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following multiplexor where I0,I1,I2,I3 are four data input lines\r\nselected by two address line combinations A1A0 = 00,01,10,11 respectively and\r\nf is the output of the multiplexor. EN is the Enable input. <br><img src=\"/wp-content/uploads/GATE/CS/20021/q27.jpg\"/> <br>The function f (x,y,z) implemented by the above circuit is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20021/q27.jpg"
+      ],
+      "options": {
+        "A": "xyz'",
+        "B": "xy + z",
+        "C": "x + y",
+        "D": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/832/gate2002-2-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 27
+    },
+    {
+      "id": "2016-S1-Q8",
+      "source_id": 1116108,
+      "number": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "We want to design a synchronous counter that counts these quence 0-1-0-2-0-3 and then repeats. The minimum number of J-K flip flop srequired to implement this counteris ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        4.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "The sequence 0, 1, 0, 2, 0, 3 has 6 steps, and the three 0s are followed by different numbers, so the counter needs 6 different internal states.<br><br>\n6 states need [latex]\\lceil\\log_2 6\\rceil=3[/latex] flip-flops (the output is then decoded from the state).<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/39670/gate2016-1-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 8
+    },
+    {
+      "id": "2016-S2-Q9",
+      "source_id": 1116209,
+      "number": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let X be the number of distinct 16-bit integers in 2's complement representation. Let Y be the number of distinct 16 bit integers in sign magnitude representation. Then X-Y is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1.0,
+        1.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "Checking each statement:<br>- 2's complement: all [latex]2^{16}[/latex] bit patterns are different numbers.<br>\n- Sign-magnitude: +0 and [latex]-[/latex]0 are both zero, so only [latex]2^{16}-1[/latex] distinct numbers.<br><br>\nX [latex]-[/latex] Y = 1<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/39546/gate2016-2-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 9
+    },
+    {
+      "id": "1992-Q3",
+      "source_id": 1100903,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\nAll digital circuits can be realized using only\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Ex-OR gates",
+        "B": "Multiplexers",
+        "C": "Half adders",
+        "D": "OR gates"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/556/gate1992-02-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1992",
+      "source_number": 3
+    },
+    {
+      "id": "1998-Q42",
+      "source_id": 1101742,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The function represented by the Karnaugh map given below is<br><img src=\"/wp-content/uploads/GATE/CS/19981/q2.7.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19981/q2.7.jpg"
+      ],
+      "options": {
+        "A": "[latex]A \\cdot B[/latex]",
+        "B": "[latex]AB+BC+CA[/latex]",
+        "C": "[latex]\\overline{B \\oplus C}[/latex]",
+        "D": "[latex]A \\cdot BC[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1679/gate1998-2-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1998",
+      "source_number": 42
+    },
+    {
+      "id": "1999-Q42",
+      "source_id": 1101842,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Zero has two representations in:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Sign-magnitude",
+        "B": "2's  complement",
+        "C": " 1's  complement",
+        "D": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/1495/gate1999-2-17\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 42
+    },
+    {
+      "id": "2001-Q35",
+      "source_id": 1101135,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The 2's complement representation of [latex](-539)_{10}[/latex] is hexadecimal is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "ABE",
+        "B": "DBC",
+        "C": "DE5",
+        "D": "9E7"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/728/gate2001-2-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 35
+    },
+    {
+      "id": "2021-S2-Q4",
+      "source_id": 1121204,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The format of the single-precision floating point representation of a real number as per the IEEE 754 standard is as follows:<br><br>\n[latex]\\begin{array}{|c|c|c|} \\hline \\text{sign} & \\text{exponent} & \\text{mantissa} \\\\ \\hline \\end{array}[/latex]<br><br>\nWhich one of the following choices is correct with respect to the smallest normalized positive number represented using the standard?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "exponent = 00000000 and mantissa = 0000000000000000000000000",
+        "B": "exponent = 00000000 and mantissa = 0000000000000000000000001",
+        "C": "exponent = 00000001 and mantissa = 0000000000000000000000000",
+        "D": "exponent = 00000001 and mantissa = 0000000000000000000000001"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "Normalized numbers need exponent field from 1 to 254 (0 is for zero/denormals). The smallest normalized positive number has exponent 00000001 and mantissa all 0: [latex]1.0\\times2^{1-127}=2^{-126}[/latex].<br><br>\n<b>Answer: exponent = 00000001 and mantissa = 0[latex]\\ldots[/latex]0</b><br><br><a href=\"https://gateoverflow.in/357536/gate-cse-2021-set-2-question-4#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 4
+    },
+    {
+      "id": "2012-Q6",
+      "source_id": 1112106,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The truth table <br><img src=\"/wp-content/uploads/GATE/CS/20121/q6.jpg\"/> represents the Boolean function",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20121/q6.jpg"
+      ],
+      "options": {
+        "A": "X",
+        "B": "X + Y",
+        "C": "X [latex]\\bigoplus[/latex] Y",
+        "D": "Y"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "f is 1 exactly in the rows where X = 1, whatever Y is. So f = X.<br><br>\n<b>Answer: X</b><br><br><a href=\"https://gateoverflow.in/38/gate2012-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 6
+    },
+    {
+      "id": "2013-Q5",
+      "source_id": 1113105,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the following truth table, V = 1 if and only if the input is valid. <br><img src=\"/wp-content/uploads/GATE/CS/20131/q5.jpg\"/> <br> What function does the truth table represent?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20131/q5.jpg"
+      ],
+      "options": {
+        "A": "Priority encoder",
+        "B": "Decoder",
+        "C": "Multiplexer",
+        "D": "Demultiplexer"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "The output gives the index of the highest-numbered input that is 1 (lower inputs are \"don't care\"), and V shows that some input is active. That is a 4-to-2 priority encoder.<br><br>\n<b>Answer: Priority encoder</b><br><br><a href=\"https://gateoverflow.in/1414/gate2013-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 5
+    },
+    {
+      "id": "2017-S2-Q28",
+      "source_id": 1117228,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given f(w,x,y,z) = [latex]\\sum_{m}[/latex]\n  (0,1,2,3,7,8,10) + [latex]\\sum_{d}[/latex]\n  (5,6,11,15), where d represents the don't care\ncondition in Karnaugh maps. Which of the following is a minimum product-of-sums (POS)\nform of f(w,x,y,z) ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "f=[latex](\\bar{w}+\\bar{z})(\\bar{x}+z)[/latex]",
+        "B": "f=[latex](\\bar{w}+z)(x+z)[/latex]",
+        "C": "f=[latex](w+z)(\\bar{x}+z)[/latex]",
+        "D": "f=[latex](w+\\bar{z})(\\bar{x}+z)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "The zeros of f are minterms 4, 9, 12, 13, 14 (5, 6, 11, 15 are don't-cares).<br>\n- [latex](\\bar w+\\bar z)[/latex] is 0 when w = z = 1: covers 9, 13 (and don't-cares 11, 15)<br>\n- [latex](\\bar x+z)[/latex] is 0 when x = 1, z = 0: covers 4, 12, 14 (and don't-care 6)<br><br>\nTogether they cover every 0 and no 1.<br><br>\n<b>Answer: [latex](\\bar w+\\bar z)(\\bar x+z)[/latex]</b><br><br><a href=\"https://gateoverflow.in/118370/gate2017-2-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 28
+    },
+    {
+      "id": "2010-Q31",
+      "source_id": 1110131,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What is the Boolean Algebra for the output f of the combinational logic circuit\nof NOR gates given below? <br><img src=\"/wp-content/uploads/GATE/CS/20101/q31.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20101/q31.jpg"
+      ],
+      "options": {
+        "A": "[latex]\\overline{Q+R}[/latex]",
+        "B": "[latex]\\overline{P+Q}[/latex]",
+        "C": "[latex]\\overline{P+R}[/latex]",
+        "D": "[latex]\\overline{P+Q+R}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "Checking each statement:<br>- Top: NOR of [latex]\\overline{P+Q}[/latex] and [latex]\\overline{Q+R}[/latex] = (P + Q)(Q + R) = Q + PR<br>\n- Bottom: NOR of [latex]\\overline{P+R}[/latex] and [latex]\\overline{Q+R}[/latex] = (P + R)(Q + R) = R + PQ<br>\n- Output: [latex]\\overline{Q+PR+R+PQ}=\\overline{Q+R}[/latex]<br><br>\n<b>Answer: [latex]\\overline{Q+R}[/latex]</b><br><br><a href=\"https://gateoverflow.in/2205/gate2010-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 31
+    },
+    {
+      "id": "2012-Q30",
+      "source_id": 1112130,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "What is the minimal form of the Karnaugh map shown below? Assume that X denotes a don't care\nterm.  <br><img src=\"/wp-content/uploads/GATE/CS/20121/q30.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20121/q30.jpg"
+      ],
+      "options": {
+        "A": "[latex]\\bar{b}\\bar{d}[/latex]",
+        "B": "[latex]\\bar{b}\\bar{d}+\\bar{b}\\bar{c}[/latex]",
+        "C": "[latex]\\bar{b}\\bar{d}+a\\bar{b}\\bar{c}d[/latex]",
+        "D": "[latex]\\bar{b}\\bar{d}+\\bar{b}\\bar{c}+\\bar{c}\\bar{d}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "1s at (ab, cd) = (00, 00), (10, 00), (10, 01), (00, 10). Don't cares at (01, 00), (11, 00), (00, 01), (10, 10).<br><br>\n- [latex]\\bar b\\bar d[/latex]: four corners (00/10 columns, 00/10 rows), covering (00,00), (10,00), (00,10)<br>\n- [latex]\\bar b\\bar c[/latex]: columns 00/10, rows 00/01, covering (10,01)<br><br>\n<b>Answer: [latex]\\bar b\\bar d+\\bar b\\bar c[/latex]</b><br><br><a href=\"https://gateoverflow.in/1615/gate2012-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 30
+    },
+    {
+      "id": "2003-Q38",
+      "source_id": 1103138,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the set {a, b, c} with binary operators + and x defined as follows :  <br><img src=\"/wp-content/uploads/GATE/CS/20031/q38.jpg\"/>  <br> For example, a + c = c, c + a = a, c x b = c and b x c = a. Given the following set of equations :<pre><code>\n(a x x) + (a x y) = c\n(b x x) + (c x y) = c</pre></code>\nThe number of solution(s) (i.e., pair(s) (x, y)) that satisfy the equations is :",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q38.jpg"
+      ],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/929/gate2003-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 38
+    },
+    {
+      "id": "2010-Q32",
+      "source_id": 1110132,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the sequential circuit shown below, if the initial value of the output [latex]Q_{1}Q_{0}[/latex] is 00,\nwhat are the next four values of  [latex]Q_{1}Q_{0}[/latex] ? <br><img src=\"/wp-content/uploads/GATE/CS/20101/q32.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20101/q32.jpg"
+      ],
+      "options": {
+        "A": "11,10,01,00",
+        "B": "10,11,01,00",
+        "C": "10,00,01,11",
+        "D": "11,10,00,01"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "Both T inputs are 1. FF0 toggles every clock; FF1 is clocked by Q0 and toggles when Q0 rises (0 [latex]\\rightarrow[/latex] 1).<br><br>\n- 00 [latex]\\rightarrow[/latex] Q0 = 1 (rises, Q1 toggles) [latex]\\rightarrow[/latex] 11<br>\n- [latex]\\rightarrow[/latex] Q0 = 0 [latex]\\rightarrow[/latex] 10<br>\n- [latex]\\rightarrow[/latex] Q0 = 1 (Q1 toggles) [latex]\\rightarrow[/latex] 01<br>\n- [latex]\\rightarrow[/latex] 00<br><br>\n<b>Answer: 11, 10, 01, 00</b><br><br><a href=\"https://gateoverflow.in/2206/gate2010-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 32
+    },
+    {
+      "id": "2021-S2-Q44",
+      "source_id": 1121244,
+      "number": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "If the numerical value of a 2-byte unsigned integer on a little endian computer is 255 more than that on a big endian computer, which of the following choices represent(s) the unsigned integer on a little endian computer?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0x6665",
+        "B": "0x0001",
+        "C": "0x4243",
+        "D": "0x0100"
+      },
+      "correct": [
+        "A",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "Write the little-endian value as [latex]256h+l[/latex] (high byte h, low byte l). The same bytes read big-endian give [latex]256l+h[/latex].<br><br>\nDifference [latex]=255(h-l)=255\\Rightarrow h=l+1[/latex].<br>\n- 0x6665: h = 0x66, l = 0x65 True<br>\n- 0x0100: h = 1, l = 0 True<br>\n- 0x0001 and 0x4243 have h = l [latex]-[/latex] 1 False<br><br>\n<b>Answer: 0x6665 and 0x0100</b><br><br><a href=\"https://gateoverflow.in/357496/gate-cse-2021-set-2-question-44#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 44
+    },
+    {
+      "id": "2024-S2-Q40",
+      "source_id": 1124240,
+      "number": 26,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider 4-variable functions [latex] f 1, f 2, f 3, f 4 [/latex] expressed in sum-of-minterms form as given below.\n<br> [latex]\n\\begin{aligned}\n& f 1=\\sum(0,2,3,5,7,8,11,13) \\\\\n& f 2=\\sum(1,3,5,7,11,13,15) \\\\\n& f 3=\\sum(0,1,4,11) \\\\\n& f 4=\\sum(0,2,6,13)\n\\end{aligned}\n [/latex] <br>\n<br><img src=\"/wp-content/uploads/GATE/CS/20242/q40.webp\" /><br>\nWith respect to the circuit given above, which of the following options is/are CORRECT?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20242/q40.webp"
+      ],
+      "options": {
+        "A": "[latex]\\boldsymbol{Y}=\\sum(0,1,2,11,13)[/latex] ",
+        "B": " [latex]\\boldsymbol{Y}=\\Pi(3,4,5,6,7,8,9,10,12,14,15)[/latex] ",
+        "C": " [latex]\\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7)[/latex] ",
+        "D": " [latex]\\boldsymbol{Y}=\\Pi(8,9,10,11,12,13,14,15)[/latex] "
+      },
+      "correct": [
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "Compute the AND, OR and XOR outputs as minterm sets:<br>- AND: [latex]f_1\\cdot f_2[/latex] = common minterms = [latex]\\{3,5,7,11,13\\}[/latex]<br>\n- OR: [latex]f_3+f_4=\\{0,1,4,11\\}\\cup\\{0,2,6,13\\}=\\{0,1,2,4,6,11,13\\}[/latex]<br>\n- XOR keeps minterms present in exactly one of them: [latex]\\{3,5,7\\}\\cup\\{0,1,2,4,6\\}[/latex]; 11 and 13 are in both, so they drop.<br><br>\n[latex]Y=\\Sigma(0,1,2,3,4,5,6,7)=\\Pi(8,9,10,11,12,13,14,15)[/latex] (i.e. [latex]Y=\\bar A[/latex]).<br><br>\n<b>Answer: [latex]Y=\\Sigma(0,\\ldots,7)[/latex] and [latex]Y=\\Pi(8,\\ldots,15)[/latex]</b><br><br><a href=\"https://gateoverflow.in/422857/gate-cse-2024-set-2-question-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 40
+    },
+    {
+      "id": "2014-S3-Q45",
+      "source_id": 1114345,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "<img src=\"/wp-content/uploads/GATE/CS/20143/q45.jpg\"/><br> The above synchronous sequential circuit built using JK flip-flops is initialized with\n[latex]Q_{2}Q_{1}Q_{0}[/latex] = 000. The state sequence for this circuit for the next 3 clock cycles is ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20143/q45.jpg"
+      ],
+      "options": {
+        "A": "001, 010, 011",
+        "B": "111, 110, 101",
+        "C": "100, 110, 111",
+        "D": "100, 011, 001"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "From the circuit: [latex]J_2=\\bar Q_1, K_2=Q_0[/latex]; [latex]J_1=Q_2, K_1=\\bar Q_2[/latex]; [latex]J_0=Q_1, K_0=\\bar Q_0[/latex].<br><br>\n- 000: J2K2 = 10 (set), J1K1 = 01 (reset), J0K0 = 01 (reset) [latex]\\rightarrow[/latex] 100<br>\n- 100: J2K2 = 10, J1K1 = 10 (set), J0K0 = 01 [latex]\\rightarrow[/latex] 110<br>\n- 110: J2K2 = 00 (hold 1), J1K1 = 10, J0K0 = 11 (toggle) [latex]\\rightarrow[/latex] 111<br><br>\n<b>Answer: 100, 110, 111</b><br><br><a href=\"https://gateoverflow.in/2079/gate2014-3-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 45
+    },
+    {
+      "id": "2021-S1-Q42",
+      "source_id": 1121142,
+      "number": 28,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following Boolean expression.\n<br><br>\n[latex]F=(X+Y+Z)(\\overline X +Y)(\\overline Y +Z)[/latex]<br><br>\nWhich of the following Boolean expressions is/are equivalent to [latex]\\overline F[/latex] (complement of [latex]F[/latex])?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](\\overline X +\\overline Y +\\overline Z)(X+\\overline Y)(Y+\\overline Z)[/latex]",
+        "B": "[latex]X\\overline Y + \\overline Z[/latex]",
+        "C": "[latex](X+\\overline Z)(\\overline Y +\\overline Z)[/latex]",
+        "D": "[latex]X\\overline Y +Y\\overline Z + \\bar  X \\bar Y \\bar Z[/latex]"
+      },
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "Find where F = 1 (XYZ): X = 1 forces Y = 1 (second factor), Y = 1 forces Z = 1 (third), and 000 fails the first. So [latex]F=\\Sigma(1,3,7)[/latex] and [latex]\\overline F=\\Sigma(0,2,4,5,6)[/latex].<br><br>\n- [latex]X\\bar Y+\\bar Z[/latex] = {4, 5} [latex]\\cup[/latex] {0, 2, 4, 6} = {0, 2, 4, 5, 6} True<br>\n- [latex](X+\\bar Z)(\\bar Y+\\bar Z)[/latex] = {0, 2, 4, 5, 6} True<br>\n- [latex]X\\bar Y+Y\\bar Z+\\bar X\\bar Y\\bar Z[/latex] = {4, 5} [latex]\\cup[/latex] {2, 6} [latex]\\cup[/latex] {0} True<br>\n- Option 1 is the dual, not the complement (it contains 1, not 0) False<br><br>\n<b>Answer: Options 2, 3 and 4</b><br><br><a href=\"https://gateoverflow.in/357409/gate-cse-2021-set-1-question-42#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 42
+    },
+    {
+      "id": "2015-S3-Q52",
+      "source_id": 1115352,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The total number of prime implicants of the function f(w,x,y,z)=[latex]\\Sigma[/latex](0,2,4,5,6,10) is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "Minterms 0, 2, 4, 5, 6, 10. From the K-map, the prime implicants are:<br><br>\n- [latex]\\bar w\\bar z[/latex] (0, 2, 4, 6)<br>\n- [latex]\\bar wx\\bar y[/latex] (4, 5)<br>\n- [latex]\\bar xy\\bar z[/latex] (2, 10)<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/8503/gate2015-3-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 52
+    },
+    {
+      "id": "2004-Q58",
+      "source_id": 1104158,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A circuit outputs a digit in the form of 4 bits. 0 is represented by 0000, 1 by 0001,..., 9 by 1001. A\ncombinational circuit is to be designed which takes these 4 bits as input and outputs 1 if the digit [latex]\\geq[/latex]5, and 0 otherwise. If only AND, OR and NOT gates may be used, what is the minimum number of gates required?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/1053/gate2004-58#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 58
+    }
+  ]
+}

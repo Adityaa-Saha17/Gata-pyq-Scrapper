@@ -1,0 +1,845 @@
+{
+  "paper_id": "theory-of-computation-03",
+  "paper": "Theory of Computation: Topic Mock 3",
+  "kind": "topic_mock",
+  "topic": "Theory of Computation",
+  "set": 3,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2016-S2-Q16",
+      "source_id": 1116216,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The number of states in the minimum sized DFA that accepts the language defined by the regular expression <br>(0+1)* (0+1)(0+1)* <br> is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2.0,
+        2.0
+      ],
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "[latex](0+1)^*(0+1)(0+1)^*=(0+1)^+[/latex]: every non-empty string. The DFA needs a non-final start state (for [latex]\\epsilon[/latex]) and one final state that loops on 0 and 1.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/39562/gate2016-2-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 16
+    },
+    {
+      "id": "2018-Q7",
+      "source_id": 1118107,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The set of all recursively enumerable languages is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "closed under complementation",
+        "B": "closed under intersection.",
+        "C": " a subset of the set of all recursive languages.",
+        "D": "an uncountable set"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Recursive Language",
+      "explanation": "RE languages are closed under intersection (run both TMs; accept when both accept). They are not closed under complement, are a superset (not subset) of recursive languages, and are countable (TMs can be listed).<br><br>\n<b>Answer: closed under intersection</b><br><br><a href=\"https://gateoverflow.in/204081/gate2018-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 7
+    },
+    {
+      "id": "2019-Q7",
+      "source_id": 1119107,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If L is a regular language over [latex]\\Sigma =\\{a,b\\}[/latex], which one of the following languages is NOT regular ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]L\\cdot L^R=\\{xy|x \\in L,y^R \\in L\\}[/latex]",
+        "B": "[latex]\\{ww^R|w \\in L\\}[/latex]",
+        "C": "Prifix(L)={[latex]x \\in \\Sigma ^*|\\exists y \\in \\Sigma ^*[/latex] such that [latex]xy \\in L[/latex]}",
+        "D": "Suffix(L)={[latex]y \\in \\Sigma ^*|\\exists x \\in \\Sigma ^*[/latex] such that [latex]xy \\in L[/latex]}"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "Checking each statement:<br>- [latex]L\\cdot L^R[/latex]: regular languages are closed under reversal and concatenation [latex]\\text{---}[/latex] regular.<br>\n- Prefix(L), Suffix(L): closed operations on regular languages [latex]\\text{---}[/latex] regular.<br>\n- [latex]\\{ww^R\\mid w\\in L\\}[/latex]: take [latex]L=\\Sigma^*[/latex]; this gives even-length palindromes, which are <b>not regular</b>.<br><br>\n<b>Answer: [latex]\\{ww^R\\mid w\\in L\\}[/latex]</b><br><br><a href=\"https://gateoverflow.in/302841/gate2019-cs-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 7
+    },
+    {
+      "id": "2023-Q4",
+      "source_id": 1123104,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the Deterministic Finite-state Automaton (DFA) [latex]A[/latex] shown below. The\nDFA runs on the alphabet {0, 1}, and has the set of states {s, p, q, r}, with s being\nthe start state and p being the only final state.<br><img src=\"/wp-content/uploads/GATE/CS/20231/q4.jpg\" /><br>Which one of the following regular expressions correctly describes the language\naccepted by [latex]A[/latex]?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20231/q4.jpg"
+      ],
+      "options": {
+        "A": "[latex]1(0^*11)^*[/latex]",
+        "B": "[latex]0(0 + 1)^*[/latex]",
+        "C": "[latex]1(0 + 11)^*[/latex]",
+        "D": "[latex]1(110^*)^*[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "From s: 0 goes to dead state r, so a string must start with <b>1</b> (reaching final state p).<br>\nAt p: 0 loops on p; 1 goes to q, and from q only another 1 returns to p (0 goes to r).<br><br>\nSo after the first 1, we repeat \"0\" or \"11\": [latex]1(0+11)^*[/latex].<br><br>\n<b>Answer: [latex]1(0+11)^*[/latex]</b><br><br><a href=\"https://gateoverflow.in/399308/gate-cse-2023-question-4#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 4
+    },
+    {
+      "id": "2015-S2-Q10",
+      "source_id": 1115210,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements.<br>\nI. The complement of every Turing decidable language is Turing decidable <br>\nII. There exists some language which is in NP but is not Turing decidable <br>\nIII. If L is a language in NP, L is Turing decidable <br><br>\nWhich of the above statements is/are true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only II",
+        "B": "Only III",
+        "C": "Only I and II",
+        "D": "Only I and III"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "explanation": "Checking each statement:<br>- I: decidable languages are closed under complement [latex]\\rightarrow[/latex] True<br>\n- II: every NP language is decided by a (time-bounded) Turing machine [latex]\\rightarrow[/latex] False<br>\n- III: same reason [latex]\\rightarrow[/latex] True<br><br>\n<b>Answer: Only I and III</b><br><br><a href=\"https://gateoverflow.in/8111/gate2015-2-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 10
+    },
+    {
+      "id": "1997-Q44",
+      "source_id": 1101644,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following regular expressions over {0,1} denotes the set of all strings not containing 100 as substring?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]0^*(1+0)^*[/latex]",
+        "B": "[latex]0^*1010^*[/latex]",
+        "C": "[latex]0^*1^*01^*[/latex]",
+        "D": "[latex]0^*(10+1)^*[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "<a href=\"https://gateoverflow.in/2260/gate1997-6-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 44
+    },
+    {
+      "id": "2025-S2-Q15",
+      "source_id": 1125215,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]G_1, G_2 [/latex] be Context-Free Grammars (CFGs) and [latex]R [/latex] be a regular expression. For a grammar [latex]G [/latex], let [latex]L(G) [/latex] denote the language generated by [latex]G [/latex].\n<br>\nWhich ONE among the following questions is decidable?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Is [latex]L(G_1) = L(G_2) [/latex]?",
+        "B": "Is [latex]L(G_1) \\cap L(G_2) = \\emptyset [/latex]?",
+        "C": "Is [latex]L(G_1) = L(R) [/latex]?",
+        "D": "Is [latex]L(G_1) = \\emptyset [/latex]?"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "Checking the decidability of each question about context-free grammars:<br><br>\n- <b>Is [latex]L(G_1)=L(G_2)[/latex]?</b> <b>Undecidable</b> &mdash; equivalence of two context-free grammars is a classic undecidable problem.<br>\n- <b>Is [latex]L(G_1)\\cap L(G_2)=\\emptyset[/latex]?</b> <b>Undecidable</b> &mdash; intersection-emptiness of two CFLs is undecidable (context-free languages aren't even closed under intersection in general, and this question is known to be undecidable, related to the Post Correspondence Problem).<br>\n- <b>Is [latex]L(G_1)=L(R)[/latex]?</b> (comparing a CFG's language to a regular language) <b>Undecidable</b> in general &mdash; this is essentially as hard as general CFG equivalence, since a regular language is just a special case of a context-free one.<br>\n- <b>Is [latex]L(G_1)=\\emptyset[/latex]?</b> <b>Decidable!</b> Emptiness of a single CFG's language can be checked with a simple, standard algorithm: iteratively mark which non-terminals can derive some terminal string, starting from productions with only terminals, and propagating upward &mdash; the language is empty iff the start symbol never gets marked.<br><br>\n<b>Answer: Is L(G1) = &empty;? (this is the only decidable one)</b><br><br><a href=\"https://gateoverflow.in/460820/gate-cse-2025-set-2-question-15#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 15
+    },
+    {
+      "id": "2000-Q31",
+      "source_id": 1101931,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What can be said about a regular language L over {a} whose minimal finite state automaton has two states?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "L must be [latex]\\{a^n \\mid n \\ \\text{ is odd}\\}[/latex]",
+        "B": "L must be [latex]\\{a^n \\mid n \\ \\text{ is even}\\}[/latex]",
+        "C": "L must be [latex]\\{a^n \\mid n \\geq 0\\}[/latex]",
+        "D": "Either L must be[latex]\\{a^n \\mid n \\text{ is odd}\\}[/latex], or L must be [latex]\\{a^n \\mid n \\text{ is even}\\}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/655/gate2000-2-8\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 31
+    },
+    {
+      "id": "2015-S3-Q22",
+      "source_id": 1115322,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let L be the language represented by the regular expression [latex]\\Sigma ^{*}0011\\Sigma ^{*}[/latex] where [latex]\\Sigma[/latex]={0,1}. What is the minimum number of states in a DFA that recognizes [latex]\\bar{L}[/latex] (complement of L)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "A DFA for \"contains 0011\" tracks progress: nothing, 0, 00, 001, 0011 (trap accepting) [latex]\\rightarrow[/latex] 5 states.<br><br>\nThe complement uses the same DFA with final and non-final states swapped, so it also needs 5 states.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/8415/gate2015-3-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 22
+    },
+    {
+      "id": "2022-Q2",
+      "source_id": 1122102,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following regular expressions correctly represents the language of the finite automaton given below? <br><img src=\"/wp-content/uploads/GATE/CS/20221/q2.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20221/q2.jpg"
+      ],
+      "options": {
+        "A": "ab*bab* + ba*aba*",
+        "B": "(ab*b)*ab* + (ba*a)*ba*",
+        "C": "(ab*b + ba*a)*(a* + b*)",
+        "D": "(ba*a + ab*b)*(ab* + ba*)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "The start state is not final. From start:<br>\n- on <b>a</b> go to the upper final state (loops on b, returns to start on b) [latex]\\rightarrow[/latex] one round trip is [latex]ab^*b[/latex];<br>\n- on <b>b</b> go to the lower final state (loops on a, returns to start on a) [latex]\\rightarrow[/latex] one round trip is [latex]ba^*a[/latex].<br><br>\nSo: any number of round trips [latex](ab^*b+ba^*a)^*[/latex], and then finish in one of the final states: [latex]ab^*[/latex] or [latex]ba^*[/latex].<br><br>\n<b>Answer: [latex](ba^*a+ab^*b)^*(ab^*+ba^*)[/latex]</b><br><br><a href=\"https://gateoverflow.in/371934/Gate-cse-2022-question-2#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 2
+    },
+    {
+      "id": "2014-S2-Q16",
+      "source_id": 1114216,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let [latex]A \\leq _{m}B[/latex] denotes that language A is mapping reducible (also known as many-to-one reducible) to language B. Which one of the following is FALSE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If [latex]A\\leq _{m}B[/latex] and B is recursive then A is recursive",
+        "B": "If [latex]A\\leq _{m}B[/latex] and A is undecidable then B is undecidable",
+        "C": "If [latex]A\\leq _{m}B[/latex] and B is recursively enumerable then A is recursively enumerable.",
+        "D": "If [latex]A\\leq _{m}B[/latex] and B is not recursively enumerable then A is not recursively enumerable"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Undecidability",
+      "explanation": "If [latex]A\\le_m B[/latex], A is \"no harder\" than B. So decidability/RE-ness of B passes down to A, and undecidability of A passes up to B. Options 1, 2, 3 are true.<br><br>\nOption 4 is false: B being non-RE says nothing about A. Example: a decidable language A (non-trivial) reduces to the complement of the halting problem, which is not RE, yet A is RE.<br><br>\n<b>Answer: If [latex]A\\le_m B[/latex] and B is not RE then A is not RE</b><br><br><a href=\"https://gateoverflow.in/1972/gate2014-2-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 16
+    },
+    {
+      "id": "2009-Q12",
+      "source_id": 1109112,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "S[latex]\\rightarrow[/latex]aSa|bSb|a|b;  The language generated by the above grammar over the alphabet {a,b} is the set of",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "All palindromes.",
+        "B": "All odd length palindromes.",
+        "C": "Strings that begin and end with the same symbol",
+        "D": "All even length palindromes."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "<a href=\"https://gateoverflow.in/1304/gate2009-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 12
+    },
+    {
+      "id": "2002-Q7",
+      "source_id": 1102107,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The language accepted by a Pushdown Automaton in which the stack is limited\nto 10 items is best described as",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Context free",
+        "B": "Regular",
+        "C": "Deterministic context",
+        "D": "Recursive "
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Push-down Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/811/gate2002-1-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 7
+    },
+    {
+      "id": "2000-Q5",
+      "source_id": 1101905,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let L denote the languages generated by the grammar [latex]S \\to 0S0 \\mid 00[/latex].\nWhich of the following is TRUE?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]L = 0^+[/latex]",
+        "B": "L is regular but not [latex]0^+[/latex]",
+        "C": "L is context free but not regular",
+        "D": "L is not context free"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "<a href=\"https://gateoverflow.in/628/gate2000-1-5\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 5
+    },
+    {
+      "id": "2004-Q8",
+      "source_id": 1104108,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following grammar rules violate the requirements of an operator grammar? P, Q, R are\nnonterminals, and r,s,t are terminals.  <br> [latex](i)P\\rightarrow QR [/latex]  <br> [latex] (ii)P\\rightarrow QsR [/latex]  <br> [latex] (iii)P\\rightarrow \\varepsilon [/latex]  <br> [latex] (iv)P\\rightarrow QtRr [/latex]   ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) only",
+        "B": "(i) and (iii) only",
+        "C": "(ii) and (iii) only",
+        "D": "(iii) and (iv) only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "<a href=\"https://gateoverflow.in/1005/gate2004-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 8
+    },
+    {
+      "id": "2017-S1-Q39",
+      "source_id": 1117139,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let A and B be infinite alphabets and let # be a symbol outside both A and B. Let f be a total\nfunctional from A* to B*. We say f is computable if there exists a Turning machine M which\ngiven an input x in A*, always halts with f(x) on its tape. Let [latex]L_{f}[/latex] denote the language\n{x#f(x)|x[latex]\\in[/latex]A*}. Which of the following statements is true:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "f is computable if and only if  [latex]L_{f}[/latex]  is recursive.",
+        "B": " f is computable if and only  [latex]L_{f}[/latex]  recursively enumerable.",
+        "C": " If f is computable then  [latex]L_{f}[/latex]  is recursive, but not conversely.",
+        "D": " If f is computable then  [latex]L_{f}[/latex]  is recursively enumerable, but not conversely."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Turing Machine",
+      "explanation": "Checking each statement:<br>- If f is computable: on input x#y, compute f(x) and compare with y [latex]\\rightarrow[/latex] always halts [latex]\\rightarrow[/latex] [latex]L_f[/latex] is recursive.<br>\n- If [latex]L_f[/latex] is recursive: on input x, try y = each string of B* in order and test x#y with the decider; since f is total, the correct y is found and the search halts [latex]\\rightarrow[/latex] f is computable.<br><br>\n<b>Answer: f is computable if and only if [latex]L_f[/latex] is recursive</b><br><br><a href=\"https://gateoverflow.in/118322/gate2017-1-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 39
+    },
+    {
+      "id": "2024-S2-Q55",
+      "source_id": 1124255,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following augmented grammar, which is to be parsed with a SLR parser. The set of terminals is [latex] \\{a, b, c, d, \\#, @\\} [/latex]\n<br> [latex]\n\\begin{aligned}\n& S^{\\prime} \\rightarrow S \\\\\n& S \\rightarrow S S|A a| b A c|B c| b B a \\\\\n& A \\rightarrow d \\# \\\\\n& B \\rightarrow @\n\\end{aligned}\n [/latex] <br>\nLet [latex] I_0=\\operatorname{CLOSURE}\\left(\\left\\{S^{\\prime} \\rightarrow \\bullet S\\right\\}\\right) [/latex]. The number of items in the set [latex] \\operatorname{GOTO}\\left(I_0, S\\right) [/latex] is ____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        9.0,
+        9.0
+      ],
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "Items of [latex]I_0[/latex] with the dot before S: [latex]S'\\rightarrow\\bullet S[/latex] and [latex]S\\rightarrow\\bullet SS[/latex]. Moving the dot:<br>\n1. [latex]S'\\rightarrow S\\bullet[/latex]<br>\n2. [latex]S\\rightarrow S\\bullet S[/latex]<br><br>\nClosure of item 2 (dot before S) adds all S-productions:<br>\n3-7. [latex]S\\rightarrow\\bullet SS,\\ S\\rightarrow\\bullet Aa,\\ S\\rightarrow\\bullet bAc,\\ S\\rightarrow\\bullet Bc,\\ S\\rightarrow\\bullet bBa[/latex]<br>\n8. [latex]A\\rightarrow\\bullet d\\#[/latex] (from [latex]\\bullet Aa[/latex])<br>\n9. [latex]B\\rightarrow\\bullet @[/latex] (from [latex]\\bullet Bc[/latex])<br><br>\n<b>Answer: 9</b><br><br><a href=\"https://gateoverflow.in/422842/gate-cse-2024-set-2-question-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 55
+    },
+    {
+      "id": "2005-Q53",
+      "source_id": 1105153,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the machine M: <br><img src=\"/wp-content/uploads/GATE/CS/20051/q53.jpg\"/> <br> The language recognized by M is :",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20051/q53.jpg"
+      ],
+      "options": {
+        "A": "{w [latex]\\in[/latex] {a, b} * | every a in w is followed by exactly two b's}",
+        "B": "{w [latex]\\in[/latex] {a,b} * | every a in w is followed by at least two b's}",
+        "C": "{w [latex]\\in[/latex] {a,b} * | w contains the substring 'abb'}",
+        "D": "{w [latex]\\in[/latex] {a,b} * | w does not contain 'aa' as a substring"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/1376/gate2005-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 53
+    },
+    {
+      "id": "2014-S3-Q36",
+      "source_id": 1114336,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following languages over the alphabet [latex]\\sum =\\{0,1,c\\}:  [/latex]<br> [latex]L_{1}=\\{0^{n}|1^{n}|n\\geq 0\\}[/latex]<br> [latex]L_{2}=\\{wcw^{r}|w\\in \\{0,1\\}^{*}\\}[/latex] <br> [latex]  L_{3}=\\{ww^{r}|w\\in \\{0,1\\}^{*}\\}[/latex] <br>Here [latex]w^{r}[/latex] is the reverse of the string w. Which of these languages are deterministic Contextfree languages?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "None of the languages",
+        "B": "Only L1",
+        "C": "Only L1 and L2",
+        "D": "All the three languages"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "Checking each statement:<br>- [latex]L_1=\\{0^n1^n\\}[/latex]: push 0s, pop on 1s [latex]\\rightarrow[/latex] DCFL.<br>\n- [latex]L_2=\\{wcw^r\\}[/latex]: c marks the middle, so the PDA knows when to start popping [latex]\\rightarrow[/latex] DCFL.<br>\n- [latex]L_3=\\{ww^r\\}[/latex]: the middle must be guessed [latex]\\rightarrow[/latex] CFL but not DCFL.<br><br>\n<b>Answer: Only L1 and L2</b><br><br><a href=\"https://gateoverflow.in/2070/gate2014-3-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 36
+    },
+    {
+      "id": "2010-Q41",
+      "source_id": 1110141,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let w be any string of length n in {0, 1}*. Let L be the set of all substrings of w. What is the minimum number of states in a non-deterministic finite automaton that accepts L?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n-1",
+        "B": "n",
+        "C": "n+1",
+        "D": "[latex]2^{n-1}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "Build a chain of states [latex]q_0\\rightarrow q_1\\rightarrow\\dots\\rightarrow q_n[/latex] spelling w. Allowing a start anywhere (via [latex]\\epsilon[/latex] from [latex]q_0[/latex]) and accepting anywhere gives exactly the substrings of w.<br><br>\nThat needs n + 1 states.<br><br>\n<b>Answer: n + 1</b><br><br><a href=\"https://gateoverflow.in/2342/gate2010-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 41
+    },
+    {
+      "id": "2025-S2-Q30",
+      "source_id": 1125230,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given a Context-Free Grammar [latex]G [/latex] as follows:<br><br>\n[latex]\nS \\to A a \\mid b A c \\mid d c \\mid b d a\n[/latex]<br>\n[latex]\nA \\to d\n[/latex]<br><br>\nWhich ONE of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]G [/latex] is neither LALR(1) nor SLR(1)",
+        "B": "[latex]G [/latex] is CLR(1), not LALR(1)",
+        "C": "[latex]G [/latex] is LALR(1), not SLR(1)",
+        "D": "[latex]G [/latex] is LALR(1), also SLR(1)"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "This grammar is a classic example used to illustrate the gap between <b>SLR(1)</b> and <b>LALR(1)</b> parsing power. Building the LR(0)/canonical item sets for this grammar reveals a state where two different reduce actions ([latex]A\\to d[/latex] competing against other productions) become ambiguous <i>only</i> when using the coarser, context-blind <b>FOLLOW-set-based lookahead</b> that SLR(1) relies on &mdash; because SLR(1) uses the same global [latex]\\text{FOLLOW}(A)[/latex] set everywhere [latex]A[/latex] could be reduced, regardless of the surrounding context in each specific state, and this particular grammar has states where that global FOLLOW set is too imprecise, causing a genuine reduce-reduce conflict under SLR(1).<br><br>\nLALR(1), by contrast, computes lookahead sets <i>per LR(0) state</i> (context-specific, based on merging LR(1) item sets with identical cores), which is precise enough to correctly disambiguate this same situation without any conflict.<br><br>\n<b>Answer: G is LALR(1), but not SLR(1).</b><br><br><a href=\"https://gateoverflow.in/460805/gate-cse-2025-set-2-question-30#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 30
+    },
+    {
+      "id": "2003-Q57",
+      "source_id": 1103157,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the grammar shown below. <br>\nS [latex]\\rightarrow[/latex] C C <br>\nC [latex]\\rightarrow[/latex] cC | d <br>\nThe grammar is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "LL(1)",
+        "B": "LALR (1) but not SLR (1)",
+        "C": "SLR (1) but not LL (1)",
+        "D": "LR (1) but not LALR (1)"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "<a href=\"https://gateoverflow.in/945/gate2003-57#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 57
+    },
+    {
+      "id": "2019-Q34",
+      "source_id": 1119134,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following sets:<br><br>\n S1: Set of all recursively enumerable languages over the alphabet {0, 1}.<br>\n S2: Set of all syntactically valid C programs.<br>\n S3: Set of all languages over the alphabet {0, 1}.<br>\n S4: Set of all non-regular languages over the alphabet {0, 1}.\n<br><br>\nWhich of the above sets are uncountable?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1 and S2",
+        "B": "S3 and S4",
+        "C": "S2 and S3",
+        "D": "S1 and S4"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Undecidability",
+      "explanation": "Checking each statement:<br>- S1: every RE language has a TM, and TMs can be listed [latex]\\rightarrow[/latex] countable.<br>\n- S2: C programs are finite strings [latex]\\rightarrow[/latex] countable.<br>\n- S3: all languages = the power set of [latex]\\{0,1\\}^*[/latex] [latex]\\rightarrow[/latex] <b>uncountable</b>.<br>\n- S4: S3 minus the countably many regular languages is still <b>uncountable</b>.<br><br>\n<b>Answer: S3 and S4</b><br><br><a href=\"https://gateoverflow.in/302814/gate2019-cs-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 34
+    },
+    {
+      "id": "2007-Q30",
+      "source_id": 1107130,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The language [latex]L=\\{0^{i}21^{i}|i\\geq 0\\}[/latex] over the alphabet {0,1,2} is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "not recursive",
+        "B": "is recursive and is a deterministic CFL.",
+        "C": "is a regular language.",
+        "D": "is not a deterministic CFL but a CFL."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "<a href=\"https://gateoverflow.in/1228/gate2007-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 30
+    },
+    {
+      "id": "2019-Q48",
+      "source_id": 1119148,
+      "number": 25,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]\\Sigma[/latex] be the set of all bijections from {1,...,5} to {1,...,5}, where [latex]id[/latex] denotes the identity function, i.e. [latex]id(j)=j,\\forall j[/latex]. Let [latex]\\circ[/latex] denote composition on functions. For a string [latex]x = x_1x_2 ... x_n \\in \\Sigma ^n, n \\geq 0[/latex], let [latex]\\pi(x) = x_1\\circ x_2\\circ ... \\circ x_n[/latex]. Consider the language [latex]L = \\{x \\in \\Sigma ^* | \\pi(x) = id\\}[/latex]. The minimum number of states in any DFA accepting L is _________ .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        120.0,
+        120.0
+      ],
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "The DFA only needs to remember the composition read so far, which is one of the [latex]5!=120[/latex] permutations of {1, [latex]\\ldots[/latex], 5}. The start (and only final) state is id.<br><br>\nAll 120 states are distinguishable: from state [latex]\\sigma[/latex], reading [latex]\\sigma^{-1}[/latex] leads to id, and that symbol leads to id from no other state. So the minimum is 120.<br><br>\n<b>Answer: 120</b><br><br><a href=\"https://gateoverflow.in/302800/gate2019-cs-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 48
+    },
+    {
+      "id": "2005-Q56",
+      "source_id": 1105156,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let L1 be a recursive language, and let L2 be a recursively enumerable but not a recursive language.\nWhich one of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\bar{L_{1}}[/latex] is recursive and [latex]\\bar{L_{2}}[/latex] is recursively enumerable",
+        "B": "[latex]\\bar{L_{1}}[/latex] is recursive and [latex]\\bar{L_{2}}[/latex] is not recursively enumerable",
+        "C": "[latex]\\bar{L_{1}}[/latex] and [latex]\\bar{L_{2}}[/latex] are recursively enumerable",
+        "D": "[latex]\\bar{L_{1}}[/latex] is recursively enumerable and [latex]\\bar{L_{2}}[/latex] is recursive"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Recursive Language",
+      "explanation": "<a href=\"https://gateoverflow.in/1379/gate2005-56#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 56
+    },
+    {
+      "id": "2024-S1-Q51",
+      "source_id": 1124151,
+      "number": 27,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following two regular expressions over the alphabet [latex] \\{0,1\\} [/latex] :<br><br>\n[latex]\n\\begin{aligned}\n& r=0^*+1^* \\\\\n& s=01^*+10^*\n\\end{aligned}\n[/latex]\n<br><br>\nThe total number of strings of length less than or equal to 5 , which are neither in [latex] r [/latex] nor in [latex] s [/latex], is ____",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        44.0,
+        44.0
+      ],
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Expression",
+      "explanation": "Total strings of length 0 to 5: [latex]1+2+4+8+16+32=63[/latex].<br><br>\n- [latex]r=0^*+1^*[/latex]: [latex]\\epsilon[/latex], plus all-0 and all-1 strings of each length 1-5: [latex]1+2\\times5=11[/latex].<br>\n- [latex]s=01^*+10^*[/latex]: for each length 1-5, the strings [latex]01\\ldots1[/latex] and [latex]10\\ldots0[/latex]. Length 1 (\"0\", \"1\") is already in r, so new ones = [latex]2\\times4=8[/latex].<br><br>\nIn r or s: [latex]11+8=19[/latex]. Neither: [latex]63-19=44[/latex].<br><br>\n<b>Answer: 44</b><br><br><a href=\"https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 51
+    },
+    {
+      "id": "2025-S1-Q34",
+      "source_id": 1125134,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": " Consider the following two languages over the alphabet [latex]\\{a, b\\}[/latex]:\n<br><br>\n[latex]L_1 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a, b\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}[/latex]<br>\n[latex]L_2 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}[/latex]\n<br><br>\nWhich ONE of the following statements is CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both [latex]L_1[/latex] and [latex]L_2[/latex] are regular languages.",
+        "B": "[latex]L_1[/latex] is a regular language but [latex]L_2[/latex] is not a regular language.",
+        "C": "[latex]L_1[/latex] is not a regular language but [latex]L_2[/latex] is a regular language.",
+        "D": "Neither [latex]L_1[/latex] nor [latex]L_2[/latex] is a regular language."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "<b>[latex]L_1=\\{\\alpha\\beta\\alpha\\mid\\alpha,\\beta\\in\\{a,b\\}^+\\}[/latex] (α completely unrestricted):</b> checking membership genuinely requires comparing an arbitrary-length prefix against an arbitrary-length suffix for exact equality. For instance, \"[latex]abbaab[/latex]\" is in [latex]L_1[/latex] (via [latex]\\alpha=ab,\\beta=ba[/latex]) even though its very first and very last characters differ &mdash; so no bounded \"look at a few characters\" trick works; a finite automaton cannot carry the unbounded memory needed to remember an arbitrarily long prefix for later comparison. This is the same style of argument used to show languages like [latex]\\{ww\\}[/latex] are non-regular. <b>[latex]L_1[/latex] is not regular.</b><br><br>\n<b>[latex]L_2=\\{\\alpha\\beta\\alpha\\mid\\alpha\\in\\{a\\}^+,\\beta\\in\\{a,b\\}^+\\}[/latex] (α restricted to all-a's):</b> here, since [latex]\\alpha[/latex] consists only of [latex]a[/latex]'s, we can always just use the shortest valid split ([latex]|\\alpha|=1[/latex]): any string of length [latex]\\ge3[/latex] that starts with [latex]a[/latex] and ends with [latex]a[/latex] can always be decomposed as (first character [latex]a[/latex]) + (everything in between, as [latex]\\beta[/latex]) + (last character [latex]a[/latex]). So [latex]L_2[/latex] is exactly \"strings of length [latex]\\ge3[/latex] starting and ending with [latex]a[/latex],\" which is simply matched by the regular expression [latex]a(a|b)^+a[/latex]. <b>[latex]L_2[/latex] is regular.</b><br><br>\n<b>Answer: L1 is not regular but L2 is regular.</b><br><br><a href=\"https://gateoverflow.in/460046/gate-cse-2025-set-1-question-34#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 34
+    },
+    {
+      "id": "2021-S1-Q38",
+      "source_id": 1121138,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following language:<br>\n<br>[latex]L= \\{ w \\in \\{0,1\\}^* \\mid w \\text{ ends with the substring } 011 \\}[/latex]\n<br><br>\nWhich one of the following deterministic finite automata accepts [latex]L[/latex]?<br><img src=\"/wp-content/uploads/GATE/CS/20211/q38.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20211/q38.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "States should remember the longest suffix matching a prefix of 011: q0 (nothing), q1 (\"0\"), q2 (\"01\"), q3 (\"011\", final).<br><br>\nFrom the final state: on 0 [latex]\\rightarrow[/latex] q1 (suffix \"0\"), on 1 [latex]\\rightarrow[/latex] <b>q0</b> (suffix \"0111\" has no useful part).<br>\n- (A) and (B) loop on 1 at the final state, accepting 0111 False<br>\n- (C) goes from the final state to q2 on 1, accepting 01111 False<br>\n- <b>(D)</b> has exactly the transitions above True<br><br>\n<b>Answer: D</b><br><br><a href=\"https://gateoverflow.in/357413/gate-cse-2021-set-1-question-38#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 38
+    },
+    {
+      "id": "2019-Q31",
+      "source_id": 1119131,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following languages over [latex]\\Sigma =\\{a,b\\}[/latex] is NOT context-free?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\{ww^R|w \\in \\{a,b\\}^*\\}[/latex]",
+        "B": "[latex]\\{wa^nb^nw^R|w \\in \\{a,b\\}^*,n\\geq 0\\}[/latex]",
+        "C": "[latex]\\{wa^nw^Rb^n|w \\in \\{a,b\\}^*,n\\geq 0\\}[/latex]",
+        "D": "[latex]\\{a^nb^i|i \\in \\{n,3n,5n\\},n\\geq 0\\}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "Checking each statement:<br>- [latex]ww^R[/latex]: even palindromes [latex]\\text{---}[/latex] CFL.<br>\n- [latex]wa^nb^nw^R[/latex]: nested matching (w with [latex]w^R[/latex] outside, a's with b's inside) [latex]\\text{---}[/latex] CFL.<br>\n- [latex]\\{a^nb^i\\mid i\\in\\{n,3n,5n\\}\\}[/latex]: union of three CFLs [latex]\\text{---}[/latex] CFL.<br>\n- [latex]wa^nw^Rb^n[/latex]: the w-[latex]w^R[/latex] match and the a-b match <b>cross</b> each other, which one stack cannot handle [latex]\\text{---}[/latex] <b>not CFL</b>.<br><br>\n<b>Answer: [latex]\\{wa^nw^Rb^n\\}[/latex]</b><br><br><a href=\"https://gateoverflow.in/302817/gate2019-cs-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 31
+    }
+  ]
+}

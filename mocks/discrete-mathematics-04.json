@@ -1,0 +1,848 @@
+{
+  "paper_id": "discrete-mathematics-04",
+  "paper": "Discrete Mathematics: Topic Mock 4",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 4,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2001-Q40",
+      "source_id": 1101140,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "How many undirected graphs (not necessarily connected) can be constructed out\nof a given set V={[latex]V_{1},V_{2},.....,V_{n}[/latex]} of n vertices ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{n(n-1)}{2}[/latex]",
+        "B": "[latex]2^{n}[/latex]",
+        "C": "n!",
+        "D": "[latex]2^{\\frac{n(n-1)}{2}}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/733/gate2001-2-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 40
+    },
+    {
+      "id": "2021-S2-Q15",
+      "source_id": 1121215,
+      "number": 2,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Choose the correct choice(s) regarding the following proportional logic assertion S:<br><br>[latex]S: (( P \\wedge Q) \\rightarrow R) \\rightarrow (( P \\wedge Q) \\rightarrow (Q \\rightarrow R))[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S  is neither a tautology nor a contradiction",
+        "B": "S  is a tautology",
+        "C": "S  is a contradiction",
+        "D": "The antecedent of S is logically equivalent to the consequent of S"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Simplify the consequent: [latex](P\\wedge Q)\\rightarrow(Q\\rightarrow R)\\equiv(P\\wedge Q\\wedge Q)\\rightarrow R\\equiv(P\\wedge Q)\\rightarrow R[/latex], which is exactly the antecedent.<br><br>\nSo S has the form [latex]A\\rightarrow A[/latex], which is always true.<br><br>\n<b>Answer: S is a tautology; its antecedent is equivalent to its consequent</b><br><br><a href=\"https://gateoverflow.in/357525/gate-cse-2021-set-2-question-15#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 15
+    },
+    {
+      "id": "2017-S1-Q19",
+      "source_id": 1117119,
+      "number": 3,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let X be a Gaussian random variable mean 0 and variance [latex]\\sigma ^{2}[/latex]\n. Let Y=max(X, 0) where max\n(a,b) is the maximum of a and b. The median of Y is ____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.0,
+        0.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "X is symmetric about 0, so P(X [latex]\\le[/latex] 0) = 0.5. Y = max(X, 0) equals 0 whenever X [latex]\\le[/latex] 0, so [latex]P(Y\\le0)=0.5[/latex] and [latex]P(Y\\ge0)=1[/latex]. The median of Y is 0.<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/118299/gate2017-1-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 19
+    },
+    {
+      "id": "1999-Q2",
+      "source_id": 1101802,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of binary relations on a set with n elements is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]n^2[/latex]",
+        "B": "[latex]2^n[/latex]",
+        "C": "[latex]2^{n^2}[/latex]",
+        "D": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1456/gate1999-1-2\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 2
+    },
+    {
+      "id": "1999-Q15",
+      "source_id": 1101815,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of articulation points of the following graph is<br><img src=\"/wp-content/uploads/GATE/CS/19991/q1.15.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19991/q1.15.jpg"
+      ],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1468/gate1999-1-15\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 15
+    },
+    {
+      "id": "2026-S1-Q1",
+      "source_id": 1126101,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1/4",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "2/3"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Let the urn start with [latex]1[/latex] red and [latex]1[/latex] blue ball.<br><br>\r\n<b>Step 1:</b> A ball is picked uniformly (prob [latex]1/2[/latex] each). If red is picked, the urn becomes [latex](2R,1B)[/latex]; if blue is picked, the urn becomes [latex](1R,2B)[/latex]. Each case has probability [latex]1/2[/latex].<br><br>\r\n<b>Step 2:</b> We want the urn to end up with equal red and blue balls, i.e. [latex](2R,2B)[/latex] (since after 2 steps there are always [latex]4[/latex] balls total).<br>\r\n- From [latex](2R,1B)[/latex]: we need to pick the blue ball, probability [latex]=1/3[/latex].<br>\r\n- From [latex](1R,2B)[/latex]: we need to pick the red ball, probability [latex]=1/3[/latex].<br><br>\r\nSo required probability [latex]=\\dfrac{1}{2}\\times\\dfrac{1}{3}+\\dfrac{1}{2}\\times\\dfrac{1}{3}=\\dfrac{1}{3}[/latex].<br><br>\r\n<b>Answer: 1/3</b> <br><br><a href=\"https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 1
+    },
+    {
+      "id": "2015-S1-Q9",
+      "source_id": 1115109,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is NOT equivalent to [latex]p\\leftrightarrow q[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](\\neg p\\vee q)\\wedge (p\\vee \\neg q)[/latex]",
+        "B": "[latex](\\neg p\\vee q)\\wedge (q \\rightarrow p)[/latex]",
+        "C": "[latex](\\neg p \\wedge  q)\\vee (p \\wedge \\neg q)[/latex]",
+        "D": "[latex](\\neg p \\wedge \\neg q)\\vee (p \\wedge  q)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "[latex]p\\leftrightarrow q[/latex] is true when p and q are equal.<br><br>\n- Options 1, 2: [latex](p\\rightarrow q)\\wedge(q\\rightarrow p)[/latex] [latex]\\rightarrow[/latex] equivalent<br>\n- Option 4: both false or both true [latex]\\rightarrow[/latex] equivalent<br>\n- Option 3: exactly one is true, which is XOR, the negation of [latex]p\\leftrightarrow q[/latex]<br><br>\n<b>Answer: [latex](\\neg p\\wedge q)\\vee(p\\wedge\\neg q)[/latex]</b><br><br><a href=\"https://gateoverflow.in/8209/gate2015-1-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 9
+    },
+    {
+      "id": "1999-Q3",
+      "source_id": 1101803,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of binary strings of n zeros and k ones in which no two ones are adjacent is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]^{n-1}C_k[/latex]",
+        "B": "[latex]^nC_k[/latex]",
+        "C": "[latex]^nC_{k+1}[/latex]",
+        "D": "None of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/1457/gate1999-1-3\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1999",
+      "source_number": 3
+    },
+    {
+      "id": "2011-Q17",
+      "source_id": 1111117,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "K4 and Q3 are graphs with the following structures <br><img src=\"/wp-content/uploads/GATE/CS/20111/q5.jpg\"/> Which one of the following statements is TRUE in relation to these graphs?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20111/q5.jpg"
+      ],
+      "options": {
+        "A": "K4 is planar while Q3 is not",
+        "B": "Both K4 and Q3 are planar",
+        "C": "Q3 is planar while K4 is not",
+        "D": "Neither K4 not Q3 is planar"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Planar Graph",
+      "explanation": "Checking each statement:<br>- K4 can be drawn with one vertex inside the triangle of the other three, with no crossings.<br>\n- Q3 (cube) can be drawn as a square inside a square with corners joined, with no crossings.<br><br>\n<b>Answer: Both K4 and Q3 are planar</b><br><br><a href=\"https://gateoverflow.in/2119/gate2011-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 17
+    },
+    {
+      "id": "2005-Q12",
+      "source_id": 1105112,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let f(x) be the continuous probability density function of a random variable X.\nThe probability that [latex]a \\lt X \\leq b[/latex], is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "f(b-a)",
+        "B": "f(b)-f(a)",
+        "C": "[latex]\\int_{a}^{b}f(x)dx[/latex]",
+        "D": "[latex]\\int_{a}^{b}xf(x)dx[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1162/gate2005-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 12
+    },
+    {
+      "id": "1996-Q3",
+      "source_id": 1101503,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose X and Y are sets and |X| and |Y| are their respective cardinality. It is given that there are exactly 97 functions from X to Y. From this one can conclude that\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "|X| =1, |Y| =97",
+        "B": "|X| =97, |Y| =1",
+        "C": "|X| =97, |Y| =97",
+        "D": "None of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/2707/gate1996-1-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 3
+    },
+    {
+      "id": "1995-Q44",
+      "source_id": 1101444,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If the proposition [latex]\\lnot p \\to q[/latex] is true, then the truth value of the proposition [latex]\\lnot p \\lor \\left ( p \\to q \\right )[/latex], where [latex]\\lnot[/latex] is negation, [latex]\\lor[/latex] is inclusive OR and [latex]\\to[/latex] is implication, is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "TRUE",
+        "B": "Multiple Values",
+        "C": "FALSE",
+        "D": "Cannot be determined"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/2631/gate1995-2-19\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 44
+    },
+    {
+      "id": "1996-Q1",
+      "source_id": 1101501,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A and B be sets and let [latex]A^c[/latex] and [latex]B^c[/latex] denote the complements of the sets A and B. The set [latex](A-B) \\cup (B-A) \\cup (A \\cap B)[/latex] is equal to\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]A \\cup B[/latex]",
+        "B": "[latex]A^c \\cup B^c[/latex]",
+        "C": "[latex]A \\cap B[/latex]",
+        "D": "[latex]A^c \\cap B^c[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2705/gate1996-1-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 1
+    },
+    {
+      "id": "1996-Q29",
+      "source_id": 1101529,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following is false?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The set of all bijective functions on a finite set forms a group under function composition.",
+        "B": "The set [latex]\\{1, 2, \\dots p-1\\}[/latex] forms a group under multiplication mod p, where p is a prime number.",
+        "C": "The set of all strings over a finite alphabet forms a group under concatenation.",
+        "D": "A subset [latex]S \\neq \\emptyset[/latex] of G is a subgroup of the group [latex]\\langle G, * \\rangle[/latex]  if and only if for any pair of elements [latex]a, b \\in S, a * b^{-1} \\in S[/latex]."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2733/gate1996-2-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 29
+    },
+    {
+      "id": "2007-Q7",
+      "source_id": 1107107,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Every subset of a regular set is regular.",
+        "B": "Every finite subset of a non-regular set is regular.",
+        "C": "The union of two non-regular sets is not regular.",
+        "D": "Infinite union of finite sets is regular."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1205/gate2007-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 7
+    },
+    {
+      "id": "2013-Q26",
+      "source_id": 1113126,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The line graph L(G) of a simple graph G is defined as follows: <br>\n   There is exactly one vertex v(e) in L(G) for each edge e in G. <br>\n   For any two edges e and e' in G, L(G) has an edge between v(e) and v(e'), if and only if e and e'  are incident with the same vertex in G. <br>\nWhich of the following statements is/are TRUE? <br>\n(P) The line graph of a cycle is a cycle.<br>\n(Q) The line graph of a clique is a clique.<br>\n(R) The line graph of a planar graph is planar.<br>\n(S) The line graph of a tree is a tree.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P only",
+        "B": "P and R only",
+        "C": "R only",
+        "D": "P, Q and S only"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Checking each statement:<br>- P: consecutive edges of a cycle share a vertex in a ring, so the line graph is again a cycle [latex]\\rightarrow[/latex] True<br>\n- Q: in [latex]K_4[/latex], edges 12 and 34 share no vertex, so the line graph is not complete [latex]\\rightarrow[/latex] False<br>\n- R: the star [latex]K_{1,5}[/latex] is planar but its line graph is [latex]K_5[/latex] [latex]\\rightarrow[/latex] False<br>\n- S: line graph of [latex]K_{1,3}[/latex] is a triangle, not a tree [latex]\\rightarrow[/latex] False<br><br>\n<b>Answer: P only</b><br><br><a href=\"https://gateoverflow.in/1537/gate2013-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 26
+    },
+    {
+      "id": "2025-S2-Q55",
+      "source_id": 1125255,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The unit interval [latex](0, 1)[/latex] is divided at a point chosen uniformly distributed over [latex](0,1)[/latex] in [latex]\\mathbb{R}[/latex] into two disjoint subintervals. <br><br>The expected length of the subinterval that contains 0.4 is ___________. (rounded off to two decimal places)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.7,
+        0.8
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Let [latex]U\\sim\\text{Uniform}(0,1)[/latex] be the split point. If [latex]U>0.4[/latex], the sub-interval containing [latex]0.4[/latex] is [latex](0,U)[/latex], with length [latex]U[/latex]. If [latex]U<0.4[/latex], the sub-interval containing [latex]0.4[/latex] is [latex](U,1)[/latex], with length [latex]1-U[/latex].<br><br>\n[latex]E[\\text{length}]=\\displaystyle\\int_0^{0.4}(1-u)\\,du+\\int_{0.4}^1u\\,du[/latex]<br>\n[latex]=\\Big[u-\\tfrac{u^2}2\\Big]_0^{0.4}+\\Big[\\tfrac{u^2}2\\Big]_{0.4}^1=(0.4-0.08)+(0.5-0.08)=0.32+0.42=0.74[/latex]<br><br>\n<b>Answer: 0.74</b><br><br><a href=\"https://gateoverflow.in/460838/gate-cse-2025-set-2-question-55#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 55
+    },
+    {
+      "id": "2007-Q21",
+      "source_id": 1107121,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "How many different non-isomorphic Abelian groups of order 4 are there?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1219/gate2007-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 21
+    },
+    {
+      "id": "2006-Q27",
+      "source_id": 1106127,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following propositional statements: <br> [latex]P1:((A\\wedge B)\\rightarrow C)\\equiv (A\\rightarrow C)\\wedge (B\\rightarrow C)[/latex] <br> [latex] P2:((A\\vee B)\\rightarrow C)\\equiv (A\\rightarrow C)\\vee (B\\rightarrow C) [/latex]<br> Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P1 is a tautology, but not P2",
+        "B": "P2 is a tautology, but not P1",
+        "C": "P1 and P2 are both tautologies",
+        "D": "Both P1 and P2 are not tautologies"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/990/gate2006-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 27
+    },
+    {
+      "id": "2005-Q42",
+      "source_id": 1105142,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let R and S be any two equivalence relations on a non-empty set A. Which one of the following\nstatements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]R\\cup S,R\\cap S[/latex] are both equivalence relations.",
+        "B": "[latex]R\\cup S[/latex] is an equivalence relation.",
+        "C": "[latex]R\\cap S[/latex] is an equivalence relation.",
+        "D": "Neither [latex]R\\cup S[/latex] nor [latex]R\\cap S[/latex] is an equivalence relation."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1167/gate2005-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 42
+    },
+    {
+      "id": "2004-Q75",
+      "source_id": 1104175,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Mala has a colouring book in which each English letter is drawn two times. She wants to paint each of\nthese 52 prints with one of k colours, such that he colour pairs used to colour any two letters are\ndifferent. Both prints of a letter can also be coloured with the same colour. What is the minimum\nvalue of k that satisfies this requirement?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "7",
+        "D": "6"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/1069/gate2004-75#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 75
+    },
+    {
+      "id": "2014-S2-Q51",
+      "source_id": 1114251,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "A cycle on n vertices is isomorphic to its complement. The value of n is _____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "A cycle [latex]C_n[/latex] has n edges, its complement has [latex]\\frac{n(n-1)}{2}-n[/latex] edges. Isomorphic graphs have equal edge counts:<br>\n[latex]n=\\frac{n(n-1)}{2}-n\\Rightarrow n=5[/latex]<br><br>\nIndeed the complement of [latex]C_5[/latex] (the pentagram) is again a 5-cycle.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/2018/gate2014-2-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 51
+    },
+    {
+      "id": "2022-Q41",
+      "source_id": 1122141,
+      "number": 23,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following recurrence:<br>[latex] \\begin{aligned}\nf(1)&=1; \\\\\nf(2n)&=2f(n)-1, & \\text{for }n \\geq 1; \\\\\nf(2n+1)&=2f(n)+1, & \\text{for }n \\geq 1.\n \\end{aligned}[/latex]<br>Then, which of the following statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]f(2^n-1)=2^n-1[/latex]",
+        "B": "[latex]f(2^n)=1[/latex]",
+        "C": "[latex]f(5 * 2^n)=2^{n+1}+1[/latex]",
+        "D": "[latex]f(2^n+1)=2^n+1[/latex]"
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Recurrence",
+      "explanation": "Compute some values: f(1)=1, f(2)=1, f(3)=3, f(4)=1, f(5)=3, f(6)=5, f(7)=7, f(8)=1, f(10)=5, f(20)=9.<br><br>\n- [latex]f(2^n-1)=2^n-1[/latex]: f(1)=1, f(3)=3, f(7)=7 True (by induction [latex]f(2m+1)=2f(m)+1[/latex])<br>\n- [latex]f(2^n)=1[/latex]: [latex]f(2^n)=2f(2^{n-1})-1=2-1=1[/latex] True<br>\n- [latex]f(5\\cdot2^n)=2^{n+1}+1[/latex]: f(5)=3, f(10)=5, f(20)=9 True<br>\n- [latex]f(2^n+1)=2^n+1[/latex]: f(5)=3 [latex]\\ne[/latex] 5 False<br><br>\n<b>Answer: Options 1, 2 and 3</b><br><br><a href=\"https://gateoverflow.in/371895/Gate-cse-2022-question-41#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 41
+    },
+    {
+      "id": "2005-Q40",
+      "source_id": 1105140,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let P, Q and R be tree atomic prepositional assertions. Let X denote (P [latex]\\vee[/latex] Q) [latex]\\rightarrow[/latex] R and Y denote (P [latex]\\rightarrow[/latex] R) [latex]\\vee[/latex] (Q [latex]\\rightarrow[/latex] R). Which one of the following is a tautology?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "X[latex]\\equiv[/latex]Y",
+        "B": "X[latex]\\rightarrow[/latex]Y",
+        "C": "Y[latex]\\rightarrow[/latex]X",
+        "D": "[latex]\\neg[/latex]Y[latex]\\rightarrow[/latex]X"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/1165/gate2005-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2005",
+      "source_number": 40
+    },
+    {
+      "id": "2024-S1-Q35",
+      "source_id": 1124135,
+      "number": 25,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex] G [/latex] be a directed graph and [latex] T [/latex] a depth first search (DFS) spanning tree in [latex] G [/latex] that is rooted at a vertex [latex] v [/latex]. Suppose [latex] T [/latex] is also a breadth first search (BFS) tree in [latex] G [/latex], rooted at [latex] v [/latex]. Which of the following statements is/are TRUE for every such graph [latex] G [/latex] and tree [latex] T [/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There are no back-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+        "B": "There are no cross-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+        "C": "There are no forward-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+        "D": "The only edges in [latex] G [/latex] are the edges in [latex] T [/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "In a BFS tree, every edge [latex]u\\rightarrow w[/latex] of G satisfies [latex]level(w)\\le level(u)+1[/latex].<br><br>\nA <b>forward edge</b> goes from [latex]u[/latex] to a non-child descendant [latex]w[/latex], so [latex]level(w)\\ge level(u)+2[/latex] [latex]\\text{---}[/latex] this contradicts BFS. Hence there are no forward edges [latex]\\text{---}[/latex] TRUE.<br><br>\nThe others can fail:<br>\n- Back edge: G = {v[latex]\\rightarrow[/latex]a, a[latex]\\rightarrow[/latex]v}. Tree {v[latex]\\rightarrow[/latex]a} is both DFS and BFS tree; a[latex]\\rightarrow[/latex]v is a back edge.<br>\n- Cross edge: G = {v[latex]\\rightarrow[/latex]a, v[latex]\\rightarrow[/latex]b, b[latex]\\rightarrow[/latex]a}. DFS visits a then b; b[latex]\\rightarrow[/latex]a is a cross edge, and the tree is also the BFS tree.<br>\n- So G can also have edges outside T.<br><br>\n<b>Answer: There are no forward-edges in G with respect to T</b><br><br><a href=\"https://gateoverflow.in/422807/gate-cse-2024-set-1-question-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 35
+    },
+    {
+      "id": "2011-Q33",
+      "source_id": 1111133,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a finite sequence of random values [latex]X=[x_{1},x_{2},...,x_{n}][/latex]. Let [latex]\\mu _{x}[/latex]\n be the mean\nand  [latex]\\sigma _{x}[/latex]\n be the standard deviation of X .Let another finite sequence Y of equal\nlength be derived from this as [latex]y_{i}=a*x_{i}+b[/latex], where a and b are positive\nconstants. Let Let [latex]\\mu _{y}[/latex]  be the mean and [latex]\\sigma _{y}[/latex] be the standard deviation of this\nsequence. Which one of the following statements is INCORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Index position of mode of X in X is the same as the index position of mode of Y\nin Y.",
+        "B": "Index position of median of X in X is the same as the index position of median\nof Y in Y.",
+        "C": "[latex]\\mu _{y}=a\\mu _{x}+b[/latex]",
+        "D": "[latex]\\sigma _{y }=a\\sigma _{x}+b[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Adding b shifts every value; multiplying by a (positive) scales the spread.<br><br>\n- Mean: [latex]\\mu_y=a\\mu_x+b[/latex] (correct)<br>\n- Mode and median keep their positions (order is preserved)<br>\n- Standard deviation: [latex]\\sigma_y=a\\sigma_x[/latex], b does not appear [latex]\\rightarrow[/latex] option 4 is INCORRECT<br><br>\n<b>Answer: [latex]\\sigma_y=a\\sigma_x+b[/latex]</b><br><br><a href=\"https://gateoverflow.in/2135/gate2011-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 33
+    },
+    {
+      "id": "2018-Q27",
+      "source_id": 1118127,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let N be the set of natural numbers. Consider the following sets. <br>\nP: Set of Rational numbers (positive and negative) <br>\nQ: Set of functions from {0, 1} to N <br>\nR: Set of functions from N to {0, 1}<br>\nS: Set of finite subsets of N. <br>\nWhich of the sets above are countable?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Q and S only",
+        "B": "P and S only",
+        "C": "P and R only",
+        "D": "P, Q and S only"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Checking each statement:<br>- P (rationals): countable True<br>\n- Q (functions {0, 1} [latex]\\rightarrow[/latex] N): pairs of natural numbers, N [latex]\\times[/latex] N [latex]\\rightarrow[/latex] countable True<br>\n- R (functions N [latex]\\rightarrow[/latex] {0, 1}): infinite binary sequences, like subsets of N [latex]\\rightarrow[/latex] uncountable False<br>\n- S (finite subsets of N): countable union of countable sets [latex]\\rightarrow[/latex] countable True<br><br>\n<b>Answer: P, Q and S only</b><br><br><a href=\"https://gateoverflow.in/204101/gate2018-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 27
+    },
+    {
+      "id": "2003-Q36",
+      "source_id": 1103136,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "How many perfect matching are there in a complete graph of 6 vertices?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "15",
+        "B": "24",
+        "C": "30",
+        "D": "60"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/926/gate2003-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 36
+    },
+    {
+      "id": "2003-Q37",
+      "source_id": 1103137,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let : A[latex]\\rightarrow[/latex]B be injective (one-to-one) function. <br><br>Define [latex]g:2^{A}\\rightarrow 2^{B}[/latex] as: <br><br>\r\ng(C) = {f (x)| x [latex]\\in[/latex]C), for all subsets C of A. <br><br>\r\nDefine[latex]g:2^{B}\\rightarrow 2^{A}[/latex] as : <br><br> h(D) = {x | x [latex]\\in[/latex] A, f (x) [latex]\\in[/latex] D}, for all subsets D of B. <br><br>\r\nWhich of the following statements is always true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "g(h(D)) [latex]\\subseteq[/latex]\n3D",
+        "B": " g(h(D)) [latex]\\supseteq[/latex] 4D",
+        "C": " g(h(D)) [latex]\\cap D=\\phi[/latex]",
+        "D": "g(h(D)) [latex]\\cap (B-D)\\neq  \\phi[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/927/gate2003-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 37
+    },
+    {
+      "id": "2021-S2-Q33",
+      "source_id": 1121233,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A bag has [latex]r[/latex] red balls and [latex]b[/latex] black balls. All balls are identical except for their colours. In a trial, a ball is randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along with another ball of the same colour. Note that the number of balls in the bag will increase by one, after the trial. A sequence of four such trials is conducted. Which one of the following choices gives the probability of drawing a red ball in the fourth trial?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\dfrac{r}{r+b}[/latex]",
+        "B": "[latex]\\dfrac{r}{r+b+3}[/latex]",
+        "C": "[latex]\\dfrac{r+3}{r+b+3}[/latex]",
+        "D": "[latex]\\left( \\dfrac{r}{r+b} \\right) \\left ( \\dfrac{r+1}{r+b+1} \\right) \\left( \\dfrac{r+2}{r+b+2} \\right) \\left( \\dfrac{r+3}{r+b+3} \\right)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "This is Polya's urn. By symmetry, every draw has the same chance of being red as the first draw.<br><br>\nCheck for the 2nd draw: [latex]\\frac{r}{r+b}\\cdot\\frac{r+1}{r+b+1}+\\frac{b}{r+b}\\cdot\\frac{r}{r+b+1}=\\frac{r(r+b+1)}{(r+b)(r+b+1)}=\\frac{r}{r+b}[/latex]. The same holds for the 4th.<br><br>\n<b>Answer: [latex]\\frac{r}{r+b}[/latex]</b><br><br><a href=\"https://gateoverflow.in/357507/gate-cse-2021-set-2-question-33#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 33
+    }
+  ]
+}

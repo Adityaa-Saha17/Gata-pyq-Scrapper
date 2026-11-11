@@ -1,0 +1,855 @@
+{
+  "paper_id": "general-aptitude-01",
+  "paper": "General Aptitude: Topic Mock 1",
+  "kind": "topic_mock",
+  "topic": "General Aptitude",
+  "set": 1,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2018-Q59",
+      "source_id": 1118159,
+      "number": 1,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What would be the smallest natural number which when divided either by 20 or by 42\nor by 76 leaves a remainder of 7 in each case?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3047",
+        "B": "6047",
+        "C": "7987",
+        "D": "63847"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "LCM(20, 42, 76) = [latex]2^2\\times3\\times5\\times7\\times19=7980[/latex]. Remainder 7 in each case: 7980 + 7 = 7987.<br><br>\n<b>Answer: 7987</b><br><br><a href=\"https://gateoverflow.in/204065/gate-cse-2018-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 59
+    },
+    {
+      "id": "2026-S1-Q58",
+      "source_id": 1126158,
+      "number": 2,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are [latex]64[/latex] players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "127",
+        "B": "64",
+        "C": "63",
+        "D": "32"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "This is a single-elimination (knock-out) tournament: every game has exactly one loser, and every loser is eliminated permanently. To determine a single overall winner among [latex]64[/latex] players, all [latex]63[/latex] of the other players must each lose exactly one game (and no player needs to lose more than once, since losing eliminates them).<br><br>\nSo the number of games played [latex]=[/latex] number of players eliminated [latex]=64-1=63[/latex] (each game produces exactly one elimination).<br><br>\n<b>Answer: 63</b> <br><br> <a href=\"https://gateoverflow.in/523087/gate-cse-2026-set-1-ga-question-3#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 58
+    },
+    {
+      "id": "2024-S2-Q58",
+      "source_id": 1124258,
+      "number": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In an engineering college of 10,000 students, 1,500 like neither their core branches\nnor other branches. The number of students who like their core branches is 1/4th of\nthe number of students who like other branches. The number of students who like\nboth their core and other branches is 500.<br>\nThe number of students who like their core branches is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1,800",
+        "B": "3,500",
+        "C": "1,600",
+        "D": "1,500"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Students liking at least one [latex]=10000-1500=8500[/latex].<br>\nLet core = C, other = O with [latex]C=O/4[/latex], i.e. [latex]O=4C[/latex].<br><br>\n[latex]C+O-\\text{both}=8500\\Rightarrow C+4C-500=8500\\Rightarrow C=1800[/latex]<br><br>\n<b>Answer: 1,800</b><br><br><a href=\"https://gateoverflow.in/422904/gate-cse-2024-set-2-ga-question-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 58
+    },
+    {
+      "id": "2015-S3-Q60",
+      "source_id": 1115360,
+      "number": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A function f(x) is linear and has a value of 29 at x= -2 and 39 at x=3. Find its value at x=5.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "59",
+        "B": "45",
+        "C": "43",
+        "D": "35"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Slope = [latex]\\frac{39-29}{3-(-2)}=2[/latex]<br><br>\nf(5) = 39 + 2 [latex]\\times[/latex] (5 [latex]-[/latex] 3) = 43<br><br>\n<b>Answer: 43</b><br><br><a href=\"https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 60
+    },
+    {
+      "id": "2016-S2-Q56",
+      "source_id": 1116256,
+      "number": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The man who is now Municipal Commissioner worked as _____________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "the security guard at a university",
+        "B": "a security guard at the university",
+        "C": "a security guard at university",
+        "D": "the security guard at the university"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "He was <b>a</b> security guard (one of several, not a specific one) at <b>the</b> university (the particular university in the context).<br><br>\n<b>Answer: a security guard at the university</b><br><br><a href=\"https://gateoverflow.in/39529/gate-cse-2016-set-2-question-ga-01#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 56
+    },
+    {
+      "id": "2021-S1-Q58",
+      "source_id": 1121158,
+      "number": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following sentences:\n<br><br>\ni.   Everybody in the class is prepared for the exam.\n<br>ii.  Babu invited Danish to his home because he enjoys playing chess.<br><br>\nWhich of the following is the CORRECT observation about the above two sentences?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) is grammatically correct and (ii) is unambiguous",
+        "B": "(i) is grammatically incorrect and (ii) is unambiguous",
+        "C": "(i) is grammatically correct and (ii) is ambiguous",
+        "D": "(i) is grammatically incorrect and (ii) is ambiguous"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Checking each statement:<br>- (i) \"Everybody ... is prepared\" is grammatically correct (\"everybody\" takes a singular verb).<br>\n- (ii) \"he\" could mean Babu or Danish [latex]\\rightarrow[/latex] <b>ambiguous</b>.<br><br>\n<b>Answer: (i) is grammatically correct and (ii) is ambiguous</b><br><br><a href=\"https://gateoverflow.in/357474/gate-cse-2021-set-1-ga-question-3#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 58
+    },
+    {
+      "id": "2015-S3-Q56",
+      "source_id": 1115356,
+      "number": 7,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If ROAD is written as URDG, then SWANshould be written as:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "VXDQ",
+        "B": "VZDQ",
+        "C": "VZDP",
+        "D": "UXDQ"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Each letter moves 3 places forward: R[latex]\\rightarrow[/latex]U, O[latex]\\rightarrow[/latex]R, A[latex]\\rightarrow[/latex]D, D[latex]\\rightarrow[/latex]G.<br><br>\nS[latex]\\rightarrow[/latex]V, W[latex]\\rightarrow[/latex]Z, A[latex]\\rightarrow[/latex]D, N[latex]\\rightarrow[/latex]Q = VZDQ<br><br>\n<b>Answer: VZDQ</b><br><br><a href=\"https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 56
+    },
+    {
+      "id": "2025-S2-Q57",
+      "source_id": 1125257,
+      "number": 8,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Bird : Nest :: Bee : __________   <br> Select the correct option to complete the analogy. ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Kennel",
+        "B": "Hammock",
+        "C": "Hive",
+        "D": "Lair"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability ",
+      "explanation": "A bird's home is a <b>nest</b>; a bee's home (or colony structure) is a <b>hive</b>. \"Kennel\" is a dog's home, \"hammock\" is a hanging bed, \"lair\" is a wild predator's den &mdash; none matches a bee's home.<br><br>\n<b>Answer: Hive</b><br><br><a href=\"https://gateoverflow.in/460449/gate-cse-2025-set-2-ga-question-2#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 57
+    },
+    {
+      "id": "2015-S3-Q58",
+      "source_id": 1115358,
+      "number": 9,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student that they close their minds to anything ___________ to the requirements of the exam.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "related",
+        "B": "extraneous",
+        "C": "outside",
+        "D": "useful"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Extraneous = irrelevant, unrelated. Students ignore anything not related to the exam.<br><br>\n<b>Answer: extraneous</b><br><br><a href=\"https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 58
+    },
+    {
+      "id": "2012-Q60",
+      "source_id": 1112160,
+      "number": 10,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the most appropriate alternative from the options given below to complete the following sentence:\n<br><br>\nSuresh's dog is the one ________ was hurt in the stampede.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "that",
+        "B": "which",
+        "C": "who",
+        "D": "whom"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "For an animal (not a person), use \"that\" or \"which\". In a defining clause after \"the one\", \"that\" is the right choice.<br><br>\n<b>Answer: that</b><br><br><a href=\"https://gateoverflow.in/2200/gate-cse-2012-question-60#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 60
+    },
+    {
+      "id": "2025-S2-Q58",
+      "source_id": 1125258,
+      "number": 11,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]Pe^{x} = Q e^{-x} [/latex] for all real values of [latex]x [/latex], which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]P = Q = 0 [/latex]",
+        "B": "[latex]P = Q = 1 [/latex]",
+        "C": "[latex]P = 1 [/latex];  [latex]Q = -1 [/latex]",
+        "D": "[latex]\\frac{P}{Q} = 0 [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability ",
+      "explanation": "[latex]Pe^x=Qe^{-x}[/latex] for <i>every</i> real [latex]x[/latex]. Multiply both sides by [latex]e^x[/latex]: [latex]Pe^{2x}=Q[/latex]. Since [latex]e^{2x}[/latex] genuinely varies with [latex]x[/latex] (it's not constant), the only way the left side can stay equal to the constant [latex]Q[/latex] for every [latex]x[/latex] is if the coefficient [latex]P[/latex] itself is [latex]0[/latex]. With [latex]P=0[/latex], the equation becomes [latex]0=Q[/latex], so [latex]Q=0[/latex] too.<br><br>\nChecking directly at [latex]x=0[/latex]: [latex]P=Q[/latex]. Combined with the \"must hold for all [latex]x[/latex]\" requirement, [latex]P=Q=0[/latex] is the only consistent solution.<br><br>\n<b>Answer: P = Q = 0</b><br><br><a href=\"https://gateoverflow.in/460448/gate-cse-2025-set-2-ga-question-3#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 58
+    },
+    {
+      "id": "2017-S1-Q60",
+      "source_id": 1117160,
+      "number": 12,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The probability that a k-digit number does NOT contain the digits 0, 5, or 9 is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]0.3^k[/latex]",
+        "B": "[latex]0.6^k[/latex]",
+        "C": "[latex]0.7^k[/latex]",
+        "D": "[latex]0.9^k[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Each digit avoids 3 of the 10 digits, so it has a 7/10 chance. For k independent digits: [latex]0.7^k[/latex].<br><br>\n<b>Answer: [latex]0.7^k[/latex]</b><br><br><a href=\"https://gateoverflow.in/118408/gate-cse-2017-set-1-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 60
+    },
+    {
+      "id": "2021-S2-Q59",
+      "source_id": 1121259,
+      "number": 13,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]\\left( x - \\dfrac{1}{2} \\right)^2 - \\left( x- \\dfrac{3}{2} \\right) ^2 = x+2[/latex], then the value of [latex]x[/latex] is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Difference of squares: [latex](x-\\tfrac12)^2-(x-\\tfrac32)^2=\\left[(x-\\tfrac12)-(x-\\tfrac32)\\right]\\left[(x-\\tfrac12)+(x-\\tfrac32)\\right]=1\\cdot(2x-2)[/latex]<br><br>\n[latex]2x-2=x+2\\Rightarrow x=4[/latex]<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/357546/gate-cse-2021-set-2-ga-question-4#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2025-S2-Q56",
+      "source_id": 1125256,
+      "number": 14,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Despite his initial hesitation, Rehman's __________ to contribute to the success of the project never wavered. <br>Select the most appropriate option to complete the above sentence. ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "ambivalence",
+        "B": "satisfaction",
+        "C": "resolve",
+        "D": "revolve"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability ",
+      "explanation": "\"Resolve\" (as a noun, meaning firm determination) fits perfectly: despite initial hesitation, Rehman's <i>determination</i> to contribute never wavered. \"Ambivalence\" (mixed feelings) and \"revolve\" (to rotate) don't fit the sentence's meaning or grammar, and \"satisfaction\" doesn't capture the sense of unwavering commitment being described.<br><br>\n<b>Answer: resolve</b><br><br><a href=\"https://gateoverflow.in/460450/gate-cse-2025-set-2-ga-question-1#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 56
+    },
+    {
+      "id": "2012-Q57",
+      "source_id": 1112157,
+      "number": 15,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the most appropriate alternative from the options given below to complete the following sentence:\n<br><br>\nDespite several _________ the mission succeeded in its attempt to resolve the conflict.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "attempts",
+        "B": "setbacks",
+        "C": "meetings",
+        "D": "delegations"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Despite\" needs something negative that the mission overcame: setbacks.<br><br>\n<b>Answer: setbacks</b><br><br><a href=\"https://gateoverflow.in/2195/gate-cse-2012-question-57#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 57
+    },
+    {
+      "id": "2021-S2-Q63",
+      "source_id": 1121263,
+      "number": 16,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The number of students in three classes is in the ratio 3:13:6. If 18 students are added to each class, the ratio changes to 15:35:21.\n<br><br>\nThe total number of students in all the three classes in the beginning was:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "22",
+        "B": "66",
+        "C": "88",
+        "D": "110"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let the classes be 3k, 13k, 6k. After adding 18 to each:<br>\n[latex]\\frac{3k+18}{13k+18}=\\frac{15}{35}=\\frac37\\Rightarrow21k+126=39k+54\\Rightarrow k=4[/latex]<br><br>\nInitial total = 22k = 88. (Check: 30 : 70 : 42 = 15 : 35 : 21 True)<br><br>\n<b>Answer: 88</b><br><br><a href=\"https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 63
+    },
+    {
+      "id": "2013-Q61",
+      "source_id": 1113161,
+      "number": 17,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Find the sum of the expression<br><br>[latex]   \\frac{1}{\\sqrt{1}+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+............+\\frac{1}{\\sqrt{80}+\\sqrt{81}} [/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Rationalise: [latex]\\frac{1}{\\sqrt k+\\sqrt{k+1}}=\\sqrt{k+1}-\\sqrt k[/latex]<br><br>\nThe sum telescopes: [latex]\\sqrt{81}-\\sqrt1=9-1=8[/latex]<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/1565/gate-cse-2013-question-61#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 61
+    },
+    {
+      "id": "2016-S2-Q65",
+      "source_id": 1116265,
+      "number": 18,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "<br><img src=\"/wp-content/uploads/GATE/CS/20162/q65.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20162/q65.jpg"
+      ],
+      "options": {
+        "A": "[latex]f(x) = 1 - |x - 1|[/latex]",
+        "B": "[latex]f(x) = 1 + |x - 1|[/latex]",
+        "C": "[latex]f(x) = 2 - |x - 1|[/latex]",
+        "D": "[latex]f(x) = 2+ |x - 1|[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The graph is a \"tent\": maximum value 2 at x = 1, slope +1 on the left and [latex]-[/latex]1 on the right (f([latex]-[/latex]3) = [latex]-[/latex]2, f(3) = 0).<br><br>\nThat is [latex]f(x)=2-|x-1|[/latex] (check: f([latex]-[/latex]3) = 2 [latex]-[/latex] 4 = [latex]-[/latex]2, f(3) = 2 [latex]-[/latex] 2 = 0).<br><br>\n<b>Answer: [latex]f(x)=2-|x-1|[/latex]</b><br><br><a href=\"https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 65
+    },
+    {
+      "id": "2022-Q65",
+      "source_id": 1122165,
+      "number": 19,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A plot of land must be divided between four families. They want their individual plots to be similar in shape, not necessarily equal in area. The land has equally spaced poles, marked as dots in the below figure. Two ropes, R1 and R2, are already present and cannot be moved.\nWhat is the least number of additional straight ropes needed to create the desired plots? A single rope can pass through three poles that are aligned in a straight line.\n<br><img src=\"/wp-content/uploads/GATE/CS/20221/q65.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20221/q65.jpg"
+      ],
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "3"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Take the poles as a 7 [latex]\\times[/latex] 7 grid (0-6). R1 runs from the left edge (0, 2) to (2, 2), R2 from the top edge (4, 6) to (4, 4). The land is symmetric about both diagonals, and R1, R2 are mirror images.<br><br>\nAdd 3 ropes:<br>\n1. (2, 0) to (2, 2) [latex]\\text{---}[/latex] mirror of R1<br>\n2. (6, 4) to (4, 4) [latex]\\text{---}[/latex] mirror of R2<br>\n3. (2, 2) to (4, 4) [latex]\\text{---}[/latex] diagonal through the centre pole (3, 3)<br><br>\nThis gives two small plots (a 2[latex]\\times[/latex]2 square with one corner cut) and two large plots (a 4[latex]\\times[/latex]4 square with one corner cut). The large ones are exactly the small ones scaled by 2, so all four are similar. Two ropes cannot do this.<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/371496/Gate-cse-2022-question-10#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 65
+    },
+    {
+      "id": "2017-S1-Q64",
+      "source_id": 1117164,
+      "number": 20,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Arun, Gulab, Neel and Shweta must choose one shirt each from a pile of four shirts coloured red, pink, blue and white respectively. Arun dislikes the colour red and Shweta dislikes the colour white. Gulab and Neel like all the colours. In how many different ways can they choose the shirts so that no one has a shirt with a colour he or she dislikes?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "21",
+        "B": "18",
+        "C": "16",
+        "D": "14"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "All arrangements: 4! = 24. Arun gets red: 3! = 6. Shweta gets white: 6. Both: 2! = 2.<br><br>\nValid = 24 [latex]-[/latex] 6 [latex]-[/latex] 6 + 2 = 14<br><br>\n<b>Answer: 14</b><br><br><a href=\"https://gateoverflow.in/118412/gate-cse-2017-set-1-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 64
+    },
+    {
+      "id": "2014-S1-Q65",
+      "source_id": 1114165,
+      "number": 21,
+      "section": "General Aptitude",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "When a point inside of a tetrahedron (a solid with four triangular surfaces) is connected by straight lines to its corners, how many (new) internal planes are created with these lines?",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        6.0,
+        6.0
+      ],
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Each new internal plane passes through the inner point and one <b>edge</b> of the tetrahedron (the two lines to that edge's ends). A tetrahedron has 6 edges, so 6 planes.<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/778/gate-cse-2014-set-1-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 65
+    },
+    {
+      "id": "2017-S1-Q65",
+      "source_id": 1117165,
+      "number": 22,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A contour line joins locations having the same height above the mean sea level. The following is a contour plot of a geographical region. Contour lines are shown at 25 m intervals in this plot. If in a flood, the water level rises to 525 m, which of the villages P, Q, R, S, T get submerged? <br><img src=\"/wp-content/uploads/GATE/CS/20171/q65.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20171/q65.jpg"
+      ],
+      "options": {
+        "A": "P, Q",
+        "B": "P, Q, T",
+        "C": "R, S, T",
+        "D": "Q, R, S"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "A village is flooded if its height is below 525 m. P and Q lie inside the 550 m contours (high ground), so they stay dry. R, S and T lie in lower areas (below the 525 m level), so they get submerged.<br><br>\n<b>Answer: R, S, T</b><br><br><a href=\"https://gateoverflow.in/118413/gate-cse-2017-set-1-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 65
+    },
+    {
+      "id": "2014-S1-Q61",
+      "source_id": 1114161,
+      "number": 23,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The Palghat Gap (or Palakkad Gap) , a region about 30 km wide in the southern part of the Western Ghats in India, is lower than the hilly terrain to its north and south. The exact reasons for the formation of this gap are not clear. It results in the neighbouring regions of Tamil Nadu getting more rainfall from the South West monsoon and the neighbouring regions of Kerala having higher summer temperatures.  \n<br><br>\nWhat can be inferred from this passage?\n<br>\nSelect one:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The Palghat gap is caused by high rainfall and high temperatures in southern Tamil Nadu and Kerala",
+        "B": "The regions in Tamil Nadu and Kerala that are near the Palghat Gap are low-lying",
+        "C": "The low terrain of the Palghat Gap has a significant impact on weather patterns in neighbouring parts of Tamil Nadu and Kerala",
+        "D": "Higher summer temperatures result in higher rainfall near the Palghat Gap area"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage says the gap causes more rainfall in nearby Tamil Nadu and higher temperatures in nearby Kerala. So the low terrain significantly affects the weather there. The causes of the gap itself are unknown.<br><br>\n<b>Answer: The low terrain of the Palghat Gap has a significant impact on weather patterns in neighbouring parts of Tamil Nadu and Kerala</b><br><br><a href=\"https://gateoverflow.in/774/gate-cse-2014-set-1-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 61
+    },
+    {
+      "id": "2017-S2-Q61",
+      "source_id": 1117261,
+      "number": 24,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "\"We lived in a culture that denied any merit to literary works, considering them important only when they were handmaidens to something seemingly more urgent - namely ideology. This was a country where all gestures, even the most private, were interpreted in political terms.\"<br><br>\n\nThe author's belief that ideology is not as important as literature is revealed by the word:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "culture'",
+        "B": "seemingly'",
+        "C": "urgent'",
+        "D": "political'"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Calling ideology only \"<b>seemingly</b> more urgent\" shows the author does not think it really is more important than literature.<br><br>\n<b>Answer: seemingly</b><br><br><a href=\"https://gateoverflow.in/118420/gate-cse-2017-set-2-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 61
+    },
+    {
+      "id": "2015-S1-Q65",
+      "source_id": 1115165,
+      "number": 25,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The probabilities that a student passes in mathematics, physics and chemistry are m,p and c respectively. Of these subjects, the student has 75% chance of passing in at least one, a 50% chance of passing in at least two and a 40% chance of passing in exactly two. Following relations are drawn in m,p,c:\n<br><br>\nI.   p+m+c=27/20\n<br>II.  p+m+c=13/20\n<br>III. (p)x(m)x(c)=1/10",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only relation I is true.",
+        "B": "Only relation II is true.",
+        "C": "Relations II and III are true.",
+        "D": "Relations I and III are true."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "P(exactly 3) = P(at least 2) [latex]-[/latex] P(exactly 2) = 0.5 [latex]-[/latex] 0.4 = 0.1 [latex]\\rightarrow[/latex] pmc = 1/10 (III true).<br>\nP(exactly 1) = 0.75 [latex]-[/latex] 0.5 = 0.25<br><br>\np + m + c = expected number of subjects passed = 1(0.25) + 2(0.4) + 3(0.1) = 1.35 = 27/20 (I true).<br><br>\n<b>Answer: Relations I and III are true</b><br><br><a href=\"https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 65
+    },
+    {
+      "id": "2011-Q63",
+      "source_id": 1111163,
+      "number": 26,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The variable cost [latex](V)[/latex] of manufacturing a product varies according to the equation [latex]V=4q[/latex], where [latex]q[/latex] is the quantity produced. The fixed cost ([latex]F[/latex]) of production of same product reduces with q according to the equation [latex]F=\\frac{100}{q}[/latex]. How many units should be produced to minimize the total cost [latex](V+F)[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "7",
+        "D": "6"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Total cost C = 4q + 100/q.<br><br>\n[latex]\\frac{dC}{dq}=4-\\frac{100}{q^2}=0\\Rightarrow q^2=25\\Rightarrow q=5[/latex]<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/2173/gate-cse-2011-question-63#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 63
+    },
+    {
+      "id": "2016-S2-Q62",
+      "source_id": 1116262,
+      "number": 27,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Computers were invented for performing only high-end useful computations. However, it is no understatement that they have taken over our world today. The internet, for example, is ubiquitous. Many believe that the internet itself is an unintended consequence of the original invention. With the advent of mobile computing on our phones, a whole new dimension is now enabled. One is left wondering if all these developments are good or, more importantly, required.<br><br>\n\nWhich of the statement(s) below is/are logically valid and can be inferred from the above paragraph?<br>\n\n(i) The author believes that computers are not good for us.\n<br>\n(ii) Mobile computers and the internet are both intended inventions.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) only",
+        "B": "(ii) only",
+        "C": "Both (i) and (ii)",
+        "D": "Neither (i) nor (ii)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Checking each statement:<br>- (i): the author only wonders whether these developments are good or needed; he does not say computers are bad False<br>\n- (ii): the passage calls the internet an <b>unintended</b> consequence False<br><br>\n<b>Answer: Neither (i) nor (ii)</b><br><br><a href=\"https://gateoverflow.in/39533/gate-cse-2016-set-2-question-ga-07#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 62
+    },
+    {
+      "id": "2016-S2-Q63",
+      "source_id": 1116263,
+      "number": 28,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "All hill-stations have a lake. Ooty has two lakes.<br>\n<br>\nWhich of the statement(s) below is/are logically valid and can be inferred from the above sentences?\n<br><br>\n(i).   Ooty is not a hill-station.\n<br>(ii).  No hill-station can have more than one lake.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) only.",
+        "B": "(ii) only.",
+        "C": "Both (i) and (ii)",
+        "D": "Neither (i) nor (ii)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"All hill-stations have a lake\" means at least one lake; having two lakes does not contradict it. So Ooty can still be a hill-station, and hill-stations can have more than one lake.<br><br>\n<b>Answer: Neither (i) nor (ii)</b><br><br><a href=\"https://gateoverflow.in/39534/gate-cse-2016-set-2-question-ga-08#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 63
+    },
+    {
+      "id": "2011-Q64",
+      "source_id": 1111164,
+      "number": 29,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A transporter receives the same number of orders each day. Currently, he has some pending orders (backlog) to be shipped. If he uses 7 trucks, then at the end of the 4th day he can clear all the orders. Alternatively, if he uses only 3 trucks, then all the orders are cleared at the end of the 10th day. What is the minimum number of trucks required so that there will be no pending order at the end of 5th day?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let backlog = B, new orders per day = d, one truck clears c orders per day.<br>\n- 7 [latex]\\times[/latex] 4c = B + 4d<br>\n- 3 [latex]\\times[/latex] 10c = B + 10d<br><br>\nSubtracting: 2c = 6d [latex]\\rightarrow[/latex] c = 3d, and B = 80d.<br><br>\nFor 5 days: N [latex]\\times[/latex] 5 [latex]\\times[/latex] 3d [latex]\\ge[/latex] 80d + 5d [latex]\\rightarrow[/latex] N [latex]\\ge[/latex] 5.67 [latex]\\rightarrow[/latex] 6 trucks<br><br>\n<b>Answer: 6</b><br><br><a href=\"https://gateoverflow.in/2174/gate-cse-2011-question-64#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 64
+    },
+    {
+      "id": "2012-Q63",
+      "source_id": 1112163,
+      "number": 30,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An automobile plant contracted to buy shock absorbers from two suppliers X and Y. X supplies 60% and Y supplies 40% of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that pass the quality test are considered reliable. Of X's shock absorbers, 96% are reliable. Of Y's shock absorbers, 72% are reliable.\n<br><br>\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by Y is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0.288",
+        "B": "0.334",
+        "C": "0.667",
+        "D": "0.72"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Bayes' theorem:<br><br>\n[latex]P(Y\\mid R)=\\frac{0.4\\times0.72}{0.6\\times0.96+0.4\\times0.72}=\\frac{0.288}{0.864}\\approx0.334[/latex]<br><br>\n<b>Answer: 0.334</b><br><br><a href=\"https://gateoverflow.in/2211/gate-cse-2012-question-63#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 63
+    }
+  ]
+}

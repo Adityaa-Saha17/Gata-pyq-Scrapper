@@ -1,0 +1,851 @@
+{
+  "paper_id": "general-aptitude-02",
+  "paper": "General Aptitude: Topic Mock 2",
+  "kind": "topic_mock",
+  "topic": "General Aptitude",
+  "set": 2,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2016-S2-Q59",
+      "source_id": 1116259,
+      "number": 1,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Pick the odd one from the following options.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "CADBE",
+        "B": "JHKIL",
+        "C": "XVYWZ",
+        "D": "ONPMQ"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Letter positions:<br>\n- CADBE = 3, 1, 4, 2, 5 (steps [latex]-[/latex]2, +3, [latex]-[/latex]2, +3)<br>\n- JHKIL = 10, 8, 11, 9, 12 (same steps)<br>\n- XVYWZ = 24, 22, 25, 23, 26 (same steps)<br>\n- ONPMQ = 15, 14, 16, 13, 17 (different steps)<br><br>\n<b>Answer: ONPMQ</b><br><br><a href=\"https://gateoverflow.in/39528/gate-cse-2016-set-2-question-ga-04#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2025-S1-Q56",
+      "source_id": 1125156,
+      "number": 2,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Ravi had _____________ younger brother who taught at _____________ university. He was widely regarded as _____________ honorable man.  <br>\nSelect the option with the correct sequence of articles to fill in the blanks.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a; a; an",
+        "B": "the; an; a",
+        "C": "a; an; a",
+        "D": "an; an; a"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Younger brother\" and \"honorable man\" are both non-specific, first-mention nouns (indefinite), so they take the indefinite article \"a\"/\"an\" (chosen by the following sound: \"a\" before a consonant sound in \"younger,\" \"an\" before the vowel sound in \"honorable,\" since the \"h\" is silent). \"University,\" despite starting with a vowel <i>letter</i>, starts with a <i>consonant sound</i> (\"yoo-niversity\"), so it takes \"a,\" not \"an.\"<br><br>\nSo the sequence is: <b>a</b> (younger brother), <b>a</b> (university), <b>an</b> (honorable man).<br><br>\n<b>Answer: a; a; an</b><br><br><a href=\"https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 56
+    },
+    {
+      "id": "2017-S2-Q59",
+      "source_id": 1117259,
+      "number": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A test has twenty questions worth 100 marks in total. There are two types of questions. Multiple choice questions are worth 3 marks each and essay questions are worth 11 marks each. How many multiple choice questions does the exam have?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "19"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let m MCQs and e essays: m + e = 20 and 3m + 11e = 100.<br>\n[latex]3m+11(20-m)=100\\Rightarrow8m=120\\Rightarrow m=15[/latex]<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/118418/gate-cse-2017-set-2-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2013-Q57",
+      "source_id": 1113157,
+      "number": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Complete the sentence:\n<br><br>\nUniversalism is to particularism as diffuseness is to ________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "specificity",
+        "B": "neutrality",
+        "C": "generality",
+        "D": "adaptation"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Universalism and particularism are opposite cultural dimensions. The opposite of diffuseness is specificity.<br><br>\n<b>Answer: specificity</b><br><br><a href=\"https://gateoverflow.in/1560/gate-cse-2013-question-57#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 57
+    },
+    {
+      "id": "2013-Q60",
+      "source_id": 1113160,
+      "number": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the grammatically INCORRECT sentence:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "He is of Asian origin.",
+        "B": "They belonged to Africa.",
+        "C": "She is an European.",
+        "D": "They migrated from India to Australia."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"European\" starts with a \"yoo\" sound (a consonant sound), so it takes \"a\": a European.<br><br>\n<b>Answer: She is an European</b><br><br><a href=\"https://gateoverflow.in/1564/gate-cse-2013-question-60#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 60
+    },
+    {
+      "id": "2013-Q59",
+      "source_id": 1113159,
+      "number": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Were you a bird, you ______ in the sky.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "would fly",
+        "B": "shall fly",
+        "C": "should fly",
+        "D": "shall have flown"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Were you a bird\" is an unreal condition (= If you were a bird), so the result uses \"would\": you would fly.<br><br>\n<b>Answer: would fly</b><br><br><a href=\"https://gateoverflow.in/1563/gate-cse-2013-question-59#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 59
+    },
+    {
+      "id": "2015-S1-Q58",
+      "source_id": 1115158,
+      "number": 7,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Given Set A=2,3,4,5 and Set B=11,12,13,14,15, two numbers are randomly selected, one from each set. What is the probability that the sum of the two numbers equals 16?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0.2",
+        "B": "0.25",
+        "C": "0.3",
+        "D": "0.33"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Total pairs = 4 [latex]\\times[/latex] 5 = 20.<br><br>\nSum 16: (2, 14), (3, 13), (4, 12), (5, 11) = 4 pairs<br><br>\nProbability = 4 / 20 = 0.2<br><br>\n<b>Answer: 0.2</b><br><br><a href=\"https://gateoverflow.in/8004/gate-cse-2015-set-1-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 58
+    },
+    {
+      "id": "2016-S1-Q60",
+      "source_id": 1116160,
+      "number": 8,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A cube is built using 64 cubic blocks of side one unit. After it is built, one cubic block is removed from every corner of the cube. The resulting surface area of the body (in square units) after the removal is ________.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "56",
+        "B": "64",
+        "C": "72",
+        "D": "96"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The 4 [latex]\\times[/latex] 4 [latex]\\times[/latex] 4 cube has surface area 6 [latex]\\times[/latex] 16 = 96.<br><br>\nRemoving a corner block removes 3 outer unit faces but exposes 3 new unit faces inside the notch. So the area does not change.<br><br>\n<b>Answer: 96</b><br><br><a href=\"https://gateoverflow.in/39610/gate-cse-2016-set-1-question-ga05#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 60
+    },
+    {
+      "id": "2024-S2-Q59",
+      "source_id": 1124259,
+      "number": 9,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For positive non-zero real variables [latex]x [/latex] and  [latex]y [/latex], if\n<br><br> [latex]\n\\ln \\left(\\frac{x+y}{2}\\right)=\\frac{1}{2}[\\ln (x)+\\ln (y)]\n [/latex] <br><br>\nthen, the value of  [latex]\\frac{x}{y}+\\frac{y}{x} [/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "1/2 ",
+        "C": "2",
+        "D": "4"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]\\ln\\frac{x+y}{2}=\\ln\\sqrt{xy}\\Rightarrow\\frac{x+y}{2}=\\sqrt{xy}[/latex]<br><br>\nAM = GM holds only when [latex]x=y[/latex] (equivalently [latex](\\sqrt x-\\sqrt y)^2=0[/latex]).<br><br>\n[latex]\\frac xy+\\frac yx=1+1=2[/latex]<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/422903/gate-cse-2024-set-2-ga-question-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 59
+    },
+    {
+      "id": "2014-S1-Q60",
+      "source_id": 1114160,
+      "number": 10,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The roots of [latex]ax^2+bx+c=0[/latex] are real and positive.  [latex]a,b \\text{ and } c[/latex] are real. Then [latex]ax^2+b|x|+c=0[/latex] has ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "no roots",
+        "B": "2 real roots",
+        "C": "3 real roots",
+        "D": "4 real roots"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "For x [latex]\\ge[/latex] 0, [latex]ax^2+b|x|+c=0[/latex] is the original equation, with its 2 positive roots. For x [latex]\\lt[/latex] 0 it becomes [latex]ax^2-bx+c=0[/latex], whose roots are the negatives of those. So there are 4 real roots: [latex]\\pm r_1,\\pm r_2[/latex].<br><br>\n<b>Answer: 4 real roots</b><br><br><a href=\"https://gateoverflow.in/770/gate-cse-2014-set-1-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 60
+    },
+    {
+      "id": "2015-S1-Q56",
+      "source_id": 1115156,
+      "number": 11,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Didn't you buy ____ when you went shopping?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "any paper",
+        "B": "much paper",
+        "C": "no paper",
+        "D": "a few paper"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Any\" is used in questions and negatives. \"Paper\" here is uncountable, so \"a few\" is wrong, and \"no\" makes a double negative.<br><br>\n<b>Answer: any paper</b><br><br><a href=\"https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 56
+    },
+    {
+      "id": "2010-Q59",
+      "source_id": 1110159,
+      "number": 12,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "25  persons are in a room. 15 of them play hockey, 17 of them play football and 10 of them play both hockey and football. Then the number of persons playing neither hockey nor football is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2",
+        "B": "17",
+        "C": "13",
+        "D": "3"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Play at least one = 15 + 17 [latex]-[/latex] 10 = 22.<br><br>\nNeither = 25 [latex]-[/latex] 22 = 3<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/2367/gate-cse-2010-question-59#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 59
+    },
+    {
+      "id": "2020-Q59",
+      "source_id": 1120159,
+      "number": 13,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The dawn of the 21st century witnessed the melting glaciers oscillating between giving too much and too little to billions of people who depend on them for fresh water. The UN climate report estimates that without deep cuts to man-made emissions, at least 30% of the northern hemisphere's surface permafrost could melt by the end of the century. Given this situation of imminent global exodus of billions of people displaced by rising seas, nation-states need to rethink their carbon footprint for political concerns, if not for environmental ones.<br><br>\n\nWhich one of the following statements can be inferred from the given passage?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Nation-states do not have environmental concerns.",
+        "B": "Nation-states are responsible for providing fresh water to billions of people.",
+        "C": "Billions of people are responsible foe man-made emissions.",
+        "D": "Billions of people are affected by melting glaciers."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage says glaciers give too much or too little water to billions who depend on them, and that billions may be displaced by rising seas. So billions of people are affected by melting glaciers. The other options are not stated.<br><br>\n<b>Answer: Billions of people are affected by melting glaciers</b><br><br><a href=\"https://gateoverflow.in/333237/gate-cse-2020-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 59
+    },
+    {
+      "id": "2017-S1-Q56",
+      "source_id": 1117156,
+      "number": 14,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "After Rajendra Chola returned from his voyage to Indonesia, he ________ to visit the temple in Thanjavur.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "was wishing",
+        "B": "is wishing",
+        "C": "wished",
+        "D": "had wished"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The sentence describes completed actions in the past (\"returned\"), so the matching simple past is \"<b>wished</b>\".<br><br>\n<b>Answer: wished</b><br><br><a href=\"https://gateoverflow.in/118403/gate-cse-2017-set-1-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 56
+    },
+    {
+      "id": "2014-S3-Q60",
+      "source_id": 1114360,
+      "number": 15,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The table below has question-wise data on the performance of students in an examination. The marks for each question are also listed. There is no negative or partial marking in the examination.<br><br>  [latex]\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} & \\textbf{Marks} &\\textbf{Answered}&\\textbf{Answered}&\\textbf{Not}\\\\&&\\textbf{ Correctly} &\\textbf{Wrongly} & \\textbf{Attempted} \\\\\\hline \\text{1} & \\text{2} &\\text{21} &\\text{17} &\\text{6}\\\\\\hline \\text{2} & \\text{3} &\\text{15} & \\text{27}& \\text{2}\\\\\\hline \\text{3} & \\text{2} &\\text{23} & \\text{18} & \\text{3}\\\\\\hline \\end{array}[/latex]\n <br><br>What is the average of the marks obtained by the class in the examination?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1.34",
+        "B": "1.74",
+        "C": "3.02",
+        "D": "3.91"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Marks: Q1 = 21 [latex]\\times[/latex] 2 = 42, Q2 = 15 [latex]\\times[/latex] 3 = 45, Q3 = 23 [latex]\\times[/latex] 2 = 46 [latex]\\rightarrow[/latex] total 133.<br><br>\nStudents = 21 + 17 + 6 = 44.<br><br>\nAverage = 133 / 44 = 3.02<br><br>\n<b>Answer: 3.02</b><br><br><a href=\"https://gateoverflow.in/2028/gate-cse-2014-set-3-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 60
+    },
+    {
+      "id": "2016-S1-Q64",
+      "source_id": 1116164,
+      "number": 16,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If [latex]f(x) = 2x^{7}+3x-5[/latex], which of the following is a factor of [latex]f(x)[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]x^3+8[/latex]",
+        "B": "[latex]x-1[/latex]",
+        "C": "[latex]2x-5[/latex]",
+        "D": "[latex]x+1[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Factor theorem: [latex]f(1)=2+3-5=0[/latex], so [latex](x-1)[/latex] is a factor.<br>\n(f([latex]-[/latex]1) = [latex]-[/latex]2 [latex]-[/latex] 3 [latex]-[/latex] 5 [latex]\\ne[/latex] 0, so x + 1 is not.)<br><br>\n<b>Answer: x-1</b><br><br><a href=\"https://gateoverflow.in/39611/gate-cse-2016-set-1-question-ga09#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 64
+    },
+    {
+      "id": "2012-Q64",
+      "source_id": 1112164,
+      "number": 17,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which of the following assertions are CORRECT?\n<br><br>\nP: Adding 7 to each entry in a list adds 7 to the mean of the list <br>\nQ: Adding 7 to each entry in a list adds 7 to the standard deviation of the list <br>\nR: Doubling each entry in a list doubles the mean of the list<br>\nS: Doubling each entry in a list leaves the standard deviation of the list unchanged",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P, Q",
+        "B": "Q, R",
+        "C": "P, R",
+        "D": "R, S"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Checking each statement:<br>- Adding 7: mean +7 (P true), SD unchanged (Q false)<br>\n- Doubling: mean doubles (R true), SD doubles (S false)<br><br>\n<b>Answer: P, R</b><br><br><a href=\"https://gateoverflow.in/2212/gate-cse-2012-question-64#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 64
+    },
+    {
+      "id": "2019-Q63",
+      "source_id": 1119163,
+      "number": 18,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "\"A recent High Court judgement has sought to dispel the idea of begging as a disease - which leads to its stigmatization and criminalization  - and to regard it as a symptom. The underlying disease is the failure of the state to protect citizens who fall through the social security net.\"<br><br>\nWhich one of the following statements can be inferred from the given passage?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Beggars are lazy people who beg because they are unwilling to work",
+        "B": "Beggars are created because of the lack of social welfare schemes",
+        "C": "Begging is an offence that has to be dealt with firmly",
+        "D": "Begging has to be banned because it adversely affects the welfare of the state"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage says begging is a <b>symptom</b> of the state's failure to protect people who fall through the social security net. So beggars arise because of a lack of social welfare.<br><br>\nThe other options blame the beggars or call for punishment, which contradicts the passage.<br><br>\n<b>Answer: Beggars are created because of the lack of social welfare schemes</b><br><br><a href=\"https://gateoverflow.in/302865/gate-cse-2019-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 63
+    },
+    {
+      "id": "2015-S3-Q61",
+      "source_id": 1115361,
+      "number": 19,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Alexander turned his attention towards India, since he had conquered Persia.\n<br><br>\nWhich one of the statements below is logically valid and can be inferred from the above sentence?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Alexander would not have turned his attention towards India had he not conquered Persia.",
+        "B": "Alexander was not ready to rest on his laurels, and wanted to march to India.",
+        "C": "Alexander was not completely in control of his army and could command it to move towards India.",
+        "D": "Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move further."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Since he had conquered Persia\" gives the cause. So without conquering Persia, he would not have turned to India.<br><br>\nThe other options add information not in the sentence.<br><br>\n<b>Answer: Alexander would not have turned his attention towards India had he not conquered Persia</b><br><br><a href=\"https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 61
+    },
+    {
+      "id": "2017-S2-Q64",
+      "source_id": 1117264,
+      "number": 20,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The number of roots of [latex]e^x+0.5x^2-2=0[/latex] in the range [-5,5] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let [latex]f(x)=e^x+0.5x^2-2[/latex]. [latex]f(-5)\\approx10.5 \\gt 0[/latex], [latex]f(0)=-1 \\lt 0[/latex], [latex]f(5) \\gt 0[/latex] [latex]\\rightarrow[/latex] at least two sign changes.<br><br>\n[latex]f''(x)=e^x+1 \\gt 0[/latex], so f is convex and has at most 2 roots. Exactly 2.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/118423/gate-cse-2017-set-2-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2022-Q61",
+      "source_id": 1122161,
+      "number": 21,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Some people believe that \"what gets measured, improves\". Some others believe that \"what gets measured, gets gamed\". One possible reason for the difference in the beliefs is the work culture in organizations. In organizations with good work culture, metrics help improve outcomes. However, the same metrics are counterproductive in organizations with poor work culture.\n<br>\nWhich one of the following is the CORRECT logical inference based on the information in the above passage?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Metrics are useful in organizations with poor work culture",
+        "B": "Metrics are useful in organizations with good work culture",
+        "C": "Metrics are always counterproductive in organizations with good work culture",
+        "D": "Metrics are never useful in organizations with good work culture"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage says: in organizations with good work culture, metrics help improve outcomes; with poor culture they are counterproductive.<br><br>\nSo the direct inference is that metrics are useful in organizations with good work culture. Options 1, 3 and 4 contradict the passage.<br><br>\n<b>Answer: Metrics are useful in organizations with good work culture</b><br><br><a href=\"https://gateoverflow.in/371500/Gate-cse-2022-question-6#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 61
+    },
+    {
+      "id": "2015-S2-Q64",
+      "source_id": 1115264,
+      "number": 22,
+      "section": "General Aptitude",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "If p, q, r, s are distinct integers such that:[latex]f(p,q,r,s)= max (p,q,r,s)[/latex]  <br> [latex]g(p,q,r,s)= min (p,q,r,s) \n[/latex]<br>[latex]h (p, q, r, s) = \\text {remainder of } \\frac{(p \\times q)} {(r \\times s)} \\text{ if } (p \\times q) \\gt (r \\times s)[/latex]<br>[latex]\\text{ or remainder of } \\frac {(r \\times s)}{(p \\times q)} \\text{ if } (r \\times s) \\gt (p \\times q)[/latex]<br><br>Also a function [latex]fgh(p,q,r,s)=f(p,q,r,s) \\times g(p,q,r,s) \\times h(p,q,r,s)[/latex]<br>\nAlso the same operations are valid with two variable functions of the form [latex]f(p,q)[/latex]<br>\nWhat is the value of [latex]fg(h(2,5,7,3),4,6,8)[/latex]?",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "h(2, 5, 7, 3): p [latex]\\times[/latex] q = 10, r [latex]\\times[/latex] s = 21. 21 [latex]\\gt[/latex] 10, so h = 21 mod 10 = 1.<br><br>\nfg(1, 4, 6, 8) = max [latex]\\times[/latex] min = 8 [latex]\\times[/latex] 1 = 8<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2025-S1-Q65",
+      "source_id": 1125165,
+      "number": 23,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A shop has 4 distinct flavors of ice-cream. One can purchase any number of scoops of any flavor. The order in which the scoops are purchased is inconsequential.  \nIf one wants to purchase 3 scoops of ice-cream, in how many ways can one make that purchase?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "20",
+        "C": "24",
+        "D": "48"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "We're distributing [latex]3[/latex] identical scoops among [latex]4[/latex] distinct flavors, where any flavor can be chosen any number of times (including zero) and order doesn't matter &mdash; a classic <b>stars-and-bars</b> (combinations with repetition) count:<br><br>\n[latex]\\binom{n+r-1}{r}=\\binom{3+4-1}{3}=\\binom63=20[/latex]<br><br>\n<b>Answer: 20</b><br><br><a href=\"https://gateoverflow.in/460091/gate-cse-2025-set-1-ga-question-10#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 65
+    },
+    {
+      "id": "2016-S2-Q61",
+      "source_id": 1116261,
+      "number": 24,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Among 150 faculty members in an institute, 55 are connected with each other through Facebook and 85 are connected through Whatsapp. 30 faculty members do not have Facebook or Whatsapp accounts. The numbers of faculty members connected only through Facebook accounts is _______.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "35",
+        "B": "45",
+        "C": "64",
+        "D": "90"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Members with at least one account = 150 [latex]-[/latex] 30 = 120.<br>\nBoth = 55 + 85 [latex]-[/latex] 120 = 20.<br>\nOnly Facebook = 55 [latex]-[/latex] 20 = 35.<br><br>\n<b>Answer: 35</b><br><br><a href=\"https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 61
+    },
+    {
+      "id": "2026-S2-Q61",
+      "source_id": 1126261,
+      "number": 25,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Water : [latex]\\text{P}[/latex] : Food : [latex]\\text{Q}[/latex] <br><br>Choose the [latex]\\text{P}[/latex] and [latex]\\text{Q}[/latex] combination from the options below to form a meaningful analogy.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\text{P}[/latex] = Thirst; [latex]\\text{Q}[/latex] = Hunger",
+        "B": "[latex]\\text{P}[/latex] = Drink; [latex]\\text{Q}[/latex] = Hunger",
+        "C": "[latex]\\text{P}[/latex] = Thirst; [latex]\\text{Q}[/latex] = Satiated",
+        "D": "[latex]\\text{P}[/latex] = Wet; [latex]\\text{Q}[/latex] = Critic"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The analogy \"Water : P :: Food : Q\" asks for the concept each item is most directly linked to satisfying/relieving. Water quenches or relates to <b>Thirst</b>, just as Food relates to <b>Hunger</b> &mdash; a parallel, matching relationship in both halves of the analogy.<br><br>\nThe other pairings break the parallel structure: e.g. \"Drink\" isn't a need/craving the way \"Hunger\" is, \"Satiated\" is the resolved state rather than the craving itself (mismatching \"Thirst,\" which is the craving), and \"Wet\"/\"Critic\" have no sensible thematic connection to food at all.<br><br>\n<b>Answer: P = Thirst, Q = Hunger</b> <br><br> <a href=\"https://gateoverflow.in/523152/gate-cse-2026-set-2-ga-question-6#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 61
+    },
+    {
+      "id": "2014-S3-Q63",
+      "source_id": 1114363,
+      "number": 26,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The Gross Domestic Product (GDP) in Rupees grew at 7% during 2012-2013. For international comparison, the GDP is compared in US Dollars (USD) after conversion based on the market exchange rate. During the period 2012-2013 the exchange rate for the USD increased from Rs. 50/USD to Rs.60/ USD. India's GDP in USD during the period 2012-2013",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "increased by 5%",
+        "B": "decreased by 13%",
+        "C": "decreased by 20%",
+        "D": "decreased by 11%"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Let GDP = G rupees. In USD: before = G/50, after = 1.07G/60.<br><br>\nRatio = [latex]\\frac{1.07\\times50}{60}=0.892[/latex], a fall of about 11%.<br><br>\n<b>Answer: decreased by 11%</b><br><br><a href=\"https://gateoverflow.in/2032/gate-cse-2014-set-3-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 63
+    },
+    {
+      "id": "2025-S2-Q63",
+      "source_id": 1125263,
+      "number": 27,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following options is correct for the given data in the table?\n<br>\n[latex] \\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{Iteration} (i) & 0 & 1 & 2 & 3 \\\\\n\\hline\n\\text{Input} (I) & 20 & -4 & 10 & 15 \\\\\n\\hline\n\\text{Output} (X) & 20 & 16 & 26 & 41 \\\\\n\\hline\n\\text{Output} (Y) & 20 & -80 & -800 & -12000 \\\\\n\\hline\n\\end{array} [/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " [latex]X(i) = X(i - 1) + I(i);  \\quad Y(i) = Y(i - 1) I(i);   \\quad i > 0 [/latex]",
+        "B": " [latex]X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) + I(i); \\quad i > 0 [/latex]",
+        "C": " [latex]X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) I(i); \\quad i > 0 [/latex]",
+        "D": " [latex]X(i) = X(i - 1) + I(i); \\quad Y(i) = Y(i - 1) I(i ? 1); \\quad i > 0 [/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability ",
+      "explanation": "Testing the proposed recurrences directly against the table:<br><br>\n[latex]X(i)=X(i-1)+I(i)[/latex]: [latex]X(1)=20+(-4)=16[/latex] &check;, [latex]X(2)=16+10=26[/latex] &check;, [latex]X(3)=26+15=41[/latex] &check; &mdash; matches the [latex]X[/latex] row exactly.<br><br>\n[latex]Y(i)=Y(i-1)\\times I(i)[/latex]: [latex]Y(1)=20\\times(-4)=-80[/latex] &check;, [latex]Y(2)=-80\\times10=-800[/latex] &check;, [latex]Y(3)=-800\\times15=-12000[/latex] &check; &mdash; matches the [latex]Y[/latex] row exactly.<br><br>\n<b>Answer: X(i)=X(i-1)+I(i); Y(i)=Y(i-1)&times;I(i); for i&gt;0</b><br><br><a href=\"https://gateoverflow.in/460443/gate-cse-2025-set-2-ga-question-8#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 63
+    },
+    {
+      "id": "2024-S1-Q63",
+      "source_id": 1124163,
+      "number": 28,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The pie chart presents the percentage contribution of different macronutrients to a\ntypical 2,000 kcal diet of a person.<br><img src=\"/wp-content/uploads/GATE/CS/20241/q63.webp\" /><br>\nThe typical energy density (kcal/g) of these macronutrients is given in the table.\n<br>[latex]\n\\begin{array}{|l|c|}\n\\hline Macronutrient & Energy density (kcal/g) \\\\\n\\hline Carbohydrates &4\\\\\n\\hline Proteins &4 \\\\\n\\hline Unsaturated fat &9 \\\\\n\\hline Saturated fat &9 \\\\\n\\hline Trans fat &9 \\\\\n\\hline\n\\end{array}[/latex]<br>\n\nThe total fat (all three types), in grams, this person consumes is",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20241/q63.webp"
+      ],
+      "options": {
+        "A": "44.4",
+        "B": "77.8",
+        "C": "100",
+        "D": "3600"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From the pie chart, fats = unsaturated 20% + saturated 20% + trans 5% = 45%.<br><br>\nEnergy from fat [latex]=0.45\\times2000=900[/latex] kcal.<br>\nAll fats give 9 kcal/g, so fat [latex]=900/9=100[/latex] g.<br><br>\n<b>Answer: 100</b><br><br><a href=\"https://gateoverflow.in/422779/gate-cse-2024-set-1-ga-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 63
+    },
+    {
+      "id": "2016-S2-Q64",
+      "source_id": 1116264,
+      "number": 29,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a 2x4 rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the grid?<br><br>[latex]\\begin{array}{|c|c|c|c|c|}\\hline{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}&{\\;\\;\\;}\\\\\\hline{}&{}&{}&\\\\\\hline\\end{array}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "21",
+        "B": "27",
+        "C": "30",
+        "D": "36"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "A rectangle is fixed by choosing 2 of the 3 horizontal lines and 2 of the 5 vertical lines:<br>\n[latex]\\binom32\\times\\binom52=3\\times10=30[/latex]<br><br>\n<b>Answer: 30</b><br><br><a href=\"https://gateoverflow.in/39537/gate-cse-2016-set-2-question-ga-09#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 64
+    },
+    {
+      "id": "2024-S1-Q64",
+      "source_id": 1124164,
+      "number": 30,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A rectangular paper of 20cm x 8cm is folded 3 times. Each fold is made along the\nline of symmetry, which is perpendicular to its long edge. The perimeter of the final\nfolded sheet (in cm) is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "20",
+        "D": "21"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Each fold halves the current <b>longer</b> side.<br><br>\n- 20 [latex]\\times[/latex] 8 [latex]\\rightarrow[/latex] fold [latex]\\rightarrow[/latex] 10 [latex]\\times[/latex] 8<br>\n- 10 [latex]\\times[/latex] 8 [latex]\\rightarrow[/latex] fold [latex]\\rightarrow[/latex] 5 [latex]\\times[/latex] 8 (now 8 is the longer side)<br>\n- 5 [latex]\\times[/latex] 8 [latex]\\rightarrow[/latex] fold [latex]\\rightarrow[/latex] 5 [latex]\\times[/latex] 4<br><br>\nPerimeter [latex]=2(5+4)=18[/latex] cm.<br><br>\n<b>Answer: 18</b><br><br><a href=\"https://gateoverflow.in/422778/gate-cse-2024-set-1-ga-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 64
+    }
+  ]
+}

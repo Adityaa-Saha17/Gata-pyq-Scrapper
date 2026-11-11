@@ -1,0 +1,2250 @@
+{
+  "paper_id": "2006",
+  "paper": "GATE CS 2006",
+  "year": 2006,
+  "set": null,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-2006",
+  "source_id": 11061,
+  "total_marks": 150,
+  "scraped_at": "2026-11-07T05:04:01Z",
+  "questions": [
+    {
+      "id": "2006-Q1",
+      "source_id": 1106101,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the polynomial [latex]p(x)=a_{0}+a_{1}x+a_{2}x^{2} + a_{3}x^{3}[/latex], where [latex]a_{i}\\neq 0,\\forall i[/latex]. The minimum number of multiplications needed to evaluate p on an input x is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "9"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/792/gate2006-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q2",
+      "source_id": 1106102,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let X, Y, Z be sets of sizes x, y and z respectively. Let W=X[latex]\\times[/latex]Y and E be the\r\nset of all subsets of W. The number of functions from Z to E is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]Z^{2xy}[/latex]",
+        "B": "[latex]Z*2^{xy}[/latex]",
+        "C": "[latex]Z^{2x+y}[/latex]",
+        "D": "[latex]2^{xyz}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/881/gate2006-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q3",
+      "source_id": 1106103,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The set {1, 2, 3, 5, 7, 8, 9} under multiplication modulo 10 is not a group. Given\r\nbelow are four plausible reasons. Which one of them is false?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "It is not closed",
+        "B": "2 does not have an inverse",
+        "C": "3 does not have an inverse",
+        "D": "8 does not have an inverse"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/882/gate2006-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q4",
+      "source_id": 1106104,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A relation R is defined on ordered pairs of integers as follows:<br>\n(x,y)R(u,v) if x[latex]\\lt[/latex]u and y[latex]\\gt[/latex]v. Then R is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Neither a Partial Order nor an Equivalence Relation",
+        "B": "A Partial Order but not a Total Order",
+        "C": "A Total Order",
+        "D": "An Equivalence Relation"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/883/gate2006-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q5",
+      "source_id": 1106105,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For which one of the following reason does Internet Protocol (IP) use the timeto-live (TTL) field in the IP datagram header?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Ensure packets reach destination within that time",
+        "B": "Discard packets that reach later than that time",
+        "C": "Prevent packets from looping indefinitely",
+        "D": "Limit the time for which a packet gets queued in intermediate routers"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/884/gate2006-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q6",
+      "source_id": 1106106,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider three CPU-intensive processes, which require 10,20 and 30 time units\nand arrive at times 0,2, and 6, respectively. How many context switches are needed\nif the operating system implements a shortes remaining time first scheduling\nalgorithm? Do not count the context switches at time zero and at the end",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/885/gate2006-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q7",
+      "source_id": 1106107,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following grammar. <br>\nS [latex]\\rightarrow[/latex] S * E <br>\nS [latex]\\rightarrow[/latex] E <br>\nE [latex]\\rightarrow[/latex] F + E <br>\nE [latex]\\rightarrow[/latex] F   <br>                                                                                                F F [latex]\\rightarrow[/latex] id <br>\nConsider the following LR(0) items corresponding to the grammar above. <br>\n(i) S [latex]\\rightarrow[/latex] S * .E<br>\n(ii) E [latex]\\rightarrow[/latex] F. + E<br>\n(iii) E [latex]\\rightarrow[/latex] F + .E<br>\nGiven the items above, which two of them will appear in the same set in the\ncanonical sets-of-items for the grammar?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) and (ii)",
+        "B": "(ii) and (iii)",
+        "C": "(i) and (iii)",
+        "D": "None of these"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/886/gate2006-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q8",
+      "source_id": 1106108,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "You are given a free running clock with a duty cycle of 50% and a digital waveform\nf which changes only at the negative edge of the clock. Which one of the following\ncircuits (using clocked D flip flops) will delay the phase of f by [latex]180^{\\circ}[/latex] ?<br><img src=\"/wp-content/uploads/GATE/CS/20061/q8.jpg\"/> <br><img src=\"/wp-content/uploads/GATE/CS/20061/q8b.jpg\"/> ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q8.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q8b.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/887/gate2006-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q9",
+      "source_id": 1106109,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A CPU has 24-bit instructions. A program starts at address 300 (in decimal). Which one of the following is a legal program counter (all values in decimal)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "400",
+        "B": "500",
+        "C": "600",
+        "D": "700"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "<a href=\"https://gateoverflow.in/888/gate2006-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q10",
+      "source_id": 1106110,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a binary max heap containing n numbers, the smallest element can be found in time",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\Theta (n)[/latex]",
+        "B": "[latex]\\Theta (logn)[/latex]",
+        "C": "[latex]\\Theta (log logn)[/latex]",
+        "D": "[latex]\\Theta (1)[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/889/gate2006-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q11",
+      "source_id": 1106111,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a weighted complete graph G on the vertex set {[latex]v_{1},v_{2},...,v_{n}[/latex]} such that the weight of the edge ([latex]v_{i},v_{j}[/latex]) is 2|i-j|. The weight of a minimum spanning tree",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n-1",
+        "B": "2n-2",
+        "C": "[latex]\\binom{n}{2}[/latex]",
+        "D": "[latex]n^{2}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/890/gate2006-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q12",
+      "source_id": 1106112,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "To implement Dijkstra's shortest path algorithm on unweighted graphs so that it\nruns in linear time, then data structure to be used is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Heap",
+        "D": "B-Tree"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Shortest Path",
+      "explanation": "<a href=\"https://gateoverflow.in/891/gate2006-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q13",
+      "source_id": 1106113,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A scheme for storing binary trees in an array X is as follows. Indexing of X starts\nat 1 instead of 0. The roots is stored at X[1]. For a node stored at X[i], the left\nchild, if any, is stored in X[2i] and the right child, if any, in X[2i + 1]. To be able\nto store any binary tree on n vertices, the minimum size of X should be",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "log n",
+        "B": "n",
+        "C": "2n+1",
+        "D": "[latex]2^{n}-1[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/974/gate2006-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q14",
+      "source_id": 1106114,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one the following in place sorting algorithms needs the minimum number\nof swaps?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Quick-sort",
+        "B": "Insertion sort",
+        "C": "Selection sort",
+        "D": "Heap sort"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/975/gate2006-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q15",
+      "source_id": 1106115,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following C-program fragment in which i, j,and n are integer variables.\r\n<pre><code>for (i = n, j = 0; i > 0; i/=2, j += i);</pre></code>\r\nLet Val(j) denote the value stored in the variable j after termination of the for\r\nloop. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "val(j)=[latex]\\Theta[/latex](logn)",
+        "B": "val(j)=[latex]\\Theta[/latex](sqrt(n))",
+        "C": "val(j)=[latex]\\Theta[/latex](n)",
+        "D": "val(j)=[latex]\\Theta[/latex](nlogn)"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "<a href=\"https://gateoverflow.in/976/gate2006-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q16",
+      "source_id": 1106116,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let S be an NP-complete problem Q and R be two other problems not known to\nbe in NP. Q is polynomial-time reducible to S and S is polynomial-time reducible\nto R. Which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R is NP-complete",
+        "B": "R is NP-hard",
+        "C": "Q is NP-complete",
+        "D": "Q is NP-hard"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "P-NP Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/977/gate2006-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q17",
+      "source_id": 1106117,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "An element in an array X is called a leader if it is grater than all elements to the\nright of it in X. The best algorithm to find all leaders in an array.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Solves it in linear time using a left to right pass of the array",
+        "B": "Solves in linear time using a right to left pass of the array",
+        "C": "Solves it is using divide and conquer in time [latex]\\Theta[/latex](nlogn)",
+        "D": "Solves it in time [latex]\\Theta (n^{2})[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array",
+      "explanation": "<a href=\"https://gateoverflow.in/978/gate2006-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q18",
+      "source_id": 1106118,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "We are given a set [latex]X=\\{x_{1},...,x_{n}\\}[/latex] where [latex]x_{i}=2^{i}[/latex]. A sample [latex]S\\subseteq X[/latex]  is drawn by selecting each   [latex]x_{i}[/latex] independently with probability [latex]p_{i}=\\frac{1}{2}[/latex]. The expected value of the smallest number in sample S is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1/n",
+        "B": "2",
+        "C": "[latex]\\sqrt{n}[/latex]",
+        "D": "n"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/979/gate2006-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q19",
+      "source_id": 1106119,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let  [latex]L_{1}=\\{0^{n+m}1^{n}0^{m}|n,m\\geq 0\\}[/latex] <br> [latex]L_{2}=\\{0^{n+m}1^{n+m}0^{m}|n,m\\geq 0\\}[/latex] <br> [latex]L_{3}=\\{0^{n+m}1^{n+m}0^{n+m}|n,m\\geq 0\\}[/latex]<br> <br>Which of these languages are NOT context free?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "L1 only",
+        "B": "L3 only",
+        "C": "L1 and L2",
+        "D": "L2 and L3"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "<a href=\"https://gateoverflow.in/980/gate2006-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q20",
+      "source_id": 1106120,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following log sequence of two transactions on a bank account, with\ninitial balance 12000,that transfer 2000 to a mortgage payment and, then apply\na 5% interest. <br><br>\n1. T1 start <br>\n2. T1 B old = 12000 new = 10000 <br>\n3. T1 M old = 0 ne = 2000<br>\n4. T1 commit <br>\n5. T2 start<br>\n6. T2 B old = 10000 new = 10500 <br>\n7. T2 commit<br><br>\nSuppose the database system crashed just before log record 7 is written. When\nthe system is restarted, which one statement is true of the recovery procedure?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "We must redo log record 6 to set B to 10500",
+        "B": "We must undo log record 6 to set B to 10000 and then redo log records 2 and 3",
+        "C": "We need not redo log records 2 and 3 because transaction T1 has committed",
+        "D": "We can apply redo and undo operations in arbitrary order because they are\nidempotent"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "<a href=\"https://gateoverflow.in/981/gate2006-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q21",
+      "source_id": 1106121,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For each element in set of size 2n, an unbiased coin is tossed. The 2n coin tossed\nare independent. An element is chosen if the corresponding coin toss were head.\nThe probability that exactly n elements are chosen is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{\\binom{2n}{n}}{4^{n}}[/latex]",
+        "B": "[latex]\\frac{\\binom{2n}{n}}{2^{n}}[/latex]",
+        "C": "[latex]\\frac{1}{\\binom{2n}{n}}[/latex]",
+        "D": "[latex]\\frac{1}{2}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/982/gate2006-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q22",
+      "source_id": 1106122,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let E,F and G be finite sets.<br>\nLet X=(E [latex]\\cap[/latex]F) - (F[latex]\\cap[/latex]G) and Y = (E - (E[latex]\\cap[/latex]G)) - (E - F).  <br> Which one of the\nfollowing is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]X\\subset Y[/latex]",
+        "B": "[latex]X\\supset Y[/latex]",
+        "C": "X=Y",
+        "D": "[latex]X-Y\\neq \\phi[/latex] and [latex]Y-X\\neq \\phi[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/983/gate2006-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q23",
+      "source_id": 1106123,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "F is an nxn real matrix. b is an nx1 real vector. Suppose there are two nx1\nvectors, u and v such that u[latex]\\neq[/latex]v , and Fu=b, Fv=b.\n Which one of the following statements is false?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Determinant of F is zero",
+        "B": "There are an infinite number of solutions to Fx = b",
+        "C": "There is an x[latex]\\neq[/latex]0 such that Fx = 0",
+        "D": "F must have two identical rows"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/984/gate2006-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q24",
+      "source_id": 1106124,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given a set of elements N = {1,2,...,n} and two arbitrary subsets A[latex]\\subseteq[/latex]N and\nB[latex]\\subseteq[/latex]N , how many of the n! permutations p from N to N satisfy min[p(A)]=min[p(B)], where min(S) is the smallest integer in the set of integers S and\np(S) is the set of integers obtained by applying permutation p to each element of S ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](n-|A\\cup B|)|A||B|[/latex]",
+        "B": "[latex](|A|^{2}+|B|^{2})n^{2}[/latex]",
+        "C": "[latex]n!(|A\\cap B|/|A\\cup B|)[/latex]",
+        "D": "[latex]|A\\cap B|^{2}/\\binom{n}{|A\\cup B|^{2}}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/987/gate2006-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q25",
+      "source_id": 1106125,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let S={1,2,3....,m},m [latex]\\gt [/latex] 3. Let [latex]X_{1},...,X_{n}[/latex] be subsets of S each of size 3.\r\nDefine a function f from S to the set of natural numbers as, f(i) is the number of sets [latex]X_{j}[/latex] that contain the element i. That is [latex]f(i)=|\\{j|i\\in X_{j}\\}|[/latex]. Then [latex]\\sum_{i=1}^{m}f(i)[/latex] ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3m",
+        "B": "3n",
+        "C": "2m+1",
+        "D": "2n+1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/988/gate2006-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q26",
+      "source_id": 1106126,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the first order predicate calculus statements given below correctly\nexpresses the following English statement? <br><br>Tigers and lions attack if they are hungry or threatened.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall x [/latex] [latex][(tiger(x)\\wedge lion(x))\\rightarrow [/latex] [latex]\\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}][/latex] ",
+        "B": "[latex]\\forall x [/latex] [latex][(tiger(x)\\vee lion(x))\\rightarrow [/latex] [latex]\\{(hungry(x)\\vee theatened(x))\\wedge attacks(x)\\}][/latex]",
+        "C": "[latex]\\forall x[/latex] [latex][(tiger(x)\\vee lion(x))\\rightarrow [/latex] [latex] \\{attacks (x)\\rightarrow (hungry(x)\\wedge theatened(x))\\}][/latex]",
+        "D": "[latex]\\forall x [/latex] [latex][(tiger(x)\\vee lion(x))\\rightarrow [/latex] [latex] \\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}][/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/989/gate2006-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q27",
+      "source_id": 1106127,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following propositional statements: <br> [latex]P1:((A\\wedge B)\\rightarrow C)\\equiv (A\\rightarrow C)\\wedge (B\\rightarrow C)[/latex] <br> [latex] P2:((A\\vee B)\\rightarrow C)\\equiv (A\\rightarrow C)\\vee (B\\rightarrow C) [/latex]<br> Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P1 is a tautology, but not P2",
+        "B": "P2 is a tautology, but not P1",
+        "C": "P1 and P2 are both tautologies",
+        "D": "Both P1 and P2 are not tautologies"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/990/gate2006-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q28",
+      "source_id": 1106128,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A logical binary relation [latex]\\square[/latex] , is defined as follows <br><img src=\"/wp-content/uploads/GATE/CS/20061/q28.jpg\"/> Let [latex]\\neg[/latex] be the unary negation (NOT) operator, with higher precedence, than [latex]\\square[/latex].\nWhich one of the following is equivalent to A[latex]\\wedge[/latex]B?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q28.jpg"
+      ],
+      "options": {
+        "A": "[latex](\\neg A\\square B)[/latex]",
+        "B": "[latex]\\neg (A\\square \\neg B)[/latex]",
+        "C": "[latex]\\neg (\\neg A\\square \\neg B)[/latex]",
+        "D": "[latex]\\neg (\\neg A\\square B)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/991/gate2006-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q29",
+      "source_id": 1106129,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If s is a string over (0+1)*, then let [latex]n_0 (s)[/latex] denote the number of 0's in s and [latex]n_1 (s)[/latex]\r\nthe number of 1's in s. Which one of the following languages is not regular?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "L = {s [latex]\\in[/latex] (0+1)* | [latex]n_0 (s)[/latex] is a 3-digit prime}",
+        "B": "L = {s [latex]\\in[/latex] (0+1)* | for every prefix s' of s,  |[latex]n_0 (s') - n_1 (s')[/latex]| [latex]\\leq[/latex] 2}",
+        "C": "L = {s [latex]\\in[/latex] (0+1)* |[latex]n_0 (s) - n_1 (s)[/latex]| [latex]\\leq[/latex] 4}",
+        "D": "L = {s [latex]\\in[/latex] (0+1)* | [latex]n_0(s)[/latex] mod 7 = [latex]n_1(s)[/latex] mod 5 = 0}"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Regular Language",
+      "explanation": "<a href=\"https://gateoverflow.in/992/gate2006-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q30",
+      "source_id": 1106130,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For [latex]S \\in (0+1)^{*}[/latex],  let d(s) denote the decimal value of s (e.g.   d(101)=5).<br>   Let L={s [latex]\\in[/latex] (0+1)*| d(s) mod 5=2 and d(s) mod 7[latex]\\neq[/latex]4}<br> Which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "L is recursively enumerable, but not recursive",
+        "B": "L is recursive, but not context-free",
+        "C": "L is context-free, but not regular",
+        "D": "Lis regular"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Recursive Language",
+      "explanation": "<a href=\"https://gateoverflow.in/993/gate2006-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q31",
+      "source_id": 1106131,
+      "number": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let SHAM3 be the problem of finding a Hamiltonian cycle in a graph G=(V,E) with |V| divisible by 3 and DHAM3 be the problem of determining if a Hamltonian cycle exists in such graphs. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both DHAM3 and SHAM3 are NP-hard",
+        "B": "SHAM3 is NP-hard, but DHAM3 is not",
+        "C": "DHAM3 is NP-hard, but SHAM3 is not",
+        "D": "Neither DHAM3 nor SHAM3 is NP-hard"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/994/gate2006-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q32",
+      "source_id": 1106132,
+      "number": 32,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following statements about the context-free grammer <br> [latex]G=\\{S\\rightarrow SS, S\\rightarrow ab, S\\rightarrow ba, S\\rightarrow \\varepsilon  \\}[/latex] <br> 1. G is ambiguous <br> \r\n2. G produces all strings with equal number of a's  and b's <br> 3. \r\nG can be accepted by a deterministic PDA. <br> \r\nWhich combination below expresses all the true statements about G?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "I Only",
+        "B": "I and III only",
+        "C": "II and III only",
+        "D": "I,II and III "
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Grammar",
+      "explanation": "<a href=\"https://gateoverflow.in/995/gate2006-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q33",
+      "source_id": 1106133,
+      "number": 33,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let L1 be regular language, L2 be a deterministic context-free language and L3 a\nrecursively enumerable, but not recursive, language. Which one of the following\nstatements is false?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]L_{1}\\cap L_{2}[/latex] is a deterministic CFL",
+        "B": "[latex]L_{3}\\cap L_{1}[/latex] is recursive",
+        "C": "[latex]L_{1}\\cup L_{2}[/latex] is context-free",
+        "D": "[latex]L_{1}\\cap L_{2}\\cap L_{3}[/latex] is recursively enumerable "
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Recursive Language",
+      "explanation": "<a href=\"https://gateoverflow.in/996/gate2006-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q34",
+      "source_id": 1106134,
+      "number": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the regular language L = (111 + 11111)* . The minimum number of\r\nstates in any DFA accepting this languages is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "8",
+        "D": "9"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "<a href=\"https://gateoverflow.in/1291/gate2006-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q35",
+      "source_id": 1106135,
+      "number": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the circuit below. Which one of the following options correctly represents\r\nf (x,y,z)? <br><img src=\"/wp-content/uploads/GATE/CS/20061/q35.jpg\"/><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q35.jpg"
+      ],
+      "options": {
+        "A": "[latex]x\\bar{z}+xy+\\bar{y}z[/latex]",
+        "B": "[latex]x\\bar{z}+xy+\\overline{yz}[/latex]",
+        "C": "[latex]xz+xy+\\overline{yz}[/latex]",
+        "D": "[latex]xz+x\\bar{y}+\\bar{y}z[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1292/gate2006-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q36",
+      "source_id": 1106136,
+      "number": 36,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given two three bit numbers [latex]a_{2}a_{1}a_{0}[/latex] and [latex]b_{2}b_{1}b_{0}[/latex] and c, the carry in, the function\nthat represents the carry generate function when these two numbers are added is <br><img src=\"/wp-content/uploads/GATE/CS/20061/q36.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q36.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1294/gate2006-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q37",
+      "source_id": 1106137,
+      "number": 37,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the circuit in the diagram. The [latex]\\oplus[/latex] operator represents Ex-OR. The D flip-flops are initialized to zeroes (cleared). <br><img src=\"/wp-content/uploads/GATE/CS/20061/q37.jpg\"/><br>  The following data : 100110000 is supplied to the \"data\" terminal in nine clock cycles. After that the values of [latex]q_{2}q_{1}q_{0}[/latex] are",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q37.jpg"
+      ],
+      "options": {
+        "A": "[latex]000[/latex]",
+        "B": "[latex]001[/latex]",
+        "C": "[latex]010[/latex]",
+        "D": "[latex]101[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Sequential Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/1295/gate2006-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q38",
+      "source_id": 1106138,
+      "number": 38,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a boolean function f (w,x,y,z). Suppose that exactly one of its inputs is allowed to change at a time. If the function happens to be true for two input vectors i1=(w1,x1,y1,z1) and i2=(w2,x2,y2,z2), we would like the function to remain true as the input changes from i1 to i2(i1 and i2 differ in exactly one bit position), without becoming false momentarily. Let f(w,x,y,z)=[latex]\\Sigma[/latex](5,7,11,12,13,15).  Which of the following cube covers of f will ensure that the required property\r\nis satisfied?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\bar{w}xz,wx\\bar{y},x\\bar{y}z,xyz,wyz[/latex]",
+        "B": "[latex]wxy,\\bar{w}xz,wyz[/latex]",
+        "C": "[latex]wx\\bar{yz},xz,w\\bar{x}yz[/latex]",
+        "D": "[latex]wx\\bar{y},wyz,wxz,\\bar{w}xz,x\\bar{y}z,xyz[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1814/gate2006-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q39",
+      "source_id": 1106139,
+      "number": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "We consider addition of two 2's complement numbers [latex]b_{n-1}b_{n-2}...b_{0}[/latex] and\n[latex]a_{n-1}a_{n-2}...a_{0}[/latex]. A binary Combinational Circuit for adding unsigned binary numbers is used to add\nthe two numbers. The sum is denoted by [latex]c_{n-1}c_{n-2}...c_{0}[/latex] and the carryout by [latex]c_{out}[/latex] .\nWhich one of the following options correctly identifies the overflow condition? <br><img src=\"/wp-content/uploads/GATE/CS/20061/q39.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q39.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Combinational Circuit",
+      "explanation": "<a href=\"https://gateoverflow.in/1815/gate2006-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q40",
+      "source_id": 1106140,
+      "number": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider number represented in 4-bit gray code. Let [latex]h_3h_2h_1h_0[/latex] be the gray code\r\nrepresentation of a number n and let [latex]g_3g_2g_1g_0[/latex]  be the gray code of (n+1) (modulo 16) value of the number. Which one of the following functions is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]g_0(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (1,2,3,6,10,13,14,15)",
+        "B": "[latex]g_1(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (4,9,10,11,12,,13,14,15)",
+        "C": "[latex]g_2(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (2,4, 5,6,7,12,,13,15)",
+        "D": "[latex]g_3(h_3h_2h_1h_0)[/latex] = [latex]\\sum[/latex] (0,1,6,7, 10,11,12,,13,)"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "<a href=\"https://gateoverflow.in/1816/gate2006-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q41",
+      "source_id": 1106141,
+      "number": 41,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A CPU has a cache with block size 64 bytes. The main memory has k banks, each\nbank being c bytes wide. Consecutive c-byte chunks are mapped on consecutive\nbanks with warp-around. All the k banks can be accessed in parallel, but two\naccesses to the same bank must be serialized. A cache block access may involve\nmultiple iterations of parallel bank accesses depending on the amount of data\nobtained by accessing all the k banks in parallel. Each iteration requires decoding\nthe bank numbers to be accessed in parallel and this takes k/2 ns . The latency of\none bank access is 80 ns . If c = 2 and k=24, then latency of retrieving a cache\nblock starting at address zero from main memory is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "92ns",
+        "B": "104ns",
+        "C": "172ns",
+        "D": "184ns"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "<a href=\"https://gateoverflow.in/1817/gate2006-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q42",
+      "source_id": 1106142,
+      "number": 42,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A CPU has five-stages pipeline and runs at 1GHz frequency. Instruction fetch\nhappens in the first stage of the pipeline. A conditional branch instruction\ncomputes the target address and evaluates the condition in the third stage of the\npipeline. The processor stops fetching new instructions following a conditional\nbranch until the branch outcome is known. A program executes [latex]10^{9}[/latex] instructions\nout of which 20% are conditional branches. If each instruction takes one cycle to\ncomplete on average, then total execution time of the program is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1.0 second",
+        "B": "1.2 seconds",
+        "C": "1.4 seconds",
+        "D": "1.6 seconds"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "<a href=\"https://gateoverflow.in/1818/gate2006-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q43",
+      "source_id": 1106143,
+      "number": 43,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a new instruction named branch-on-bit-set (mnemonic bbs). The\ninstruction \"bbs reg, pos, labbel\" jumps to label if bit in position pos of register\noperand reg is one. a register is 32 bits wide and the bits are numbered 0 to 31,\nbit in position 0 being the least significant. Consider the following emulation of\nthis instruction on a processor that does not have bbs implemented. <br><br>\ntemp[latex]\\leftarrow [/latex]reg & mask <br>\nBranch to label if temp is non-zero<br><br>\nThe variable temp is a temporary register. For correct emulation the variable\nmask must be generated by",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "mask [latex]\\leftarrow 0 \\times 1 \\lt \\lt pos[/latex] ",
+        "B": "musk [latex]\\leftarrow 0 \\times ffffffff \\gt \\gt  pos[/latex] ",
+        "C": "mask [latex]\\leftarrow[/latex] pos",
+        "D": "msdk [latex]\\leftarrow 0 \\times f[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "<a href=\"https://gateoverflow.in/1819/gate2006-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q44",
+      "source_id": 1106144,
+      "number": 44,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Station A uses 32 byte packets to transmit messages to Station B using a sliding\nwindow protocol. The round trip delay between A and B is 80 milliseconds and\nthe bottleneck bankwidth on the path between A and B is 128 kbps. What is the\noptimal window size that A should use ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "20",
+        "B": "40",
+        "C": "160",
+        "D": "320"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1820/gate2006-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q45",
+      "source_id": 1106145,
+      "number": 45,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Two computers C1 and C2 are configured as follows. C1 has IP address 203.\n197.2.53 and netmask 255.255. 128.0. C2 has IP address 203.197.75.201 and\nnetmask 255.255.192.0. Which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "C1 and C2 both assume they are on the same network",
+        "B": "C2 assumes C1 is on same network, but C1 assumes C2 is on a different\nnetwork",
+        "C": "C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork",
+        "D": "C1 and C2 both assume they are on different networks"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "<a href=\"https://gateoverflow.in/1821/gate2006-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q46",
+      "source_id": 1106146,
+      "number": 46,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Station A needs to send a message consisting of 9 packets to Station B using a\nsiding window (window size 3) and go-back-n error control strategy. All packets\nare ready and immediately available for transmission. If every 5th packet that A\ntransmits gets lost (but no acks from B ever get lost), then what is the number\nof packets that A will transmit for sending the message to B ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1822/gate2006-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q47",
+      "source_id": 1106147,
+      "number": 47,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following graph: <br><img src=\"/wp-content/uploads/GATE/CS/20061/q47.jpg\"/><br> Which one of the following cannot be the sequence of edges added, in that order, to a minimum spanning tree using Kruskal's algorithm?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q47.jpg"
+      ],
+      "options": {
+        "A": "(a - b),(d - f),(b - f).( d - c),(d - e)",
+        "B": "(a - b),(d - f),(d - c),(b - f),(d - e)",
+        "C": "(d - f),(a - b),(d - c),(b - f),(d - e)",
+        "D": "(d - f),(a - b),(b - f),(d - e),(d - c)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1823/gate2006-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q48",
+      "source_id": 1106148,
+      "number": 48,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let T be a depth first search tree in a undirected graph G Vertices u and v are\nleaves of this tree T. The degrees of both u and v in G are at least 2. Which one\nof the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "There must exist a vertex w adjacent to both u and v in G",
+        "B": "There must exist a vertex w whose removal disconnects u and v in G",
+        "C": "There must be exist a cycle in G containing u and v",
+        "D": "There must exist a cycle in G containing u and all its neighbours in G"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Graph Traversal",
+      "explanation": "<a href=\"https://gateoverflow.in/1824/gate2006-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q49",
+      "source_id": 1106149,
+      "number": 49,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An implementation of a queue Q, using two stacks S1 and S2, is given below: <pre><code>\nvoid insert(Q,x){\n    push (S1,x);\n}\nvoid delete(Q){\n   if (stack-empty (S2))then\n         if (stack-empty (S1))then{\n               print(\"Q is empty\");\n               return;\n           }\n         else while (! (stack-empty)(S1)){\n                x=pop(S1);\n                push(S2,x);\n            }\n       x=pop(S2);\n}</code></pre> Let n insert and m([latex]\\leq[/latex]n) delete operations be performed in an arbitrary on an\nempty queue Q, Let x and y be the number of push and pop operations performed\nrespectively in the processes. Which one of the following is true for all m and n ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]m+n \\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq n+m[/latex]",
+        "B": "[latex]m+n \\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq 2n[/latex]",
+        "C": "[latex]2m\\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq n+m[/latex]",
+        "D": "[latex]2m \\leq x\\leq 2n[/latex] and [latex]2m \\leq y \\leq 2n[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Queue",
+      "explanation": "<a href=\"https://gateoverflow.in/1826/gate2006-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q50",
+      "source_id": 1106150,
+      "number": 50,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A set X can be represented by an array x[n] as follows <br> [latex]x[i]=\\left\\{\\begin{matrix} 1 &if  i\\in X \\\\ 0&  otherwise \\end{matrix}\\right.[/latex] <br> Consider the following algorithm in which x,y and z are boolean arrays of size n;\r\n<pre><code>algorithm zzz(x[] , y[], z [])\r\n{\r\n   int i;\r\n   for (i=O; i < n; ++i)\r\n         z[i] = (x[i] ^ ~y[i]) V (~x[i] ^ y[i])\r\n}</pre></code>\r\nThe set Z computed by the algorithm is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](X\\cap Y)[/latex]",
+        "B": "[latex](X\\cup Y)[/latex]",
+        "C": "[latex](X-Y)\\cap(Y-X)[/latex]",
+        "D": "[latex](X-Y)\\cup(Y-X)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1828/gate2006-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q51",
+      "source_id": 1106151,
+      "number": 51,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following recurrence: <br>\nT(n)=2T([latex]\\left \\lceil \\sqrt{n} \\right \\rceil[/latex])+ 1,  T(1) = 1 <br>\nWhich one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "T(n)=[latex]\\Theta[/latex](loglogn)",
+        "B": "T(n)=[latex]\\Theta[/latex](logn)",
+        "C": "T(n)=[latex]\\Theta (\\sqrt{n})[/latex]",
+        "D": "T(n)=[latex]\\Theta[/latex](n)"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Recurrence Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/1829/gate2006-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q52",
+      "source_id": 1106152,
+      "number": 52,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The median of n elements can be found in O(n) time. Which one of the following\r\nis correct about the complexity of quick sort, in which median is selected as pivot?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\theta[/latex](n)",
+        "B": "[latex]\\theta[/latex](nlogn)",
+        "C": "[latex]\\theta (n^{2})[/latex]",
+        "D": "[latex]\\theta (n^{3})[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "<a href=\"https://gateoverflow.in/1830/gate2006-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q53",
+      "source_id": 1106153,
+      "number": 53,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following C-function in which a[n] and b[m] are two sorted\ninteger arrays and c[n+m] be another integer array. <pre><code>\nvoid xyz (int a[],int b[],int c[]){\n   int i, j, k;\n   i=j=k=0;\n   while((i < n) && (j < m))\n            if (a[i] < b[j]) c[k++]=a[i++];\n            else c[k++]=b[j++];\n}</code></pre>\nWhich of the following condition(s) hold(s) after the termination of the while loop ?<br><br>\nI.  j[latex]\\lt[/latex]m, k=n+j-1, and a [n-1][latex]\\lt[/latex]b[j] if i=n <br>\nII.  i[latex]\\lt[/latex]n, k=m+i-1, and b[m-1][latex]\\leq[/latex]a[i] if j=m",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "only (I)",
+        "B": "only (II)",
+        "C": "either (I) or (II) but not both",
+        "D": "neither (I) nor (II)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Loop",
+      "explanation": "<a href=\"https://gateoverflow.in/1831/gate2006-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q54",
+      "source_id": 1106154,
+      "number": 54,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given two arrays of numbers [latex]a_{1},...,a_{n}[/latex] and [latex]b_{1},...,b_{n}[/latex] where each number is 0 or 1,\nthe fastest algorithm to find the largest span(i,j) such that [latex]a_{i}+a_{i+1}+...+a_{j}=b_{i}+b_{i+1}+.....+b_{j}[/latex] , or report that there is no such span,",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Takes [latex]O(3^{n})[/latex] and [latex]\\Omega (2^{n})[/latex] time if hashing is permitted",
+        "B": "Takes [latex]O(n^{3})[/latex] and [latex]\\Omega (n^{2.5})[/latex] time in the key comparison model",
+        "C": "Takes [latex]\\Theta (n)[/latex] time and space",
+        "D": "Takes [latex]O(\\sqrt{n})[/latex] time only if the sum of the 2n elements is an even number"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array",
+      "explanation": "<a href=\"https://gateoverflow.in/1832/gate2006-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q55",
+      "source_id": 1106155,
+      "number": 55,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider these two functions and two statements S1 and S2 about them. <br><img src=\"/wp-content/uploads/GATE/CS/20061/q55.jpg\"/><br>  S1 : The transformation from work 1 to work 2 is valid, i.e., for any program state\nand input arguments, work 2 will compute the same output and have the same\neffect on program state as work 1 <br>\nS2 : All the transformations applied to work 1 to get work 2 will always improve\nthe performance (i.e. reduce CPU time) of work 2 compared to work 1",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q55.jpg"
+      ],
+      "options": {
+        "A": "S1 is false and S2 is false",
+        "B": "S1 is false and S2 is true",
+        "C": "S1 is true and S2 is false",
+        "D": "S1 is true and S2 is true"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Machine Instruction",
+      "explanation": "<a href=\"https://gateoverflow.in/1833/gate2006-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q56",
+      "source_id": 1106156,
+      "number": 56,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following code written in a pass-by reference language like FORTAN\nand these statements about the code.\n<pre><code>subroutine swap(ix,iy)\n     it = ix\nL1 : ix = iy\nL2 : iy = it\nend\n  ia = 3\n  ib = 8\n  call swap (ia, ib+5)\n  print *, ia, ib\nend </code></pre>\nS1: The complier will generate code to allocate a temporary nameless cell,\ninitialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2  <br> S4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement (s) is correct:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1 and S2",
+        "B": "S1 and S4",
+        "C": "S3",
+        "D": "S1 and S5"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q57",
+      "source_id": 1106157,
+      "number": 57,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the C code to swap two integers and these five statements: the code <pre><code> void swap(int *px,int *py){\n*px=*px-*py;\n*py=*px+*py;\n*px=*py-*px;\n}</code></pre> S1 : will generate a compilation error <br>\nS2 : may generate a segmentation fault at runtime depending on the arguments passed <br>\nS3 : correctly implements the swap procedure for all input pointers referreing to integers stored in memory locations accessible tot he process <br>\nS4 : implements the swap procedure correctly for some but not all valid input pointers <br>\nS5 : may add or subtract integers and pointers",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1",
+        "B": "S2 and S3",
+        "C": "S2 and S4",
+        "D": "S2 and S5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/1835/gate2006-57#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q58",
+      "source_id": 1106158,
+      "number": 58,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following grammar <br>\nS [latex]\\rightarrow[/latex] FR <br>\nR [latex]\\rightarrow[/latex]* S | [latex]\\varepsilon[/latex] <br>\nF [latex]\\rightarrow[/latex] id <br>\nIn the predictive parser table, M, of the grammar the entries M[S, id] and M[R,$]\nrespectively",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{S [latex]\\rightarrow[/latex] FR} and {R [latex]\\rightarrow \\varepsilon[/latex] }",
+        "B": "{S [latex]\\rightarrow[/latex] FR} and {}",
+        "C": "{S [latex]\\rightarrow[/latex] FR} and {R [latex]\\rightarrow[/latex] * S}",
+        "D": "{F [latex]\\rightarrow[/latex] id} and {R [latex]\\rightarrow \\varepsilon[/latex] }"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/1836/gate2006-58#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q59",
+      "source_id": 1106159,
+      "number": 59,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following translation scheme. <br>\nS [latex]\\rightarrow[/latex] ER <br>\nR  [latex]\\rightarrow[/latex]* E{print('*');}R|[latex]\\varepsilon[/latex] <br>\nE[latex]\\rightarrow[/latex]F+E{print('+');}|F <br>\nF[latex]\\rightarrow[/latex](S)|id{print(id.value);} <br>\nHere id is a taken that represents an integer and id.value represents the\ncorresponding integer value. For an input '2*3+4', this translation scheme prints",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2*3+4",
+        "B": "2*+34",
+        "C": "23*4+",
+        "D": "234+*"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/1837/gate2006-59#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q60",
+      "source_id": 1106160,
+      "number": 60,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following C code segment.\n<pre><code>\nfor (i = 0, &lt i  n; i++) \n{ \n    for (j=0; j&lt n; j++) \n    { \n        if (i%2) \n        { \n            x += (4*j + 5*i); \n            y += (7 + 4*j); \n        } \n    } \n} \n</pre></code>\nWhich one to the following false?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The code contains loop-in variant computation",
+        "B": "There is scope of common sub-expression elimination in this code",
+        "C": "There is scope strength reduction in this code",
+        "D": "There is scope of dead code elimination in this code"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate Code Generation",
+      "explanation": "<a href=\"https://gateoverflow.in/1838/gate2006-60#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q61",
+      "source_id": 1106161,
+      "number": 61,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The atomic feth-and-set x,y instruction unconditionally sets the memory location\nx to 1 and fetches the old value of x in y without allowing any intervening access\nto the memory location x . Consider the following implementation of P and V\nfunctions on a binary semaphore S. \n<pre><code>void P(binary_semaphore*S){\n   unsigned y;\n   unsigned*x =& (S->value);\n   do {\n          fetch-and-set x,y;\n         } while(y);\n }\nvoid V (binary_semphore*S){\n      S_>value = 0;\n}</pre></code>\nWhich one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The implementation may not work if context switching is disabled in P",
+        "B": "Instead of using fetch-and-set, a pair of normal load/store can be used",
+        "C": "The implementation of V is wrong",
+        "D": "The code does not implement a binary semaphore"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/1839/gate2006-61#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q62",
+      "source_id": 1106162,
+      "number": 62,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor\nhas a translation look-aside buffer (TLB) which can hold a total of 128 page table\nentries and is 4-way set associative. The minimum size of the TLB tag is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "11bits",
+        "B": "13bits",
+        "C": "15bits",
+        "D": "20bits"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "<a href=\"https://gateoverflow.in/1840/gate2006-62#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q63",
+      "source_id": 1106163,
+      "number": 63,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A computer system supports 32-bit virtual addresses as well as 32-bit physical\naddresses, Since the virtual address space is of the same size as the physical\naddress space, the operating system designers decide to get rid of the virtual\nentirely. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Efficient implementation of multi-user support is no longer possible",
+        "B": "The processor cache organization can be made more efficient now",
+        "C": "Hardware support for memory management is no longer needed",
+        "D": "CPU scheduling can be made more efficient now"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Memory Management",
+      "explanation": "<a href=\"https://gateoverflow.in/1841/gate2006-63#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q64",
+      "source_id": 1106164,
+      "number": 64,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider three processes (process id 0,1,2, respectively) with compute time bursts\n2,4, and 8 time units. All processes arrive at time zero. Consider the longest remaining time first (LRTF) scheduling algorithm. In LRTF ties are broken by giving priority to the process with the lowest process id . The average turn around time is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "13units",
+        "B": "14units",
+        "C": "15units",
+        "D": "16units"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/1842/gate2006-64#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q65",
+      "source_id": 1106165,
+      "number": 65,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider three processes, all arriving at time zero, with total execution time of\n10, 20 and 30 units, respectively. Each process spends the first 20% of execution\ntime doing I/O, the next 70% of time doing computation, and the last 10% of\ntime doing I/O again. The operating system uses a shortest remaining compute\ntime first scheduling algorithm and schedules a new process either when the\nrunning process get blocked on I/O or when the running process finishes its\ncompute burst. Assume that all I/O operations can be overlapped as much as\npossible. For what percentage of time does the CPU remain idle?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0%",
+        "B": "10.60%",
+        "C": "30%",
+        "D": "89.40%"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/1843/gate2006-65#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q66",
+      "source_id": 1106166,
+      "number": 66,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following snapshot of a system running n processes. Process i is\nholding [latex]x_{i}[/latex]  instances of a resource R, for [latex]1\\leq i\\leq n[/latex]. Currently, all instances of R are occupied. Further, for all i , process i has placed a request for an additional [latex]y_{i}[/latex], instances while holding the [latex]x_{i}[/latex] instances it already has, There are exactly two processes p and q such that [latex]y_{p}[/latex]=[latex]y_{q}[/latex]=0. Which one of the following can serve as\na necessary condition to guarantee that the system is not approaching a deadlock?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]min(x_{p},x_{q}) \\lt max_{k\\neq p,q}(y_{k})[/latex]",
+        "B": "[latex]x_{p}+x_{q}\\geq min_{k\\neq p,q}(y_{k})[/latex]",
+        "C": "[latex]max(x_{p},x_{q})\\gt 1[/latex]",
+        "D": "[latex]min(x_{p},x_{q})\\gt 1[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Deadlock",
+      "explanation": "<a href=\"https://gateoverflow.in/1844/gate2006-66#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q67",
+      "source_id": 1106167,
+      "number": 67,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relation account (customer, balance) where customer is a primary\r\nkey and there are no mall values. We would like to rank customers according\r\nto decreasing balance. The customer with the largest balance gets rank 1. Ties\r\nare not broken but ranks are skipped: if exactly two customers have the largest\r\nbalance they each get rank 1 and rank 2 is not assigned.\r\n<br><img src=\"/wp-content/uploads/GATE/CS/20061/q67.jpg\"/><br>\r\nConsider these statements about Query 1 and Query 2. <br>\r\n1. Query 1will produce the same row set as Query 2 for some but not all\r\ndatabases <br>\r\n2. Both Query 1 Query 2 are correct implementations of the specification <br>\r\n3. Query 1 is a correct implementation of the specification but Query 2 is not <br>\r\n4. Neither query 1 nor Query 2 is a correct implementation of the specification <br>\r\n5. Assigning rank with a pure relational Query takes less time than scanning \r\nin decreasing balance order the assigning ranks using ODBC <br><br>\r\nWhich two of the above statements are correct?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q67.jpg"
+      ],
+      "options": {
+        "A": "2 and 5",
+        "B": "1 and 3",
+        "C": "1 and 4",
+        "D": "3 and 5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "<a href=\"https://gateoverflow.in/1845/gate2006-67#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q68",
+      "source_id": 1106168,
+      "number": 68,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relation enrolled (student, course) in which student, course) is the\r\nprimary key, and the relation paid (student, amount) where student is the primary\r\nkey . Assume no null values and no foreign keys or integrity constraints. Given\r\nthe following four queries: <br><br>\r\nQuery 1: Select from enrolled where student in (select student form paid) <br>\r\nQuery 2: Select student from paid where student in (select student from\r\nenrolled) <br>\r\nQuery 3: Select E. student from enrolled E, paid P where E. student= P student <br>\r\nQuery 4: Select student from paid where exists <br>(select*from enrolled where\r\nenrolled student=paid.student) <br><br>\r\nWhich one of the following statements is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "All queries return identical row sets for any database",
+        "B": "Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets",
+        "C": "There exist databases for which Query 3 returns strictly fewer rows than Query 2",
+        "D": "There exist databases for which Query 4 will encounter an intergrity\nviolation at runtime"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "<a href=\"https://gateoverflow.in/1846/gate2006-68#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q69",
+      "source_id": 1106169,
+      "number": 69,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the relation enrolled (student, course) in which (student, course) is\nthe primary key, and the relation paid (student, amount) where student is the\nprimary key. Assume no null values and no foreign keys or integrity constraints.\nAssume that amounts 6000, 7000,8000,9000 and 10000 were each paid by 20% of\nthe students. Consider these query plans (Plan 1 on left, Plan 2 on right) to \"list\nall courses taken by students who have paid more than x.\" <br><img src=\"/wp-content/uploads/GATE/CS/20061/q69.jpg\"/><br> A disk seek takes 4 ms. disk data transfer bank width is 300 MB/s and checking a tuple to see if amount is greater x takes 10[latex]\\mu[/latex]s . Which of the following statements is correct?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q69.jpg"
+      ],
+      "options": {
+        "A": " Plan 1 and Plan 2 will not output identical row sets for all databases",
+        "B": "A course may be listed more than once int the output of Plan 1 for some databases",
+        "C": "For x = 5000, Plan 1 executes faster than Plan 2 for all databases",
+        "D": "For x = 9000, Plan 1 executes slower than Plan 2 for all databases"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "<a href=\"https://gateoverflow.in/1847/gate2006-69#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q70",
+      "source_id": 1106170,
+      "number": 70,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The following functional dependencies are given:<br><br>\r\n[latex]AB\\rightarrow CD,AF\\rightarrow D,DE\\rightarrow F,C\\rightarrow G,F\\rightarrow E,G\\rightarrow A[/latex]\r\n <br><br>\r\nWhich one of the following options is false?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\left \\{ CF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}[/latex]",
+        "B": "[latex]\\left \\{ BG \\right \\}^{*}=\\left \\{ ABCDG \\right \\}[/latex]\r\n",
+        "C": "[latex]\\left \\{ AF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}[/latex]\r\n",
+        "D": "[latex]\\left \\{ AB \\right \\}^{*}=\\left \\{ ABCDG \\right \\}[/latex]\r\n"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Relational Schema",
+      "explanation": "<a href=\"https://gateoverflow.in/1848/gate2006-70#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q71",
+      "source_id": 1106171,
+      "number": 71,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The [latex]2^{n}[/latex] vertices of graph G correspond to all subsets of a set of size n, for [latex]n\\geq 6[/latex]. Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br> <br> The number of vertices of degree zero in G is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "n",
+        "C": "n+1",
+        "D": "[latex]2^{n}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1850/gate2006-71#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q72",
+      "source_id": 1106172,
+      "number": 72,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The [latex]2^{n}[/latex] vertices of graph G correspond to all subsets of a set of size n, for [latex]n\\geq 6[/latex]. Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>  The maximum degree of a vertex in G is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\binom{n/2}{2}2^{n/2}[/latex]",
+        "B": "[latex]2^{n-2}[/latex]",
+        "C": "[latex]2^{n-3}[/latex]x3",
+        "D": "[latex]2^{n-1}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/43566/gate2006-72#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q73",
+      "source_id": 1106173,
+      "number": 73,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The [latex]2^{n}[/latex] vertices of graph G correspond to all subsets of a set of size n, for [latex]n\\geq 6[/latex]. Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>   The number of connected components in G is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n",
+        "B": "n+2",
+        "C": "[latex]2^{n/2}[/latex]",
+        "D": "[latex]\\frac{2^{n}}{n}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/43567/gate2006-73#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q74",
+      "source_id": 1106174,
+      "number": 74,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h1 is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2.4ns",
+        "B": "2.3ns",
+        "C": "1.8ns",
+        "D": "1.7ns"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "<a href=\"https://gateoverflow.in/1851/gate2006-74#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q75",
+      "source_id": 1106175,
+      "number": 75,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h2 is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2.4ns",
+        "B": "2.3ns",
+        "C": "1.8ns",
+        "D": "1.7ns"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "<a href=\"https://gateoverflow.in/43565/gate2006-75#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q76",
+      "source_id": 1106176,
+      "number": 76,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A 3-ary max heap is like a binary max heap, but instead of 2 children, nodes have 3 children. A 3-ary heap can be represented by an array as follows: The root is stored in the first location, a[0], nodes in the next level, from left to right, is stored from a[1] to a[3]. The nodes from the second level of the tree from left to right are stored from a[4] location onward. An item x can be inserted into a 3-ary heap containing n items by placing x in the location a[n] and pushing it up the tree to satisfy the heap property. <br><br> Which one of the following is a valid sequence of elements in an array representing 3-ary max heap?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1, 3, 5, 6, 8, 9",
+        "B": "9, 6, 3, 1, 8, 5",
+        "C": "9, 3, 6, 8, 5, 1",
+        "D": "9, 5, 6, 8, 3, 1"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/1852/gate2006-76#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q77",
+      "source_id": 1106177,
+      "number": 77,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A 3-ary max heap is like a binary max heap, but instead of 2 children, nodes have 3 children. A 3-ary heap can be represented by an array as follows: The root is stored in the first location, a[0], nodes in the next level, from left to right, is stored from a[1] to a[3]. The nodes from the second level of the tree from left to right are stored from a[4] location onward. An item x can be inserted into a 3-ary heap containing n items by placing x in the location a[n] and pushing it up the tree to satisfy the heap property. <br><br>Suppose the elements 7, 2, 10 and 4 are inserted, in that order, into the valid 3-ary max heap found in the above question, Which one of the following is the sequence of items in the array representing the resultant heap?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "10, 7, 9, 8, 3, 1, 5, 2, 6, 4",
+        "B": "10, 9, 8, 7, 6, 5, 4, 3, 2, 1",
+        "C": "10, 9, 4, 5, 7, 6, 8, 2, 1, 3",
+        "D": "10, 8, 6, 9, 7, 2, 3, 4, 1, 5"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "<a href=\"https://gateoverflow.in/87191/gate2006-77#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q78",
+      "source_id": 1106178,
+      "number": 78,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Barrier is a synchronization construct where a set of processes synchronizes globally i.e. each process in the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the number of processes in the set be three and S be a binary semaphore with the usual P and V functions. Consider the following C implementation of a barrier with line numbers shown on left. <pre><code> void barrier (void) {\n1:   P(S);\n2:   process_arrived++;\n3.   V(S);\n4:   while (process_arrived !=3);\n5:   P(S);\n6:   process_left++;\n7:   if (process_left==3) {\n8:      process_arrived = 0;\n9:      process_left = 0;\n10:  }\n11:  V(S);\n}</pre></code>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a concurrent program all the three processes call the barrier function when they need to synchronize globally.<br><br> The above implementation of barrier is incorrect. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The barrier implementation is wrong due to the use of binary semaphore S",
+        "B": "The barrier implementation may lead to a deadlock if two barrier\ninvocations are used in immediate succession",
+        "C": " Lines 6 to 10 need not be inside a critical section",
+        "D": "The barrier implementation is correct if there are only two processes\ninstead of three"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/1853/gate2006-78#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q79",
+      "source_id": 1106179,
+      "number": 79,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Barrier is a synchronization construct where a set of processes synchronizes globally i.e. each process in the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the number of processes in the set be three and S be a binary semaphore with the usual P and V functions. Consider the following C implementation of a barrier with line numbers shown on left. <pre><code> void barrier (void) {\n1:   P(S);\n2:   process_arrived++;\n3.   V(S);\n4:   while (process_arrived !=3);\n5:   P(S);\n6:   process_left++;\n7:   if (process_left==3) {\n8:      process_arrived = 0;\n9:      process_left = 0;\n10:  }\n11:  V(S);\n}</pre></code>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a concurrent program all the three processes call the barrier function when they need to synchronize globally.<br><br>Which one of the following rectifies the problem in the implementation?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "lines 6 to 10 are simply replaced by process_arrived",
+        "B": "At the beginning of the barrier the first process to enter the barrier waits\nuntil process_arrived becomes zero before proceeding to execute P(S)",
+        "C": "Context switch is disabled at the beginning of the barrier and re-enabled at\nthe end.",
+        "D": "The variable process_left is made private instead of shared"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "<a href=\"https://gateoverflow.in/43564/gate2006-79#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q80",
+      "source_id": 1106180,
+      "number": 80,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2. <pre><code> P1:\nfor (i=0; i<512; i++) {\n   for (j=0; j<512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i<512; i++) {\n   for (j=0; j<512; j++) {\n      x += A[j][i];\n   }\n}</pre></code> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of M1 is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "2048",
+        "C": "16384",
+        "D": "262144"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "<a href=\"https://gateoverflow.in/1854/gate2006-80#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q81",
+      "source_id": 1106181,
+      "number": 81,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2. <pre><code> P1:\nfor (i=0; i<512; i++) {\n   for (j=0; j<512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i<512; i++) {\n   for (j=0; j<512; j++) {\n      x += A[j][i];\n   }\n}</pre></code> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of ratio [latex]\\frac{M1}{M2}[/latex] is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "[latex]\\frac{1}{16}[/latex]",
+        "C": "[latex]\\frac{1}{8}[/latex]",
+        "D": "16"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "<a href=\"https://gateoverflow.in/43517/gate2006-81#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q82",
+      "source_id": 1106182,
+      "number": 82,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. <br><br> Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred.  <br><img src=\"/wp-content/uploads/GATE/CS/20061/q82.jpg\"/><br> For the given connection of LANs by bridges, which one of the following choices represents the depth first traversal of the spanning tree of bridges?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q82.jpg"
+      ],
+      "options": {
+        "A": "B1, B5, B3, B4, B2",
+        "B": "B1, B3, B5, B2, B4",
+        "C": "B1, B5, B2, B3, B4",
+        "D": "B1, B3, B4, B5, B2"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/1855/gate2006-82#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q83",
+      "source_id": 1106183,
+      "number": 83,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. <br><br> Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred.  <br><img src=\"/wp-content/uploads/GATE/CS/20061/q82.jpg\"/><br>Let host H1 send\nout a broadcast ping packet. Which of the following options represents the correct for forwarding table on B3? <br><img src=\"/wp-content/uploads/GATE/CS/20061/q83.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q82.jpg",
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q83.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/79790/gate2006-83#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q84",
+      "source_id": 1106184,
+      "number": 84,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following grammars generates the language <br> [latex]L=\\{a^{i}b^{j}|i\\neq j\\}[/latex] <br><img src=\"/wp-content/uploads/GATE/CS/20061/q84.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20061/q84.jpg"
+      ],
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/1856/gate2006-84#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2006-Q85",
+      "source_id": 1106185,
+      "number": 85,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The grammar <br><br> S[latex]\\rightarrow[/latex]AC|CB <br> C[latex]\\rightarrow[/latex]aCb|[latex]\\varepsilon[/latex]        <br>A[latex]\\rightarrow[/latex]aA|a      <br>B[latex]\\rightarrow[/latex]Bb|b <br><br> generates the language [latex]L=\\{a^{i}b^{j}|i\\neq j\\}[/latex] , what is the length of the derivation (number of steps starting from S) to generate the string [latex]a^{l}b^{m} [/latex] with [latex]l \\neq m[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "max(l,m)+2",
+        "B": "l+m+2",
+        "C": "l+m+3",
+        "D": "max(l,m)+3"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "<a href=\"https://gateoverflow.in/79801/gate2006-85#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

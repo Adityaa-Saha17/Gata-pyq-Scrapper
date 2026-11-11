@@ -1,0 +1,826 @@
+{
+  "paper_id": "engineering-mathematics-04",
+  "paper": "Engineering Mathematics: Topic Mock 4",
+  "kind": "topic_mock",
+  "topic": "Engineering Mathematics",
+  "set": 4,
+  "duration_min": 90,
+  "total_marks": 42,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2016-S2-Q2",
+      "source_id": 1116202,
+      "number": 1,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Let f(x) be a polynomial and g(x) = f'(x) be its derivative. If the degree of (f(x)+ f(-x)) is 10, then the degree of (g(x)-g(-x)) is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        9.0,
+        9.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]f(x)+f(-x)[/latex] keeps only the <b>even</b> powers of f (times 2). Its degree is 10, so f has an [latex]x^{10}[/latex] term (and no higher even power).<br><br>\n[latex]g(x)-g(-x)[/latex] keeps only the <b>odd</b> powers of g = f'. Even powers of f become odd powers of g: [latex]x^{10}\\rightarrow10x^9[/latex] is the highest.<br><br>\nDegree = 9<br><br>\n<b>Answer: 9</b><br><br><a href=\"https://gateoverflow.in/39571/gate2016-2-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 2
+    },
+    {
+      "id": "2002-Q2",
+      "source_id": 1102102,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The trapezoidal rule for integration gives exact result when the integrand is a polynomial of degree",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0 but not 1",
+        "B": "1 but not 0",
+        "C": "0 or 1",
+        "D": "2"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/806/gate2002-1-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 2
+    },
+    {
+      "id": "1996-Q30",
+      "source_id": 1101530,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Newton-Raphson iteration formula for finding [latex]\\sqrt[3]{c}[/latex], where c > 0 is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]x_{n+1}=\\frac{2x_n^3 + \\sqrt[3]{c}}{3x_n^2}[/latex]",
+        "B": "[latex]x_{n+1}=\\frac{2x_n^3 - \\sqrt[3]{c}}{3x_n^2}[/latex]",
+        "C": "[latex]x_{n+1}=\\frac{2x_n^3 + c}{3x_n^2}[/latex]",
+        "D": "[latex]x_{n+1}=\\frac{2x_n^3 - c}{3x_n^2}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/2734/gate1996-2-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 30
+    },
+    {
+      "id": "2026-S1-Q2",
+      "source_id": 1126102,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider [latex]4 \\times 4[/latex] matrices with their elements from [latex]\\{\\mathbf{0}, \\mathbf{1}\\}[/latex]. The number of such matrices with even number of [latex]\\mathbf{1}[/latex] s in every row and every column is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "512",
+        "B": "1025",
+        "C": "1023",
+        "D": "255"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "We need [latex]4\\times4[/latex] binary matrices where every row and every column has an even number of [latex]1[/latex]s.<br><br>\r\nFreely choose the top-left [latex]3\\times3[/latex] sub-block: this can be filled in any of [latex]2^{9}=512[/latex] ways.<br><br>\r\nOnce this [latex]3\\times3[/latex] block is fixed, the entries in the [latex]4[/latex]th column (for the first [latex]3[/latex] rows) are forced so that each of those rows has an even number of [latex]1[/latex]s, and similarly the entries in the [latex]4[/latex]th row (for the first [latex]3[/latex] columns) are forced by the column parity condition. The single remaining corner entry (row [latex]4[/latex], column [latex]4[/latex]) is then also forced, and it is easy to check the row-[latex]4[/latex] parity and column-[latex]4[/latex] parity conditions become consistent automatically.<br><br>\r\nSo the count of valid matrices [latex]=2^{(4-1)^2}=2^9=512[/latex].<br><br>\r\n<b>Answer: 512</b><br><br><a href=\"https://gateoverflow.in/523078/gate-cse-2026-set-1-question-2#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 2
+    },
+    {
+      "id": "1997-Q3",
+      "source_id": 1101603,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The determinant of the matrix [latex]\\begin{bmatrix} 6 & -8 & 1 & 1 \\\\ 0 & 2 & 4 & 6 \\\\ 0 & 0 & 4 & 8 \\\\ 0 & 0 & 0 & -1 \\end{bmatrix}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "11",
+        "B": "-48",
+        "C": "0",
+        "D": "-24"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2219/gate1997-1-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1997",
+      "source_number": 3
+    },
+    {
+      "id": "2025-S1-Q21",
+      "source_id": 1125121,
+      "number": 6,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider the given function [latex]f(x)[/latex].\n<br><br>\n[latex]f(x) =\n\\begin{cases}\nax + b & \\text{for } x < 1 \\\\\nx^3 + x^2 + 1 & \\text{for } x \\geq 1\n\\end{cases}[/latex]\n<br><br>\nIf the function is differentiable everywhere, the value of [latex]b[/latex] must be ________. (rounded off to one decimal place)",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        -2.1,
+        -1.9
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "For [latex]f[/latex] to be differentiable at [latex]x=1[/latex], it must first be <b>continuous</b> there, and then have matching one-sided derivatives.<br><br>\n<b>Continuity:</b> left-hand value [latex]=a(1)+b=a+b[/latex]; right-hand value [latex]=1^3+1^2+1=3[/latex]. So [latex]a+b=3[/latex].<br><br>\n<b>Matching derivatives:</b> left derivative [latex]=\\dfrac{d}{dx}(ax+b)=a[/latex]. Right derivative [latex]=\\dfrac{d}{dx}(x^3+x^2+1)=3x^2+2x[/latex], evaluated at [latex]x=1[/latex]: [latex]3+2=5[/latex]. So [latex]a=5[/latex].<br><br>\nSubstituting back: [latex]b=3-a=3-5=-2[/latex].<br><br>\n<b>Answer: -2.0</b><br><br><a href=\"https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S1",
+      "source_number": 21
+    },
+    {
+      "id": "2017-S2-Q10",
+      "source_id": 1117210,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If [latex]f(x)=R sin(\\frac{\\pi x}{2})+S,f'(\\frac{1}{2})=\\sqrt{2}[/latex] and [latex] \\int_{0}^{1}f(x)dx=\\frac{2R}{\\pi }[/latex], then the constants R and S are, respectively",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{2}{\\pi}[/latex] and [latex] \\frac{16}{\\pi}[/latex]",
+        "B": "[latex]\\frac{2}{\\pi}[/latex] and 0",
+        "C": "[latex]\\frac{4}{\\pi}[/latex] and 0",
+        "D": "[latex]\\frac{4}{\\pi}[/latex] and [latex] \\frac{16}{\\pi}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Checking each statement:<br>- [latex]f'(x)=\\frac{R\\pi}{2}\\cos\\frac{\\pi x}{2}[/latex], so [latex]f'(\\tfrac12)=\\frac{R\\pi}{2}\\cdot\\frac{1}{\\sqrt2}=\\sqrt2\\Rightarrow R=\\frac4\\pi[/latex]<br>\n- [latex]\\int_0^1f\\,dx=R\\cdot\\frac2\\pi+S[/latex]. This equals [latex]\\frac{2R}{\\pi}[/latex], so S = 0.<br><br>\n<b>Answer: [latex]\\frac4\\pi[/latex] and 0</b><br><br><a href=\"https://gateoverflow.in/118262/gate2017-2-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 10
+    },
+    {
+      "id": "2016-S1-Q5",
+      "source_id": 1116105,
+      "number": 8,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Two eigen values of a 3x3 real matrix P are (2+[latex]\\sqrt{-1}[/latex]) and 3.The determinantof P is __________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        15.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "A real matrix has complex eigenvalues in conjugate pairs, so [latex]2-i[/latex] is the third eigenvalue.<br><br>\n[latex]\\det P=(2+i)(2-i)\\times3=(4+1)\\times3=15[/latex]<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/39634/gate2016-1-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 5
+    },
+    {
+      "id": "2022-Q10",
+      "source_id": 1122110,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following two statements with respect to the matrices [latex]A_{m  \\times n},B_{n  \\times m},C_{n  \\times n}  \\text{ and }D_{n  \\times n},[/latex]<br><br> Statement 1: [latex]tr(AB) = tr(BA)[/latex]  <br> Statement 2: [latex]tr(CD) = tr(DC)[/latex]  <br><br>where[latex]tr()[/latex] represents the trace of a matrix. Which one of the following holds?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Statement 1 is correct and Statement 2 is wrong.",
+        "B": "Statement 1 is wrong and Statement 2 is correct.",
+        "C": "Both Statement 1 and Statement 2 are correct.",
+        "D": "Both Statement 1 and Statement 2 are wrong."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]tr(AB)=\\sum_i\\sum_k a_{ik}b_{ki}=\\sum_k\\sum_i b_{ki}a_{ik}=tr(BA)[/latex]. This holds for any [latex]A_{m\\times n}[/latex], [latex]B_{n\\times m}[/latex] (AB is [latex]m\\times m[/latex], BA is [latex]n\\times n[/latex]).<br><br>\nStatement 2 is the special case of square matrices, so it is also true.<br><br>\n<b>Answer: Both Statement 1 and Statement 2 are correct</b><br><br><a href=\"https://gateoverflow.in/371926/Gate-cse-2022-question-10#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 10
+    },
+    {
+      "id": "1996-Q6",
+      "source_id": 1101506,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The formula used to compute an approximation for the second derivative of a function [latex]f[/latex] at a point [latex]x_0[/latex] is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\dfrac{f(x_0 +h) + f(x_0 - h)}{2}[/latex]",
+        "B": "[latex]\\dfrac{f(x_0 +h) - f(x_0 - h)}{2h}[/latex]",
+        "C": "[latex]\\dfrac{f(x_0 +h) + 2f(x_0) + f(x_0 - h)}{h^2}[/latex]",
+        "D": "[latex]\\dfrac{f(x_0 +h) - 2f(x_0) + f(x_0 - h)}{h^2}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/2710/gate1996-1-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 6
+    },
+    {
+      "id": "2026-S2-Q17",
+      "source_id": 1126217,
+      "number": 11,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "For a real number [latex]a[/latex], let [latex]I(a)=\\int_{-1}^{1}\\left(3 x^{2}-a x+1\\right) d x[/latex]. Which of the following statements is/are true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The value of [latex]I(a)[/latex] is independent of the value of [latex]a[/latex]",
+        "B": "The value of [latex]I(a)[/latex] can vary with the value of [latex]a[/latex]",
+        "C": "There exists [latex]a \\in(-\\infty,+\\infty)[/latex] such that [latex]I(a)[/latex] is a positive real number",
+        "D": "There exists [latex]a \\in(-\\infty,+\\infty)[/latex] such that [latex]I(a)[/latex] is a negative real number"
+      },
+      "correct": [
+        "A",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]I(a)=\\displaystyle\\int_{-1}^{1}(3x^2-ax+1)\\,dx[/latex]<br><br>\nThe middle term [latex]-ax[/latex] is an <b>odd</b> function of [latex]x[/latex], so its integral over the symmetric interval [latex][-1,1][/latex] is exactly [latex]0[/latex], regardless of the value of [latex]a[/latex]. Only the even part survives:<br>\n[latex]I(a)=\\displaystyle\\int_{-1}^1(3x^2+1)\\,dx=\\Big[x^3+x\\Big]_{-1}^{1}=(1+1)-(-1-1)=2-(-2)=4[/latex]<br><br>\nSo [latex]I(a)=4[/latex] for <b>every</b> real [latex]a[/latex] &mdash; the value is completely independent of [latex]a[/latex]. Since it's always [latex]4>0[/latex], there certainly exists (in fact, every) [latex]a[/latex] for which [latex]I(a)[/latex] is a positive real number; but there is no [latex]a[/latex] making it negative, and the value does not \"vary.\"<br><br>\n<b>Answer: I(a) is independent of a; and there exists a for which I(a) is positive (true for every a, since I(a)=4 always).</b> <br><br> <a href=\"https://gateoverflow.in/523129/gate-cse-2026-set-2-question-17#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S2",
+      "source_number": 17
+    },
+    {
+      "id": "2000-Q3",
+      "source_id": 1101903,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The determinant of the matrix<br>[latex]\\begin{bmatrix}2 &0 &0 &0 \\\\ 8& 1& 7& 2\\\\ 2& 0&2 &0 \\\\ 9&0 & 6 & 1 \\end{bmatrix}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "0",
+        "C": "15",
+        "D": "20"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/626/gate2000-1-3\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2000",
+      "source_number": 3
+    },
+    {
+      "id": "2015-S3-Q13",
+      "source_id": 1115313,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the given matrix [latex]\\begin{bmatrix} 1 & -1&2 \\\\ 0& 1 & 0\\\\ 1&2 & 1 \\end{bmatrix}[/latex], one of the eigenvalues is 1. The eigenvectors corresponding to the eigenvalue 1 are ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{[latex]\\alpha (4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}",
+        "B": "{[latex]\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}",
+        "C": "{[latex]\\alpha (\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}",
+        "D": "{[latex]\\alpha (-\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]A-I=\\begin{bmatrix}0&-1&2\\\\0&0&0\\\\1&2&0\\end{bmatrix}[/latex]<br><br>\n- Row 1: [latex]-[/latex]y + 2z = 0 [latex]\\rightarrow[/latex] y = 2z<br>\n- Row 3: x + 2y = 0 [latex]\\rightarrow[/latex] x = [latex]-[/latex]4z<br><br>\nz = 1 gives ([latex]-[/latex]4, 2, 1).<br><br>\n<b>Answer: [latex]\\alpha(-4,2,1)[/latex]</b><br><br><a href=\"https://gateoverflow.in/8411/gate2015-3-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 13
+    },
+    {
+      "id": "2014-S3-Q4",
+      "source_id": 1114304,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which one of the following statements is TRUE about every n x n matrix with only real\neigenvalues?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If the trace of the matrix is positive and the determinant of the matrix is negative, at least one of its eigenvalues is negative.",
+        "B": "If the trace of the matrix is positive, all its eigenvalues are positive.",
+        "C": "If the determinant of the matrix is positive, all its eigenvalues are positive.",
+        "D": "If the product of the trace and determinant of the matrix is positive, all its eigenvalues are positive."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Trace = sum of eigenvalues, determinant = product of eigenvalues.<br><br>\n- If det [latex]\\lt[/latex] 0, the product is negative, so at least one eigenvalue is negative [latex]\\rightarrow[/latex] option 1 true.<br>\n- Counter-examples for others: eigenvalues 3, [latex]-[/latex]1 (trace [latex]\\gt[/latex] 0); [latex]-[/latex]1, [latex]-[/latex]2 (det [latex]\\gt[/latex] 0); [latex]-[/latex]1, [latex]-[/latex]1, 5 (trace and det both positive).<br><br>\n<b>Answer: If trace is positive and determinant is negative, at least one eigenvalue is negative</b><br><br><a href=\"https://gateoverflow.in/2038/gate2014-3-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 4
+    },
+    {
+      "id": "2014-S1-Q5",
+      "source_id": 1114105,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The value of the dot product of the eigenvectors corresponding to any pair of different eigenvalues of a 4-by-4 symmetric positive definite matrix is",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.0,
+        0.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "For a symmetric matrix, eigenvectors of <b>different</b> eigenvalues are orthogonal, so their dot product is 0.<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/1760/gate2014-1-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 5
+    },
+    {
+      "id": "2014-S2-Q4",
+      "source_id": 1114204,
+      "number": 16,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "If the matrix A is such that  <br>[latex]\\begin{bmatrix} 2\\\\ -4\\\\ 7 \\end{bmatrix}\\begin{bmatrix} 1 &9 &5 \\end{bmatrix}[/latex] <br> Then the determinant of A is equal to ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.0,
+        0.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "A is a column vector times a row vector, so every row of A is a multiple of [1 9 5]. Hence rank(A) = 1.<br><br>\nA 3 [latex]\\times[/latex] 3 matrix with rank 1 is singular, so det(A) = 0.<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/1956/gate2014-2-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 4
+    },
+    {
+      "id": "2015-S3-Q14",
+      "source_id": 1115314,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The value of [latex]\\lim_{x\\rightarrow \\infty }(1+x^{2})^{e^{-x}}[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "[latex]\\frac{1}{2}[/latex]",
+        "C": "1",
+        "D": "[latex]\\infty[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Take logs: [latex]\\ln L=\\lim e^{-x}\\ln(1+x^2)=\\lim\\frac{\\ln(1+x^2)}{e^x}=0[/latex] (the exponential grows much faster).<br><br>\nSo [latex]L=e^0=1[/latex].<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/8403/gate2015-3-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 14
+    },
+    {
+      "id": "2014-S2-Q5",
+      "source_id": 1114205,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A non-zero polynomial f(x) of degree 3 has roots at x = 1,x = 2 and x = 3. Which one of the following must be TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]f(0)f(4) \\lt 0[/latex]",
+        "B": "[latex]f(0)f(4) \\gt 0[/latex]",
+        "C": "[latex]f(0)+f(4) \\gt 0[/latex]",
+        "D": "[latex]f(0)+f(4) \\lt 0[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]f(x)=c(x-1)(x-2)(x-3)[/latex] with [latex]c\\ne0[/latex].<br><br>\n[latex]f(0)=-6c,\\quad f(4)=6c[/latex]<br>\n[latex]f(0)f(4)=-36c^2\\lt 0[/latex] always (whatever the sign of c), while the sum f(0) + f(4) = 0.<br><br>\n<b>Answer: [latex]f(0)f(4)\\lt 0[/latex]</b><br><br><a href=\"https://gateoverflow.in/1957/gate2014-2-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 5
+    },
+    {
+      "id": "2024-S2-Q34",
+      "source_id": 1124234,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex] x [/latex] and [latex] y [/latex] be random variables, not necessarily independent, that take real values in the interval [latex] [0,1] [/latex]. Let [latex] z=x y [/latex] and let the mean values of [latex] x, y, z [/latex] be [latex] \\bar{x}, \\bar{y}, \\bar{z} [/latex], respectively. Which one of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] \\bar{z}=\\bar{x} \\bar{y} [/latex]",
+        "B": "[latex]  \\bar{z} \\leq \\bar{x} \\bar{y} [/latex]",
+        "C": "[latex] \\bar{z} \\geq \\bar{x} \\bar{y} [/latex]",
+        "D": "[latex] \\bar{z} \\leq \\bar{x} [/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Since [latex]0\\le y\\le1[/latex], we always have [latex]z=xy\\le x[/latex]. Taking means: [latex]\\bar z\\le\\bar x[/latex] [latex]\\text{---}[/latex] always TRUE.<br><br>\nOthers depend on how x and y are related:<br>\n- [latex]y=x[/latex] uniform on [0, 1]: [latex]\\bar z=E[x^2]=\\frac13 \\gt \\frac14=\\bar x\\bar y[/latex] (so = and [latex]\\le[/latex] fail).<br>\n- [latex]y=1-x[/latex]: [latex]\\bar z=\\frac12-\\frac13=\\frac16 \\lt \\frac14[/latex] (so [latex]\\ge[/latex] fails).<br><br>\n<b>Answer: [latex]\\bar z\\le\\bar x[/latex]</b><br><br><a href=\"https://gateoverflow.in/422863/gate-cse-2024-set-2-question-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 34
+    },
+    {
+      "id": "2019-Q44",
+      "source_id": 1119144,
+      "number": 20,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following matrix:  <br>[latex]\\begin{bmatrix} 1 & 2 & 4 & 8\\\\ 1& 3 & 9 &27 \\\\ 1 & 4 & 16 &64 \\\\ 1 & 5 & 25 &125 \\end{bmatrix}[/latex]<br> The absolute value of the product of Eigenvalues of R is _________ . ",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        12.0,
+        12.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Product of eigenvalues = determinant. The matrix is a <b>Vandermonde</b> matrix with values 2, 3, 4, 5:<br>\n[latex]\\det=\\prod_{i \\lt j}(x_j-x_i)=(3-2)(4-2)(5-2)(4-3)(5-3)(5-4)=1\\cdot2\\cdot3\\cdot1\\cdot2\\cdot1=12[/latex]<br><br>\n<b>Answer: 12</b><br><br><a href=\"https://gateoverflow.in/302804/gate2019-cs-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 44
+    },
+    {
+      "id": "2014-S1-Q46",
+      "source_id": 1114146,
+      "number": 21,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The function [latex]f(x)=x sin x[/latex] satisfies the following equation: [latex]f''(x)+f(x)+tcos x=0[/latex]. The value of t is______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        -2.0,
+        -2.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "[latex]f'=\\sin x+x\\cos x[/latex], [latex]f''=2\\cos x-x\\sin x[/latex].<br>\n[latex]f''+f=2\\cos x[/latex], so [latex]2\\cos x+t\\cos x=0\\Rightarrow t=-2[/latex].<br><br>\n<b>Answer: -2</b><br><br><a href=\"https://gateoverflow.in/1924/gate2014-1-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 46
+    },
+    {
+      "id": "2016-S2-Q29",
+      "source_id": 1116229,
+      "number": 22,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The value of the expression [latex]13^{99}[/latex](mod 17), in the range 0 to 16, is _________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        4.0,
+        4.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": null,
+      "explanation": "[latex]13\\equiv-4\\pmod{17}[/latex], so [latex]13^2\\equiv16\\equiv-1[/latex] and [latex]13^4\\equiv1[/latex].<br><br>\n[latex]99=4\\times24+3\\Rightarrow13^{99}\\equiv13^3=13^2\\cdot13\\equiv-13\\equiv4\\pmod{17}[/latex]<br><br>\n<b>Answer: 4</b><br><br><a href=\"https://gateoverflow.in/39588/gate2016-2-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S2",
+      "source_number": 29
+    },
+    {
+      "id": "2022-Q35",
+      "source_id": 1122135,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider solving the following system of simultaneous equations using LU decomposition.<br>[latex] \\begin{aligned}\nx_1+x_2-2x_3&=4 \\\\\nx_1+3x_2-x_3&=7 \\\\\n 2x_1+x_2-5x_3&=7 \n \\end{aligned}[/latex]<br>where L and U are denoted as<br>[latex]L= \\begin{bmatrix}\nL_{11} & 0 & 0 \\\\ \n L_{21}& L_{22} & 0 \\\\ \nL_{31} & L_{32} & L_{33}\n \\end{bmatrix}, U= \\begin{bmatrix}\nU_{11} & U_{12} & U_{13} \\\\ \n 0& U_{22} & U_{23} \\\\ \n0 & 0 & U_{33}\n \\end{bmatrix}[/latex]<br>Which one of the following is the correct combination of values for [latex]L32, U33,[/latex] and [latex]x_1[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]L_{32}=2,U_{33}=-\\frac{1}{2},x_1=-1[/latex]",
+        "B": "[latex]L_{32}=2,U_{33}=2,x_1=-1[/latex]",
+        "C": "[latex]L_{32}=-\\frac{1}{2},U_{33}=2,x_1=0[/latex]",
+        "D": "[latex]L_{32}=-\\frac{1}{2},U_{33}=-\\frac{1}{2},x_1=0[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Using Doolittle LU (unit diagonal in L):<br>\n- Row 1 of U = [1, 1, [latex]-[/latex]2]; [latex]L_{21}=1,\\ L_{31}=2[/latex]<br>\n- [latex]U_{22}=3-1=2,\\ U_{23}=-1-(-2)=1[/latex]<br>\n- [latex]L_{32}=\\frac{1-2\\cdot1}{2}=-\\frac12[/latex]<br>\n- [latex]U_{33}=-5-2(-2)-(-\\frac12)(1)=-\\frac12[/latex]<br><br>\nSolving the system: eq2 [latex]-[/latex] eq1 gives [latex]2x_2+x_3=3[/latex]; eq3 [latex]-[/latex] 2[latex]\\cdot[/latex]eq1 gives [latex]x_2+x_3=1[/latex]. So [latex]x_2=2,\\ x_3=-1,\\ x_1=4-2-2=0[/latex].<br><br>\n<b>Answer: [latex]L_{32}=-\\frac12,\\ U_{33}=-\\frac12,\\ x_1=0[/latex]</b><br><br><a href=\"https://gateoverflow.in/371901/Gate-cse-2022-question-35#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 35
+    },
+    {
+      "id": "2017-S1-Q28",
+      "source_id": 1117128,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The value of [latex]\\lim_{x\\rightarrow 1}\\frac{x^{7}-2x^{5}+1}{x^{3}-3x^{2}+2}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "is 0",
+        "B": "is -1",
+        "C": "is 1",
+        "D": "does not exist"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "At x = 1: numerator 1 [latex]-[/latex] 2 + 1 = 0, denominator 1 [latex]-[/latex] 3 + 2 = 0. L'Hospital:<br>\n[latex]\\frac{7x^6-10x^4}{3x^2-6x}\\Big|_{x=1}=\\frac{-3}{-3}=1[/latex]<br><br>\n<b>Answer: is 1</b><br><br><a href=\"https://gateoverflow.in/118309/gate2017-1-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 28
+    },
+    {
+      "id": "2015-S1-Q49",
+      "source_id": 1115149,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following 2x2 matrix A where two elements are unknown and are marked by a and b. The eigenvalues of this matrix are -1 and 7. What are the values of a and b? <br>[latex]A=\\begin{pmatrix} 1 & 4\\\\ b&a \\end{pmatrix}[/latex].",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a = 6, b = 4",
+        "B": "a = 4, b = 6",
+        "C": "a = 3, b = 5",
+        "D": "a = 5, b =3"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Checking each statement:<br>- Trace: 1 + a = [latex]-[/latex]1 + 7 = 6 [latex]\\rightarrow[/latex] a = 5<br>\n- Determinant: a [latex]-[/latex] 4b = ([latex]-[/latex]1)(7) = [latex]-[/latex]7 [latex]\\rightarrow[/latex] 5 [latex]-[/latex] 4b = [latex]-[/latex]7 [latex]\\rightarrow[/latex] b = 3<br><br>\n<b>Answer: a = 5, b = 3</b><br><br><a href=\"https://gateoverflow.in/8285/gate2015-1-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S1",
+      "source_number": 49
+    },
+    {
+      "id": "2003-Q42",
+      "source_id": 1103142,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A piecewise linear function f (x) is plotted using thick solid lines in the figure\nbelow (the plot is drawn to scale).  <br><img src=\"/wp-content/uploads/GATE/CS/20031/q42.jpg\"/> <br>  If we use the Newton-Raphson method to find the roots of f(x) = 0 using x0, x1 and x2 respectively as initial guesses, the roots obtained would be",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20031/q42.jpg"
+      ],
+      "options": {
+        "A": "1.3, 0.6 and 0.6 respectively",
+        "B": "0.6, 0.6 and 1.3 respectively",
+        "C": "1.3, 1.3 and 0.6 respectively",
+        "D": "1.3, 0.6 and 1.3 respectively"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/933/gate2003-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 42
+    },
+    {
+      "id": "2014-S3-Q47",
+      "source_id": 1114347,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The value of the integral given below is <br> [latex]\\int_{0}^{\\pi }x^{2}cosxdx[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]-2\\pi[/latex]",
+        "B": "[latex]\\pi[/latex]",
+        "C": "[latex]-\\pi[/latex]",
+        "D": "[latex]2\\pi[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Integrate by parts: [latex]\\int x^2\\cos x\\,dx=x^2\\sin x+2x\\cos x-2\\sin x[/latex]<br><br>\nFrom 0 to [latex]\\pi[/latex]: [latex](0+2\\pi(-1)-0)-0=-2\\pi[/latex]<br><br>\n<b>Answer: [latex]-2\\pi[/latex]</b><br><br><a href=\"https://gateoverflow.in/2081/gate2014-3-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 47
+    },
+    {
+      "id": "2004-Q76",
+      "source_id": 1104176,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In an M x N matrix such that all non-zero entries are covered in a rows and b columns. Then the\nmaximum number of non-zero entries, such that no two are on the same row or column, is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\leq[/latex] a+b",
+        "B": "[latex]\\leq[/latex] max{a,b}",
+        "C": "[latex]\\leq[/latex] min{M-a,N-b}",
+        "D": "[latex]\\leq[/latex] min{a,b}"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/1070/gate2004-76#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 76
+    },
+    {
+      "id": "2014-S2-Q46",
+      "source_id": 1114246,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In the Newton-Raphson method, an initial guess of [latex]x_{0}=2[/latex] is made and the sequence\n[latex]x_{0},x_{1},x_{2}...[/latex] is obtained for the function <br> [latex]0.75x^{3}-2x^{2}-2x+4=0[/latex]<br> Consider the statements <br>\n(I) [latex]x_{3}[/latex]=0. <br>\n(II) The method converges to a solution in a finite number of iterations. <br>\nWhich of the following is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "[latex]f(x)=0.75x^3-2x^2-2x+4,\\quad f'(x)=2.25x^2-4x-2[/latex]<br><br>\n- [latex]x_0=2[/latex]: f = [latex]-[/latex]2, f' = [latex]-[/latex]1 [latex]\\rightarrow[/latex] [latex]x_1=2-\\frac{-2}{-1}=0[/latex]<br>\n- [latex]x_1=0[/latex]: f = 4, f' = [latex]-[/latex]2 [latex]\\rightarrow[/latex] [latex]x_2=0-\\frac{4}{-2}=2[/latex]<br><br>\nThe values repeat 2, 0, 2, 0, ... so [latex]x_3=0[/latex] (I true), and the method never converges (II false).<br><br>\n<b>Answer: Only I</b><br><br><a href=\"https://gateoverflow.in/2012/gate2014-2-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 46
+    },
+    {
+      "id": "2025-S2-Q34",
+      "source_id": 1125234,
+      "number": 30,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a system of linear equations [latex]P X = Q [/latex] where [latex]P \\in \\mathbb{R}^{3 \\times 3} [/latex] and [latex]Q \\in \\mathbb{R}^{3 \\times 1} [/latex].  \nSuppose [latex]P [/latex] has an [latex]LU [/latex] decomposition, [latex]P = LU [/latex], where<br><br>\n[latex] L = \\begin{bmatrix} 1 & 0 & 0 \\\\ l_{21} & 1 & 0 \\\\ l_{31} & l_{32} & 1 \\end{bmatrix} \\quad \\text{and} \\quad U = \\begin{bmatrix} u_{11} & u_{12} & u_{13} \\\\ 0 & u_{22} & u_{23} \\\\ 0 & 0 & u_{33} \\end{bmatrix} [/latex]<br><br>\nWhich of the following statement(s) is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The system [latex]P X = Q [/latex] can be solved by first solving [latex]L Y = Q [/latex] and then [latex]U X = Y [/latex].",
+        "B": "If [latex]P [/latex] is invertible, then both [latex]L [/latex] and [latex]U [/latex] are invertible.",
+        "C": "If [latex]P [/latex] is singular, then at least one of the diagonal elements of [latex]U [/latex] is zero.",
+        "D": "If [latex]P [/latex] is symmetric, then both [latex]L [/latex] and [latex]U [/latex] are symmetric."
+      },
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<b>Solving via [latex]LY=Q[/latex] then [latex]UX=Y[/latex]:</b> substituting [latex]P=LU[/latex] into [latex]PX=Q[/latex] gives [latex]L(UX)=Q[/latex]; setting [latex]Y=UX[/latex], we solve [latex]LY=Q[/latex] first (easy, forward substitution since [latex]L[/latex] is lower triangular), then [latex]UX=Y[/latex] (easy, back substitution). <b>True</b> &mdash; this is exactly the standard LU-solve method.<br><br>\n<b>If [latex]P[/latex] is invertible, both [latex]L,U[/latex] invertible:</b> [latex]L[/latex] is unit lower-triangular (diagonal all [latex]1[/latex]s), so [latex]\\det(L)=1[/latex] always, regardless of [latex]P[/latex] &mdash; [latex]L[/latex] is always invertible. Since [latex]\\det(P)=\\det(L)\\det(U)=\\det(U)[/latex], if [latex]P[/latex] is invertible ([latex]\\det(P)\\ne0[/latex]) then [latex]\\det(U)\\ne0[/latex] too. <b>True.</b><br><br>\n<b>If [latex]P[/latex] singular, some diagonal element of [latex]U[/latex] is zero:</b> since [latex]\\det(P)=\\det(U)[/latex] (product of [latex]U[/latex]'s diagonal, as [latex]U[/latex] is upper triangular), if [latex]P[/latex] is singular ([latex]\\det(P)=0[/latex]) then [latex]\\det(U)=0[/latex], which for a triangular matrix forces at least one diagonal entry to be [latex]0[/latex]. <b>True.</b><br><br>\n<b>If [latex]P[/latex] symmetric, both [latex]L,U[/latex] symmetric:</b> plain LU decomposition does not generally preserve/reveal symmetry in [latex]L[/latex] and [latex]U[/latex] individually (that requires a specialized decomposition like [latex]LDL^T[/latex] or Cholesky). <b>False</b> in general.<br><br>\n<b>Answer: The first three statements are TRUE; the last (about symmetric P forcing symmetric L,U) is FALSE.</b><br><br><a href=\"https://gateoverflow.in/460801/gate-cse-2025-set-2-question-34#a_list\" target=\"_blank\">Click here for detail solution</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2025-S2",
+      "source_number": 34
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "paper_id": "general-aptitude-09",
+  "paper": "General Aptitude: Topic Mock 9",
+  "kind": "topic_mock",
+  "topic": "General Aptitude",
+  "set": 9,
+  "duration_min": 90,
+  "total_marks": 45,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2021-S1-Q56",
+      "source_id": 1121156,
+      "number": 1,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The ratio of boys to girls in a class is 7 to 3.<br><br>\n\nAmong the options below, an acceptable value for the total number of students in the class is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "21",
+        "B": "37",
+        "C": "50",
+        "D": "73"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Boys : girls = 7 : 3, so the total must be a multiple of 7 + 3 = 10. Only 50 is (35 boys, 15 girls).<br><br>\n<b>Answer: 50</b><br><br><a href=\"https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 56
+    },
+    {
+      "id": "2018-Q60",
+      "source_id": 1118160,
+      "number": 2,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What is the missing number in the following sequence?<br> 2, 12, 60, 240, 720, 1440,  _____ ,0",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "2880",
+        "B": "1440",
+        "C": "720",
+        "D": "0"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Each term is multiplied by 6, 5, 4, 3, 2, 1, 0 in turn: 2 [latex]\\times[/latex] 6 = 12, [latex]\\times[/latex] 5 = 60, [latex]\\times[/latex] 4 = 240, [latex]\\times[/latex] 3 = 720, [latex]\\times[/latex] 2 = 1440, [latex]\\times[/latex] 1 = <b>1440</b>, [latex]\\times[/latex] 0 = 0.<br><br>\n<b>Answer: 1440</b><br><br><a href=\"https://gateoverflow.in/204066/gate-cse-2018-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 60
+    },
+    {
+      "id": "2026-S1-Q60",
+      "source_id": 1126160,
+      "number": 3,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "When the teacher is in the room, all students stand silently.' <br><br> If the above statement is true, which one of the following statements is not necessarily true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "If any student is not standing silently, then the teacher is not in the room.",
+        "B": "When the teacher is in the room, all students are silent.",
+        "C": "If all students are standing, then the teacher is in the room.",
+        "D": "When the teacher is in the room, all students are standing."
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The given statement is: [latex]\\text{Teacher in room}\\Rightarrow(\\text{Standing}\\wedge\\text{Silent})[/latex] &mdash; i.e., being in the room implies students are <i>both</i> standing <i>and</i> silent.<br><br>\n- <b>\"If any student is not standing silently, then the teacher is not in the room\"</b> is exactly the logical <b>contrapositive</b> of the original statement, so it is guaranteed true.<br>\n- <b>\"When the teacher is in the room, all students are silent\"</b> follows directly, since \"standing [latex]\\wedge[/latex] silent\" implies \"silent\" alone. Guaranteed true.<br>\n- <b>\"When the teacher is in the room, all students are standing\"</b> similarly follows, since the conjunction implies \"standing\" alone. Guaranteed true.<br>\n- <b>\"If all students are standing, then the teacher is in the room\"</b> is the <b>converse</b> of part of the original implication &mdash; the original statement never claims anything about what causes students to stand; they could be standing for a completely different reason (a fire alarm, another activity, etc.) while the teacher is absent. This is <b>not necessarily true</b>.<br><br>\n<b>Answer: \"If all students are standing, then the teacher is in the room\" is NOT necessarily true.</b> <br><br> <a href=\"https://gateoverflow.in/523085/gate-cse-2026-set-1-ga-question-5#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 60
+    },
+    {
+      "id": "2023-Q57",
+      "source_id": 1123157,
+      "number": 4,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Kind : _______ : : Often : Frequently<br>\n(By word meaning)",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Mean",
+        "B": "Type",
+        "C": "Cruel",
+        "D": "Kindly"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Often and frequently are synonyms. As a noun, <b>kind</b> means sort or <b>type</b>, so kind : type is the matching synonym pair.<br><br>\n<b>Answer: Type</b><br><br><a href=\"https://gateoverflow.in/399254/gate-cse-2023-ga-question2#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "marks_to_all": true,
+      "key_source": "GATE 2023 CS official key Q2: MTA",
+      "source_paper_id": "2023",
+      "source_number": 57
+    },
+    {
+      "id": "2020-Q57",
+      "source_id": 1120157,
+      "number": 5,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "His knowledge of the subject was excellent but his classroom performance was_______.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "extremely poor",
+        "B": "good",
+        "C": "desirable",
+        "D": "praiseworthy"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"But\" signals a contrast with \"excellent\" knowledge, so his classroom performance must be bad: <b>extremely poor</b>.<br><br>\n<b>Answer: extremely poor</b><br><br><a href=\"https://gateoverflow.in/333239/gate-cse-2020-question-ga-2#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2020",
+      "source_number": 57
+    },
+    {
+      "id": "2023-Q56",
+      "source_id": 1123156,
+      "number": 6,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "We reached the station late, and _______ missed the train.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "near",
+        "B": "nearly",
+        "C": "utterly ",
+        "D": "mostly"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Nearly missed the train\" means almost missed it (but caught it). Near is not an adverb here, and \"utterly / mostly missed\" do not make sense.<br><br>\n<b>Answer: nearly</b><br><br><a href=\"https://gateoverflow.in/399255/gate-cse-2023-ga-question1#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 56
+    },
+    {
+      "id": "2024-S2-Q56",
+      "source_id": 1124256,
+      "number": 7,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If '[latex] \\rightarrow [/latex]' denotes increasing order of intensity, then the meaning of the words\n[walk [latex] \\rightarrow [/latex] jog [latex] \\rightarrow [/latex] sprint] is analogous to [bothered [latex] \\rightarrow [/latex] ________ [latex] \\rightarrow [/latex] daunted].<br>\nWhich one of the given options is appropriate to fill the blank?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "phased",
+        "B": "phrased",
+        "C": "fazed",
+        "D": "fused"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "walk [latex]\\rightarrow[/latex] jog [latex]\\rightarrow[/latex] sprint: increasing speed.<br>\nbothered [latex]\\rightarrow[/latex] ___ [latex]\\rightarrow[/latex] daunted: increasing level of being disturbed / discouraged. <b>Fazed</b> (disturbed, unsettled) fits between them.<br><br>\nphased (done in stages), phrased (worded), fused (joined) have unrelated meanings.<br><br>\n<b>Answer: fazed</b><br><br><a href=\"https://gateoverflow.in/422906/gate-cse-2024-set-2-ga-question-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S2",
+      "source_number": 56
+    },
+    {
+      "id": "2014-S3-Q58",
+      "source_id": 1114358,
+      "number": 8,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the word that is opposite in meaning to the word \"coherent\".",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "sticky",
+        "B": "well-connected",
+        "C": "rambling",
+        "D": "friendly"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Coherent = logical and well connected. Rambling = wandering, disconnected (opposite).<br><br>\n<b>Answer: rambling</b><br><br><a href=\"https://gateoverflow.in/2026/gate-cse-2014-set-3-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 58
+    },
+    {
+      "id": "2018-Q57",
+      "source_id": 1118157,
+      "number": 9,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A ________ investigation can sometimes yield new facts, but typically organized ones are more successful.\n<br><br>\nThe word that best fills the blank in the above sentence is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "meandering",
+        "B": "timely",
+        "C": "consistent",
+        "D": "systematic"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The contrast is with \"organized\" investigations, so the blank needs an unorganized, wandering kind: <b>meandering</b>.<br><br>\n<b>Answer: meandering</b><br><br><a href=\"https://gateoverflow.in/204063/gate-cse-2018-question-ga-2#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 57
+    },
+    {
+      "id": "2026-S1-Q59",
+      "source_id": 1126159,
+      "number": 10,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A student needs to enroll for a minimum of [latex]60[/latex] credits. A student cannot enroll for more than [latex]70[/latex] credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly [latex]15[/latex] credits of core courses and exactly [latex]20[/latex] credits of project. In addition, a student has to enroll for a minimum of [latex]10[/latex] credits of specialization courses. The maximum credits of elective courses that a student can enroll for is ________",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Fixed compulsory credits: core [latex]=15[/latex], project [latex]=20[/latex]; together [latex]=35[/latex] credits, regardless of anything else.<br><br>\nRemaining credits (specialization + elective) must fit so that the <b>total</b> is between [latex]60[/latex] and [latex]70[/latex]. To <b>maximize</b> elective credits, we want the overall total to be as large as possible (i.e. [latex]70[/latex]) while specialization is kept at its <b>minimum</b> allowed value ([latex]10[/latex] credits), leaving as much of the credit budget as possible for electives.<br><br>\nMaximum elective [latex]=70-15-20-10=25[/latex].<br><br>\n<b>Answer: 25</b> <br><br> <a href=\"https://gateoverflow.in/523086/gate-cse-2026-set-1-ga-question-4#a_list\" target=\"_blank\">Click here for detail solution</a>",
+      "explanation_source": "site",
+      "source_paper_id": "2026-S1",
+      "source_number": 59
+    },
+    {
+      "id": "2017-S2-Q58",
+      "source_id": 1117258,
+      "number": 11,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "There are five buildings called V, W, X, Y and Z in a row (not necessarily in that order). V is to the West of W. Z is to the East of X and the West of V. W is to the West of Y. Which is the building in the middle?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "V",
+        "B": "W",
+        "C": "X",
+        "D": "Y"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From west to east: X is west of Z, Z west of V, V west of W, W west of Y [latex]\\rightarrow[/latex] X, Z, V, W, Y.<br><br>\nThe middle building is V.<br><br>\n<b>Answer: V</b><br><br><a href=\"https://gateoverflow.in/118417/gate-cse-2017-set-2-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 58
+    },
+    {
+      "id": "2019-Q58",
+      "source_id": 1119158,
+      "number": 12,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Two cars at the same time from the same location and go in the same direction. The speed of the first car is 50 km/h and the speed of the second car is 60 km/h. The number of hours it takes for the distance between the two cars to be 20 km is _____.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "6"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Both start together in the same direction, so the gap grows at the relative speed 60 [latex]-[/latex] 50 = 10 km/h.<br><br>\nTime for a 20 km gap = 20 / 10 = 2 hours.<br><br>\n<b>Answer: 2</b><br><br><a href=\"https://gateoverflow.in/302870/gate-cse-2019-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 58
+    },
+    {
+      "id": "2014-S3-Q59",
+      "source_id": 1114359,
+      "number": 13,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which number does not belong in the series below?\n<br><br>\n2, 5, 10, 17, 26, 37, 50, 64",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "17",
+        "B": "37",
+        "C": "64",
+        "D": "26"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "The terms are [latex]n^2+1[/latex]: 2, 5, 10, 17, 26, 37, 50, 65.<br><br>\nThe last term should be 65, not 64.<br><br>\n<b>Answer: 64</b><br><br><a href=\"https://gateoverflow.in/2027/gate-cse-2014-set-3-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 59
+    },
+    {
+      "id": "2012-Q59",
+      "source_id": 1112159,
+      "number": 14,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Choose the grammatically INCORRECT sentence:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "They gave us the money back less the service charges of Three Hundred rupees.",
+        "B": "This country's expenditure is not less than that of Bangladesh.",
+        "C": "The committee initially asked for a funding of Fifty Lakh rupees, but later settled for a lesser sum.",
+        "D": "This country's expenditure on educational reforms is very less."
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Less\" cannot be modified by \"very\" this way. It should be \"very little\" or \"very low\".<br><br>\n<b>Answer: This country's expenditure on educational reforms is very less</b><br><br><a href=\"https://gateoverflow.in/2198/gate-cse-2012-question-59#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2012",
+      "source_number": 59
+    },
+    {
+      "id": "2021-S1-Q60",
+      "source_id": 1121160,
+      "number": 15,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "_________ is to surgery as writer is to ___________\n<br><br>\nWhich one of the following options maintains a similar logical relation in the above sentence?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Plan, outline",
+        "B": "Hospital, library",
+        "C": "Doctor, book",
+        "D": "Medicine, grammar"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A <b>doctor</b> performs surgery; a writer produces a <b>book</b> (person : their work).<br><br>\n<b>Answer: Doctor, book</b><br><br><a href=\"https://gateoverflow.in/357472/gate-cse-2021-set-1-ga-question-5#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S1",
+      "source_number": 60
+    },
+    {
+      "id": "2018-Q63",
+      "source_id": 1118163,
+      "number": 16,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a party, 60% of the invited guests are male and 40% are female. If 80% of the invited guests attended the party and if all the invited female guests attended, what would be the ratio of males to females among the attendees in the party?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "02:03",
+        "B": "01:01",
+        "C": "03:02",
+        "D": "02:01"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Of 100 invited: 60 men, 40 women. 80 attended, including all 40 women, so 40 men attended.<br><br>\nMen : women = 40 : 40 = 1 : 1<br><br>\n<b>Answer: 1:1</b><br><br><a href=\"https://gateoverflow.in/204069/gate-cse-2018-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 63
+    },
+    {
+      "id": "2011-Q62",
+      "source_id": 1111162,
+      "number": 17,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "P,Q,R  and S are four types of dangerous microbes recently found in a human habitat. The area of each circle with its diameter printed in brackets represents the growth of a single microbe surviving human immunity system within 24 hours of entering the body. The danger to human beings varies proportionately with the toxicity, potency and growth attributed to a microbe shown in the figure below :  <br><img src=\"/wp-content/uploads/GATE/CS/20111/q62.jpg\" /><br>\n    A pharmaceutical company is contemplating the development of a vaccine against the most dangerous microbe. Which microbe should the company target in its first attempt?\n\n",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20111/q62.jpg"
+      ],
+      "options": {
+        "A": "P",
+        "B": "Q",
+        "C": "R",
+        "D": "S"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Danger [latex]\\propto[/latex] potency [latex]\\times[/latex] growth (area [latex]\\propto d^2[/latex]) [latex]\\times[/latex] toxicity. A lower \"mg needed to destroy\" value means more toxic, so divide by it:<br><br>\n- P: 0.4 [latex]\\times[/latex] 2500 / 800 = 1.25<br>\n- Q: 0.5 [latex]\\times[/latex] 1600 / 600 = 1.33<br>\n- R: 0.4 [latex]\\times[/latex] 900 / 300 = 1.2<br>\n- S: 0.8 [latex]\\times[/latex] 400 / 200 = 1.6 (highest)<br><br>\n<b>Answer: S</b><br><br><a href=\"https://gateoverflow.in/2172/gate-cse-2011-question-62#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 62
+    },
+    {
+      "id": "2017-S2-Q65",
+      "source_id": 1117265,
+      "number": 18,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An air pressure contour line joins locations in a region having the same atmospheric pressure. The following is an air pressure contour plot of a geographical region. Contour lines are shown at 0.05 bar intervals in this plot.<br><br>\nIf the possibility of a thunderstorm is given by how fast air pressure rises or drops over a region, which of the following regions is most likely to have a thunderstorm?<br><img src=\"/wp-content/uploads/GATE/CS/20172/q65.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20172/q65.jpg"
+      ],
+      "options": {
+        "A": "P",
+        "B": "Q",
+        "C": "R",
+        "D": "S"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Fastest change of pressure means contour lines packed most closely together. Around R several contour lines are crowded close to each other, so the pressure changes fastest there.<br><br>\n<b>Answer: R</b><br><br><a href=\"https://gateoverflow.in/118424/gate-cse-2017-set-2-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S2",
+      "source_number": 65
+    },
+    {
+      "id": "2021-S1-Q64",
+      "source_id": 1121164,
+      "number": 19,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given below are two statements 1 and 2, and two conclusions I and II<br><br>\nStatement 1: All bacteria are microorganisms.<br>\nStatement 2: All pathogens are microorganisms.<br><br>\nConclusion I: Some pathogens are bacteria.<br>\nConclusion II: All pathogens are not bacteria.<br><br>\nBased on the above statements and conclusions, which one of the following options is logically CORRECT?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only conclusion I is correct",
+        "B": "Only conclusion II is correct",
+        "C": "Either conclusion I or II is correct",
+        "D": "Neither conclusion I nor II is correct"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Both bacteria and pathogens are inside \"microorganisms\", but nothing says how bacteria and pathogens relate to each other. They may overlap or not, so neither \"some pathogens are bacteria\" nor \"all pathogens are not bacteria\" follows. They are also not complementary (both could fail), so \"either\" is wrong too.<br><br>\n<b>Answer: Neither conclusion I nor II is correct</b><br><br><a href=\"https://gateoverflow.in/357468/gate-cse-2021-set-1-ga-question-9#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "accepted": [
+        [
+          "C"
+        ]
+      ],
+      "key_source": "GATE 2021 CS1 official key GA Q9: 'C OR D' (scanned PDF, read by eye)",
+      "source_paper_id": "2021-S1",
+      "source_number": 64
+    },
+    {
+      "id": "2015-S2-Q63",
+      "source_id": 1115263,
+      "number": 20,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a triangle [latex]PQR,PS[/latex] is the angle bisector of [latex]\\angle QPR \\text{ and } \\angle QPS =60^\\circ[/latex]. What is the length of [latex]PS[/latex] ?<br><img src=\"/wp-content/uploads/GATE/CS/20152/q63.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20152/q63.jpg"
+      ],
+      "options": {
+        "A": "[latex]\\left(\\dfrac{(q+r)} {qr}\\right)[/latex]",
+        "B": "[latex]\\left(\\frac{qr} {q+r}\\right)[/latex]",
+        "C": "[latex]\\sqrt {(q^2 + r^2)}[/latex]",
+        "D": "[latex]\\left(\\frac{(q+r)^2} {qr}\\right)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]\\angle QPR=120^\\circ[/latex]. Area of PQR = area of PQS + area of PSR:<br><br>\n[latex]\\frac12 rq\\sin120^\\circ=\\frac12 r\\cdot PS\\sin60^\\circ+\\frac12 q\\cdot PS\\sin60^\\circ[/latex]<br><br>\nSince [latex]\\sin120^\\circ=\\sin60^\\circ[/latex]: [latex]rq=PS(r+q)\\Rightarrow PS=\\frac{qr}{q+r}[/latex]<br><br>\n<b>Answer: [latex]\\frac{qr}{q+r}[/latex]</b><br><br><a href=\"https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 63
+    },
+    {
+      "id": "2011-Q65",
+      "source_id": 1111165,
+      "number": 21,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A container originally contains 10 litres of pure spirit. From this container, 1 litre of spirit replaced with 1 litre of water. Subsequently, 1 litre of the mixture is again replaced with 1 litre of water and this process is repeated one more time. How much spirit is now left in the container?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "7.58  litres",
+        "B": "7.84  litres",
+        "C": "7  litres",
+        "D": "7.29  litres"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Each replacement keeps 9/10 of the spirit. After 3 replacements:<br><br>\n[latex]10\\times\\left(\\frac{9}{10}\\right)^3=7.29[/latex] litres<br><br>\n<b>Answer: 7.29 litres</b><br><br><a href=\"https://gateoverflow.in/2175/gate-cse-2011-question-65#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 65
+    },
+    {
+      "id": "2024-S1-Q62",
+      "source_id": 1124162,
+      "number": 22,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "A rectangular paper sheet of dimensions 54cm x 4cm is taken. The two longer\nedges of the sheet are joined together to create a cylindrical tube. A cube whose\nsurface area is equal to the area of the sheet is also taken.<br>\nThen, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]1/\\pi[/latex]",
+        "B": "[latex]2/\\pi[/latex]",
+        "C": "[latex]3/\\pi[/latex]",
+        "D": "[latex]4/\\pi[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Joining the longer (54 cm) edges gives a tube of height 54 and circumference 4.<br>\n[latex]2\\pi r=4\\Rightarrow r=\\dfrac{2}{\\pi}[/latex], [latex]V_{cyl}=\\pi r^2h=\\pi\\cdot\\dfrac{4}{\\pi^2}\\cdot54=\\dfrac{216}{\\pi}[/latex]<br><br>\nCube: [latex]6a^2=54\\times4=216\\Rightarrow a=6[/latex], [latex]V_{cube}=216[/latex]<br><br>\nRatio [latex]=\\dfrac{216/\\pi}{216}=\\dfrac{1}{\\pi}[/latex]<br><br>\n<b>Answer: [latex]1/\\pi[/latex]</b><br><br><a href=\"https://gateoverflow.in/422780/gate-cse-2024-set-1-ga-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 62
+    },
+    {
+      "id": "2016-S1-Q63",
+      "source_id": 1116163,
+      "number": 23,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following statements relating to the level of poker play of four players P, Q, R and S.<br><br>\n\nI.    P always beats Q<br>\nII.   R always beats S<br>\nIII.  S loses to P only sometimes.<br>\nIV.  R always loses to Q<br><br>\nWhich of the following can be logically inferred from the above statements?<br><br>(i).  P is likely to beat all the three other players\n<br>(ii).  S is the absolute worst player in the set",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(i) only",
+        "B": "(ii) only",
+        "C": "(i) and (ii) only",
+        "D": "neither (i) nor (ii)"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Checking each statement:<br>- (i): P beats Q always and S only sometimes; nothing is said about P vs R [latex]\\rightarrow[/latex] cannot conclude P beats all three.<br>\n- (ii): S loses to R, but S sometimes beats P, so S is not clearly the worst; there is also no information on S vs Q.<br><br>\n<b>Answer: neither (i) nor (ii)</b><br><br><a href=\"https://gateoverflow.in/39617/gate-cse-2016-set-1-question-ga08#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 63
+    },
+    {
+      "id": "2021-S2-Q61",
+      "source_id": 1121261,
+      "number": 24,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Listening to music during exercise improves performance and reduces discomfort. Scientists researched whether listening to music while studying can help students learn better and the results were inconclusive. Students who needed external stimulation for studying fared worse while students who did not need any external stimulation benefited from music.<br><br>\nWhich one of the following statements is the CORRECT inference of the above passage?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Listening to music has no effect on learning and a positive effect on physical exercise",
+        "B": "Listening to music has a clear positive effect both in physical exercise and on learning",
+        "C": "Listening to music has a clear positive effect on physical exercise. Music has a positive effect on learning only in some students",
+        "D": "Listening to music has a clear positive effect on learning in all students. Music has a positive effect only in some students who exercise"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "The passage says music clearly helps physical exercise, but for studying the results were mixed: it helped some students and hurt others.<br><br>\n<b>Answer: Clear positive effect on exercise; positive effect on learning only in some students</b><br><br><a href=\"https://gateoverflow.in/357544/gate-cse-2021-set-2-ga-question-6#a_list_title\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2021-S2",
+      "source_number": 61
+    },
+    {
+      "id": "2018-Q62",
+      "source_id": 1118162,
+      "number": 25,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If [latex]pqr\\neq 0[/latex] and [latex]p^{-x}=\\dfrac{1}{q},q^{-y}=\\dfrac{1}{r},r^{-z}=\\dfrac{1}{p},[/latex]  what is the value\n of the product [latex]xyz[/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "-1",
+        "B": "[latex]\\frac{1}{pqr}[/latex]",
+        "C": "1",
+        "D": "[latex]pqr[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]p^x=q[/latex], [latex]q^y=r[/latex], [latex]r^z=p[/latex]. Substituting: [latex]p=r^z=(q^y)^z=(p^x)^{yz}=p^{xyz}[/latex], so xyz = 1.<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/204068/gate-cse-2018-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2018",
+      "source_number": 62
+    },
+    {
+      "id": "2023-Q65",
+      "source_id": 1123165,
+      "number": 26,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the options best describes the transformation of the 2-dimensional\nfigure P to Q, and then to R, as shown?<br><img src=\"/wp-content/uploads/GATE/CS/20231/q65.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20231/q65.jpg"
+      ],
+      "options": {
+        "A": "Operation 1: A clockwise rotation by [latex]90^{\\circ} [/latex] about an axis perpendicular to the plane\nof the figure<br>\nOperation 2: A reflection along a horizontal line",
+        "B": "Operation 1: A counter clockwise rotation by [latex]90^{\\circ} [/latex] about an axis perpendicular to\nthe plane of the figure<br>\nOperation 2: A reflection along a horizontal line ",
+        "C": "Operation 1: A clockwise rotation by [latex]90^{\\circ} [/latex] about an axis perpendicular to the plane\nof the figure<br>\nOperation 2: A reflection along a vertical line ",
+        "D": "Operation 1: A counter clockwise rotation by [latex]180^{\\circ} [/latex] about an axis perpendicular to\nthe plane of the figure<br>\nOperation 2: A reflection along a vertical line "
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Track the long spike of the star:<br>\n- P [latex]\\rightarrow[/latex] Q: the spike turns from pointing right to pointing down [latex]\\rightarrow[/latex] a <b>90[latex]^\\circ[/latex] clockwise rotation</b>.<br>\n- Q [latex]\\rightarrow[/latex] R: the spike flips from pointing down to pointing up, with left and right unchanged [latex]\\rightarrow[/latex] <b>reflection along a horizontal line</b>.<br><br>\n<b>Answer: Clockwise rotation by 90[latex]^\\circ[/latex], then reflection along a horizontal line</b><br><br><a href=\"https://gateoverflow.in/399246/gate-cse-2023-ga-question10#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 65
+    },
+    {
+      "id": "2014-S2-Q61",
+      "source_id": 1114261,
+      "number": 27,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The old city of Koenigsberg, which had a German majority population before World War 2, is now called Kaliningrad. After the events of the war, Kaliningrad is now a Russian territory and has a predominantly Russian population. It is bordered by the Baltic Sea on the north and the countries of Poland to the south and west and Lithuania to the east respectively. Which of the statements below can be inferred from this passage?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Kaliningrad was historically Russian in its ethnic make up",
+        "B": "Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia",
+        "C": "Koenigsberg was renamed Kaliningrad, as that was its original Russian name",
+        "D": "Poland and Lithuania are on the route from Kaliningrad to the rest of Russia"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Kaliningrad is Russian territory, but it is bordered by the Baltic Sea, Poland and Lithuania, so it does not touch the rest of Russia.<br><br>\nThe passage says nothing about its original name or historic ethnicity, or about the travel route.<br><br>\n<b>Answer: Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia</b><br><br><a href=\"https://gateoverflow.in/1943/gate-cse-2014-set-2-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S2",
+      "source_number": 61
+    },
+    {
+      "id": "2017-S1-Q63",
+      "source_id": 1117163,
+      "number": 28,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The expression  [latex]\\frac{(x+y) - |x-y|}{2}[/latex]   is equal to :",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The maximum of x and y",
+        "B": "The minimum of x and y",
+        "C": "1",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "If x [latex]\\ge[/latex] y: [latex]\\frac{x+y-(x-y)}{2}=y[/latex]. If x [latex]\\lt[/latex] y: [latex]\\frac{x+y-(y-x)}{2}=x[/latex]. Either way it gives the smaller value.<br><br>\n<b>Answer: The minimum of x and y</b><br><br><a href=\"https://gateoverflow.in/118411/gate-cse-2017-set-1-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2017-S1",
+      "source_number": 63
+    },
+    {
+      "id": "2023-Q62",
+      "source_id": 1123162,
+      "number": 29,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider two functions of time [latex](t)[/latex], <br>[latex]f(t)=0.01t^2[/latex]<br>[latex]g(t)=4t[/latex]<br>where <br>[latex]0 \\lt t \\lt \\infty[/latex]<br> Now consider the following two statements:<br><br>\n(i) For some [latex] t \\gt 0, g(t) \\gt f(t)[/latex].\n<br>(ii) There exists a [latex]T[/latex], such that   [latex]f(t) \\gt g(t)[/latex] for all [latex]t \\gt T[/latex] .\n<br><br>Which one of the following options is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "only (i) is correct",
+        "B": "only (ii) is correct",
+        "C": "both (i) and (ii) are correct",
+        "D": "neither (i) nor (ii) is correct"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "[latex]g(t) \\gt f(t)\\iff4t \\gt 0.01t^2\\iff t \\lt 400[/latex] (for t [latex]\\gt[/latex] 0).<br><br>\n- (i) For any t between 0 and 400, g(t) [latex]\\gt[/latex] f(t) [latex]\\rightarrow[/latex] correct.<br>\n- (ii) Take T = 400: for all t [latex]\\gt[/latex] 400, f(t) [latex]\\gt[/latex] g(t) [latex]\\rightarrow[/latex] correct.<br><br>\n<b>Answer: both (i) and (ii) are correct</b><br><br><a href=\"https://gateoverflow.in/399249/gate-cse-2023-ga-question7#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 62
+    },
+    {
+      "id": "2014-S1-Q64",
+      "source_id": 1114164,
+      "number": 30,
+      "section": "General Aptitude",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "In a survey, 300 respondents were asked whether they own a vehicle or not. If yes, they were further asked to mention whether they own a car or scooter or both. Their responses are tabulated below. What percent of respondents do not own a scooter?<br><br>[latex]\\begin{array}{|l|l|l|l|} \\hline & & \\text{Men} & \\text{Women} \\\\\\hline \\text{Own vehicle} & \\text{Car} & 40 & 34 \\\\\\hline \\text{Own vehicle} & \\text{Scooter} & 30 & 20 \\\\\\hline \\text{Own vehicle} & \\text{Both} & 60 & 46 \\\\\\hline \\text{Do not own vehicle} & & 20 & 50 \\\\\\hline \\end{array}[/latex]\n",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        48.0,
+        48.0
+      ],
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Not owning a scooter = car only (40 + 34 = 74) + no vehicle (20 + 50 = 70) = 144.<br><br>\n144 / 300 = 48%<br><br>\n<b>Answer: 48</b><br><br><a href=\"https://gateoverflow.in/777/gate-cse-2014-set-1-question-ga-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 64
+    }
+  ]
+}

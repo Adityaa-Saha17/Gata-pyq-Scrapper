@@ -1,0 +1,1640 @@
+{
+  "paper_id": "2015-S3",
+  "paper": "GATE CS 2015 SET 3",
+  "year": 2015,
+  "set": 3,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-2015-set-3",
+  "source_id": 11153,
+  "total_marks": 100,
+  "scraped_at": "2026-11-06T09:43:56Z",
+  "questions": [
+    {
+      "id": "2015-S3-Q1",
+      "source_id": 1115301,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following C program segment. <pre><code> #include &lt;stdio.h&gt;\nint main()\n{\nchar s1[7] = \"1234\", *p;\np = s1 + 2;\n*p = '0';\nprintf(\"%s\", s1);\n} </code></pre>  What will be printed by the program?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "12",
+        "B": "120400",
+        "C": "1204",
+        "D": "1034"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array and Pointer",
+      "explanation": "p = s1 + 2 points to s1[2] (the character '3'). *p = '0' changes it to '0'.<br><br>\ns1 becomes \"1204\" (the string still ends at the original '\\0').<br><br>\n<b>Answer: 1204</b><br><br><a href=\"https://gateoverflow.in/8401/gate2015-3-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q2",
+      "source_id": 1115302,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Suppose U is the power set of the set S={1,2,3,4,5,6}. For any T[latex]\\in[/latex]U, let |T| denote the number of elements in T and T' denote the complement of T. For any T,R[latex]\\in[/latex]U, let T\\R be the set of all elements in T which are not in R. Which one of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall X\\in U \\; (|X|=|X'|)[/latex]",
+        "B": "[latex]\\exists X\\in U \\; \\exists Y\\in U \\; [/latex] [latex](|X|=5,\\; |Y|=5 \\; and \\;  X \\cap  Y=\\phi )[/latex]",
+        "C": "[latex]\\forall X\\in U \\; \\forall Y\\in U \\;[/latex] [latex] (|X|=2,\\; |Y|=3 \\; and \\; X \\setminus  Y=\\phi )[/latex]",
+        "D": "[latex]\\forall X \\in U \\; \\forall Y\\in U\\; (X \\setminus  Y=Y' \\setminus  X')[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "[latex]X\\setminus Y=X\\cap Y'[/latex] and [latex]Y'\\setminus X'=Y'\\cap X[/latex]. These are the same set for every X, Y.<br><br>\n- Option 1 fails for X = {1}.<br>\n- Option 2: two 5-element subsets of a 6-element set must overlap.<br>\n- Option 3 is not true for all X, Y.<br><br>\n<b>Answer: [latex]\\forall X\\,\\forall Y\\,(X\\setminus Y=Y'\\setminus X')[/latex]</b><br><br><a href=\"https://gateoverflow.in/8426/gate2015-3-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q3",
+      "source_id": 1115303,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the relation X(P,Q,R,S,T,U) with the following set of functional  dependencies <br> F= {{P,R}[latex]\\rightarrow[/latex]{S,T}, {P,S,U}[latex]\\rightarrow[/latex]{Q,R} } <br>\nWhich of the following is the trivial functional dependency in [latex]F^{+}[/latex], where [latex]F^{+}[/latex] is closure of F ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{P,R}[latex]\\rightarrow[/latex]{S,T}",
+        "B": "{P,R}[latex]\\rightarrow[/latex]{R,T}",
+        "C": "{P,S}[latex]\\rightarrow[/latex]{S}",
+        "D": "{P,S,U}[latex]\\rightarrow[/latex]{Q}"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Normal Form",
+      "explanation": "A dependency is trivial when its right side is a subset of its left side.<br><br>\n{S} [latex]\\subseteq[/latex] {P, S}, so {P, S} [latex]\\rightarrow[/latex] {S} is trivial. In option 2, T is not in {P, R}.<br><br>\n<b>Answer: {P, S} [latex]\\rightarrow[/latex] {S}</b><br><br><a href=\"https://gateoverflow.in/8420/gate2015-3-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q4",
+      "source_id": 1115304,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The maximum number of processes that can be in Ready state for a computer system with n CPUs is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n",
+        "B": "[latex]n^{2}[/latex]",
+        "C": "[latex]2^{n}[/latex]",
+        "D": "Independent of  n"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process",
+      "explanation": "The number of CPUs limits how many processes can be <i>running</i>. Any number of processes can wait in the ready queue.<br><br>\n<b>Answer: Independent of n</b><br><br><a href=\"https://gateoverflow.in/8390/gate2015-3-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q5",
+      "source_id": 1115305,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Among simple LR (SLR) , canonical LR, and look-ahead LR (LALR), which of the following pairs identify the method that is very easy to implement and the method that is the most powerful , in that order?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "SLR, LALR",
+        "B": "Canonical LR, LALR",
+        "C": "SLR, canonical LR",
+        "D": "LALR, canonical LR"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "SLR uses LR(0) items with FOLLOW sets, so it is the simplest. Canonical LR(1) has the most states and recognises the largest class of grammars (most powerful). LALR lies in between.<br><br>\n<b>Answer: SLR, canonical LR</b><br><br><a href=\"https://gateoverflow.in/8413/gate2015-3-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q6",
+      "source_id": 1115306,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let # be a binary operator defined as <br>\nX#Y=X'+Y' where X and Y are Boolean variables.<br> Consider the following two statements.<br><br>\n(S1) (P # Q) # R  =  P # (Q # R) <br>\n(S2) Q # R  =  R # Q<br><br>\nWhich of the following is/are true for the Boolean variables P,  Q and R?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S1 is true",
+        "B": "Only S2 is true",
+        "C": "Both S1 and S2 are true",
+        "D": "Neither S1 nor S2 are true"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "X # Y = X' + Y' = (XY)', i.e. NAND.<br><br>\n- S2: NAND is commutative [latex]\\rightarrow[/latex] True<br>\n- S1: (P # Q) # R = PQ + R', while P # (Q # R) = P' + QR. Different (e.g. P = 0, R = 1) [latex]\\rightarrow[/latex] False<br><br>\n<b>Answer: Only S2 is true</b><br><br><a href=\"https://gateoverflow.in/8393/gate2015-3-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q7",
+      "source_id": 1115307,
+      "number": 7,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a software project with the following information domain characteristics for calculation of function point metric. <br> Number of external inputs (I) = 30 <br> Number of external outputs (O) = 60 <br> Number of external inquiries (E) = 23 <br> Number of files (F) = 08 <br> Number of external interfaces (N) = 02 <br><br> It is given that the complexity weighting factors for I, O, E, F and N are 4, 5, 4, 10 and 7, respectively. It is also given that, out of fourteen value adjustment factors that influence the development effort, four factors are not applicable, each of the other four factors have value 3, and each of the remaining factors have value 4. The computed value of function point metric is _____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        612.0,
+        613.0
+      ],
+      "topic": "Software Engineering",
+      "subtopic": null,
+      "explanation": "UFP = 30 [latex]\\times[/latex] 4 + 60 [latex]\\times[/latex] 5 + 23 [latex]\\times[/latex] 4 + 8 [latex]\\times[/latex] 10 + 2 [latex]\\times[/latex] 7 = 120 + 300 + 92 + 80 + 14 = 606<br><br>\nSum of factors = 4 [latex]\\times[/latex] 0 + 4 [latex]\\times[/latex] 3 + 6 [latex]\\times[/latex] 4 = 36<br><br>\nFP = 606 [latex]\\times[/latex] (0.65 + 0.01 [latex]\\times[/latex] 36) = 606 [latex]\\times[/latex] 1.01 = 612.06<br><br>\n<b>Answer: 612.06</b><br><br><a href=\"https://gateoverflow.in/8423/gate2015-3-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q8",
+      "source_id": 1115308,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a web server, ten WebPages are stored with the URLs of the form http://www.yourname.com/var.html; where, var is a different number from 1 to 10 for each Webpage. Suppose, the client stores the Webpage with var =1 (say W1) in local machine, edits and then tests. Rest of the WebPages remains on the web server. W1 contains several relative URLs of the form \"var.html\" referring to the other WebPages. Which one of the following statements needs to be added in W1, so that all the relative URLs in W1 refer to the appropriate WebPages on the web server?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex] \\lt[/latex] a href: \"http://www.yourname.com/\", href: \"...var.html\" [latex]\\gt [/latex]",
+        "B": "[latex] \\lt [/latex] base href: \"http://www.yourname.com/\" [latex] \\gt [/latex]\r\n",
+        "C": "[latex] \\lt [/latex] a href: \"http://www.yourname.com/\"  [latex] \\gt [/latex]",
+        "D": "[latex] \\lt [/latex] base href: \"http://www.yourname.com/\", range:\"…var.html\" [latex] \\gt [/latex]\r\n"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Web Technologies",
+      "subtopic": null,
+      "explanation": "The HTML base tag sets the base URL for all relative links in the page. With base href = \"http://www.yourname.com/\", the link \"var.html\" points to the page on the server.<br><br>\n<b>Answer: base href: \"http://www.yourname.com/\"</b><br><br><a href=\"https://gateoverflow.in/8402/gate2015-3-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q9",
+      "source_id": 1115309,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following statements.<br>\nI. TCP connections are full duplex <br>\nII. TCP has no option for selective acknowledgement <br>\nIII. TCP connections are message streams ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I is correct",
+        "B": "Only I and III are correct",
+        "C": "Only II and III are correct",
+        "D": "All of I, II and III are correct"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Transport Layer Protocol",
+      "explanation": "Checking each statement:<br>- I: TCP connections are full duplex [latex]\\rightarrow[/latex] True<br>\n- II: TCP has a SACK (selective acknowledgement) option [latex]\\rightarrow[/latex] False<br>\n- III: TCP is a byte stream, not a message stream [latex]\\rightarrow[/latex] False<br><br>\n<b>Answer: Only I is correct</b><br><br><a href=\"https://gateoverflow.in/8425/gate2015-3-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q10",
+      "source_id": 1115310,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the equality [latex]\\sum_{i=0}^{n}i^{3}=X[/latex] and the following choices for X  <br>  I.[latex] \\Theta (n^{4}) [/latex]<br>II. [latex] \\Theta (n^{5})  [/latex]<br> III. [latex]O (n^{5})  [/latex]<br> IV. [latex] \\Omega (n^{3})[/latex]  <br>The equality above remains correct if X is replaced by",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "I or III or IV but not II",
+        "D": "II or III or IV but not I"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "[latex]\\sum_{i=0}^n i^3=\\left(\\frac{n(n+1)}{2}\\right)^2=\\Theta(n^4)[/latex]<br><br>\nA [latex]\\Theta(n^4)[/latex] function is also [latex]O(n^5)[/latex] and [latex]\\Omega(n^3)[/latex], but it is not [latex]\\Theta(n^5)[/latex].<br><br>\n<b>Answer: I or III or IV but not II</b><br><br><a href=\"https://gateoverflow.in/8398/gate2015-3-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q11",
+      "source_id": 1115311,
+      "number": 11,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a binary tree T that has 200 leaf nodes. Then, the number of nodes in T that have exactly two children are ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        199.0,
+        199.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Tree",
+      "explanation": "In any binary tree, the number of nodes with two children = leaves [latex]-[/latex] 1.<br><br>\n200 [latex]-[/latex] 1 = 199<br><br>\n<b>Answer: 199</b><br><br><a href=\"https://gateoverflow.in/8428/gate2015-3-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q12",
+      "source_id": 1115312,
+      "number": 12,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Given a hash table T with 25 slots that stores 2000 elements, the load factor [latex]\\alpha[/latex] for T is ____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        80.0,
+        80.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Hashing",
+      "explanation": "Load factor [latex]\\alpha=\\frac{n}{m}=\\frac{2000}{25}=80[/latex]<br><br>\n<b>Answer: 80</b><br><br><a href=\"https://gateoverflow.in/8414/gate2015-3-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q13",
+      "source_id": 1115313,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In the given matrix [latex]\\begin{bmatrix} 1 & -1&2 \\\\ 0& 1 & 0\\\\ 1&2 & 1 \\end{bmatrix}[/latex], one of the eigenvalues is 1. The eigenvectors corresponding to the eigenvalue 1 are ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "{[latex]\\alpha (4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}",
+        "B": "{[latex]\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}",
+        "C": "{[latex]\\alpha (\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}",
+        "D": "{[latex]\\alpha (-\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}[/latex]}"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "[latex]A-I=\\begin{bmatrix}0&-1&2\\\\0&0&0\\\\1&2&0\\end{bmatrix}[/latex]<br><br>\n- Row 1: [latex]-[/latex]y + 2z = 0 [latex]\\rightarrow[/latex] y = 2z<br>\n- Row 3: x + 2y = 0 [latex]\\rightarrow[/latex] x = [latex]-[/latex]4z<br><br>\nz = 1 gives ([latex]-[/latex]4, 2, 1).<br><br>\n<b>Answer: [latex]\\alpha(-4,2,1)[/latex]</b><br><br><a href=\"https://gateoverflow.in/8411/gate2015-3-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q14",
+      "source_id": 1115314,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The value of [latex]\\lim_{x\\rightarrow \\infty }(1+x^{2})^{e^{-x}}[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0",
+        "B": "[latex]\\frac{1}{2}[/latex]",
+        "C": "1",
+        "D": "[latex]\\infty[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Take logs: [latex]\\ln L=\\lim e^{-x}\\ln(1+x^2)=\\lim\\frac{\\ln(1+x^2)}{e^x}=0[/latex] (the exponential grows much faster).<br><br>\nSo [latex]L=e^0=1[/latex].<br><br>\n<b>Answer: 1</b><br><br><a href=\"https://gateoverflow.in/8403/gate2015-3-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q15",
+      "source_id": 1115315,
+      "number": 15,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "The number of 4 digit numbers having their digits in non-decreasing order (from left to right) constructed by using the digits belonging to the set {1, 2, 3} is____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        15.0,
+        15.0
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "A non-decreasing number is fixed once we know how many 1s, 2s and 3s it has. So count solutions of a + b + c = 4 with [latex]a,b,c\\ge0[/latex]:<br><br>\n[latex]\\binom{4+2}{2}=15[/latex]<br><br>\n<b>Answer: 15</b><br><br><a href=\"https://gateoverflow.in/8399/gate2015-3-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q16",
+      "source_id": 1115316,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "In a room there are only two types of people, namely Type 1 and Type 2. Type 1 people always tell the truth and Type 2 people always lie. You give a fair coin to a person in that room, without knowing which type he is from and tell him to toss it and hide the result from you till you ask for it. Upon asking, the person replies the following <br><br> \"The result of the toss is head if and only if I am telling the truth.\" <br><br> Which of the following options is correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The result is head",
+        "B": "The result is tail",
+        "C": "If the person is of Type 2, then the result is tail",
+        "D": "If the person is of Type 1, then the result is tail"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Let H = \"result is head\".<br><br>\n- Type 1 (truthful): the statement is true and he is telling the truth, so H [latex]\\leftrightarrow[/latex] True gives H.<br>\n- Type 2 (liar): the statement is false and he is not telling the truth. \"H [latex]\\leftrightarrow[/latex] False\" is false only when H is true.<br><br>\nEither way the result is head.<br><br>\n<b>Answer: The result is head</b><br><br><a href=\"https://gateoverflow.in/8427/gate2015-3-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q17",
+      "source_id": 1115317,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "While inserting the elements 71, 65, 84, 69, 67, 83 in an empty binary search tree (BST) in the sequence shown, the element in the lowest level is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "65",
+        "B": "67",
+        "C": "69",
+        "D": "83"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary Search Tree",
+      "explanation": "Checking each statement:<br>- 71 root; 65 left, 84 right<br>\n- 69: right of 65; 67: left of 69 (level 3)<br>\n- 83: left of 84 (level 2)<br><br>\nThe deepest element is 67.<br><br>\n<b>Answer: 67</b><br><br><a href=\"https://gateoverflow.in/8409/gate2015-3-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q18",
+      "source_id": 1115318,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The result evaluating the postfix expression 10    5  +  60     6   /  *  8 -   is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "284",
+        "B": "213",
+        "C": "142",
+        "D": "71"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack",
+      "explanation": "Checking each statement:<br>- 10 5 + [latex]\\rightarrow[/latex] 15<br>\n- 60 6 / [latex]\\rightarrow[/latex] 10<br>\n- * [latex]\\rightarrow[/latex] 150<br>\n- 8 [latex]-[/latex] [latex]\\rightarrow[/latex] 142<br><br>\n<b>Answer: 142</b><br><br><a href=\"https://gateoverflow.in/8408/gate2015-3-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q19",
+      "source_id": 1115319,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following relation <br><br>   Cinema(theater, address, capacity) <br><br>Which of the following options will be needed at the end of the SQL query <br><br> SELECT P1.address FROM Cinema P1 <br><br> such that it always finds the addresses of theaters with maximum capacity?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "WHERE P1.capacity [latex]\\geq[/latex] All (select P2.capacity from Cinema P2)",
+        "B": "WHERE P1.capacity [latex]\\geq[/latex] Any (select P2.capacity from Cinema P2)",
+        "C": "WHERE P1.capacity [latex]\\gt[/latex] All (select max(P2.capacity) from Cinema P2)",
+        "D": "WHERE P1.capacity [latex]\\gt[/latex] Any (select max(P2.capacity) from Cinema P2)"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "explanation": "A theater has maximum capacity when its capacity is [latex]\\ge[/latex] every capacity in the table, i.e. [latex]\\ge[/latex] ALL.<br><br>\n[latex]\\ge[/latex] ANY returns every theater. [latex]\\gt[/latex] ALL (max) / [latex]\\gt[/latex] ANY (max) returns nothing.<br><br>\n<b>Answer: WHERE P1.capacity [latex]\\ge[/latex] All (select P2.capacity from Cinema P2)</b><br><br><a href=\"https://gateoverflow.in/8396/gate2015-3-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q20",
+      "source_id": 1115320,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider the following array of elements. <br>\n(89,19,50,17,12,15,2,5,7,11,6,9,100) <br>The minimum number of interchanges needed to convert it into a max-heap is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "2",
+        "D": "3"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Heap Tree",
+      "explanation": "Only 100 (at the last position) breaks the heap property. It sifts up:<br><br>\n- swap with parent 15<br>\n- swap with parent 50<br>\n- swap with root 89<br><br>\nEverything else already satisfies the max-heap rule, so 3 interchanges.<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/8418/gate2015-3-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q21",
+      "source_id": 1115321,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Two processes X and Y need to access a critical section. Consider the following synchronization construct used by both the processes <br><img src=\"/wp-content/uploads/GATE/CS/20153/q21.jpg\"/> <br> Here, varP and varQ are shared variables and both are initialized to false. Which one of the following statements is true?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q21.jpg"
+      ],
+      "options": {
+        "A": "The proposed solution prevents deadlock but fails to guarantee mutual exclusion",
+        "B": " The proposed solution guarantees mutual exclusion but fails to prevent deadlock",
+        "C": "The proposed solution guarantees mutual exclusion and prevents deadlock",
+        "D": "The proposed solution fails to prevent deadlock and fails to guarantee mutual exclusion"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Process Synchronization",
+      "explanation": "Suppose X sets varP = true and Y sets varQ = true. Now both while conditions are true, so both enter the critical section at the same time [latex]\\rightarrow[/latex] mutual exclusion fails.<br><br>\nNeither process ever blocks waiting for the other (the critical section is inside the loop, not after a busy-wait), so there is no deadlock.<br><br>\n<b>Answer: prevents deadlock but fails to guarantee mutual exclusion</b><br><br><a href=\"https://gateoverflow.in/8405/gate2015-3-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q22",
+      "source_id": 1115322,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let L be the language represented by the regular expression [latex]\\Sigma ^{*}0011\\Sigma ^{*}[/latex] where [latex]\\Sigma[/latex]={0,1}. What is the minimum number of states in a DFA that recognizes [latex]\\bar{L}[/latex] (complement of L)?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Finite Automata",
+      "explanation": "A DFA for \"contains 0011\" tracks progress: nothing, 0, 00, 001, 0011 (trap accepting) [latex]\\rightarrow[/latex] 5 states.<br><br>\nThe complement uses the same DFA with final and non-final states swapped, so it also needs 5 states.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/8415/gate2015-3-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q23",
+      "source_id": 1115323,
+      "number": 23,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Consider a software program that is artificially seeded with 100 faults. While testing this program, 159 faults are detected, out of which 75 faults are from those artificially seeded faults. Assuming that both real and seeded faults are of same nature and have same distribution, the estimated number of undetected real faults is ____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        28.0,
+        28.0
+      ],
+      "topic": "Software Engineering",
+      "subtopic": null,
+      "explanation": "Checking each statement:<br>- Seeded faults found: 75 of 100 [latex]\\rightarrow[/latex] detection rate 0.75<br>\n- Real faults found: 159 [latex]-[/latex] 75 = 84<br>\n- Estimated real faults = 84 / 0.75 = 112<br><br>\nUndetected = 112 [latex]-[/latex] 84 = 28<br><br>\n<b>Answer: 28</b><br><br><a href=\"https://gateoverflow.in/8407/gate2015-3-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q24",
+      "source_id": 1115324,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a machine with a byte addressable main memory of [latex]2^{20}[/latex]  bytes, block size of 16 bytes and a direct mapped cache having [latex]2^{12}[/latex] cache lines. Let the addresses of two consecutive bytes in main memory be [latex](E201F)_{16}[/latex] and [latex](E2020)_{16}[/latex]. What are the tag and cache line address (in hex) for main memory address [latex](E201F)_{16}[/latex]?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "E, 201",
+        "B": "F, 201",
+        "C": "E, E20",
+        "D": "2, 01F"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache Memory",
+      "explanation": "Address = 20 bits: offset = 4 bits (16-byte block), line = 12 bits ([latex]2^{12}[/latex] lines), tag = 20 [latex]-[/latex] 16 = 4 bits.<br><br>\nE201F = E | 201 | F [latex]\\rightarrow[/latex] tag = E, line = 201<br><br>\n<b>Answer: E, 201</b><br><br><a href=\"https://gateoverflow.in/8410/gate2015-3-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q25",
+      "source_id": 1115325,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a CSMA/CD network that transmits data at a rate of 100 Mbps ([latex]10^{8}[/latex] bits per second) over a 1 km (kilometer) cable with no repeaters. If the minimum frame size required for this network is 1250 bytes, what is the signal speed (km/sec) in the cable?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "8000",
+        "B": "10000",
+        "C": "16000",
+        "D": "20000"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "CSMA/CD needs [latex]T_t\\ge2T_p[/latex]:<br>\n[latex]\\frac{1250\\times8}{10^8}=100\\,\\mu s=2T_p\\Rightarrow T_p=50\\,\\mu s[/latex]<br><br>\nSpeed = 1 km / 50 [latex]\\mu s[/latex] = 20000 km/s<br><br>\n<b>Answer: 20000</b><br><br><a href=\"https://gateoverflow.in/8400/gate2015-3-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q26",
+      "source_id": 1115326,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The velocity v (in kilometer/minute) of a motorbike which starts from rest, is given at fixed intervals of time t (in minutes) as follows: <br><img src=\"/wp-content/uploads/GATE/CS/20153/q26.jpg\"/> <br> The approximate distance (in kilometers) rounded to two places of decimals covered in 20 minutes using Simpson's [latex]1/3^{rd}[/latex] rule is _______________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q26.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        308.0,
+        310.0
+      ],
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "The bike starts from rest, so v = 0 at t = 0. With h = 2 we have 11 points:<br>\nv = 0, 10, 18, 25, 29, 32, 20, 11, 5, 2, 0<br><br>\n- Odd positions: 10 + 25 + 32 + 11 + 2 = 80<br>\n- Even (inner) positions: 18 + 29 + 20 + 5 = 72<br><br>\n[latex]D=\\frac{h}{3}[v_0+v_{10}+4(80)+2(72)]=\\frac23(0+0+320+144)=309.33[/latex]<br><br>\n<b>Answer: 309.33</b><br><br><a href=\"https://gateoverflow.in/8559/gate2015-3-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q27",
+      "source_id": 1115327,
+      "number": 27,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Assume that a mergesort algorithm in the worst case takes 30 seconds for an input of size 64. Which of the following most closely approximates the maximum input size of a problem that can be solved in 6 minutes?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "256",
+        "B": "512",
+        "C": "1024",
+        "D": "2048"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "explanation": "Mergesort time [latex]\\propto n\\log n[/latex]. For n = 64: 64 [latex]\\times[/latex] 6 = 384 units in 30 s.<br><br>\n6 minutes = 12 [latex]\\times[/latex] 30 s [latex]\\rightarrow[/latex] 12 [latex]\\times[/latex] 384 = 4608 units.<br><br>\nn = 512: 512 [latex]\\times[/latex] 9 = 4608 [latex]\\checkmark[/latex]<br><br>\n<b>Answer: 512</b><br><br><a href=\"https://gateoverflow.in/8480/gate2015-3-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q28",
+      "source_id": 1115328,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following recursive C function. <pre><code> void get(int n)\n{\nif (n<1) return;\nget(n-1);\nget(n-3);\nprintf(\"%d\", n);\n}</code></pre> If get(6) function is being called in main()then how many times will the get()function be invoked before returning to the main()?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "15",
+        "B": "25",
+        "C": "35",
+        "D": "45"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "Let C(n) = number of calls made by get(n). C(n) = 1 for n [latex]\\lt[/latex] 1, else C(n) = 1 + C(n[latex]-[/latex]1) + C(n[latex]-[/latex]3).<br><br>\n- C(1) = 1 + 1 + 1 = 3<br>\n- C(2) = 1 + 3 + 1 = 5<br>\n- C(3) = 1 + 5 + 1 = 7<br>\n- C(4) = 1 + 7 + 3 = 11<br>\n- C(5) = 1 + 11 + 5 = 17<br>\n- C(6) = 1 + 17 + 7 = 25<br><br>\n<b>Answer: 25</b><br><br><a href=\"https://gateoverflow.in/8498/gate2015-3-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q29",
+      "source_id": 1115329,
+      "number": 29,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a B+ tree in which the search key is 12 bytes long, block size is 1024 bytes, record pointer is 10 bytes long and block pointer is 8 bytes long. The maximum number of keys that can be accommodated in each non-leaf node of the tree is ____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        50.0,
+        50.0
+      ],
+      "topic": "Databases",
+      "subtopic": "File System",
+      "explanation": "A non-leaf node with n block pointers holds n [latex]-[/latex] 1 keys:<br><br>\n[latex]8n+12(n-1)\\le1024\\Rightarrow20n\\le1036\\Rightarrow n=51[/latex]<br><br>\nKeys = 51 [latex]-[/latex] 1 = 50<br><br>\n<b>Answer: 50</b><br><br><a href=\"https://gateoverflow.in/8555/gate2015-3-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q30",
+      "source_id": 1115330,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Given the function F=P'+QR , where F is a function in three Boolean variables P,Q and R and P'=!P, consider the following statements.<br>\n(S1)  F=[latex]\\Sigma[/latex](4,5,6) <br>\n(S2)  F=[latex]\\Sigma[/latex](0,1,2,3,7) <br>\n(S3)  F=[latex]\\Pi[/latex](4,5,6) <br>\n(S4)  F=[latex]\\Pi[/latex](0,1,2,3,7) <br> Which of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "(S1)- False, (S2)- True, (S3)- True, (S4)- False",
+        "B": "(S1)- True, (S2)- False, (S3)- False, (S4)- True",
+        "C": "(S1)- False, (S2)- False, (S3)- True, (S4)- True",
+        "D": "(S1)- True, (S2)- True, (S3)- False, (S4)- False"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "F = P' + QR is 1 for P = 0 (minterms 0, 1, 2, 3) and for P = Q = R = 1 (minterm 7).<br><br>\n- [latex]F=\\Sigma(0,1,2,3,7)[/latex] [latex]\\rightarrow[/latex] S2 True, S1 False<br>\n- Maxterms are the rest: [latex]F=\\Pi(4,5,6)[/latex] [latex]\\rightarrow[/latex] S3 True, S4 False<br><br>\n<b>Answer: (S1) False, (S2) True, (S3) True, (S4) False</b><br><br><a href=\"https://gateoverflow.in/8504/gate2015-3-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q31",
+      "source_id": 1115331,
+      "number": 31,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Language [latex]L_{1}[/latex] is polynomial time reducible to language [latex]L_{2}[/latex]. Language [latex]L_{3}[/latex] is polynomial time reducible to [latex]L_{2}[/latex], which in turn is polynomial time reducible to language [latex]L_{4}[/latex]. Which of the following is/are true?<br> I. if [latex]L_{4} \\in P[/latex], then [latex]L_{2} \\in P[/latex]<br>\nII. if [latex]L_{1} \\in P[/latex] or [latex]L_{3} \\in P[/latex], then [latex]L_{2} \\in P[/latex] <br>     III. [latex]L_{1} \\in P[/latex], if and only if [latex]L_{3} \\in P[/latex]<br>   IV. if [latex]L_{4} \\in P[/latex], then [latex]L_{1} \\in P[/latex] and [latex]L_{3} \\in P[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "II only",
+        "B": "III only",
+        "C": "I and IV only",
+        "D": "I only"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "P-NP Theory",
+      "explanation": "Reductions: [latex]L_1\\le L_2[/latex], [latex]L_3\\le L_2\\le L_4[/latex]. If the target is in P, the source is in P.<br><br>\n- I: [latex]L_4\\in P\\Rightarrow L_2\\in P[/latex] [latex]\\rightarrow[/latex] True<br>\n- IV: then [latex]L_1, L_3\\in P[/latex] too [latex]\\rightarrow[/latex] True<br>\n- II and III would need reductions in the other direction [latex]\\rightarrow[/latex] not implied<br><br>\n<b>Answer: I and IV only</b><br><br><a href=\"https://gateoverflow.in/8562/gate2015-3-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q32",
+      "source_id": 1115332,
+      "number": 32,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following C program. <pre><code> #include &lt;stdio.h&gt;\nint f1(void);\nint f2(void);\nint f3(void);\nint x = 10;\nint main( )\n{\n   int x = 1;\n   x += f1( ) + f2( ) + f3( ) + f2( );\n   printf(\"%d\", x);\n   return 0;\n}\nint f1() { int x = 25; x++; return x;}\nint f2() { static int x = 50; x++; return x;}\nint f3() { x *= 10; return x;}</code></pre> The output of the program is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        230.0,
+        230.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "main's local x = 1.<br>\n- f1() = 26 (its own local x)<br>\n- f2() = 51 (static x becomes 51)<br>\n- f3() changes the global x: 10 [latex]\\times[/latex] 10 = 100<br>\n- f2() = 52<br><br>\nx = 1 + 26 + 51 + 100 + 52 = 230<br><br>\n<b>Answer: 230</b><br><br><a href=\"https://gateoverflow.in/8563/gate2015-3-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q33",
+      "source_id": 1115333,
+      "number": 33,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following C program. <pre><code> #include &lt;stdio.h&gt;\nint main( )\n{\nstatic int a[ ] = {10, 20, 30, 40, 50};\nstatic int *p[ ] = {a, a+3, a+4, a+1, a+2};\nint **ptr = p;\nptr++;\nprintf(\"%d%d\", ptr-p,**ptr);\n}</code></pre>The output of the program is ______________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        140.0,
+        140.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array and Pointer",
+      "explanation": "After ptr++, ptr points to p[1].<br><br>\n- ptr [latex]-[/latex] p = 1<br>\n- **ptr = *p[1] = *(a + 3) = 40<br><br>\n\"%d%d\" prints 1 and 40 together: 140<br><br>\n<b>Answer: 140</b><br><br><a href=\"https://gateoverflow.in/8478/gate2015-3-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q34",
+      "source_id": 1115334,
+      "number": 34,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which of the following languages are context-free? <br>[latex]L_{1}=\\{a^{m}b^{n}a^{n}b^{m}|m,n\\geq 1\\}[/latex] <br>   [latex]L_{2}=\\{a^{m}b^{n}a^{m}b^{n}|m,n\\geq 1\\}[/latex] <br>  [latex]L_{3}=\\{a^{m}b^{n}|m=2n+1\\}[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "L1 and L2 only",
+        "B": "L1 and L3 only",
+        "C": "L2 and L3 only",
+        "D": "L3 only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Theory of Computation",
+      "subtopic": "Context Free Language",
+      "explanation": "Checking each statement:<br>- [latex]L_1=a^mb^na^nb^m[/latex]: nested matching (outer m, inner n) [latex]\\rightarrow[/latex] push a's, push b's, pop on a's, pop on b's [latex]\\rightarrow[/latex] CFL.<br>\n- [latex]L_2=a^mb^na^mb^n[/latex]: crossed matching, which one stack cannot do [latex]\\rightarrow[/latex] not CFL.<br>\n- [latex]L_3=a^{2n+1}b^n[/latex]: push for a's, pop for b's [latex]\\rightarrow[/latex] CFL.<br><br>\n<b>Answer: L1 and L3 only</b><br><br><a href=\"https://gateoverflow.in/8489/gate2015-3-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q35",
+      "source_id": 1115335,
+      "number": 35,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following policies for preventing deadlock in a system with mutually exclusive resources. <br>\nI. Processes should acquire all their resources at the beginning of execution. If any resource is not available, all resources acquired so far are released <br>\nII. The resources are numbered uniquely, and processes are allowed to request for resources only in increasing resource numbers <br>\nIII. The resources are numbered uniquely, and processes are allowed to request for resources only in decreasing resource numbers <br>\nIV. The resources are numbered uniquely. A process is allowed to request only for a resource with resource number larger than its currently held resources <br>\nWhich of the above policies can be used for preventing deadlock?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Any one of I and III but not II or IV",
+        "B": "Any one of I, III, and IV but not II",
+        "C": "Any one of II and III but not I or IV",
+        "D": "Any one of I, II, III, and IV"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Deadlock",
+      "explanation": "Checking each statement:<br>- I removes hold-and-wait (all or nothing).<br>\n- II, III and IV each impose a single global order on requests (increasing or decreasing), which removes circular wait.<br><br>\nAll four prevent deadlock.<br><br>\n<b>Answer: Any one of I, II, III, and IV</b><br><br><a href=\"https://gateoverflow.in/8561/gate2015-3-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q36",
+      "source_id": 1115336,
+      "number": 36,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "In the network 200.10.11.144/27, the fourth octet (in decimal) of the last IP address of the network which can be assigned to a host is ____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        158.0,
+        158.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Network Layer Protocol",
+      "explanation": "/27 [latex]\\rightarrow[/latex] blocks of 32 addresses. 144 lies in the block 128 to 159.<br><br>\n159 is the broadcast address, so the last usable host is 158.<br><br>\n<b>Answer: 158</b><br><br><a href=\"https://gateoverflow.in/8497/gate2015-3-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q37",
+      "source_id": 1115337,
+      "number": 37,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider a network connecting two systems located 8000 kilometers apart. The bandwidth of the network is 500x[latex]10^{6}[/latex] bits per second. The propagation speed of the media is 4x[latex]10^{6}[/latex] meters per second. It is needed to design a Go-Back-N sliding window protocol for this network. The average packet size is [latex]10^{7}[/latex] bits. The network is to be used to its full capacity. Assume that processing delays at nodes are negligible. Then, the minimum size in bits of the sequence number field has to be ___________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        8.0,
+        8.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Checking each statement:<br>- [latex]T_p=\\frac{8\\times10^6}{4\\times10^6}=2[/latex] s<br>\n- [latex]T_t=\\frac{10^7}{5\\times10^8}=0.02[/latex] s<br><br>\nWindow for full use = [latex]1+\\frac{2T_p}{T_t}=1+200=201[/latex]. Go-Back-N needs at least W + 1 = 202 sequence numbers.<br><br>\n[latex]2^8=256\\ge202[/latex] [latex]\\rightarrow[/latex] 8 bits<br><br>\n<b>Answer: 8</b><br><br><a href=\"https://gateoverflow.in/8481/gate2015-3-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q38",
+      "source_id": 1115338,
+      "number": 38,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following reservation table for a pipeline having three stages S1,S2 and S3.<br><img src=\"/wp-content/uploads/GATE/CS/20153/q38.jpg\"/><br> The minimum average latency (MAL) is ________.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q38.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "Forbidden latencies: S1 is used at 1 and 5 (gap 4); S2 at 2 and 4 (gap 2). Forbidden = {2, 4}, collision vector = 1010.<br><br>\n- Latency 3 again and again: CV stays 1011 [latex]\\rightarrow[/latex] cycle (3), average 3<br>\n- Cycle (1, 5): average 3<br><br>\nMAL = 3<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/8560/gate2015-3-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q39",
+      "source_id": 1115339,
+      "number": 39,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following code sequence having five instructions I1 to I5. Each of these instructions has the following format. <br><br>OP Ri, Rj, Rk <br><br>where operation OP is performed on contents of registers Rj and Rk and the result is stored in register Ri. <br><br>\nI1: ADD R1, R2, R3  <br>\nI2: MUL R7, R1, R3 <br>\nI3: SUB R4, R1, R5 <br>\nI4: ADD R3, R2, R4 <br>\nI5: MUL R7, R8, R9 <br><br> Consider the following three statements. <br>\nS1: There is an anti-dependence between instructions l2 and l5 <br>\nS2: There is an anti-dependence between instructions l2 and l4  <br>                              S3: Within an instruction pipeline an anti-dependence always creates one or more stalls <br><br> Which one of above statements is/are correct?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S1 is true",
+        "B": "Only S2 is true",
+        "C": "Only S1 and S3 are true",
+        "D": "Only S2 and S3 are true"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline Processor",
+      "explanation": "Anti-dependence (WAR): a later instruction writes a register an earlier one reads.<br><br>\n- S1: I2 and I5 both <b>write</b> R7, which is output dependence, not anti [latex]\\rightarrow[/latex] False<br>\n- S2: I2 reads R3 and I4 writes R3 [latex]\\rightarrow[/latex] anti-dependence [latex]\\rightarrow[/latex] True<br>\n- S3: in an in-order pipeline WAR causes no stall [latex]\\rightarrow[/latex] False<br><br>\n<b>Answer: Only S2 is true</b><br><br><a href=\"https://gateoverflow.in/8556/gate2015-3-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q40",
+      "source_id": 1115340,
+      "number": 40,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following two C code segments. Y and X are one and two dimensional arrays of size n and nxn respectively, where [latex]2\\leq n\\leq 10[/latex]. Assume that in both code segments, elements of Y are initialized to 0 and each element X[i][j] of array X is initialized to i+j. Further assume that when stored in main memory all elements of X are in same main memory page frame.   <br> Code segment 1:<pre><code>//initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i < n; i++)\nY[i] += X[0][i]; </code></pre>  Code Segment 2: <pre><code>//initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i < n; i++)\nY[i] += X[i][0];</code></pre> Which of the following statements is/are correct?  <br>S1: Final contents of array Y will be same in both code segments <br> S2: Elements of array X accessed inside the for loop shown in code segment 1 are contiguous in main memory <br> S3: Elements of array X accessed inside the for loop shown in code segment 2 are contiguous in main memory",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S2 is correct",
+        "B": "Only S3 is correct",
+        "C": "Only S1 and S2 are correct",
+        "D": "Only S1 and S3 are correct"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Array",
+      "explanation": "Checking each statement:<br>- S1: segment 1 adds X[0][i] = i, and segment 2 adds X[i][0] = i. Same Y [latex]\\rightarrow[/latex] True<br>\n- S2: X[0][0], X[0][1], ... are one row, contiguous in row-major order [latex]\\rightarrow[/latex] True<br>\n- S3: X[0][0], X[1][0], ... are n elements apart [latex]\\rightarrow[/latex] False<br><br>\n<b>Answer: Only S1 and S2 are correct</b><br><br><a href=\"https://gateoverflow.in/8486/gate2015-3-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q41",
+      "source_id": 1115341,
+      "number": 41,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following partial Schedule S involving two transactions T1 and T2. Only the read and the write operations have been shown. The read operation on data item P is denoted by read(P) and the write operation on data item P is denoted by write(P). <br><img src=\"/wp-content/uploads/GATE/CS/20153/q41.jpg\"/> <br> Suppose that the transaction T1 fails immediately after time instance 9. Which one of the following statements is correct?",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q41.jpg"
+      ],
+      "options": {
+        "A": "T2 must be aborted and then both T1 and T2 must be re-started to ensure transaction atomicity",
+        "B": "Schedule S is non-recoverable and cannot ensure transaction atomicity",
+        "C": "Only T2 must be aborted and then re-started to ensure transaction atomicity",
+        "D": "Schedule S is recoverable and can ensure atomicity and nothing else needs to be done"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Databases",
+      "subtopic": "Transaction",
+      "explanation": "T2 reads A (time 7) after T1 wrote it (time 2), and T2 commits at time 8 before T1 commits.<br><br>\nWhen T1 fails, T2 has already committed using a value of A that must be rolled back. Its effects cannot be undone, so S is non-recoverable.<br><br>\n<b>Answer: Schedule S is non-recoverable and cannot ensure transaction atomicity</b><br><br><a href=\"https://gateoverflow.in/8482/gate2015-3-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q42",
+      "source_id": 1115342,
+      "number": 42,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If the following system has non-trivial solution,<br> px+qy+rz=0 <br> qx+ry+pz=0 <br> rx+py+qz=0,<br> then which one of the following options is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "p-q+r=0 or p=q=-r",
+        "B": "p+q-r=0 or p=-q=r",
+        "C": "p+q+r=0 or p=q=r",
+        "D": "p-q+r=0 or p=-q=-r"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "Non-trivial solution needs determinant = 0:<br><br>\n[latex]\\begin{vmatrix}p&q&r\\\\q&r&p\\\\r&p&q\\end{vmatrix}=-(p+q+r)(p^2+q^2+r^2-pq-qr-rp)=0[/latex]<br><br>\nThe second factor is [latex]\\frac12[(p-q)^2+(q-r)^2+(r-p)^2][/latex], zero only when p = q = r.<br><br>\n<b>Answer: p + q + r = 0 or p = q = r</b><br><br><a href=\"https://gateoverflow.in/8490/gate2015-3-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q43",
+      "source_id": 1115343,
+      "number": 43,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following C program: <br> <pre><code>#include &lt;stdio.h&gt;\nint main( )\n{\n    int i, j, k = 0;\n    j = 2 * 3 / 4 + 2.0 / 5 + 8 / 5;\n    k -=  --j;\n    for(i = 0; i < 5; i++)\n    {\n         switch(i + k)\n        {\n          case 1:\n          case 2: printf(\"\\n%d\", i+k);\n          case 3: printf(\"\\n%d\", i+k);\n          default: printf(\"\\n%d\", i+k);\n        }\n   }\nreturn 0;\n}</code></pre> The number of times printf statement is executed is ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        10.0,
+        10.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Conditional Statement",
+      "explanation": "j = 2*3/4 + 2.0/5 + 8/5 = 1 + 0.4 + 1 = 2.4 [latex]\\rightarrow[/latex] j = 2. Then --j makes j = 1, so k = [latex]-[/latex]1.<br><br>\ni + k takes the values [latex]-[/latex]1, 0, 1, 2, 3 (no break, so cases fall through):<br>\n- [latex]-[/latex]1, 0: default only [latex]\\rightarrow[/latex] 1 + 1<br>\n- 1, 2: case 2, case 3, default [latex]\\rightarrow[/latex] 3 + 3<br>\n- 3: case 3, default [latex]\\rightarrow[/latex] 2<br><br>\nTotal = 10<br><br>\n<b>Answer: 10</b><br><br><a href=\"https://gateoverflow.in/8557/gate2015-3-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q44",
+      "source_id": 1115344,
+      "number": 44,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "If for non-zero  [latex]x,af(x)+bf\\left ( \\frac{1}{x} \\right )=\\frac{1}{x}-25[/latex] where [latex] a\\neq b[/latex]  then [latex] \\int_{1}^{2}f(x)dx[/latex] is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}][/latex]",
+        "B": "[latex]\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)-\\frac{47b}{2}][/latex]",
+        "C": "[latex]\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)+\\frac{47b}{2}][/latex]",
+        "D": "[latex]\\frac{1}{a^{2}-b^{2}}[a(ln2-25)-\\frac{47b}{2}][/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "Replace x by 1/x: [latex]af(1/x)+bf(x)=x-25[/latex]. Eliminate f(1/x):<br><br>\n[latex](a^2-b^2)f(x)=\\frac ax-25a-bx+25b[/latex]<br><br>\nIntegrate from 1 to 2: [latex]a\\ln2-25a-\\frac{3b}{2}+25b=a(\\ln2-25)+\\frac{47b}{2}[/latex]<br><br>\n<b>Answer: [latex]\\frac{1}{a^2-b^2}[a(\\ln2-25)+\\frac{47b}{2}][/latex]</b><br><br><a href=\"https://gateoverflow.in/8554/gate2015-3-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q45",
+      "source_id": 1115345,
+      "number": 45,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let G be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of G is 500. When the weight of each edge of G is increased by five, the weight of a minimum spanning tree becomes ________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        995.0,
+        995.0
+      ],
+      "topic": "Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "explanation": "Every spanning tree has 99 edges, so each tree's weight rises by exactly 99 [latex]\\times[/latex] 5 = 495. The same tree stays minimum.<br><br>\n500 + 495 = 995<br><br>\n<b>Answer: 995</b><br><br><a href=\"https://gateoverflow.in/8499/gate2015-3-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q46",
+      "source_id": 1115346,
+      "number": 46,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Two hosts are connected via a packet switch with [latex]10^{7}[/latex] bits per second links. Each link has a propagation delay of 20 microseconds. The switch begins forwarding a packet 35 microseconds after it receives the same. If 10000 bits of data are to be transmitted between the two hosts using a packet size of 5000 bits, the time elapsed between the transmission of the first bit of data and the reception of the last bit of the data in microseconds is____________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        1575.0,
+        1575.0
+      ],
+      "topic": "Computer Networks",
+      "subtopic": "Data Link Layer",
+      "explanation": "Each packet: [latex]T_t=\\frac{5000}{10^7}=500\\,\\mu s[/latex], propagation 20 [latex]\\mu s[/latex], switch delay 35 [latex]\\mu s[/latex].<br><br>\n- Packet 1: sent 0-500, at switch by 520, forwarded 555-1055, received by 1075<br>\n- Packet 2: sent 500-1000, at switch by 1020, forwarded 1055-1555, received by 1575<br><br>\n<b>Answer: 1575</b><br><br><a href=\"https://gateoverflow.in/8495/gate2015-3-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q47",
+      "source_id": 1115347,
+      "number": 47,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "For the processes listed in the following table, which of the following scheduling schemes will give the lowest average turnaround time? <br><img src=\"/wp-content/uploads/GATE/CS/20153/q47.jpg\"/> ",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q47.jpg"
+      ],
+      "options": {
+        "A": "First Come First Serve",
+        "B": "Non-preemptive Shortest Job First",
+        "C": "Shortest Remaining Time",
+        "D": "Round Robin with Quantum value two"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "Average turnaround time:<br><br>\n- FCFS: A 0-3, B 3-9, C 9-13, D 13-15 [latex]\\rightarrow[/latex] (3 + 8 + 9 + 9)/4 = 7.25<br>\n- Non-preemptive SJF: A, B, D, C [latex]\\rightarrow[/latex] (3 + 8 + 5 + 11)/4 = 6.75<br>\n- SRT: A 0-3, B 3-4, C 4-8, D 8-10, B 10-15 [latex]\\rightarrow[/latex] (3 + 14 + 4 + 4)/4 = 6.25<br>\n- RR (q = 2) is higher than SRT<br><br>\n<b>Answer: Shortest Remaining Time</b><br><br><a href=\"https://gateoverflow.in/8492/gate2015-3-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q48",
+      "source_id": 1115348,
+      "number": 48,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider three software items: Program-X, Control Flow Diagram of Program-Y and Control Flow Diagram of Program-Z as shown below <br><img src=\"/wp-content/uploads/GATE/CS/20153/q48.jpg\"/> <br> The values of McCabe's Cyclomatic complexity of Program-X, Program-Y, and Program-Z respectively are",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q48.jpg"
+      ],
+      "options": {
+        "A": "4, 4, 7",
+        "B": "3, 4, 7",
+        "C": "4, 4, 8",
+        "D": "4, 3, 8"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Software Engineering",
+      "subtopic": null,
+      "explanation": "Checking each statement:<br>- Program X: decisions are if, while and if-else [latex]\\rightarrow[/latex] 3 + 1 = 4<br>\n- Program Y: 8 nodes, 7 forward edges + 3 back edges = 10 edges [latex]\\rightarrow[/latex] 10 [latex]-[/latex] 8 + 2 = 4<br>\n- Program Z: X followed by Y, joined by one edge [latex]\\rightarrow[/latex] 4 + 4 [latex]-[/latex] 1 = 7<br><br>\n<b>Answer: 4, 4, 7</b><br><br><a href=\"https://gateoverflow.in/8564/gate2015-3-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q49",
+      "source_id": 1115349,
+      "number": 49,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the equation [latex](43)_{x}=(y3)_{8}[/latex] where x and y are unknown. The number of possible solutions is ______________",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        5.0,
+        5.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Number System",
+      "explanation": "[latex](43)_x=4x+3,\\quad(y3)_8=8y+3\\Rightarrow x=2y[/latex]<br><br>\nDigit 4 needs x [latex]\\ge[/latex] 5 and y must be an octal digit (0 to 7). So y = 3, 4, 5, 6, 7 [latex]\\rightarrow[/latex] 5 solutions.<br><br>\n<b>Answer: 5</b><br><br><a href=\"https://gateoverflow.in/8494/gate2015-3-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q50",
+      "source_id": 1115350,
+      "number": 50,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let R be a relation on the set of ordered pairs of positive integers such that [latex]((p,q),(r,s)) \\in R[/latex] if and only if [latex]p-s=q-r[/latex]. Which one of the following is true about R?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both reflexive and symmetric",
+        "B": "Reflexive but not symmetric",
+        "C": "Not reflexive but symmetric",
+        "D": "Neither reflexive nor symmetric"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "Checking each statement:<br>- Reflexive needs p [latex]-[/latex] q = q [latex]-[/latex] p, i.e. p = q. Fails for (1, 2) [latex]\\rightarrow[/latex] not reflexive.<br>\n- Symmetric: ((r,s),(p,q)) needs r [latex]-[/latex] q = s [latex]-[/latex] p, which rearranges to p [latex]-[/latex] s = q [latex]-[/latex] r [latex]\\rightarrow[/latex] symmetric.<br><br>\n<b>Answer: Not reflexive but symmetric</b><br><br><a href=\"https://gateoverflow.in/8500/gate2015-3-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q51",
+      "source_id": 1115351,
+      "number": 51,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose [latex]X_{i}[/latex] for i =1,2,3 are independent and identically distributed random variables whose probability mass functions are [latex]Pr[X_{i}=0]=Pr[X_{i}=1]=1/2[/latex] for i=1,2,3. Define another random variable [latex]Y=X_{1}X_{2}\\oplus X_{3}, \\; where \\; \\oplus[/latex] denotes XOR. Then<br>\n[latex]Pr[Y=0|X_{3}=0]=[/latex]_______________.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.75,
+        0.75
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "If [latex]X_3=0[/latex], then [latex]Y=X_1X_2[/latex]. Y = 0 unless both are 1.<br><br>\nP = 1 [latex]-[/latex] 1/4 = 0.75<br><br>\n<b>Answer: 0.75</b><br><br><a href=\"https://gateoverflow.in/8496/gate2015-3-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q52",
+      "source_id": 1115352,
+      "number": 52,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The total number of prime implicants of the function f(w,x,y,z)=[latex]\\Sigma[/latex](0,2,4,5,6,10) is _______.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        3.0,
+        3.0
+      ],
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "Minterms 0, 2, 4, 5, 6, 10. From the K-map, the prime implicants are:<br><br>\n- [latex]\\bar w\\bar z[/latex] (0, 2, 4, 6)<br>\n- [latex]\\bar wx\\bar y[/latex] (4, 5)<br>\n- [latex]\\bar xy\\bar z[/latex] (2, 10)<br><br>\n<b>Answer: 3</b><br><br><a href=\"https://gateoverflow.in/8503/gate2015-3-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q53",
+      "source_id": 1115353,
+      "number": 53,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Suppose c=(c[0],...,c[k-1]) is an array of length k, where all the entries are from the set {0,1}. For any positive integers a and n, consider the following pseudocode.  <br><img src=\"/wp-content/uploads/GATE/CS/20153/q53.jpg\"/> <br>  If k=4, c=(1,0,1,1), a=2 and n=8, then the output of DOSOMETHING(c,a,n) is _____.",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q53.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.0,
+        0.0
+      ],
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "z = 1, a = 2, n = 8, c = (1, 0, 1, 1):<br><br>\n- i = 0: z = 1, c = 1 [latex]\\rightarrow[/latex] z = 2<br>\n- i = 1: z = 4, c = 0<br>\n- i = 2: z = 16 mod 8 = 0, c = 1 [latex]\\rightarrow[/latex] z = 0<br>\n- i = 3: z = 0<br><br>\n(It computes [latex]2^{11}\\bmod8=0[/latex].)<br><br>\n<b>Answer: 0</b><br><br><a href=\"https://gateoverflow.in/8558/gate2015-3-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q54",
+      "source_id": 1115354,
+      "number": 54,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let [latex]f(n)=n[/latex] and [latex]g(n)=n^{1+sin \\; n}[/latex] where n is a positive integer. Which of the following statements is/are correct? <br>I.   [latex]f(n)=O(g(n)) [/latex]<br> II.   [latex]f(n)= \\Omega (g(n))[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both I and II",
+        "D": "Neither I nor II"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "[latex]g(n)=n^{1+\\sin n}[/latex], and 1 + sin n keeps swinging between about 0 and 2. So g(n) is sometimes near 1 (much smaller than n) and sometimes near [latex]n^2[/latex] (much larger).<br><br>\nNeither bound holds for all large n.<br><br>\n<b>Answer: Neither I nor II</b><br><br><a href=\"https://gateoverflow.in/8501/gate2015-3-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q55",
+      "source_id": 1115355,
+      "number": 55,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the following grammar<br> \nS [latex] \\rightarrow[/latex] F|H <br>\nF [latex] \\rightarrow[/latex]  p|c <br>\nH [latex] \\rightarrow[/latex]  d|c <br>\nwhere S,F, and H are non-terminal symbols, p,d, and c are terminal symbols. Which of the following statement(s) is/are correct? <br>\nS1. LL(1) can parse all strings that are generated using grammar G <br>\nS2. LR(1) can parse all strings that are generated using grammar G",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Only S1",
+        "B": "Only S2",
+        "C": "Both S1 and S2",
+        "D": "Neither S1 nor S2"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "explanation": "The string \"c\" has two derivations: [latex]S\\Rightarrow F\\Rightarrow c[/latex] and [latex]S\\Rightarrow H\\Rightarrow c[/latex]. So the grammar is ambiguous.<br><br>\nNo ambiguous grammar is LL(1) or LR(1).<br><br>\n<b>Answer: Neither S1 nor S2</b><br><br><a href=\"https://gateoverflow.in/8488/gate2015-3-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q56",
+      "source_id": 1115356,
+      "number": 56,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If ROAD is written as URDG, then SWANshould be written as:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "VXDQ",
+        "B": "VZDQ",
+        "C": "VZDP",
+        "D": "UXDQ"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Each letter moves 3 places forward: R[latex]\\rightarrow[/latex]U, O[latex]\\rightarrow[/latex]R, A[latex]\\rightarrow[/latex]D, D[latex]\\rightarrow[/latex]G.<br><br>\nS[latex]\\rightarrow[/latex]V, W[latex]\\rightarrow[/latex]Z, A[latex]\\rightarrow[/latex]D, N[latex]\\rightarrow[/latex]Q = VZDQ<br><br>\n<b>Answer: VZDQ</b><br><br><a href=\"https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q57",
+      "source_id": 1115357,
+      "number": 57,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The Tamil version of __________ John Abraham-starrer Madras Cafe __________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Mr., was, found, on",
+        "B": "a, was, found, at",
+        "C": "the, was, found, on",
+        "D": "a, being, find at"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"<b>the</b> John Abraham-starrer\", \"<b>was</b> cleared\" (passive, singular), \"distributor <b>found</b>\" (past), release \"<b>on</b> this Friday\".<br><br>\n<b>Answer: the, was, found, on</b><br><br><a href=\"https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q58",
+      "source_id": 1115358,
+      "number": 58,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student that they close their minds to anything ___________ to the requirements of the exam.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "related",
+        "B": "extraneous",
+        "C": "outside",
+        "D": "useful"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Extraneous = irrelevant, unrelated. Students ignore anything not related to the exam.<br><br>\n<b>Answer: extraneous</b><br><br><a href=\"https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q59",
+      "source_id": 1115359,
+      "number": 59,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Select the pair of best expresses a relationship similar to that expressed in the pair:\n<br><br>\nChildren : Pediatrician",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Adult : Orthopaedist",
+        "B": "Females : Gynaecologist",
+        "C": "Kidney : Nephrologist",
+        "D": "Skin : Dermatologist"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "A paediatrician treats a group of people (children). Similarly, a gynaecologist treats a group of people (females). The others match an organ with its specialist.<br><br>\n<b>Answer: Females : Gynaecologist</b><br><br><a href=\"https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q60",
+      "source_id": 1115360,
+      "number": 60,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A function f(x) is linear and has a value of 29 at x= -2 and 39 at x=3. Find its value at x=5.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "59",
+        "B": "45",
+        "C": "43",
+        "D": "35"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Slope = [latex]\\frac{39-29}{3-(-2)}=2[/latex]<br><br>\nf(5) = 39 + 2 [latex]\\times[/latex] (5 [latex]-[/latex] 3) = 43<br><br>\n<b>Answer: 43</b><br><br><a href=\"https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q61",
+      "source_id": 1115361,
+      "number": 61,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Alexander turned his attention towards India, since he had conquered Persia.\n<br><br>\nWhich one of the statements below is logically valid and can be inferred from the above sentence?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Alexander would not have turned his attention towards India had he not conquered Persia.",
+        "B": "Alexander was not ready to rest on his laurels, and wanted to march to India.",
+        "C": "Alexander was not completely in control of his army and could command it to move towards India.",
+        "D": "Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move further."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "\"Since he had conquered Persia\" gives the cause. So without conquering Persia, he would not have turned to India.<br><br>\nThe other options add information not in the sentence.<br><br>\n<b>Answer: Alexander would not have turned his attention towards India had he not conquered Persia</b><br><br><a href=\"https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q62",
+      "source_id": 1115362,
+      "number": 62,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The head of newly formed government desires to appoint five of the six selected members P, Q, R, S, T and U to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if S gets one of the five. R wants either Home or Finance or no portfolio. Q says that if S gets Power or Telecom, then she must get the other one. T insists on a portfolio if P gets one.\n<br><br>\nWhich is the valid distribution of portfolios?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P-Home, Q-Power, R-Defense, S-Telecom, T-Finance",
+        "B": "R-Home, S-Power, P-Defense, Q-Telecom, T-Finance",
+        "C": "P-Home, Q-Power, T-Defense, S-Telecom, U-Finance",
+        "D": "Q-Home, U-Power, T-Defense, R-Telecom, P-Finance"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Checking each statement:<br>- Option 1: R gets Defense [latex]\\rightarrow[/latex] invalid.<br>\n- Option 3: U gets a portfolio while S has one [latex]\\rightarrow[/latex] invalid.<br>\n- Option 4: R gets Telecom [latex]\\rightarrow[/latex] invalid.<br>\n- Option 2: R-Home is fine; S-Power with Q-Telecom is fine; U left out; P and T both included [latex]\\rightarrow[/latex] valid.<br><br>\n<b>Answer: R-Home, S-Power, P-Defense, Q-Telecom, T-Finance</b><br><br><a href=\"https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q63",
+      "source_id": 1115363,
+      "number": 63,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Choose the most appropriate equation for the function drawn as thick line, in the plot below.<br><img src=\"/wp-content/uploads/GATE/CS/20153/q63.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q63.jpg"
+      ],
+      "options": {
+        "A": "x=y - |y|",
+        "B": "x= -(y -|y|)",
+        "C": "x=y + |y|",
+        "D": "x= -(y + |y|)"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "From the plot: for y [latex]\\gt[/latex] 0, x = 0; for y [latex]\\lt[/latex] 0, the line passes through (2, [latex]-[/latex]1), so x = [latex]-[/latex]2y.<br><br>\nx = [latex]-[/latex](y [latex]-[/latex] |y|): y [latex]\\gt[/latex] 0 gives 0, and y [latex]\\lt[/latex] 0 gives [latex]-[/latex](y + y) = [latex]-[/latex]2y [latex]\\checkmark[/latex]<br><br>\n<b>Answer: x = [latex]-[/latex](y [latex]-[/latex] |y|)</b><br><br><a href=\"https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q64",
+      "source_id": 1115364,
+      "number": 64,
+      "section": "General Aptitude",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Most experts feel that in spite of possessing all the technical skills required to be a batsman of the highest order, he is unlikely to be so due to lack of requisite temperament. He was guilty of throwing away his wicket several time after working hard to lay a strong foundation. His critics pointed out that until he addressed his problem, success at the highest level will continue to elude him. <br>Which of the statement(s) below is/are logically valid and can be inferred from the above passage?\n<br><br>i.   He was already a successful batsman at the highest level.\n<br>ii.  He was to improve his temperament in order to become a great batsman.\n<br>iii. He failed to make many of his good starts count.\n<br>iv.  Improving his technical skills will guarantee success.\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "iii and iv",
+        "B": "ii and iii",
+        "C": "i, ii and iii",
+        "D": "ii only"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "General Aptitude",
+      "subtopic": "Verbal Ability",
+      "explanation": "Checking each statement:<br>- i: he has not yet succeeded at the highest level [latex]\\rightarrow[/latex] false<br>\n- ii: he needs to improve his temperament [latex]\\rightarrow[/latex] follows<br>\n- iii: he threw away his wicket after good starts [latex]\\rightarrow[/latex] follows<br>\n- iv: he already has the skills, and the problem is temperament [latex]\\rightarrow[/latex] false<br><br>\n<b>Answer: ii and iii</b><br><br><a href=\"https://gateoverflow.in/8388/gate-cse-2015-set-3-ga-question-9#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "2015-S3-Q65",
+      "source_id": 1115365,
+      "number": 65,
+      "section": "General Aptitude",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "The exports and imports (in crores of Rs.) of a country from the year 2000 to 2007 are given in the following bar chart. In which year is the combined percentage increase in imports and exports the highest?<br><img src=\"/wp-content/uploads/GATE/CS/20153/q65.jpg\" /><br>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20153/q65.jpg"
+      ],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        2006.0,
+        2006.0
+      ],
+      "topic": "General Aptitude",
+      "subtopic": "Numerical Ability",
+      "explanation": "Combined (exports + imports): 2000: 90, 2001: 110, 2002: 130, 2003: 130, 2004: 150, 2005: 160, 2006: 220, 2007: 230.<br><br>\nIncreases: 22.2%, 18.2%, 0%, 15.4%, 6.7%, <b>37.5%</b> (2006), 4.5%.<br><br>\n<b>Answer: 2006</b><br><br><a href=\"https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10#a_list\" target=_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "generated_at": "2026-11-11T09:30:58Z",
+  "seed": 2026,
+  "questions_per_mock": 30,
+  "duration_min": 90,
+  "topics": [
+    {
+      "topic": "Engineering Mathematics",
+      "slug": "engineering-mathematics",
+      "sets": [
+        {
+          "paper_id": "engineering-mathematics-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 41
+        },
+        {
+          "paper_id": "engineering-mathematics-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 40
+        },
+        {
+          "paper_id": "engineering-mathematics-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 41
+        },
+        {
+          "paper_id": "engineering-mathematics-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 42
+        },
+        {
+          "paper_id": "engineering-mathematics-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 42
+        }
+      ]
+    },
+    {
+      "topic": "Discrete Mathematics",
+      "slug": "discrete-mathematics",
+      "sets": [
+        {
+          "paper_id": "discrete-mathematics-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "discrete-mathematics-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "discrete-mathematics-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "discrete-mathematics-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "discrete-mathematics-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 44
+        },
+        {
+          "paper_id": "discrete-mathematics-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "discrete-mathematics-07",
+          "set": 7,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "discrete-mathematics-08",
+          "set": 8,
+          "questions": 30,
+          "total_marks": 44
+        },
+        {
+          "paper_id": "discrete-mathematics-09",
+          "set": 9,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "discrete-mathematics-10",
+          "set": 10,
+          "questions": 30,
+          "total_marks": 42
+        },
+        {
+          "paper_id": "discrete-mathematics-11",
+          "set": 11,
+          "questions": 30,
+          "total_marks": 43
+        }
+      ]
+    },
+    {
+      "topic": "Digital Logic",
+      "slug": "digital-logic",
+      "sets": [
+        {
+          "paper_id": "digital-logic-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 40
+        },
+        {
+          "paper_id": "digital-logic-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 41
+        },
+        {
+          "paper_id": "digital-logic-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 41
+        },
+        {
+          "paper_id": "digital-logic-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 42
+        },
+        {
+          "paper_id": "digital-logic-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 42
+        },
+        {
+          "paper_id": "digital-logic-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 41
+        },
+        {
+          "paper_id": "digital-logic-07",
+          "set": 7,
+          "questions": 30,
+          "total_marks": 41
+        }
+      ]
+    },
+    {
+      "topic": "Computer Organization and Architecture",
+      "slug": "computer-organization-and-architecture",
+      "sets": [
+        {
+          "paper_id": "computer-organization-and-architecture-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 47
+        },
+        {
+          "paper_id": "computer-organization-and-architecture-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "computer-organization-and-architecture-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "computer-organization-and-architecture-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "computer-organization-and-architecture-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 48
+        },
+        {
+          "paper_id": "computer-organization-and-architecture-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 47
+        },
+        {
+          "paper_id": "computer-organization-and-architecture-07",
+          "set": 7,
+          "questions": 30,
+          "total_marks": 47
+        }
+      ]
+    },
+    {
+      "topic": "Programming and Data Structures",
+      "slug": "programming-and-data-structures",
+      "sets": [
+        {
+          "paper_id": "programming-and-data-structures-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "programming-and-data-structures-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "programming-and-data-structures-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "programming-and-data-structures-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "programming-and-data-structures-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "programming-and-data-structures-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 44
+        },
+        {
+          "paper_id": "programming-and-data-structures-07",
+          "set": 7,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "programming-and-data-structures-08",
+          "set": 8,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "programming-and-data-structures-09",
+          "set": 9,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "programming-and-data-structures-10",
+          "set": 10,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "programming-and-data-structures-11",
+          "set": 11,
+          "questions": 30,
+          "total_marks": 45
+        }
+      ]
+    },
+    {
+      "topic": "Algorithms",
+      "slug": "algorithms",
+      "sets": [
+        {
+          "paper_id": "algorithms-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 50
+        },
+        {
+          "paper_id": "algorithms-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 50
+        },
+        {
+          "paper_id": "algorithms-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 47
+        },
+        {
+          "paper_id": "algorithms-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "algorithms-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "algorithms-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 49
+        }
+      ]
+    },
+    {
+      "topic": "Theory of Computation",
+      "slug": "theory-of-computation",
+      "sets": [
+        {
+          "paper_id": "theory-of-computation-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 47
+        },
+        {
+          "paper_id": "theory-of-computation-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 47
+        },
+        {
+          "paper_id": "theory-of-computation-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "theory-of-computation-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "theory-of-computation-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "theory-of-computation-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "theory-of-computation-07",
+          "set": 7,
+          "questions": 30,
+          "total_marks": 47
+        }
+      ]
+    },
+    {
+      "topic": "Compiler Design",
+      "slug": "compiler-design",
+      "sets": [
+        {
+          "paper_id": "compiler-design-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "compiler-design-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 42
+        },
+        {
+          "paper_id": "compiler-design-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 42
+        },
+        {
+          "paper_id": "compiler-design-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 43
+        },
+        {
+          "paper_id": "compiler-design-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 43
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "slug": "operating-system",
+      "sets": [
+        {
+          "paper_id": "operating-system-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "operating-system-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "operating-system-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "operating-system-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "operating-system-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 44
+        },
+        {
+          "paper_id": "operating-system-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 46
+        },
+        {
+          "paper_id": "operating-system-07",
+          "set": 7,
+          "questions": 30,
+          "total_marks": 47
+        }
+      ]
+    },
+    {
+      "topic": "Databases",
+      "slug": "databases",
+      "sets": [
+        {
+          "paper_id": "databases-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 44
+        },
+        {
+          "paper_id": "databases-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 49
+        },
+        {
+          "paper_id": "databases-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 48
+        },
+        {
+          "paper_id": "databases-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "databases-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "databases-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 43
+        }
+      ]
+    },
+    {
+      "topic": "Computer Networks",
+      "slug": "computer-networks",
+      "sets": [
+        {
+          "paper_id": "computer-networks-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "computer-networks-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "computer-networks-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 47
+        },
+        {
+          "paper_id": "computer-networks-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 48
+        },
+        {
+          "paper_id": "computer-networks-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 49
+        },
+        {
+          "paper_id": "computer-networks-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 47
+        }
+      ]
+    },
+    {
+      "topic": "General Aptitude",
+      "slug": "general-aptitude",
+      "sets": [
+        {
+          "paper_id": "general-aptitude-01",
+          "set": 1,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-02",
+          "set": 2,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-03",
+          "set": 3,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-04",
+          "set": 4,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-05",
+          "set": 5,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-06",
+          "set": 6,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-07",
+          "set": 7,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-08",
+          "set": 8,
+          "questions": 30,
+          "total_marks": 45
+        },
+        {
+          "paper_id": "general-aptitude-09",
+          "set": 9,
+          "questions": 30,
+          "total_marks": 45
+        }
+      ]
+    }
+  ]
+}

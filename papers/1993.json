@@ -1,0 +1,708 @@
+{
+  "paper_id": "1993",
+  "paper": "GATE CSE 1993",
+  "year": 1993,
+  "set": null,
+  "source_url": "https://practicepaper.in/gate-cse/gate-cse-1993",
+  "source_id": 11012,
+  "total_marks": 26,
+  "scraped_at": "2026-11-06T10:17:31Z",
+  "questions": [
+    {
+      "id": "1993-Q1",
+      "source_id": 1101201,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For the below question, one or more OPTIONS are correct<br>\nThe eigen vector(s) of the matrix <br>\n[latex]\\begin{bmatrix} 0 &0 &\\alpha\\\\ 0 &0 &0\\\\ 0 &0 &0 \\end{bmatrix},\\alpha \\neq 0[/latex]<br>is (are)\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](0,0,\\alpha)[/latex]",
+        "B": "[latex](\\alpha,0,0)[/latex]",
+        "C": "(0,0,1)",
+        "D": "[latex](0,\\alpha,0)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Linear Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/596/gate1993-01-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q2",
+      "source_id": 1101202,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The differential equation <br>[latex]\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0[/latex] is:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "linear",
+        "B": "non- linear                                                                                           ",
+        "C": "homogeneous",
+        "D": "of degree two"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/597/gate1993-01-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q3",
+      "source_id": 1101203,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Simpson's rule for integration gives exact result when f(x) is a polynomial of degree\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Numerical Method",
+      "explanation": "<a href=\"https://gateoverflow.in/598/gate1993-01-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q4",
+      "source_id": 1101204,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is (are) valid FORTRAN 77 statement(s)?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " DO 13 I = 1 ",
+        "B": " A = DIM ***7",
+        "C": " READ = 15.0 ",
+        "D": " GO TO 3 = 10"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Programming Languages",
+      "explanation": "<a href=\"https://gateoverflow.in/599/gate1993-01-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q5",
+      "source_id": 1101205,
+      "number": 5,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Fourier series of the periodic function (period [latex]2 \\pi [/latex]) defined by <br>\r\n[latex]f(x) = \\begin{cases} 0, -p \\lt x \\lt 0\\\\x, 0 \\lt x \\lt p \\end{cases} \\text { is }\\\\ \\frac{\\pi}{4} + \\Sigma \\left [ \\frac{1}{\\pi n^2} \\left(\\cos n\\pi - 1 \\right) \\cos nx - \\frac{1}{n} \\cos n\\pi \\sin nx \\right ][/latex] <br>\r\nBut putting [latex]x = \\pi[/latex], we get the sum of the series <br>\r\n[latex]1 + \\frac{1}{3^2} + \\frac{1}{5^2} + \\frac{1}{7^2} + \\cdots \\text { is }[/latex]\r\n \r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{{\\pi }^2 }{4}[/latex]",
+        "B": "[latex]\\frac{{\\pi }^2 }{6}[/latex]",
+        "C": "[latex]\\frac{{\\pi }^2 }{8}[/latex]",
+        "D": "[latex]\\frac{{\\pi }^2 }{12}[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": null,
+      "explanation": "<a href=\"https://gateoverflow.in/262/gate1993-01-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q6",
+      "source_id": 1101206,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following improper integrals is (are) convergent?\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx[/latex]",
+        "B": "[latex]\\int ^{\\infty} _{0} \\frac{\\cos x}{1+x} dx[/latex]",
+        "C": "[latex]\\int ^{\\infty} _{0} \\frac{x}{1+x^2} dx[/latex]",
+        "D": "[latex]\\int ^{1} _{0} \\frac{1-\\cos x}{\\frac{x^5}{2}} dx[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/601/gate1993-01-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q7",
+      "source_id": 1101207,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The function [latex]f\\left(x,y\\right) = x^2y - 3xy + 2y +x[/latex] has\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "no local extremum",
+        "B": "one local minimum but no local maximum",
+        "C": "one local maximum but no local minimum",
+        "D": "one local minimum and one local maximum"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Engineering Mathematics",
+      "subtopic": "Calculus",
+      "explanation": "<a href=\"https://gateoverflow.in/602/gate1993-01-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q8",
+      "source_id": 1101208,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through an asynchronous serial line at 2400 baud rate, and with two stop bits is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "109",
+        "B": "216",
+        "C": "218",
+        "D": "219"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Computer Networks",
+      "subtopic": "Physical Layer",
+      "explanation": "<a href=\"https://gateoverflow.in/2287/gate1993-6-4-isro2008-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q9",
+      "source_id": 1101209,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Identify the logic function performed by the circuit shown in figure.<br><img src=\"/wp-content/uploads/GATE/CS/19931/q6.1.jpg\" /><br>\r\n",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/19931/q6.1.jpg"
+      ],
+      "options": {
+        "A": "exclusive OR",
+        "B": "exclusive NOR",
+        "C": "NAND",
+        "D": "NOR",
+        "E": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Digital Logic",
+      "subtopic": "Boolean Algebra",
+      "explanation": "<a href=\"https://gateoverflow.in/2288/gate-cse-1993-question-6-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q10",
+      "source_id": 1101210,
+      "number": 10,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Refer to the PASCAL program shown below.<br>\n<pre><code> Program PARAM (input, output);\nvar m, n : integer;\nprocedure P (var x, y : integer);\nvar m : integer;\nbegin\nm := 1;\nx := y + 1\nend;\nprocedure Q (x:integer; var y : integer);\nbegin\nx:=y+1;\nend;\nbegin\nm:=0; P(m,m); write (m);\nn:=0; Q(n*1,n); write (n)\nend</code></pre> <br>The value of m, output by the program PARAM is:\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " 1, because m is a local variable in P",
+        "B": " 0, because m is the actual parameter that corresponds to the formal parameter in p",
+        "C": " 0, because both x and y are just reference to m, and y has the value 0",
+        "D": " 1, because both x and y are just references to m which gets modified in procedure P",
+        "E": " none of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://gateoverflow.in/2291/gate1993-7-1-2-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q11",
+      "source_id": 1101211,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Refer to the PASCAL program shown below.<br>\n<pre><code>Program PARAM (input, output);\nvar m, n : integer;\nprocedure P (var x, y : integer);\nvar m : integer;\nbegin\nm := 1;\nx := y + 1\nend;\nprocedure Q (x:integer; var y : integer);\nbegin\nx:=y+1;\nend;\nbegin\nm:=0; P(m,m); write (m);\nn:=0; Q(n*1,n); write (n)\nend</code></pre> <br>The value of n, output by the program PARAM is:\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " 0, because n is the actual parameter corresponding to x in procedure Q.",
+        "B": " 0, because n is the actual parameter to y in procedure Q.",
+        "C": " 1, because n is the actual parameter corresponding to x in procedure Q.",
+        "D": " 1, because n is the actual parameter corresponding to y in procedure Q.",
+        "E": " none of the above"
+      },
+      "correct": [
+        "E"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://drive.google.com/file/d/0B2D2Vl5_6vK1V0p0NnMydFMxWjQ/view\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q12",
+      "source_id": 1101212,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Refer to the PASCAL program shown below.<br>\n<pre><code>Program PARAM (input, output);\nvar m, n : integer;\nprocedure P (var x, y : integer);\nvar m : integer;\nbegin\nm := 1;\nx := y + 1\nend;\nprocedure Q (x:integer; var y : integer);\nbegin\nx:=y+1;\nend;\nbegin\nm:=0; P(m,m); write (m);\nn:=0; Q(n*1,n); write (n)\nend</code></pre> <br>What is the scope of m declared in the main program?\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " PARAM, P, Q ",
+        "B": " PARAM, P ",
+        "C": " PARAM, Q",
+        "D": " P, Q (e) ",
+        "E": "none of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Function",
+      "explanation": "<a href=\"https://drive.google.com/file/d/0B2D2Vl5_6vK1V0p0NnMydFMxWjQ/view\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q13",
+      "source_id": 1101213,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "What does the following code do?<br>\n<pre><code> var a, b: integer;\nbegin\n    a:=a+b;\n    b:=a-b;\n    a:=a-b;\nend;</code></pre> ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "exchanges a and b",
+        "B": "doubles a and stores in b",
+        "C": "doubles b and stores in a",
+        "D": "leaves a and b unchanged",
+        "E": "none of the above"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Arithmetic Operation",
+      "explanation": "<a href=\"https://gateoverflow.in/2292/gate1993-7-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q14",
+      "source_id": 1101214,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "For the program segment given below, which of the following are true?<br>\n<pre><code> program main (output);\ntype link = ^data;\ndata = record\nd : real;\nn : link\nend;\nvar ptr : link;\nbegin\nnew (ptr);\nptr:=nil;\n.ptr^.d:=5.2;\nwrite ln(ptr)\nend.\n</pre></code> ",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": " The program leads to compile time error",
+        "B": " The program leads to run time error",
+        "C": " The program outputs 5.2",
+        "D": " The program produces error relating to nil pointer dereferencing",
+        "E": " None of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Programming and Data Structures",
+      "subtopic": "Pointers",
+      "explanation": "<a href=\"https://gateoverflow.in/2293/gate1993-7-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q15",
+      "source_id": 1101215,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A simple two-pass assembler does the following in the first pass:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "It allocates space for the literals.",
+        "B": "It computes the total length of the program.",
+        "C": "It builds the symbol table for the symbols and their values.",
+        "D": "It generates code for all the load and store register instructions.",
+        "E": "None of the above."
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Lexical Analysis",
+      "explanation": "<a href=\"https://gateoverflow.in/2294/gate1993-7-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q16",
+      "source_id": 1101216,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "A part of the system software which under all circumstances must reside in the main memory is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "text editor",
+        "B": "assembler",
+        "C": "linker",
+        "D": "loader",
+        "E": "none of the above"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Compiler Design",
+      "subtopic": "Runtime Environment",
+      "explanation": "<a href=\"https://gateoverflow.in/2295/gate1993-7-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q17",
+      "source_id": 1101217,
+      "number": 17,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The root directory of a disk should be placed\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "at a fixed address in main memory",
+        "B": "at a fixed location on the disk",
+        "C": "anywhere on the disk",
+        "D": "at a fixed location on the system disk",
+        "E": "anywhere on the system disk"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "File Systems",
+      "explanation": "<a href=\"https://gateoverflow.in/2296/gate1993-7-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q18",
+      "source_id": 1101218,
+      "number": 18,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a system having m resources of the same type. These resources are shared by 3 processes A,B, and C which have peak demands of 3, 4 and 6 respectively.  For what value of m deadlock will not occur?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "10",
+        "D": "13",
+        "E": "15"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "Deadlock",
+      "explanation": "<a href=\"https://gateoverflow.in/2297/gate1993-7-9-ugcnet-dec2012-iii-41\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q19",
+      "source_id": 1101219,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Assume that  the following jobs are to be executed on a single processor system <br>[latex]\\begin{array}{|c|c|} \\hline \\textbf{Job Id} & \\textbf{CPU Burst Time} \\\\\\hline \\text{p} & 4 \\\\\\hline \\text{q} & 1 \\\\\\hline \\text{r} & 8 \\\\\\hline \\text{s} & 1 \\\\\\hline \\text{t} & 2 \\\\\\hline \\end{array}[/latex]<br>\nThe jobs are assumed to have arrived at time [latex]0^+[/latex] and in the order p,q,r,s,t. Calculate the departure time (completion time) for job p if scheduling is round robin with time slice 1\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "4",
+        "B": "10",
+        "C": "11",
+        "D": "12",
+        "E": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Operating System",
+      "subtopic": "CPU Scheduling",
+      "explanation": "<a href=\"https://gateoverflow.in/2298/gate1993-7-10\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q20",
+      "source_id": 1101220,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Consider a simple connected graph G with n vertices and n edges (n > 2). Then, which of the following statements are true?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "G has no cycles",
+        "B": "The graph obtained by removing any edge from G is not connected",
+        "C": "G has at least one cycle",
+        "D": "The graph obtained by removing any two edges from G is not connected",
+        "E": "None of the above "
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2299/gate1993-8-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q21",
+      "source_id": 1101221,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The proposition [latex]p \\wedge (\\sim p \\vee q)[/latex] is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a tautology",
+        "B": "logically equivalent to [latex]p \\wedge q[/latex]",
+        "C": "logically equivalent to [latex]p \\vee q[/latex]",
+        "D": "a contradiction",
+        "E": "none of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/2300/gate1993-8-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q22",
+      "source_id": 1101222,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let S be an infinite set and [latex]S_1 \\dots , S_n[/latex] be sets such that [latex]S_1 \\cup S_2 \\cup \\dots \\cup S_n = S[/latex]. Then\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "at least one of the set [latex]S_i[/latex] is a finite set",
+        "B": "not more than one of the set [latex]S_i[/latex] can be finite",
+        "C": "at least one of the sets [latex]S_i[/latex] is an infinite",
+        "D": "not more than one of the sets [latex]S_i[/latex] can be infinite",
+        "E": "None of the above"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2301/gate1993-8-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q23",
+      "source_id": 1101223,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A be a finite set of size n. The number of elements in the power set of [latex]A\\times A[/latex] is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]2^{2^n}[/latex]",
+        "B": "[latex]2^{n^2}[/latex]",
+        "C": "[latex](2^n)^2[/latex]",
+        "D": "[latex](2^2)^n[/latex]",
+        "E": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2302/gate1993-8-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q24",
+      "source_id": 1101224,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The less-than relation, [latex]\\lt[/latex], on reals is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "a partial ordering since it is asymmetric and reflexive",
+        "B": "a partial ordering since it is antisymmetric and reflexive",
+        "C": "not a partial ordering because it is not asymmetric and not reflexive",
+        "D": "not a partial ordering because it is not antisymmetric and reflexive",
+        "E": "none of the above"
+      },
+      "correct": [
+        "E"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/2303/gate1993-8-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q25",
+      "source_id": 1101225,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A and B be sets with cardinalities m and n respectively. The number of one-one mappings from A to B, when [latex]m \\lt n[/latex], is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]m^n[/latex]",
+        "B": "[latex]^nP_m[/latex]",
+        "C": "[latex]^mC_n[/latex]",
+        "D": "[latex]^nC_m[/latex]",
+        "E": "[latex]^mP_n[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/2304/gate1993-8-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    },
+    {
+      "id": "1993-Q26",
+      "source_id": 1101226,
+      "number": 26,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "[latex] \\sum_{1\\leq k\\leq n} O(n)[/latex],  where [latex]O(n)[/latex] stands for order [latex]n[/latex] is:\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "O(n)",
+        "B": "[latex]O(n^2)[/latex]",
+        "C": "[latex]O(n^3)[/latex]",
+        "D": "[latex]O(3n^2)[/latex]",
+        "E": "[latex]O(1.5n^2)[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic Notation",
+      "explanation": "<a href=\"https://gateoverflow.in/2305/gate1993-8-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site"
+    }
+  ]
+}

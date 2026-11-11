@@ -1,0 +1,847 @@
+{
+  "paper_id": "discrete-mathematics-05",
+  "paper": "Discrete Mathematics: Topic Mock 5",
+  "kind": "topic_mock",
+  "topic": "Discrete Mathematics",
+  "set": 5,
+  "duration_min": 90,
+  "total_marks": 44,
+  "seed": 2026,
+  "generated_at": "2026-11-11T09:30:58Z",
+  "questions": [
+    {
+      "id": "2002-Q42",
+      "source_id": 1102142,
+      "number": 1,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The binary relation?S = [latex]\\phi[/latex] (empty set) on set A = {1,2,3} is",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Neither reflexive nor symmetric",
+        "B": "Symmetric and reflexive",
+        "C": "Transitive and reflexive",
+        "D": "Transitive and symmetric"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "<a href=\"https://gateoverflow.in/847/gate2002-2-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 42
+    },
+    {
+      "id": "1996-Q4",
+      "source_id": 1101504,
+      "number": 2,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is FALSE?\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The set of rational numbers is an abelian group under addition",
+        "B": "The set of integers in an abelian group under addition",
+        "C": "The set of rational numbers form an abelian group under multiplication",
+        "D": "The set of real numbers excluding zero is an abelian group under multiplication"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2708/gate1996-1-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1996",
+      "source_number": 4
+    },
+    {
+      "id": "2002-Q8",
+      "source_id": 1102108,
+      "number": 3,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "\"If X then Y unless Z\" is represented by which of the following formulas in prepositional logic? ([latex]\"\\neg\"[/latex], is negation, [latex]\"\\wedge \"[/latex]\n is conjunction, and [latex]\"\\rightarrow \"[/latex]  is implication)",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex](X\\wedge \\neg Z)\\rightarrow Y[/latex]",
+        "B": "[latex](X\\wedge Y)\\rightarrow \\neg Z[/latex]",
+        "C": "[latex]X\\rightarrow (Y \\wedge \\neg Z)[/latex]",
+        "D": "[latex](X\\rightarrow Y )\\wedge \\neg Z[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/812/gate2002-1-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 8
+    },
+    {
+      "id": "2011-Q18",
+      "source_id": 1111118,
+      "number": 4,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "If the difference between the expectation of the square of random variable [latex](E[X^{2}])[/latex]  and the square of the expectation of the random variable [latex](E[X^{2}])[/latex] is denoted by R then",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "R=0",
+        "B": "R[latex]\\lt[/latex]0",
+        "C": "R[latex] \\gt [/latex]0",
+        "D": "R[latex]\\gt=[/latex]0"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "[latex]R=E[X^2]-(E[X])^2[/latex] is the variance of X, which can never be negative. It is 0 for a constant X.<br><br>\n<b>Answer: R [latex]\\ge[/latex] 0</b><br><br><a href=\"https://gateoverflow.in/2120/gate2011-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2011",
+      "source_number": 18
+    },
+    {
+      "id": "2023-Q16",
+      "source_id": 1123116,
+      "number": 5,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Geetha has a conjecture about integers, which is of the form<br>[latex]\\forall x\\left [P(x)\\Rightarrow \\exists yQ(x,y)  \\right ]  [/latex]<br>where [latex]P[/latex] is a statement about integers, and [latex]Q[/latex] is a statement about pairs of integers.\nWhich of the following (one or more) option(s) would imply Geetha's conjecture?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\exists  x\\left [P(x)\\wedge  \\forall yQ(x,y)  \\right ]  [/latex]",
+        "B": "[latex]\\forall x  \\forall y  Q(x,y)    [/latex]",
+        "C": "[latex]\\exists  y \\forall x \\left [P(x) \\Rightarrow   Q(x,y)  \\right ]  [/latex]",
+        "D": "[latex]\\exists   x \\left [P(x) \\wedge  \\exists y  Q(x,y)  \\right ]  [/latex]"
+      },
+      "correct": [
+        "B",
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Conjecture: for every x with P(x), some y makes Q(x, y) true.<br><br>\n- Option 1 talks about only one x [latex]\\text{---}[/latex] does not imply it.<br>\n- Option 2: Q holds for all x and y, so for any x any y works [latex]\\text{---}[/latex] implies it.<br>\n- Option 3: one fixed y works for every x with P(x), so such a y exists for each x [latex]\\text{---}[/latex] implies it.<br>\n- Option 4 again talks about only one x [latex]\\text{---}[/latex] does not imply it.<br><br>\n<b>Answer: Options 2 and 3</b><br><br><a href=\"https://gateoverflow.in/399295/gate-cse-2023-question-16#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 16
+    },
+    {
+      "id": "2013-Q25",
+      "source_id": 1113125,
+      "number": 6,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following statements is/are TRUE for undirected graphs?<br>\nP: Number of odd degree vertices is even. <br>\nQ: Sum of degrees of all vertices is even.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "P only",
+        "B": "Q only",
+        "C": "Both P and Q",
+        "D": "Neither P nor Q"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "The sum of degrees = 2|E|, always even (Q). An even total forces the number of odd-degree vertices to be even (P).<br><br>\n<b>Answer: Both P and Q</b><br><br><a href=\"https://gateoverflow.in/1536/gate2013-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2013",
+      "source_number": 25
+    },
+    {
+      "id": "1994-Q15",
+      "source_id": 1101315,
+      "number": 7,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The number of substrings (of all lengths inclusive) that can be formed from a character string of length n is\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]n[/latex]",
+        "B": "[latex]n^2[/latex]",
+        "C": "[latex]\\frac{n(n-1)}{2}[/latex]",
+        "D": "[latex]\\frac{n(n+1)}{2}[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/2458/gate1994-1-15\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1994",
+      "source_number": 15
+    },
+    {
+      "id": "2001-Q29",
+      "source_id": 1101129,
+      "number": 8,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Seven (distinct) car accidents occurred in a week. What is the probability that they all occurred on the same day?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{1}{7^{7}}[/latex]",
+        "B": "[latex]\\frac{1}{7^{6}}[/latex]",
+        "C": "[latex]\\frac{1}{2^{7}}[/latex]",
+        "D": "[latex]\\frac{7}{2^{7}}[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/722/gate2001-2-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2001",
+      "source_number": 29
+    },
+    {
+      "id": "2007-Q4",
+      "source_id": 1107104,
+      "number": 9,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let G be the non-planar graph with the minimum possible number of edges. Then G has",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "9 edges and 5 vertices",
+        "B": "9 edges and 6 vertices",
+        "C": "10 edges and 5 vertices",
+        "D": "10 edges and 6 vertices"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Planar Graph",
+      "explanation": "<a href=\"https://gateoverflow.in/1203/gate2007-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 4
+    },
+    {
+      "id": "2014-S1-Q2",
+      "source_id": 1114102,
+      "number": 10,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question": "Suppose you break a stick of unit length at a point chosen uniformly at random. Then the expected length of the shorter stick is",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.24,
+        0.27
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Break point X is uniform on [0, 1]; the shorter piece is min(X, 1 [latex]-[/latex] X), which is uniform on [0, 0.5].<br><br>\nExpected length = 0.25<br><br>\n<b>Answer: 0.25</b><br><br><a href=\"https://gateoverflow.in/1717/gate2014-1-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 2
+    },
+    {
+      "id": "2014-S1-Q1",
+      "source_id": 1114101,
+      "number": 11,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": " Consider the statement <br> \"Not all that glitters is gold\"<br> Predicate glitters(x)  is true if x glitters  and predicate gold(x) is true if x is gold. Which one of the following logical formulae represents the above statement?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall x:glitters(x)\\Rightarrow \\neg gold(x)[/latex]",
+        "B": "[latex]\\forall x:gold(x)\\Rightarrow glitters(x)[/latex]",
+        "C": "[latex]\\exists x:gold(x)\\wedge \\neg glitters(x)[/latex]",
+        "D": "[latex]\\exists x:glitters(x)\\wedge \\neg gold(x)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "\"Not all that glitters is gold\" means: there is something that glitters but is not gold.<br><br>\n[latex]\\neg\\forall x\\,(glitters(x)\\Rightarrow gold(x))\\equiv\\exists x\\,(glitters(x)\\wedge\\neg gold(x))[/latex]<br><br>\n<b>Answer: [latex]\\exists x: glitters(x)\\wedge\\neg gold(x)[/latex]</b><br><br><a href=\"https://gateoverflow.in/769/gate2014-1-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S1",
+      "source_number": 1
+    },
+    {
+      "id": "1995-Q25",
+      "source_id": 1101425,
+      "number": 12,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "The minimum number of edges in a connected cyclic graph on n vertices is:\n\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n-1",
+        "B": "n",
+        "C": "n+1",
+        "D": "None of the above"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/2612/gate1995-1-25\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1995",
+      "source_number": 25
+    },
+    {
+      "id": "1993-Q25",
+      "source_id": 1101225,
+      "number": 13,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let A and B be sets with cardinalities m and n respectively. The number of one-one mappings from A to B, when [latex]m \\lt n[/latex], is\r\n\r\n",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]m^n[/latex]",
+        "B": "[latex]^nP_m[/latex]",
+        "C": "[latex]^mC_n[/latex]",
+        "D": "[latex]^nC_m[/latex]",
+        "E": "[latex]^mP_n[/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "<a href=\"https://gateoverflow.in/2304/gate1993-8-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "1993",
+      "source_number": 25
+    },
+    {
+      "id": "2002-Q6",
+      "source_id": 1102106,
+      "number": 14,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Which of the following is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "The set of all rational negative numbers forms a group under multiplication.",
+        "B": "The set of all non-singular matrices forms a group under multiplication.",
+        "C": "The set of all matrices forms a group under multiplication.",
+        "D": "Both B and C are true."
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/810/gate2002-1-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2002",
+      "source_number": 6
+    },
+    {
+      "id": "2007-Q2",
+      "source_id": 1107102,
+      "number": 15,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let S be a set of n elements. The number of ordered pairs in the largest and the\nsmallest equivalence relations on S are:",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n and n",
+        "B": "[latex]n^{2} \\; and \\; n[/latex]",
+        "C": "[latex]n^{2}  \\; and \\;  0[/latex]",
+        "D": "n and 1"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1201/gate2007-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2007",
+      "source_number": 2
+    },
+    {
+      "id": "2014-S3-Q2",
+      "source_id": 1114302,
+      "number": 16,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question": "Let x and Y be finite sets and f:x[latex]\\rightarrow[/latex]Y be a function. Which one of the following statements is TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "For any subsets A and B of x, |f(A[latex]\\cup[/latex]B)|=|f(A)|+|f(B)|",
+        "B": "For any subsets A and B of x, f(A[latex]\\cap[/latex]B) =f(A)[latex]\\cap[/latex]f(B)",
+        "C": "For any subsets A and B of x, |f(A[latex]\\cap[/latex]B)| = min{|f (A)| ,|f(B)|}",
+        "D": "For any subsets S and T of Y, [latex]f^{-1}(S\\cap T)=f^{-1}(S)\\cap f^{-1}(T)[/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "Checking each statement:<br>- Option 1 fails when f(A) and f(B) overlap.<br>\n- Option 2 fails for non-injective f: A = {1}, B = {2}, f(1) = f(2) = y gives [latex]f(A\\cap B)=\\emptyset[/latex] but [latex]f(A)\\cap f(B)=\\{y\\}[/latex].<br>\n- Option 3 fails for the same example.<br>\n- Option 4: [latex]x\\in f^{-1}(S\\cap T)\\iff f(x)\\in S[/latex] and [latex]f(x)\\in T\\iff x\\in f^{-1}(S)\\cap f^{-1}(T)[/latex] [latex]\\rightarrow[/latex] always true.<br><br>\n<b>Answer: [latex]f^{-1}(S\\cap T)=f^{-1}(S)\\cap f^{-1}(T)[/latex]</b><br><br><a href=\"https://gateoverflow.in/2036/gate2014-3-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2014-S3",
+      "source_number": 2
+    },
+    {
+      "id": "2016-S1-Q29",
+      "source_id": 1116129,
+      "number": 17,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the following experiment. <br>\nStep 1. Flip a fair coin twice. <br>\nStep 2. If the outcomes are(TAILS, HEADS) then output Y and stop. <br>\nStep 3. If the outcomes are either(HEADS, HEADS) or(HEADS, TAILS), then output N and stop. <br>\nStep 4. If the out comes are(TAILS, TAILS), then go to Step1. <br>\nThe probability that the output of the experiment is Y is (up to two decimal places)_____.",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        0.33,
+        0.34
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "In each round of two flips: Y with probability 1/4 (TH), N with 1/2 (HH or HT), repeat with 1/4 (TT).<br><br>\n[latex]P(Y)=\\frac{1/4}{1/4+1/2}=\\frac13\\approx0.33[/latex]<br><br>\n<b>Answer: 0.33</b><br><br><a href=\"https://gateoverflow.in/39709/gate2016-1-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 29
+    },
+    {
+      "id": "2023-Q45",
+      "source_id": 1123145,
+      "number": 18,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Let [latex]G[/latex] be a simple, finite, undirected graph with vertex set [latex] \\{v_1,...,v_n\\}[/latex]. Let [latex] \\Delta (G)[/latex]  \ndenote the maximum degree of  [latex]G[/latex] and let [latex] N=\\{1,2,...\\} [/latex]  denote the set of all possible\ncolors. Color the vertices of  [latex]G[/latex] using the following greedy strategy:\nfor [latex]i = 1,...,n[/latex]<br> [latex]color(v_i)\\leftarrow min\\{ j \\in N: \\text{  no neighbour of } v_i \\text{ is colored } j\\}[/latex]    <br>Which of the following statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "This procedure results in a proper vertex coloring of [latex]G[/latex].",
+        "B": "The number of colors used is at most [latex] \\Delta (G)+1[/latex].",
+        "C": "The number of colors used is at most[latex] \\Delta (G)[/latex].",
+        "D": "The number of colors used is equal to the chromatic number of [latex]G[/latex]."
+      },
+      "correct": [
+        "A",
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "Checking each statement:<br>- Each vertex gets the smallest colour not used by any neighbour, so no edge joins equal colours [latex]\\rightarrow[/latex] proper colouring [latex]\\text{---}[/latex] TRUE.<br>\n- A vertex has at most [latex]\\Delta(G)[/latex] neighbours, so among colours [latex]1\\ldots\\Delta+1[/latex] one is always free [latex]\\rightarrow[/latex] at most [latex]\\Delta(G)+1[/latex] colours [latex]\\text{---}[/latex] TRUE.<br>\n- [latex]K_n[/latex] needs n = [latex]\\Delta+1[/latex] colours, so \"at most [latex]\\Delta(G)[/latex]\" is FALSE.<br>\n- A bad vertex order can use more colours than the chromatic number (e.g. on some bipartite graphs) [latex]\\text{---}[/latex] FALSE.<br><br>\n<b>Answer: Options 1 and 2</b><br><br><a href=\"https://gateoverflow.in/399266/gate-cse-2023-question-45#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2023",
+      "source_number": 45
+    },
+    {
+      "id": "2019-Q35",
+      "source_id": 1119135,
+      "number": 19,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider the first order predicate formula:<br> [latex]\\forall x[\\forall z\\; z|x\\Rightarrow ((z=x)\\vee (z=1))\\Rightarrow[/latex]  [latex]\\exists w(w> x)\\wedge (\\forall z \\; z|w\\Rightarrow ((w=z)\\vee (z=1)))][/latex]<br> Here 'a|b' denotes that 'a divides b', where a and b are integers. Consider the following sets:<br><br>\n    S1: {1, 2, 3, ..., 100}<br>\n    S2: Set of all positive integers<br>\n    S3: Set of all integers<br>\nWhich of the above sets satisfy [latex]\\varphi[/latex] ?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "S1 and S2",
+        "B": "S1 and S3",
+        "C": "S2 and S3",
+        "D": "S1,S2 and S3"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Set Theory",
+      "explanation": "The formula says: for every x that is <b>prime</b> (only divisors are 1 and x), there is a <b>larger prime</b> w. In other words, there is no largest prime.<br><br>\n- S1 = {1, [latex]\\ldots[/latex], 100}: 97 is prime, but no prime larger than 97 is in S1 [latex]\\rightarrow[/latex] fails.<br>\n- S2, S3: there are infinitely many primes [latex]\\rightarrow[/latex] satisfied.<br><br>\n<b>Answer: S2 and S3</b><br><br><a href=\"https://gateoverflow.in/302813/gate2019-cs-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2019",
+      "source_number": 35
+    },
+    {
+      "id": "2009-Q21",
+      "source_id": 1109121,
+      "number": 20,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "An unbalanced dice (with 6 faces, numbered from 1 to 6) is thrown. The\nprobability that the face value is odd is 90% of the probability that the face value\nis even. The probability of getting any even numbered face is the same. <br>\nIf the probability that the face is even given that it is greater than 3 is 0.75,\nwhich one of the following options is closest to the probability that the face value exceeds 3?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "0.453",
+        "B": "0.468",
+        "C": "0.485",
+        "D": "0.492"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/798/gate2009-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2009",
+      "source_number": 21
+    },
+    {
+      "id": "2006-Q26",
+      "source_id": 1106126,
+      "number": 21,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the first order predicate calculus statements given below correctly\nexpresses the following English statement? <br><br>Tigers and lions attack if they are hungry or threatened.",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall x [/latex] [latex][(tiger(x)\\wedge lion(x))\\rightarrow [/latex] [latex]\\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}][/latex] ",
+        "B": "[latex]\\forall x [/latex] [latex][(tiger(x)\\vee lion(x))\\rightarrow [/latex] [latex]\\{(hungry(x)\\vee theatened(x))\\wedge attacks(x)\\}][/latex]",
+        "C": "[latex]\\forall x[/latex] [latex][(tiger(x)\\vee lion(x))\\rightarrow [/latex] [latex] \\{attacks (x)\\rightarrow (hungry(x)\\wedge theatened(x))\\}][/latex]",
+        "D": "[latex]\\forall x [/latex] [latex][(tiger(x)\\vee lion(x))\\rightarrow [/latex] [latex] \\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}][/latex]"
+      },
+      "correct": [
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "<a href=\"https://gateoverflow.in/989/gate2006-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2006",
+      "source_number": 26
+    },
+    {
+      "id": "2010-Q26",
+      "source_id": 1110126,
+      "number": 22,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Consider a company that assembles computers. The probability of a faulty assembly of any computer is p. The company therefore subjects each computer to a testing process. This testing process gives the correct result for any computer with a probability of q. What is the probability of a computer being declared faulty?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "pq + (1 - p) (1 - q)",
+        "B": "(1 - q)p",
+        "C": "(1 - p) q",
+        "D": "pq"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Probability Theory",
+      "explanation": "Declared faulty when:<br>\n- faulty and the test is correct: pq<br>\n- not faulty and the test is wrong: (1 [latex]-[/latex] p)(1 [latex]-[/latex] q)<br><br>\n<b>Answer: pq + (1 [latex]-[/latex] p)(1 [latex]-[/latex] q)</b><br><br><a href=\"https://gateoverflow.in/1152/gate2010-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2010",
+      "source_number": 26
+    },
+    {
+      "id": "2004-Q77",
+      "source_id": 1104177,
+      "number": 23,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "The minimum number of colours required to colour the following graph, such that no two adjacent\nvertices are assigned the same colour, is <br><img src=\"/wp-content/uploads/GATE/CS/20041/q77.jpg\"/>",
+      "code": null,
+      "images": [
+        "https://practicepaper.in/wp-content/uploads/GATE/CS/20041/q77.jpg"
+      ],
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "<a href=\"https://gateoverflow.in/1071/gate2004-77#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2004",
+      "source_number": 77
+    },
+    {
+      "id": "2003-Q61",
+      "source_id": 1103161,
+      "number": 24,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a permutation [latex]a_1.....a_n[/latex] of n distinct integers, an inversion is a pair  [latex](a_i, a_j) [/latex] such that [latex]i \\lt j[/latex] and [latex]a_i \\gt a_j[/latex]. <br><br>If all permutation are equally likely, what is the expected number of inversions in\na randomly chosen permutation of 1.....n?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "n(n - 1)/2",
+        "B": "n(n - 1)/4",
+        "C": " n(n + 1)/4",
+        "D": "[latex]2n[log_{2}n][/latex]"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combination",
+      "explanation": "<a href=\"https://gateoverflow.in/949/gate2003-61#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2003",
+      "source_number": 61
+    },
+    {
+      "id": "2015-S2-Q52",
+      "source_id": 1115252,
+      "number": 25,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "In a connected graph, a bridge is an edge whose removal disconnects a graph. Which one of the following statements is true?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "A tree has no bridges",
+        "B": "A bridge cannot be part of a simple cycle",
+        "C": "Every edge of a clique with size [latex]\\geq[/latex] 3 is a bridge (A clique is any complete subgraph of a graph)",
+        "D": "A graph with bridges cannot have a cycle"
+      },
+      "correct": [
+        "B"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graph Theory",
+      "explanation": "If an edge were on a cycle, the rest of the cycle would still connect its ends after removing it, so it would not be a bridge.<br><br>\n- Every edge of a tree is a bridge.<br>\n- Clique edges (size [latex]\\ge[/latex] 3) lie on triangles, so they are not bridges.<br>\n- A graph can have both bridges and cycles.<br><br>\n<b>Answer: A bridge cannot be part of a simple cycle</b><br><br><a href=\"https://gateoverflow.in/8252/gate2015-2-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 52
+    },
+    {
+      "id": "2016-S1-Q27",
+      "source_id": 1116127,
+      "number": 26,
+      "section": "Technical",
+      "type": "NAT",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the recurrence relation [latex]a_{1}[/latex]=8, [latex]a_{n}=6n^{2}+2n+a_{n-1}[/latex]. Let [latex]a_{99}= K  \\times  10^{4}[/latex]. The value of K is .",
+      "code": null,
+      "images": [],
+      "options": null,
+      "correct": null,
+      "nat_range": [
+        197.9,
+        198.1
+      ],
+      "topic": "Discrete Mathematics",
+      "subtopic": "Recurrence",
+      "explanation": "Since [latex]a_1=8=6+2[/latex], [latex]a_n=\\sum_{k=1}^{n}(6k^2+2k)=n(n+1)(2n+1)+n(n+1)=2n(n+1)^2[/latex].<br><br>\n[latex]a_{99}=2\\times99\\times100^2=1980000=198\\times10^4[/latex]<br><br>\n<b>Answer: 198</b><br><br><a href=\"https://gateoverflow.in/39714/gate2016-1-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2016-S1",
+      "source_number": 27
+    },
+    {
+      "id": "2024-S1-Q42",
+      "source_id": 1124142,
+      "number": 27,
+      "section": "Technical",
+      "type": "MSQ",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question": "Consider the operators [latex] \\diamond [/latex] and [latex] \\square [/latex] defined by [latex] a \\diamond b=a+2 b, a \\square b=a b [/latex], for positive integers. Which of the following statements is/are TRUE?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Operator [latex] \\diamond [/latex] obeys the associative law",
+        "B": "Operator [latex] \\square [/latex] obeys the associative law",
+        "C": "Operator [latex] \\diamond [/latex] over the operator [latex] \\square [/latex] obeys the distributive law",
+        "D": "Operator [latex] \\square [/latex] over the operator [latex] \\diamond [/latex] obeys the distributive law"
+      },
+      "correct": [
+        "B",
+        "D"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Group Theory",
+      "explanation": "Checking each statement:<br>- [latex]\\diamond[/latex] associative? [latex](a\\diamond b)\\diamond c=a+2b+2c[/latex], [latex]a\\diamond(b\\diamond c)=a+2b+4c[/latex] [latex]\\rightarrow[/latex] NO.<br>\n- [latex]\\square[/latex] is ordinary multiplication [latex]\\rightarrow[/latex] associative, YES.<br>\n- [latex]\\diamond[/latex] over [latex]\\square[/latex]: [latex]a\\diamond(b\\square c)=a+2bc[/latex], but [latex](a\\diamond b)\\square(a\\diamond c)=(a+2b)(a+2c)[/latex]. For [latex]a=b=c=1[/latex]: 3 vs 9 [latex]\\rightarrow[/latex] NO.<br>\n- [latex]\\square[/latex] over [latex]\\diamond[/latex]: [latex]a\\square(b\\diamond c)=a(b+2c)=ab+2ac=(a\\square b)\\diamond(a\\square c)[/latex] [latex]\\rightarrow[/latex] YES.<br><br>\n<b>Answer: [latex]\\square[/latex] is associative; [latex]\\square[/latex] distributes over [latex]\\diamond[/latex]</b><br><br><a href=\"https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2024-S1",
+      "source_number": 42
+    },
+    {
+      "id": "2015-S3-Q50",
+      "source_id": 1115350,
+      "number": 28,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Let R be a relation on the set of ordered pairs of positive integers such that [latex]((p,q),(r,s)) \\in R[/latex] if and only if [latex]p-s=q-r[/latex]. Which one of the following is true about R?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "Both reflexive and symmetric",
+        "B": "Reflexive but not symmetric",
+        "C": "Not reflexive but symmetric",
+        "D": "Neither reflexive nor symmetric"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relation",
+      "explanation": "Checking each statement:<br>- Reflexive needs p [latex]-[/latex] q = q [latex]-[/latex] p, i.e. p = q. Fails for (1, 2) [latex]\\rightarrow[/latex] not reflexive.<br>\n- Symmetric: ((r,s),(p,q)) needs r [latex]-[/latex] q = s [latex]-[/latex] p, which rearranges to p [latex]-[/latex] s = q [latex]-[/latex] r [latex]\\rightarrow[/latex] symmetric.<br><br>\n<b>Answer: Not reflexive but symmetric</b><br><br><a href=\"https://gateoverflow.in/8500/gate2015-3-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S3",
+      "source_number": 50
+    },
+    {
+      "id": "2015-S2-Q53",
+      "source_id": 1115253,
+      "number": 29,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following well formed formulae is a tautology?",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\forall x \\exists yR(x,y)\\leftrightarrow \\exists y\\forall xR(x,y)[/latex]",
+        "B": "[latex](\\forall x[\\exists yR(x,y)\\rightarrow S(x,y)])\\rightarrow \\forall x\\exists y S(x,y)[/latex]",
+        "C": "[latex][\\forall x\\exists yP(x,y)\\rightarrow R(x,y)]\\leftrightarrow [\\forall x\\exists y(\\neg P(x,y))\\vee R(x,y)][/latex]",
+        "D": "[latex]\\forall x \\forall y P(x,y) \\rightarrow \\forall x\\forall y P(y,x)[/latex]"
+      },
+      "correct": [
+        "C"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Propositional Logic",
+      "explanation": "Option 3: [latex]P\\rightarrow R\\equiv\\neg P\\vee R[/latex], and both sides apply the same quantifiers to equivalent formulas [latex]\\rightarrow[/latex] tautology.<br><br>\n- Option 1: [latex]\\forall x\\exists y[/latex] does not imply [latex]\\exists y\\forall x[/latex] [latex]\\rightarrow[/latex] not a tautology.<br>\n- Option 2: fails, e.g. when nothing satisfies R.<br><br>\nNote: option 4 is also logically valid (the bound variables are only renamed). The official key is option 3.<br><br>\n<b>Answer: Option 3</b><br><br><a href=\"https://gateoverflow.in/8259/gate2015-2-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2015-S2",
+      "source_number": 53
+    },
+    {
+      "id": "2022-Q26",
+      "source_id": 1122126,
+      "number": 30,
+      "section": "Technical",
+      "type": "MCQ",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question": "Which one of the following is the closed form for the generating function of the sequence [latex] \\{a_n \\}_{n \\geq 0}[/latex] defined below?<br>[latex]a_n= \\left \\{ \\begin{matrix}\nn+1, &n  \\text{ is odd}  \\\\ \n 1,&  \\text{otherwise}\n \\end{matrix} \\right.[/latex]",
+      "code": null,
+      "images": [],
+      "options": {
+        "A": "[latex]\\frac{x(1+x^2)}{(1-x^2)^2}+\\frac{1}{1-x}[/latex]",
+        "B": "[latex]\\frac{x(3-x^2)}{(1-x^2)^2}+\\frac{1}{1-x}[/latex]",
+        "C": "[latex]\\frac{2x}{(1-x^2)^2}+\\frac{1}{1-x}[/latex]",
+        "D": "[latex]\\frac{x}{(1-x^2)^2}+\\frac{1}{1-x}[/latex]"
+      },
+      "correct": [
+        "A"
+      ],
+      "nat_range": null,
+      "topic": "Discrete Mathematics",
+      "subtopic": "Functions",
+      "explanation": "Write [latex]a_n=1+b_n[/latex], where [latex]b_n=n[/latex] for odd n and 0 otherwise.<br><br>\n- [latex]\\sum x^n=\\frac{1}{1-x}[/latex]<br>\n- [latex]\\sum_{n\\text{ odd}}x^n=\\frac{x}{1-x^2}[/latex], so [latex]\\sum_{n\\text{ odd}}nx^n=x\\frac{d}{dx}\\left(\\frac{x}{1-x^2}\\right)=x\\cdot\\frac{1+x^2}{(1-x^2)^2}[/latex]<br><br>\n[latex]G(x)=\\frac{x(1+x^2)}{(1-x^2)^2}+\\frac{1}{1-x}[/latex]<br><br>\n<b>Answer: Option 1</b><br><br><a href=\"https://gateoverflow.in/371910/Gate-cse-2022-question-26#a_list_title\"  target=\"_blank\" >Click here for detail solution by gateoverflow</a> ",
+      "explanation_source": "site",
+      "source_paper_id": "2022",
+      "source_number": 26
+    }
+  ]
+}
