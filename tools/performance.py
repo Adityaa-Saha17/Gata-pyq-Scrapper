@@ -13,6 +13,9 @@ original ids, so they join on papers/ like any full paper.
 Writes:
     reports/performance.json  the same numbers as the printed tables
 
+simulator/server.py calls build_report() for the start page of exam.html, so the
+page shows the same numbers without this script being run.
+
 Accuracy is correct / attempted. Average time uses attempted questions only,
 since time spent on a question you skipped says little about speed.
 """
@@ -52,6 +55,7 @@ def load_attempts(results_dir: pathlib.Path) -> list[dict]:
         if not isinstance(data, dict) or "answers" not in data or "paper_id" not in data:
             print(f"warning: skipping {path.name}: not an attempt file", file=sys.stderr)
             continue
+        data["source_file"] = path.name
         attempts.append(data)
     attempts.sort(key=lambda a: a["started_at"])
     return attempts
@@ -125,8 +129,10 @@ def aggregate(attempts: list[dict], questions: dict[str, dict]) -> dict:
         stats = attempt_bucket.summary()
         trend.append({
             "attempt_id": attempt.get("attempt_id"),
+            "file": attempt.get("source_file"),
             "paper_id": attempt["paper_id"],
             "date": attempt["started_at"][:10],
+            "started_at": attempt["started_at"],
             "score": attempt.get("score"),
             "total_marks": attempt.get("total_marks"),
             "general_aptitude": (attempt.get("score_breakdown") or {}).get("general_aptitude"),
@@ -151,6 +157,19 @@ def aggregate(attempts: list[dict], questions: dict[str, dict]) -> dict:
         "by_marks": table(by_marks),
         "by_subtopic": table(by_subtopic),
     }
+
+
+def weakest_subtopics(report: dict, min_attempts: int) -> dict:
+    weak = {k: v for k, v in report["by_subtopic"].items()
+            if v["attempted"] >= min_attempts and v["accuracy"] is not None}
+    return dict(sorted(weak.items(), key=lambda kv: kv[1]["accuracy"])[:10])
+
+
+def build_report(results_dir: pathlib.Path = RESULTS_DIR, min_attempts: int = 3) -> dict:
+    """The whole report, as written to reports/performance.json. Works with no attempts too."""
+    report = aggregate(load_attempts(results_dir), load_questions())
+    report["weakest_subtopics"] = weakest_subtopics(report, min_attempts)
+    return report
 
 
 def fmt_pct(x: float | None) -> str:
@@ -186,13 +205,10 @@ def main(argv: list[str]) -> int:
                         help="minimum attempted questions before a subtopic counts as weak (default 3)")
     args = parser.parse_args(argv[1:])
 
-    questions = load_questions()
-    attempts = load_attempts(args.results_dir)
-    if not attempts:
+    report = build_report(args.results_dir, args.min_attempts)
+    if not report["attempts"]:
         print(f"No attempt files found in {args.results_dir}. Take a test in simulator/exam.html first.")
         return 1
-
-    report = aggregate(attempts, questions)
 
     print(f"Attempts: {report['attempts']}")
     if report["unknown_question_ids"]:
@@ -212,10 +228,7 @@ def main(argv: list[str]) -> int:
     print_table("By question type", report["by_type"])
     print_table("By marks", report["by_marks"])
 
-    weak = {k: v for k, v in report["by_subtopic"].items()
-            if v["attempted"] >= args.min_attempts and v["accuracy"] is not None}
-    weakest = dict(sorted(weak.items(), key=lambda kv: kv[1]["accuracy"])[:10])
-    report["weakest_subtopics"] = weakest
+    weakest = report["weakest_subtopics"]
     if weakest:
         print_table(f"Weakest subtopics (>= {args.min_attempts} attempted)", weakest, sort_by_accuracy=True)
     else:

@@ -20,6 +20,8 @@
     --an: #2e9d57;
     --mr: #7a4fc0;
     --danger: #c0392b;
+    --done-bg: #dff3e6;
+    --done-text: #1b6537;
   }
   * { box-sizing: border-box; }
   body {
@@ -49,6 +51,15 @@
   .paper-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
   .paper-list button { text-align: left; padding: 12px; }
   .paper-list .tag { display: block; font-size: 12px; color: var(--mr); }
+  .paper-list .tag.done { color: var(--done-text); }
+  /* a test with a finished attempt; "running" below still wins the border and text */
+  .paper-list button.done, .topic-row .sets button.done { background: var(--done-bg); border-color: var(--an); color: var(--done-text); font-weight: 600; }
+  .paper-list button.done:hover, .topic-row .sets button.done:hover { border-color: var(--done-text); }
+  .key { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 12.5px; margin: -12px 0 12px; }
+  .key span { display: inline-flex; align-items: center; gap: 6px; }
+  .key i { width: 14px; height: 14px; border-radius: 4px; border: 1px solid var(--border); background: var(--panel); }
+  .key i.done { background: var(--done-bg); border-color: var(--an); }
+  .key i.running { border-color: var(--mr); }
   .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin-top: 16px; }
   .card ul { margin: 8px 0 16px; padding-left: 20px; }
   .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
@@ -122,6 +133,18 @@
   .topic-row .sets button { min-width: 40px; padding: 5px 8px; text-align: center; position: relative; }
   .topic-row .sets button.running { border-color: var(--mr); color: var(--mr); font-weight: 600; }
 
+  /* ---------- past attempts on the start page ---------- */
+  #perf h2 { font-size: 16px; margin: 0 0 4px; }
+  #perf .sub { margin-bottom: 12px; }
+  #perf .stat { background: var(--bg); }
+  #perf details { margin-top: 14px; }
+  #perf summary { cursor: pointer; font-weight: 600; }
+  #perf .table-wrap { margin-top: 10px; }
+  #perf a { color: var(--accent); }
+  #perfMore { margin-top: 10px; }
+  a.btn { display: inline-block; text-decoration: none; border: 1px solid var(--border); background: var(--panel); color: var(--text); padding: 7px 14px; border-radius: 6px; }
+  a.btn:hover { border-color: var(--accent); }
+
   /* ---------- calculator ---------- */
   .topbar .tools { display: flex; align-items: center; gap: 10px; }
   .topbar .calc-toggle { background: rgba(255,255,255,.15); color: var(--accent-text); border-color: rgba(255,255,255,.4); padding: 4px 12px; }
@@ -162,14 +185,39 @@
 <!-- ============ paper picker ============ -->
 <div id="picker" class="page">
   <h1>GATE CSE Mock Exam</h1>
-  <p class="sub">Pick a full paper or a topic-wise mock. GATE scoring, on-screen calculator, results saved as JSON.</p>
+  <p class="sub">Pick a full paper or a topic-wise mock. GATE scoring, on-screen calculator, results saved as JSON in the project's results/ folder.</p>
+
+  <div id="perf" class="card hidden">
+    <h2>Your past attempts</h2>
+    <p class="sub" id="perfSub"></p>
+    <div id="perfBody" class="hidden">
+      <div class="stats" id="perfStats"></div>
+      <div class="table-wrap"><table class="res" id="perfAttempts"></table></div>
+      <button id="perfMore" class="hidden"></button>
+      <details>
+        <summary>By topic, weakest first</summary>
+        <div class="table-wrap"><table class="res" id="perfTopics"></table></div>
+      </details>
+      <details>
+        <summary>Weakest subtopics</summary>
+        <p class="sub" id="perfWeakNote"></p>
+        <div class="table-wrap"><table class="res" id="perfWeak"></table></div>
+      </details>
+      <details>
+        <summary>By question type</summary>
+        <div class="table-wrap"><table class="res" id="perfTypes"></table></div>
+      </details>
+    </div>
+  </div>
 
   <h2 class="group">Full papers</h2>
   <p class="sub">The whole paper, 180 minutes.</p>
+  <div class="key"><span><i class="done"></i>Attempted</span><span><i class="running"></i>Attempt in progress</span><span><i></i>Not attempted yet</span></div>
   <div id="paperList" class="paper-list"></div>
 
   <h2 class="group">Topic-wise mocks</h2>
   <p class="sub" id="mockSub">One topic per test, questions drawn from across its subtopics and years.</p>
+  <div class="key"><span><i class="done"></i>Attempted</span><span><i class="running"></i>Attempt in progress</span><span><i></i>Not attempted yet</span></div>
   <div id="mockList"></div>
 
   <div class="manual row">
@@ -251,10 +299,11 @@
   <p class="sub" id="resSub"></p>
   <div class="stats" id="resStats"></div>
   <div class="row" style="margin-top:16px">
+    <a class="btn hidden" id="reviewLink" target="_blank" rel="noopener">Review this attempt</a>
     <button class="primary" id="downloadBtn">Download results JSON</button>
     <button id="backBtn">Back to start page</button>
   </div>
-  <p class="sub" style="margin-top:10px">Move the downloaded file into the project's <code>results/</code> folder for the performance tracker.</p>
+  <p class="sub" id="saveNote" style="margin-top:10px"></p>
   <div class="table-wrap"><table class="res" id="resTable"></table></div>
 </div>
 
@@ -264,6 +313,10 @@
 const DEFAULT_MINUTES = 180;
 const PAPERS_URL = "../papers/";
 const MOCKS_URL = "../mocks/";
+const RESULTS_API = "/api/results";
+const PERFORMANCE_API = "/api/performance";
+const PERFORMANCE_FILE = "../reports/performance.json";
+const ATTEMPTS_SHOWN = 8;
 const IMAGES_URL = "../cache/images/";
 const SITE = "https://practicepaper.in";
 const LETTERS = ["A", "B", "C", "D", "E"];
@@ -289,8 +342,10 @@ let activeSection = null;
 let timerHandle = null;
 let lastTick = 0;
 let lastResult = null;
+const mockNames = {};
+const paperButtons = {};  // paper id -> its button on the start page
 
-const $ = (id) => document.getElementById(id);
+const $ =(id) => document.getElementById(id);
 
 // ---------------------------------------------------------------- storage
 function storageKey(paperId) { return `gate-mock:${paperId}`; }
@@ -418,10 +473,11 @@ async function listPapers() {
         btn.appendChild(tag);
       }
       btn.addEventListener("click", () => openPaper(id));
+      paperButtons[id] = btn;
       box.appendChild(btn);
     }
   } catch (e) {
-    $("pickerError").textContent = `Could not list ${PAPERS_URL} (${e.message}). Serve the project root with "python3 -m http.server" and open /simulator/exam.html, or type an id below.`;
+    $("pickerError").textContent = `Could not list ${PAPERS_URL} (${e.message}). Start the server with "python3 simulator/server.py" and open /simulator/exam.html, or type an id below.`;
   }
 }
 
@@ -442,6 +498,7 @@ async function listMocks() {
       const sets = document.createElement("div");
       sets.className = "sets";
       for (const mock of entry.sets) {
+        mockNames[mock.paper_id] = `${entry.topic}, set ${mock.set}`;
         const btn = document.createElement("button");
         btn.textContent = mock.set;
         btn.title = `${entry.topic}, set ${mock.set}: ${mock.questions} questions, ${mock.total_marks} marks`;
@@ -450,6 +507,7 @@ async function listMocks() {
           btn.title += " (attempt in progress)";
         }
         btn.addEventListener("click", () => openPaper(mock.paper_id));
+        paperButtons[mock.paper_id] = btn;
         sets.appendChild(btn);
       }
       row.append(name, sets);
@@ -458,6 +516,179 @@ async function listMocks() {
   } catch (e) {
     $("mockSub").textContent = `No topic mocks found (${e.message}). Build them with "python tools/make_topic_mocks.py".`;
   }
+}
+
+// ---------------------------------------------------------------- past attempts
+// simulator/server.py answers PERFORMANCE_API with the tracker's report, brought up to
+// date first. Any other server only has the report file from the last tracker run.
+const fmtPct = (x) => (x === null || x === undefined ? "—" : `${(x * 100).toFixed(1)}%`);
+const fmtAvg = (x) => (x === null || x === undefined ? "—" : fmtTime(Math.round(x)));
+
+function fillTable(table, headers, rows) {
+  table.replaceChildren();
+  const head = document.createElement("tr");
+  for (const h of headers) {
+    const th = document.createElement("th");
+    th.textContent = h;
+    head.appendChild(th);
+  }
+  table.appendChild(head);
+  for (const row of rows) {
+    const tr = document.createElement("tr");
+    for (const c of row) {
+      const td = document.createElement("td");
+      td.append(c);
+      tr.appendChild(td);
+    }
+    table.appendChild(tr);
+  }
+}
+
+function newTabLink(href, text) {
+  const a = document.createElement("a");
+  a.href = href;
+  a.textContent = text;
+  a.target = "_blank";
+  a.rel = "noopener";
+  return a;
+}
+
+// One row per topic, subtopic or type; lowest accuracy first, never-attempted last.
+function bucketRows(buckets) {
+  return Object.entries(buckets || {})
+    .sort(([, a], [, b]) => (a.accuracy === null) - (b.accuracy === null) || a.accuracy - b.accuracy)
+    .map(([name, s]) => [name, s.questions, s.attempted, s.correct, s.wrong, fmtPct(s.accuracy),
+      fmtAvg(s.avg_time_sec), `${s.marks_earned} / ${s.marks_possible}`]);
+}
+
+// Colours the start-page button of every test that has a finished attempt.
+// The trend is oldest first, so the last entry of a test is its latest attempt.
+function markAttempted(trend) {
+  const byPaper = {};
+  for (const t of trend) (byPaper[t.paper_id] ||= []).push(t);
+  for (const [id, attempts] of Object.entries(byPaper)) {
+    const btn = paperButtons[id];
+    if (!btn) continue;
+    const last = attempts[attempts.length - 1];
+    const score = `${last.score} / ${last.total_marks}`;
+    const times = attempts.length === 1 ? "Attempted once" : `Attempted ${attempts.length} times`;
+    const note = `${times}, ${attempts.length === 1 ? "score" : "latest score"} ${score} on ${last.date}`;
+    btn.classList.add("done");
+    btn.title = btn.title ? `${btn.title}. ${note}` : note;
+    if (btn.closest(".paper-list")) {  // the full-paper tiles have room for a line of text
+      const tag = document.createElement("span");
+      tag.className = "tag done";
+      tag.textContent = `attempted · ${score}`;
+      btn.appendChild(tag);
+    }
+  }
+}
+
+function renderAttempts(trend, live, showAll) {
+  const newestFirst = [...trend].reverse();
+  const shown = showAll ? newestFirst : newestFirst.slice(0, ATTEMPTS_SHOWN);
+  const rows = shown.map((t) => {
+    const when = t.started_at
+      ? new Date(t.started_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
+      : t.date;
+    const row = [when, mockNames[t.paper_id] || t.paper_id, `${t.score} / ${t.total_marks}`,
+      fmtPct(t.accuracy), t.attempted, `${t.duration_min} min`];
+    if (live) {
+      let review = "—";
+      if (t.review_url) {
+        review = newTabLink(t.review_url, "Open review");
+      } else if (t.review_error) {
+        review = document.createElement("span");
+        review.textContent = "not written";
+        review.title = t.review_error;
+      }
+      row.push(review, newTabLink(t.result_url, "JSON"));
+    }
+    return row;
+  });
+  fillTable($("perfAttempts"),
+    ["Date", "Test", "Score", "Accuracy", "Attempted", "Time taken", ...(live ? ["Review", "Result file"] : [])], rows);
+  const more = $("perfMore");
+  more.classList.toggle("hidden", showAll || trend.length <= ATTEMPTS_SHOWN);
+  more.textContent = `Show all ${trend.length} attempts`;
+  more.onclick = () => renderAttempts(trend, live, true);
+}
+
+async function loadPerformance() {
+  let report = null;
+  let live = false;
+  let problem = "";
+  try {
+    const resp = await fetch(PERFORMANCE_API);
+    if (resp.ok) {
+      report = await resp.json();
+      live = true;
+    } else if (resp.status === 500) {
+      problem = (await resp.json()).error;
+    }
+  } catch { /* not simulator/server.py */ }
+  if (!live && !problem) {
+    try {
+      const resp = await fetch(PERFORMANCE_FILE);
+      if (resp.ok) report = await resp.json();
+    } catch { /* no saved report either */ }
+  }
+
+  const sub = $("perfSub");
+  $("perf").classList.remove("hidden");
+  if (problem) {
+    sub.textContent = `Could not read the results folder: ${problem}`;
+    sub.className = "error";
+    return;
+  }
+  if (!report) {
+    sub.textContent = "Your results, performance and reviews show up here when this page is opened through simulator/server.py.";
+    return;
+  }
+  if (!report.attempts) {
+    sub.textContent = "No finished tests yet. Your results, performance and reviews will show up here after you submit one.";
+    return;
+  }
+  const tests = `${report.attempts} finished test${report.attempts === 1 ? "" : "s"}`;
+  sub.textContent = live
+    ? `${tests}. Results, performance and reviews update by themselves every time you submit a test.`
+    : `${tests}, from reports/performance.json written ${new Date(report.generated_at).toLocaleString()}. `
+      + "This page is not served by simulator/server.py, so the numbers may be out of date and there are no review links.";
+  if (report.report_error) sub.textContent += ` Note: ${report.report_error}.`;
+
+  const o = report.overall;
+  const tiles = [
+    ["Tests taken", report.attempts],
+    ["Accuracy", fmtPct(o.accuracy)],
+    ["Correct of attempted", `${o.correct} / ${o.attempted}`],
+    ["Marks", `${o.marks_earned} / ${o.marks_possible}`],
+    ["Avg time per question", fmtAvg(o.avg_time_sec)],
+  ];
+  $("perfStats").replaceChildren(...tiles.map(([k, v]) => {
+    const div = document.createElement("div");
+    div.className = "stat";
+    const vEl = document.createElement("div");
+    vEl.className = "v";
+    vEl.textContent = v;
+    const kEl = document.createElement("div");
+    kEl.className = "k";
+    kEl.textContent = k;
+    div.append(vEl, kEl);
+    return div;
+  }));
+
+  markAttempted(report.trend);
+  renderAttempts(report.trend, live, false);
+  const columns = ["Qs", "Attempted", "Correct", "Wrong", "Accuracy", "Avg time", "Marks"];
+  fillTable($("perfTopics"), ["Topic", ...columns], bucketRows(report.by_topic));
+  fillTable($("perfTypes"), ["Type", ...columns], bucketRows(report.by_type));
+  const weak = bucketRows(report.weakest_subtopics);
+  $("perfWeakNote").textContent = weak.length
+    ? "The ten lowest-accuracy subtopics with at least 3 attempted questions."
+    : "A subtopic is listed once you have attempted at least 3 of its questions.";
+  $("perfWeak").classList.toggle("hidden", !weak.length);
+  fillTable($("perfWeak"), ["Topic / subtopic", ...columns], weak);
+  $("perfBody").classList.remove("hidden");
 }
 
 // Full papers are named by year (2024-S1); anything else is a topic mock.
@@ -803,8 +1034,39 @@ function submitExam(auto) {
   lastResult = buildResult(auto);
   dropSaved(state.paper_id);
   showResult(lastResult);
-  // Download on time-out too: the saved attempt is already gone, so this is the only copy.
-  downloadResult();
+  // Save on time-out too: the saved attempt is already gone, so this is the only copy.
+  saveResult();
+}
+
+// Writes the attempt into the project's results/ folder through simulator/server.py.
+// If that server is not the one serving this page, the file is downloaded instead.
+async function saveResult() {
+  if (!lastResult) return;
+  const note = $("saveNote");
+  note.textContent = "Saving to the results folder…";
+  try {
+    const resp = await fetch(RESULTS_API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(lastResult),
+    });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const info = await resp.json();
+    note.textContent = `Saved to ${info.saved} in the project folder.`;
+    if (info.sync_error) note.textContent += ` But ${info.sync_error}`;
+    else if (info.performance_updated) note.textContent += " Performance report updated.";
+    if (info.review_url) {
+      $("reviewLink").href = info.review_url;
+      $("reviewLink").classList.remove("hidden");
+      note.textContent += " Review written: open it with the button above, or later from the start page.";
+    } else if (info.review_error) {
+      note.textContent += ` The review could not be written: ${info.review_error}`;
+    }
+  } catch {
+    downloadResult();
+    note.textContent = "Could not save to the project's results/ folder, so the file was downloaded instead. "
+      + "Move it into results/ for the performance tracker. To save there directly, run the page from simulator/server.py.";
+  }
 }
 
 function downloadResult() {
@@ -1224,7 +1486,10 @@ $("manualGo").addEventListener("click", () => { const id = $("manualId").value.t
 calcBuild();
 
 const requested = new URLSearchParams(location.search).get("paper");
-Promise.all([listPapers(), listMocks()]).then(() => { if (requested) openPaper(requested); });
+Promise.all([listPapers(), listMocks()]).then(() => {
+  loadPerformance();  // after the mock list, which gives the attempts their readable names
+  if (requested) openPaper(requested);
+});
 </script>
 </body>
 </html>

@@ -14,6 +14,12 @@ The official answer key is never changed: Claude is told the key and asked to
 explain it. If it believes the key is wrong it says so, and the review shows a
 "key dispute" warning for you to check by hand.
 
+Every question also gets a "Study material" line: links that open the books in
+"Study Materials/" at the notes for the question's subtopic and at the past
+questions on it. When the books have no notes for the subtopic the line links the
+topic's chapter instead, and when they do not cover the topic it says so. See
+tools/study_index.py. The line is left out if the PDFs are not there.
+
 --show-prompt prints the request for the first question and exits, without
 calling the API.
 
@@ -27,13 +33,16 @@ import datetime as dt
 import hashlib
 import html
 import json
+import os
 import pathlib
 import sys
+import urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
-from make_pdf import KATEX, answer_text, find_paper, image_folder, rich  # noqa: E402
+import study_index  # noqa: E402
+from make_pdf import IMAGES_DIR, KATEX, answer_text, find_paper, image_folder, rich  # noqa: E402
 
 REVIEWS_DIR = ROOT / "reviews"
 LLM_CACHE_DIR = ROOT / "cache" / "llm"
@@ -242,7 +251,30 @@ def llm_block(llm: dict | None, pid: str) -> str:
     return "".join(parts)
 
 
-def build_html(attempt: dict, paper: dict, items: list[dict]) -> str:
+def study_block(study: dict | None, base: str) -> str:
+    """The "Study material" line of a card. 'study' is a StudyGuide.lookup() result."""
+    if not study:
+        return ""
+
+    def link(place: dict, text: str) -> str:
+        return (f'<a href="{html.escape(study_index.href(place, base))}" target="_blank" rel="noopener">'
+                f'{html.escape(text)} · Vol {place["vol"]}, p. {place["page"]}</a>')
+
+    rows = []
+    for ref in study["refs"]:
+        links = []
+        if ref["notes"]:
+            links.append(link(ref["notes"], "Chapter notes" if ref["scope"] == "topic" else "Notes"))
+        if ref["practice"]:
+            count = ref["count"]
+            links.append(link(ref["practice"], f"{count} past question{'s' if count != 1 else ''}"))
+        rows.append(f'<li><b>{html.escape(ref["title"])}</b> {" ".join(links)}</li>')
+    note = f'<span class="snote">{html.escape(study["note"])}</span>' if study["note"] else ""
+    listing = f'<ul>{"".join(rows)}</ul>' if rows else ""
+    return f'<div class="study {study["level"]}"><span class="slabel">Study material</span>{note}{listing}</div>'
+
+
+def build_html(attempt: dict, paper: dict, items: list[dict], study_base: str = "") -> str:
     cards = []
     for item in items:
         q, a = item["question"], item["answer"]
@@ -259,7 +291,8 @@ def build_html(attempt: dict, paper: dict, items: list[dict]) -> str:
             f'{q["marks"]} mark{"s" if q["marks"] > 1 else ""} · {topic} · {a["time_spent_sec"]}s spent'
             f'{f" · {lost:g} marks lost" if lost else ""}</div>'
             f'<div class="rich">{rich(q["question"], pid)}</div>'
-            f'{option_rows(q, a, pid)}{llm_block(item.get("llm"), pid)}{site}</section>'
+            f'{option_rows(q, a, pid)}{llm_block(item.get("llm"), pid)}{site}'
+            f'{study_block(item.get("study"), study_base)}</section>'
         )
     wrong = sum(it["status"] == "wrong" for it in items)
     skipped = sum(it["status"] == "skipped" for it in items)
@@ -302,6 +335,14 @@ def build_html(attempt: dict, paper: dict, items: list[dict]) -> str:
   .dispute {{ background: #fff4e5; border: 1px solid #e0a040; border-radius: 6px; padding: 8px 10px; margin-bottom: 8px; }}
   details {{ margin-top: 10px; }}
   summary {{ cursor: pointer; color: #1f5fae; }}
+  .study {{ border-top: 1px dashed #d5dae3; margin-top: 12px; padding-top: 8px; font-size: 14px; }}
+  .slabel {{ font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: #5d6677; margin-right: 8px; }}
+  .snote {{ color: #7d6514; }}
+  .study.none .snote {{ color: #a62d2d; }}
+  .study ul {{ list-style: none; padding: 0; margin: 4px 0 0; }}
+  .study li {{ margin: 3px 0; }}
+  .study a {{ display: inline-block; margin-left: 8px; padding: 0 8px; border: 1px solid #c5d3e8; border-radius: 10px; background: #f2f6fc; color: #1f5fae; text-decoration: none; font-size: 13px; }}
+  .study a:hover {{ background: #e3ecf9; }}
 </style></head>
 <body><main>
 <h1>{title}</h1>
@@ -348,7 +389,26 @@ def main(argv: list[str]) -> int:
 
     out = args.out or REVIEWS_DIR / f"{attempt.get('attempt_id', attempt['paper_id'])}.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(build_html(attempt, paper, items), encoding="utf-8")
+
+    # Study material links. A problem here must not cost the review itself.
+    try:
+        guide = study_index.StudyGuide.load()
+    except Exception as error:
+        guide = None
+        print(f"Study material links left out: {error!r}")
+    else:
+        if guide is None:
+            print(f"Study material links left out: no PDFs in {study_index.STUDY_DIR}")
+    if guide:
+        for item in items:
+            item["study"] = guide.lookup(item["question"])
+    # Linked relative to the page, like the images below.
+    study_base = urllib.parse.quote(pathlib.Path(os.path.relpath(study_index.STUDY_DIR, out.parent.resolve())).as_posix())
+    # Cached images are linked relative to the page, not as file:// paths, so the review
+    # also works when the browser opens it through simulator/server.py.
+    images = pathlib.Path(os.path.relpath(IMAGES_DIR, out.parent.resolve())).as_posix()
+    page = build_html(attempt, paper, items, study_base).replace(IMAGES_DIR.as_uri() + "/", urllib.parse.quote(images) + "/")
+    out.write_text(page, encoding="utf-8")
     print(f"Wrote {out.relative_to(ROOT) if out.resolve().is_relative_to(ROOT) else out}")
     return 0
 

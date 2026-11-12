@@ -1,0 +1,148 @@
+{
+  "note": "Where each topic and subtopic of the scraped questions is covered in the books in 'Study Materials/'. A target is '<volume>.<chapter>' for a whole chapter or '<volume>.<chapter>/<name>' for one subtopic of it, where <name> is a numbered question section of that chapter ('5.8 Disk Scheduling (16)' -> 'Disk Scheduling') or a heading of its notes. An empty list means the books do not cover it. This map is the fallback: a question that is itself printed in a book is linked to the subtopic the book files it under, and only the rest come here. Subtopic names are matched ignoring case, spaces and punctuation. Check the file with: python tools/study_index.py --check",
+  "topics": {
+    "Engineering Mathematics": ["1.6", "1.5", "1.7"],
+    "Discrete Mathematics": ["1.1", "1.2", "1.3", "1.4"],
+    "Digital Logic": ["3.4"],
+    "Computer Organization and Architecture": ["3.1"],
+    "Programming and Data Structures": ["2.3", "2.5", "2.4"],
+    "Algorithms": ["2.1"],
+    "Theory of Computation": ["2.6"],
+    "Compiler Design": ["2.2"],
+    "Operating System": ["3.5"],
+    "Databases": ["3.3"],
+    "Computer Networks": ["3.2"],
+    "General Aptitude": ["1.9", "1.11", "1.8", "1.10"],
+    "Software Engineering": [],
+    "Web Technologies": []
+  },
+  "subtopics": {
+    "Digital Logic": {
+      "Boolean Algebra": ["3.4/Boolean Algebra", "3.4/K Map", "3.4/Min Sum of Products Form"],
+      "Number System": ["3.4/Number Representation", "3.4/Number System", "3.4/IEEE Representation"],
+      "Combinational Circuit": ["3.4/Combinational Circuit", "3.4/Multiplexer", "3.4/Adder"],
+      "Sequential Circuit": ["3.4/Flip Flop", "3.4/Digital Counter", "3.4/Synchronous Asynchronous Circuits"]
+    },
+    "Computer Organization and Architecture": {
+      "Cache Memory": ["3.1/Cache Memory"],
+      "Machine Instruction": ["3.1/Machine Instruction", "3.1/Instruction Format"],
+      "Pipeline Processor": ["3.1/Pipelining", "3.1/Hazards"],
+      "Interrupt": ["3.1/Interrupts"],
+      "Secondary Storage": ["3.1/Disk", "3.5/Disk"],
+      "ALU Data Path and Control Unit": ["3.1/Data Path", "3.1/Control Unit", "3.1/Microprogramming"],
+      "IO Interface": ["3.1/IO Handling", "3.1/DMA"],
+      "Addressing Modes": ["3.1/Addressing Modes"],
+      "Memory Chip Design": ["3.1/Memory Interfacing", "3.1/DRAM"]
+    },
+    "Compiler Design": {
+      "Parsing": ["2.2/First and Follow", "2.2/Grammar", "2.2/Ambiguous Grammar"],
+      "Intermediate Code Generation": ["2.2/Backpatching", "2.2/Basic Blocks", "2.2/Directed Acyclic Graph"],
+      "Runtime Environment": [],
+      "Lexical Analysis": ["2.2/Lexical Analysis"],
+      "Syntax-directed Translation": [],
+      "Matching": ["2.2/Compilation Phases"]
+    },
+    "Theory of Computation": {
+      "Finite Automata": ["2.6/Finite Automata", "2.6/Minimal State Automata"],
+      "Context Free Language": ["2.6/Context Free Language", "2.6/Closure Property"],
+      "Context Free Grammar": ["2.6/Context Free Grammar"],
+      "Regular Language": ["2.6/Regular Language", "2.6/Pumping Lemma"],
+      "Regular Expression": ["2.6/Regular Expression"],
+      "Undecidability": ["2.6/Decidability", "2.6/Reduction"],
+      "Recursive Language": ["2.6/Recursive and Recursively Enumerable Languages"],
+      "Turing Machine": ["2.6/Turing Machine"],
+      "Push-down Automata": ["2.6/Pushdown Automata"],
+      "Regular Grammar": ["2.6/Regular Grammar"]
+    },
+    "Programming and Data Structures": {
+      "Function": ["2.5/Functions", "2.5/Recursion", "2.5/Parameter Passing"],
+      "Binary Tree": ["2.3/Binary Tree", "2.3/Tree Traversal"],
+      "Array and Pointer": ["2.5/Pointers", "2.5/Array"],
+      "Heap Tree": ["2.3/Binary Heap"],
+      "Binary Search Tree": ["2.3/Binary Search Tree"],
+      "Link List": ["2.3/Linked List"],
+      "Array": ["2.3/Array", "2.5/Array"],
+      "Hashing": ["2.3/Hashing"],
+      "Stack": ["2.3/Stack", "2.3/Infix Prefix"],
+      "Loop": ["2.5/Loop Invariants", "2.4/Control Flow Statements"],
+      "Queue": ["2.3/Queue"],
+      "Conditional Statement": ["2.4/Control Flow Statements", "2.5/Switch Case"],
+      "AVL Tree": ["2.3/AVL Tree"],
+      "Arithmetic Operation": ["2.4/Operators and Expressions"],
+      "B plus Tree": ["3.3/B Tree"],
+      "B Tree": ["3.3/B Tree"],
+      "n-ary Tree": ["2.3/Tree"],
+      "Programming Languages": ["2.5/Programming Paradigms"],
+      "Object Oriented Programming": ["2.5/Programming Paradigms"],
+      "Pointers": ["2.5/Pointers"],
+      "Data Types": ["2.4/Data Types and Type Casting"],
+      "Scope and Binding": ["2.5/Variable Binding"]
+    },
+    "Operating System": {
+      "Memory Management": ["3.5/Memory Management", "3.5/Virtual Memory", "3.5/Page Replacement"],
+      "CPU Scheduling": ["3.5/Process Scheduling", "3.5/Round Robin Scheduling", "3.5/Srtf"],
+      "Process Synchronization": ["3.5/Process Synchronization", "3.5/Semaphore"],
+      "Deadlock": ["3.5/Deadlock Prevention Avoidance Detection", "3.5/Bankers Algorithm", "3.5/Resource Allocation"],
+      "Process": ["3.5/Process", "3.5/Context Switch"],
+      "File Systems": ["3.5/File System"],
+      "System Call": ["3.5/System Calls", "3.5/Fork System Call"],
+      "Thread": ["3.5/Threads"],
+      "Disk Scheduling": ["3.5/Disk Scheduling", "3.5/Disk"]
+    },
+    "Algorithms": {
+      "Asymptotic Notation": ["2.1/Asymptotic Notations", "2.1/Time Complexity"],
+      "Minimum Spanning Tree": ["2.1/Minimum Spanning Tree", "2.1/Prims Algorithm"],
+      "Sorting": ["2.1/Sorting", "2.1/Quick Sort", "2.1/Merge Sort"],
+      "Recurrence Relation": ["2.1/Recurrence Relation"],
+      "Graph Traversal": ["2.1/Graph Search", "2.1/Breadth First Search", "2.1/Depth First Search"],
+      "Shortest Path": ["2.1/Shortest Path", "2.1/Dijkstras Algorithm", "2.1/Bellman Ford"],
+      "Dynamic Programming": ["2.1/Dynamic Programming", "2.1/Matrix Chain Ordering"],
+      "Greedy Technique": ["2.1/Greedy Algorithms", "2.1/Huffman Code"],
+      "P-NP Theory": [],
+      "Divide and Conquer": ["2.1/Algorithm Design Techniques", "2.1/Merge Sort"]
+    },
+    "Engineering Mathematics": {
+      "Linear Algebra": ["1.6"],
+      "Calculus": ["1.5"],
+      "Numerical Method": []
+    },
+    "Discrete Mathematics": {
+      "Probability Theory": ["1.7"],
+      "Graph Theory": ["1.2"],
+      "Propositional Logic": ["1.3/Propositional Logic", "1.3/First Order Logic"],
+      "Set Theory": ["1.4/Set Theory"],
+      "Group Theory": ["1.4/Group Theory"],
+      "Combination": ["1.1/Combinatory", "1.1/Counting"],
+      "Relation": ["1.4/Relations", "1.4/Partial Order"],
+      "Functions": ["1.4/Functions"],
+      "Planar Graph": ["1.2/Graph Planarity", "1.2/Graph Coloring"],
+      "Lattice": ["1.4/Lattice"],
+      "Recurrence": ["1.1/Recurrence Relation", "1.1/Generating Functions"]
+    },
+    "Databases": {
+      "SQL": ["3.3/SQL"],
+      "Transaction": ["3.3/Transaction and Concurrency", "3.3/Conflict Serializable", "3.3/Two Phase Locking Protocol"],
+      "Transactions": ["3.3/Transaction and Concurrency", "3.3/Conflict Serializable", "3.3/Two Phase Locking Protocol"],
+      "Normal Form": ["3.3/Database Normalization", "3.3/Functional Dependency", "3.3/Candidate Key"],
+      "Relational Algebra": ["3.3/Relational Algebra", "3.3/Joins"],
+      "File System": ["3.3/Indexing", "3.3/B Tree"],
+      "Relational Schema": ["3.3/Relational Model", "3.3/Database Schema", "3.3/Referential Integrity"],
+      "Tuple Calculus": ["3.3/Tuple Relational Calculus", "3.3/Relational Calculus"],
+      "ER Model": ["3.3/ER Diagram"],
+      "Integrity Constraints": ["3.3/Referential Integrity"]
+    },
+    "Computer Networks": {
+      "Data Link Layer": ["3.2/Sliding Window", "3.2/Error Detection", "3.2/CSMA CD"],
+      "Network Layer Protocol": ["3.2/IP Addressing", "3.2/Subnetting", "3.2/Routing"],
+      "Transport Layer Protocol": ["3.2/TCP", "3.2/UDP", "3.2/Congestion Control"],
+      "Application Layer Protocols": ["3.2/Application Layer Protocols"],
+      "Network Security": [],
+      "Physical Layer": ["3.2/Data Communication", "3.2/Communication"],
+      "OSI Layer": ["3.2/OSI Model", "3.2/Network Protocols"]
+    },
+    "General Aptitude": {
+      "Numerical Ability": ["1.9", "1.8"],
+      "Verbal Ability": ["1.11"]
+    }
+  }
+}
